@@ -5328,5 +5328,415 @@ window.SCIENCE10_QUIZZES = {
         explanation: "Fuel cells may emit no pollutants during use, but hydrogen production can still have emissions."
       }
     ]
+  },
+  "kp-431": {
+    title: "KP1: Personal and national action",
+    questions: [
+      {
+        id: "kp-431-q1",
+        prompt: "What kind of action can reduce harmful impacts of technology-related energy transformations?",
+        choices: [
+          "Both personal choices and national or collective decisions.",
+          "Only choices made by one person in private.",
+          "Only ignoring energy use.",
+          "No action can ever reduce harm."
+        ],
+        correctIndex: 0,
+        explanation: "The chapter describes both individual and collective action as important for reducing harm."
+      },
+      {
+        id: "kp-431-q2",
+        prompt: "Which action best matches the concept of reducing energy-related harm?",
+        choices: [
+          "Choosing sustainable technologies and reducing unnecessary energy use.",
+          "Increasing pollution because technology will fix everything instantly.",
+          "Using more fuel whenever possible.",
+          "Throwing batteries into landfills."
+        ],
+        correctIndex: 0,
+        explanation: "Reducing energy use and choosing better technologies can lessen harmful impacts."
+      },
+      {
+        id: "kp-431-q3",
+        prompt: "Why are national actions often needed in addition to personal actions?",
+        choices: [
+          "Some energy systems and technologies are too large for individuals to change alone.",
+          "Personal actions are illegal.",
+          "National action never affects energy systems.",
+          "Energy transformation happens only inside homes."
+        ],
+        correctIndex: 0,
+        explanation: "Large-scale energy choices often require policy, infrastructure, and collective planning."
+      }
+    ]
+  },
+  "kp-432": {
+    title: "KP2: Trade-offs in action",
+    questions: [
+      {
+        id: "kp-432-q1",
+        prompt: "Why can reducing energy-related harm require trade-offs?",
+        choices: [
+          "It may require commitment and sacrifices in comfort or convenience.",
+          "It always makes life easier with no changes.",
+          "It removes every benefit of energy use.",
+          "It can be done only by stopping all technology."
+        ],
+        correctIndex: 0,
+        explanation: "The textbook notes that action can require sacrifices, even when the goal is worthwhile."
+      },
+      {
+        id: "kp-432-q2",
+        prompt: "Which example best shows a trade-off in reducing harm?",
+        choices: [
+          "Cycling instead of driving reduces combustion pollution but may take more effort or time.",
+          "Driving farther to reduce fuel use.",
+          "Recycling batteries by throwing them into regular garbage.",
+          "Using more electricity to reduce electricity use."
+        ],
+        correctIndex: 0,
+        explanation: "Reducing emissions can involve giving up some convenience."
+      },
+      {
+        id: "kp-432-q3",
+        prompt: "What misconception about sustainability choices should be corrected?",
+        choices: [
+          "That a useful action is worthless if it requires any sacrifice.",
+          "That benefits and sacrifices can both be evaluated.",
+          "That comfort can be part of decision-making.",
+          "That energy decisions can affect other people."
+        ],
+        correctIndex: 0,
+        explanation: "Responsible decisions often involve weighing benefits, costs, and sacrifices."
+      }
+    ]
+  },
+  "kp-433": {
+    title: "KP3: Student and community initiatives",
+    questions: [
+      {
+        id: "kp-433-q1",
+        prompt: "How can an urban farm program reduce harmful energy impacts?",
+        choices: [
+          "It can reduce pollution from transporting food over long distances.",
+          "It increases all shipping distances.",
+          "It prevents plants from using solar energy.",
+          "It makes food production unrelated to energy."
+        ],
+        correctIndex: 0,
+        explanation: "Local food initiatives can reduce transportation-related energy use and pollution."
+      },
+      {
+        id: "kp-433-q2",
+        prompt: "Why can recycling programs reduce harmful impacts of energy transformation?",
+        choices: [
+          "They can reduce landfill waste and the need for manufacturing new materials.",
+          "They increase toxic waste by design.",
+          "They require no community participation.",
+          "They stop all matter from being reused."
+        ],
+        correctIndex: 0,
+        explanation: "Recycling can reduce the impacts of manufacturing and disposal."
+      },
+      {
+        id: "kp-433-q3",
+        prompt: "Which student action most directly reduces combustion-related pollution?",
+        choices: [
+          "Cycling to school instead of travelling by car when practical.",
+          "Leaving car engines idling longer.",
+          "Throwing recyclables into landfill.",
+          "Growing food farther away from consumers."
+        ],
+        correctIndex: 0,
+        explanation: "Cycling can reduce fuel combustion and related air pollution."
+      }
+    ]
+  },
+  "kp-434": {
+    title: "KP4: Technology is not problem-free",
+    questions: [
+      {
+        id: "kp-434-q1",
+        prompt: "Why does the textbook warn that technology is rarely a cure-all?",
+        choices: [
+          "New technologies can reduce one harm while creating other impacts.",
+          "All technologies are useless.",
+          "Every new technology has no side effects.",
+          "Technology never affects energy transformation."
+        ],
+        correctIndex: 0,
+        explanation: "Technologies should be evaluated across their full life cycle, not just their immediate benefits."
+      },
+      {
+        id: "kp-434-q2",
+        prompt: "Which evaluation of electric vehicles is most balanced?",
+        choices: [
+          "They have no tailpipe emissions, but electricity generation and battery disposal still matter.",
+          "They have no environmental impacts of any kind.",
+          "They always use electricity made without emissions.",
+          "Their batteries contain no materials."
+        ],
+        correctIndex: 0,
+        explanation: "Electric vehicles can reduce some emissions, but upstream energy sources and battery waste must be considered."
+      },
+      {
+        id: "kp-434-q3",
+        prompt: "What is a common misconception about emerging technologies?",
+        choices: [
+          "That a technology labelled clean has no hidden impacts.",
+          "That technologies can be compared.",
+          "That batteries can contain toxic materials.",
+          "That energy sources can affect emissions."
+        ],
+        correctIndex: 0,
+        explanation: "A technology may reduce visible pollution while still having hidden production, disposal, or energy-source impacts."
+      }
+    ]
+  },
+  "kp-435": {
+    title: "KP5: Nuclear fusion technology",
+    questions: [
+      {
+        id: "kp-435-q1",
+        prompt: "Why is controlled nuclear fusion difficult to use for electricity generation?",
+        choices: [
+          "It requires extremely high temperatures that must be sustained and contained.",
+          "It works only at room temperature with no equipment.",
+          "It produces no energy when controlled.",
+          "It can be contained easily by ordinary plastic."
+        ],
+        correctIndex: 0,
+        explanation: "Fusion is promising, but sustaining and containing super-heated reactions is a major challenge."
+      },
+      {
+        id: "kp-435-q2",
+        prompt: "What is the role of magnetic fields in a tokamak reactor?",
+        choices: [
+          "They help contain the super-heated fusion reaction away from reactor walls.",
+          "They cool the reaction to freezing temperatures.",
+          "They turn fusion directly into cement.",
+          "They replace the need for any containment."
+        ],
+        correctIndex: 0,
+        explanation: "Magnetic confinement keeps the extremely hot plasma from touching material walls."
+      },
+      {
+        id: "kp-435-q3",
+        prompt: "Which statement best explains why fusion is still an emerging technology?",
+        choices: [
+          "Scientists can create extreme conditions, but reliable long-term containment remains hard.",
+          "Scientists have never produced temperatures hotter than the Sun.",
+          "Fusion is already the main source of electricity everywhere.",
+          "Fusion requires no research because it is simple."
+        ],
+        correctIndex: 0,
+        explanation: "The difficulty is not only starting fusion, but sustaining and controlling it for useful electricity."
+      }
+    ]
+  },
+  "kp-436": {
+    title: "KP6: Methane cracking and hydrogen",
+    questions: [
+      {
+        id: "kp-436-q1",
+        prompt: "Why is hydrogen production important when evaluating hydrogen fuel cells?",
+        choices: [
+          "Fuel cells may emit no pollutants during use, but producing hydrogen can release carbon dioxide.",
+          "Hydrogen production never uses energy.",
+          "Hydrogen cannot be used in fuel cells.",
+          "Fuel cells work only by burning coal directly."
+        ],
+        correctIndex: 0,
+        explanation: "The full impact depends on how the hydrogen fuel is produced."
+      },
+      {
+        id: "kp-436-q2",
+        prompt: "How does methane cracking compare with steam methane reforming in the textbook?",
+        choices: [
+          "Methane cracking can produce hydrogen with much lower carbon dioxide emissions.",
+          "Methane cracking releases more carbon dioxide than every gas vehicle.",
+          "Methane cracking cannot produce hydrogen.",
+          "Both methods have exactly zero emissions in all situations."
+        ],
+        correctIndex: 0,
+        explanation: "The chapter presents methane cracking as a lower-emission approach to hydrogen production."
+      },
+      {
+        id: "kp-436-q3",
+        prompt: "Which question best evaluates whether a hydrogen vehicle is truly lower impact?",
+        choices: [
+          "How was the hydrogen produced, and what emissions came from that process?",
+          "What colour is the vehicle?",
+          "Does the driver like science?",
+          "Can the vehicle avoid all energy transformations?"
+        ],
+        correctIndex: 0,
+        explanation: "Use-stage emissions are not the whole story; fuel production matters too."
+      }
+    ]
+  },
+  "kp-437": {
+    title: "KP7: Lower-emission cement",
+    questions: [
+      {
+        id: "kp-437-q1",
+        prompt: "Why is cement production an important target for reducing greenhouse gas emissions?",
+        choices: [
+          "Cement is produced in huge quantities and its chemical production can release carbon dioxide.",
+          "Cement is never used by humans.",
+          "Cement production absorbs all carbon dioxide already.",
+          "Cement has no connection to chemical reactions."
+        ],
+        correctIndex: 0,
+        explanation: "Because cement is widely used, even reducing emissions per unit can matter greatly."
+      },
+      {
+        id: "kp-437-q2",
+        prompt: "A new cement process reduces emissions by 70 percent. If an old process released 100 units of CO2, about how many units would the new process release?",
+        choices: [
+          "30 units.",
+          "70 units.",
+          "100 units.",
+          "170 units."
+        ],
+        correctIndex: 0,
+        explanation: "A 70 percent reduction leaves 30 percent of the original emissions: 30 units."
+      },
+      {
+        id: "kp-437-q3",
+        prompt: "Which new cement idea could reduce net carbon dioxide impact?",
+        choices: [
+          "Cement that absorbs carbon dioxide as it hardens.",
+          "Cement that releases extra carbon dioxide for no benefit.",
+          "Cement that cannot harden.",
+          "Cement made only from ocean noise."
+        ],
+        correctIndex: 0,
+        explanation: "The textbook mentions research into cement that absorbs CO2 during hardening."
+      }
+    ]
+  },
+  "kp-438": {
+    title: "KP1: Learning from past mistakes",
+    questions: [
+      {
+        id: "kp-438-q1",
+        prompt: "How can societies reduce harm from energy technologies after a failure?",
+        choices: [
+          "Use new knowledge and changed perspectives to improve future decisions.",
+          "Repeat the same design without inspection.",
+          "Ignore evidence from the failure.",
+          "Assume accidents teach nothing."
+        ],
+        correctIndex: 0,
+        explanation: "The concept emphasizes learning from mistakes and applying new understanding."
+      },
+      {
+        id: "kp-438-q2",
+        prompt: "Which action best shows learning from a past energy-related harm?",
+        choices: [
+          "Inspecting systems after an accident and redesigning weak parts.",
+          "Removing all safety planning.",
+          "Hiding all accident data.",
+          "Making future systems less tested."
+        ],
+        correctIndex: 0,
+        explanation: "Using accident evidence to improve safety is a key way to reduce future harm."
+      },
+      {
+        id: "kp-438-q3",
+        prompt: "What does a changed perspective help people do?",
+        choices: [
+          "Look back at decisions and identify what should be done differently.",
+          "Prove that no decision has consequences.",
+          "Avoid considering other people's experiences.",
+          "Erase the need for safety design."
+        ],
+        correctIndex: 0,
+        explanation: "New perspectives can reveal risks or harms that were not considered before."
+      }
+    ]
+  },
+  "kp-439": {
+    title: "KP2: Fukushima Daiichi accident",
+    questions: [
+      {
+        id: "kp-439-q1",
+        prompt: "Which chain of events best matches the Fukushima Daiichi accident summary?",
+        choices: [
+          "Earthquake and tsunami -> flooding and power loss -> cooling failure -> meltdowns and radioactive release.",
+          "Solar eclipse -> photosynthesis -> battery recycling -> coral bleaching.",
+          "Noise pollution -> sea breeze -> cement hardening -> no damage.",
+          "Urban farming -> less transport -> instant reactor repair."
+        ],
+        correctIndex: 0,
+        explanation: "The accident involved natural hazards disabling power and cooling systems, leading to reactor damage and releases."
+      },
+      {
+        id: "kp-439-q2",
+        prompt: "Why did disabled backup generators matter during the Fukushima accident?",
+        choices: [
+          "They were needed to run cooling systems after the power outage.",
+          "They were used only to make classroom graphs.",
+          "They controlled ocean tides.",
+          "They produced greenhouse gases for coral reefs."
+        ],
+        correctIndex: 0,
+        explanation: "Without emergency power, cooling mechanisms could not operate properly."
+      },
+      {
+        id: "kp-439-q3",
+        prompt: "What systems lesson can be drawn from the accident?",
+        choices: [
+          "Multiple failures can interact and make an energy disaster worse.",
+          "Backup systems are never important.",
+          "Natural hazards cannot affect technology.",
+          "Radioactive materials cannot escape damaged systems."
+        ],
+        correctIndex: 0,
+        explanation: "The accident shows how connected system failures can multiply risk."
+      }
+    ]
+  },
+  "kp-440": {
+    title: "KP3: Radiation exposure and cleanup",
+    questions: [
+      {
+        id: "kp-440-q1",
+        prompt: "Why can cleanup after a nuclear accident be dangerous?",
+        choices: [
+          "People and environments may be exposed to harmful radioactive materials.",
+          "Radiation exposure is always harmless during cleanup.",
+          "Cleanup removes the need for protective planning.",
+          "Radioactive materials cannot enter water or air."
+        ],
+        correctIndex: 0,
+        explanation: "The textbook notes that radioactive materials escaped and cleanup workers were exposed to radiation."
+      },
+      {
+        id: "kp-440-q2",
+        prompt: "Which safety priority best follows from radiation risk?",
+        choices: [
+          "Limit exposure, monitor contamination, and plan cleanup carefully.",
+          "Send people in without information or protection.",
+          "Spread radioactive material farther.",
+          "Ignore air and water pathways."
+        ],
+        correctIndex: 0,
+        explanation: "Radiation risk requires protective planning and careful management of contaminated areas."
+      },
+      {
+        id: "kp-440-q3",
+        prompt: "A cleanup team measures radiation before entering an area. What is the purpose of this step?",
+        choices: [
+          "To assess risk and decide how to protect people during cleanup.",
+          "To make the radiation stronger.",
+          "To prove that radioactive materials are useful food.",
+          "To avoid collecting evidence."
+        ],
+        correctIndex: 0,
+        explanation: "Measurement helps guide safe decisions for workers and nearby communities."
+      }
+    ]
   }
 };
