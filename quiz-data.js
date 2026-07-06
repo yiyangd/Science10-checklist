@@ -1638,5 +1638,415 @@ window.SCIENCE10_QUIZZES = {
         explanation: "Reducing friction and scraping helps less mechanical energy transform into thermal and sound energy."
       }
     ]
+  },
+  "kp-341": {
+    title: "KP1: Chemical potential energy",
+    questions: [
+      {
+        id: "kp-341-q1",
+        prompt: "Which example best shows chemical potential energy being transformed into another form?",
+        choices: [
+          "A parked bicycle leaning against a wall.",
+          "A battery-powered flashlight producing light and thermal energy.",
+          "A glass mirror reflecting sunlight without changing the material.",
+          "A book resting on a high shelf."
+        ],
+        correctIndex: 1,
+        explanation: "Chemical potential energy stored in the battery is transformed into electrical energy, light, and some thermal energy."
+      },
+      {
+        id: "kp-341-q2",
+        prompt: "A snack bar helps a cyclist keep moving during a long ride. What stored energy source is the cyclist using?",
+        choices: [
+          "Nuclear energy stored in the cyclist's helmet.",
+          "Chemical potential energy stored in food molecules.",
+          "Sound energy stored in the bicycle chain.",
+          "Gravitational potential energy stored in the road surface."
+        ],
+        correctIndex: 1,
+        explanation: "Food molecules store chemical potential energy that cells can transform for movement and other body processes."
+      },
+      {
+        id: "kp-341-q3",
+        prompt: "Which misconception should be corrected when describing chemical potential energy?",
+        choices: [
+          "Chemical potential energy is connected to the arrangement of atoms and bonds.",
+          "Chemical reactions can transform stored chemical energy into heat, light, sound, or motion.",
+          "Chemical potential energy only exists in gasoline and never in living things.",
+          "Fuels and foods can both store chemical potential energy."
+        ],
+        correctIndex: 2,
+        explanation: "Chemical potential energy is found in many substances, including fuels, foods, and biological molecules."
+      }
+    ]
+  },
+  "kp-342": {
+    title: "KP2: System and surroundings in chemical reactions",
+    questions: [
+      {
+        id: "kp-342-q1",
+        prompt: "In a reaction between vinegar and baking soda inside a beaker, what is usually treated as the system?",
+        choices: [
+          "Only the air outside the beaker.",
+          "The reacting vinegar and baking soda mixture.",
+          "The lab bench but not the chemicals.",
+          "The student observing the reaction."
+        ],
+        correctIndex: 1,
+        explanation: "For a chemical reaction, the reacting materials are usually defined as the system being studied."
+      },
+      {
+        id: "kp-342-q2",
+        prompt: "A hand warmer becomes warmer after its chemicals react. Which direction of energy movement is most likely?",
+        choices: [
+          "Energy moves from the reacting system to the surroundings.",
+          "Energy moves only from the surroundings into the reacting system.",
+          "Energy is destroyed inside the packet.",
+          "Energy movement cannot happen in a closed packet."
+        ],
+        correctIndex: 0,
+        explanation: "If the surroundings feel warmer, energy has been released by the reacting system to the surroundings."
+      },
+      {
+        id: "kp-342-q3",
+        prompt: "A cold pack becomes colder after the inner pouch is broken and the chemicals mix. What does this suggest?",
+        choices: [
+          "The reaction absorbs energy from the surroundings.",
+          "The reaction produces no energy change at all.",
+          "The surroundings release matter into the system.",
+          "The cold pack creates cold energy from nothing."
+        ],
+        correctIndex: 0,
+        explanation: "A cooling effect suggests that the reacting system absorbs energy from its surroundings."
+      }
+    ]
+  },
+  "kp-343": {
+    title: "KP3: Bond energy and reaction energy",
+    questions: [
+      {
+        id: "kp-343-q1",
+        prompt: "Why do different chemical reactions release or absorb different amounts of energy?",
+        choices: [
+          "Different reactants and products have different arrangements of atoms and bonds.",
+          "All chemical bonds store exactly the same amount of energy.",
+          "Energy changes depend only on the colour of the container.",
+          "Products always have more chemical potential energy than reactants."
+        ],
+        correctIndex: 0,
+        explanation: "The energy transformed depends on the chemical potential energy associated with bonds in the reactants and products."
+      },
+      {
+        id: "kp-343-q2",
+        prompt: "A reaction has reactants with 920 kJ of chemical potential energy and products with 740 kJ. What is the best conclusion?",
+        choices: [
+          "The system absorbs 180 kJ from the surroundings.",
+          "The system releases 180 kJ to the surroundings.",
+          "The system releases 1660 kJ to the surroundings.",
+          "No energy is transformed because both values are chemical energy."
+        ],
+        correctIndex: 1,
+        explanation: "The products are 180 kJ lower in chemical potential energy, so that energy is released by the system."
+      },
+      {
+        id: "kp-343-q3",
+        prompt: "Which statement correctly compares reactants and products when predicting reaction energy?",
+        choices: [
+          "Only the reactants matter because products do not store energy.",
+          "Only the products matter because reactants disappear completely.",
+          "The difference between reactant and product chemical potential energy matters.",
+          "The side with more molecules always has less chemical potential energy."
+        ],
+        correctIndex: 2,
+        explanation: "Energy release or absorption depends on the relative chemical potential energy of reactants and products."
+      }
+    ]
+  },
+  "kp-344": {
+    title: "KP4: Exothermic and endothermic reactions",
+    questions: [
+      {
+        id: "kp-344-q1",
+        prompt: "A reaction makes the beaker feel warmer. Which classification best fits the reaction?",
+        choices: [
+          "Endothermic, because energy is released to the surroundings.",
+          "Exothermic, because energy is released to the surroundings.",
+          "Nuclear, because all warm reactions change nuclei.",
+          "No energy transformation, because temperature changed."
+        ],
+        correctIndex: 1,
+        explanation: "A warmer surrounding beaker is evidence that the system released energy, so the reaction is exothermic."
+      },
+      {
+        id: "kp-344-q2",
+        prompt: "In an energy diagram, products are higher in chemical potential energy than reactants. What must have happened?",
+        choices: [
+          "The reaction absorbed energy from the surroundings.",
+          "The reaction released energy to the surroundings.",
+          "The reaction destroyed energy.",
+          "The reaction changed protons into neutrons."
+        ],
+        correctIndex: 0,
+        explanation: "If products store more chemical potential energy than reactants, energy must be absorbed during the reaction."
+      },
+      {
+        id: "kp-344-q3",
+        prompt: "A student says, \"Exothermic means the system gets hotter, so the surroundings do not matter.\" What is the best correction?",
+        choices: [
+          "Exothermic reactions are defined by energy released from the system to the surroundings.",
+          "Exothermic reactions always absorb energy from the surroundings.",
+          "Exothermic reactions are impossible in chemical systems.",
+          "Exothermic reactions only occur in plants."
+        ],
+        correctIndex: 0,
+        explanation: "The key idea is the direction of energy transfer: exothermic reactions release energy from the system to the surroundings."
+      }
+    ]
+  },
+  "kp-345": {
+    title: "KP5: Cellular respiration",
+    questions: [
+      {
+        id: "kp-345-q1",
+        prompt: "What is the main energy transformation in cellular respiration?",
+        choices: [
+          "Light energy is transformed into chemical potential energy in glucose.",
+          "Chemical potential energy in glucose is transformed into ATP and other useful forms.",
+          "Nuclear energy is transformed into radiation inside the nucleus.",
+          "Sound energy is transformed into carbon dioxide."
+        ],
+        correctIndex: 1,
+        explanation: "Cellular respiration transforms stored chemical energy in glucose into ATP and other energy forms cells can use."
+      },
+      {
+        id: "kp-345-q2",
+        prompt: "Which word equation best matches cellular respiration?",
+        choices: [
+          "carbon dioxide + water + light energy -> glucose + oxygen",
+          "glucose + oxygen -> carbon dioxide + water + energy",
+          "hydrogen + oxygen -> water + electrical current only",
+          "uranium + neutron -> smaller nuclei + energy"
+        ],
+        correctIndex: 1,
+        explanation: "Cellular respiration uses glucose and oxygen and produces carbon dioxide, water, and usable energy."
+      },
+      {
+        id: "kp-345-q3",
+        prompt: "Why does cellular respiration not simply burn glucose all at once like a flame?",
+        choices: [
+          "Cells do not use oxygen in any energy process.",
+          "The energy is released through controlled steps so cells can capture useful energy in ATP.",
+          "Glucose has no chemical potential energy.",
+          "Carbon dioxide stores all the original energy as light."
+        ],
+        correctIndex: 1,
+        explanation: "Controlled steps allow cells to transfer some energy into ATP instead of releasing it all rapidly as heat and light."
+      }
+    ]
+  },
+  "kp-346": {
+    title: "KP6: Photosynthesis",
+    questions: [
+      {
+        id: "kp-346-q1",
+        prompt: "What energy transformation happens during photosynthesis?",
+        choices: [
+          "Chemical potential energy in glucose is transformed into ATP only.",
+          "Light energy is transformed into chemical potential energy stored in glucose.",
+          "Nuclear energy is transformed into mechanical kinetic energy.",
+          "Sound energy is transformed into oxygen."
+        ],
+        correctIndex: 1,
+        explanation: "Photosynthesis stores energy from light in the chemical bonds of glucose."
+      },
+      {
+        id: "kp-346-q2",
+        prompt: "Which word equation best summarizes photosynthesis?",
+        choices: [
+          "glucose + oxygen -> carbon dioxide + water + energy",
+          "carbon dioxide + water + light energy -> glucose + oxygen",
+          "hydrogen + oxygen -> water + electrical energy",
+          "carbon dioxide + oxygen -> glucose + nitrogen"
+        ],
+        correctIndex: 1,
+        explanation: "Photosynthesis uses carbon dioxide, water, and light energy to produce glucose and oxygen."
+      },
+      {
+        id: "kp-346-q3",
+        prompt: "What role does chlorophyll play in photosynthesis?",
+        choices: [
+          "It absorbs light energy so the energy can be used in reactions that help build glucose.",
+          "It breaks down glucose in muscle cells.",
+          "It changes radioactive isotopes into stable atoms.",
+          "It releases oxygen by burning fossil fuels."
+        ],
+        correctIndex: 0,
+        explanation: "Chlorophyll absorbs light energy; that energy helps drive reactions that store chemical potential energy in glucose."
+      }
+    ]
+  },
+  "kp-347": {
+    title: "KP7: Fossil fuels and fuel cells",
+    questions: [
+      {
+        id: "kp-347-q1",
+        prompt: "Why can fossil fuels be described as storing ancient solar energy?",
+        choices: [
+          "Ancient organisms stored chemical potential energy originally made through photosynthesis.",
+          "Fossil fuels form directly from sunlight hitting rocks for one day.",
+          "Fossil fuels store only electrical kinetic energy.",
+          "Ancient sunlight changed protons into neutrons inside coal."
+        ],
+        correctIndex: 0,
+        explanation: "Photosynthesis stored solar energy as chemical potential energy in living things, and some remains became fossil fuels over long times."
+      },
+      {
+        id: "kp-347-q2",
+        prompt: "Which comparison between burning fossil fuels and using a hydrogen fuel cell is most accurate?",
+        choices: [
+          "Both release the same pollutants in the same amounts.",
+          "Combustion often releases carbon dioxide and other pollutants, while a hydrogen fuel cell can produce water as its main product.",
+          "Fuel cells transform nuclear energy, while fossil fuels transform radiant energy directly.",
+          "Fossil fuel combustion never involves chemical potential energy."
+        ],
+        correctIndex: 1,
+        explanation: "Fossil fuel combustion commonly releases carbon dioxide and pollutants; hydrogen fuel cells transform chemical energy with water as the main product when operating ideally."
+      },
+      {
+        id: "kp-347-q3",
+        prompt: "In a hydrogen fuel cell, why do electrons flowing through an external circuit matter?",
+        choices: [
+          "They are an electric current that can power a load such as a motor.",
+          "They turn hydrogen into coal.",
+          "They prove that no chemical reaction is happening.",
+          "They carry carbon dioxide away from gasoline."
+        ],
+        correctIndex: 0,
+        explanation: "The separated electron flow is electrical energy that can do useful work in a circuit."
+      }
+    ]
+  },
+  "kp-348": {
+    title: "KP1: Nuclear reactions",
+    questions: [
+      {
+        id: "kp-348-q1",
+        prompt: "What makes a nuclear reaction different from a chemical reaction?",
+        choices: [
+          "A nuclear reaction changes atomic nuclei, while a chemical reaction rearranges atoms and bonds.",
+          "A nuclear reaction only changes colour, while a chemical reaction changes protons.",
+          "A nuclear reaction never transforms energy.",
+          "A chemical reaction always changes one element into another."
+        ],
+        correctIndex: 0,
+        explanation: "Chemical reactions rearrange atoms; nuclear reactions involve changes in the nuclei of atoms."
+      },
+      {
+        id: "kp-348-q2",
+        prompt: "Which situation is most likely a nuclear reaction rather than a chemical reaction?",
+        choices: [
+          "Methane burning in oxygen.",
+          "Iron rusting in moist air.",
+          "An unstable nucleus changing into a different nucleus while releasing energy.",
+          "Sugar dissolving in water."
+        ],
+        correctIndex: 2,
+        explanation: "A change in the nucleus, especially with energy released, is characteristic of a nuclear reaction."
+      },
+      {
+        id: "kp-348-q3",
+        prompt: "A student says, \"Nuclear reactions are just very hot chemical reactions.\" What is the best correction?",
+        choices: [
+          "Nuclear reactions involve nuclei and can transform much more energy than chemical reactions.",
+          "Nuclear reactions are chemical reactions that happen only in flames.",
+          "Nuclear reactions never involve isotopes.",
+          "Nuclear reactions only rearrange electrons in bonds."
+        ],
+        correctIndex: 0,
+        explanation: "The defining difference is the change in atomic nuclei, not simply temperature."
+      }
+    ]
+  },
+  "kp-349": {
+    title: "KP2: Isotopes and radioactive isotopes",
+    questions: [
+      {
+        id: "kp-349-q1",
+        prompt: "Two atoms are isotopes of the same element. What must they have in common?",
+        choices: [
+          "The same number of protons.",
+          "The same number of neutrons.",
+          "The same mass number.",
+          "The same amount of stored energy."
+        ],
+        correctIndex: 0,
+        explanation: "Isotopes of an element have the same number of protons but different numbers of neutrons."
+      },
+      {
+        id: "kp-349-q2",
+        prompt: "Carbon-12 and carbon-14 both have 6 protons. Carbon-14 has 8 neutrons. Why are they isotopes?",
+        choices: [
+          "They have different numbers of protons but the same mass.",
+          "They have the same number of protons but different numbers of neutrons.",
+          "They are different elements because both contain carbon.",
+          "They have no neutrons, so they must be radioactive."
+        ],
+        correctIndex: 1,
+        explanation: "Same proton number means the same element; different neutron number makes them isotopes."
+      },
+      {
+        id: "kp-349-q3",
+        prompt: "Why can some isotopes be radioactive?",
+        choices: [
+          "Their nuclei are unstable and emit particles or radiation to become more stable.",
+          "They have no chemical bonds at all.",
+          "They always contain fewer protons than electrons.",
+          "They are cold enough to absorb all light."
+        ],
+        correctIndex: 0,
+        explanation: "Radioactive isotopes have unstable nuclei that release energy or particles as they move toward a more stable state."
+      }
+    ]
+  },
+  "kp-350": {
+    title: "KP3: Nuclear decay and radiation",
+    questions: [
+      {
+        id: "kp-350-q1",
+        prompt: "What is nuclear decay?",
+        choices: [
+          "A change to an atom due to emission of particles or radiation from its nucleus.",
+          "A chemical reaction where atoms only trade electrons.",
+          "A process where molecules freeze into crystals.",
+          "A sound wave bouncing off a surface."
+        ],
+        correctIndex: 0,
+        explanation: "Nuclear decay occurs when an unstable nucleus changes by emitting particles or radiation."
+      },
+      {
+        id: "kp-350-q2",
+        prompt: "How does radiation transfer energy in this nuclear context?",
+        choices: [
+          "As electromagnetic waves emitted by atoms or molecules.",
+          "Only by carrying liquid water through pipes.",
+          "Only by moving whole objects from place to place.",
+          "By creating matter from nothing."
+        ],
+        correctIndex: 0,
+        explanation: "Radiation can transfer energy as electromagnetic waves, including high-energy photons in some nuclear processes."
+      },
+      {
+        id: "kp-350-q3",
+        prompt: "Which statement best connects radioactive decay to energy release?",
+        choices: [
+          "An unstable nucleus may emit particles or radiation, carrying energy away from the nucleus.",
+          "Radioactive decay means the atom has no nucleus.",
+          "Radiation is always the same thing as thermal conduction.",
+          "A radioactive isotope becomes stable by absorbing unlimited energy from the room."
+        ],
+        correctIndex: 0,
+        explanation: "Particles or radiation emitted during decay carry energy, helping explain how unstable nuclei release energy."
+      }
+    ]
   }
 };
