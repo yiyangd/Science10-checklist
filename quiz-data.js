@@ -9510,5 +9510,415 @@ window.SCIENCE10_QUIZZES = {
         explanation: "Solar activity can affect Earth's upper atmosphere and human technology."
       }
     ]
+  },
+  "kp-533": {
+    title: "KP3: Space technology systems",
+    questions: [
+      {
+        id: "kp-533-q1",
+        prompt: "Which set best represents technologies used in space exploration and astronomy?",
+        choices: [
+          "Satellites, robotic arms, observatories, and communication systems.",
+          "Only paper star charts and candles.",
+          "Only ocean buoys and rain gauges.",
+          "Only kitchen scales and thermometers."
+        ],
+        correctIndex: 0,
+        explanation: "Modern space science depends on many connected tools and systems."
+      },
+      {
+        id: "kp-533-q2",
+        prompt: "How can robotics connect to astronomy and space missions?",
+        choices: [
+          "Robotic systems can help move, build, repair, or operate equipment in space.",
+          "Robotics is unrelated to space technology.",
+          "Robots can replace the need for all data.",
+          "Robots make stars change colour."
+        ],
+        correctIndex: 0,
+        explanation: "Robotic arms and automated systems are part of space mission technology."
+      },
+      {
+        id: "kp-533-q3",
+        prompt: "Why are communication systems important in space exploration?",
+        choices: [
+          "They allow spacecraft, satellites, and ground stations to exchange data and commands.",
+          "They stop gravity from acting.",
+          "They turn galaxies into planets.",
+          "They only provide entertainment for astronauts."
+        ],
+        correctIndex: 0,
+        explanation: "Without communication systems, mission data could not be reliably sent back or controlled."
+      }
+    ]
+  },
+  "kp-534": {
+    title: "KP1: H-R diagram construction",
+    questions: [
+      {
+        id: "kp-534-q1",
+        prompt: "What two variables are commonly graphed in the H-R diagram investigation?",
+        choices: [
+          "Spectral type and absolute magnitude.",
+          "Planet radius and moon phase.",
+          "Galaxy distance and ocean depth.",
+          "Constellation myth and calendar month."
+        ],
+        correctIndex: 0,
+        explanation: "The investigation builds an H-R diagram from spectral type and absolute magnitude data."
+      },
+      {
+        id: "kp-534-q2",
+        prompt: "Why is plotting star data on a graph more useful than only reading a table?",
+        choices: [
+          "A graph can reveal patterns such as the main sequence more clearly.",
+          "A graph changes the stars' actual properties.",
+          "A graph removes the need for evidence.",
+          "A graph can only show one star at a time."
+        ],
+        correctIndex: 0,
+        explanation: "Visual patterns are often easier to identify on a graph."
+      },
+      {
+        id: "kp-534-q3",
+        prompt: "A student plots spectral type on one axis and absolute magnitude on the other. What pattern should they look for?",
+        choices: [
+          "A main sequence trend through many of the plotted stars.",
+          "A map of Earth's continents.",
+          "A random list with no possible pattern.",
+          "A diagram of planet orbits only."
+        ],
+        correctIndex: 0,
+        explanation: "The main sequence is a key pattern revealed by H-R diagrams."
+      }
+    ]
+  },
+  "kp-535": {
+    title: "KP2: Spectral types",
+    questions: [
+      {
+        id: "kp-535-q1",
+        prompt: "Which list gives the standard order of the main spectral type letters used in this investigation?",
+        choices: [
+          "\\(O, B, A, F, G, K, M\\)",
+          "\\(A, E, I, O, U\\)",
+          "\\(X, Y, Z\\) only",
+          "\\(AU, ly, km, s\\)"
+        ],
+        correctIndex: 0,
+        explanation: "Main sequence stars are often grouped using the spectral sequence O, B, A, F, G, K, M."
+      },
+      {
+        id: "kp-535-q2",
+        prompt: "What does a label such as \\(G2\\) or \\(B5\\) represent in the H-R investigation?",
+        choices: [
+          "A spectral type with a letter category and number subdivision.",
+          "A galaxy's street address.",
+          "The number of moons around a star.",
+          "The age of the universe in seconds."
+        ],
+        correctIndex: 0,
+        explanation: "The letter gives the spectral class, while the number provides a subdivision within that class."
+      },
+      {
+        id: "kp-535-q3",
+        prompt: "Why are spectral types useful when building an H-R diagram?",
+        choices: [
+          "They help place stars along the temperature/colour-related axis.",
+          "They measure only the star's distance from Earth.",
+          "They classify planets by mass.",
+          "They replace all observations of brightness."
+        ],
+        correctIndex: 0,
+        explanation: "Spectral type is linked to star colour and temperature patterns."
+      }
+    ]
+  },
+  "kp-536": {
+    title: "KP3: Absolute magnitude prediction",
+    questions: [
+      {
+        id: "kp-536-q1",
+        prompt: "How can a pattern on an H-R diagram help with prediction?",
+        choices: [
+          "It can be used to estimate absolute magnitude for a main sequence star from its spectral type.",
+          "It predicts the weather on Earth.",
+          "It turns an unknown star into a planet.",
+          "It gives every star the same absolute magnitude."
+        ],
+        correctIndex: 0,
+        explanation: "Once a trend is established, unknown or selected values can be estimated from the pattern."
+      },
+      {
+        id: "kp-536-q2",
+        prompt: "If a main sequence star's spectral type falls between two plotted values, what is a reasonable graph-based method?",
+        choices: [
+          "Estimate its absolute magnitude by interpolating along the main sequence trend.",
+          "Ignore the graph and choose a random value.",
+          "Use the distance to the Moon.",
+          "Assume it has no luminosity."
+        ],
+        correctIndex: 0,
+        explanation: "Interpolation uses nearby plotted points to make a reasonable estimate."
+      },
+      {
+        id: "kp-536-q3",
+        prompt: "Which prediction task matches the H-R investigation most closely?",
+        choices: [
+          "Estimate the absolute magnitude of a main sequence star such as a \\(B5\\) star.",
+          "Predict tomorrow's tide height from a constellation.",
+          "Find the mass of Earth from a galaxy shape.",
+          "Calculate the age of a student from star colour."
+        ],
+        correctIndex: 0,
+        explanation: "The investigation uses spectral type and a graph pattern to estimate absolute magnitude."
+      }
+    ]
+  },
+  "kp-537": {
+    title: "KP4: Graph-based reasoning",
+    questions: [
+      {
+        id: "kp-537-q1",
+        prompt: "Why are graphs important in astronomy?",
+        choices: [
+          "They can reveal relationships that are difficult to see in a list of numbers.",
+          "They remove uncertainty from every measurement.",
+          "They replace telescopes completely.",
+          "They make all stars identical."
+        ],
+        correctIndex: 0,
+        explanation: "Graphing data helps scientists notice trends, clusters, and exceptions."
+      },
+      {
+        id: "kp-537-q2",
+        prompt: "A set of star data forms a diagonal band on an H-R diagram. What claim could that support?",
+        choices: [
+          "Many stars follow a main sequence pattern relating spectral type and brightness.",
+          "Star data has no pattern at all.",
+          "Every galaxy is spiral.",
+          "The Solar System contains no planets."
+        ],
+        correctIndex: 0,
+        explanation: "The main sequence is a graph-based pattern in star properties."
+      },
+      {
+        id: "kp-537-q3",
+        prompt: "Which is the strongest graph-based reasoning habit?",
+        choices: [
+          "Use the plotted pattern as evidence and describe limits or uncertainty.",
+          "Pick the answer that looks nicest.",
+          "Ignore outliers and labels in every case.",
+          "Assume a graph proves causation automatically."
+        ],
+        correctIndex: 0,
+        explanation: "Good reasoning uses evidence while recognizing what the graph can and cannot show."
+      }
+    ]
+  },
+  "kp-538": {
+    title: "KP1: Neutron star hypothesis",
+    questions: [
+      {
+        id: "kp-538-q1",
+        prompt: "What was the neutron star hypothesis before neutron stars were observed?",
+        choices: [
+          "A proposed idea that some supernovas could leave behind extremely dense neutron stars.",
+          "A claim that stars are made only of liquid water.",
+          "A rule that all stars become white dwarfs.",
+          "A method for naming zodiac constellations."
+        ],
+        correctIndex: 0,
+        explanation: "The idea of neutron stars was proposed before strong observational evidence was found."
+      },
+      {
+        id: "kp-538-q2",
+        prompt: "Why is the neutron star story a good example of scientific prediction?",
+        choices: [
+          "A theoretical idea later gained support from observations of pulsars and supernova remnants.",
+          "Scientists guessed once and never checked evidence.",
+          "The idea required no observations at any stage.",
+          "The prediction was about weather, not stars."
+        ],
+        correctIndex: 0,
+        explanation: "Scientific ideas become stronger when independent evidence supports them."
+      },
+      {
+        id: "kp-538-q3",
+        prompt: "Which object is most closely connected to the neutron star hypothesis in this section?",
+        choices: [
+          "A supernova remnant with a compact dense object.",
+          "A low cloud over Earth.",
+          "A planisphere used in a classroom.",
+          "An ordinary asteroid."
+        ],
+        correctIndex: 0,
+        explanation: "Neutron stars are connected to the collapsed remnants of some supernovas."
+      }
+    ]
+  },
+  "kp-539": {
+    title: "KP2: Radio telescope data",
+    questions: [
+      {
+        id: "kp-539-q1",
+        prompt: "What role did radio telescope data play in Jocelyn Bell's discovery?",
+        choices: [
+          "Careful analysis of recorded radio signals revealed an unexpected repeating pattern.",
+          "It showed that radio telescopes cannot detect space objects.",
+          "It replaced the need for interpretation.",
+          "It only measured visible light colours."
+        ],
+        correctIndex: 0,
+        explanation: "The discovery depended on noticing a small pattern in a large amount of data."
+      },
+      {
+        id: "kp-539-q2",
+        prompt: "Why can a small unusual signal in a large data set matter?",
+        choices: [
+          "It may reveal a real phenomenon that does not fit current expectations.",
+          "It should always be erased immediately.",
+          "It proves all other data are wrong.",
+          "It means the instrument is useless in every case."
+        ],
+        correctIndex: 0,
+        explanation: "Unexpected patterns can lead to new questions and discoveries if checked carefully."
+      },
+      {
+        id: "kp-539-q3",
+        prompt: "Which scientific practice is highlighted by Bell's chart-paper analysis?",
+        choices: [
+          "Patient observation and careful pattern recognition.",
+          "Ignoring repeated signals.",
+          "Changing data to match a favourite idea.",
+          "Avoiding all collaboration."
+        ],
+        correctIndex: 0,
+        explanation: "The discovery required persistence and close attention to data."
+      }
+    ]
+  },
+  "kp-540": {
+    title: "KP3: Pulsars",
+    questions: [
+      {
+        id: "kp-540-q1",
+        prompt: "What is a pulsar?",
+        choices: [
+          "A source that emits regular pulses of radiation, later linked to neutron stars.",
+          "A planet that reflects sunlight once per year.",
+          "A galaxy with no stars.",
+          "A type of paper star map."
+        ],
+        correctIndex: 0,
+        explanation: "Pulsars were identified through repeated radio signals and connected to neutron stars."
+      },
+      {
+        id: "kp-540-q2",
+        prompt: "Why did the regularity of early pulsar signals seem surprising?",
+        choices: [
+          "Such steady repeating signals were not expected from known celestial objects at the time.",
+          "Radio signals from space had always been fully understood.",
+          "The signals were ordinary visible colours.",
+          "They came from Earth's oceans."
+        ],
+        correctIndex: 0,
+        explanation: "The repeating pattern made scientists consider and test possible explanations."
+      },
+      {
+        id: "kp-540-q3",
+        prompt: "What evidence helped connect pulsars with neutron stars?",
+        choices: [
+          "Pulsars were found in contexts linked with supernova remnants, where neutron stars were expected.",
+          "Pulsars were found only inside planets.",
+          "Pulsars never emit radiation.",
+          "Pulsars were shown to be paper labels."
+        ],
+        correctIndex: 0,
+        explanation: "The connection grew from multiple observations, including pulsars associated with supernova remnants."
+      }
+    ]
+  },
+  "kp-541": {
+    title: "KP4: Recognition in science",
+    questions: [
+      {
+        id: "kp-541-q1",
+        prompt: "Why does Jocelyn Bell's role raise questions about recognition in science?",
+        choices: [
+          "Her careful work was central to the discovery, but major public recognition did not fully reflect that contribution.",
+          "She did not participate in the research.",
+          "The discovery involved no evidence.",
+          "Recognition is never connected to collaboration."
+        ],
+        correctIndex: 0,
+        explanation: "The case invites evaluation of how credit is assigned in scientific work."
+      },
+      {
+        id: "kp-541-q2",
+        prompt: "Which statement best describes discovery in science?",
+        choices: [
+          "Discovery often depends on observation, interpretation, instruments, collaboration, and fair credit.",
+          "Discovery always happens without data.",
+          "Only one person ever contributes to a discovery.",
+          "Scientific recognition has never changed over time."
+        ],
+        correctIndex: 0,
+        explanation: "Scientific achievements usually involve both evidence and human systems of collaboration and recognition."
+      },
+      {
+        id: "kp-541-q3",
+        prompt: "What is a fair question to ask when evaluating a scientific discovery story?",
+        choices: [
+          "Who collected, interpreted, supported, and communicated the evidence?",
+          "Which person had the shortest name?",
+          "How can the evidence be ignored?",
+          "How can collaboration be hidden?"
+        ],
+        correctIndex: 0,
+        explanation: "Fair evaluation looks at the real contributions that made the discovery possible."
+      }
+    ]
+  },
+  "kp-542": {
+    title: "KP1: Big bang theory",
+    questions: [
+      {
+        id: "kp-542-q1",
+        prompt: "What does the big bang theory try to explain?",
+        choices: [
+          "The origin of the universe and how it has changed over time.",
+          "The daily weather in one city.",
+          "The order of planets in a classroom poster only.",
+          "The names of zodiac constellations."
+        ],
+        correctIndex: 0,
+        explanation: "The theory connects evidence about expansion with the universe's history and development."
+      },
+      {
+        id: "kp-542-q2",
+        prompt: "Which observation is most directly connected to the big bang theory in this chapter?",
+        choices: [
+          "Evidence that the universe is expanding.",
+          "The fact that Earth's oceans have tides.",
+          "The shape of a single mountain.",
+          "The names of ancient constellations only."
+        ],
+        correctIndex: 0,
+        explanation: "Expansion evidence is central to the modern big bang model."
+      },
+      {
+        id: "kp-542-q3",
+        prompt: "Which statement best avoids a misconception about the big bang theory?",
+        choices: [
+          "It is a scientific explanation supported and refined by evidence, not just a casual guess.",
+          "It says galaxies are moving through already-empty space from one central point only.",
+          "It explains only the Solar System and nothing beyond it.",
+          "It has no connection to observations."
+        ],
+        correctIndex: 0,
+        explanation: "The big bang theory is an evidence-based scientific model of the universe's history."
+      }
+    ]
   }
 };
