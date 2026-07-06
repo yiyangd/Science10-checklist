@@ -5,7 +5,8 @@ This repository contains a GitHub Pages-ready interactive checklist for the BC S
 ## Files
 
 - `index.html` - canonical GitHub Pages interactive checklist served from the site root.
-- `BCScienceConnections10_Full_Course_Master_Knowledge_Point_Checklist_Interactive_v2.html` - archived backup copy of the canonical interactive HTML checklist.
+- `BCScienceConnections10_Full_Course_Master_Knowledge_Point_Checklist_Interactive_v2.html` - redirect shim for old long URLs; it preserves hash anchors and sends visitors back to the clean site root.
+- `BCScienceConnections10_Full_Course_Master_Knowledge_Point_Checklist_Interactive_v2_backup.html` - archived backup copy of the canonical interactive HTML checklist.
 - `BCScienceConnections10_Full_Course_Master_Knowledge_Point_Checklist.md` - source Markdown checklist.
 - `.nojekyll` - tells GitHub Pages to serve files as static assets without Jekyll processing.
 
@@ -35,7 +36,9 @@ Open the GitHub Pages root URL, or open `index.html` from the repository root. T
 - MathJax loads from `https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js`. Formulas remain visible as raw TeX if the CDN is unavailable.
 - Progress is saved with `localStorage` in the visitor's browser. It does not sync across browsers, devices, or private browsing sessions.
 - The interactive HTML is standalone and does not require local images, CSS files, or JavaScript files.
-- The source Markdown is included for review and future regeneration. The root `index.html` file is the canonical deployed interactive checklist; the v2 HTML file is kept as a backup copy.
+- The source Markdown is included for review and future regeneration. The root `index.html` file is the canonical deployed interactive checklist.
+- The old v2 filename redirects to the clean root URL. For example, `BCScienceConnections10_Full_Course_Master_Knowledge_Point_Checklist_Interactive_v2.html#unit-1` redirects to `./#unit-1`.
+- The `BCScienceConnections10_Full_Course_Master_Knowledge_Point_Checklist_Interactive_v2_backup.html` file is archived only.
 
 ## Published URL Format
 
