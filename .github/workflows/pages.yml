@@ -8,6 +8,9 @@ permissions:
   pages: write
   id-token: write
 
+env:
+  PAGES_ARTIFACT_NAME: science10-pages-${{ github.run_id }}-${{ github.run_attempt }}
+
 concurrency:
   group: github-pages
   cancel-in-progress: false
@@ -28,8 +31,12 @@ jobs:
       - name: Upload static site artifact
         uses: actions/upload-pages-artifact@v3
         with:
+          name: ${{ env.PAGES_ARTIFACT_NAME }}
           path: .
+          include-hidden-files: true
 
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          artifact_name: ${{ env.PAGES_ARTIFACT_NAME }}
