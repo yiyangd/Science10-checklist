@@ -1433,5 +1433,210 @@ window.SCIENCE10_QUIZZES = {
         explanation: "The buzzer changes stored chemical energy into other forms, so it shows energy transformation."
       }
     ]
+  },
+  "kp-336": {
+    title: "KP2: Observing energy transfer",
+    questions: [
+      {
+        id: "kp-336-q1",
+        prompt: "In a ramp investigation, a rolling marble hits a stationary toy car and the car begins to move. Which statement best describes the energy transfer?",
+        choices: [
+          "Mechanical kinetic energy moves from the marble to the toy car during the collision.",
+          "The toy car creates new energy because it was not moving before.",
+          "Energy disappears from the marble and does not go anywhere.",
+          "Only mass transfers from the marble to the toy car."
+        ],
+        correctIndex: 0,
+        explanation: "The collision transfers mechanical kinetic energy from the moving marble to the toy car, causing the car to move."
+      },
+      {
+        id: "kp-336-q2",
+        prompt: "A group is testing how energy moves in a system made of a ball, a ramp, and a small cup. Which observation would best help them track energy transfer?",
+        choices: [
+          "The colour of the ramp before the test.",
+          "Whether the ball changes the cup's motion, position, or shape after contact.",
+          "The brand name printed on the cup.",
+          "The number of students standing near the table."
+        ],
+        correctIndex: 1,
+        explanation: "Changes in the cup's motion, position, or shape are evidence that energy was transferred from another part of the system."
+      },
+      {
+        id: "kp-336-q3",
+        prompt: "A warm container is placed in a cooler foam box with ice. Which description correctly tracks energy transfer between the system and surroundings?",
+        choices: [
+          "Thermal energy transfers from the warmer container toward the colder ice and air inside the box.",
+          "Cold energy transfers from the ice and creates thermal energy in the container.",
+          "No energy can transfer unless matter also leaves the box.",
+          "Energy transfer can only happen when objects are moving quickly."
+        ],
+        correctIndex: 0,
+        explanation: "Thermal energy transfers from warmer objects to cooler surroundings; observing temperature changes helps track that transfer."
+      }
+    ]
+  },
+  "kp-337": {
+    title: "KP3: Variables affecting energy",
+    questions: [
+      {
+        id: "kp-337-q1",
+        prompt: "A student asks whether release height affects how far a toy car rolls after leaving a ramp. What is the independent variable?",
+        choices: [
+          "The distance the toy car rolls after leaving the ramp.",
+          "The release height of the toy car.",
+          "The same toy car used in every trial.",
+          "The table where the ramp is placed."
+        ],
+        correctIndex: 1,
+        explanation: "The independent variable is the factor deliberately changed: the toy car's release height."
+      },
+      {
+        id: "kp-337-q2",
+        prompt: "A class tests whether a falling object's mass affects the impact it makes in sand. Which factor should be kept constant to make the test fair?",
+        choices: [
+          "The drop height.",
+          "The mass of the falling object.",
+          "The result recorded after impact.",
+          "The question being investigated."
+        ],
+        correctIndex: 0,
+        explanation: "If mass is being tested, drop height should stay constant so changes in impact can be linked more clearly to mass."
+      },
+      {
+        id: "kp-337-q3",
+        prompt: "A model coaster reaches the end of the track only half the time. Which design change most directly targets unwanted energy loss?",
+        choices: [
+          "Use a rougher track surface so the car vibrates more.",
+          "Add unnecessary bends that make the car scrape the sides.",
+          "Make the wheels and track smoother and better aligned.",
+          "Lower the starting point while keeping the same track."
+        ],
+        correctIndex: 2,
+        explanation: "Smoother, better-aligned contact can reduce friction, so more mechanical energy remains useful for motion along the track."
+      }
+    ]
+  },
+  "kp-338": {
+    title: "KP1: Roller coaster energy changes",
+    questions: [
+      {
+        id: "kp-338-q1",
+        prompt: "A coaster car starts from rest at the top of a hill and rolls downward. Which energy change is the main one as it descends?",
+        choices: [
+          "Mechanical kinetic energy transforms into gravitational potential energy.",
+          "Gravitational potential energy transforms into mechanical kinetic energy.",
+          "Thermal energy transforms into chemical potential energy.",
+          "Sound energy transforms into mass."
+        ],
+        correctIndex: 1,
+        explanation: "As height decreases, gravitational potential energy decreases while mechanical kinetic energy increases."
+      },
+      {
+        id: "kp-338-q2",
+        prompt: "Assume a model coaster has 120 J of total mechanical energy and friction is ignored. At one point its gravitational potential energy is 45 J. What is its mechanical kinetic energy? Use E_total = E_g + E_k.",
+        choices: [
+          "45 J",
+          "75 J",
+          "120 J",
+          "165 J"
+        ],
+        correctIndex: 1,
+        explanation: "With no friction, E_k = 120 J - 45 J = 75 J."
+      },
+      {
+        id: "kp-338-q3",
+        prompt: "Which statement best compares the top, middle, and bottom of a frictionless coaster hill?",
+        choices: [
+          "The top has the most mechanical kinetic energy, and the bottom has the most gravitational potential energy.",
+          "All three positions must have exactly the same amounts of gravitational potential energy and mechanical kinetic energy.",
+          "The top has more gravitational potential energy, the bottom has more mechanical kinetic energy, and the middle has a mixture of both.",
+          "Energy is destroyed at the middle because the car is between the top and bottom."
+        ],
+        correctIndex: 2,
+        explanation: "A coaster trades gravitational potential energy and mechanical kinetic energy as its height and speed change."
+      }
+    ]
+  },
+  "kp-339": {
+    title: "KP2: Track height and speed",
+    questions: [
+      {
+        id: "kp-339-q1",
+        prompt: "A frictionless coaster travels through points at heights of 70 m, 40 m, 20 m, and 5 m. At which point should its speed be greatest?",
+        choices: [
+          "70 m",
+          "40 m",
+          "20 m",
+          "5 m"
+        ],
+        correctIndex: 3,
+        explanation: "The lowest point has the least gravitational potential energy and the greatest mechanical kinetic energy, so speed is greatest there."
+      },
+      {
+        id: "kp-339-q2",
+        prompt: "A cart's gravitational potential energy decreases by 300 J as it rolls down a track with negligible friction. How much does its mechanical kinetic energy increase?",
+        choices: [
+          "0 J",
+          "150 J",
+          "300 J",
+          "600 J"
+        ],
+        correctIndex: 2,
+        explanation: "If friction is negligible, the lost gravitational potential energy becomes mechanical kinetic energy, so E_k increases by 300 J."
+      },
+      {
+        id: "kp-339-q3",
+        prompt: "Which prediction correctly uses the relationship between height and speed on a coaster track?",
+        choices: [
+          "The car is fastest at the highest point because height gives it the most speed.",
+          "The car is fastest after it has moved to a lower point, where more energy is in motion.",
+          "The car's speed is unrelated to height in every situation.",
+          "The car must stop at every low point because gravitational potential energy is lowest there."
+        ],
+        correctIndex: 1,
+        explanation: "Moving to a lower height can transform gravitational potential energy into mechanical kinetic energy, increasing speed."
+      }
+    ]
+  },
+  "kp-340": {
+    title: "KP3: Friction and realistic motion",
+    questions: [
+      {
+        id: "kp-340-q1",
+        prompt: "A real coaster climbs a second hill that is lower than its starting hill, even when no motor pushes it. What is the best explanation?",
+        choices: [
+          "Some mechanical energy has transformed into thermal energy and sound because of friction.",
+          "Energy has been destroyed, so conservation of energy no longer applies.",
+          "The coaster gains mass as it moves, making it impossible to climb.",
+          "Gravitational potential energy only exists on the first hill."
+        ],
+        correctIndex: 0,
+        explanation: "Friction and vibrations transform some mechanical energy into less useful forms such as thermal energy and sound, so less remains for climbing."
+      },
+      {
+        id: "kp-340-q2",
+        prompt: "A frictionless calculation predicts a coaster speed of 18 m/s at the bottom of a hill. Which result is most realistic for an actual coaster on the same track?",
+        choices: [
+          "Exactly 18 m/s, because friction has no effect on real tracks.",
+          "Less than 18 m/s, because some energy is transformed into thermal and sound energy.",
+          "More than 18 m/s, because friction adds mechanical kinetic energy.",
+          "0 m/s, because friction prevents all motion."
+        ],
+        correctIndex: 1,
+        explanation: "Real friction reduces the mechanical kinetic energy available for speed, although total energy is still conserved."
+      },
+      {
+        id: "kp-340-q3",
+        prompt: "Which design choice would most likely help a model coaster keep more useful mechanical energy?",
+        choices: [
+          "Use rough joints that make the wheels bounce and scrape.",
+          "Make the car rub against the side supports on every turn.",
+          "Use smoother wheel contact and a track shape that avoids sharp, scraping turns.",
+          "Cover the track with a sticky surface so the car slows quickly."
+        ],
+        correctIndex: 2,
+        explanation: "Reducing friction and scraping helps less mechanical energy transform into thermal and sound energy."
+      }
+    ]
   }
 };
