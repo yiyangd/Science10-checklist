@@ -9100,5 +9100,415 @@ window.SCIENCE10_QUIZZES = {
         explanation: "H-R diagrams commonly place hotter stars toward the left and more luminous stars higher up."
       }
     ]
+  },
+  "kp-523": {
+    title: "KP6: Main sequence stars",
+    questions: [
+      {
+        id: "kp-523-q1",
+        prompt: "What is the main sequence on an H-R diagram?",
+        choices: [
+          "A diagonal band where most visible stars are found.",
+          "A list of planets ordered by distance from the Sun.",
+          "A line showing only red supergiants.",
+          "A map of zodiac constellations."
+        ],
+        correctIndex: 0,
+        explanation: "The main sequence is the diagonal band on the H-R diagram containing most stars visible from Earth."
+      },
+      {
+        id: "kp-523-q2",
+        prompt: "About what fraction of stars visible from Earth are on the main sequence?",
+        choices: [
+          "About \\(90\\%\\).",
+          "About \\(10\\%\\).",
+          "Exactly \\(50\\%\\).",
+          "Less than \\(1\\%\\)."
+        ],
+        correctIndex: 0,
+        explanation: "The textbook-aligned checklist notes that about 90% of visible stars are main sequence stars."
+      },
+      {
+        id: "kp-523-q3",
+        prompt: "Why are red giants and supergiants not simply ordinary main sequence stars?",
+        choices: [
+          "They occupy different regions of the H-R diagram and represent different stellar stages.",
+          "They are not made of matter.",
+          "They are all planets.",
+          "They never emit light."
+        ],
+        correctIndex: 0,
+        explanation: "Their position on the H-R diagram helps astronomers infer that stars can change over time."
+      }
+    ]
+  },
+  "kp-524": {
+    title: "KP7: Star life cycles and initial mass",
+    questions: [
+      {
+        id: "kp-524-q1",
+        prompt: "What mainly determines a star's life-cycle pathway?",
+        choices: [
+          "Its initial mass on the main sequence.",
+          "The constellation name humans give it.",
+          "The season when it is first observed.",
+          "The number of planets in our Solar System."
+        ],
+        correctIndex: 0,
+        explanation: "Initial mass strongly controls how fast a star uses fuel and what it becomes."
+      },
+      {
+        id: "kp-524-q2",
+        prompt: "Compared with lower-mass stars, high-mass stars generally use their fuel how?",
+        choices: [
+          "More quickly, so their active lives are shorter.",
+          "More slowly, so they last forever.",
+          "At exactly the same rate as every other star.",
+          "Only after becoming planets."
+        ],
+        correctIndex: 0,
+        explanation: "High-mass stars are very luminous and consume fuel rapidly."
+      },
+      {
+        id: "kp-524-q3",
+        prompt: "Which comparison best fits star life-cycle pathways?",
+        choices: [
+          "Low- and intermediate-mass stars tend toward white dwarf endings, while very massive stars can lead to neutron stars or black holes.",
+          "Every star becomes a planet.",
+          "Every star ends as the Sun.",
+          "Only low-mass stars can explode as supernovas."
+        ],
+        correctIndex: 0,
+        explanation: "Different mass ranges follow different evolutionary routes."
+      }
+    ]
+  },
+  "kp-525": {
+    title: "KP8: Final stages of stars",
+    questions: [
+      {
+        id: "kp-525-q1",
+        prompt: "Which list contains possible final stages or remnants of stars?",
+        choices: [
+          "White dwarf, neutron star, and black hole.",
+          "Comet, asteroid, and moon.",
+          "Planisphere, telescope, and spectroscope.",
+          "Elliptical, spiral, and irregular."
+        ],
+        correctIndex: 0,
+        explanation: "A star's mass and evolution can lead to these final remnants."
+      },
+      {
+        id: "kp-525-q2",
+        prompt: "What can happen to a star like the Sun after it becomes a red giant?",
+        choices: [
+          "Its outer layers can drift away, leaving a white dwarf.",
+          "It must become a black hole immediately.",
+          "It turns into an asteroid belt.",
+          "It stops obeying gravity."
+        ],
+        correctIndex: 0,
+        explanation: "Intermediate-mass stars can expand into red giants and later leave white dwarf cores."
+      },
+      {
+        id: "kp-525-q3",
+        prompt: "A very massive star explodes as a supernova. What kind of remnant could remain?",
+        choices: [
+          "A neutron star or black hole.",
+          "A zodiac constellation.",
+          "A planisphere.",
+          "A low cloud in Earth's atmosphere."
+        ],
+        correctIndex: 0,
+        explanation: "The collapsed core after a massive-star supernova may become a neutron star or black hole."
+      }
+    ]
+  },
+  "kp-526": {
+    title: "KP9: Supernovas and heavy elements",
+    questions: [
+      {
+        id: "kp-526-q1",
+        prompt: "Why are supernovas important for the chemical history of the universe?",
+        choices: [
+          "They can eject heavy elements into space where later stars and planets can form.",
+          "They remove all elements from the universe.",
+          "They turn hydrogen into empty space only.",
+          "They prevent new stars from ever forming."
+        ],
+        correctIndex: 0,
+        explanation: "Supernovas spread elements made in massive stars into surrounding space."
+      },
+      {
+        id: "kp-526-q2",
+        prompt: "Which statement best explains how elements in planets and living things can be connected to older stars?",
+        choices: [
+          "Some heavier elements were formed in stars and scattered by supernovas before becoming part of new systems.",
+          "Planets create all elements from nothing after they form.",
+          "Living things make stars explode.",
+          "Elements in planets cannot come from space."
+        ],
+        correctIndex: 0,
+        explanation: "Material from earlier generations of stars can be recycled into later stars, planets, and life."
+      },
+      {
+        id: "kp-526-q3",
+        prompt: "What happens in a supernova?",
+        choices: [
+          "The outer portion of a massive star is blasted outward in an enormous explosion.",
+          "A small planet quietly freezes.",
+          "A galaxy becomes a single star.",
+          "A planisphere rotates around Polaris."
+        ],
+        correctIndex: 0,
+        explanation: "A supernova is a powerful explosion in the late life of a massive star."
+      }
+    ]
+  },
+  "kp-527": {
+    title: "KP1: MOST satellite",
+    questions: [
+      {
+        id: "kp-527-q1",
+        prompt: "What was MOST designed to study?",
+        choices: [
+          "Small changes in the brightness of Sun-like stars.",
+          "The shapes of clouds over Vancouver.",
+          "The distance from Earth to the Moon by radar only.",
+          "The location of zodiac constellations on paper maps."
+        ],
+        correctIndex: 0,
+        explanation: "MOST studied tiny brightness changes to learn about Sun-like stars and their life cycles."
+      },
+      {
+        id: "kp-527-q2",
+        prompt: "Why is MOST significant in Canadian space science?",
+        choices: [
+          "It was Canada's first space telescope.",
+          "It was the first planet discovered by Canada.",
+          "It replaced every ground telescope.",
+          "It was built to orbit the Moon with astronauts."
+        ],
+        correctIndex: 0,
+        explanation: "MOST stands for Microvariability and Oscillation of Stars and was Canada's first space telescope."
+      },
+      {
+        id: "kp-527-q3",
+        prompt: "A student says a small telescope cannot make useful discoveries. How does MOST challenge that idea?",
+        choices: [
+          "It made precise brightness observations despite being a compact satellite.",
+          "It was useful only because it was the largest telescope ever built.",
+          "It did not collect data.",
+          "It worked by changing stars instead of observing them."
+        ],
+        correctIndex: 0,
+        explanation: "MOST shows that small, focused space technology can still provide valuable scientific data."
+      }
+    ]
+  },
+  "kp-528": {
+    title: "KP2: Precision brightness measurements",
+    questions: [
+      {
+        id: "kp-528-q1",
+        prompt: "Why are tiny changes in star brightness scientifically useful?",
+        choices: [
+          "They can reveal clues about a star's structure, activity, and life cycle.",
+          "They prove stars are not emitting light.",
+          "They measure the size of Earth directly.",
+          "They classify galaxies by shape."
+        ],
+        correctIndex: 0,
+        explanation: "Careful brightness monitoring can reveal information that short or rough observations miss."
+      },
+      {
+        id: "kp-528-q2",
+        prompt: "Why is monitoring the same star for many days or weeks valuable?",
+        choices: [
+          "It helps detect patterns and small changes over time.",
+          "It makes the star physically younger.",
+          "It stops the star from rotating.",
+          "It removes the need for data analysis."
+        ],
+        correctIndex: 0,
+        explanation: "Long-term data helps astronomers identify subtle variation."
+      },
+      {
+        id: "kp-528-q3",
+        prompt: "Which choice best describes a precision measurement in this context?",
+        choices: [
+          "Detecting a very small change in a star's brightness.",
+          "Guessing a star's colour without instruments.",
+          "Counting clouds near the horizon.",
+          "Choosing a constellation name from a myth."
+        ],
+        correctIndex: 0,
+        explanation: "MOST's value came from measuring extremely small brightness changes."
+      }
+    ]
+  },
+  "kp-529": {
+    title: "KP3: Microsatellite design",
+    questions: [
+      {
+        id: "kp-529-q1",
+        prompt: "What is a major advantage of microsatellites compared with very large space telescopes?",
+        choices: [
+          "They can be smaller and less expensive to build and launch.",
+          "They never need engineering.",
+          "They always collect every wavelength better than any large telescope.",
+          "They work only inside classrooms."
+        ],
+        correctIndex: 0,
+        explanation: "Microsatellite design can lower cost and make specialized missions practical."
+      },
+      {
+        id: "kp-529-q2",
+        prompt: "Which comparison is most accurate?",
+        choices: [
+          "MOST was much smaller and cheaper than Hubble, but it had a focused scientific purpose.",
+          "MOST and Hubble were identical in size and cost.",
+          "MOST was a ground observatory, while Hubble was a microscope.",
+          "Hubble could not observe space."
+        ],
+        correctIndex: 0,
+        explanation: "A smaller satellite can still be powerful when its mission is specific."
+      },
+      {
+        id: "kp-529-q3",
+        prompt: "What is a possible tradeoff in microsatellite missions?",
+        choices: [
+          "They may be designed for narrower tasks than large multi-purpose observatories.",
+          "They cannot use any instruments.",
+          "They are always more expensive than large observatories.",
+          "They must stay on Earth's surface."
+        ],
+        correctIndex: 0,
+        explanation: "Small missions often gain efficiency by focusing on particular measurements."
+      }
+    ]
+  },
+  "kp-530": {
+    title: "KP4: Canadian space technology",
+    questions: [
+      {
+        id: "kp-530-q1",
+        prompt: "Which groups contributed to the MOST project?",
+        choices: [
+          "Canadian researchers, engineers, agencies, universities, and companies.",
+          "Only ancient unaided-eye observers.",
+          "Only one person with no collaboration.",
+          "Only weather forecasters studying clouds."
+        ],
+        correctIndex: 0,
+        explanation: "MOST was a collaborative Canadian space technology project."
+      },
+      {
+        id: "kp-530-q2",
+        prompt: "What broader lesson can MOST support?",
+        choices: [
+          "Smaller space technologies can still make important scientific contributions.",
+          "Only the largest missions can collect useful data.",
+          "Canadian technology has no role in space science.",
+          "Satellites cannot study stars."
+        ],
+        correctIndex: 0,
+        explanation: "MOST is an example of focused, smaller-scale technology contributing to astronomy."
+      },
+      {
+        id: "kp-530-q3",
+        prompt: "Why is collaboration important in a mission like MOST?",
+        choices: [
+          "Space missions combine science goals, engineering design, launch planning, and data use.",
+          "Collaboration removes the need for evidence.",
+          "One group can do every space mission without instruments.",
+          "Astronomy does not involve technology."
+        ],
+        correctIndex: 0,
+        explanation: "Space technology usually requires many kinds of expertise working together."
+      }
+    ]
+  },
+  "kp-531": {
+    title: "KP1: Astronomy-related careers",
+    questions: [
+      {
+        id: "kp-531-q1",
+        prompt: "Which career connection is directly related to astronomy and space science?",
+        choices: [
+          "Astrophysicist analyzing data about stars and galaxies.",
+          "Chef measuring oven temperature for bread only.",
+          "Carpenter building a deck with no science data.",
+          "Cashier scanning grocery items only."
+        ],
+        correctIndex: 0,
+        explanation: "Astronomy connects to careers in science, engineering, education, data, and technology."
+      },
+      {
+        id: "kp-531-q2",
+        prompt: "Why might a space educator need strong astronomy knowledge?",
+        choices: [
+          "They explain space science clearly to students or the public.",
+          "They launch every spacecraft alone.",
+          "They replace all astronomers.",
+          "They only memorize constellation stories without science."
+        ],
+        correctIndex: 0,
+        explanation: "Communication careers still require accurate understanding of the science being taught."
+      },
+      {
+        id: "kp-531-q3",
+        prompt: "Which statement best avoids a misconception about astronomy careers?",
+        choices: [
+          "Astronomy work includes engineering, communication, robotics, data analysis, and atmospheric science, not only telescope viewing.",
+          "Astronomy has only one possible job.",
+          "Astronomy careers never use technology.",
+          "Astronomy careers are unrelated to Earth systems."
+        ],
+        correctIndex: 0,
+        explanation: "The field connects with many kinds of work beyond observing through a telescope."
+      }
+    ]
+  },
+  "kp-532": {
+    title: "KP2: Space weather and atmosphere",
+    questions: [
+      {
+        id: "kp-532-q1",
+        prompt: "What is one reason atmospheric scientists monitor space weather?",
+        choices: [
+          "Solar radiation storms can affect satellites, power grids, and radio communication.",
+          "Space weather controls ocean salinity directly.",
+          "Space weather makes galaxies change shape every hour.",
+          "Solar storms are the same as ordinary rainstorms."
+        ],
+        correctIndex: 0,
+        explanation: "Space weather can disturb technology systems near Earth."
+      },
+      {
+        id: "kp-532-q2",
+        prompt: "Why can space weather alerts be useful?",
+        choices: [
+          "They give operators time to prepare for possible effects on technology and communication systems.",
+          "They stop the Sun from emitting radiation.",
+          "They remove the atmosphere.",
+          "They predict zodiac signs."
+        ],
+        correctIndex: 0,
+        explanation: "Alerts help people manage risks to satellites, radio links, and power systems."
+      },
+      {
+        id: "kp-532-q3",
+        prompt: "Which example is most connected to space weather?",
+        choices: [
+          "A solar radiation storm interferes with radio communication.",
+          "A local lake freezes overnight.",
+          "A plant grows toward a lamp.",
+          "A rock rolls down a hill."
+        ],
+        correctIndex: 0,
+        explanation: "Solar activity can affect Earth's upper atmosphere and human technology."
+      }
+    ]
   }
 };
