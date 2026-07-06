@@ -209,39 +209,39 @@ window.SCIENCE10_QUIZZES = {
     questions: [
       {
         id: "kp-306-q1",
-        prompt: "Why is energy often described as something we identify indirectly?",
+        prompt: "Why do scientists often study energy indirectly?",
         choices: [
-          "Energy can be seen as a solid object in every system.",
-          "Energy is identified by observing effects such as motion, temperature change, sound, or position change.",
-          "Energy exists only when a thermometer is present.",
-          "Energy is another word for mass."
+          "Energy cannot usually be seen directly, so scientists observe the changes it causes.",
+          "Energy exists only in diagrams and not in real systems.",
+          "Energy can be measured only by counting atoms.",
+          "Energy disappears whenever an object stops moving."
         ],
-        correctIndex: 1,
-        explanation: "Energy itself is not directly observed; scientists infer it from changes and effects in a system."
+        correctIndex: 0,
+        explanation: "The textbook presents energy as something investigated through effects such as motion, temperature change, sound, light, or position changes."
       },
       {
         id: "kp-306-q2",
-        prompt: "A ball starts rolling, a bell rings, and a surface becomes warmer. What do these observations have in common?",
+        prompt: "A dropper popper launches upward after being inverted and released. What is the best evidence that energy was involved?",
         choices: [
-          "They are all possible evidence that energy is involved.",
-          "They prove energy was destroyed.",
-          "They show only chemical energy, never any other form.",
-          "They can occur only in living systems."
+          "The popper's colour stayed the same.",
+          "The system changed motion and position.",
+          "The table had a flat surface.",
+          "The word energy was written in the instructions."
         ],
-        correctIndex: 0,
-        explanation: "Motion, sound, and temperature changes are observable clues that energy is present or changing."
+        correctIndex: 1,
+        explanation: "A visible change in motion or position is indirect evidence that energy has affected the system."
       },
       {
         id: "kp-306-q3",
-        prompt: "Which statement avoids a common misconception about energy?",
+        prompt: "Which observation would be the weakest evidence for energy in a system?",
         choices: [
-          "If energy cannot be seen directly, it is not real.",
-          "Energy can be detected by the changes it produces, even if energy itself is not visible.",
-          "Only glowing objects have energy.",
-          "Energy must always make an object move faster."
+          "A ball speeds up as it rolls downhill.",
+          "A lamp gives off light and warms nearby air.",
+          "A stretched elastic band snaps back.",
+          "A label on a beaker lists the owner's name."
         ],
-        correctIndex: 1,
-        explanation: "Energy can be inferred from many effects, including motion, heating, sound, light, and position changes."
+        correctIndex: 3,
+        explanation: "A name label does not show a change caused by energy, while motion, light, thermal change, and elastic action do."
       }
     ]
   },
@@ -250,39 +250,39 @@ window.SCIENCE10_QUIZZES = {
     questions: [
       {
         id: "kp-307-q1",
-        prompt: "Which situation is the strongest evidence that energy caused a change in a system?",
+        prompt: "Which statement best connects energy and change in a system?",
         choices: [
-          "A closed book remains still on a desk for an hour.",
-          "A cold metal spoon warms up after being placed in hot soup.",
-          "A label is added to a beaker without moving it.",
-          "A measuring tape is stored in a drawer."
+          "Energy can cause changes such as motion, heating, sound, light, or shape change.",
+          "Energy prevents all changes from happening.",
+          "Energy can be seen directly only when an object is blue.",
+          "Energy matters only outside the system."
         ],
-        correctIndex: 1,
-        explanation: "The spoon's temperature changes, so energy has been transferred into the spoon."
+        correctIndex: 0,
+        explanation: "The chapter frames energy through the changes it produces in a defined system."
       },
       {
         id: "kp-307-q2",
-        prompt: "A student says, \"No visible change means no energy is involved.\" Which response is most accurate?",
+        prompt: "A bungee jumper and cord move from a greater height to a lower height. Which change helps show energy is involved?",
         choices: [
-          "Correct, because energy always produces a large visible change.",
-          "Incorrect, because small or hidden changes can still involve energy.",
-          "Correct, because only moving systems have energy.",
-          "Incorrect, because energy creates matter whenever it appears."
+          "The system changes position and motion.",
+          "The river has a name.",
+          "The bridge is made of a material.",
+          "The photo is taken outdoors."
         ],
-        correctIndex: 1,
-        explanation: "Energy can be involved even when the change is small, gradual, or not easy to observe directly."
+        correctIndex: 0,
+        explanation: "A change in height and motion is a useful observation for analyzing energy."
       },
       {
         id: "kp-307-q3",
-        prompt: "Which observation best supports the idea that energy can cause change?",
+        prompt: "Which student statement is most scientifically useful?",
         choices: [
-          "A rubber band stretches when pulled and launches a paper clip when released.",
-          "A rock is named in a field guide.",
-          "A diagram is copied onto paper.",
-          "A sealed box is counted twice."
+          "I know energy is present because I can observe the system changing.",
+          "Energy is present only if it makes a loud sound.",
+          "Energy is present only if matter leaves the system.",
+          "Energy is present only if it is visible as a substance."
         ],
         correctIndex: 0,
-        explanation: "The rubber band's shape and the paper clip's motion change, showing energy effects in the system."
+        explanation: "Energy is not usually observed as a substance; its effects are observed through changes."
       }
     ]
   },
@@ -291,39 +291,39 @@ window.SCIENCE10_QUIZZES = {
     questions: [
       {
         id: "kp-308-q1",
-        prompt: "In an energy analysis, what is a system?",
+        prompt: "In an investigation of a skateboarder rolling down a ramp, what could be a useful system?",
         choices: [
-          "Only objects that are alive.",
-          "Anything chosen for observation or study.",
-          "Only the air around an object.",
-          "A place where no energy can enter or leave."
+          "The skateboarder and skateboard being studied.",
+          "Everything in the universe except the skateboarder.",
+          "Only the air above the ramp.",
+          "Only the measuring tape."
         ],
-        correctIndex: 1,
-        explanation: "A system is the object, process, or group selected as the focus of the investigation."
+        correctIndex: 0,
+        explanation: "A system is the object, group, or process chosen for observation."
       },
       {
         id: "kp-308-q2",
-        prompt: "A class studies a rolling skateboard and ignores the rest of the room for the first part of the analysis. What is the system?",
+        prompt: "Why must a scientist define the system before analyzing energy?",
         choices: [
-          "The whole school building.",
-          "Only the student's notebook.",
-          "The rolling skateboard.",
-          "The air outside the classroom."
+          "It clarifies what is being studied and what counts as surroundings.",
+          "It makes energy stop transferring.",
+          "It removes all friction from the investigation.",
+          "It guarantees the system is isolated."
         ],
-        correctIndex: 2,
-        explanation: "The skateboard is the chosen object under observation, so it is the system for that analysis."
+        correctIndex: 0,
+        explanation: "Defining the system sets the boundary for tracking energy changes and exchanges."
       },
       {
         id: "kp-308-q3",
-        prompt: "Why should you define the system before tracking energy?",
+        prompt: "Two students study the same bungee jump. One defines the system as the jumper and cord; another includes the bridge. Which statement is correct?",
         choices: [
-          "It decides what is inside the analysis and what counts as surroundings.",
-          "It prevents energy from changing form.",
-          "It makes all measurements unnecessary.",
-          "It guarantees there is no friction."
+          "Both definitions can be valid if each student states the boundary clearly.",
+          "Only one system definition is ever allowed.",
+          "The surroundings must always be empty.",
+          "A system must always be a single object."
         ],
         correctIndex: 0,
-        explanation: "Defining the system sets the boundary for deciding where energy is and where it moves."
+        explanation: "The textbook emphasizes that people define systems to suit the question being studied."
       }
     ]
   },
@@ -332,39 +332,39 @@ window.SCIENCE10_QUIZZES = {
     questions: [
       {
         id: "kp-309-q1",
-        prompt: "If a hot mug of tea is the system, what are the surroundings?",
+        prompt: "If the system is a person and a bungee cord, what are the surroundings?",
         choices: [
-          "Only the tea molecules inside the mug.",
-          "Everything outside the chosen mug-and-tea system.",
-          "Only the energy inside the tea.",
-          "Nothing, because hot objects have no surroundings."
+          "Everything not included in the person-and-cord system.",
+          "Only the person.",
+          "Only the cord.",
+          "Nothing, because surroundings do not exist in science."
         ],
-        correctIndex: 1,
-        explanation: "The surroundings include everything outside the boundary of the selected system."
+        correctIndex: 0,
+        explanation: "The surroundings are everything outside the defined system."
       },
       {
         id: "kp-309-q2",
-        prompt: "A battery-powered fan is chosen as the system. Which item is part of the surroundings?",
+        prompt: "Which statement best matches the idea universe = system + surroundings?",
         choices: [
-          "The fan blades if they are included in the system boundary.",
-          "The battery if it is inside the chosen system boundary.",
-          "The room air outside the chosen system boundary.",
-          "The motor if it is included in the fan system."
+          "Once the system is chosen, everything outside it belongs to the surroundings.",
+          "The system and surroundings are always the same thing.",
+          "The surroundings include only living things.",
+          "The universe excludes the system being studied."
         ],
-        correctIndex: 2,
-        explanation: "Anything outside the defined system boundary, such as room air, belongs to the surroundings."
+        correctIndex: 0,
+        explanation: "The relationship helps separate what is under observation from everything outside it."
       },
       {
         id: "kp-309-q3",
-        prompt: "Why do scientists separate a system from its surroundings?",
+        prompt: "Air resistance slows a falling jumper. In a jumper-and-cord system, where does some mechanical energy go?",
         choices: [
-          "To make energy disappear from the surroundings.",
-          "To track where energy enters, leaves, or changes around the chosen system.",
-          "To prove surroundings cannot affect a system.",
-          "To turn open systems into isolated systems automatically."
+          "It is transferred or transformed into the surroundings, including air.",
+          "It is destroyed by the surroundings.",
+          "It becomes mass inside the cord.",
+          "It leaves science because air is invisible."
         ],
-        correctIndex: 1,
-        explanation: "System-surroundings boundaries help track energy flow and energy changes clearly."
+        correctIndex: 0,
+        explanation: "Interactions with surroundings can transfer or transform energy; energy is not destroyed."
       }
     ]
   },
@@ -373,39 +373,39 @@ window.SCIENCE10_QUIZZES = {
     questions: [
       {
         id: "kp-310-q1",
-        prompt: "Which statement best summarizes key properties of energy?",
+        prompt: "Which list best summarizes key properties of energy from Chapter 3.1?",
         choices: [
-          "Energy has only one form and never moves between objects.",
-          "Energy can exist in different forms, transfer between places, transform between forms, and depend on physical quantities.",
-          "Energy can be created whenever a machine starts.",
-          "Energy is measured only by color and shape."
+          "Energy causes change, has different forms, can transfer or transform, and depends on physical quantities.",
+          "Energy has only one form and cannot move between objects.",
+          "Energy is created whenever a system is named.",
+          "Energy is always useful for the intended task."
         ],
-        correctIndex: 1,
-        explanation: "Energy can take many forms, move between systems, transform, and depend on variables such as mass, speed, or height."
+        correctIndex: 0,
+        explanation: "These are the organizing properties introduced at the start of Chapter 3.1."
       },
       {
         id: "kp-310-q2",
-        prompt: "A flashlight changes stored chemical energy in batteries into light and thermal energy. Which property is shown most directly?",
+        prompt: "Which observation uses more than one property of energy?",
         choices: [
-          "Energy transformation.",
-          "Energy having no observable effects.",
-          "Matter being created from energy.",
-          "Energy existing only as motion."
+          "A battery-powered bulb changes chemical energy to electrical energy, then to light and thermal energy.",
+          "A notebook has 120 pages.",
+          "A desk is rectangular.",
+          "A pencil has a printed barcode."
         ],
         correctIndex: 0,
-        explanation: "The energy changes from chemical potential energy into radiant and thermal forms."
+        explanation: "The bulb example involves energy forms, transformation, transfer, and useful plus less useful outputs."
       },
       {
         id: "kp-310-q3",
-        prompt: "Which question focuses on a physical quantity that can affect energy?",
+        prompt: "Why are physical quantities important when studying energy?",
         choices: [
-          "What is the object's favorite color?",
-          "How much mass does the object have and how fast is it moving?",
-          "Who named the object?",
-          "What page number describes the object?"
+          "Quantities such as mass, speed, height, and gravity can affect the amount of certain forms of energy.",
+          "Quantities replace the need to define a system.",
+          "Quantities prove that energy is visible.",
+          "Quantities matter only in biology."
         ],
-        correctIndex: 1,
-        explanation: "Mass and speed are physical quantities that can affect mechanical kinetic energy."
+        correctIndex: 0,
+        explanation: "Chapter 3.1 later connects mass, velocity, gravitational field strength, and height to mechanical energy."
       }
     ]
   },
@@ -414,39 +414,39 @@ window.SCIENCE10_QUIZZES = {
     questions: [
       {
         id: "kp-311-q1",
-        prompt: "Which description best defines kinetic energy?",
+        prompt: "Which system clearly has kinetic energy?",
         choices: [
-          "Energy stored because of position only.",
-          "Energy of motion.",
-          "Energy that exists only in chemical bonds.",
-          "Energy that has been destroyed by friction."
+          "A cyclist moving down a trail.",
+          "A book sitting still on a shelf.",
+          "A stretched elastic band held motionless.",
+          "A battery not connected to a circuit."
         ],
-        correctIndex: 1,
-        explanation: "Kinetic energy is energy associated with motion."
+        correctIndex: 0,
+        explanation: "Kinetic energy is the energy of motion."
       },
       {
         id: "kp-311-q2",
-        prompt: "Which example shows kinetic energy?",
+        prompt: "Which statement shows that kinetic energy can occur at different scales?",
         choices: [
-          "A parked bicycle locked to a rack.",
-          "Water frozen in a still ice cube.",
-          "Electrons moving through a wire.",
-          "A book resting on a high shelf without moving."
+          "It can involve moving bicycles, moving particles, moving electrons, or vibrating matter.",
+          "It only occurs in objects larger than planets.",
+          "It only occurs when an object is above the ground.",
+          "It cannot occur in sound."
         ],
-        correctIndex: 2,
-        explanation: "Moving electrons have kinetic energy; electrical current is a motion-based form of energy."
+        correctIndex: 0,
+        explanation: "The textbook connects kinetic energy to motion of objects, particles, electrons, and vibrations."
       },
       {
         id: "kp-311-q3",
-        prompt: "Which pair contains only examples of kinetic energy?",
+        prompt: "Which example is least likely to be classified as kinetic energy?",
         choices: [
-          "A moving soccer ball and vibrating air in a sound wave.",
-          "A compressed spring and gasoline in a tank.",
-          "Water behind a dam and a stretched rubber band.",
-          "A magnet held near iron and food stored in a lunchbox."
+          "Moving electrons in a wire.",
+          "Particles vibrating in warm water.",
+          "A sound wave travelling through air.",
+          "Energy stored in a compressed spring."
         ],
-        correctIndex: 0,
-        explanation: "Moving objects and vibrating matter both involve motion, so they are kinetic energy examples."
+        correctIndex: 3,
+        explanation: "A compressed spring stores elastic potential energy; the other examples involve motion."
       }
     ]
   },
@@ -455,39 +455,39 @@ window.SCIENCE10_QUIZZES = {
     questions: [
       {
         id: "kp-312-q1",
-        prompt: "What is potential energy?",
+        prompt: "Which example best shows potential energy?",
         choices: [
-          "Energy stored because of condition, position, or arrangement.",
-          "Energy that exists only when objects are moving fast.",
-          "Energy that cannot be transformed.",
-          "Energy that is always visible as light."
+          "A stretched bowstring before release.",
+          "A ball rolling quickly across the floor.",
+          "Sound travelling through air.",
+          "Electrons moving through a wire."
         ],
         correctIndex: 0,
-        explanation: "Potential energy is stored energy related to an object's position, condition, or arrangement."
+        explanation: "Potential energy is stored energy due to position or condition; a stretched bowstring stores elastic potential energy."
       },
       {
         id: "kp-312-q2",
-        prompt: "Which situation is the clearest example of potential energy?",
+        prompt: "A mountain biker pauses at the top of a hill. Which stored energy is most directly connected to position?",
         choices: [
-          "A ball rolling along a flat floor.",
-          "A stretched elastic band held in place.",
-          "Air vibrating as a sound wave.",
-          "Electrons moving through a lamp."
+          "Gravitational potential energy.",
+          "Electrical kinetic energy.",
+          "Sound energy.",
+          "Thermal energy only."
         ],
-        correctIndex: 1,
-        explanation: "A stretched elastic band stores elastic potential energy because of its condition."
+        correctIndex: 0,
+        explanation: "Height above a reference point gives the biker and bike gravitational potential energy."
       },
       {
         id: "kp-312-q3",
-        prompt: "Which statement corrects a misconception about potential energy?",
+        prompt: "Which statement is a common misconception about potential energy?",
         choices: [
-          "Potential energy means energy is absent until motion begins.",
-          "Only tall objects can have potential energy.",
-          "Stored energy can exist in chemical bonds, stretched objects, height, separated charges, magnets, or nuclei.",
-          "Potential energy cannot change into kinetic energy."
+          "Potential energy means nothing is stored because the object is not moving.",
+          "Potential energy can be stored because of an object's position.",
+          "Potential energy can be stored in chemical bonds.",
+          "Potential energy can be stored in stretched or compressed objects."
         ],
-        correctIndex: 2,
-        explanation: "Potential energy can be stored in several ways, not only by height."
+        correctIndex: 0,
+        explanation: "An object can store potential energy even when it is not moving."
       }
     ]
   },
@@ -496,39 +496,39 @@ window.SCIENCE10_QUIZZES = {
     questions: [
       {
         id: "kp-313-q1",
-        prompt: "Mechanical kinetic energy is most closely related to which kind of motion?",
+        prompt: "Which example has mechanical kinetic energy?",
         choices: [
-          "Motion of objects larger than atoms and molecules.",
-          "Motionless stored energy in a chemical bond.",
-          "Invisible information stored in DNA.",
-          "Only the vibration of air particles."
+          "A soccer ball rolling across a field.",
+          "Electrons flowing through a wire.",
+          "Particles moving randomly in hot soup.",
+          "A chemical fuel stored in a tank."
         ],
         correctIndex: 0,
-        explanation: "Mechanical kinetic energy refers to the motion of larger objects such as balls, vehicles, bicycles, or people."
+        explanation: "Mechanical kinetic energy is motion energy of objects larger than atoms and molecules."
       },
       {
         id: "kp-313-q2",
-        prompt: "Which system has mechanical kinetic energy?",
+        prompt: "Why is a moving car classified differently from moving electrons in a wire?",
         choices: [
-          "A person riding a bicycle downhill.",
-          "A battery sitting unused in a drawer.",
-          "A stretched spring held still.",
-          "A magnet fixed to a refrigerator door."
+          "The car has mechanical kinetic energy, while moving electrons have electrical kinetic energy.",
+          "The car has no kinetic energy because it is large.",
+          "Moving electrons are gravitational potential energy.",
+          "Both are chemical potential energy only."
         ],
         correctIndex: 0,
-        explanation: "A moving rider and bicycle have energy of motion at the object scale."
+        explanation: "The type of kinetic energy depends on what is moving."
       },
       {
         id: "kp-313-q3",
-        prompt: "Why is a moving cart different from warm particles in a cup of tea when naming energy forms?",
+        prompt: "Which observation would most directly show an increase in mechanical kinetic energy?",
         choices: [
-          "The cart's object-scale motion is mechanical kinetic energy, while particle motion is thermal energy.",
-          "The cart has no kinetic energy because it is not alive.",
-          "Warm particles have mechanical kinetic energy only if they are visible.",
-          "Both must be called chemical potential energy."
+          "A cart of the same mass moves faster down a ramp.",
+          "A stopped cart is painted a new colour.",
+          "A stationary spring is compressed and held.",
+          "A battery is stored in a drawer."
         ],
         correctIndex: 0,
-        explanation: "Mechanical kinetic energy describes the motion of larger objects, while thermal energy involves random particle motion."
+        explanation: "For the same object, greater speed means greater mechanical kinetic energy."
       }
     ]
   },
@@ -537,39 +537,39 @@ window.SCIENCE10_QUIZZES = {
     questions: [
       {
         id: "kp-314-q1",
-        prompt: "Which statement best distinguishes thermal energy from heat?",
+        prompt: "What is thermal energy?",
         choices: [
-          "Thermal energy is random particle motion; heat is thermal energy transferred between objects.",
-          "Thermal energy and heat are always exactly the same word in science.",
-          "Heat is stored in an object, but thermal energy can exist only in empty space.",
-          "Thermal energy is light, while heat is sound."
+          "The energy of random particle motion in a substance.",
+          "The energy stored only in atomic nuclei.",
+          "The energy of visible light only.",
+          "The energy of an object's height above the ground."
         ],
         correctIndex: 0,
-        explanation: "Thermal energy is the energy of random particle motion; heat is energy in transfer due to temperature difference."
+        explanation: "Thermal energy is related to the random motion of particles in matter."
       },
       {
         id: "kp-314-q2",
-        prompt: "A warm mug transfers energy to a cooler hand. Which term best describes the energy while it moves from mug to hand?",
+        prompt: "In scientific language, what is heat?",
         choices: [
-          "Heat.",
-          "Nuclear potential energy.",
-          "Mechanical kinetic energy.",
-          "Radiant energy only."
+          "Thermal energy transferred from one object to another.",
+          "Any thermal energy inside an object, whether it moves or not.",
+          "Energy stored in chemical bonds.",
+          "Light energy travelling from the Sun."
         ],
         correctIndex: 0,
-        explanation: "Thermal energy transferred from one object to another is called heat."
+        explanation: "The textbook distinguishes thermal energy from heat: heat is thermal energy in transfer."
       },
       {
         id: "kp-314-q3",
-        prompt: "Which student statement uses scientific language most accurately?",
+        prompt: "A warm metal spoon is placed in cooler water. Which statement uses the terms correctly?",
         choices: [
-          "The cup contains heat that never moves.",
-          "The cup has thermal energy, and some thermal energy may transfer as heat to the air.",
-          "Thermal energy exists only when flames are visible.",
-          "Heat is the same as temperature in every context."
+          "Heat transfers from the spoon to the water because of the temperature difference.",
+          "Cold heat transfers from the water into the spoon.",
+          "Thermal energy is destroyed by the water.",
+          "Heat is stored forever inside the spoon and never transfers."
         ],
-        correctIndex: 1,
-        explanation: "Objects have thermal energy; heat names the transfer of thermal energy between objects or systems."
+        correctIndex: 0,
+        explanation: "Thermal energy transfers from warmer matter to cooler matter; that transferred thermal energy is heat."
       }
     ]
   },
@@ -578,39 +578,39 @@ window.SCIENCE10_QUIZZES = {
     questions: [
       {
         id: "kp-315-q1",
-        prompt: "Which match between energy form and description is correct?",
+        prompt: "Which example is radiant energy?",
         choices: [
-          "Radiant energy: electromagnetic waves such as light.",
-          "Electrical kinetic energy: stored energy due to height.",
-          "Sound energy: energy stored in chemical bonds.",
-          "Radiant energy: only the motion of bicycles."
+          "Visible light from a lamp travelling as electromagnetic waves.",
+          "A marble rolling across a table.",
+          "A spring held in a compressed position.",
+          "A battery stored in a drawer."
         ],
         correctIndex: 0,
-        explanation: "Radiant energy travels as electromagnetic waves, including visible light."
+        explanation: "Radiant energy is energy carried by electromagnetic waves, including visible light and infrared radiation."
       },
       {
         id: "kp-315-q2",
-        prompt: "Which example best represents electrical kinetic energy?",
+        prompt: "What is electrical kinetic energy?",
         choices: [
-          "A rock at the top of a hill.",
-          "Electrons moving through a closed circuit.",
-          "A stretched elastic band.",
-          "Food storing chemical energy."
+          "Energy of moving electrons in a conductor.",
+          "Energy stored only in stretched rubber.",
+          "Energy of an object because it is above a reference point.",
+          "Energy released only in nuclear decay."
         ],
-        correctIndex: 1,
-        explanation: "Electrical kinetic energy is associated with moving electrons."
+        correctIndex: 0,
+        explanation: "Electrical kinetic energy involves moving electrons, such as current in a wire."
       },
       {
         id: "kp-315-q3",
-        prompt: "A speaker cone vibrates and makes air particles vibrate. Which energy form is being produced?",
+        prompt: "Why is sound energy classified as kinetic energy?",
         choices: [
-          "Sound energy.",
-          "Gravitational potential energy.",
-          "Nuclear energy.",
-          "Chemical potential energy only."
+          "It involves vibrations and disturbances of particles in matter.",
+          "It exists only in chemical bonds.",
+          "It requires no motion at all.",
+          "It is always stored by gravity."
         ],
         correctIndex: 0,
-        explanation: "Sound energy is carried by vibrations moving through matter such as air."
+        explanation: "Sound travels as vibrating particles pass a pressure disturbance through matter."
       }
     ]
   },
@@ -619,39 +619,39 @@ window.SCIENCE10_QUIZZES = {
     questions: [
       {
         id: "kp-316-q1",
-        prompt: "Which example is best matched with a form of potential energy?",
+        prompt: "Which pairing correctly matches a stored energy example to a form of potential energy?",
         choices: [
-          "A moving skateboard: chemical potential energy.",
-          "A stretched bowstring: elastic potential energy.",
-          "A ringing bell: gravitational potential energy.",
-          "A flashlight beam: magnetic potential energy."
+          "A stretched tennis racquet string - elastic potential energy.",
+          "A moving skateboard - chemical potential energy.",
+          "A ringing bell - gravitational potential energy.",
+          "Moving electrons in a circuit - nuclear energy."
         ],
-        correctIndex: 1,
-        explanation: "A stretched object stores elastic potential energy because of its changed shape."
+        correctIndex: 0,
+        explanation: "Elastic potential energy is stored in stretched or compressed objects."
       },
       {
         id: "kp-316-q2",
-        prompt: "Food, gasoline, and batteries are most closely associated with which stored energy category?",
+        prompt: "Which form of potential energy is stored in separated positive and negative charges, such as in a cell or battery?",
         choices: [
-          "Chemical potential energy.",
+          "Electrical potential energy.",
           "Sound energy.",
           "Mechanical kinetic energy.",
-          "Radiant energy."
+          "Thermal energy."
         ],
         correctIndex: 0,
-        explanation: "Food, fuels, and batteries store energy in chemical arrangements that can later be transformed."
+        explanation: "Electrical potential energy is stored because charges are separated."
       },
       {
         id: "kp-316-q3",
-        prompt: "Which statement corrects a common misconception about potential energy?",
+        prompt: "Which statement correctly describes nuclear energy in Chapter 3.1?",
         choices: [
-          "Potential energy only exists when an object is high above the ground.",
-          "Potential energy can be stored in several ways, including gravitational, chemical, elastic, magnetic, electrical, and nuclear forms.",
-          "Potential energy is always the same as sound energy.",
-          "Potential energy disappears whenever a system is not moving."
+          "It is energy stored within atomic nuclei.",
+          "It is the pressure wave that carries sound.",
+          "It is random particle motion in warm objects.",
+          "It is moving electrons in a conductor."
         ],
-        correctIndex: 1,
-        explanation: "Height is only one way to store potential energy; many arrangements or conditions can store energy."
+        correctIndex: 0,
+        explanation: "Nuclear energy is a form of potential energy stored in the nucleus of an atom."
       }
     ]
   },
@@ -660,39 +660,39 @@ window.SCIENCE10_QUIZZES = {
     questions: [
       {
         id: "kp-317-q1",
-        prompt: "A cyclist is moving along a road that is above sea level. Which energy description is most complete?",
+        prompt: "A mountain biker is moving along a trail high above the valley floor. Which statement is best?",
         choices: [
-          "The cyclist has only potential energy because the cyclist is above a reference point.",
-          "The cyclist has only kinetic energy because the cyclist is moving.",
-          "The cyclist can have both kinetic energy from motion and gravitational potential energy from height.",
-          "The cyclist cannot have energy unless the bicycle has a motor."
+          "The biker has both mechanical kinetic energy and gravitational potential energy.",
+          "The biker has no energy because only one form can exist at a time.",
+          "The biker has only sound energy.",
+          "The biker has only nuclear energy."
         ],
-        correctIndex: 2,
-        explanation: "A system can have kinetic energy and potential energy at the same time."
+        correctIndex: 0,
+        explanation: "A moving object above a reference point can have both kinetic and potential energy."
       },
       {
         id: "kp-317-q2",
-        prompt: "At the top of a roller coaster hill, the car is still moving forward. Which statement is most accurate?",
+        prompt: "When does a coaster car likely have both gravitational potential energy and mechanical kinetic energy?",
         choices: [
-          "It has no kinetic energy because it is high.",
-          "It has no potential energy because it is moving.",
-          "It may have both kinetic energy and gravitational potential energy.",
-          "It has only sound energy."
+          "While moving partway down a hill above the reference point.",
+          "Only before it is built.",
+          "Only when it is at the lowest point and not moving.",
+          "Never, because energy forms cannot overlap."
         ],
-        correctIndex: 2,
-        explanation: "Height can store gravitational potential energy while motion gives the car kinetic energy."
+        correctIndex: 0,
+        explanation: "At an intermediate height with motion, the car has height-related potential energy and motion-related kinetic energy."
       },
       {
         id: "kp-317-q3",
-        prompt: "Why is it useful to choose a reference point when analyzing an object's energy?",
+        prompt: "Which question best helps identify multiple forms of energy in a system?",
         choices: [
-          "The reference point helps decide the object's gravitational potential energy.",
-          "The reference point makes kinetic energy disappear.",
-          "The reference point changes the object's mass.",
-          "The reference point prevents energy transformation."
+          "Is anything moving, and is anything stored because of position or condition?",
+          "What colour is the object?",
+          "What is the object's name?",
+          "Can the system be ignored?"
         ],
         correctIndex: 0,
-        explanation: "Gravitational potential energy depends on height relative to a chosen reference position."
+        explanation: "Motion points to kinetic energy, while position or condition can indicate potential energy."
       }
     ]
   },
@@ -701,39 +701,39 @@ window.SCIENCE10_QUIZZES = {
     questions: [
       {
         id: "kp-318-q1",
-        prompt: "Which statement best expresses the law of conservation of energy?",
+        prompt: "Which statement best describes the law of conservation of energy?",
         choices: [
-          "Energy can be created whenever a machine starts.",
-          "Energy is neither created nor destroyed; it is transferred or transformed.",
-          "Energy always becomes useful work.",
-          "Energy exists only in living things."
+          "Energy is not created or destroyed; it is transferred or transformed.",
+          "Energy disappears whenever it becomes thermal energy.",
+          "Energy is created when a battery is connected to a bulb.",
+          "Energy is conserved only in isolated diagrams."
         ],
-        correctIndex: 1,
-        explanation: "The law of conservation of energy says total energy is conserved even when it changes form or location."
+        correctIndex: 0,
+        explanation: "The total energy before a transfer or transformation equals the total energy afterward."
       },
       {
         id: "kp-318-q2",
-        prompt: "A ball rolls down a hill and speeds up. Which explanation fits energy conservation?",
+        prompt: "A lamp changes electrical energy into light and thermal energy. How does conservation of energy apply?",
         choices: [
-          "Energy is created inside the ball as it rolls.",
-          "Gravitational potential energy is transformed into kinetic energy, with total energy still conserved.",
-          "All energy is destroyed by motion.",
-          "The ball has no energy because it is not plugged in."
+          "The total energy is accounted for in useful light plus less useful thermal energy.",
+          "Only the light energy counts; thermal energy is destroyed.",
+          "Electrical energy creates new energy from nothing.",
+          "Conservation applies only to moving balls, not lamps."
         ],
-        correctIndex: 1,
-        explanation: "Energy can change from stored gravitational energy into motion while the total amount is accounted for."
+        correctIndex: 0,
+        explanation: "Even less useful outputs are still part of the total energy after transformation."
       },
       {
         id: "kp-318-q3",
-        prompt: "A student says, \"The energy was lost because the device became warm and noisy.\" What is the best correction?",
+        prompt: "A student says, \"The sled lost energy because it did not reach the same height.\" What is the best correction?",
         choices: [
-          "The energy was destroyed because warmth and sound are not energy forms.",
-          "The energy was probably transformed or transferred into thermal energy and sound energy.",
-          "The device created matter from energy.",
-          "Energy conservation applies only to chemical reactions."
+          "Some mechanical energy transformed into thermal and sound energy, so total energy was still conserved.",
+          "Energy was destroyed by snow.",
+          "The sled had no energy at the start.",
+          "Gravity stopped existing on the second hill."
         ],
-        correctIndex: 1,
-        explanation: "Energy that is not useful for the intended task can still exist as thermal or sound energy."
+        correctIndex: 0,
+        explanation: "Apparent energy loss usually means energy has become less useful or moved to surroundings, not that it was destroyed."
       }
     ]
   },
@@ -742,39 +742,39 @@ window.SCIENCE10_QUIZZES = {
     questions: [
       {
         id: "kp-319-q1",
-        prompt: "What happens during an energy transformation?",
+        prompt: "What is an energy transformation?",
         choices: [
-          "Energy changes from one form to another.",
-          "Energy moves to another object but stays in the same form.",
-          "Matter is always created.",
-          "Only kinetic energy can exist."
+          "Energy changing from one form to another.",
+          "Energy moving between objects while staying in the same form.",
+          "Matter entering or leaving a system.",
+          "A system being given a name."
         ],
         correctIndex: 0,
-        explanation: "Energy transformation means the form of energy changes."
+        explanation: "Transformation means the form of energy changes."
       },
       {
         id: "kp-319-q2",
-        prompt: "Which example best shows chemical potential energy transforming into other forms?",
+        prompt: "Which sequence is an energy transformation in a battery-powered flashlight?",
         choices: [
-          "One pool ball passes motion to another pool ball.",
-          "A battery powers a flashlight, producing light and warming the bulb.",
-          "A book rests on a shelf without moving.",
-          "A cold spoon is placed beside another cold spoon."
+          "Chemical potential energy to electrical energy to radiant and thermal energy.",
+          "Radiant energy to nuclear energy to mass.",
+          "Sound energy to gravitational potential energy only.",
+          "Mechanical kinetic energy to chemical potential energy without a system."
         ],
-        correctIndex: 1,
-        explanation: "The battery's stored chemical energy changes into electrical, radiant, and thermal energy."
+        correctIndex: 0,
+        explanation: "The textbook's circuit examples connect stored chemical energy to electrical energy and then to light and thermal energy."
       },
       {
         id: "kp-319-q3",
-        prompt: "Which statement distinguishes transformation from transfer?",
+        prompt: "Which example is mainly a transformation rather than only a transfer?",
         choices: [
-          "Transformation changes energy form; transfer moves energy between objects or places.",
-          "Transformation always destroys energy; transfer always creates energy.",
-          "Transformation can occur only in isolated systems.",
-          "Transfer means changing chemical energy into light."
+          "A bulb changes electrical energy into light and thermal energy.",
+          "One pool ball gives mechanical kinetic energy to another pool ball.",
+          "A warm object passes thermal energy to a cooler object with no form change.",
+          "A student passes a marker across a table."
         ],
         correctIndex: 0,
-        explanation: "Transformation is about form change, while transfer is about movement of energy."
+        explanation: "The bulb changes energy from one form to other forms, so it is a transformation."
       }
     ]
   },
@@ -785,37 +785,37 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-320-q1",
         prompt: "What is energy transfer?",
         choices: [
-          "Energy changing from one form to another.",
           "Energy moving from one object or place to another while staying in the same form.",
-          "Energy being created by a system.",
-          "Energy becoming mass."
+          "Energy changing from motion into light.",
+          "Energy being created by a system boundary.",
+          "Matter becoming energy in every collision."
         ],
-        correctIndex: 1,
-        explanation: "Energy transfer is movement of energy between objects or locations without necessarily changing form."
+        correctIndex: 0,
+        explanation: "Transfer means the energy moves between objects or locations without necessarily changing form."
       },
       {
         id: "kp-320-q2",
-        prompt: "Which situation is the clearest example of energy transfer?",
+        prompt: "One pool ball strikes another, and the second ball begins moving. Which energy transfer occurs?",
         choices: [
-          "A pool ball hits another pool ball, passing mechanical kinetic energy to it.",
-          "A battery changes chemical energy into electrical energy.",
-          "A speaker changes electrical energy into sound energy.",
-          "Gasoline burns and produces heat and light."
+          "Mechanical kinetic energy transfers from the first ball to the second ball.",
+          "Chemical potential energy transfers from the table to both balls.",
+          "Nuclear energy transfers from the air to the cue.",
+          "Sound energy transfers into gravitational potential energy only."
         ],
         correctIndex: 0,
-        explanation: "The energy moves from one ball to another while remaining mechanical kinetic energy."
+        explanation: "The pool example in the textbook shows mechanical kinetic energy moving from one ball to another."
       },
       {
         id: "kp-320-q3",
-        prompt: "A warm tile heats a cooler bare foot. Which description is most accurate?",
+        prompt: "Which observation shows transfer without requiring a form change?",
         choices: [
-          "Thermal energy is transferred from the warmer tile to the cooler foot.",
-          "The foot creates new thermal energy from nothing.",
-          "The tile loses all matter during the contact.",
-          "This is nuclear energy because temperature changed."
+          "Thermal energy moves from hot soup to a cooler spoon.",
+          "Electrical energy changes into light in a bulb.",
+          "Chemical energy changes into thermal energy in a flame.",
+          "Elastic potential energy changes into motion in a catapult."
         ],
         correctIndex: 0,
-        explanation: "Heat is thermal energy transferred because of a temperature difference."
+        explanation: "Thermal energy can transfer from one object to another as thermal energy."
       }
     ]
   },
@@ -824,39 +824,39 @@ window.SCIENCE10_QUIZZES = {
     questions: [
       {
         id: "kp-321-q1",
-        prompt: "Why is no energy transformation 100% efficient for a chosen task?",
+        prompt: "Why is no energy transformation 100 percent efficient?",
         choices: [
-          "Some energy usually becomes less useful forms such as thermal energy or sound.",
-          "Energy is always destroyed during a transformation.",
-          "Useful energy cannot be measured.",
-          "Only living systems can transform energy efficiently."
+          "Some energy becomes less useful for the intended task, often as thermal or sound energy.",
+          "Some energy is destroyed forever.",
+          "Useful energy cannot exist in real systems.",
+          "Systems cannot exchange energy with surroundings."
         ],
         correctIndex: 0,
-        explanation: "Energy is conserved, but not all transformed energy remains useful for the intended purpose."
+        explanation: "The textbook describes less useful energy outputs while still conserving total energy."
       },
       {
         id: "kp-321-q2",
-        prompt: "An electric motor becomes warm and makes noise while lifting a small load. What does this suggest?",
+        prompt: "A light bulb is intended to produce visible light but also warms up. What is the warm bulb evidence of?",
         choices: [
-          "Some input energy became thermal and sound energy instead of useful lifting work.",
-          "The motor broke the law of conservation of energy.",
-          "All energy was converted into gravitational potential energy.",
-          "Thermal energy is not involved in machines."
+          "Some input energy transformed into less useful thermal energy.",
+          "Energy conservation failed.",
+          "The bulb created extra energy from nothing.",
+          "Thermal energy is not real energy."
         ],
         correctIndex: 0,
-        explanation: "Warmth and sound are common byproducts that make less energy available for the intended task."
+        explanation: "Thermal energy is a common byproduct that may not be useful for the intended task."
       },
       {
         id: "kp-321-q3",
-        prompt: "Which statement best uses the word 'unusable' in this context?",
+        prompt: "Which phrase is more scientifically careful than saying energy was lost?",
         choices: [
-          "Unusable energy no longer exists.",
-          "Unusable energy is energy that is less helpful for the task being analyzed.",
-          "Unusable energy always turns into matter.",
-          "Unusable energy can only be found in batteries."
+          "Energy was transformed into forms less useful for the task or transferred to surroundings.",
+          "Energy was destroyed by friction.",
+          "Energy stopped existing because it became sound.",
+          "Energy turned into nothing."
         ],
-        correctIndex: 1,
-        explanation: "Unusable does not mean destroyed; it means less useful for the chosen purpose."
+        correctIndex: 0,
+        explanation: "Energy can become less useful or leave the chosen system, but it is not destroyed."
       }
     ]
   },
@@ -865,39 +865,39 @@ window.SCIENCE10_QUIZZES = {
     questions: [
       {
         id: "kp-322-q1",
-        prompt: "Which description correctly matches a system type?",
+        prompt: "An uncovered pot of boiling water loses steam and receives energy from the stove. What type of system is it?",
         choices: [
-          "Open system: exchanges both matter and energy with surroundings.",
-          "Closed system: exchanges neither matter nor energy.",
-          "Isolated system: exchanges matter but not energy.",
-          "Open system: exchanges only energy but not matter."
+          "Open system.",
+          "Closed system.",
+          "Isolated system.",
+          "No system."
         ],
         correctIndex: 0,
         explanation: "An open system can exchange both matter and energy with its surroundings."
       },
       {
         id: "kp-322-q2",
-        prompt: "A sealed metal can is heated from the outside. Matter cannot leave the can, but energy enters. What type of system is this closest to?",
+        prompt: "A sealed pressure cooker allows energy transfer but prevents matter from leaving as steam. What type of system does it model?",
         choices: [
           "Closed system.",
           "Open system.",
-          "Isolated system.",
-          "A system with no boundary."
+          "Perfectly isolated system.",
+          "A system with no surroundings."
         ],
         correctIndex: 0,
-        explanation: "A closed system can exchange energy but not matter."
+        explanation: "A closed system exchanges energy but not matter with the surroundings."
       },
       {
         id: "kp-322-q3",
-        prompt: "Which statement corrects a common misconception about isolated systems?",
+        prompt: "Why is a perfectly isolated cooking system unrealistic?",
         choices: [
-          "An isolated system exchanges neither matter nor energy with its surroundings.",
-          "An isolated system is the same as any open container.",
-          "An isolated system exchanges matter but never energy.",
-          "An isolated system can only exist if it is hot."
+          "Cooking requires energy transfer into the food, but an isolated system exchanges neither energy nor matter.",
+          "Isolated systems must exchange matter only.",
+          "Isolated systems create energy from nothing.",
+          "Insulation always removes matter from the system."
         ],
         correctIndex: 0,
-        explanation: "By definition, an isolated system does not exchange matter or energy with the surroundings."
+        explanation: "A truly isolated system would prevent the energy exchange needed for cooking."
       }
     ]
   },
@@ -909,36 +909,36 @@ window.SCIENCE10_QUIZZES = {
         prompt: "If a system releases energy, what happens to the surroundings?",
         choices: [
           "The surroundings absorb that energy.",
-          "The surroundings must lose the same amount of matter.",
-          "The surroundings are no longer part of the analysis.",
-          "The surroundings destroy the energy."
+          "The surroundings disappear.",
+          "The surroundings must lose the same matter.",
+          "The surroundings create new energy to replace it."
         ],
         correctIndex: 0,
-        explanation: "Energy leaving a system enters the surroundings."
+        explanation: "Energy exchange is tracked between the system and its surroundings."
       },
       {
         id: "kp-323-q2",
-        prompt: "A cold pack absorbs thermal energy from an injured ankle. If the cold pack is the system, what is happening?",
+        prompt: "A hot mug cools on a desk. If the mug and liquid are the system, what is happening?",
         choices: [
-          "The system absorbs energy from the surroundings.",
-          "The system creates new energy.",
-          "The surroundings absorb energy from the system.",
-          "No energy exchange occurs because the pack is cold."
+          "Energy transfers from the system to the cooler surroundings.",
+          "Energy is destroyed inside the mug.",
+          "The surroundings are not involved because they are outside the system.",
+          "Only matter can leave the mug."
         ],
         correctIndex: 0,
-        explanation: "When the cold pack absorbs energy, that energy comes from its surroundings, including the ankle."
+        explanation: "When a warmer system cools, energy is transferred to the surroundings."
       },
       {
         id: "kp-323-q3",
-        prompt: "Why is it important to identify the system before describing energy exchange?",
+        prompt: "If a cold pack absorbs energy from a student's hand, which statement is correct?",
         choices: [
-          "It tells whether energy is entering or leaving the chosen system.",
-          "It makes energy transfer impossible.",
-          "It changes all energy into sound.",
-          "It removes the surroundings from reality."
+          "The hand, as part of the surroundings, releases energy to the cold pack system.",
+          "The cold pack destroys energy.",
+          "The system cannot absorb energy from surroundings.",
+          "Energy exchange requires the cold pack to be open."
         ],
         correctIndex: 0,
-        explanation: "The direction of energy exchange depends on what you choose as the system."
+        explanation: "When a system absorbs energy, the surroundings release energy."
       }
     ]
   },
@@ -947,39 +947,39 @@ window.SCIENCE10_QUIZZES = {
     questions: [
       {
         id: "kp-324-q1",
-        prompt: "Which situation includes both energy transfer and energy transformation?",
+        prompt: "In a pool-ball collision, what can happen at the same time?",
         choices: [
-          "A light bulb receives electrical energy and produces light and thermal energy.",
-          "A single book remains still on a desk.",
-          "A label is printed on a closed box.",
-          "A ruler is measured without being moved."
+          "Mechanical kinetic energy transfers between balls and some energy transforms into sound and thermal energy.",
+          "Energy is created by the collision.",
+          "Only chemical energy is involved.",
+          "The energy must remain fully useful."
         ],
         correctIndex: 0,
-        explanation: "Energy moves into the bulb and changes form into radiant and thermal energy."
+        explanation: "The textbook uses pool balls to show transfer and transformation happening together."
       },
       {
         id: "kp-324-q2",
-        prompt: "In a catapult, elastic potential energy in a stretched band launches a small object. What happens?",
+        prompt: "A catapult launches a small object and makes a snapping sound. Which analysis is best?",
         choices: [
-          "Stored elastic energy transforms into kinetic energy and transfers to the object.",
-          "Energy is created only after the object leaves the catapult.",
-          "Only energy transfer occurs; no form changes.",
-          "Only energy transformation occurs; no energy moves to the object."
+          "Elastic potential energy transforms into mechanical kinetic energy, and some energy also becomes sound and thermal energy.",
+          "The catapult destroys energy to launch the object.",
+          "Only energy transfer occurs because no form changes.",
+          "Only nuclear energy is involved."
         ],
         correctIndex: 0,
-        explanation: "The stored elastic energy changes form and is passed to the moving object."
+        explanation: "Real devices often involve multiple transformations and transfers, including less useful byproducts."
       },
       {
         id: "kp-324-q3",
-        prompt: "Why can real examples be harder to classify than textbook diagrams?",
+        prompt: "Which question helps separate transfer from transformation?",
         choices: [
-          "They often involve several transfers and transformations at the same time.",
-          "They never obey energy conservation.",
-          "They contain no systems or surroundings.",
-          "They always involve only one object and one energy form."
+          "Did the energy move to another object, and did its form change?",
+          "What colour was the object?",
+          "How many letters are in the object's name?",
+          "Was the system easy to draw?"
         ],
         correctIndex: 0,
-        explanation: "Real systems often combine movement of energy with changes in energy form."
+        explanation: "Transfer is about where energy moves; transformation is about whether the form changes."
       }
     ]
   },
@@ -988,39 +988,39 @@ window.SCIENCE10_QUIZZES = {
     questions: [
       {
         id: "kp-325-q1",
-        prompt: "Why do physical quantities matter when comparing energy in two systems?",
+        prompt: "Which physical quantities are most directly connected to mechanical kinetic energy?",
         choices: [
-          "Different forms of energy depend on different variables.",
-          "Energy comparisons never require measurements.",
-          "Only color affects energy.",
-          "All energy forms depend on exactly the same variable."
+          "Mass and velocity.",
+          "Colour and texture.",
+          "Volume and smell.",
+          "Temperature and brand name only."
         ],
         correctIndex: 0,
-        explanation: "You need to know which variables affect the energy form being compared."
+        explanation: "Chapter 3.1 connects mechanical kinetic energy to mass and velocity."
       },
       {
         id: "kp-325-q2",
-        prompt: "Which pair of quantities is most relevant when comparing mechanical kinetic energy?",
+        prompt: "Which physical quantities affect gravitational potential energy near Earth?",
         choices: [
-          "Mass and speed.",
-          "Color and shape.",
-          "Name and age.",
-          "Sound pitch and brightness."
+          "Mass, gravitational field strength, and change in height.",
+          "Colour, sound level, and shape only.",
+          "Velocity only.",
+          "Chemical formula only."
         ],
         correctIndex: 0,
-        explanation: "Mechanical kinetic energy depends on mass and velocity."
+        explanation: "Gravitational potential energy depends on mass, gravity, and height relative to a reference position."
       },
       {
         id: "kp-325-q3",
-        prompt: "A student compares gravitational potential energy but ignores height. What is the problem?",
+        prompt: "Why is the bowling-ball versus table-tennis-ball thought experiment useful?",
         choices: [
-          "Height is one of the important variables for gravitational potential energy.",
-          "Height matters only for sound energy.",
-          "Gravitational potential energy depends only on color.",
-          "Ignoring height makes energy conservation unnecessary."
+          "It helps reason that mass affects how much mechanical kinetic energy a moving object has.",
+          "It proves that speed has no effect on energy.",
+          "It shows that all objects have the same gravitational field strength.",
+          "It proves that energy is visible."
         ],
         correctIndex: 0,
-        explanation: "Gravitational potential energy depends on variables including mass, gravity, and height change."
+        explanation: "The thought experiment uses everyday experience to identify variables that affect energy."
       }
     ]
   },
@@ -1029,39 +1029,39 @@ window.SCIENCE10_QUIZZES = {
     questions: [
       {
         id: "kp-326-q1",
-        prompt: "Which two variables directly affect mechanical kinetic energy?",
+        prompt: "Two balls roll at the same velocity. One has twice the mass of the other. Which ball has more mechanical kinetic energy?",
         choices: [
-          "Colour and shape.",
-          "Temperature and sound level only.",
-          "Mass and velocity.",
-          "Height and magnet strength only."
+          "The ball with twice the mass.",
+          "The lighter ball.",
+          "They must have the same energy because velocity is the same.",
+          "Neither has kinetic energy because both are rolling."
         ],
-        correctIndex: 2,
-        explanation: "Mechanical kinetic energy depends on mass and velocity."
+        correctIndex: 0,
+        explanation: "Mechanical kinetic energy increases when mass increases, if velocity stays the same."
       },
       {
         id: "kp-326-q2",
-        prompt: "Two carts move at the same speed. Cart A has twice the mass of Cart B. Which cart has more mechanical kinetic energy?",
+        prompt: "Two identical carts roll toward a target. One rolls faster. What should you predict?",
         choices: [
-          "Cart B, because smaller objects always have more kinetic energy.",
-          "Cart A, because greater mass means greater kinetic energy when speed is the same.",
-          "Neither, because mass does not affect kinetic energy.",
-          "Both must have zero kinetic energy."
+          "The faster cart has more mechanical kinetic energy.",
+          "The slower cart has more mechanical kinetic energy.",
+          "Velocity does not affect kinetic energy.",
+          "Both carts have only potential energy."
         ],
-        correctIndex: 1,
-        explanation: "At the same speed, increasing mass increases mechanical kinetic energy."
+        correctIndex: 0,
+        explanation: "Velocity affects mechanical kinetic energy; faster motion means more kinetic energy for the same mass."
       },
       {
         id: "kp-326-q3",
-        prompt: "Which statement corrects a common misconception about mechanical kinetic energy?",
+        prompt: "Which design choice would most increase a cart's mechanical kinetic energy at the bottom of a ramp?",
         choices: [
-          "Only living things can have mechanical kinetic energy.",
-          "Speed matters only if an object is falling downward.",
-          "A stationary object always has the most kinetic energy.",
-          "A faster object has more kinetic energy than the same object moving more slowly."
+          "Increase the cart's speed while keeping mass the same.",
+          "Change only the cart's colour.",
+          "Label the ramp with a new name.",
+          "Stop the cart before it moves."
         ],
-        correctIndex: 3,
-        explanation: "For the same object, increasing velocity increases mechanical kinetic energy."
+        correctIndex: 0,
+        explanation: "Speed is a major variable in mechanical kinetic energy."
       }
     ]
   },
@@ -1070,39 +1070,39 @@ window.SCIENCE10_QUIZZES = {
     questions: [
       {
         id: "kp-327-q1",
-        prompt: "Which equation represents mechanical kinetic energy?",
+        prompt: "Which equation gives mechanical kinetic energy?",
         choices: [
-          "\\(E_k = \\frac{1}{2}mv^2\\)",
-          "\\(E_g = mg\\Delta h\\)",
-          "\\(v = \\frac{d}{t}\\)",
-          "\\(F = ma\\)"
+          "Ek = 1/2mv^2",
+          "Eg = mg delta h",
+          "E = mass + colour",
+          "Ek = mv"
         ],
         correctIndex: 0,
-        explanation: "Mechanical kinetic energy is calculated with one half times mass times velocity squared."
+        explanation: "Mechanical kinetic energy is calculated using Ek = 1/2mv^2."
       },
       {
         id: "kp-327-q2",
-        prompt: "A 2 kg cart moves at 3 m/s. Using \\(E_k = \\frac{1}{2}mv^2\\), what is its kinetic energy?",
+        prompt: "A 4.0 kg cart moves at 3.0 m/s. What is its mechanical kinetic energy?",
         choices: [
-          "3 J",
           "6 J",
-          "9 J",
-          "18 J"
+          "12 J",
+          "18 J",
+          "36 J"
         ],
         correctIndex: 2,
-        explanation: "The calculation is one half times 2 times 3 squared, so the kinetic energy is 9 J."
+        explanation: "Ek = 1/2mv^2 = 0.5 x 4.0 x 3.0^2 = 18 J."
       },
       {
         id: "kp-327-q3",
-        prompt: "If the mass stays the same but velocity doubles, what happens to \\(E_k\\)?",
+        prompt: "If an object's velocity doubles while its mass stays the same, what happens to its mechanical kinetic energy?",
         choices: [
-          "It doubles.",
-          "It becomes four times as large.",
-          "It is cut in half.",
-          "It becomes zero."
+          "It becomes 4 times as large.",
+          "It becomes 2 times as large.",
+          "It stays the same.",
+          "It becomes half as large."
         ],
-        correctIndex: 1,
-        explanation: "Velocity is squared in the kinetic energy equation, so doubling velocity makes kinetic energy four times as large."
+        correctIndex: 0,
+        explanation: "Velocity is squared in Ek = 1/2mv^2, so doubling velocity multiplies Ek by 4."
       }
     ]
   },
@@ -1114,36 +1114,36 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which variables affect gravitational potential energy?",
         choices: [
           "Mass, gravitational field strength, and change in height.",
-          "Colour, texture, and sound.",
-          "Only the object's speed.",
-          "Only the object's temperature."
+          "Velocity, sound level, and colour.",
+          "Only speed.",
+          "Only the type of surface."
         ],
         correctIndex: 0,
-        explanation: "Gravitational potential energy depends on mass, gravity, and height change from a reference point."
+        explanation: "The textbook connects gravitational potential energy to m, g, and change in height."
       },
       {
         id: "kp-328-q2",
-        prompt: "Two identical backpacks are lifted to the same height, one on Earth and one where gravity is weaker. Which has less gravitational potential energy?",
+        prompt: "Two identical rocks are held above the same ground reference point. One is higher. Which rock has more gravitational potential energy?",
         choices: [
-          "The backpack where gravity is weaker.",
-          "The backpack on Earth always has zero gravitational potential energy.",
-          "They must be equal because mass and height are the same.",
-          "Neither, because gravity does not affect gravitational potential energy."
+          "The higher rock.",
+          "The lower rock.",
+          "Both have zero because they are not moving.",
+          "The rock with the darker colour."
         ],
         correctIndex: 0,
-        explanation: "When mass and height are the same, weaker gravitational field strength gives less gravitational potential energy."
+        explanation: "For the same mass and g, greater height means greater gravitational potential energy."
       },
       {
         id: "kp-328-q3",
-        prompt: "A student says only height matters for gravitational potential energy. What is missing?",
+        prompt: "A ball is lifted 1 m above Earth and 1 m above the Moon. Why is the gravitational potential energy different?",
         choices: [
-          "Brightness and colour.",
-          "Mass and gravitational field strength also matter.",
-          "Sound and electrical current.",
-          "The object's name."
+          "The gravitational field strength is different.",
+          "The ball has no mass on the Moon.",
+          "Height does not affect energy.",
+          "Potential energy cannot exist away from Earth."
         ],
-        correctIndex: 1,
-        explanation: "Height is important, but mass and gravitational field strength also affect gravitational potential energy."
+        correctIndex: 0,
+        explanation: "The value of g is part of the gravitational potential energy relationship."
       }
     ]
   },
@@ -1152,39 +1152,39 @@ window.SCIENCE10_QUIZZES = {
     questions: [
       {
         id: "kp-329-q1",
-        prompt: "Which equation represents gravitational potential energy near a planet's surface?",
+        prompt: "Which equation gives gravitational potential energy near Earth?",
         choices: [
-          "\\(E_k = \\frac{1}{2}mv^2\\)",
-          "\\(E_g = mg\\Delta h\\)",
-          "\\(v = \\frac{d}{t}\\)",
-          "\\(density = \\frac{mass}{volume}\\)"
+          "Eg = mg delta h",
+          "Ek = 1/2mv^2",
+          "Eg = speed x time",
+          "Eg = mass / height"
         ],
-        correctIndex: 1,
-        explanation: "Gravitational potential energy is mass times gravitational field strength times change in height."
+        correctIndex: 0,
+        explanation: "Gravitational potential energy is calculated with Eg = mg delta h."
       },
       {
         id: "kp-329-q2",
-        prompt: "A 2 kg object is lifted 3 m. If \\(g = 10\\,m/s^2\\), what is \\(E_g\\)?",
+        prompt: "A 2.0 kg object is lifted 5.0 m above a reference point on Earth. Using g = 9.8 m/s^2, what is its Eg?",
         choices: [
-          "6 J",
-          "15 J",
-          "30 J",
-          "60 J"
+          "9.8 J",
+          "49 J",
+          "98 J",
+          "196 J"
         ],
-        correctIndex: 3,
-        explanation: "Using Eg = mg delta h gives 2 times 10 times 3, or 60 J."
+        correctIndex: 2,
+        explanation: "Eg = mg delta h = 2.0 x 9.8 x 5.0 = 98 J."
       },
       {
         id: "kp-329-q3",
-        prompt: "If an object is not raised or lowered relative to the chosen reference position, what is \\(\\Delta h\\)?",
+        prompt: "If mass and g stay the same but the change in height doubles, what happens to Eg?",
         choices: [
-          "Zero.",
-          "Equal to the object's mass.",
-          "Always 9.8.",
-          "Equal to the object's speed."
+          "It doubles.",
+          "It becomes four times as large.",
+          "It becomes zero.",
+          "It is unaffected by height."
         ],
         correctIndex: 0,
-        explanation: "Change in height is zero when the object's height relative to the reference position does not change."
+        explanation: "Eg is directly proportional to change in height in Eg = mg delta h."
       }
     ]
   },
@@ -1193,39 +1193,39 @@ window.SCIENCE10_QUIZZES = {
     questions: [
       {
         id: "kp-330-q1",
-        prompt: "Why can the same object have different \\(E_g\\) values in different calculations?",
+        prompt: "Why can the same object have different gravitational potential energy values?",
         choices: [
-          "Because gravitational potential energy is measured relative to a chosen reference position.",
-          "Because energy is created whenever a new reference point is chosen.",
-          "Because mass changes when you choose a reference point.",
-          "Because reference points apply only to kinetic energy."
+          "Gravitational potential energy is measured relative to a chosen reference position.",
+          "The object's mass changes whenever you choose a reference point.",
+          "Gravity disappears when the reference point changes.",
+          "Energy values are random."
         ],
         correctIndex: 0,
-        explanation: "Changing the reference position changes the height difference used in the gravitational potential energy calculation."
+        explanation: "The height change depends on the reference position selected for the analysis."
       },
       {
         id: "kp-330-q2",
-        prompt: "A book is 1 m above the floor but 0 m above the tabletop it rests on. Which statement is accurate?",
+        prompt: "A sled is at the bottom of a hill. If the bottom is chosen as the reference position, what is its gravitational potential energy there?",
         choices: [
-          "The book must have the same \\(E_g\\) no matter what reference is chosen.",
-          "The book can have different calculated \\(E_g\\) values depending on whether the floor or tabletop is the reference.",
-          "The book has kinetic energy because it is on a table.",
-          "The book has no mass if the tabletop is the reference."
+          "Zero relative to that reference position.",
+          "Maximum because it is at the bottom.",
+          "Negative infinity.",
+          "Always 9.8 J."
         ],
-        correctIndex: 1,
-        explanation: "A chosen reference position determines the height change used for Eg."
+        correctIndex: 0,
+        explanation: "At the chosen reference position, delta h is zero, so Eg is zero relative to that position."
       },
       {
         id: "kp-330-q3",
-        prompt: "Which statement best avoids a reference-position misconception?",
+        prompt: "Which choice would be a practical reference position for analyzing a skier descending a hill?",
         choices: [
-          "Reference position changes the physical object itself.",
-          "Reference position is a choice used for analysis, not a change to the object.",
-          "Reference position destroys gravitational energy.",
-          "Reference position matters only for sound energy."
+          "The bottom of the hill.",
+          "A random star far away.",
+          "The skier's favourite colour.",
+          "The sound made by the skis."
         ],
-        correctIndex: 1,
-        explanation: "The object does not change; the reference choice changes how height is measured in the analysis."
+        correctIndex: 0,
+        explanation: "A useful reference position is often the surface or level toward which the object can fall."
       }
     ]
   },
@@ -1234,39 +1234,39 @@ window.SCIENCE10_QUIZZES = {
     questions: [
       {
         id: "kp-331-q1",
-        prompt: "What does friction usually do to mechanical energy?",
+        prompt: "Why does a sled usually not reach the same height on the next hill?",
         choices: [
-          "It transforms some mechanical energy into thermal energy and sound energy.",
-          "It destroys energy completely.",
-          "It changes all energy into nuclear energy.",
-          "It prevents energy from being conserved."
+          "Friction transforms some mechanical energy into thermal and sound energy.",
+          "Energy is destroyed by the snow.",
+          "Gravitational potential energy cannot transform into kinetic energy.",
+          "The sled's mass becomes zero."
         ],
         correctIndex: 0,
-        explanation: "Friction transforms mechanical energy into other forms such as thermal and sound energy."
+        explanation: "Friction makes some energy less useful for climbing by transforming it into thermal and sound energy."
       },
       {
         id: "kp-331-q2",
-        prompt: "A sled slides down one hill and up another but does not reach the same height. What is the best energy explanation?",
+        prompt: "What happens at the contact surfaces as a sled slides over snow?",
         choices: [
-          "Some mechanical energy was transformed into thermal and sound energy by friction.",
-          "Energy was created at the bottom of the hill.",
-          "The sled lost mass, so conservation of energy stopped applying.",
-          "The sled had no energy while sliding."
+          "Attractive forces between surface atoms are continually broken and reformed, producing thermal and sound energy.",
+          "Atoms disappear from both surfaces.",
+          "Gravity stops acting on the sled.",
+          "All energy changes into chemical potential energy in the air."
         ],
         correctIndex: 0,
-        explanation: "Friction makes some energy less useful for lifting the sled back up, even though total energy is conserved."
+        explanation: "The textbook links friction to interactions at surfaces that produce thermal and sound energy."
       },
       {
         id: "kp-331-q3",
-        prompt: "Which statement corrects the phrase 'energy was lost to friction'?",
+        prompt: "Which statement is most consistent with conservation of energy?",
         choices: [
-          "The energy vanished.",
-          "The energy became matter.",
-          "The energy was transformed, often into thermal energy and sound.",
-          "The energy turned into gravity."
+          "The sled has less useful mechanical energy, but total energy is still accounted for.",
+          "The sled destroyed part of its energy.",
+          "Friction proves conservation of energy is false.",
+          "Only moving objects can have any energy."
         ],
-        correctIndex: 2,
-        explanation: "Energy is not destroyed by friction; it changes into other forms."
+        correctIndex: 0,
+        explanation: "Energy is conserved even when some becomes less useful or transfers to surroundings."
       }
     ]
   },
@@ -1275,39 +1275,39 @@ window.SCIENCE10_QUIZZES = {
     questions: [
       {
         id: "kp-332-q1",
-        prompt: "What makes a Rube Goldberg machine a useful example for studying energy?",
+        prompt: "What is the energy idea behind a Rube Goldberg machine?",
         choices: [
-          "It completes a task through a sequence of energy transfers and transformations.",
-          "It prevents all energy from changing form.",
-          "It has no systems or parts.",
-          "It works only if energy is created at every step."
+          "A sequence of energy transfers and transformations completes a simple task.",
+          "No energy changes are allowed.",
+          "Only one object can move.",
+          "The machine must use nuclear fusion."
         ],
         correctIndex: 0,
-        explanation: "A Rube Goldberg machine links many energy changes so that one step triggers the next."
+        explanation: "The investigation describes a machine that uses many transfers and transformations to perform a task."
       },
       {
         id: "kp-332-q2",
-        prompt: "A marble rolls down a ramp, hits a lever, and the lever lifts a flag. What should you track?",
+        prompt: "A marble rolls down a ramp, hits a lever, and the lever drops a ball into a cup. What should be identified?",
         choices: [
-          "Only the colour of each part.",
-          "How energy moves and changes form from one part to the next.",
-          "Only the final flag position, ignoring earlier steps.",
-          "How much matter disappears."
+          "Each transfer or transformation that triggers the next step.",
+          "Only the final cup.",
+          "Only the colour of the ramp.",
+          "Only whether the machine looks complicated."
         ],
-        correctIndex: 1,
-        explanation: "A chain of energy changes is analyzed by following transfers and transformations through the system."
+        correctIndex: 0,
+        explanation: "A chain of energy changes explains how one event leads to the next."
       },
       {
         id: "kp-332-q3",
-        prompt: "Which is a common weak explanation of a chain machine?",
+        prompt: "Which observation best shows a chain of energy changes?",
         choices: [
-          "Naming how one energy change triggers the next.",
-          "Identifying the system parts that interact.",
-          "Saying 'it just works' without describing transfers or transformations.",
-          "Recording motion, collisions, and height changes."
+          "One moving part causes another part to move, which triggers a later step.",
+          "A machine sits untouched on a table.",
+          "A sketch lists materials but no motion occurs.",
+          "A task is completed without any interaction."
         ],
-        correctIndex: 2,
-        explanation: "A useful explanation names the energy changes and how each step leads to the next."
+        correctIndex: 0,
+        explanation: "A chain requires connected events where energy changes or moves from one part to another."
       }
     ]
   },
@@ -1316,39 +1316,39 @@ window.SCIENCE10_QUIZZES = {
     questions: [
       {
         id: "kp-333-q1",
-        prompt: "How can system design affect energy transfer and transformation?",
+        prompt: "A Rube Goldberg machine works only sometimes. Which design change most directly improves energy transfer reliability?",
         choices: [
-          "Design can make transfers more reliable or reduce unwanted energy changes.",
-          "Design cannot affect energy in any system.",
-          "Design creates energy from nothing.",
-          "Design matters only for living systems."
+          "Align the ramp and lever so the marble hits the same spot each trial.",
+          "Make the instructions longer without changing the machine.",
+          "Use parts that scrape more strongly at every joint.",
+          "Remove the step that starts the machine."
         ],
         correctIndex: 0,
-        explanation: "The arrangement and materials in a system affect how energy moves and changes form."
+        explanation: "Design affects whether energy is transferred reliably from one part to the next."
       },
       {
         id: "kp-333-q2",
-        prompt: "A marble track fails because the marble slows too much before reaching the next part. Which design change is most directly helpful?",
+        prompt: "Which design change most likely reduces unwanted energy loss?",
         choices: [
-          "Increase unnecessary friction on the track.",
-          "Use a smoother path or steeper section to reduce unwanted energy loss.",
-          "Remove all evidence of motion.",
-          "Make the marble's colour brighter."
+          "Use smoother contact surfaces where sliding causes too much friction.",
+          "Add rough tape to every moving surface.",
+          "Make moving parts collide off-centre on purpose.",
+          "Let parts wobble freely without supports."
         ],
-        correctIndex: 1,
-        explanation: "Reducing unwanted friction or improving the path can make the energy transfer more reliable."
+        correctIndex: 0,
+        explanation: "Reducing friction can keep more mechanical energy available for the intended task."
       },
       {
         id: "kp-333-q3",
-        prompt: "Which statement best describes a design trade-off?",
+        prompt: "Why is testing and modifying part of the Rube Goldberg investigation?",
         choices: [
-          "A more reliable energy transfer may require changing materials, angles, or distances.",
-          "A design cannot be improved once it works once.",
-          "Unwanted sound and heat always mean energy was destroyed.",
-          "System design is unrelated to energy evidence."
+          "Evidence from trials shows where energy transfers or transformations are not working as planned.",
+          "Testing proves energy can be ignored.",
+          "Modifying a machine destroys all stored energy.",
+          "A design is perfect as soon as it is sketched."
         ],
         correctIndex: 0,
-        explanation: "Design choices can improve performance by changing how energy is transferred or transformed."
+        explanation: "Testing helps evaluate and improve the design's energy pathway."
       }
     ]
   },
@@ -1357,39 +1357,39 @@ window.SCIENCE10_QUIZZES = {
     questions: [
       {
         id: "kp-334-q1",
-        prompt: "Which observation can provide evidence of energy transfer or transformation?",
+        prompt: "Which observation is useful evidence of energy transfer or transformation in a Rube Goldberg machine?",
         choices: [
-          "Motion, sound, height change, collision, or deformation.",
-          "Only the written name of the object.",
-          "Only the colour of a label.",
-          "Only the number of pages in a notebook."
+          "A collision, a sound, a height change, or a moving part.",
+          "Only the title of the investigation.",
+          "Only the colour of the worksheet.",
+          "Only the number of team members."
         ],
         correctIndex: 0,
-        explanation: "Visible and audible changes can be evidence that energy has moved or changed form."
+        explanation: "Visible and audible changes can provide evidence for tracing energy."
       },
       {
         id: "kp-334-q2",
-        prompt: "A rubber stopper hits a cup, the cup moves, and a loud sound is heard. What evidence should be recorded?",
+        prompt: "A ball hits a cup, the cup dents slightly, and a sound is heard. What should the student record?",
         choices: [
-          "Only the brand of the cup.",
-          "The collision, cup motion, and sound as evidence of energy transfer and transformation.",
-          "Only the room number.",
-          "Nothing, because sound cannot be evidence."
+          "Collision, deformation, motion, and sound as evidence of energy changes.",
+          "Only the brand of cup.",
+          "Nothing, because sound cannot be evidence.",
+          "Only whether the ball is colourful."
         ],
-        correctIndex: 1,
-        explanation: "Collisions, motion, and sound can all help explain how energy changed or moved."
+        correctIndex: 0,
+        explanation: "Motion, sound, and deformation are all clues for explaining energy transfer or transformation."
       },
       {
         id: "kp-334-q3",
         prompt: "Which statement avoids overclaiming from evidence?",
         choices: [
-          "If there is sound, energy must have been created from nothing.",
-          "Observations are clues that support an energy explanation, but they should be connected carefully to the system.",
-          "A collision proves there is no energy transfer.",
-          "Deformation means matter disappeared."
+          "The observations support an energy explanation, but the system and surroundings must be defined.",
+          "Any sound proves energy was created.",
+          "A collision proves there was no energy transfer.",
+          "A height change means matter disappeared."
         ],
-        correctIndex: 1,
-        explanation: "Evidence should be interpreted in terms of the system and the energy changes being analyzed."
+        correctIndex: 0,
+        explanation: "Observations should be connected carefully to a defined system and the energy pathway."
       }
     ]
   },
@@ -1398,39 +1398,39 @@ window.SCIENCE10_QUIZZES = {
     questions: [
       {
         id: "kp-335-q1",
-        prompt: "How can energy transformation be investigated in a hands-on system?",
+        prompt: "In Investigation 3-B, what kind of evidence would help describe an energy transformation?",
         choices: [
-          "By observing changes in form, motion, position, sound, light, or temperature.",
-          "By ignoring all changes in the system.",
-          "By assuming energy is created whenever something moves.",
-          "By measuring only the object's name."
+          "A change in form, motion, height, temperature, light, or sound in the system.",
+          "Only the name of the group.",
+          "Only the size of the classroom.",
+          "Only the date written on the page."
         ],
         correctIndex: 0,
-        explanation: "Energy transformation can be studied through observable changes in what the system does."
+        explanation: "The investigation asks students to use observations to describe energy transfer or transformation."
       },
       {
         id: "kp-335-q2",
-        prompt: "A wind-up toy is released and starts moving while making sound. Which transformation is most likely?",
+        prompt: "A falling container hits sand and leaves a deeper mark when dropped from higher up. Which energy idea is being investigated?",
         choices: [
-          "Stored elastic potential energy changes into kinetic energy and sound energy.",
-          "Sound energy changes into mass only.",
-          "The toy creates energy from nothing.",
-          "The toy has no energy because it is small."
+          "Stored gravitational potential energy transforms into mechanical kinetic energy and then affects the sand.",
+          "Energy is created by the sand.",
+          "Only sound energy exists in the falling container.",
+          "The container has no energy because it is not alive."
         ],
         correctIndex: 0,
-        explanation: "Stored energy in the wound spring can transform into motion and sound."
+        explanation: "The motion and impact help reveal transformations from height-related stored energy to motion and other effects."
       },
       {
         id: "kp-335-q3",
-        prompt: "Which observation would most directly show a form change rather than only a transfer?",
+        prompt: "Why should students choose variables and keep other factors constant in an energy investigation?",
         choices: [
-          "A battery-powered buzzer changes stored chemical energy into sound and thermal energy.",
-          "One identical ball passes motion to another identical ball.",
-          "A book stays still on a table.",
-          "A pencil is counted twice."
+          "So changes in observations can be linked more clearly to the variable being tested.",
+          "So energy can be destroyed safely.",
+          "So no data table is needed.",
+          "So the system has no surroundings."
         ],
         correctIndex: 0,
-        explanation: "The buzzer changes stored chemical energy into other forms, so it shows energy transformation."
+        explanation: "A controlled experiment helps connect observed energy changes to the factor under investigation."
       }
     ]
   },
