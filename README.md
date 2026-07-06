@@ -8,6 +8,7 @@ This repository contains a GitHub Pages-ready interactive checklist for the BC S
 - `BCScienceConnections10_Full_Course_Master_Knowledge_Point_Checklist_Interactive_v2.html` - redirect shim for old long URLs; it preserves hash anchors and sends visitors back to the clean site root.
 - `BCScienceConnections10_Full_Course_Master_Knowledge_Point_Checklist_Interactive_v2_backup.html` - archived backup copy of the canonical interactive HTML checklist.
 - `BCScienceConnections10_Full_Course_Master_Knowledge_Point_Checklist.md` - source Markdown checklist.
+- `quiz-data.js` - pilot quiz question bank for the first five Knowledge Points.
 - `.nojekyll` - tells GitHub Pages to serve files as static assets without Jekyll processing.
 
 ## Use
@@ -19,6 +20,7 @@ Open the GitHub Pages root URL, or open `index.html` from the repository root. T
 - searchable checklist content
 - MathJax-rendered formulas
 - checkbox progress saved in the browser
+- quiz-gated completion for the first five Knowledge Points
 - Reset Progress with confirmation
 
 ## GitHub Pages Deployment
@@ -39,6 +41,7 @@ Open the GitHub Pages root URL, or open `index.html` from the repository root. T
 - The source Markdown is included for review and future regeneration. The root `index.html` file is the canonical deployed interactive checklist.
 - The old v2 filename redirects to the clean root URL. For example, `BCScienceConnections10_Full_Course_Master_Knowledge_Point_Checklist_Interactive_v2.html#unit-1` redirects to `./#unit-1`.
 - The `BCScienceConnections10_Full_Course_Master_Knowledge_Point_Checklist_Interactive_v2_backup.html` file is archived only.
+- The quiz gate is currently a pilot for `kp-1` through `kp-5`. Other Knowledge Points still use the standard checklist behavior until their quiz data is added.
 
 ## Published URL Format
 

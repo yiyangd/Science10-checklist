@@ -192,8 +192,137 @@
     .kp-main span { flex: 1 1 auto; }
     .kp-detail { margin: 6px 0 0 28px; color: #334155; overflow-wrap: break-word; }
     .kp-detail-label { font-weight: 700; color: #0f172a; }
+    .kp.quiz-enabled { border-color: #b7dce6; }
+    .kp.quiz-enabled .kp-main span:first-of-type::after {
+      content: " Quiz";
+      display: inline-block;
+      margin-left: 8px;
+      padding: 2px 7px;
+      border-radius: 999px;
+      background: var(--accent-soft);
+      color: var(--accent-dark);
+      font-size: .76rem;
+      font-weight: 700;
+      vertical-align: middle;
+      text-decoration: none;
+    }
+    .quiz-status {
+      flex: 0 0 auto;
+      align-self: flex-start;
+      margin-top: .05rem;
+      padding: 2px 7px;
+      border-radius: 999px;
+      border: 1px solid #c5e7ee;
+      color: var(--accent-dark);
+      background: #fff;
+      font-size: .75rem;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+    .kp.quiz-passed .quiz-status {
+      border-color: #bce5cf;
+      color: #256044;
+      background: #f2fbf7;
+    }
     .kp:has(input:checked) { background: #f2fbf7; border-color: #bce5cf; }
-    .kp:has(input:checked) .kp-main span { text-decoration: line-through; text-decoration-thickness: 1px; text-decoration-color: #7fb99b; color: #476153; }
+    .kp:has(input:checked) .kp-main span:not(.quiz-status) { text-decoration: line-through; text-decoration-thickness: 1px; text-decoration-color: #7fb99b; color: #476153; }
+    .quiz-modal[hidden] { display: none !important; }
+    .quiz-modal {
+      position: fixed;
+      inset: 0;
+      z-index: 100;
+      display: grid;
+      place-items: center;
+      padding: 18px;
+      background: rgba(15, 23, 42, .58);
+    }
+    .quiz-dialog {
+      width: min(760px, 100%);
+      max-height: min(88vh, 820px);
+      display: grid;
+      grid-template-rows: auto 1fr auto;
+      border-radius: 12px;
+      border: 1px solid var(--border);
+      background: #fff;
+      box-shadow: 0 22px 60px rgba(15, 23, 42, .28);
+      overflow: hidden;
+    }
+    .quiz-header,
+    .quiz-actions {
+      padding: 16px 18px;
+      background: #f8fbfd;
+      border-bottom: 1px solid var(--border);
+    }
+    .quiz-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: flex-end;
+      border-top: 1px solid var(--border);
+      border-bottom: 0;
+    }
+    .quiz-header-row {
+      display: flex;
+      gap: 12px;
+      align-items: flex-start;
+      justify-content: space-between;
+    }
+    .quiz-header h2 { margin: 0; color: var(--accent-dark); font-size: 1.25rem; line-height: 1.25; }
+    .quiz-subtitle { margin: 6px 0 0; color: var(--muted); }
+    .quiz-close {
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      background: #fff;
+      color: var(--accent-dark);
+      cursor: pointer;
+      font: inherit;
+      line-height: 1;
+      min-width: 36px;
+      min-height: 36px;
+    }
+    .quiz-body {
+      padding: 18px;
+      overflow: auto;
+    }
+    .quiz-question {
+      padding: 14px;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      background: #fff;
+      margin-bottom: 14px;
+    }
+    .quiz-question.is-wrong { border-color: #f4b4aa; background: #fff7f5; }
+    .quiz-question.is-correct { border-color: #bce5cf; background: #f7fcf9; }
+    .quiz-question h3 { margin: 0 0 10px; font-size: 1rem; color: #263241; }
+    .quiz-choice {
+      display: flex;
+      gap: 9px;
+      align-items: flex-start;
+      padding: 8px 0;
+      cursor: pointer;
+    }
+    .quiz-choice input {
+      margin-top: .28rem;
+      accent-color: var(--accent);
+    }
+    .quiz-feedback {
+      margin-top: 10px;
+      padding: 10px 12px;
+      border-radius: 8px;
+      background: #f8fbfd;
+      color: #334155;
+      border: 1px solid var(--border);
+    }
+    .quiz-feedback.success {
+      background: #f2fbf7;
+      border-color: #bce5cf;
+      color: #256044;
+    }
+    .quiz-feedback.error {
+      background: #fff7f5;
+      border-color: #f4b4aa;
+      color: #7f2d1f;
+    }
     #backToTop {
       position: fixed;
       right: 18px;
@@ -230,6 +359,13 @@
       main { padding: 0 10px; }
       .front-section, .full-summary { padding: 18px 14px; }
       .button { width: 100%; }
+      .quiz-modal { padding: 10px; }
+      .quiz-dialog { max-height: 92vh; }
+      .quiz-header,
+      .quiz-actions,
+      .quiz-body { padding: 13px; }
+      .quiz-actions .button { width: 100%; }
+      .quiz-status { display: none; }
     }
   </style>
 </head>
@@ -3882,8 +4018,29 @@
 </section>
   </main>
 
+  <div id="quizModal" class="quiz-modal" role="dialog" aria-modal="true" aria-labelledby="quizTitle" hidden>
+    <div class="quiz-dialog">
+      <div class="quiz-header">
+        <div class="quiz-header-row">
+          <div>
+            <h2 id="quizTitle">Knowledge Point Quiz</h2>
+            <p id="quizSubtitle" class="quiz-subtitle">Answer all 3 questions correctly to complete this Knowledge Point.</p>
+          </div>
+          <button id="quizClose" class="quiz-close" type="button" aria-label="Close quiz">x</button>
+        </div>
+      </div>
+      <form id="quizForm" class="quiz-body"></form>
+      <div class="quiz-actions">
+        <button id="quizRetry" class="button" type="button" hidden>Retry</button>
+        <button id="quizSubmit" class="button" type="submit" form="quizForm">Submit Quiz</button>
+        <button id="quizCancel" class="button" type="button">Close</button>
+      </div>
+    </div>
+  </div>
+
   <button id="backToTop" type="button" aria-label="Back to top">Back to Top</button>
 
+  <script src="quiz-data.js"></script>
   <script>
     const STORAGE_KEY = 'BCScienceConnections10_Checklist_v2';
     const LEGACY_STORAGE_KEYS = ['BCScienceConnections10_Checklist_v1'];
@@ -3894,6 +4051,18 @@
     const searchBox = document.getElementById('searchBox');
     const searchStatus = document.getElementById('searchStatus');
     const topbar = document.querySelector('.topbar');
+    const QUIZ_STORAGE_KEY = 'BCScienceConnections10_QuizGate_v1';
+    const quizData = window.SCIENCE10_QUIZZES || {};
+    const quizModal = document.getElementById('quizModal');
+    const quizTitle = document.getElementById('quizTitle');
+    const quizSubtitle = document.getElementById('quizSubtitle');
+    const quizForm = document.getElementById('quizForm');
+    const quizSubmit = document.getElementById('quizSubmit');
+    const quizRetry = document.getElementById('quizRetry');
+    const quizClose = document.getElementById('quizClose');
+    const quizCancel = document.getElementById('quizCancel');
+    let activeQuizKpId = null;
+    let quizPassState = loadQuizPassState();
 
     function readStoredState(key) {
       try {
@@ -3913,6 +4082,16 @@
       return {};
     }
 
+    function loadQuizPassState() {
+      const state = readStoredState(QUIZ_STORAGE_KEY);
+      return state && typeof state === 'object' ? state : {};
+    }
+
+    function saveQuizPassState() {
+      try { localStorage.setItem(QUIZ_STORAGE_KEY, JSON.stringify(quizPassState)); }
+      catch (e) {}
+    }
+
     function saveState() {
       const state = {};
       checkboxes.forEach(cb => { state[cb.dataset.kpId] = cb.checked; });
@@ -3925,6 +4104,9 @@
         try { localStorage.removeItem(key); }
         catch (e) {}
       });
+      try { localStorage.removeItem(QUIZ_STORAGE_KEY); }
+      catch (e) {}
+      quizPassState = {};
     }
 
     function updateProgress() {
@@ -4060,11 +4242,187 @@
       searchStatus.textContent = `Search active: showing ${matchedKP} matching Knowledge Point item(s). Clear search to restore the full document.`;
     }
 
+    function isQuizEnabled(kpId) {
+      return Boolean(quizData[kpId]?.questions?.length);
+    }
+
+    function getQuizCheckbox(kpId) {
+      return document.querySelector(`.kp-check[data-kp-id="${kpId}"]`);
+    }
+
+    function getQuizContainer(kpId) {
+      return getQuizCheckbox(kpId)?.closest('.kp');
+    }
+
+    function updateQuizStatus(kpId) {
+      const container = getQuizContainer(kpId);
+      if (!container) return;
+      const status = container.querySelector('.quiz-status');
+      const passed = Boolean(quizPassState[kpId]);
+      container.classList.toggle('quiz-passed', passed);
+      if (status) status.textContent = passed ? 'Passed' : 'Quiz required';
+    }
+
+    function syncQuizMath() {
+      if (window.MathJax?.typesetPromise) {
+        window.MathJax.typesetPromise([quizModal]).catch(() => {});
+      }
+    }
+
+    function renderQuiz(kpId) {
+      const quiz = quizData[kpId];
+      activeQuizKpId = kpId;
+      quizTitle.textContent = quiz.title || 'Knowledge Point Quiz';
+      quizSubtitle.textContent = 'Answer all 3 questions correctly to complete this Knowledge Point.';
+      quizRetry.hidden = true;
+      quizSubmit.hidden = false;
+      quizForm.innerHTML = quiz.questions.map((question, questionIndex) => {
+        const choices = question.choices.map((choice, choiceIndex) => `
+          <label class="quiz-choice">
+            <input type="radio" name="${question.id}" value="${choiceIndex}" required>
+            <span>${choice}</span>
+          </label>
+        `).join('');
+        return `
+          <fieldset class="quiz-question" data-question-id="${question.id}">
+            <h3>${questionIndex + 1}. ${question.prompt}</h3>
+            ${choices}
+            <div class="quiz-feedback" hidden></div>
+          </fieldset>
+        `;
+      }).join('');
+      if (quizPassState[kpId]) {
+        quizForm.insertAdjacentHTML('afterbegin', '<div class="quiz-feedback success">You have already passed this quiz. You can retry it for practice; passing again will keep this KP checked.</div>');
+      }
+      syncQuizMath();
+    }
+
+    function openQuiz(kpId) {
+      if (!isQuizEnabled(kpId)) return;
+      renderQuiz(kpId);
+      quizModal.hidden = false;
+      document.body.style.overflow = 'hidden';
+      quizSubmit.focus();
+    }
+
+    function closeQuiz() {
+      quizModal.hidden = true;
+      document.body.style.overflow = '';
+      activeQuizKpId = null;
+    }
+
+    function markQuizPassed(kpId) {
+      const checkbox = getQuizCheckbox(kpId);
+      if (!checkbox) return;
+      quizPassState[kpId] = true;
+      saveQuizPassState();
+      checkbox.checked = true;
+      updateQuizStatus(kpId);
+      saveState();
+      updateProgress();
+    }
+
+    function resetQuestionFeedback() {
+      quizForm.querySelectorAll('.quiz-question').forEach(fieldset => {
+        fieldset.classList.remove('is-correct', 'is-wrong');
+        const feedback = fieldset.querySelector('.quiz-feedback');
+        if (feedback) {
+          feedback.hidden = true;
+          feedback.className = 'quiz-feedback';
+          feedback.textContent = '';
+        }
+      });
+      quizForm.querySelectorAll('.quiz-feedback.success, .quiz-feedback.error').forEach(feedback => {
+        if (!feedback.closest('.quiz-question')) feedback.remove();
+      });
+    }
+
+    function submitQuiz(event) {
+      event.preventDefault();
+      if (!activeQuizKpId || !isQuizEnabled(activeQuizKpId)) return;
+      const quiz = quizData[activeQuizKpId];
+      resetQuestionFeedback();
+      let correctCount = 0;
+
+      quiz.questions.forEach(question => {
+        const fieldset = quizForm.querySelector(`[data-question-id="${question.id}"]`);
+        const selected = quizForm.querySelector(`input[name="${question.id}"]:checked`);
+        const selectedIndex = selected ? Number(selected.value) : -1;
+        const feedback = fieldset?.querySelector('.quiz-feedback');
+        const isCorrect = selectedIndex === question.correctIndex;
+        if (isCorrect) correctCount += 1;
+        fieldset?.classList.add(isCorrect ? 'is-correct' : 'is-wrong');
+        if (feedback) {
+          feedback.hidden = false;
+          feedback.classList.add(isCorrect ? 'success' : 'error');
+          const correctChoice = question.choices[question.correctIndex];
+          feedback.textContent = isCorrect
+            ? `Correct. ${question.explanation}`
+            : `Not yet. Correct answer: ${correctChoice}. ${question.explanation}`;
+        }
+      });
+
+      if (correctCount === quiz.questions.length) {
+        markQuizPassed(activeQuizKpId);
+        quizForm.insertAdjacentHTML('afterbegin', '<div class="quiz-feedback success">Passed: this Knowledge Point is now checked and saved.</div>');
+        quizSubmit.hidden = true;
+        quizRetry.hidden = false;
+      } else {
+        quizForm.insertAdjacentHTML('afterbegin', `<div class="quiz-feedback error">Score: ${correctCount}/${quiz.questions.length}. Review the feedback, then retry.</div>`);
+        quizRetry.hidden = false;
+      }
+      syncQuizMath();
+    }
+
+    function initializeQuizGate() {
+      Object.keys(quizData).forEach(kpId => {
+        const checkbox = getQuizCheckbox(kpId);
+        const container = checkbox?.closest('.kp');
+        const label = checkbox?.closest('.kp-main');
+        if (!checkbox || !container || !label) return;
+
+        if (checkbox.checked && !quizPassState[kpId]) {
+          quizPassState[kpId] = true;
+        }
+
+        container.classList.add('quiz-enabled');
+        checkbox.setAttribute('aria-label', `${label.textContent.trim()} quiz required`);
+        if (!label.querySelector('.quiz-status')) {
+          label.insertAdjacentHTML('beforeend', '<span class="quiz-status">Quiz required</span>');
+        }
+
+        container.addEventListener('click', event => {
+          event.preventDefault();
+          event.stopPropagation();
+          openQuiz(kpId);
+        }, true);
+
+        checkbox.addEventListener('keydown', event => {
+          if (event.key === ' ' || event.key === 'Enter') {
+            event.preventDefault();
+            openQuiz(kpId);
+          }
+        });
+
+        checkbox.checked = Boolean(quizPassState[kpId]);
+        updateQuizStatus(kpId);
+      });
+      saveQuizPassState();
+      saveState();
+    }
+
     const state = loadState();
     checkboxes.forEach(cb => {
       cb.checked = Boolean(state[cb.dataset.kpId]);
-      cb.addEventListener('change', () => { saveState(); updateProgress(); });
+      cb.addEventListener('change', () => {
+        if (isQuizEnabled(cb.dataset.kpId)) {
+          cb.checked = Boolean(quizPassState[cb.dataset.kpId]);
+        }
+        saveState();
+        updateProgress();
+      });
     });
+    initializeQuizGate();
     updateProgress();
 
     document.querySelectorAll('.collapse-toggle').forEach(btn => {
@@ -4081,10 +4439,24 @@
       if (confirm('Reset all checklist progress for this browser?')) {
         checkboxes.forEach(cb => cb.checked = false);
         clearStoredState();
+        Object.keys(quizData).forEach(updateQuizStatus);
         updateProgress();
       }
     });
     searchBox.addEventListener('input', applySearch);
+
+    quizForm.addEventListener('submit', submitQuiz);
+    quizRetry.addEventListener('click', () => {
+      if (activeQuizKpId) renderQuiz(activeQuizKpId);
+    });
+    quizClose.addEventListener('click', closeQuiz);
+    quizCancel.addEventListener('click', closeQuiz);
+    quizModal.addEventListener('click', event => {
+      if (event.target === quizModal) closeQuiz();
+    });
+    document.addEventListener('keydown', event => {
+      if (event.key === 'Escape' && !quizModal.hidden) closeQuiz();
+    });
 
     document.querySelectorAll('.topbar a[href^="#"]').forEach(link => {
       link.addEventListener('click', event => {
