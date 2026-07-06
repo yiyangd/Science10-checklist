@@ -7460,5 +7460,415 @@ window.SCIENCE10_QUIZZES = {
         explanation: "As Earth orbits the Sun, the nighttime side points toward different parts of space."
       }
     ]
+  },
+  "kp-483": {
+    title: "KP7: Retrograde motion",
+    questions: [
+      {
+        id: "kp-483-q1",
+        prompt: "What is retrograde motion?",
+        choices: [
+          "The apparent backward motion of a planet against background stars.",
+          "The Moon changing phase from night to night.",
+          "The Sun rising in the east each morning.",
+          "A star becoming permanently fixed to the horizon."
+        ],
+        correctIndex: 0,
+        explanation: "Retrograde motion is an apparent reversal in a planet's motion compared with the background stars."
+      },
+      {
+        id: "kp-483-q2",
+        prompt: "Why can Mars appear to slow, stop, and move backward for a while?",
+        choices: [
+          "Earth passes Mars in its faster inner orbit around the Sun.",
+          "Mars actually reverses its orbit around the Sun.",
+          "The stars move backward and pull Mars with them.",
+          "The Moon blocks Mars from moving forward."
+        ],
+        correctIndex: 0,
+        explanation: "The apparent motion happens because Earth and Mars are moving at different speeds in different orbits."
+      },
+      {
+        id: "kp-483-q3",
+        prompt: "Which model would best demonstrate retrograde motion?",
+        choices: [
+          "A faster student representing Earth overtakes a slower student representing Mars while pointing at Mars.",
+          "Two students stand still and never change position.",
+          "One student draws a random constellation with no planets.",
+          "A flashlight is turned off to show Moon phases."
+        ],
+        correctIndex: 0,
+        explanation: "The textbook activity models retrograde motion by having Earth overtake Mars."
+      }
+    ]
+  },
+  "kp-484": {
+    title: "KP8: Azimuth and altitude",
+    questions: [
+      {
+        id: "kp-484-q1",
+        prompt: "What does azimuth measure?",
+        choices: [
+          "Direction along the horizon measured from north.",
+          "Angular height above the horizon.",
+          "The brightness of a star.",
+          "The distance from Earth to Mars."
+        ],
+        correctIndex: 0,
+        explanation: "Azimuth is measured around the horizon, starting at north."
+      },
+      {
+        id: "kp-484-q2",
+        prompt: "What does altitude measure in sky navigation?",
+        choices: [
+          "Angular height above the horizon.",
+          "Direction clockwise from north.",
+          "The age of a constellation.",
+          "The colour of a planet."
+        ],
+        correctIndex: 0,
+        explanation: "Altitude tells how high a sky object appears above the horizon."
+      },
+      {
+        id: "kp-484-q3",
+        prompt: "A star is due east and 30 degrees above the horizon. Which description is correct?",
+        choices: [
+          "Azimuth about 90 degrees, altitude about 30 degrees.",
+          "Azimuth about 30 degrees, altitude about 90 degrees.",
+          "Azimuth about 180 degrees, altitude about 270 degrees.",
+          "Azimuth and altitude are both 0 degrees."
+        ],
+        correctIndex: 0,
+        explanation: "East is 90 degrees azimuth, and the height above the horizon is the altitude."
+      }
+    ]
+  },
+  "kp-485": {
+    title: "KP9: Hand-angle estimates",
+    questions: [
+      {
+        id: "kp-485-q1",
+        prompt: "At arm's length, about how many degrees does one fist represent?",
+        choices: [
+          "About 10 degrees.",
+          "About 1 degree.",
+          "About 90 degrees.",
+          "About 180 degrees."
+        ],
+        correctIndex: 0,
+        explanation: "The textbook gives one fist at arm's length as approximately 10 degrees."
+      },
+      {
+        id: "kp-485-q2",
+        prompt: "If the Moon is about two fists above the horizon, what is its estimated altitude?",
+        choices: [
+          "About 20 degrees.",
+          "About 2 degrees.",
+          "About 40 degrees.",
+          "About 100 degrees."
+        ],
+        correctIndex: 0,
+        explanation: "Each fist is about 10 degrees, so two fists is about 20 degrees."
+      },
+      {
+        id: "kp-485-q3",
+        prompt: "Why are hand-angle estimates only approximate?",
+        choices: [
+          "People's hands and arm lengths differ, and the method is a simple field estimate.",
+          "Angles cannot be estimated at all.",
+          "The sky object changes into a different object.",
+          "A fist always measures exactly 1 degree."
+        ],
+        correctIndex: 0,
+        explanation: "Hand measurements are useful but not as precise as instruments."
+      }
+    ]
+  },
+  "kp-486": {
+    title: "KP1: Ursa Major across cultures",
+    questions: [
+      {
+        id: "kp-486-q1",
+        prompt: "What does Ursa Major show about sky stories?",
+        choices: [
+          "The same star pattern can be interpreted differently across cultures and times.",
+          "Every culture sees exactly the same story in the stars.",
+          "Star patterns have no cultural meaning.",
+          "Only modern observers can identify the pattern."
+        ],
+        correctIndex: 0,
+        explanation: "The textbook gives many cultural interpretations of Ursa Major and the Big Dipper."
+      },
+      {
+        id: "kp-486-q2",
+        prompt: "Which example best matches the textbook's idea of multiple Ursa Major stories?",
+        choices: [
+          "Some traditions see a bear, while others see a gourd, a coffin, a wagon, or sages.",
+          "Everyone sees only a microscope.",
+          "No culture has ever named the pattern.",
+          "The pattern is visible only through a space telescope."
+        ],
+        correctIndex: 0,
+        explanation: "Ursa Major has been connected to many stories and meanings."
+      },
+      {
+        id: "kp-486-q3",
+        prompt: "Why may many older sky stories have been lost?",
+        choices: [
+          "They may not have been recorded, preserved, or passed on after cultural disruption.",
+          "No one ever looked at the northern sky.",
+          "Stars did not exist in the past.",
+          "All stories were automatically written in textbooks."
+        ],
+        correctIndex: 0,
+        explanation: "The textbook notes that many stories may never have been recorded or may have been lost."
+      }
+    ]
+  },
+  "kp-487": {
+    title: "KP2: Big Dipper and cultural meaning",
+    questions: [
+      {
+        id: "kp-487-q1",
+        prompt: "How can the Big Dipper have more than one meaning?",
+        choices: [
+          "Different cultures connect the same stars to different stories, objects, and lessons.",
+          "The stars rearrange into a new shape for every observer.",
+          "It is not visible to human eyes.",
+          "It has no connection to Ursa Major."
+        ],
+        correctIndex: 0,
+        explanation: "Meaning comes from cultural interpretation as well as observation."
+      },
+      {
+        id: "kp-487-q2",
+        prompt: "Which interpretation of the Big Dipper is an example of cultural meaning?",
+        choices: [
+          "A drinking gourd used as a guide in stories about travelling north.",
+          "A random list of unrelated letters.",
+          "A planet orbiting Earth.",
+          "A type of telescope mirror."
+        ],
+        correctIndex: 0,
+        explanation: "The textbook describes a drinking gourd interpretation connected to travel and escape."
+      },
+      {
+        id: "kp-487-q3",
+        prompt: "What misconception should be avoided when comparing Big Dipper stories?",
+        choices: [
+          "That only one cultural interpretation can have value.",
+          "That cultures tell stories about star patterns.",
+          "That star patterns can support memory.",
+          "That sky knowledge can be shared across generations."
+        ],
+        correctIndex: 0,
+        explanation: "Different interpretations can carry meaning, memory, and knowledge in different contexts."
+      }
+    ]
+  },
+  "kp-488": {
+    title: "KP3: Sky stories and navigation",
+    questions: [
+      {
+        id: "kp-488-q1",
+        prompt: "How can star stories preserve practical knowledge?",
+        choices: [
+          "They can encode direction, seasonal timing, and survival information in memorable forms.",
+          "They prevent people from using the sky.",
+          "They make all stars invisible.",
+          "They replace observation with random guesses only."
+        ],
+        correctIndex: 0,
+        explanation: "Stories can help transmit sky knowledge across generations."
+      },
+      {
+        id: "kp-488-q2",
+        prompt: "Which practical use connects the Big Dipper and Polaris?",
+        choices: [
+          "Finding north for navigation.",
+          "Measuring ocean acidity.",
+          "Predicting radioactive decay.",
+          "Building a cement wall."
+        ],
+        correctIndex: 0,
+        explanation: "The Big Dipper's pointer stars can help locate Polaris, which indicates north."
+      },
+      {
+        id: "kp-488-q3",
+        prompt: "Why might sky stories be especially useful before modern maps or GPS?",
+        choices: [
+          "They helped people remember reliable sky patterns for direction and seasonal activities.",
+          "They made navigation impossible.",
+          "They removed the need to observe the sky.",
+          "They were useful only inside buildings."
+        ],
+        correctIndex: 0,
+        explanation: "Sky patterns could serve as landmarks and calendars."
+      }
+    ]
+  },
+  "kp-489": {
+    title: "KP4: Astronomy and shared knowledge",
+    questions: [
+      {
+        id: "kp-489-q1",
+        prompt: "What does the history of star names show about astronomy?",
+        choices: [
+          "Astronomy is a shared human knowledge system shaped by many cultures.",
+          "Only one culture contributed to astronomy.",
+          "Star names have no history.",
+          "Modern astronomy began with no earlier knowledge."
+        ],
+        correctIndex: 0,
+        explanation: "Many official star names and sky traditions reflect contributions from different peoples, including astronomers of the Islamic world."
+      },
+      {
+        id: "kp-489-q2",
+        prompt: "Why is it important to recognize contributions from many peoples in astronomy?",
+        choices: [
+          "It shows that knowledge develops across cultures, languages, and historical periods.",
+          "It proves observation is unimportant.",
+          "It makes sky patterns less useful.",
+          "It removes the need for evidence."
+        ],
+        correctIndex: 0,
+        explanation: "Astronomy has grown through shared observations, records, names, and interpretations."
+      },
+      {
+        id: "kp-489-q3",
+        prompt: "Which example best reflects shared astronomical knowledge?",
+        choices: [
+          "Using Arabic star names, Greek constellation traditions, and Indigenous sky stories in one broader study.",
+          "Ignoring all star names from outside one classroom.",
+          "Claiming no one observed the sky before telescopes.",
+          "Treating cultural sky knowledge as unrelated to astronomy."
+        ],
+        correctIndex: 0,
+        explanation: "A richer understanding recognizes many knowledge traditions."
+      }
+    ]
+  },
+  "kp-490": {
+    title: "KP1: Star maps",
+    questions: [
+      {
+        id: "kp-490-q1",
+        prompt: "What does a star map show?",
+        choices: [
+          "Constellations and bright stars visible at a certain time of year and from a particular region.",
+          "The exact surface of every planet.",
+          "Only underground rock layers.",
+          "The chemical composition of clouds."
+        ],
+        correctIndex: 0,
+        explanation: "A star map helps observers identify stars and constellations visible from a specific viewing context."
+      },
+      {
+        id: "kp-490-q2",
+        prompt: "Why should a Canadian student use a northern hemisphere star map?",
+        choices: [
+          "Canada is in the northern hemisphere, so the map matches the visible sky better.",
+          "Southern hemisphere maps show exactly the same sky in every direction.",
+          "Star maps do not depend on location.",
+          "Canada has no visible constellations."
+        ],
+        correctIndex: 0,
+        explanation: "Latitude and hemisphere affect which stars and constellations are visible."
+      },
+      {
+        id: "kp-490-q3",
+        prompt: "Which mistake would make a star map less useful?",
+        choices: [
+          "Using a map made for a very different hemisphere or latitude without adjusting.",
+          "Checking the season on the map.",
+          "Looking for bright stars as guides.",
+          "Comparing the map with the actual sky."
+        ],
+        correctIndex: 0,
+        explanation: "A star map must fit the observer's location and time to be accurate."
+      }
+    ]
+  },
+  "kp-491": {
+    title: "KP2: Big Dipper as a guide",
+    questions: [
+      {
+        id: "kp-491-q1",
+        prompt: "How can the Big Dipper help locate Polaris?",
+        choices: [
+          "Use the two pointer stars at the far side of the bowl to trace a line toward Polaris.",
+          "Use Orion's belt to point directly south at all times.",
+          "Use the Moon's shadow to locate Polaris.",
+          "Use the Big Dipper only during daytime."
+        ],
+        correctIndex: 0,
+        explanation: "The investigation uses the Big Dipper's pointer stars to find Polaris."
+      },
+      {
+        id: "kp-491-q2",
+        prompt: "After finding Polaris on a star map, which constellation can be identified nearby?",
+        choices: [
+          "The Little Dipper.",
+          "Scorpius only.",
+          "The Sun.",
+          "A meteor shower."
+        ],
+        correctIndex: 0,
+        explanation: "Polaris is at the tip of the Little Dipper's handle."
+      },
+      {
+        id: "kp-491-q3",
+        prompt: "What is the purpose of drawing dashed pointer lines on a star map?",
+        choices: [
+          "To show how one known pattern can guide you to another star or constellation.",
+          "To erase constellations from the map.",
+          "To show that stars do not have positions.",
+          "To mark where clouds will appear."
+        ],
+        correctIndex: 0,
+        explanation: "Pointer lines are a practical way to navigate from familiar star patterns to less familiar ones."
+      }
+    ]
+  },
+  "kp-492": {
+    title: "KP3: Seasonal constellations",
+    questions: [
+      {
+        id: "kp-492-q1",
+        prompt: "Why are different constellations visible during different seasons?",
+        choices: [
+          "Earth's revolution around the Sun changes which stars are in the night sky.",
+          "Constellations move closer to Earth each season.",
+          "Stars turn on and off by month.",
+          "The Moon removes winter constellations."
+        ],
+        correctIndex: 0,
+        explanation: "As Earth orbits the Sun, nighttime points toward different regions of space."
+      },
+      {
+        id: "kp-492-q2",
+        prompt: "What information on a star map helps identify seasonal constellations?",
+        choices: [
+          "The month or season when a constellation is best viewed.",
+          "The mass of each observer.",
+          "The price of a telescope.",
+          "The number of clouds tomorrow."
+        ],
+        correctIndex: 0,
+        explanation: "Star maps often indicate which constellations are visible at certain times of year."
+      },
+      {
+        id: "kp-492-q3",
+        prompt: "A student looks for Orion using a northern sky map in summer and cannot find it. What is the best explanation?",
+        choices: [
+          "Some constellations are seasonal and may not be visible in the night sky then.",
+          "Orion is not a constellation.",
+          "The stars in Orion disappear permanently in summer.",
+          "Orion can only be seen by radio telescopes."
+        ],
+        correctIndex: 0,
+        explanation: "Seasonal visibility changes because Earth's position in orbit changes the nighttime view."
+      }
+    ]
   }
 };
