@@ -2868,5 +2868,415 @@ window.SCIENCE10_QUIZZES = {
         explanation: "The amount of incoming solar energy affects how much useful energy the system can transform or store."
       }
     ]
+  },
+  "kp-371": {
+    title: "KP2: Molten salt as thermal storage",
+    questions: [
+      {
+        id: "kp-371-q1",
+        prompt: "What is the main role of molten salt in a solar tower power system?",
+        choices: [
+          "It absorbs solar energy transformed into thermal energy and stores it for later use.",
+          "It reflects all sunlight back into space without warming.",
+          "It turns directly into electrical wires.",
+          "It prevents steam from forming in the power plant."
+        ],
+        correctIndex: 0,
+        explanation: "Mirrors focus sunlight onto the tower, where molten salt absorbs energy and stores it as thermal energy."
+      },
+      {
+        id: "kp-371-q2",
+        prompt: "Which energy pathway best describes the first part of molten-salt storage?",
+        choices: [
+          "Solar energy -> reflected and concentrated light -> thermal energy in molten salt.",
+          "Sound energy -> nuclear energy -> molten salt.",
+          "Chemical potential energy -> visible light -> frozen salt.",
+          "Electrical energy -> gravitational potential energy -> sunlight."
+        ],
+        correctIndex: 0,
+        explanation: "The mirrors concentrate incoming solar radiation so the salt becomes hot and stores thermal energy."
+      },
+      {
+        id: "kp-371-q3",
+        prompt: "Why is molten salt useful for storage compared with using sunlight directly at the moment it arrives?",
+        choices: [
+          "The stored thermal energy can be held and used when sunlight is not available.",
+          "It creates solar energy at night from nothing.",
+          "It eliminates all need for turbines.",
+          "It changes radiation into alpha particles."
+        ],
+        correctIndex: 0,
+        explanation: "Storage separates the time energy is collected from the time it is used to generate electricity."
+      }
+    ]
+  },
+  "kp-372": {
+    title: "KP3: Stored thermal energy to electricity",
+    questions: [
+      {
+        id: "kp-372-q1",
+        prompt: "How can stored thermal energy in molten salt eventually become electrical energy?",
+        choices: [
+          "It heats water into steam, the steam turns a turbine, and a generator produces electricity.",
+          "It freezes into crystals that emit electrical current.",
+          "It reflects moonlight into a battery without a generator.",
+          "It changes directly into gasoline for turbines."
+        ],
+        correctIndex: 0,
+        explanation: "The stored thermal energy is transferred to water, producing steam that drives turbines connected to generators."
+      },
+      {
+        id: "kp-372-q2",
+        prompt: "A solar plant stores enough thermal energy to keep generating electricity for 5 hours after sunset. What problem is this solving?",
+        choices: [
+          "Solar input drops after sunset, but stored thermal energy can continue the electricity-generation process.",
+          "Sunlight becomes stronger at night.",
+          "Steam cannot move turbines during the day.",
+          "Thermal energy cannot be transferred to water."
+        ],
+        correctIndex: 0,
+        explanation: "Stored heat allows electricity generation to continue when incoming solar radiation is low or absent."
+      },
+      {
+        id: "kp-372-q3",
+        prompt: "Which statement best distinguishes energy storage from energy generation in the molten-salt system?",
+        choices: [
+          "Storage keeps energy as thermal energy; generation uses that thermal energy to make steam and electricity.",
+          "Storage destroys thermal energy; generation creates it again.",
+          "Storage uses fission, while generation uses photosynthesis.",
+          "Storage and generation are exactly the same step."
+        ],
+        correctIndex: 0,
+        explanation: "The system first stores thermal energy, then later transfers and transforms it to generate electrical energy."
+      }
+    ]
+  },
+  "kp-373": {
+    title: "KP1: Solar cooker design",
+    questions: [
+      {
+        id: "kp-373-q1",
+        prompt: "What is the main design goal of a solar cooker in Investigation 3-D?",
+        choices: [
+          "Concentrate and absorb solar energy safely to heat water or food.",
+          "Block all sunlight from reaching the water.",
+          "Use nuclear fusion to boil water.",
+          "Keep the container cooler than the surrounding air."
+        ],
+        correctIndex: 0,
+        explanation: "The investigation asks students to design an apparatus that uses solar energy to boil water."
+      },
+      {
+        id: "kp-373-q2",
+        prompt: "Which design feature would most likely improve a solar cooker's heating ability?",
+        choices: [
+          "A reflective shape that directs sunlight toward a dark water container.",
+          "A transparent container hidden completely in shade.",
+          "A flat black surface pointed away from the Sun.",
+          "A design that lets the water spill out before testing."
+        ],
+        correctIndex: 0,
+        explanation: "Reflecting and concentrating sunlight toward an absorbing container increases energy transfer to the water."
+      },
+      {
+        id: "kp-373-q3",
+        prompt: "Why should safety precautions be included in a solar cooker design?",
+        choices: [
+          "The setup may concentrate sunlight and generate high temperatures.",
+          "Solar cookers prevent all heating.",
+          "Sunlight is not a form of energy.",
+          "Water cannot absorb thermal energy."
+        ],
+        correctIndex: 0,
+        explanation: "The investigation notes that materials can generate heat, so careful handling and safe design matter."
+      }
+    ]
+  },
+  "kp-374": {
+    title: "KP2: Energy transfer and transformation",
+    questions: [
+      {
+        id: "kp-374-q1",
+        prompt: "Which energy sequence best describes a solar cooker heating water?",
+        choices: [
+          "Solar radiation is reflected and absorbed, transformed into thermal energy, and transferred to the water.",
+          "Thermal energy becomes nuclear energy, then reflects as sound.",
+          "Electrical energy from a wall outlet becomes sunlight.",
+          "Water creates solar energy after it boils."
+        ],
+        correctIndex: 0,
+        explanation: "A solar cooker uses reflection, absorption, transformation into thermal energy, and transfer to the water or food."
+      },
+      {
+        id: "kp-374-q2",
+        prompt: "How can cooker shape affect heating?",
+        choices: [
+          "Shape can change how much sunlight is directed toward the container.",
+          "Shape changes the Sun's energy output.",
+          "Shape prevents absorption from happening.",
+          "Shape turns water into a radioactive isotope."
+        ],
+        correctIndex: 0,
+        explanation: "A good shape can concentrate more incoming solar energy on the target."
+      },
+      {
+        id: "kp-374-q3",
+        prompt: "Which change would most likely reduce heat transfer to the water?",
+        choices: [
+          "Pointing the reflective surface away from the Sun.",
+          "Orienting the cooker to capture direct sunlight.",
+          "Using a container that absorbs light effectively.",
+          "Keeping the water stable at the focus point."
+        ],
+        correctIndex: 0,
+        explanation: "If the cooker is not aimed at the Sun, less solar energy reaches and heats the water."
+      }
+    ]
+  },
+  "kp-375": {
+    title: "KP3: Design testing and improvement",
+    questions: [
+      {
+        id: "kp-375-q1",
+        prompt: "Which measurement would be useful evidence for comparing solar cooker designs?",
+        choices: [
+          "Time needed to reach a target water temperature.",
+          "The number of vowels in the team name.",
+          "The colour of the worksheet only.",
+          "Whether the design was sketched in pencil."
+        ],
+        correctIndex: 0,
+        explanation: "Boiling time or temperature change provides evidence for evaluating cooker performance."
+      },
+      {
+        id: "kp-375-q2",
+        prompt: "A team's cooker heats water from 20°C to 58°C in 15 minutes. After changing the reflector angle, it reaches 72°C in 15 minutes. What does this suggest?",
+        choices: [
+          "The new angle likely improved the transfer of solar energy to the water.",
+          "The design became worse because the temperature rose.",
+          "Energy was destroyed by the reflector.",
+          "No conclusion can ever be drawn from temperature data."
+        ],
+        correctIndex: 0,
+        explanation: "A larger temperature increase over the same time suggests the design transferred more energy to the water."
+      },
+      {
+        id: "kp-375-q3",
+        prompt: "Why compare results across different solar cooker designs?",
+        choices: [
+          "Design features from better-performing cookers can guide improvements.",
+          "Comparing results removes the need for evidence.",
+          "Only the first design should ever be tested.",
+          "All cookers must perform identically."
+        ],
+        correctIndex: 0,
+        explanation: "Engineering design improves through testing, comparison, and modifying variables."
+      }
+    ]
+  },
+  "kp-376": {
+    title: "KP1: Comparing nuclear processes",
+    questions: [
+      {
+        id: "kp-376-q1",
+        prompt: "Which comparison between fission and fusion is correct?",
+        choices: [
+          "Fission splits heavy nuclei; fusion combines light nuclei.",
+          "Fission combines light nuclei; fusion splits heavy nuclei.",
+          "Both are ordinary chemical reactions involving only electron sharing.",
+          "Both require chlorophyll to absorb light."
+        ],
+        correctIndex: 0,
+        explanation: "The investigation asks students to compare these nuclear processes by reaction type and conditions."
+      },
+      {
+        id: "kp-376-q2",
+        prompt: "Which factor belongs in a clear fission-versus-fusion comparison table?",
+        choices: [
+          "Reaction type, conditions required, products, energy output, and waste.",
+          "Only the colour of diagrams used.",
+          "Only whether the presenter likes the topic.",
+          "Only the number of slides in the presentation."
+        ],
+        correctIndex: 0,
+        explanation: "A useful comparison includes scientific features and practical consequences."
+      },
+      {
+        id: "kp-376-q3",
+        prompt: "Why is it misleading to say fission and fusion are basically the same?",
+        choices: [
+          "They both involve nuclei, but they differ in reaction process, conditions, products, and current use.",
+          "They never release energy.",
+          "They are both photosynthesis reactions.",
+          "They both happen only in batteries."
+        ],
+        correctIndex: 0,
+        explanation: "They are both nuclear processes, but their mechanisms and practical issues are different."
+      }
+    ]
+  },
+  "kp-377": {
+    title: "KP2: Nuclear energy decisions",
+    questions: [
+      {
+        id: "kp-377-q1",
+        prompt: "Why is fission currently used for electricity generation more than fusion?",
+        choices: [
+          "Fission chain reactions can be controlled in reactors, while controlled fusion remains technically difficult.",
+          "Fusion releases no energy.",
+          "Fission requires no safety systems or waste planning.",
+          "Fusion is just another name for burning coal."
+        ],
+        correctIndex: 0,
+        explanation: "Current nuclear power relies on controlled fission; fusion energy is still a major research challenge."
+      },
+      {
+        id: "kp-377-q2",
+        prompt: "Which question is important when deciding whether to support fusion research?",
+        choices: [
+          "Can the technology be controlled safely and reliably enough to generate useful electricity?",
+          "Can fusion avoid all physics?",
+          "Can fusion work without nuclei?",
+          "Can a presentation replace scientific evidence?"
+        ],
+        correctIndex: 0,
+        explanation: "Nuclear energy decisions should consider control, safety, reliability, energy output, and byproducts."
+      },
+      {
+        id: "kp-377-q3",
+        prompt: "Which statement is balanced when comparing fission and fusion for future electricity?",
+        choices: [
+          "Fission is currently practical but has waste and risk issues; fusion has potential benefits but is hard to control.",
+          "Fusion is already the only electrical source used worldwide.",
+          "Fission has no risks, limitations, or waste products.",
+          "Neither process involves energy transformation."
+        ],
+        correctIndex: 0,
+        explanation: "A balanced decision recognizes both current practicality and unresolved limitations."
+      }
+    ]
+  },
+  "kp-378": {
+    title: "KP3: Public communication about nuclear energy",
+    questions: [
+      {
+        id: "kp-378-q1",
+        prompt: "What makes a public explanation of fission and fusion effective?",
+        choices: [
+          "It is accurate, balanced, audience-appropriate, and supported by evidence.",
+          "It uses dramatic claims without explaining evidence.",
+          "It ignores risks so the topic seems simpler.",
+          "It copies technical terms without defining them."
+        ],
+        correctIndex: 0,
+        explanation: "The investigation emphasizes communication to stakeholders, so clarity and balance matter."
+      },
+      {
+        id: "kp-378-q2",
+        prompt: "A presentation to possible funders explains only benefits of fusion and ignores technical limits. What is the weakness?",
+        choices: [
+          "It is not balanced because it omits important limitations and uncertainty.",
+          "It is too scientific because it mentions benefits.",
+          "It is stronger because risks should never be discussed.",
+          "It proves fusion already works commercially."
+        ],
+        correctIndex: 0,
+        explanation: "Scientific communication should compare benefits, risks, limitations, and future possibilities honestly."
+      },
+      {
+        id: "kp-378-q3",
+        prompt: "Which choice best adapts a nuclear-energy explanation for a community audience?",
+        choices: [
+          "Use clear language, define fission and fusion, and connect benefits and risks to community concerns.",
+          "Use only equations and no explanation.",
+          "Avoid mentioning how the reactions differ.",
+          "Use the same technical script for every audience."
+        ],
+        correctIndex: 0,
+        explanation: "Audience-appropriate communication makes the science understandable without removing accuracy."
+      }
+    ]
+  },
+  "kp-379": {
+    title: "KP1: Earth as a system",
+    questions: [
+      {
+        id: "kp-379-q1",
+        prompt: "Why can Earth be considered a system in science?",
+        choices: [
+          "Earth's connected processes can be observed and analyzed together.",
+          "Earth has no surroundings under any definition.",
+          "Earth contains no energy transformations.",
+          "Earth processes are too separate to study."
+        ],
+        correctIndex: 0,
+        explanation: "A system is anything under observation, and Earth processes can be studied as interacting parts of one system."
+      },
+      {
+        id: "kp-379-q2",
+        prompt: "Which example best shows why defining the system matters?",
+        choices: [
+          "Studying a watershed as the system helps track energy and water movement within that area.",
+          "Choosing a system makes energy stop moving.",
+          "The system must always be the entire universe.",
+          "A system cannot include living and nonliving parts together."
+        ],
+        correctIndex: 0,
+        explanation: "Defining the system sets boundaries for tracking processes and energy transformations."
+      },
+      {
+        id: "kp-379-q3",
+        prompt: "Which statement best describes Earth system thinking?",
+        choices: [
+          "Processes such as weather, tides, volcanoes, and life can be analyzed through energy transformations.",
+          "Only living things on Earth use energy.",
+          "Earth's processes happen without energy input or transformation.",
+          "Energy transformations occur only in laboratories."
+        ],
+        correctIndex: 0,
+        explanation: "Chapter 3.3 introduces Earth as a system shaped by many energy transformations."
+      }
+    ]
+  },
+  "kp-380": {
+    title: "KP2: Energy transformations in Earth processes",
+    questions: [
+      {
+        id: "kp-380-q1",
+        prompt: "Which Earth process clearly depends on energy transformation?",
+        choices: [
+          "Wind forming as solar energy contributes to uneven heating and air movement.",
+          "A rock label sitting on a shelf.",
+          "A map being folded without any Earth process.",
+          "A page number printed in a textbook."
+        ],
+        correctIndex: 0,
+        explanation: "Wind and weather are visible Earth processes linked to energy transformations."
+      },
+      {
+        id: "kp-380-q2",
+        prompt: "Which set contains processes named in the textbook as relying on energy transformation?",
+        choices: [
+          "Wind, weather, tides, currents, volcanic activity, mountain building, and life processes.",
+          "Only computer screens and pencil sharpening.",
+          "Only chemical reactions inside batteries.",
+          "Only artificial lights in buildings."
+        ],
+        correctIndex: 0,
+        explanation: "These examples are introduced as Earth processes that depend on energy transformations."
+      },
+      {
+        id: "kp-380-q3",
+        prompt: "A volcano erupts and releases thermal energy from inside Earth. Which energy source is most connected to this process in Chapter 3.3?",
+        choices: [
+          "Nuclear energy from radioactive decay transformed into thermal energy.",
+          "Sound energy from ocean waves transformed into light.",
+          "Solar energy stored in a battery pack only.",
+          "Chemical energy from photosynthesis in leaves."
+        ],
+        correctIndex: 0,
+        explanation: "The textbook connects radioactive decay in Earth's crust and mantle to thermal energy that drives volcanic and tectonic processes."
+      }
+    ]
   }
 };
