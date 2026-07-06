@@ -613,5 +613,415 @@ window.SCIENCE10_QUIZZES = {
         explanation: "Sound energy is carried by vibrations moving through matter such as air."
       }
     ]
+  },
+  "kp-316": {
+    title: "KP6: Forms of potential energy",
+    questions: [
+      {
+        id: "kp-316-q1",
+        prompt: "Which example is best matched with a form of potential energy?",
+        choices: [
+          "A moving skateboard: chemical potential energy.",
+          "A stretched bowstring: elastic potential energy.",
+          "A ringing bell: gravitational potential energy.",
+          "A flashlight beam: magnetic potential energy."
+        ],
+        correctIndex: 1,
+        explanation: "A stretched object stores elastic potential energy because of its changed shape."
+      },
+      {
+        id: "kp-316-q2",
+        prompt: "Food, gasoline, and batteries are most closely associated with which stored energy category?",
+        choices: [
+          "Chemical potential energy.",
+          "Sound energy.",
+          "Mechanical kinetic energy.",
+          "Radiant energy."
+        ],
+        correctIndex: 0,
+        explanation: "Food, fuels, and batteries store energy in chemical arrangements that can later be transformed."
+      },
+      {
+        id: "kp-316-q3",
+        prompt: "Which statement corrects a common misconception about potential energy?",
+        choices: [
+          "Potential energy only exists when an object is high above the ground.",
+          "Potential energy can be stored in several ways, including gravitational, chemical, elastic, magnetic, electrical, and nuclear forms.",
+          "Potential energy is always the same as sound energy.",
+          "Potential energy disappears whenever a system is not moving."
+        ],
+        correctIndex: 1,
+        explanation: "Height is only one way to store potential energy; many arrangements or conditions can store energy."
+      }
+    ]
+  },
+  "kp-317": {
+    title: "KP7: Energy in multiple forms",
+    questions: [
+      {
+        id: "kp-317-q1",
+        prompt: "A cyclist is moving along a road that is above sea level. Which energy description is most complete?",
+        choices: [
+          "The cyclist has only potential energy because the cyclist is above a reference point.",
+          "The cyclist has only kinetic energy because the cyclist is moving.",
+          "The cyclist can have both kinetic energy from motion and gravitational potential energy from height.",
+          "The cyclist cannot have energy unless the bicycle has a motor."
+        ],
+        correctIndex: 2,
+        explanation: "A system can have kinetic energy and potential energy at the same time."
+      },
+      {
+        id: "kp-317-q2",
+        prompt: "At the top of a roller coaster hill, the car is still moving forward. Which statement is most accurate?",
+        choices: [
+          "It has no kinetic energy because it is high.",
+          "It has no potential energy because it is moving.",
+          "It may have both kinetic energy and gravitational potential energy.",
+          "It has only sound energy."
+        ],
+        correctIndex: 2,
+        explanation: "Height can store gravitational potential energy while motion gives the car kinetic energy."
+      },
+      {
+        id: "kp-317-q3",
+        prompt: "Why is it useful to choose a reference point when analyzing an object's energy?",
+        choices: [
+          "The reference point helps decide the object's gravitational potential energy.",
+          "The reference point makes kinetic energy disappear.",
+          "The reference point changes the object's mass.",
+          "The reference point prevents energy transformation."
+        ],
+        correctIndex: 0,
+        explanation: "Gravitational potential energy depends on height relative to a chosen reference position."
+      }
+    ]
+  },
+  "kp-318": {
+    title: "KP1: Law of conservation of energy",
+    questions: [
+      {
+        id: "kp-318-q1",
+        prompt: "Which statement best expresses the law of conservation of energy?",
+        choices: [
+          "Energy can be created whenever a machine starts.",
+          "Energy is neither created nor destroyed; it is transferred or transformed.",
+          "Energy always becomes useful work.",
+          "Energy exists only in living things."
+        ],
+        correctIndex: 1,
+        explanation: "The law of conservation of energy says total energy is conserved even when it changes form or location."
+      },
+      {
+        id: "kp-318-q2",
+        prompt: "A ball rolls down a hill and speeds up. Which explanation fits energy conservation?",
+        choices: [
+          "Energy is created inside the ball as it rolls.",
+          "Gravitational potential energy is transformed into kinetic energy, with total energy still conserved.",
+          "All energy is destroyed by motion.",
+          "The ball has no energy because it is not plugged in."
+        ],
+        correctIndex: 1,
+        explanation: "Energy can change from stored gravitational energy into motion while the total amount is accounted for."
+      },
+      {
+        id: "kp-318-q3",
+        prompt: "A student says, \"The energy was lost because the device became warm and noisy.\" What is the best correction?",
+        choices: [
+          "The energy was destroyed because warmth and sound are not energy forms.",
+          "The energy was probably transformed or transferred into thermal energy and sound energy.",
+          "The device created matter from energy.",
+          "Energy conservation applies only to chemical reactions."
+        ],
+        correctIndex: 1,
+        explanation: "Energy that is not useful for the intended task can still exist as thermal or sound energy."
+      }
+    ]
+  },
+  "kp-319": {
+    title: "KP2: Energy transformation",
+    questions: [
+      {
+        id: "kp-319-q1",
+        prompt: "What happens during an energy transformation?",
+        choices: [
+          "Energy changes from one form to another.",
+          "Energy moves to another object but stays in the same form.",
+          "Matter is always created.",
+          "Only kinetic energy can exist."
+        ],
+        correctIndex: 0,
+        explanation: "Energy transformation means the form of energy changes."
+      },
+      {
+        id: "kp-319-q2",
+        prompt: "Which example best shows chemical potential energy transforming into other forms?",
+        choices: [
+          "One pool ball passes motion to another pool ball.",
+          "A battery powers a flashlight, producing light and warming the bulb.",
+          "A book rests on a shelf without moving.",
+          "A cold spoon is placed beside another cold spoon."
+        ],
+        correctIndex: 1,
+        explanation: "The battery's stored chemical energy changes into electrical, radiant, and thermal energy."
+      },
+      {
+        id: "kp-319-q3",
+        prompt: "Which statement distinguishes transformation from transfer?",
+        choices: [
+          "Transformation changes energy form; transfer moves energy between objects or places.",
+          "Transformation always destroys energy; transfer always creates energy.",
+          "Transformation can occur only in isolated systems.",
+          "Transfer means changing chemical energy into light."
+        ],
+        correctIndex: 0,
+        explanation: "Transformation is about form change, while transfer is about movement of energy."
+      }
+    ]
+  },
+  "kp-320": {
+    title: "KP3: Energy transfer",
+    questions: [
+      {
+        id: "kp-320-q1",
+        prompt: "What is energy transfer?",
+        choices: [
+          "Energy changing from one form to another.",
+          "Energy moving from one object or place to another while staying in the same form.",
+          "Energy being created by a system.",
+          "Energy becoming mass."
+        ],
+        correctIndex: 1,
+        explanation: "Energy transfer is movement of energy between objects or locations without necessarily changing form."
+      },
+      {
+        id: "kp-320-q2",
+        prompt: "Which situation is the clearest example of energy transfer?",
+        choices: [
+          "A pool ball hits another pool ball, passing mechanical kinetic energy to it.",
+          "A battery changes chemical energy into electrical energy.",
+          "A speaker changes electrical energy into sound energy.",
+          "Gasoline burns and produces heat and light."
+        ],
+        correctIndex: 0,
+        explanation: "The energy moves from one ball to another while remaining mechanical kinetic energy."
+      },
+      {
+        id: "kp-320-q3",
+        prompt: "A warm tile heats a cooler bare foot. Which description is most accurate?",
+        choices: [
+          "Thermal energy is transferred from the warmer tile to the cooler foot.",
+          "The foot creates new thermal energy from nothing.",
+          "The tile loses all matter during the contact.",
+          "This is nuclear energy because temperature changed."
+        ],
+        correctIndex: 0,
+        explanation: "Heat is thermal energy transferred because of a temperature difference."
+      }
+    ]
+  },
+  "kp-321": {
+    title: "KP4: Useful and unusable energy",
+    questions: [
+      {
+        id: "kp-321-q1",
+        prompt: "Why is no energy transformation 100% efficient for a chosen task?",
+        choices: [
+          "Some energy usually becomes less useful forms such as thermal energy or sound.",
+          "Energy is always destroyed during a transformation.",
+          "Useful energy cannot be measured.",
+          "Only living systems can transform energy efficiently."
+        ],
+        correctIndex: 0,
+        explanation: "Energy is conserved, but not all transformed energy remains useful for the intended purpose."
+      },
+      {
+        id: "kp-321-q2",
+        prompt: "An electric motor becomes warm and makes noise while lifting a small load. What does this suggest?",
+        choices: [
+          "Some input energy became thermal and sound energy instead of useful lifting work.",
+          "The motor broke the law of conservation of energy.",
+          "All energy was converted into gravitational potential energy.",
+          "Thermal energy is not involved in machines."
+        ],
+        correctIndex: 0,
+        explanation: "Warmth and sound are common byproducts that make less energy available for the intended task."
+      },
+      {
+        id: "kp-321-q3",
+        prompt: "Which statement best uses the word 'unusable' in this context?",
+        choices: [
+          "Unusable energy no longer exists.",
+          "Unusable energy is energy that is less helpful for the task being analyzed.",
+          "Unusable energy always turns into matter.",
+          "Unusable energy can only be found in batteries."
+        ],
+        correctIndex: 1,
+        explanation: "Unusable does not mean destroyed; it means less useful for the chosen purpose."
+      }
+    ]
+  },
+  "kp-322": {
+    title: "KP5: Energy and system types",
+    questions: [
+      {
+        id: "kp-322-q1",
+        prompt: "Which description correctly matches a system type?",
+        choices: [
+          "Open system: exchanges both matter and energy with surroundings.",
+          "Closed system: exchanges neither matter nor energy.",
+          "Isolated system: exchanges matter but not energy.",
+          "Open system: exchanges only energy but not matter."
+        ],
+        correctIndex: 0,
+        explanation: "An open system can exchange both matter and energy with its surroundings."
+      },
+      {
+        id: "kp-322-q2",
+        prompt: "A sealed metal can is heated from the outside. Matter cannot leave the can, but energy enters. What type of system is this closest to?",
+        choices: [
+          "Closed system.",
+          "Open system.",
+          "Isolated system.",
+          "A system with no boundary."
+        ],
+        correctIndex: 0,
+        explanation: "A closed system can exchange energy but not matter."
+      },
+      {
+        id: "kp-322-q3",
+        prompt: "Which statement corrects a common misconception about isolated systems?",
+        choices: [
+          "An isolated system exchanges neither matter nor energy with its surroundings.",
+          "An isolated system is the same as any open container.",
+          "An isolated system exchanges matter but never energy.",
+          "An isolated system can only exist if it is hot."
+        ],
+        correctIndex: 0,
+        explanation: "By definition, an isolated system does not exchange matter or energy with the surroundings."
+      }
+    ]
+  },
+  "kp-323": {
+    title: "KP6: System-surroundings energy exchange",
+    questions: [
+      {
+        id: "kp-323-q1",
+        prompt: "If a system releases energy, what happens to the surroundings?",
+        choices: [
+          "The surroundings absorb that energy.",
+          "The surroundings must lose the same amount of matter.",
+          "The surroundings are no longer part of the analysis.",
+          "The surroundings destroy the energy."
+        ],
+        correctIndex: 0,
+        explanation: "Energy leaving a system enters the surroundings."
+      },
+      {
+        id: "kp-323-q2",
+        prompt: "A cold pack absorbs thermal energy from an injured ankle. If the cold pack is the system, what is happening?",
+        choices: [
+          "The system absorbs energy from the surroundings.",
+          "The system creates new energy.",
+          "The surroundings absorb energy from the system.",
+          "No energy exchange occurs because the pack is cold."
+        ],
+        correctIndex: 0,
+        explanation: "When the cold pack absorbs energy, that energy comes from its surroundings, including the ankle."
+      },
+      {
+        id: "kp-323-q3",
+        prompt: "Why is it important to identify the system before describing energy exchange?",
+        choices: [
+          "It tells whether energy is entering or leaving the chosen system.",
+          "It makes energy transfer impossible.",
+          "It changes all energy into sound.",
+          "It removes the surroundings from reality."
+        ],
+        correctIndex: 0,
+        explanation: "The direction of energy exchange depends on what you choose as the system."
+      }
+    ]
+  },
+  "kp-324": {
+    title: "KP7: Transfer and transformation together",
+    questions: [
+      {
+        id: "kp-324-q1",
+        prompt: "Which situation includes both energy transfer and energy transformation?",
+        choices: [
+          "A light bulb receives electrical energy and produces light and thermal energy.",
+          "A single book remains still on a desk.",
+          "A label is printed on a closed box.",
+          "A ruler is measured without being moved."
+        ],
+        correctIndex: 0,
+        explanation: "Energy moves into the bulb and changes form into radiant and thermal energy."
+      },
+      {
+        id: "kp-324-q2",
+        prompt: "In a catapult, elastic potential energy in a stretched band launches a small object. What happens?",
+        choices: [
+          "Stored elastic energy transforms into kinetic energy and transfers to the object.",
+          "Energy is created only after the object leaves the catapult.",
+          "Only energy transfer occurs; no form changes.",
+          "Only energy transformation occurs; no energy moves to the object."
+        ],
+        correctIndex: 0,
+        explanation: "The stored elastic energy changes form and is passed to the moving object."
+      },
+      {
+        id: "kp-324-q3",
+        prompt: "Why can real examples be harder to classify than textbook diagrams?",
+        choices: [
+          "They often involve several transfers and transformations at the same time.",
+          "They never obey energy conservation.",
+          "They contain no systems or surroundings.",
+          "They always involve only one object and one energy form."
+        ],
+        correctIndex: 0,
+        explanation: "Real systems often combine movement of energy with changes in energy form."
+      }
+    ]
+  },
+  "kp-325": {
+    title: "KP1: Physical quantities and energy",
+    questions: [
+      {
+        id: "kp-325-q1",
+        prompt: "Why do physical quantities matter when comparing energy in two systems?",
+        choices: [
+          "Different forms of energy depend on different variables.",
+          "Energy comparisons never require measurements.",
+          "Only color affects energy.",
+          "All energy forms depend on exactly the same variable."
+        ],
+        correctIndex: 0,
+        explanation: "You need to know which variables affect the energy form being compared."
+      },
+      {
+        id: "kp-325-q2",
+        prompt: "Which pair of quantities is most relevant when comparing mechanical kinetic energy?",
+        choices: [
+          "Mass and speed.",
+          "Color and shape.",
+          "Name and age.",
+          "Sound pitch and brightness."
+        ],
+        correctIndex: 0,
+        explanation: "Mechanical kinetic energy depends on mass and velocity."
+      },
+      {
+        id: "kp-325-q3",
+        prompt: "A student compares gravitational potential energy but ignores height. What is the problem?",
+        choices: [
+          "Height is one of the important variables for gravitational potential energy.",
+          "Height matters only for sound energy.",
+          "Gravitational potential energy depends only on color.",
+          "Ignoring height makes energy conservation unnecessary."
+        ],
+        correctIndex: 0,
+        explanation: "Gravitational potential energy depends on variables including mass, gravity, and height change."
+      }
+    ]
   }
 };
