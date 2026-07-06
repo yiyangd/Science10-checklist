@@ -3688,5 +3688,415 @@ window.SCIENCE10_QUIZZES = {
         explanation: "Conduction happens through contact and collisions; radiation transfers energy by electromagnetic waves."
       }
     ]
+  },
+  "kp-391": {
+    title: "KP7: Convection",
+    questions: [
+      {
+        id: "kp-391-q1",
+        prompt: "Which situation best represents convection in the atmosphere?",
+        choices: [
+          "Warm, less-dense air rises while cooler, denser air sinks.",
+          "Sunlight travels through space as electromagnetic radiation.",
+          "Warm ground touches air molecules and transfers energy by collisions.",
+          "A mirror reflects visible light away from a surface."
+        ],
+        correctIndex: 0,
+        explanation: "Convection transfers thermal energy through the movement of heated fluids such as air."
+      },
+      {
+        id: "kp-391-q2",
+        prompt: "A container of fluid is heated from below. The warmed fluid expands and rises, then cooler fluid moves downward. What Earth process does this model most closely match?",
+        choices: [
+          "Atmospheric convection.",
+          "Radioactive decay.",
+          "Reflection of solar radiation.",
+          "Greenhouse gas absorption only."
+        ],
+        correctIndex: 0,
+        explanation: "The rising and sinking motion models convection, similar to warm and cool air movement in the atmosphere."
+      },
+      {
+        id: "kp-391-q3",
+        prompt: "Which statement correctly distinguishes convection from conduction?",
+        choices: [
+          "Convection involves movement of a fluid, while conduction transfers energy through contact.",
+          "Convection can happen only in solids, while conduction can happen only in space.",
+          "Convection is the same as reflection.",
+          "Convection does not transfer thermal energy."
+        ],
+        correctIndex: 0,
+        explanation: "Convection moves warm fluids from place to place; conduction transfers energy through touching particles."
+      }
+    ]
+  },
+  "kp-392": {
+    title: "KP1: Water cycle and energy movement",
+    questions: [
+      {
+        id: "kp-392-q1",
+        prompt: "Why is the water cycle also an energy cycle?",
+        choices: [
+          "Water movement carries and transforms energy among the hydrosphere, geosphere, and atmosphere.",
+          "Water moves without any energy changes.",
+          "Only ocean water contains energy.",
+          "The water cycle stops all thermal energy transfer."
+        ],
+        correctIndex: 0,
+        explanation: "Evaporation, condensation, precipitation, and runoff all move water and transfer or transform energy."
+      },
+      {
+        id: "kp-392-q2",
+        prompt: "Which sequence includes water cycle processes that also move energy?",
+        choices: [
+          "Evaporation, transpiration, condensation, and precipitation.",
+          "Printing, folding, stapling, and erasing.",
+          "Reflection, fission, fusion, and gene copying only.",
+          "Melting metal, charging phones, and sharpening pencils only."
+        ],
+        correctIndex: 0,
+        explanation: "The textbook describes these water cycle processes as moving energy between Earth's spheres."
+      },
+      {
+        id: "kp-392-q3",
+        prompt: "A student tracks water vapour rising, cloud formation, and rain falling. What else should they track to explain the system fully?",
+        choices: [
+          "Energy transfers and transformations during each step.",
+          "Only the colour of the clouds.",
+          "Only the names of nearby cities.",
+          "No energy, because water movement is separate from energy."
+        ],
+        correctIndex: 0,
+        explanation: "A complete explanation follows both water and energy through the water cycle."
+      }
+    ]
+  },
+  "kp-393": {
+    title: "KP2: Evaporation",
+    questions: [
+      {
+        id: "kp-393-q1",
+        prompt: "During evaporation from a lake, what energy change occurs?",
+        choices: [
+          "Solar energy is transformed into thermal energy as water molecules move faster and enter the air as vapour.",
+          "Gravitational energy turns directly into nuclear energy.",
+          "Thermal energy disappears without moving.",
+          "Water molecules stop moving completely."
+        ],
+        correctIndex: 0,
+        explanation: "Evaporation uses energy to help water molecules leave the liquid and become vapour."
+      },
+      {
+        id: "kp-393-q2",
+        prompt: "Why can evaporation cool a surface?",
+        choices: [
+          "Higher-energy water molecules leave the surface, carrying thermal energy away.",
+          "Evaporation creates new sunlight below the surface.",
+          "Evaporation prevents all air movement.",
+          "Evaporation adds radioactive material to water."
+        ],
+        correctIndex: 0,
+        explanation: "Evaporation moves thermal energy away from a surface, similar to the cooling effect of sweating."
+      },
+      {
+        id: "kp-393-q3",
+        prompt: "A wet towel dries faster in moving air than in still air. Which explanation best fits the energy idea?",
+        choices: [
+          "Moving air increases evaporation, which carries thermal energy away with water vapour.",
+          "Moving air stops water molecules from leaving the towel.",
+          "Moving air changes water into rock.",
+          "The towel dries because energy is destroyed."
+        ],
+        correctIndex: 0,
+        explanation: "Moving air can increase evaporation, and evaporation transfers thermal energy away from the surface."
+      }
+    ]
+  },
+  "kp-394": {
+    title: "KP3: Transpiration",
+    questions: [
+      {
+        id: "kp-394-q1",
+        prompt: "What is transpiration?",
+        choices: [
+          "Plants release water vapour into the atmosphere, moving thermal energy with it.",
+          "Rocks release radioactive waste into soil.",
+          "Cloud droplets fall as rain or snow.",
+          "Oceans reflect all incoming sunlight."
+        ],
+        correctIndex: 0,
+        explanation: "Transpiration is the release of water vapour from plants, and it can move thermal energy into the atmosphere."
+      },
+      {
+        id: "kp-394-q2",
+        prompt: "A forest releases water vapour from leaves during a warm afternoon. Which Earth spheres are most directly connected in this process?",
+        choices: [
+          "Biosphere and atmosphere.",
+          "Only the geosphere.",
+          "Only outer space.",
+          "Only Earth's mantle."
+        ],
+        correctIndex: 0,
+        explanation: "Plants are living parts of the biosphere, and released water vapour enters the atmosphere."
+      },
+      {
+        id: "kp-394-q3",
+        prompt: "Which misconception about transpiration should be corrected?",
+        choices: [
+          "That plants are not involved in moving water or energy through the atmosphere.",
+          "That transpiration can release water vapour.",
+          "That plant processes can be part of the water cycle.",
+          "That water vapour can carry thermal energy."
+        ],
+        correctIndex: 0,
+        explanation: "Plants play an important role in the water cycle by releasing water vapour and transferring energy."
+      }
+    ]
+  },
+  "kp-395": {
+    title: "KP4: Condensation",
+    questions: [
+      {
+        id: "kp-395-q1",
+        prompt: "What happens to energy when water vapour cools and condenses into cloud droplets?",
+        choices: [
+          "Thermal energy is released to the surrounding air.",
+          "All energy is destroyed.",
+          "Solar energy becomes radioactive waste.",
+          "The air loses all motion instantly."
+        ],
+        correctIndex: 0,
+        explanation: "Condensation releases thermal energy to nearby air molecules as water vapour changes to liquid droplets."
+      },
+      {
+        id: "kp-395-q2",
+        prompt: "Which sequence best describes cloud formation in energy terms?",
+        choices: [
+          "Water vapour rises, cools, condenses, and releases thermal energy.",
+          "Water vapour sinks, freezes the Sun, and absorbs gravity.",
+          "Water vapour becomes visible light without cooling.",
+          "Clouds form without matter or energy."
+        ],
+        correctIndex: 0,
+        explanation: "Rising water vapour cools and condenses around particles, releasing thermal energy during cloud formation."
+      },
+      {
+        id: "kp-395-q3",
+        prompt: "Why is condensation important in atmospheric energy transfer?",
+        choices: [
+          "It transfers thermal energy from water vapour to the atmosphere.",
+          "It prevents clouds from forming.",
+          "It removes gravity from precipitation.",
+          "It reflects all infrared radiation into oceans."
+        ],
+        correctIndex: 0,
+        explanation: "Condensation is not just a water change; it also releases energy to the air."
+      }
+    ]
+  },
+  "kp-396": {
+    title: "KP5: Precipitation and gravitational energy",
+    questions: [
+      {
+        id: "kp-396-q1",
+        prompt: "As rain falls from a cloud to the ground, which energy transformation is most directly involved?",
+        choices: [
+          "Gravitational potential energy transforms into kinetic energy.",
+          "Visible light transforms into DNA.",
+          "Thermal energy transforms into nuclear fuel.",
+          "Sound energy transforms into cloud mass."
+        ],
+        correctIndex: 0,
+        explanation: "Falling precipitation loses height and gains motion, so gravitational potential energy changes into kinetic energy."
+      },
+      {
+        id: "kp-396-q2",
+        prompt: "Snow melts on a mountain and flows downhill as runoff. What energy idea helps explain the downhill movement?",
+        choices: [
+          "Water at higher elevation has gravitational potential energy that can transform as it moves downward.",
+          "Water must move uphill because it is colder.",
+          "Runoff happens without gravity.",
+          "Only greenhouse gases can move water downhill."
+        ],
+        correctIndex: 0,
+        explanation: "Gravitational energy helps move water from higher to lower elevations."
+      },
+      {
+        id: "kp-396-q3",
+        prompt: "A student says, 'Precipitation is only part of the water cycle, not an energy process.' What is the best correction?",
+        choices: [
+          "Precipitation also involves gravitational energy transformations as water falls and flows.",
+          "Precipitation has no mass.",
+          "Precipitation is caused only by nuclear decay.",
+          "Precipitation cannot move between spheres."
+        ],
+        correctIndex: 0,
+        explanation: "The water cycle transports water and energy; precipitation involves gravitational energy changing as water moves."
+      }
+    ]
+  },
+  "kp-397": {
+    title: "KP6: Specific heat capacity",
+    questions: [
+      {
+        id: "kp-397-q1",
+        prompt: "What does specific heat capacity describe?",
+        choices: [
+          "The energy needed to change the temperature of 1 g of a substance by 1 C.",
+          "The mass of one litre of ocean water.",
+          "The speed at which sunlight travels.",
+          "The amount of gravity acting on a cloud."
+        ],
+        correctIndex: 0,
+        explanation: "Specific heat capacity compares how much energy different substances need for the same temperature change."
+      },
+      {
+        id: "kp-397-q2",
+        prompt: "Substance A needs 2 J to warm 1 g by 1 C. Substance B needs 5 J to warm 1 g by 1 C. Which has the higher specific heat capacity?",
+        choices: [
+          "Substance B.",
+          "Substance A.",
+          "They are equal.",
+          "Neither, because specific heat cannot be compared."
+        ],
+        correctIndex: 0,
+        explanation: "The substance requiring more energy for the same mass and temperature change has the higher specific heat capacity."
+      },
+      {
+        id: "kp-397-q3",
+        prompt: "A material with low specific heat capacity is heated with the same energy as an equal mass of water. What is likely?",
+        choices: [
+          "Its temperature changes more quickly than water's temperature.",
+          "Its temperature cannot change.",
+          "It must become radioactive.",
+          "It reflects all thermal energy."
+        ],
+        correctIndex: 0,
+        explanation: "Lower specific heat capacity means less energy is needed for a temperature change."
+      }
+    ]
+  },
+  "kp-398": {
+    title: "KP7: Oceans and temperature moderation",
+    questions: [
+      {
+        id: "kp-398-q1",
+        prompt: "Why do oceans help moderate Earth's temperature?",
+        choices: [
+          "Water has a high specific heat capacity, so oceans store lots of thermal energy with small temperature changes.",
+          "Water has no thermal energy.",
+          "Oceans reflect all sunlight and never absorb energy.",
+          "Ocean water changes temperature faster than land in every case."
+        ],
+        correctIndex: 0,
+        explanation: "Because water has high specific heat capacity, oceans warm and cool slowly while storing energy."
+      },
+      {
+        id: "kp-398-q2",
+        prompt: "A coastal city and an inland city receive similar summer sunlight. Why might the coastal city have cooler summers?",
+        choices: [
+          "Nearby ocean water absorbs and stores thermal energy without warming as quickly as land.",
+          "Ocean water releases no energy in winter or summer.",
+          "The ocean removes all solar radiation from the atmosphere.",
+          "Coasts have no greenhouse gases."
+        ],
+        correctIndex: 0,
+        explanation: "Water changes temperature more slowly than land, which helps moderate coastal climates."
+      },
+      {
+        id: "kp-398-q3",
+        prompt: "Which comparison best matches the textbook's explanation of coastal climate?",
+        choices: [
+          "Water acts somewhat like a seasonal air conditioner and heater because it stores and releases energy slowly.",
+          "Water makes summers hotter and winters colder than inland areas every time.",
+          "Land has much higher specific heat capacity than water.",
+          "Ocean water cannot transfer energy to its surroundings."
+        ],
+        correctIndex: 0,
+        explanation: "Oceans can cool nearby regions in summer and warm them in winter by storing and releasing thermal energy slowly."
+      }
+    ]
+  },
+  "kp-399": {
+    title: "KP1: Harmful energy transformations",
+    questions: [
+      {
+        id: "kp-399-q1",
+        prompt: "Which statement best summarizes Concept 4?",
+        choices: [
+          "Energy transformations can harm ecosystems through both natural events and human activities.",
+          "Energy transformations are always harmless.",
+          "Only laboratory energy transformations affect ecosystems.",
+          "Natural events never involve energy transformation."
+        ],
+        correctIndex: 0,
+        explanation: "The textbook introduces both natural events, such as fires or volcanic activity, and human-caused impacts."
+      },
+      {
+        id: "kp-399-q2",
+        prompt: "Which pair compares a natural and a human-caused ecosystem impact?",
+        choices: [
+          "Volcanic activity and increased greenhouse gas emissions from industry.",
+          "Photosynthesis and condensation only.",
+          "A tide and the Moon's orbit only.",
+          "Reflection and absorption of sunlight by clean snow only."
+        ],
+        correctIndex: 0,
+        explanation: "Volcanic activity is a natural event, while added greenhouse gases from human activities can contribute to climate change."
+      },
+      {
+        id: "kp-399-q3",
+        prompt: "Why should ecosystem harm be discussed in terms of energy transfer and transformation?",
+        choices: [
+          "Changes in thermal energy, radiation, or other energy flows can affect organisms and habitats.",
+          "Ecosystems do not respond to temperature or radiation.",
+          "Only living things contain energy, so habitats cannot be affected.",
+          "Energy transfer always improves ecosystem health."
+        ],
+        correctIndex: 0,
+        explanation: "Ecosystems can be harmed when energy changes alter temperature, radiation exposure, or other environmental conditions."
+      }
+    ]
+  },
+  "kp-400": {
+    title: "KP2: Human-induced greenhouse effect",
+    questions: [
+      {
+        id: "kp-400-q1",
+        prompt: "What is the human-induced greenhouse effect?",
+        choices: [
+          "Warming linked to added greenhouse gases from human activities.",
+          "Cooling caused by removing all greenhouse gases from the atmosphere.",
+          "A natural tide cycle caused by the Moon.",
+          "A method for storing nuclear waste underwater."
+        ],
+        correctIndex: 0,
+        explanation: "Human activities can add greenhouse gases, increasing the warming influence of the greenhouse effect."
+      },
+      {
+        id: "kp-400-q2",
+        prompt: "Which activity is most directly connected to increased greenhouse gas emissions in this chapter?",
+        choices: [
+          "Burning fuels to generate electricity, power vehicles, heat homes, or run industry.",
+          "Cloud droplets condensing around dust.",
+          "Rain falling from a high cloud.",
+          "Warm air rising during convection."
+        ],
+        correctIndex: 0,
+        explanation: "The chapter connects electricity generation, vehicles, home heating, and industrial processes to added greenhouse gases."
+      },
+      {
+        id: "kp-400-q3",
+        prompt: "Why is it incomplete to say, 'The greenhouse effect is bad'?",
+        choices: [
+          "The natural greenhouse effect supports life, but extra greenhouse gases from humans can increase warming.",
+          "The greenhouse effect has no connection to temperature.",
+          "Greenhouse gases cannot absorb infrared radiation.",
+          "All greenhouse gases come only from volcanoes."
+        ],
+        correctIndex: 0,
+        explanation: "The natural greenhouse effect is important, while human-caused increases in greenhouse gases can disrupt climate systems."
+      }
+    ]
   }
 };
