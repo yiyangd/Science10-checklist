@@ -3278,5 +3278,415 @@ window.SCIENCE10_QUIZZES = {
         explanation: "The textbook connects radioactive decay in Earth's crust and mantle to thermal energy that drives volcanic and tectonic processes."
       }
     ]
+  },
+  "kp-381": {
+    title: "KP3: Solar energy in Earth's system",
+    questions: [
+      {
+        id: "kp-381-q1",
+        prompt: "Which statement best describes the role of solar energy in Earth's surface systems?",
+        choices: [
+          "It drives water movement in the atmosphere, hydrosphere, and over land, and supports most life.",
+          "It only affects volcanoes deep inside Earth.",
+          "It has no role in moving water through the environment.",
+          "It is smaller than every other energy input to Earth's surface."
+        ],
+        correctIndex: 0,
+        explanation: "Solar energy is the major input that powers many surface processes, including water movement and most living systems."
+      },
+      {
+        id: "kp-381-q2",
+        prompt: "A student says, 'Rain clouds and plant growth are unrelated because one is weather and one is biology.' Which response best corrects this?",
+        choices: [
+          "Both can be connected to solar energy transformations in Earth's system.",
+          "Neither process requires energy.",
+          "Only plant growth involves solar energy, and water movement never does.",
+          "Only rain clouds involve solar energy, and living things never do."
+        ],
+        correctIndex: 0,
+        explanation: "Solar energy helps drive the water cycle and also supports photosynthesis, linking weather and life processes."
+      },
+      {
+        id: "kp-381-q3",
+        prompt: "When explaining large-scale surface processes such as evaporation, weather, and photosynthesis, which energy input should usually be considered first?",
+        choices: [
+          "Solar energy.",
+          "Sound energy from storms.",
+          "Elastic energy in rocks.",
+          "Chemical energy in plastic."
+        ],
+        correctIndex: 0,
+        explanation: "For many processes at Earth's surface, solar energy is the dominant energy input."
+      }
+    ]
+  },
+  "kp-382": {
+    title: "KP4: Gravitational potential energy in Earth's system",
+    questions: [
+      {
+        id: "kp-382-q1",
+        prompt: "Which example best connects water movement to gravitational potential energy?",
+        choices: [
+          "Ocean tides change because of the Moon's gravitational influence.",
+          "A flashlight shines on a puddle.",
+          "A leaf absorbs carbon dioxide.",
+          "A thermometer measures room temperature."
+        ],
+        correctIndex: 0,
+        explanation: "The Moon's gravity helps produce tides, connecting gravitational energy to water movement."
+      },
+      {
+        id: "kp-382-q2",
+        prompt: "Rainwater flows from a mountain stream toward a valley. Which energy change is most directly involved?",
+        choices: [
+          "Gravitational potential energy decreases as water gains motion downhill.",
+          "Thermal energy changes directly into visible light.",
+          "Nuclear energy turns into sound energy only.",
+          "Solar radiation becomes chemical energy in metal."
+        ],
+        correctIndex: 0,
+        explanation: "Water at higher elevation has gravitational potential energy that can transform into kinetic energy as it moves downward."
+      },
+      {
+        id: "kp-382-q3",
+        prompt: "What is a common misconception about tides?",
+        choices: [
+          "That tides are caused only by wind pushing ocean water around.",
+          "That tides involve ocean water moving.",
+          "That tides are connected to gravity.",
+          "That tides can be studied as part of Earth's system."
+        ],
+        correctIndex: 0,
+        explanation: "Wind can affect waves and surface conditions, but tides are mainly linked to gravitational interactions, especially with the Moon."
+      }
+    ]
+  },
+  "kp-383": {
+    title: "KP5: Nuclear energy in Earth's system",
+    questions: [
+      {
+        id: "kp-383-q1",
+        prompt: "How does nuclear energy contribute to some Earth processes?",
+        choices: [
+          "Radioactive decay in Earth's crust and mantle transforms nuclear energy into thermal energy.",
+          "Sunlight splits all surface rocks into atoms every day.",
+          "Tides create nuclear energy in ocean water.",
+          "Greenhouse gases directly create new uranium atoms."
+        ],
+        correctIndex: 0,
+        explanation: "The textbook links radioactive decay inside Earth to thermal energy that helps drive internal processes."
+      },
+      {
+        id: "kp-383-q2",
+        prompt: "Which process is most directly connected to Earth's internal thermal energy from radioactive decay?",
+        choices: [
+          "Volcanic activity and tectonic plate movement.",
+          "The colour of a rainbow after rain.",
+          "Reflection of sunlight from snow.",
+          "Evaporation from a small puddle."
+        ],
+        correctIndex: 0,
+        explanation: "Internal thermal energy helps power volcanic activity, plate motion, hot springs, and geysers."
+      },
+      {
+        id: "kp-383-q3",
+        prompt: "A hot spring warms water from below ground. Which explanation best matches Chapter 3.3?",
+        choices: [
+          "Thermal energy from inside Earth can heat water as it moves through rock.",
+          "All hot springs are heated only by visible light at the surface.",
+          "Hot springs occur because water has no thermal energy.",
+          "The Moon's gravity directly boils the water."
+        ],
+        correctIndex: 0,
+        explanation: "Hot springs are examples of Earth's internal thermal energy affecting surface water."
+      }
+    ]
+  },
+  "kp-384": {
+    title: "KP6: Relative energy impact",
+    questions: [
+      {
+        id: "kp-384-q1",
+        prompt: "Which energy source has the greatest overall impact on Earth's surface system according to Chapter 3.3?",
+        choices: [
+          "Solar energy.",
+          "Nuclear energy from Earth's interior.",
+          "Elastic energy in stretched materials.",
+          "Sound energy from ocean waves."
+        ],
+        correctIndex: 0,
+        explanation: "The textbook emphasizes that solar energy transformation has the greatest impact on Earth's system."
+      },
+      {
+        id: "kp-384-q2",
+        prompt: "A class is explaining global weather, evaporation, and most food webs. Which energy source should be prioritized?",
+        choices: [
+          "Solar energy, because it drives atmospheric and hydrosphere processes and supports most life.",
+          "Nuclear energy, because it directly powers photosynthesis in leaves.",
+          "Gravitational energy, because it creates all sunlight.",
+          "Sound energy, because it stores most water cycle energy."
+        ],
+        correctIndex: 0,
+        explanation: "Solar energy is central to weather, water movement, and most biological energy flow at Earth's surface."
+      },
+      {
+        id: "kp-384-q3",
+        prompt: "Why is it misleading to say that all three major Earth energy sources have equal impact?",
+        choices: [
+          "Solar energy adds far more energy to Earth's surface systems than the other sources discussed.",
+          "Gravitational and nuclear energy do not exist.",
+          "Solar energy has no effect on life.",
+          "Only nuclear energy can be transformed."
+        ],
+        correctIndex: 0,
+        explanation: "All three matter, but the textbook describes solar energy as having the greatest effect on Earth's system."
+      }
+    ]
+  },
+  "kp-385": {
+    title: "KP1: Solar radiation",
+    questions: [
+      {
+        id: "kp-385-q1",
+        prompt: "Solar energy reaches Earth mainly as which kind of energy transfer?",
+        choices: [
+          "Electromagnetic radiation.",
+          "Conduction through empty space.",
+          "Convection currents from the Sun to Earth.",
+          "Mechanical waves carried by air between Earth and the Sun."
+        ],
+        correctIndex: 0,
+        explanation: "Solar energy travels through space as electromagnetic radiation, including visible, infrared, and ultraviolet radiation."
+      },
+      {
+        id: "kp-385-q2",
+        prompt: "Which list includes forms of solar radiation that reach Earth's atmosphere and surface?",
+        choices: [
+          "Visible light, infrared radiation, and ultraviolet radiation.",
+          "Only sound, only heat conduction, and only tides.",
+          "Gamma rays only, with no visible light.",
+          "Mechanical waves, ocean currents, and plate motion."
+        ],
+        correctIndex: 0,
+        explanation: "Most solar energy reaching Earth includes visible light, infrared radiation, and ultraviolet radiation."
+      },
+      {
+        id: "kp-385-q3",
+        prompt: "Why is conduction not the main way energy travels from the Sun to Earth?",
+        choices: [
+          "Conduction requires touching particles, and space between the Sun and Earth is mostly empty.",
+          "Conduction is faster than light in space.",
+          "Conduction only happens inside living cells.",
+          "Conduction creates ultraviolet radiation from nothing."
+        ],
+        correctIndex: 0,
+        explanation: "Radiation can travel through space, while conduction requires contact between substances."
+      }
+    ]
+  },
+  "kp-386": {
+    title: "KP2: Absorption and reflection",
+    questions: [
+      {
+        id: "kp-386-q1",
+        prompt: "What happens when Earth's surface absorbs incoming solar energy?",
+        choices: [
+          "Some solar energy is transformed into thermal energy in the surface.",
+          "All energy disappears permanently.",
+          "The surface can only reflect energy and never warm.",
+          "Solar energy becomes gravitational potential energy in clouds only."
+        ],
+        correctIndex: 0,
+        explanation: "Absorbed radiation can increase the thermal energy of land, water, or other matter."
+      },
+      {
+        id: "kp-386-q2",
+        prompt: "A light-coloured surface sends much of the incoming sunlight back upward. Which process is being described?",
+        choices: [
+          "Reflection.",
+          "Condensation.",
+          "Radioactive decay.",
+          "Cellular respiration."
+        ],
+        correctIndex: 0,
+        explanation: "Reflection transfers incoming radiation away from the surface instead of absorbing it."
+      },
+      {
+        id: "kp-386-q3",
+        prompt: "If 100 units of solar energy enter the atmosphere and 30 units are reflected before being absorbed, how many units are not reflected at that stage?",
+        choices: [
+          "70 units.",
+          "30 units.",
+          "130 units.",
+          "3 units."
+        ],
+        correctIndex: 0,
+        explanation: "Subtract the reflected amount from the incoming amount: 100 - 30 = 70 units."
+      }
+    ]
+  },
+  "kp-387": {
+    title: "KP3: Radiation from Earth's surface",
+    questions: [
+      {
+        id: "kp-387-q1",
+        prompt: "After Earth's surface absorbs sunlight and warms, what kind of radiation can it emit back toward the atmosphere?",
+        choices: [
+          "Infrared radiation.",
+          "Sound radiation.",
+          "Only ultraviolet radiation from ice.",
+          "Nuclear radiation from every surface molecule."
+        ],
+        correctIndex: 0,
+        explanation: "A warmed surface can radiate energy as infrared radiation."
+      },
+      {
+        id: "kp-387-q2",
+        prompt: "Which sequence best traces energy from incoming sunlight to energy leaving a warm surface?",
+        choices: [
+          "Solar radiation is absorbed, transformed into thermal energy, then radiated as infrared radiation.",
+          "Solar radiation is absorbed, becomes sound, then becomes tides.",
+          "Infrared radiation becomes visible light before any surface warming occurs.",
+          "Thermal energy is destroyed and cannot leave the surface."
+        ],
+        correctIndex: 0,
+        explanation: "This sequence matches the textbook pathway from absorbed solar energy to infrared radiation from Earth's surface."
+      },
+      {
+        id: "kp-387-q3",
+        prompt: "A student says, 'If sunlight is absorbed by the ground, the energy is trapped forever.' What is the best correction?",
+        choices: [
+          "The warmed surface can transfer energy by radiation, conduction, and other processes.",
+          "The surface cannot warm from sunlight.",
+          "Absorbed energy instantly becomes mass only.",
+          "Radiation can move only from the Sun, never from Earth."
+        ],
+        correctIndex: 0,
+        explanation: "Absorbed energy can be transformed and transferred away from Earth's surface, including as infrared radiation."
+      }
+    ]
+  },
+  "kp-388": {
+    title: "KP4: Greenhouse gases",
+    questions: [
+      {
+        id: "kp-388-q1",
+        prompt: "What property makes greenhouse gases important in warming Earth's atmosphere?",
+        choices: [
+          "They absorb infrared radiation emitted from Earth's surface.",
+          "They reflect all visible light before it reaches Earth.",
+          "They block gravity from acting on the ocean.",
+          "They turn all ultraviolet radiation into sound."
+        ],
+        correctIndex: 0,
+        explanation: "Greenhouse gases are effective at absorbing infrared radiation and re-radiating energy in different directions."
+      },
+      {
+        id: "kp-388-q2",
+        prompt: "Which set contains examples of greenhouse gases named in Chapter 3.3?",
+        choices: [
+          "Carbon dioxide, water vapour, nitrous oxide, and methane.",
+          "Oxygen, neon, iron, and salt.",
+          "Gold, silver, copper, and zinc.",
+          "Sand, glass, ice, and granite."
+        ],
+        correctIndex: 0,
+        explanation: "The chapter lists carbon dioxide, water vapour, nitrous oxide, and methane as greenhouse gases."
+      },
+      {
+        id: "kp-388-q3",
+        prompt: "Which misconception about greenhouse gases should be corrected?",
+        choices: [
+          "That greenhouse gases are all harmful and have no natural role in Earth's temperature.",
+          "That greenhouse gases can absorb infrared radiation.",
+          "That greenhouse gases are part of Earth's atmosphere.",
+          "That water vapour can be a greenhouse gas."
+        ],
+        correctIndex: 0,
+        explanation: "Naturally occurring greenhouse gases help keep Earth's temperature suitable for life, though changes in amounts can affect climate."
+      }
+    ]
+  },
+  "kp-389": {
+    title: "KP5: Greenhouse effect",
+    questions: [
+      {
+        id: "kp-389-q1",
+        prompt: "What is the greenhouse effect?",
+        choices: [
+          "Warming caused when greenhouse gases absorb and re-radiate infrared radiation.",
+          "Cooling caused when all sunlight is reflected by oceans.",
+          "A process that stops all energy from leaving Earth.",
+          "A nuclear reaction that happens only in clouds."
+        ],
+        correctIndex: 0,
+        explanation: "The greenhouse effect involves greenhouse gases absorbing infrared radiation and helping warm the atmosphere."
+      },
+      {
+        id: "kp-389-q2",
+        prompt: "The textbook compares Earth's average temperature with and without the natural greenhouse effect. What is the main idea of that comparison?",
+        choices: [
+          "Natural greenhouse gases help keep Earth warm enough for many ecosystems.",
+          "Greenhouse gases make Earth colder than space.",
+          "Greenhouse gases prevent sunlight from reaching Earth at all.",
+          "The greenhouse effect only matters inside plant greenhouses."
+        ],
+        correctIndex: 0,
+        explanation: "The natural greenhouse effect helps moderate Earth's average temperature and supports life as we know it."
+      },
+      {
+        id: "kp-389-q3",
+        prompt: "If Earth's average temperature would be about -18 C without natural greenhouse gases and about 14 C with them, what is the approximate warming difference?",
+        choices: [
+          "32 C.",
+          "4 C.",
+          "18 C.",
+          "46 C."
+        ],
+        correctIndex: 0,
+        explanation: "The difference is 14 - (-18) = 32 C, showing the importance of the natural greenhouse effect."
+      }
+    ]
+  },
+  "kp-390": {
+    title: "KP6: Conduction",
+    questions: [
+      {
+        id: "kp-390-q1",
+        prompt: "Which situation is the best example of conduction warming the lower atmosphere?",
+        choices: [
+          "Warm ground transfers thermal energy to touching air molecules through collisions.",
+          "Sunlight travels through space to Earth without matter touching.",
+          "Warm air rises and cooler air sinks in a circulation pattern.",
+          "Water vapour condenses into cloud droplets high in the sky."
+        ],
+        correctIndex: 0,
+        explanation: "Conduction transfers thermal energy between substances that are touching, such as warm ground and nearby air."
+      },
+      {
+        id: "kp-390-q2",
+        prompt: "Why does conduction mostly warm air close to Earth's surface first?",
+        choices: [
+          "Air molecules must be near or touching the warm surface for collisions to transfer energy.",
+          "Conduction works fastest across empty space.",
+          "Conduction can only happen between planets.",
+          "Conduction requires infrared radiation to leave Earth."
+        ],
+        correctIndex: 0,
+        explanation: "Conduction depends on particle collisions, so it is strongest where air is in contact with the warmed surface."
+      },
+      {
+        id: "kp-390-q3",
+        prompt: "Which statement correctly distinguishes conduction from radiation?",
+        choices: [
+          "Conduction requires contact between substances, while radiation can transfer energy without contact.",
+          "Conduction and radiation both require liquids only.",
+          "Radiation requires touching particles, while conduction travels through empty space.",
+          "Conduction is the same process as radioactive decay."
+        ],
+        correctIndex: 0,
+        explanation: "Conduction happens through contact and collisions; radiation transfers energy by electromagnetic waves."
+      }
+    ]
   }
 };
