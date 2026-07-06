@@ -2048,5 +2048,415 @@ window.SCIENCE10_QUIZZES = {
         explanation: "Particles or radiation emitted during decay carry energy, helping explain how unstable nuclei release energy."
       }
     ]
+  },
+  "kp-351": {
+    title: "KP4: Alpha, beta, and gamma decay",
+    questions: [
+      {
+        id: "kp-351-q1",
+        prompt: "Which comparison of alpha, beta, and gamma decay is most accurate?",
+        choices: [
+          "Alpha emits a helium nucleus, beta emits a fast-moving electron, and gamma emits a high-energy photon.",
+          "Alpha emits only light, beta emits a helium nucleus, and gamma emits a neutron.",
+          "All three decays emit the same particle but at different speeds.",
+          "Gamma decay always changes the atom into a different element."
+        ],
+        correctIndex: 0,
+        explanation: "Alpha, beta, and gamma decay are distinguished by what is emitted: a helium nucleus, an electron, or a high-energy photon."
+      },
+      {
+        id: "kp-351-q2",
+        prompt: "An isotope has mass number 210 and atomic number 84. After alpha decay, what are the mass number and atomic number of the new nucleus?",
+        choices: [
+          "210 and 84",
+          "209 and 85",
+          "206 and 82",
+          "214 and 86"
+        ],
+        correctIndex: 2,
+        explanation: "Alpha decay emits a particle with mass number 4 and atomic number 2, so the new nucleus is 210 - 4 = 206 and 84 - 2 = 82."
+      },
+      {
+        id: "kp-351-q3",
+        prompt: "A nucleus gives off a gamma ray after being left in an excited state. What happens to its mass number and atomic number?",
+        choices: [
+          "Both decrease by 4 and 2.",
+          "The atomic number increases by 1, but mass number stays the same.",
+          "Neither mass number nor atomic number changes.",
+          "Both double because light energy is emitted."
+        ],
+        correctIndex: 2,
+        explanation: "Gamma radiation is a photon, so it carries energy away without changing the number of protons or neutrons."
+      }
+    ]
+  },
+  "kp-352": {
+    title: "KP5: Nuclear fission",
+    questions: [
+      {
+        id: "kp-352-q1",
+        prompt: "What happens during nuclear fission?",
+        choices: [
+          "Two small nuclei combine into a larger nucleus.",
+          "A heavy nucleus splits into smaller nuclei and releases energy.",
+          "Electrons move to higher energy levels after absorbing light.",
+          "Molecules rearrange their chemical bonds without changing nuclei."
+        ],
+        correctIndex: 1,
+        explanation: "Fission is the splitting of a heavy nucleus into smaller nuclei, with energy released."
+      },
+      {
+        id: "kp-352-q2",
+        prompt: "A uranium-235 nucleus absorbs a neutron and becomes unstable. Which outcome best matches a fission event?",
+        choices: [
+          "It splits into smaller nuclei, releases energy, and may release more neutrons.",
+          "It becomes a glucose molecule and releases oxygen.",
+          "It reflects the neutron without any change.",
+          "It absorbs light and releases an electron into a wire."
+        ],
+        correctIndex: 0,
+        explanation: "In fission, uranium-235 can split into smaller nuclei and release both energy and neutrons."
+      },
+      {
+        id: "kp-352-q3",
+        prompt: "Which statement corrects a common misconception about fission?",
+        choices: [
+          "Fission is not a normal chemical reaction; it involves changes in atomic nuclei.",
+          "Fission always combines hydrogen nuclei.",
+          "Fission releases energy by creating matter from nothing.",
+          "Fission only happens when light is reflected."
+        ],
+        correctIndex: 0,
+        explanation: "Fission is nuclear because the nucleus changes; it is not just a rearrangement of chemical bonds."
+      }
+    ]
+  },
+  "kp-353": {
+    title: "KP6: Chain reactions and nuclear reactors",
+    questions: [
+      {
+        id: "kp-353-q1",
+        prompt: "What makes a fission chain reaction possible?",
+        choices: [
+          "Neutrons released by one fission event can trigger more fission events nearby.",
+          "Light from one atom always reflects into another atom.",
+          "Products from photosynthesis immediately split uranium nuclei.",
+          "A single fission event absorbs all nearby neutrons permanently."
+        ],
+        correctIndex: 0,
+        explanation: "A chain reaction can continue when released neutrons cause additional nuclei to undergo fission."
+      },
+      {
+        id: "kp-353-q2",
+        prompt: "Which energy pathway best describes a nuclear power plant?",
+        choices: [
+          "Nuclear energy -> thermal energy -> mechanical kinetic energy in turbines -> electrical energy.",
+          "Light energy -> chemical potential energy -> glucose -> oxygen.",
+          "Sound energy -> nuclear energy -> gravitational potential energy.",
+          "Electrical energy -> fossil fuel -> carbon dioxide only."
+        ],
+        correctIndex: 0,
+        explanation: "Fission releases energy as thermal energy, which makes steam move turbines that generate electrical energy."
+      },
+      {
+        id: "kp-353-q3",
+        prompt: "Why must a reactor control a fission chain reaction?",
+        choices: [
+          "To manage the rate of energy release so it can be used safely and steadily.",
+          "To prevent all atoms from having protons.",
+          "To turn uranium directly into sunlight.",
+          "To make chemical bonds disappear from water."
+        ],
+        correctIndex: 0,
+        explanation: "A reactor is designed to contain and control fission so the released energy can be transferred and used."
+      }
+    ]
+  },
+  "kp-354": {
+    title: "KP7: Nuclear fusion",
+    questions: [
+      {
+        id: "kp-354-q1",
+        prompt: "What happens during nuclear fusion?",
+        choices: [
+          "A large nucleus splits into two smaller nuclei.",
+          "Two very small nuclei combine to form a larger nucleus and release energy.",
+          "A molecule dissolves in water and forms ions.",
+          "An electron in silicon moves through a wire after absorbing sunlight."
+        ],
+        correctIndex: 1,
+        explanation: "Fusion combines small nuclei into a larger nucleus and releases energy."
+      },
+      {
+        id: "kp-354-q2",
+        prompt: "Why does fusion require extremely high temperatures to begin?",
+        choices: [
+          "Small nuclei must collide with enough force to overcome repulsion and fuse.",
+          "Cold nuclei always fuse more easily than hot nuclei.",
+          "Fusion starts only when molecules freeze into solids.",
+          "High temperature changes chemical bonds into sunlight."
+        ],
+        correctIndex: 0,
+        explanation: "Fusion needs very fast-moving particles so nuclei can collide strongly enough to combine."
+      },
+      {
+        id: "kp-354-q3",
+        prompt: "Which comparison between fission and fusion is correct?",
+        choices: [
+          "Fission splits heavy nuclei; fusion combines small nuclei.",
+          "Fission and fusion are both ordinary chemical reactions.",
+          "Fusion always produces carbon dioxide as its main product.",
+          "Fission requires chlorophyll, while fusion requires glucose."
+        ],
+        correctIndex: 0,
+        explanation: "The basic distinction is splitting versus combining nuclei."
+      }
+    ]
+  },
+  "kp-355": {
+    title: "KP1: Absorption",
+    questions: [
+      {
+        id: "kp-355-q1",
+        prompt: "What does absorption mean when light interacts with matter?",
+        choices: [
+          "Energy is taken up by matter instead of being reflected or transmitted.",
+          "Light bounces off a surface without entering the material.",
+          "Light passes completely through a material unchanged.",
+          "Matter creates light energy from nothing."
+        ],
+        correctIndex: 0,
+        explanation: "Absorption occurs when matter takes up energy from incoming light."
+      },
+      {
+        id: "kp-355-q2",
+        prompt: "Which observation best suggests that a material is absorbing light energy?",
+        choices: [
+          "It takes in sunlight and becomes warmer or drives a change inside the material.",
+          "It reflects all incoming light like a perfect mirror.",
+          "It lets all light pass through without interaction.",
+          "It has no atoms that can interact with light."
+        ],
+        correctIndex: 0,
+        explanation: "Absorbed light energy can be transformed into thermal energy or used to cause other changes."
+      },
+      {
+        id: "kp-355-q3",
+        prompt: "Why is absorption often the first step in light-energy transformations?",
+        choices: [
+          "The material must take in light energy before that energy can be transformed inside the system.",
+          "Reflected light always changes into chemical potential energy.",
+          "Transmitted light always becomes nuclear energy.",
+          "Light transformations happen only when matter avoids absorbing energy."
+        ],
+        correctIndex: 0,
+        explanation: "For matter to use light energy, it first needs to absorb that energy."
+      }
+    ]
+  },
+  "kp-356": {
+    title: "KP2: Excited electrons",
+    questions: [
+      {
+        id: "kp-356-q1",
+        prompt: "What happens to an electron when it absorbs enough light energy?",
+        choices: [
+          "It can move to a higher energy level.",
+          "It becomes a neutron in the nucleus.",
+          "It turns into carbon dioxide.",
+          "It loses all energy and stops existing."
+        ],
+        correctIndex: 0,
+        explanation: "Absorbed light energy can excite an electron, moving it to a higher energy level."
+      },
+      {
+        id: "kp-356-q2",
+        prompt: "Why are excited electrons important in light-energy transformations?",
+        choices: [
+          "Their added energy can be passed into chemical changes, electrical current, or molecular changes.",
+          "They prove light has no energy.",
+          "They prevent matter from interacting with light.",
+          "They always make the atom split into two nuclei."
+        ],
+        correctIndex: 0,
+        explanation: "Excited electrons provide a way for absorbed light energy to be transformed into other useful forms."
+      },
+      {
+        id: "kp-356-q3",
+        prompt: "A student says, \"When light is absorbed, the electron disappears.\" What is the best correction?",
+        choices: [
+          "The electron gains energy and may move to a higher energy level; it does not simply disappear.",
+          "The electron becomes a whole atom of helium.",
+          "The electron always leaves the atom as alpha radiation.",
+          "The electron changes into a photon with no interaction."
+        ],
+        correctIndex: 0,
+        explanation: "Absorption changes the electron's energy state; it does not mean the electron vanishes."
+      }
+    ]
+  },
+  "kp-357": {
+    title: "KP3: Chlorophyll and high-energy bonds",
+    questions: [
+      {
+        id: "kp-357-q1",
+        prompt: "How does chlorophyll help store energy during photosynthesis?",
+        choices: [
+          "It absorbs light energy that can be used to form high-energy chemical bonds.",
+          "It splits uranium nuclei in plant cells.",
+          "It reflects all light so no energy enters the plant.",
+          "It turns oxygen directly into sunlight."
+        ],
+        correctIndex: 0,
+        explanation: "Chlorophyll absorbs light, and that energy helps drive reactions that store chemical potential energy."
+      },
+      {
+        id: "kp-357-q2",
+        prompt: "Which statement best connects chlorophyll to glucose production?",
+        choices: [
+          "Chlorophyll absorbs light energy that helps power reactions leading to chemical potential energy in glucose.",
+          "Chlorophyll uses glucose to create sunlight before photosynthesis begins.",
+          "Chlorophyll stores nuclear energy in uranium pellets.",
+          "Chlorophyll prevents electrons from ever becoming excited."
+        ],
+        correctIndex: 0,
+        explanation: "Light absorbed by chlorophyll supports the reaction sequence that produces glucose."
+      },
+      {
+        id: "kp-357-q3",
+        prompt: "Which misconception about chlorophyll should be corrected?",
+        choices: [
+          "Chlorophyll is only a green colour and has no role in energy transformation.",
+          "Chlorophyll absorbs light energy.",
+          "Chlorophyll is found in chloroplasts.",
+          "Chlorophyll helps connect light energy to chemical potential energy."
+        ],
+        correctIndex: 0,
+        explanation: "Chlorophyll is not just a colour; it is involved in absorbing light energy for photosynthesis."
+      }
+    ]
+  },
+  "kp-358": {
+    title: "KP4: Photovoltaic cells",
+    questions: [
+      {
+        id: "kp-358-q1",
+        prompt: "What energy transformation happens in a photovoltaic cell?",
+        choices: [
+          "Light energy is transformed directly into electrical kinetic energy.",
+          "Chemical potential energy is transformed into glucose.",
+          "Nuclear energy is transformed into alpha particles.",
+          "Sound energy is transformed into thermal energy only."
+        ],
+        correctIndex: 0,
+        explanation: "Photovoltaic cells use absorbed light to produce moving electrons, which is electrical kinetic energy."
+      },
+      {
+        id: "kp-358-q2",
+        prompt: "Why do electrons move in a photovoltaic cell after light is absorbed?",
+        choices: [
+          "Light energy frees electrons so they can move through a circuit.",
+          "Light energy turns the silicon into coal.",
+          "The cell creates electrons from nothing.",
+          "The electrons are pushed by sound waves from the Sun."
+        ],
+        correctIndex: 0,
+        explanation: "Absorbed light energy can free electrons in the cell, allowing current to flow through conductors."
+      },
+      {
+        id: "kp-358-q3",
+        prompt: "Which device most directly uses the same principle as a photovoltaic cell?",
+        choices: [
+          "A solar panel charging a small battery in daylight.",
+          "A hand warmer releasing thermal energy from a chemical reaction.",
+          "A mirror reflecting sunlight onto a wall.",
+          "A candle burning wax to produce light."
+        ],
+        correctIndex: 0,
+        explanation: "Solar panels use photovoltaic cells to transform absorbed light into electrical energy."
+      }
+    ]
+  },
+  "kp-359": {
+    title: "KP5: Vision and rhodopsin",
+    questions: [
+      {
+        id: "kp-359-q1",
+        prompt: "What is the role of rhodopsin in vision?",
+        choices: [
+          "It absorbs light energy and begins molecular changes that lead to an electrical signal.",
+          "It stores fossil fuel energy in eye cells.",
+          "It splits heavy nuclei in the retina.",
+          "It reflects all light away from rod and cone cells."
+        ],
+        correctIndex: 0,
+        explanation: "Rhodopsin absorbs light in retinal cells and helps start the signal pathway to the brain."
+      },
+      {
+        id: "kp-359-q2",
+        prompt: "Which sequence best traces a light-energy transformation in vision?",
+        choices: [
+          "Light is absorbed by molecules in retina cells, molecular shape changes occur, and nerve signals are sent.",
+          "Light becomes coal, coal becomes oxygen, and oxygen becomes a nerve signal.",
+          "Light splits uranium, then neutrons travel to the brain.",
+          "Light reflects from rhodopsin and no signal can form."
+        ],
+        correctIndex: 0,
+        explanation: "Vision begins when light is absorbed by molecules in retina cells, causing changes that lead to electrical signals."
+      },
+      {
+        id: "kp-359-q3",
+        prompt: "A student says, \"Seeing is just light entering the eye; no energy transformation happens.\" What is the best correction?",
+        choices: [
+          "Absorbed light energy causes molecular changes that help produce electrical signals to the brain.",
+          "Vision is a nuclear chain reaction in the retina.",
+          "The eye only reflects light and never absorbs it.",
+          "Rhodopsin changes glucose directly into sunlight."
+        ],
+        correctIndex: 0,
+        explanation: "Vision involves light absorption and transformation into signals that the nervous system can use."
+      }
+    ]
+  },
+  "kp-360": {
+    title: "KP6: Light-energy transformation in different systems",
+    questions: [
+      {
+        id: "kp-360-q1",
+        prompt: "Why can absorbed light energy lead to different outcomes in different systems?",
+        choices: [
+          "The result depends on the material's properties and where the absorbing molecule or material is located.",
+          "All absorbed light must become glucose.",
+          "All absorbed light must become an alpha particle.",
+          "The result depends only on whether the object is heavy."
+        ],
+        correctIndex: 0,
+        explanation: "Different systems use absorbed light differently because their materials and structures are different."
+      },
+      {
+        id: "kp-360-q2",
+        prompt: "Which comparison correctly matches a system to a light-energy transformation?",
+        choices: [
+          "Chlorophyll: light to chemical potential energy; photovoltaic cell: light to electrical energy; eye: light to nerve signals.",
+          "Chlorophyll: light to nuclear fission; photovoltaic cell: light to glucose; eye: light to coal.",
+          "Chlorophyll: light only reflected; photovoltaic cell: sound to current; eye: uranium to vision.",
+          "All three systems transform light energy into exactly the same product."
+        ],
+        correctIndex: 0,
+        explanation: "The same starting form, light energy, can be transformed in different ways depending on the system."
+      },
+      {
+        id: "kp-360-q3",
+        prompt: "Which design question best applies the idea that light-energy use depends on the system?",
+        choices: [
+          "What material should absorb light if the goal is to produce current rather than warm a surface?",
+          "How can a material avoid all energy interactions forever?",
+          "How can alpha decay be used to make a green leaf?",
+          "Why do all molecules make the same signal after absorbing light?"
+        ],
+        correctIndex: 0,
+        explanation: "Choosing the right material matters because absorbed light can be transformed into different useful outputs."
+      }
+    ]
   }
 };
