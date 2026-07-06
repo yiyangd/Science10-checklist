@@ -4,14 +4,14 @@ This repository contains a GitHub Pages-ready interactive checklist for the BC S
 
 ## Files
 
-- `index.html` - GitHub Pages entry point that redirects to the canonical interactive checklist.
-- `BCScienceConnections10_Full_Course_Master_Knowledge_Point_Checklist_Interactive_v2.html` - canonical interactive HTML checklist.
+- `index.html` - canonical GitHub Pages interactive checklist served from the site root.
+- `BCScienceConnections10_Full_Course_Master_Knowledge_Point_Checklist_Interactive_v2.html` - archived backup copy of the canonical interactive HTML checklist.
 - `BCScienceConnections10_Full_Course_Master_Knowledge_Point_Checklist.md` - source Markdown checklist.
 - `.nojekyll` - tells GitHub Pages to serve files as static assets without Jekyll processing.
 
 ## Use
 
-Open `index.html` from the repository root, or open the v2 HTML file directly. The checklist supports:
+Open the GitHub Pages root URL, or open `index.html` from the repository root. The checklist supports:
 
 - Unit and Chapter navigation
 - collapsible Units and Chapters
@@ -28,11 +28,19 @@ Open `index.html` from the repository root, or open the v2 HTML file directly. T
 4. Under **Build and deployment**, choose **Deploy from a branch**.
 5. Select the branch containing these files, usually `main`, and choose the repository root folder.
 6. Save the Pages settings and wait for GitHub to publish the site.
-7. Open the published Pages URL. It should load `index.html`, then redirect to the v2 checklist.
+7. Open the published Pages URL. It should load the interactive checklist directly from the site root.
 
 ## Notes
 
 - MathJax loads from `https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js`. Formulas remain visible as raw TeX if the CDN is unavailable.
 - Progress is saved with `localStorage` in the visitor's browser. It does not sync across browsers, devices, or private browsing sessions.
 - The interactive HTML is standalone and does not require local images, CSS files, or JavaScript files.
-- The source Markdown is included for review and future regeneration, but the v2 HTML file is the canonical deployed interactive checklist.
+- The source Markdown is included for review and future regeneration. The root `index.html` file is the canonical deployed interactive checklist; the v2 HTML file is kept as a backup copy.
+
+## Published URL Format
+
+The deployed checklist should use clean root URLs:
+
+- Main site: `https://yiyangd.github.io/Science10-checklist/`
+- Unit anchors: `https://yiyangd.github.io/Science10-checklist/#unit-1`
+- Chapter anchors: `https://yiyangd.github.io/Science10-checklist/#chapter-1-1`
