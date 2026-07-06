@@ -5738,5 +5738,415 @@ window.SCIENCE10_QUIZZES = {
         explanation: "Measurement helps guide safe decisions for workers and nearby communities."
       }
     ]
+  },
+  "kp-441": {
+    title: "KP4: Safety inspections and technology redesign",
+    questions: [
+      {
+        id: "kp-441-q1",
+        prompt: "What is one way governments and engineers can reduce future risk after an energy accident?",
+        choices: [
+          "Inspect existing systems and redesign weak technologies.",
+          "Ignore the accident once cleanup begins.",
+          "Remove all backup systems.",
+          "Stop collecting evidence about failures."
+        ],
+        correctIndex: 0,
+        explanation: "The Fukushima example shows how inspections and design improvements can follow an accident."
+      },
+      {
+        id: "kp-441-q2",
+        prompt: "Why was reassessing older reactor designs important after Fukushima?",
+        choices: [
+          "Older designs may have safety weaknesses that become clear after a major failure.",
+          "Older designs are always safer because they are older.",
+          "Reactors cannot be inspected after construction.",
+          "Design details do not affect accident risk."
+        ],
+        correctIndex: 0,
+        explanation: "Learning from failure can reveal design flaws that need to be corrected."
+      },
+      {
+        id: "kp-441-q3",
+        prompt: "Which redesign goal best follows from a cooling-system failure?",
+        choices: [
+          "Make emergency cooling more reliable during power loss or flooding.",
+          "Make cooling depend on fewer backup options.",
+          "Prevent operators from knowing reactor temperature.",
+          "Move backup generators into places most likely to flood."
+        ],
+        correctIndex: 0,
+        explanation: "A safer design would reduce the chance that one event disables critical cooling."
+      }
+    ]
+  },
+  "kp-442": {
+    title: "KP5: Different national responses",
+    questions: [
+      {
+        id: "kp-442-q1",
+        prompt: "Why might different countries respond differently to the same nuclear accident?",
+        choices: [
+          "They may weigh safety, reliability, climate impact, costs, and public trust differently.",
+          "All countries must make identical energy decisions.",
+          "Public opinion never affects energy policy.",
+          "Nuclear accidents have no connection to national decisions."
+        ],
+        correctIndex: 0,
+        explanation: "Energy policy depends on technical evidence, values, risk tolerance, and public trust."
+      },
+      {
+        id: "kp-442-q2",
+        prompt: "Which response is an example of turning away from nuclear power after an accident?",
+        choices: [
+          "Reducing nuclear power use because public trust and safety concerns changed.",
+          "Building reactors without safety inspections.",
+          "Ignoring radioactive waste concerns.",
+          "Using the accident as proof that safety planning is unnecessary."
+        ],
+        correctIndex: 0,
+        explanation: "Some nations may decide the risks and trust issues outweigh the benefits."
+      },
+      {
+        id: "kp-442-q3",
+        prompt: "Which response is an example of continuing nuclear power while learning from an accident?",
+        choices: [
+          "Developing safer technology and improving inspections.",
+          "Keeping every design unchanged.",
+          "Removing all emergency systems.",
+          "Stopping all public communication."
+        ],
+        correctIndex: 0,
+        explanation: "Some countries continue using nuclear energy while trying to reduce future risk."
+      }
+    ]
+  },
+  "kp-443": {
+    title: "KP6: Managing used nuclear fuel",
+    questions: [
+      {
+        id: "kp-443-q1",
+        prompt: "Why must used nuclear fuel be carefully managed?",
+        choices: [
+          "It can remain hazardous and must be stored so it does not harm life or land.",
+          "It becomes ordinary soil immediately after use.",
+          "It contains no radioactive material.",
+          "It is safe to scatter anywhere."
+        ],
+        correctIndex: 0,
+        explanation: "Used nuclear fuel requires long-term management because radioactive materials can harm living things and environments."
+      },
+      {
+        id: "kp-443-q2",
+        prompt: "Which question should be included in a nuclear energy decision?",
+        choices: [
+          "How will used fuel be isolated and monitored over time?",
+          "Can waste be ignored after electricity is generated?",
+          "Can used fuel be stored in any random location?",
+          "Can all communities be excluded from the decision?"
+        ],
+        correctIndex: 0,
+        explanation: "Long-term waste management is part of evaluating nuclear energy."
+      },
+      {
+        id: "kp-443-q3",
+        prompt: "Why is nuclear waste management a community issue, not only a technical issue?",
+        choices: [
+          "Storage locations can affect local land, people, and future generations.",
+          "Communities are never affected by storage decisions.",
+          "Technical containment removes all ethical questions.",
+          "Used fuel has no long-term effects."
+        ],
+        correctIndex: 0,
+        explanation: "Decisions about storage involve safety, land, trust, and long-term responsibility."
+      }
+    ]
+  },
+  "kp-444": {
+    title: "KP7: Indigenous knowledge and Western science",
+    questions: [
+      {
+        id: "kp-444-q1",
+        prompt: "Why should nuclear waste planning include Indigenous knowledge and Western science?",
+        choices: [
+          "Both can contribute evidence, values, and place-based understanding for safer decisions.",
+          "Only one knowledge system can ever be useful.",
+          "Local communities should be excluded from storage decisions.",
+          "Scientific planning works best without any perspectives."
+        ],
+        correctIndex: 0,
+        explanation: "The textbook describes collaboration that includes Indigenous perspectives in storage-site decisions."
+      },
+      {
+        id: "kp-444-q2",
+        prompt: "Which group should be meaningfully consulted when a storage site may affect their territory?",
+        choices: [
+          "Local communities and First Nations, Inuit, and Metis representatives.",
+          "Only distant companies with no local connection.",
+          "No one outside the engineering team.",
+          "Only people who will never live near the site."
+        ],
+        correctIndex: 0,
+        explanation: "Nuclear waste decisions can affect local lands and communities, so those voices matter."
+      },
+      {
+        id: "kp-444-q3",
+        prompt: "What misconception should be avoided in nuclear waste planning?",
+        choices: [
+          "That technical safety alone settles every social, cultural, and ethical concern.",
+          "That evidence is important.",
+          "That local knowledge can help identify concerns.",
+          "That long-term storage requires careful planning."
+        ],
+        correctIndex: 0,
+        explanation: "Storage decisions involve science, safety, community trust, land relationships, and long-term responsibility."
+      }
+    ]
+  },
+  "kp-445": {
+    title: "KP1: Nuclear power concerns",
+    questions: [
+      {
+        id: "kp-445-q1",
+        prompt: "Which two concerns strongly influence public opinion against nuclear power?",
+        choices: [
+          "Accident risk and nuclear waste risk.",
+          "Photosynthesis and transpiration.",
+          "Sea breezes and land breezes only.",
+          "Urban farming and recycling only."
+        ],
+        correctIndex: 0,
+        explanation: "The nuclear power debate often focuses on accident danger and waste management."
+      },
+      {
+        id: "kp-445-q2",
+        prompt: "Why can nuclear waste be a major argument against nuclear power?",
+        choices: [
+          "It requires safe long-term storage and can remain hazardous.",
+          "It disappears instantly after electricity is generated.",
+          "It is always useful fertilizer.",
+          "It contains no radioactive isotopes."
+        ],
+        correctIndex: 0,
+        explanation: "Waste risk is a central concern because radioactive materials can persist."
+      },
+      {
+        id: "kp-445-q3",
+        prompt: "Why can accident risk affect public opinion even if accidents are rare?",
+        choices: [
+          "A rare accident can have serious effects on people, ecosystems, and trust.",
+          "Rare events never matter.",
+          "Accidents improve trust in institutions automatically.",
+          "Accident risk is unrelated to safety."
+        ],
+        correctIndex: 0,
+        explanation: "Low probability does not mean low consequence, so public concern can remain high."
+      }
+    ]
+  },
+  "kp-446": {
+    title: "KP2: Nuclear power benefits",
+    questions: [
+      {
+        id: "kp-446-q1",
+        prompt: "Which is a common argument in favour of nuclear power?",
+        choices: [
+          "It can provide dependable electrical energy with lower climate emissions than fossil fuels.",
+          "It produces no waste of any kind.",
+          "It has no safety concerns.",
+          "It cannot generate electricity."
+        ],
+        correctIndex: 0,
+        explanation: "Supporters often point to reliability, lower greenhouse gas emissions, and energy security."
+      },
+      {
+        id: "kp-446-q2",
+        prompt: "How can nuclear power reduce dependence on energy imports?",
+        choices: [
+          "A country with nuclear generation may produce more of its own electricity domestically.",
+          "It requires importing all electricity from elsewhere.",
+          "It prevents electricity from being generated locally.",
+          "It works only when fossil fuels are imported."
+        ],
+        correctIndex: 0,
+        explanation: "Domestic electricity generation can reduce reliance on imported energy sources."
+      },
+      {
+        id: "kp-446-q3",
+        prompt: "Which statement is the most balanced pro-nuclear argument?",
+        choices: [
+          "Nuclear power has risks, but it can be dependable and contribute less to climate change than fossil fuels.",
+          "Nuclear power has no risks or waste.",
+          "Nuclear power is identical to burning coal.",
+          "Nuclear power cannot be compared with other energy sources."
+        ],
+        correctIndex: 0,
+        explanation: "A strong argument acknowledges risks while explaining benefits."
+      }
+    ]
+  },
+  "kp-447": {
+    title: "KP3: Fukushima and public trust",
+    questions: [
+      {
+        id: "kp-447-q1",
+        prompt: "How did Fukushima affect public trust in nuclear power?",
+        choices: [
+          "It raised concerns about accident management, communication, and institutional trust.",
+          "It made everyone trust nuclear institutions more automatically.",
+          "It had no effect on public perception anywhere.",
+          "It proved that information release speed never matters."
+        ],
+        correctIndex: 0,
+        explanation: "The textbook notes concerns about slow or contradictory information and trust in accident management."
+      },
+      {
+        id: "kp-447-q2",
+        prompt: "Why does communication during an energy disaster matter?",
+        choices: [
+          "Clear and timely information helps people judge risk and trust response decisions.",
+          "Communication has no effect on safety or trust.",
+          "Contradictory information always improves public confidence.",
+          "The public never needs information during emergencies."
+        ],
+        correctIndex: 0,
+        explanation: "Public confidence depends partly on reliable, transparent communication."
+      },
+      {
+        id: "kp-447-q3",
+        prompt: "Which factor can shape nuclear policy in addition to technical evidence?",
+        choices: [
+          "Public confidence and cultural attitudes toward risk.",
+          "Only the colour of reactor buildings.",
+          "Only the number of pages in a report.",
+          "Whether people ignore all accidents."
+        ],
+        correctIndex: 0,
+        explanation: "Energy decisions involve evidence, emotions, culture, and trust."
+      }
+    ]
+  },
+  "kp-448": {
+    title: "KP4: Evidence-based position",
+    questions: [
+      {
+        id: "kp-448-q1",
+        prompt: "Which set of factors should be weighed in an evidence-based position on nuclear power?",
+        choices: [
+          "Safety, cost, waste, reliability, and climate change.",
+          "Only personal preference with no evidence.",
+          "Only the newest headline.",
+          "Only whether the word nuclear sounds alarming."
+        ],
+        correctIndex: 0,
+        explanation: "The textbook debate prompt asks students to consider multiple evidence-based factors."
+      },
+      {
+        id: "kp-448-q2",
+        prompt: "Which claim would need stronger evidence before being used in a debate?",
+        choices: [
+          "Nuclear power is always perfect and has no costs or risks.",
+          "Nuclear power can produce electricity.",
+          "Nuclear waste must be managed.",
+          "Safety is relevant to public opinion."
+        ],
+        correctIndex: 0,
+        explanation: "Extreme claims require strong evidence and should be checked for bias or missing information."
+      },
+      {
+        id: "kp-448-q3",
+        prompt: "What makes an argument about nuclear power stronger?",
+        choices: [
+          "Using evidence and acknowledging trade-offs.",
+          "Ignoring all opposing evidence.",
+          "Using only emotional language.",
+          "Avoiding safety, waste, cost, and climate questions."
+        ],
+        correctIndex: 0,
+        explanation: "A reasoned argument weighs evidence from multiple sides."
+      }
+    ]
+  },
+  "kp-449": {
+    title: "KP1: Debate question",
+    questions: [
+      {
+        id: "kp-449-q1",
+        prompt: "What is the central question of the energy transformation debate?",
+        choices: [
+          "Do technology-based energy transformations benefit society more than they harm it?",
+          "Can energy be created from nothing in a debate?",
+          "Should all evidence be avoided?",
+          "Are all technologies identical?"
+        ],
+        correctIndex: 0,
+        explanation: "The investigation asks students to debate the balance of benefit and harm."
+      },
+      {
+        id: "kp-449-q2",
+        prompt: "Which topic would fit the debate investigation?",
+        choices: [
+          "Benefits and drawbacks of energy transformations in transportation or electricity generation.",
+          "A list of favourite colours with no science connection.",
+          "A debate with no research question.",
+          "A topic that avoids all benefits and harms."
+        ],
+        correctIndex: 0,
+        explanation: "The investigation suggests topics such as transportation, electricity, agriculture, manufacturing, medicine, and food systems."
+      },
+      {
+        id: "kp-449-q3",
+        prompt: "Why is this debate not answered by a simple yes or no?",
+        choices: [
+          "Different technologies have different benefits, harms, evidence, and stakeholder impacts.",
+          "No energy technology affects society.",
+          "All harms and benefits are exactly equal in every case.",
+          "Evidence cannot be used in debate."
+        ],
+        correctIndex: 0,
+        explanation: "The balance of benefit and harm depends on the technology and evidence considered."
+      }
+    ]
+  },
+  "kp-450": {
+    title: "KP2: Research planning",
+    questions: [
+      {
+        id: "kp-450-q1",
+        prompt: "What should a debate research plan include?",
+        choices: [
+          "Clear questions, reliable resources, roles, organized findings, and citations.",
+          "Only guesses and no sources.",
+          "Only one unsupported opinion.",
+          "No plan until after the debate."
+        ],
+        correctIndex: 0,
+        explanation: "The investigation asks teams to plan questions, resources, roles, records, and citations."
+      },
+      {
+        id: "kp-450-q2",
+        prompt: "Why should sources be cited during an energy transformation debate?",
+        choices: [
+          "So evidence can be checked and claims can be traced to reliable information.",
+          "So the argument becomes longer without being stronger.",
+          "So teams can avoid evidence.",
+          "So emotional appeals replace facts."
+        ],
+        correctIndex: 0,
+        explanation: "Citations allow others to evaluate the quality and reliability of evidence."
+      },
+      {
+        id: "kp-450-q3",
+        prompt: "Which research question is strongest for a debate about electric vehicles?",
+        choices: [
+          "How do electric vehicles compare with gasoline vehicles in emissions, battery waste, cost, and reliability?",
+          "Are electric vehicles good, yes or no, without evidence?",
+          "What colour vehicle looks best?",
+          "Can we ignore electricity generation?"
+        ],
+        correctIndex: 0,
+        explanation: "A strong research question points to evidence that can compare benefits and harms."
+      }
+    ]
   }
 };
