@@ -10330,5 +10330,415 @@ window.SCIENCE10_QUIZZES = {
         explanation: "The universe changed from very hot early conditions toward matter and later cosmic structures."
       }
     ]
+  },
+  "kp-553": {
+    title: "KP5: Formation of stars and galaxies",
+    questions: [
+      {
+        id: "kp-553-q1",
+        prompt: "When did the earliest stars and first galaxies form in the big bang timeline?",
+        choices: [
+          "After the early universe cooled enough for matter to clump under gravity.",
+          "Before the universe began expanding.",
+          "Before any elementary particles existed.",
+          "Only after the modern Solar System formed."
+        ],
+        correctIndex: 0,
+        explanation: "Stars and galaxies formed after earlier cooling and matter formation stages."
+      },
+      {
+        id: "kp-553-q2",
+        prompt: "Why does gravity matter in the formation of stars and galaxies?",
+        choices: [
+          "It pulls matter together into larger structures.",
+          "It prevents all matter from clumping.",
+          "It changes light into sound.",
+          "It only works inside Earth's atmosphere."
+        ],
+        correctIndex: 0,
+        explanation: "Gravity helps gas and matter collect into stars, galaxies, and larger structures."
+      },
+      {
+        id: "kp-553-q3",
+        prompt: "Which sequence best places star and galaxy formation in cosmic history?",
+        choices: [
+          "Big bang -> cooling and matter formation -> earliest stars and galaxies.",
+          "Solar System -> first galaxies -> big bang.",
+          "Earth forms -> photons travel freely -> universe begins.",
+          "Stars form before any matter exists."
+        ],
+        correctIndex: 0,
+        explanation: "Stars and galaxies are later than the earliest hot, dense stages of the universe."
+      }
+    ]
+  },
+  "kp-554": {
+    title: "KP6: Solar system formation",
+    questions: [
+      {
+        id: "kp-554-q1",
+        prompt: "How does solar system formation fit into the universe's timeline?",
+        choices: [
+          "The Sun and Solar System formed much later than the earliest stars and galaxies.",
+          "The Solar System formed before the big bang.",
+          "The Solar System was the first structure in the universe.",
+          "The Solar System formed before any atoms existed."
+        ],
+        correctIndex: 0,
+        explanation: "The Solar System is a relatively late part of cosmic history."
+      },
+      {
+        id: "kp-554-q2",
+        prompt: "Why is Earth considered a late part of cosmic history?",
+        choices: [
+          "Many stars and galaxies existed long before the Sun and planets formed.",
+          "Earth formed before the universe cooled.",
+          "Earth is older than the universe.",
+          "Earth formed from the CMB directly."
+        ],
+        correctIndex: 0,
+        explanation: "The universe had already gone through many stages before the Solar System formed."
+      },
+      {
+        id: "kp-554-q3",
+        prompt: "Which misconception should be avoided?",
+        choices: [
+          "The big bang was not the formation of Earth alone.",
+          "The Solar System formed after many earlier cosmic events.",
+          "Stars and galaxies existed before the Solar System.",
+          "Earth is part of a much larger universe."
+        ],
+        correctIndex: 0,
+        explanation: "The big bang theory describes the universe's history, not just Earth's beginning."
+      }
+    ]
+  },
+  "kp-555": {
+    title: "KP7: Technology and early-universe evidence",
+    questions: [
+      {
+        id: "kp-555-q1",
+        prompt: "How do powerful telescopes help scientists study the early universe?",
+        choices: [
+          "They observe extremely distant galaxies whose light left long ago.",
+          "They travel back in time physically.",
+          "They turn galaxies into nearby planets.",
+          "They remove the need for evidence."
+        ],
+        correctIndex: 0,
+        explanation: "Distant light lets astronomers study earlier stages of cosmic history."
+      },
+      {
+        id: "kp-555-q2",
+        prompt: "Why are particle accelerators useful for early-universe questions?",
+        choices: [
+          "They can create high-energy conditions that help scientists test ideas about very early matter.",
+          "They directly photograph every galaxy.",
+          "They are used only to name constellations.",
+          "They stop cosmic expansion."
+        ],
+        correctIndex: 0,
+        explanation: "High-energy experiments can model some conditions related to the early universe."
+      },
+      {
+        id: "kp-555-q3",
+        prompt: "Which pairing best fits this knowledge point?",
+        choices: [
+          "James Webb Space Telescope: early galaxies; CERN Large Hadron Collider: high-energy particle conditions.",
+          "James Webb Space Telescope: ocean tides; CERN: zodiac calendar.",
+          "James Webb Space Telescope: weather radar only; CERN: star maps only.",
+          "James Webb Space Telescope and CERN: no role in cosmology."
+        ],
+        correctIndex: 0,
+        explanation: "Different technologies investigate different kinds of evidence about the early universe."
+      }
+    ]
+  },
+  "kp-556": {
+    title: "KP1: Continuing mysteries",
+    questions: [
+      {
+        id: "kp-556-q1",
+        prompt: "Why do scientists still describe the universe as containing major mysteries?",
+        choices: [
+          "New evidence has answered many questions, but dark matter, dark energy, size, age, and evolution still raise problems.",
+          "No observations have ever been made.",
+          "Science refuses to revise explanations.",
+          "Everything about the universe is already fully known."
+        ],
+        correctIndex: 0,
+        explanation: "Modern cosmology has strong evidence but also important unanswered questions."
+      },
+      {
+        id: "kp-556-q2",
+        prompt: "What happens to scientific explanations when new evidence appears?",
+        choices: [
+          "They can be refined, expanded, or revised.",
+          "They must never change.",
+          "They become myths automatically.",
+          "They stop needing observations."
+        ],
+        correctIndex: 0,
+        explanation: "Science changes as evidence and technology improve."
+      },
+      {
+        id: "kp-556-q3",
+        prompt: "Which attitude best fits this section?",
+        choices: [
+          "We know a lot, but continued observation and interpretation are still needed.",
+          "Mysteries mean science has failed completely.",
+          "Technology cannot change knowledge.",
+          "Only visible matter matters."
+        ],
+        correctIndex: 0,
+        explanation: "The section emphasizes both progress and open questions."
+      }
+    ]
+  },
+  "kp-557": {
+    title: "KP2: Dark matter",
+    questions: [
+      {
+        id: "kp-557-q1",
+        prompt: "What is dark matter?",
+        choices: [
+          "Matter inferred from gravitational effects even though it does not emit light we can detect directly.",
+          "Ordinary dust clouds visible in a telescope.",
+          "A type of visible red star.",
+          "Energy from the Sun's surface."
+        ],
+        correctIndex: 0,
+        explanation: "Dark matter is inferred from gravity, not directly seen by emitted light."
+      },
+      {
+        id: "kp-557-q2",
+        prompt: "Why do astronomers infer dark matter in galaxies?",
+        choices: [
+          "Observed motions suggest more mass than visible matter alone can explain.",
+          "All galaxies are invisible.",
+          "Visible matter has no gravity.",
+          "Spectra cannot show motion."
+        ],
+        correctIndex: 0,
+        explanation: "Galaxy rotation and cluster motion point to additional unseen mass."
+      },
+      {
+        id: "kp-557-q3",
+        prompt: "Which statement avoids a common misconception?",
+        choices: [
+          "Dark matter is not called dark because it is black-coloured visible matter; it is inferred because it does not emit detectable light.",
+          "Dark matter is just ordinary shadow.",
+          "Dark matter has no gravitational effect.",
+          "Dark matter has been fully identified in every detail."
+        ],
+        correctIndex: 0,
+        explanation: "The name refers to missing unseen mass, not simply colour."
+      }
+    ]
+  },
+  "kp-558": {
+    title: "KP3: Andromeda and missing mass",
+    questions: [
+      {
+        id: "kp-558-q1",
+        prompt: "What unexpected observation in Andromeda supports the idea of missing mass?",
+        choices: [
+          "Its stars move faster than predicted from visible matter alone.",
+          "It has no stars.",
+          "It is inside Earth's atmosphere.",
+          "It stopped rotating completely."
+        ],
+        correctIndex: 0,
+        explanation: "Faster-than-expected star motion suggests extra unseen mass."
+      },
+      {
+        id: "kp-558-q2",
+        prompt: "Why was visible light from Andromeda not enough to explain its motion?",
+        choices: [
+          "The visible matter estimated from light did not provide enough mass to match observed star speeds.",
+          "Visible light cannot come from galaxies.",
+          "Andromeda is not a galaxy.",
+          "Star speeds are unrelated to gravity."
+        ],
+        correctIndex: 0,
+        explanation: "The gravitational effects were larger than visible matter could account for."
+      },
+      {
+        id: "kp-558-q3",
+        prompt: "Which reasoning pattern matches this evidence?",
+        choices: [
+          "Prediction from visible mass -> observed speeds too high -> infer additional unseen mass.",
+          "Ignore the speeds -> assume no mass exists.",
+          "Measure star colour -> conclude Earth is older.",
+          "Count constellations -> calculate galaxy rotation."
+        ],
+        correctIndex: 0,
+        explanation: "Dark matter is inferred by comparing predictions with observations."
+      }
+    ]
+  },
+  "kp-559": {
+    title: "KP4: Dark matter halos",
+    questions: [
+      {
+        id: "kp-559-q1",
+        prompt: "What is a dark matter halo?",
+        choices: [
+          "A large region of inferred dark matter surrounding a galaxy.",
+          "A ring of visible stars around Earth.",
+          "A cloud in the lower atmosphere.",
+          "A telescope lens effect that never involves gravity."
+        ],
+        correctIndex: 0,
+        explanation: "Dark matter is thought to extend in large halos around galaxies."
+      },
+      {
+        id: "kp-559-q2",
+        prompt: "Why do galaxy groups and clusters suggest dark matter halos?",
+        choices: [
+          "Their motions often require more gravitational mass than visible matter shows.",
+          "They contain no galaxies.",
+          "Their motions are unrelated to mass.",
+          "They are all inside the Solar System."
+        ],
+        correctIndex: 0,
+        explanation: "Large-scale motions point to unseen gravitational mass around galaxies and clusters."
+      },
+      {
+        id: "kp-559-q3",
+        prompt: "Which observation would most support a halo of unseen matter?",
+        choices: [
+          "Objects orbit as if a galaxy has much more mass than its visible stars and gas.",
+          "A galaxy changes colour in a photograph.",
+          "A planet has seasons.",
+          "A constellation is hard to see through city lights."
+        ],
+        correctIndex: 0,
+        explanation: "Orbital motion can reveal gravitational mass that is not directly visible."
+      }
+    ]
+  },
+  "kp-560": {
+    title: "KP5: Dark energy",
+    questions: [
+      {
+        id: "kp-560-q1",
+        prompt: "What is dark energy?",
+        choices: [
+          "A name for the unknown cause of the accelerating expansion of the universe.",
+          "A kind of ordinary visible starlight.",
+          "A force that makes planets orbit the Sun.",
+          "A cloud of dust inside Earth."
+        ],
+        correctIndex: 0,
+        explanation: "Dark energy is used as a name for whatever is driving accelerated cosmic expansion."
+      },
+      {
+        id: "kp-560-q2",
+        prompt: "Why were Type Ia supernovae useful in inferring dark energy?",
+        choices: [
+          "Their known brightness helped reveal they were farther away than expected from a slowing-expansion model.",
+          "They are all inside the Milky Way only.",
+          "They do not emit light.",
+          "They measure dark matter directly in a lab."
+        ],
+        correctIndex: 0,
+        explanation: "Type Ia supernova observations provided evidence that expansion is accelerating."
+      },
+      {
+        id: "kp-560-q3",
+        prompt: "Which statement is most accurate?",
+        choices: [
+          "Dark energy is inferred from observations, but its true nature is still unknown.",
+          "Dark energy is fully understood in every detail.",
+          "Dark energy is the same as visible matter.",
+          "Dark energy is simply a redshifted star."
+        ],
+        correctIndex: 0,
+        explanation: "The evidence suggests an effect, but the cause remains mysterious."
+      }
+    ]
+  },
+  "kp-561": {
+    title: "KP6: Accelerating expansion",
+    questions: [
+      {
+        id: "kp-561-q1",
+        prompt: "What did astronomers originally expect gravity to do to cosmic expansion?",
+        choices: [
+          "Slow it down over time.",
+          "Speed it up forever with no other cause.",
+          "Stop light from travelling.",
+          "Turn galaxies into planets."
+        ],
+        correctIndex: 0,
+        explanation: "Gravity attracts matter, so scientists expected expansion to slow."
+      },
+      {
+        id: "kp-561-q2",
+        prompt: "What surprising pattern did evidence from distant Type Ia supernovae suggest?",
+        choices: [
+          "The universe's expansion began accelerating billions of years ago.",
+          "The universe stopped expanding before stars formed.",
+          "Earth is the centre of all expansion.",
+          "All galaxies are moving toward the Milky Way."
+        ],
+        correctIndex: 0,
+        explanation: "Supernova data suggested acceleration rather than continued slowing."
+      },
+      {
+        id: "kp-561-q3",
+        prompt: "Why did accelerating expansion require a new explanatory idea?",
+        choices: [
+          "It did not fit the expectation that gravity alone should slow expansion.",
+          "It proved gravity does not exist anywhere.",
+          "It showed that no galaxies have redshift.",
+          "It made the CMB disappear."
+        ],
+        correctIndex: 0,
+        explanation: "The acceleration suggested that another effect, called dark energy, was involved."
+      }
+    ]
+  },
+  "kp-562": {
+    title: "KP7: Visible matter as a small fraction",
+    questions: [
+      {
+        id: "kp-562-q1",
+        prompt: "According to current estimates in the checklist, what makes up most of the universe?",
+        choices: [
+          "Dark energy and dark matter.",
+          "Only visible stars and planets.",
+          "Only Earth-like planets.",
+          "Only gas inside the Milky Way."
+        ],
+        correctIndex: 0,
+        explanation: "Visible matter is only a small fraction compared with dark matter and dark energy."
+      },
+      {
+        id: "kp-562-q2",
+        prompt: "Why is the visible universe not the same as everything that exists?",
+        choices: [
+          "Much of the universe is inferred from effects such as gravity and expansion rather than directly seen light.",
+          "Visible matter does not exist.",
+          "Dark matter emits more visible light than stars.",
+          "All unseen things are imaginary."
+        ],
+        correctIndex: 0,
+        explanation: "Observations show effects that visible matter alone cannot explain."
+      },
+      {
+        id: "kp-562-q3",
+        prompt: "If visible matter is only about \\(4\\%\\) of the universe in one estimate, which statement follows?",
+        choices: [
+          "Most of the universe's mass-energy is not ordinary visible stars and galaxies.",
+          "Stars and galaxies make up all of the universe.",
+          "Dark matter and dark energy are unnecessary ideas.",
+          "Only the Solar System exists."
+        ],
+        correctIndex: 0,
+        explanation: "The estimate emphasizes how much remains unseen or not fully understood."
+      }
+    ]
   }
 };
