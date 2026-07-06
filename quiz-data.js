@@ -4918,5 +4918,415 @@ window.SCIENCE10_QUIZZES = {
         explanation: "Comparing inside and outside temperatures helps evaluate how the model changes energy retention."
       }
     ]
+  },
+  "kp-421": {
+    title: "KP3: Ocean carbon dioxide absorption",
+    questions: [
+      {
+        id: "kp-421-q1",
+        prompt: "What happens when oceans absorb carbon dioxide from the atmosphere?",
+        choices: [
+          "Some \\(CO_2\\) reacts with water to form carbonic acid, increasing acidity.",
+          "All ocean water instantly becomes pure oxygen.",
+          "The ocean stops interacting with the atmosphere.",
+          "Carbon dioxide turns directly into sand with no chemical change."
+        ],
+        correctIndex: 0,
+        explanation: "The investigation explains that absorbed CO2 can react with water to form carbonic acid."
+      },
+      {
+        id: "kp-421-q2",
+        prompt: "Why can ocean carbon dioxide absorption be described as both helpful and harmful?",
+        choices: [
+          "It can moderate atmospheric warming, but increased acidity can harm marine organisms.",
+          "It removes all greenhouse gases permanently with no effects.",
+          "It makes ocean water unable to support any chemical reactions.",
+          "It only affects rocks on land."
+        ],
+        correctIndex: 0,
+        explanation: "Oceans absorb CO2, but more dissolved CO2 can lead to ocean acidification."
+      },
+      {
+        id: "kp-421-q3",
+        prompt: "Which equation-style description is most consistent with the checklist idea?",
+        choices: [
+          "\\(CO_2\\) + water -> carbonic acid, leading to increased ocean acidity.",
+          "\\(CO_2\\) + water -> table salt only.",
+          "\\(CO_2\\) + sunlight -> ocean gravity disappears.",
+          "\\(CO_2\\) + shells -> no chemical effect ever."
+        ],
+        correctIndex: 0,
+        explanation: "The key relationship is that carbon dioxide can react with water to form carbonic acid."
+      }
+    ]
+  },
+  "kp-422": {
+    title: "KP4: Ocean acidity and shells",
+    questions: [
+      {
+        id: "kp-422-q1",
+        prompt: "Why can increased ocean acidity harm animals such as clams, corals, and sea urchins?",
+        choices: [
+          "It can make it harder for them to build calcium-containing shells or skeletons.",
+          "It makes shells grow instantly without energy or materials.",
+          "It removes all predators from the ocean.",
+          "It turns every shell into plastic."
+        ],
+        correctIndex: 0,
+        explanation: "The textbook connects acidic conditions to difficulty building shells and skeletons."
+      },
+      {
+        id: "kp-422-q2",
+        prompt: "In an eggshell model of ocean acidity, what does the eggshell represent?",
+        choices: [
+          "A calcium-containing shell or skeleton of a marine organism.",
+          "A ship engine.",
+          "A greenhouse gas molecule.",
+          "A layer of Earth's mantle."
+        ],
+        correctIndex: 0,
+        explanation: "Eggshells can model calcium-containing structures affected by acidic water."
+      },
+      {
+        id: "kp-422-q3",
+        prompt: "A shell sample loses mass after sitting in a more acidic liquid. What conclusion best fits the model?",
+        choices: [
+          "Greater acidity can damage calcium-containing shell material.",
+          "Acidity has no possible effect on shells.",
+          "The shell gained thermal energy only.",
+          "The liquid became less acidic because the shell was heavier."
+        ],
+        correctIndex: 0,
+        explanation: "A mass decrease or visible shell damage can model how acidity affects calcium shells."
+      }
+    ]
+  },
+  "kp-423": {
+    title: "KP5: Model strengths and limitations",
+    questions: [
+      {
+        id: "kp-423-q1",
+        prompt: "Why should students evaluate both strengths and limitations of an Earth-system model?",
+        choices: [
+          "Models simplify real systems, so they can show patterns while leaving out details.",
+          "A model is always exactly the same as the real system.",
+          "Models should never be tested with data.",
+          "A model's limitations make all results useless."
+        ],
+        correctIndex: 0,
+        explanation: "Models are useful simplifications, but students should identify what they represent well and what they miss."
+      },
+      {
+        id: "kp-423-q2",
+        prompt: "Which is a limitation of using eggshells to model ocean acidification?",
+        choices: [
+          "Eggshells are not living marine organisms in a complete ocean ecosystem.",
+          "Eggshells contain no calcium-containing material.",
+          "Eggshells make the model larger than Earth.",
+          "Eggshells prevent all measurement."
+        ],
+        correctIndex: 0,
+        explanation: "Eggshells can model shell material, but they do not include the full biology and ecology of real organisms."
+      },
+      {
+        id: "kp-423-q3",
+        prompt: "Which model result would be useful evidence but still need careful interpretation?",
+        choices: [
+          "Shell mass changes in liquids with different acidity levels.",
+          "A student's favourite colour.",
+          "The number of desks in the room.",
+          "A model that was never observed."
+        ],
+        correctIndex: 0,
+        explanation: "Measured shell changes can support conclusions, but the model's limits should still be considered."
+      }
+    ]
+  },
+  "kp-424": {
+    title: "KP1: Human reliance on energy transformations",
+    questions: [
+      {
+        id: "kp-424-q1",
+        prompt: "What is the main message of Chapter 3.4 Concept 1?",
+        choices: [
+          "Energy transformations provide benefits for humans but can also create risks or harm.",
+          "Humans never use energy transformations.",
+          "Every energy technology is completely risk-free.",
+          "Energy transformations affect only natural systems, not societies."
+        ],
+        correctIndex: 0,
+        explanation: "The chapter frames human energy use as a balance of benefits and possible negative effects."
+      },
+      {
+        id: "kp-424-q2",
+        prompt: "Which evaluation question best fits a new energy technology?",
+        choices: [
+          "What benefits does it provide, and what environmental or social harms might it cause?",
+          "Can we ignore all side effects if it works?",
+          "Does it avoid every energy transformation?",
+          "Can it be judged only by its invention date?"
+        ],
+        correctIndex: 0,
+        explanation: "Responsible evaluation considers both usefulness and risks."
+      },
+      {
+        id: "kp-424-q3",
+        prompt: "A technology provides cheap electricity but damages habitat. What does this example show?",
+        choices: [
+          "Energy technologies can involve trade-offs between benefits and harms.",
+          "Benefits always erase harms.",
+          "Habitat damage is not connected to energy decisions.",
+          "Electricity cannot come from energy transformations."
+        ],
+        correctIndex: 0,
+        explanation: "Many energy decisions involve trade-offs that must be weighed carefully."
+      }
+    ]
+  },
+  "kp-425": {
+    title: "KP2: Biological energy transformations",
+    questions: [
+      {
+        id: "kp-425-q1",
+        prompt: "How does photosynthesis support human survival in energy terms?",
+        choices: [
+          "Plants transform solar energy into chemical potential energy in food.",
+          "Plants transform gravity into nuclear fuel.",
+          "Plants remove all energy from ecosystems.",
+          "Plants create energy from nothing."
+        ],
+        correctIndex: 0,
+        explanation: "Photosynthesis stores energy in chemical form, which supports food webs including humans."
+      },
+      {
+        id: "kp-425-q2",
+        prompt: "What does cellular respiration do with chemical potential energy from food?",
+        choices: [
+          "It transforms stored chemical energy into forms cells can use for life functions.",
+          "It turns food directly into sunlight.",
+          "It prevents cells from using energy.",
+          "It changes oxygen into concrete."
+        ],
+        correctIndex: 0,
+        explanation: "Cellular respiration releases usable energy from food molecules."
+      },
+      {
+        id: "kp-425-q3",
+        prompt: "Which sequence best connects solar energy to human movement?",
+        choices: [
+          "Sunlight -> photosynthesis in plants -> chemical energy in food -> cellular respiration -> movement.",
+          "Sunlight -> concrete -> gravity disappears -> movement.",
+          "Sunlight -> no transformation -> movement without energy.",
+          "Sunlight -> sound only -> nuclear waste -> movement."
+        ],
+        correctIndex: 0,
+        explanation: "Human activity ultimately depends on energy transformations in living systems."
+      }
+    ]
+  },
+  "kp-426": {
+    title: "KP3: Fire and early human technology",
+    questions: [
+      {
+        id: "kp-426-q1",
+        prompt: "What energy transformation occurs when wood burns in a fire?",
+        choices: [
+          "Chemical potential energy transforms into thermal and radiant energy.",
+          "Thermal energy transforms into gravity only.",
+          "Radiant energy transforms into frozen water.",
+          "Nuclear energy transforms into photosynthesis."
+        ],
+        correctIndex: 0,
+        explanation: "Burning wood releases stored chemical energy as heat and light."
+      },
+      {
+        id: "kp-426-q2",
+        prompt: "Which benefit of fire-starting technology is most directly linked to thermal energy?",
+        choices: [
+          "Cooking food and staying warm in colder climates.",
+          "Producing ocean tides.",
+          "Preventing all combustion.",
+          "Building calcium shells."
+        ],
+        correctIndex: 0,
+        explanation: "Thermal energy from fire helped people cook and survive in cold environments."
+      },
+      {
+        id: "kp-426-q3",
+        prompt: "Why is fire a good example of technology based on energy transformation?",
+        choices: [
+          "People intentionally used a transformation to produce useful heat and light.",
+          "Fire has no energy changes.",
+          "Fire is useful only because it creates water.",
+          "Fire prevents chemical energy from changing."
+        ],
+        correctIndex: 0,
+        explanation: "Fire-starting let humans control a useful energy transformation."
+      }
+    ]
+  },
+  "kp-427": {
+    title: "KP4: Large-scale combustion and air pollution",
+    questions: [
+      {
+        id: "kp-427-q1",
+        prompt: "What energy transformation powered many steam engines?",
+        choices: [
+          "Chemical potential energy in coal -> thermal energy -> mechanical kinetic energy.",
+          "Nuclear energy -> ocean acidity -> shell growth.",
+          "Sound energy -> gravity -> photosynthesis.",
+          "Visible light -> no energy transfer -> stillness."
+        ],
+        correctIndex: 0,
+        explanation: "Coal combustion produced heat, which was used to create mechanical motion in steam engines."
+      },
+      {
+        id: "kp-427-q2",
+        prompt: "What harmful effect can large-scale combustion produce?",
+        choices: [
+          "Air pollution and health problems.",
+          "Instant removal of all smog.",
+          "No waste products of any kind.",
+          "Permanent cooling of every city."
+        ],
+        correctIndex: 0,
+        explanation: "The textbook connects coal smoke, smog, and vehicle emissions to air pollution and health risks."
+      },
+      {
+        id: "kp-427-q3",
+        prompt: "Why is a gas engine an example of both benefit and harm?",
+        choices: [
+          "It can provide transportation but also contribute to smog and air pollution.",
+          "It has no useful energy transformation.",
+          "It produces food through photosynthesis.",
+          "It removes all pollutants from air."
+        ],
+        correctIndex: 0,
+        explanation: "Combustion engines helped transportation but also brought pollution-related problems."
+      }
+    ]
+  },
+  "kp-428": {
+    title: "KP5: Cement and batteries",
+    questions: [
+      {
+        id: "kp-428-q1",
+        prompt: "Why is cement production included as an energy-transformation trade-off?",
+        choices: [
+          "It provides useful building material but can release significant carbon dioxide.",
+          "It produces no emissions and no chemical changes.",
+          "It is used only in living cells.",
+          "It prevents all construction."
+        ],
+        correctIndex: 0,
+        explanation: "Cement is useful, but its production can add greenhouse gas emissions."
+      },
+      {
+        id: "kp-428-q2",
+        prompt: "What energy transformation occurs in a battery when it powers a device?",
+        choices: [
+          "Chemical potential energy transforms into electrical energy.",
+          "Electrical energy transforms into ocean tides only.",
+          "Thermal energy transforms into carbonic acid only.",
+          "Gravity transforms into cement."
+        ],
+        correctIndex: 0,
+        explanation: "Batteries store chemical potential energy that can be transformed into electrical energy."
+      },
+      {
+        id: "kp-428-q3",
+        prompt: "What hidden harm can batteries create if they are not recycled properly?",
+        choices: [
+          "Toxic chemicals can leach into landfills and harm health or ecosystems.",
+          "They become harmless food for organisms.",
+          "They remove all greenhouse gases.",
+          "They make cement absorb unlimited carbon dioxide."
+        ],
+        correctIndex: 0,
+        explanation: "The textbook notes that modern batteries can create toxic waste problems if not handled properly."
+      }
+    ]
+  },
+  "kp-429": {
+    title: "KP6: Hydroelectric dams",
+    questions: [
+      {
+        id: "kp-429-q1",
+        prompt: "What energy transformation is central to hydroelectric dams?",
+        choices: [
+          "Gravitational potential and kinetic energy of water are transformed into electrical energy.",
+          "Sound energy is transformed into DNA.",
+          "Carbon dioxide becomes sunlight.",
+          "Thermal energy becomes coral skeletons."
+        ],
+        correctIndex: 0,
+        explanation: "Falling or flowing water drives turbines and generators to produce electricity."
+      },
+      {
+        id: "kp-429-q2",
+        prompt: "Which is a possible harm of building a large hydroelectric reservoir?",
+        choices: [
+          "Flooding land, releasing methane from decaying plants, or displacing people.",
+          "Eliminating every greenhouse gas forever.",
+          "Preventing any electrical generation.",
+          "Turning water into nuclear fuel."
+        ],
+        correctIndex: 0,
+        explanation: "Hydroelectricity provides useful power, but dam construction can flood land and affect communities and ecosystems."
+      },
+      {
+        id: "kp-429-q3",
+        prompt: "Which statement best evaluates hydroelectric power fairly?",
+        choices: [
+          "It can provide electrical energy, but its environmental and social impacts must be considered.",
+          "It has only benefits and no possible harms.",
+          "It has only harms and never produces electricity.",
+          "It does not involve energy transformation."
+        ],
+        correctIndex: 0,
+        explanation: "A balanced evaluation includes both the energy benefit and possible harms."
+      }
+    ]
+  },
+  "kp-430": {
+    title: "KP7: Nuclear reactors and fuel cells",
+    questions: [
+      {
+        id: "kp-430-q1",
+        prompt: "How can a nuclear reactor produce electrical energy?",
+        choices: [
+          "Nuclear energy is transformed into thermal energy, steam motion, and then electrical energy.",
+          "Nuclear energy directly becomes ocean shells.",
+          "Sunlight becomes concrete inside the reactor.",
+          "Sound energy replaces all generators."
+        ],
+        correctIndex: 0,
+        explanation: "Reactors use nuclear energy to produce heat, which can make steam that drives generators."
+      },
+      {
+        id: "kp-430-q2",
+        prompt: "Why is nuclear technology considered both useful and risky?",
+        choices: [
+          "It can generate electricity and medical isotopes, but radiation can harm living things.",
+          "It has no medical or electrical uses.",
+          "Radiation is always harmless to life.",
+          "It produces only clean drinking water."
+        ],
+        correctIndex: 0,
+        explanation: "The textbook notes benefits from reactors and isotopes while emphasizing radiation risk."
+      },
+      {
+        id: "kp-430-q3",
+        prompt: "What hidden impact can hydrogen fuel cells have?",
+        choices: [
+          "Producing the hydrogen may release carbon dioxide, depending on the method used.",
+          "Fuel cells always release more smog than coal engines.",
+          "Hydrogen cannot store or transfer energy.",
+          "Fuel cells have no connection to energy technology."
+        ],
+        correctIndex: 0,
+        explanation: "Fuel cells may emit no pollutants during use, but hydrogen production can still have emissions."
+      }
+    ]
   }
 };
