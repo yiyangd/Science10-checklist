@@ -6148,5 +6148,87 @@ window.SCIENCE10_QUIZZES = {
         explanation: "A strong research question points to evidence that can compare benefits and harms."
       }
     ]
+  },
+  "kp-451": {
+    title: "KP3: Bias and reliability",
+    questions: [
+      {
+        id: "kp-451-q1",
+        prompt: "Which question helps identify possible bias in a source about energy technology?",
+        choices: [
+          "Who might benefit from this message, and who paid for it?",
+          "How many letters are in the title?",
+          "Is the source printed in colour?",
+          "Does the source avoid all evidence?"
+        ],
+        correctIndex: 0,
+        explanation: "The investigation asks students to consider special interests, funding, and who stands to gain."
+      },
+      {
+        id: "kp-451-q2",
+        prompt: "Which source feature most improves reliability for an energy debate?",
+        choices: [
+          "Facts and statistics are cited so readers can check the evidence.",
+          "The source uses only emotional language.",
+          "The source hides all data.",
+          "The source presents one extreme view with no support."
+        ],
+        correctIndex: 0,
+        explanation: "Citations and checkable evidence help a reader evaluate reliability."
+      },
+      {
+        id: "kp-451-q3",
+        prompt: "A website about fuel cells is funded by a company that sells hydrogen equipment. What should a student do?",
+        choices: [
+          "Use the information cautiously and compare it with independent sources.",
+          "Assume every claim is false without reading it.",
+          "Assume every claim is true because it supports one side.",
+          "Ignore who funded the source."
+        ],
+        correctIndex: 0,
+        explanation: "Funding does not automatically make a source useless, but it is a reason to check for bias and compare evidence."
+      }
+    ]
+  },
+  "kp-452": {
+    title: "KP4: Evidence-based communication",
+    questions: [
+      {
+        id: "kp-452-q1",
+        prompt: "What makes communication in an energy transformation debate evidence-based?",
+        choices: [
+          "It uses facts, logic, citations, and clear reasoning.",
+          "It uses only unsupported opinions.",
+          "It avoids all alternate views.",
+          "It replaces evidence with louder speaking."
+        ],
+        correctIndex: 0,
+        explanation: "Strong scientific communication supports claims with reliable evidence and reasoning."
+      },
+      {
+        id: "kp-452-q2",
+        prompt: "Which statement would be strongest in a debate about technology-based energy transformations?",
+        choices: [
+          "This technology has these benefits and harms, supported by these cited data.",
+          "This technology is good because I say so.",
+          "The other side is wrong, but I have no evidence.",
+          "Facts are unnecessary if the claim sounds confident."
+        ],
+        correctIndex: 0,
+        explanation: "Balanced, cited evidence is stronger than unsupported opinion."
+      },
+      {
+        id: "kp-452-q3",
+        prompt: "After hearing both sides of a debate, how should the better-supported side be evaluated?",
+        choices: [
+          "By the quality, reliability, balance, and logic of its evidence.",
+          "By which side used more dramatic wording.",
+          "By which side ignored more sources.",
+          "By which side finished speaking first."
+        ],
+        correctIndex: 0,
+        explanation: "Evaluation should focus on evidence quality and reasoning, not presentation tricks alone."
+      }
+    ]
   }
 };
