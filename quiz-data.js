@@ -1023,5 +1023,415 @@ window.SCIENCE10_QUIZZES = {
         explanation: "Gravitational potential energy depends on variables including mass, gravity, and height change."
       }
     ]
+  },
+  "kp-326": {
+    title: "KP2: Mechanical kinetic energy variables",
+    questions: [
+      {
+        id: "kp-326-q1",
+        prompt: "Which two variables directly affect mechanical kinetic energy?",
+        choices: [
+          "Colour and shape.",
+          "Temperature and sound level only.",
+          "Mass and velocity.",
+          "Height and magnet strength only."
+        ],
+        correctIndex: 2,
+        explanation: "Mechanical kinetic energy depends on mass and velocity."
+      },
+      {
+        id: "kp-326-q2",
+        prompt: "Two carts move at the same speed. Cart A has twice the mass of Cart B. Which cart has more mechanical kinetic energy?",
+        choices: [
+          "Cart B, because smaller objects always have more kinetic energy.",
+          "Cart A, because greater mass means greater kinetic energy when speed is the same.",
+          "Neither, because mass does not affect kinetic energy.",
+          "Both must have zero kinetic energy."
+        ],
+        correctIndex: 1,
+        explanation: "At the same speed, increasing mass increases mechanical kinetic energy."
+      },
+      {
+        id: "kp-326-q3",
+        prompt: "Which statement corrects a common misconception about mechanical kinetic energy?",
+        choices: [
+          "Only living things can have mechanical kinetic energy.",
+          "Speed matters only if an object is falling downward.",
+          "A stationary object always has the most kinetic energy.",
+          "A faster object has more kinetic energy than the same object moving more slowly."
+        ],
+        correctIndex: 3,
+        explanation: "For the same object, increasing velocity increases mechanical kinetic energy."
+      }
+    ]
+  },
+  "kp-327": {
+    title: "KP3: Mechanical kinetic energy equation",
+    questions: [
+      {
+        id: "kp-327-q1",
+        prompt: "Which equation represents mechanical kinetic energy?",
+        choices: [
+          "\\(E_k = \\frac{1}{2}mv^2\\)",
+          "\\(E_g = mg\\Delta h\\)",
+          "\\(v = \\frac{d}{t}\\)",
+          "\\(F = ma\\)"
+        ],
+        correctIndex: 0,
+        explanation: "Mechanical kinetic energy is calculated with one half times mass times velocity squared."
+      },
+      {
+        id: "kp-327-q2",
+        prompt: "A 2 kg cart moves at 3 m/s. Using \\(E_k = \\frac{1}{2}mv^2\\), what is its kinetic energy?",
+        choices: [
+          "3 J",
+          "6 J",
+          "9 J",
+          "18 J"
+        ],
+        correctIndex: 2,
+        explanation: "The calculation is one half times 2 times 3 squared, so the kinetic energy is 9 J."
+      },
+      {
+        id: "kp-327-q3",
+        prompt: "If the mass stays the same but velocity doubles, what happens to \\(E_k\\)?",
+        choices: [
+          "It doubles.",
+          "It becomes four times as large.",
+          "It is cut in half.",
+          "It becomes zero."
+        ],
+        correctIndex: 1,
+        explanation: "Velocity is squared in the kinetic energy equation, so doubling velocity makes kinetic energy four times as large."
+      }
+    ]
+  },
+  "kp-328": {
+    title: "KP4: Gravitational potential energy variables",
+    questions: [
+      {
+        id: "kp-328-q1",
+        prompt: "Which variables affect gravitational potential energy?",
+        choices: [
+          "Mass, gravitational field strength, and change in height.",
+          "Colour, texture, and sound.",
+          "Only the object's speed.",
+          "Only the object's temperature."
+        ],
+        correctIndex: 0,
+        explanation: "Gravitational potential energy depends on mass, gravity, and height change from a reference point."
+      },
+      {
+        id: "kp-328-q2",
+        prompt: "Two identical backpacks are lifted to the same height, one on Earth and one where gravity is weaker. Which has less gravitational potential energy?",
+        choices: [
+          "The backpack where gravity is weaker.",
+          "The backpack on Earth always has zero gravitational potential energy.",
+          "They must be equal because mass and height are the same.",
+          "Neither, because gravity does not affect gravitational potential energy."
+        ],
+        correctIndex: 0,
+        explanation: "When mass and height are the same, weaker gravitational field strength gives less gravitational potential energy."
+      },
+      {
+        id: "kp-328-q3",
+        prompt: "A student says only height matters for gravitational potential energy. What is missing?",
+        choices: [
+          "Brightness and colour.",
+          "Mass and gravitational field strength also matter.",
+          "Sound and electrical current.",
+          "The object's name."
+        ],
+        correctIndex: 1,
+        explanation: "Height is important, but mass and gravitational field strength also affect gravitational potential energy."
+      }
+    ]
+  },
+  "kp-329": {
+    title: "KP5: Gravitational potential energy equation",
+    questions: [
+      {
+        id: "kp-329-q1",
+        prompt: "Which equation represents gravitational potential energy near a planet's surface?",
+        choices: [
+          "\\(E_k = \\frac{1}{2}mv^2\\)",
+          "\\(E_g = mg\\Delta h\\)",
+          "\\(v = \\frac{d}{t}\\)",
+          "\\(density = \\frac{mass}{volume}\\)"
+        ],
+        correctIndex: 1,
+        explanation: "Gravitational potential energy is mass times gravitational field strength times change in height."
+      },
+      {
+        id: "kp-329-q2",
+        prompt: "A 2 kg object is lifted 3 m. If \\(g = 10\\,m/s^2\\), what is \\(E_g\\)?",
+        choices: [
+          "6 J",
+          "15 J",
+          "30 J",
+          "60 J"
+        ],
+        correctIndex: 3,
+        explanation: "Using Eg = mg delta h gives 2 times 10 times 3, or 60 J."
+      },
+      {
+        id: "kp-329-q3",
+        prompt: "If an object is not raised or lowered relative to the chosen reference position, what is \\(\\Delta h\\)?",
+        choices: [
+          "Zero.",
+          "Equal to the object's mass.",
+          "Always 9.8.",
+          "Equal to the object's speed."
+        ],
+        correctIndex: 0,
+        explanation: "Change in height is zero when the object's height relative to the reference position does not change."
+      }
+    ]
+  },
+  "kp-330": {
+    title: "KP6: Reference position",
+    questions: [
+      {
+        id: "kp-330-q1",
+        prompt: "Why can the same object have different \\(E_g\\) values in different calculations?",
+        choices: [
+          "Because gravitational potential energy is measured relative to a chosen reference position.",
+          "Because energy is created whenever a new reference point is chosen.",
+          "Because mass changes when you choose a reference point.",
+          "Because reference points apply only to kinetic energy."
+        ],
+        correctIndex: 0,
+        explanation: "Changing the reference position changes the height difference used in the gravitational potential energy calculation."
+      },
+      {
+        id: "kp-330-q2",
+        prompt: "A book is 1 m above the floor but 0 m above the tabletop it rests on. Which statement is accurate?",
+        choices: [
+          "The book must have the same \\(E_g\\) no matter what reference is chosen.",
+          "The book can have different calculated \\(E_g\\) values depending on whether the floor or tabletop is the reference.",
+          "The book has kinetic energy because it is on a table.",
+          "The book has no mass if the tabletop is the reference."
+        ],
+        correctIndex: 1,
+        explanation: "A chosen reference position determines the height change used for Eg."
+      },
+      {
+        id: "kp-330-q3",
+        prompt: "Which statement best avoids a reference-position misconception?",
+        choices: [
+          "Reference position changes the physical object itself.",
+          "Reference position is a choice used for analysis, not a change to the object.",
+          "Reference position destroys gravitational energy.",
+          "Reference position matters only for sound energy."
+        ],
+        correctIndex: 1,
+        explanation: "The object does not change; the reference choice changes how height is measured in the analysis."
+      }
+    ]
+  },
+  "kp-331": {
+    title: "KP7: Friction and apparent energy loss",
+    questions: [
+      {
+        id: "kp-331-q1",
+        prompt: "What does friction usually do to mechanical energy?",
+        choices: [
+          "It transforms some mechanical energy into thermal energy and sound energy.",
+          "It destroys energy completely.",
+          "It changes all energy into nuclear energy.",
+          "It prevents energy from being conserved."
+        ],
+        correctIndex: 0,
+        explanation: "Friction transforms mechanical energy into other forms such as thermal and sound energy."
+      },
+      {
+        id: "kp-331-q2",
+        prompt: "A sled slides down one hill and up another but does not reach the same height. What is the best energy explanation?",
+        choices: [
+          "Some mechanical energy was transformed into thermal and sound energy by friction.",
+          "Energy was created at the bottom of the hill.",
+          "The sled lost mass, so conservation of energy stopped applying.",
+          "The sled had no energy while sliding."
+        ],
+        correctIndex: 0,
+        explanation: "Friction makes some energy less useful for lifting the sled back up, even though total energy is conserved."
+      },
+      {
+        id: "kp-331-q3",
+        prompt: "Which statement corrects the phrase 'energy was lost to friction'?",
+        choices: [
+          "The energy vanished.",
+          "The energy became matter.",
+          "The energy was transformed, often into thermal energy and sound.",
+          "The energy turned into gravity."
+        ],
+        correctIndex: 2,
+        explanation: "Energy is not destroyed by friction; it changes into other forms."
+      }
+    ]
+  },
+  "kp-332": {
+    title: "KP1: Chain of energy changes",
+    questions: [
+      {
+        id: "kp-332-q1",
+        prompt: "What makes a Rube Goldberg machine a useful example for studying energy?",
+        choices: [
+          "It completes a task through a sequence of energy transfers and transformations.",
+          "It prevents all energy from changing form.",
+          "It has no systems or parts.",
+          "It works only if energy is created at every step."
+        ],
+        correctIndex: 0,
+        explanation: "A Rube Goldberg machine links many energy changes so that one step triggers the next."
+      },
+      {
+        id: "kp-332-q2",
+        prompt: "A marble rolls down a ramp, hits a lever, and the lever lifts a flag. What should you track?",
+        choices: [
+          "Only the colour of each part.",
+          "How energy moves and changes form from one part to the next.",
+          "Only the final flag position, ignoring earlier steps.",
+          "How much matter disappears."
+        ],
+        correctIndex: 1,
+        explanation: "A chain of energy changes is analyzed by following transfers and transformations through the system."
+      },
+      {
+        id: "kp-332-q3",
+        prompt: "Which is a common weak explanation of a chain machine?",
+        choices: [
+          "Naming how one energy change triggers the next.",
+          "Identifying the system parts that interact.",
+          "Saying 'it just works' without describing transfers or transformations.",
+          "Recording motion, collisions, and height changes."
+        ],
+        correctIndex: 2,
+        explanation: "A useful explanation names the energy changes and how each step leads to the next."
+      }
+    ]
+  },
+  "kp-333": {
+    title: "KP2: System design",
+    questions: [
+      {
+        id: "kp-333-q1",
+        prompt: "How can system design affect energy transfer and transformation?",
+        choices: [
+          "Design can make transfers more reliable or reduce unwanted energy changes.",
+          "Design cannot affect energy in any system.",
+          "Design creates energy from nothing.",
+          "Design matters only for living systems."
+        ],
+        correctIndex: 0,
+        explanation: "The arrangement and materials in a system affect how energy moves and changes form."
+      },
+      {
+        id: "kp-333-q2",
+        prompt: "A marble track fails because the marble slows too much before reaching the next part. Which design change is most directly helpful?",
+        choices: [
+          "Increase unnecessary friction on the track.",
+          "Use a smoother path or steeper section to reduce unwanted energy loss.",
+          "Remove all evidence of motion.",
+          "Make the marble's colour brighter."
+        ],
+        correctIndex: 1,
+        explanation: "Reducing unwanted friction or improving the path can make the energy transfer more reliable."
+      },
+      {
+        id: "kp-333-q3",
+        prompt: "Which statement best describes a design trade-off?",
+        choices: [
+          "A more reliable energy transfer may require changing materials, angles, or distances.",
+          "A design cannot be improved once it works once.",
+          "Unwanted sound and heat always mean energy was destroyed.",
+          "System design is unrelated to energy evidence."
+        ],
+        correctIndex: 0,
+        explanation: "Design choices can improve performance by changing how energy is transferred or transformed."
+      }
+    ]
+  },
+  "kp-334": {
+    title: "KP3: Energy evidence",
+    questions: [
+      {
+        id: "kp-334-q1",
+        prompt: "Which observation can provide evidence of energy transfer or transformation?",
+        choices: [
+          "Motion, sound, height change, collision, or deformation.",
+          "Only the written name of the object.",
+          "Only the colour of a label.",
+          "Only the number of pages in a notebook."
+        ],
+        correctIndex: 0,
+        explanation: "Visible and audible changes can be evidence that energy has moved or changed form."
+      },
+      {
+        id: "kp-334-q2",
+        prompt: "A rubber stopper hits a cup, the cup moves, and a loud sound is heard. What evidence should be recorded?",
+        choices: [
+          "Only the brand of the cup.",
+          "The collision, cup motion, and sound as evidence of energy transfer and transformation.",
+          "Only the room number.",
+          "Nothing, because sound cannot be evidence."
+        ],
+        correctIndex: 1,
+        explanation: "Collisions, motion, and sound can all help explain how energy changed or moved."
+      },
+      {
+        id: "kp-334-q3",
+        prompt: "Which statement avoids overclaiming from evidence?",
+        choices: [
+          "If there is sound, energy must have been created from nothing.",
+          "Observations are clues that support an energy explanation, but they should be connected carefully to the system.",
+          "A collision proves there is no energy transfer.",
+          "Deformation means matter disappeared."
+        ],
+        correctIndex: 1,
+        explanation: "Evidence should be interpreted in terms of the system and the energy changes being analyzed."
+      }
+    ]
+  },
+  "kp-335": {
+    title: "KP1: Observing energy transformation",
+    questions: [
+      {
+        id: "kp-335-q1",
+        prompt: "How can energy transformation be investigated in a hands-on system?",
+        choices: [
+          "By observing changes in form, motion, position, sound, light, or temperature.",
+          "By ignoring all changes in the system.",
+          "By assuming energy is created whenever something moves.",
+          "By measuring only the object's name."
+        ],
+        correctIndex: 0,
+        explanation: "Energy transformation can be studied through observable changes in what the system does."
+      },
+      {
+        id: "kp-335-q2",
+        prompt: "A wind-up toy is released and starts moving while making sound. Which transformation is most likely?",
+        choices: [
+          "Stored elastic potential energy changes into kinetic energy and sound energy.",
+          "Sound energy changes into mass only.",
+          "The toy creates energy from nothing.",
+          "The toy has no energy because it is small."
+        ],
+        correctIndex: 0,
+        explanation: "Stored energy in the wound spring can transform into motion and sound."
+      },
+      {
+        id: "kp-335-q3",
+        prompt: "Which observation would most directly show a form change rather than only a transfer?",
+        choices: [
+          "A battery-powered buzzer changes stored chemical energy into sound and thermal energy.",
+          "One identical ball passes motion to another identical ball.",
+          "A book stays still on a table.",
+          "A pencil is counted twice."
+        ],
+        correctIndex: 0,
+        explanation: "The buzzer changes stored chemical energy into other forms, so it shows energy transformation."
+      }
+    ]
   }
 };
