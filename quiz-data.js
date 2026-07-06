@@ -2458,5 +2458,415 @@ window.SCIENCE10_QUIZZES = {
         explanation: "Choosing the right material matters because absorbed light can be transformed into different useful outputs."
       }
     ]
+  },
+  "kp-361": {
+    title: "KP1: Ionizing radiation",
+    questions: [
+      {
+        id: "kp-361-q1",
+        prompt: "What makes radiation ionizing?",
+        choices: [
+          "It can remove electrons from atoms and break chemical bonds.",
+          "It can only warm water without changing atoms.",
+          "It can only reflect from shiny surfaces.",
+          "It can make atoms disappear without transferring energy."
+        ],
+        correctIndex: 0,
+        explanation: "Ionizing radiation has enough energy to remove electrons from atoms, which can damage molecules and cells."
+      },
+      {
+        id: "kp-361-q2",
+        prompt: "Why can ionizing radiation harm living tissue?",
+        choices: [
+          "It can change molecules by ionizing atoms and breaking bonds needed for normal cell function.",
+          "It always makes cells photosynthesize.",
+          "It only changes the colour of skin cells without affecting molecules.",
+          "It prevents all energy transfer from occurring."
+        ],
+        correctIndex: 0,
+        explanation: "When bonds in biological molecules are broken or rearranged, cells and tissues may no longer function normally."
+      },
+      {
+        id: "kp-361-q3",
+        prompt: "Which example best applies the idea of ionizing radiation?",
+        choices: [
+          "High-energy radiation changes atoms in tissue by removing electrons.",
+          "Visible light passes through clear glass without being absorbed.",
+          "A warm spoon transfers thermal energy to cooler water.",
+          "A rolling ball transfers mechanical kinetic energy to another ball."
+        ],
+        correctIndex: 0,
+        explanation: "Ionizing radiation is specifically about radiation energetic enough to ionize atoms, not ordinary heat transfer or motion transfer."
+      }
+    ]
+  },
+  "kp-362": {
+    title: "KP2: Alpha radiation risk",
+    questions: [
+      {
+        id: "kp-362-q1",
+        prompt: "Why is alpha radiation often less dangerous outside the body than inside the body?",
+        choices: [
+          "Alpha particles deposit energy near the surface they strike, so dead outer skin can block much external damage.",
+          "Alpha particles have no energy at all.",
+          "Alpha particles pass easily through the entire body without interacting.",
+          "Alpha particles are the same as visible light."
+        ],
+        correctIndex: 0,
+        explanation: "Alpha particles are massive and charged, so they do not penetrate far but can be very damaging if emitted inside tissue."
+      },
+      {
+        id: "kp-362-q2",
+        prompt: "Which situation creates the greatest alpha radiation risk?",
+        choices: [
+          "A radioactive alpha emitter is inhaled or swallowed.",
+          "An alpha source is outside the body and blocked by outer dead skin cells.",
+          "A student hears a sound wave from across the room.",
+          "A mirror reflects sunlight onto a wall."
+        ],
+        correctIndex: 0,
+        explanation: "Inside the body, alpha particles can deposit energy directly into living tissue."
+      },
+      {
+        id: "kp-362-q3",
+        prompt: "Which property helps explain alpha particles' surface effect?",
+        choices: [
+          "They have relatively high mass and charge compared with beta particles.",
+          "They have no mass and no charge.",
+          "They are always harmless because they are slow.",
+          "They are water molecules."
+        ],
+        correctIndex: 0,
+        explanation: "Their large mass and charge make alpha particles interact strongly over a short distance."
+      }
+    ]
+  },
+  "kp-363": {
+    title: "KP3: Beta radiation risk",
+    questions: [
+      {
+        id: "kp-363-q1",
+        prompt: "How does beta radiation differ from alpha radiation in tissue penetration?",
+        choices: [
+          "Beta particles can penetrate the skin surface into living tissue more than alpha particles can.",
+          "Beta particles cannot enter living tissue at all.",
+          "Beta particles are always stopped by air instantly.",
+          "Beta particles are identical to gamma rays."
+        ],
+        correctIndex: 0,
+        explanation: "Beta particles can penetrate the surface and damage living tissue, though they do not penetrate as deeply as gamma radiation."
+      },
+      {
+        id: "kp-363-q2",
+        prompt: "Why is a beta-emitting material more dangerous if inhaled or ingested?",
+        choices: [
+          "It can expose internal tissues directly to ionizing particles.",
+          "It changes all beta particles into harmless sound waves.",
+          "It prevents radiation from interacting with cells.",
+          "It makes the material stop being radioactive."
+        ],
+        correctIndex: 0,
+        explanation: "Internal exposure brings the radiation source close to living tissues and organs."
+      },
+      {
+        id: "kp-363-q3",
+        prompt: "Which statement about beta radiation risk is most accurate?",
+        choices: [
+          "Beta radiation can damage skin and is more concerning when the source gets inside the body.",
+          "Beta radiation is harmless because electrons cannot carry energy.",
+          "Beta radiation only affects dead outer skin cells.",
+          "Beta radiation is the same as thermal conduction."
+        ],
+        correctIndex: 0,
+        explanation: "Beta particles are energetic electrons that can ionize atoms and damage living tissue."
+      }
+    ]
+  },
+  "kp-364": {
+    title: "KP4: Gamma radiation risk",
+    questions: [
+      {
+        id: "kp-364-q1",
+        prompt: "Why can gamma radiation be dangerous deep inside the body?",
+        choices: [
+          "Gamma rays have no mass or charge and can travel through dense matter before interacting.",
+          "Gamma rays are heavy particles that stop at the surface of skin.",
+          "Gamma rays are harmless because they are not energy.",
+          "Gamma rays can only damage dead cells outside the body."
+        ],
+        correctIndex: 0,
+        explanation: "Gamma rays can penetrate deeply and ionize atoms or molecules wherever they interact."
+      },
+      {
+        id: "kp-364-q2",
+        prompt: "Which comparison best explains why gamma radiation requires serious shielding?",
+        choices: [
+          "It penetrates much farther than alpha or beta radiation before interacting.",
+          "It is stopped more easily than alpha radiation by a sheet of paper.",
+          "It cannot pass through any matter.",
+          "It is a form of mechanical kinetic energy."
+        ],
+        correctIndex: 0,
+        explanation: "Gamma rays are highly penetrating electromagnetic radiation, so shielding must be dense and substantial."
+      },
+      {
+        id: "kp-364-q3",
+        prompt: "A gamma photon interacts with tissue and deposits its energy. What can happen?",
+        choices: [
+          "It can ionize atoms and damage molecules in cells.",
+          "It becomes clean drinking water.",
+          "It turns into glucose without affecting tissue.",
+          "It proves radiation cannot transfer energy."
+        ],
+        correctIndex: 0,
+        explanation: "Deposited gamma energy can ionize atoms, which can break or change chemical bonds in tissue."
+      }
+    ]
+  },
+  "kp-365": {
+    title: "KP1: Energy transformation careers",
+    questions: [
+      {
+        id: "kp-365-q1",
+        prompt: "Why would an audiologist need to understand energy transformation?",
+        choices: [
+          "Hearing involves sound energy being transformed into mechanical motion and electrical nerve signals.",
+          "Audiologists use nuclear fission to make sound.",
+          "Sound energy has no connection to living systems.",
+          "Hearing works only by storing gravitational potential energy."
+        ],
+        correctIndex: 0,
+        explanation: "The textbook links audiology to transformations of sound energy in the ear and nervous system."
+      },
+      {
+        id: "kp-365-q2",
+        prompt: "Which career connection best fits meteorology?",
+        choices: [
+          "Understanding thermal, mechanical kinetic, and electrical energy transformations in weather systems.",
+          "Designing only chemical batteries for flashlights.",
+          "Ignoring energy because weather is not a system.",
+          "Using photosynthesis to read ancient artifacts."
+        ],
+        correctIndex: 0,
+        explanation: "Meteorology depends on energy transfers and transformations in the atmosphere."
+      },
+      {
+        id: "kp-365-q3",
+        prompt: "What do audiology, biomedical engineering, oceanography, and meteorology have in common in this section?",
+        choices: [
+          "They all rely on understanding how energy changes form or moves through systems.",
+          "They all avoid physics concepts.",
+          "They all use only radiant energy from stars.",
+          "They all require the same single tool."
+        ],
+        correctIndex: 0,
+        explanation: "The Science at Work section uses these careers to show energy concepts in real work."
+      }
+    ]
+  },
+  "kp-366": {
+    title: "KP2: Energy tools and technologies",
+    questions: [
+      {
+        id: "kp-366-q1",
+        prompt: "Why are tools such as radar, magnetometers, and radiation protection systems connected to energy concepts?",
+        choices: [
+          "They depend on detecting, transferring, or transforming energy to gather information or improve safety.",
+          "They work only if energy is destroyed.",
+          "They use no physical principles.",
+          "They are useful only because they are large."
+        ],
+        correctIndex: 0,
+        explanation: "Many scientific tools use energy interactions to investigate, measure, protect, or predict."
+      },
+      {
+        id: "kp-366-q2",
+        prompt: "Which example best shows an energy tool supporting investigation?",
+        choices: [
+          "Ground-penetrating radar helps archaeologists investigate hidden structures.",
+          "A blank notebook turns sunlight into nuclear fuel.",
+          "A thermometer prevents all heat transfer.",
+          "A ruler destroys sound energy."
+        ],
+        correctIndex: 0,
+        explanation: "The textbook lists tools such as radar and magnetometers as energy-related methods for studying the past."
+      },
+      {
+        id: "kp-366-q3",
+        prompt: "What is a good reason to study the energy transformations behind a technology?",
+        choices: [
+          "It helps explain what the technology measures, predicts, powers, or protects against.",
+          "It guarantees the technology has no limits.",
+          "It removes the need for evidence.",
+          "It proves all technologies work the same way."
+        ],
+        correctIndex: 0,
+        explanation: "Understanding the energy pathway helps explain both the use and limitations of a technology."
+      }
+    ]
+  },
+  "kp-367": {
+    title: "KP1: Solar energy access",
+    questions: [
+      {
+        id: "kp-367-q1",
+        prompt: "Why can solar-energy technologies be valuable in remote or underserved areas?",
+        choices: [
+          "They can help provide electricity, clean water, or emergency support where supply systems are limited.",
+          "They always require large fossil-fuel power plants nearby.",
+          "They work only at night.",
+          "They prevent any energy transformation from happening."
+        ],
+        correctIndex: 0,
+        explanation: "The textbook describes solar-energy projects aimed at practical needs such as electricity and clean water access."
+      },
+      {
+        id: "kp-367-q2",
+        prompt: "Which need is most directly connected to the solar-energy projects in the Take Action section?",
+        choices: [
+          "Reliable energy and clean water access for communities with limited infrastructure.",
+          "Making all radiation harmless.",
+          "Increasing fossil-fuel dependence in transportation.",
+          "Stopping sunlight from reaching Earth."
+        ],
+        correctIndex: 0,
+        explanation: "The projects use solar energy to address everyday needs in rural, remote, or disaster-affected areas."
+      },
+      {
+        id: "kp-367-q3",
+        prompt: "Which statement is a realistic limitation to consider for solar-energy access?",
+        choices: [
+          "Sunlight availability, storage, and local needs affect how useful a solar technology will be.",
+          "Solar energy creates electricity without any device or transformation.",
+          "Solar energy works identically in every community.",
+          "Solar technologies can only produce sound energy."
+        ],
+        correctIndex: 0,
+        explanation: "A useful design must match available sunlight, storage needs, and the community's practical goals."
+      }
+    ]
+  },
+  "kp-368": {
+    title: "KP2: Solar-powered community technologies",
+    questions: [
+      {
+        id: "kp-368-q1",
+        prompt: "What is the main energy transformation in an Energy Hub charging battery packs?",
+        choices: [
+          "Solar energy is transformed into electrical energy stored for later use.",
+          "Sound energy is transformed into nuclear energy.",
+          "Gravitational potential energy is transformed directly into gasoline.",
+          "Thermal energy is destroyed by the batteries."
+        ],
+        correctIndex: 0,
+        explanation: "The Energy Hub uses solar energy to charge portable battery packs."
+      },
+      {
+        id: "kp-368-q2",
+        prompt: "How does the SunSaluter combine energy ideas with water access?",
+        choices: [
+          "It uses sunlight for energy and gravity-driven motion while water is filtered during the day.",
+          "It uses uranium fission to boil water.",
+          "It blocks all sunlight so water stays cold.",
+          "It turns salt directly into electrical wires."
+        ],
+        correctIndex: 0,
+        explanation: "The textbook describes the SunSaluter as using solar tracking and water filtration to provide energy and clean water benefits."
+      },
+      {
+        id: "kp-368-q3",
+        prompt: "Which comparison between the Energy Hub and SunSaluter is best?",
+        choices: [
+          "Both use solar energy for community benefit, but the SunSaluter also supports water filtration.",
+          "Both rely only on fossil fuel combustion.",
+          "The Energy Hub uses gamma radiation, while the SunSaluter uses alpha radiation.",
+          "Neither involves energy transformation."
+        ],
+        correctIndex: 0,
+        explanation: "Both are solar-related technologies, but their designs solve different practical problems."
+      }
+    ]
+  },
+  "kp-369": {
+    title: "KP3: Solarships and sustainable delivery",
+    questions: [
+      {
+        id: "kp-369-q1",
+        prompt: "Why can solarships be useful for remote-area delivery?",
+        choices: [
+          "Their compact aircraft design, buoyant lift, and solar panels can help deliver supplies where runways or roads are limited.",
+          "They require only underground coal mines to operate.",
+          "They work by absorbing gamma rays from medical isotopes.",
+          "They can land only at large international airports."
+        ],
+        correctIndex: 0,
+        explanation: "The textbook describes solarships as hybrid aircraft designed for remote supply delivery."
+      },
+      {
+        id: "kp-369-q2",
+        prompt: "Which feature helps a solarship reduce reliance on fossil fuels?",
+        choices: [
+          "A large surface area for solar panels.",
+          "A design that blocks sunlight.",
+          "A fuel system that burns only coal.",
+          "A requirement for long paved runways."
+        ],
+        correctIndex: 0,
+        explanation: "Solar panels allow sunlight to be transformed into useful energy for the aircraft system."
+      },
+      {
+        id: "kp-369-q3",
+        prompt: "Which evaluation question best fits solarship technology?",
+        choices: [
+          "Does solar energy reduce fuel use while still meeting delivery needs safely and reliably?",
+          "Can solarships avoid all energy transformations?",
+          "Can solarships make sunlight at night without storage?",
+          "Does buoyant lift prove gravity is absent?"
+        ],
+        correctIndex: 0,
+        explanation: "A good evaluation balances sustainability, mission requirements, reliability, and safety."
+      }
+    ]
+  },
+  "kp-370": {
+    title: "KP1: Solar energy storage problem",
+    questions: [
+      {
+        id: "kp-370-q1",
+        prompt: "Why does large-scale solar power need an energy-storage method?",
+        choices: [
+          "Solar-to-electrical energy transformation is reduced at night and during cloudy conditions.",
+          "Solar energy is not a real form of energy.",
+          "Mirrors destroy energy whenever they reflect sunlight.",
+          "Electricity can only be generated while salt is frozen."
+        ],
+        correctIndex: 0,
+        explanation: "The textbook notes that solar generation is limited when sunlight is unavailable or reduced, so storage helps supply energy later."
+      },
+      {
+        id: "kp-370-q2",
+        prompt: "What problem does molten-salt storage try to solve at a solar power plant?",
+        choices: [
+          "How to keep useful energy available when sunlight is not currently strong enough.",
+          "How to make sunlight unnecessary for any solar technology.",
+          "How to prevent all thermal energy from existing.",
+          "How to turn salt into radioactive fuel."
+        ],
+        correctIndex: 0,
+        explanation: "Molten salt can store thermal energy collected during sunny periods so electricity can be generated later."
+      },
+      {
+        id: "kp-370-q3",
+        prompt: "Which statement explains why cloud cover matters for solar-to-electrical systems?",
+        choices: [
+          "Less incoming sunlight means less energy is available to transform into electricity or stored thermal energy.",
+          "Clouds create nuclear fission in solar panels.",
+          "Clouds make storage unnecessary.",
+          "Clouds increase sunlight reaching every mirror."
+        ],
+        correctIndex: 0,
+        explanation: "The amount of incoming solar energy affects how much useful energy the system can transform or store."
+      }
+    ]
   }
 };
