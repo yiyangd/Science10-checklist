@@ -9920,5 +9920,415 @@ window.SCIENCE10_QUIZZES = {
         explanation: "The big bang theory is an evidence-based scientific model of the universe's history."
       }
     ]
+  },
+  "kp-543": {
+    title: "KP2: Cosmology",
+    questions: [
+      {
+        id: "kp-543-q1",
+        prompt: "What does cosmology study?",
+        choices: [
+          "The origin, structure, development, and possible future of the universe.",
+          "Only the weather on Earth.",
+          "Only the names of constellations.",
+          "Only the rocks on the Moon."
+        ],
+        correctIndex: 0,
+        explanation: "Cosmology is the study of the universe as a whole."
+      },
+      {
+        id: "kp-543-q2",
+        prompt: "How is the big bang theory connected to cosmology?",
+        choices: [
+          "It is a scientific model used to explain the universe's origin and development.",
+          "It is a method for classifying individual planets.",
+          "It is a star chart for one night only.",
+          "It describes only Earth's atmosphere."
+        ],
+        correctIndex: 0,
+        explanation: "The big bang theory is part of modern scientific cosmology."
+      },
+      {
+        id: "kp-543-q3",
+        prompt: "Which question is most cosmological?",
+        choices: [
+          "How has the universe changed since its earliest stages?",
+          "What is today's local wind speed?",
+          "Which pencil is longest on a desk?",
+          "How many pages are in one notebook?"
+        ],
+        correctIndex: 0,
+        explanation: "Cosmology asks broad questions about the universe's history and structure."
+      }
+    ]
+  },
+  "kp-544": {
+    title: "KP3: Doppler effect",
+    questions: [
+      {
+        id: "kp-544-q1",
+        prompt: "What happens in the Doppler effect?",
+        choices: [
+          "Waves from a moving source are compressed or stretched as seen by an observer.",
+          "Gravity stops all waves from moving.",
+          "Light changes into matter every time it moves.",
+          "Stars stop emitting radiation."
+        ],
+        correctIndex: 0,
+        explanation: "Relative motion changes the observed wavelength of waves."
+      },
+      {
+        id: "kp-544-q2",
+        prompt: "How can the Doppler effect help astronomers?",
+        choices: [
+          "It lets them infer whether a star or galaxy is moving toward or away from us.",
+          "It gives the exact mass of every planet instantly.",
+          "It replaces the need for spectra.",
+          "It proves galaxies never move."
+        ],
+        correctIndex: 0,
+        explanation: "Shifts in spectral lines can reveal motion along the line of sight."
+      },
+      {
+        id: "kp-544-q3",
+        prompt: "A light source moving away has its light waves stretched. What kind of wavelength change is this?",
+        choices: [
+          "A shift toward longer wavelengths.",
+          "A shift toward shorter wavelengths.",
+          "No possible change in wavelength.",
+          "A change from light into sound."
+        ],
+        correctIndex: 0,
+        explanation: "Moving away stretches observed wavelengths."
+      }
+    ]
+  },
+  "kp-545": {
+    title: "KP4: Redshift",
+    questions: [
+      {
+        id: "kp-545-q1",
+        prompt: "What does redshift usually indicate for a distant galaxy?",
+        choices: [
+          "The galaxy is moving away from the observer as space expands.",
+          "The galaxy is moving toward the observer.",
+          "The galaxy contains only red stars.",
+          "The galaxy has stopped emitting light."
+        ],
+        correctIndex: 0,
+        explanation: "Redshift means spectral lines are shifted toward longer, redder wavelengths."
+      },
+      {
+        id: "kp-545-q2",
+        prompt: "If spectral lines shift toward longer wavelengths, what term describes the shift?",
+        choices: [
+          "Redshift.",
+          "Blueshift.",
+          "Parallax.",
+          "Solar mass."
+        ],
+        correctIndex: 0,
+        explanation: "Longer visible wavelengths are associated with the red end of the spectrum."
+      },
+      {
+        id: "kp-545-q3",
+        prompt: "Why was widespread galaxy redshift important evidence?",
+        choices: [
+          "It suggested most distant galaxies are moving away, supporting an expanding universe.",
+          "It showed every galaxy is inside the Solar System.",
+          "It proved that light has no wavelength.",
+          "It showed all stars are red giants."
+        ],
+        correctIndex: 0,
+        explanation: "Redshift patterns helped scientists infer cosmic expansion."
+      }
+    ]
+  },
+  "kp-546": {
+    title: "KP5: Blueshift",
+    questions: [
+      {
+        id: "kp-546-q1",
+        prompt: "What does blueshift indicate about an object in space?",
+        choices: [
+          "It is moving toward the observer.",
+          "It is moving away from the observer.",
+          "It has no motion of any kind.",
+          "It is changing into a planet."
+        ],
+        correctIndex: 0,
+        explanation: "Blueshift occurs when observed wavelengths are shortened toward the blue end of the spectrum."
+      },
+      {
+        id: "kp-546-q2",
+        prompt: "A star's spectral lines shift toward shorter wavelengths. What is the best interpretation?",
+        choices: [
+          "The star is moving toward the observer along the line of sight.",
+          "The star is definitely farther than every galaxy.",
+          "The star has stopped emitting radiation.",
+          "The star is becoming a black hole immediately."
+        ],
+        correctIndex: 0,
+        explanation: "Shorter observed wavelengths correspond to blueshift."
+      },
+      {
+        id: "kp-546-q3",
+        prompt: "Which comparison between redshift and blueshift is correct?",
+        choices: [
+          "Redshift is longer wavelength from moving away; blueshift is shorter wavelength from moving toward.",
+          "Both always mean an object is motionless.",
+          "Redshift and blueshift describe only sound, never light.",
+          "Blueshift means wavelengths become longer and redshift means shorter."
+        ],
+        correctIndex: 0,
+        explanation: "The direction of wavelength change tells astronomers about motion toward or away."
+      }
+    ]
+  },
+  "kp-547": {
+    title: "KP6: Hubble's law and expansion",
+    questions: [
+      {
+        id: "kp-547-q1",
+        prompt: "What does Hubble's law show?",
+        choices: [
+          "A galaxy's speed away from us is proportional to its distance.",
+          "All galaxies are the same distance from Earth.",
+          "Nearby planets cause every redshift.",
+          "The universe is shrinking at a constant rate."
+        ],
+        correctIndex: 0,
+        explanation: "Hubble's law links recession speed and distance."
+      },
+      {
+        id: "kp-547-q2",
+        prompt: "A galaxy twice as far away tends to move away about twice as fast in a simple Hubble-law pattern. What does this support?",
+        choices: [
+          "The idea that space itself is expanding.",
+          "The idea that Earth is pushing galaxies away by magnetism.",
+          "The idea that galaxies cannot move.",
+          "The idea that all galaxies are inside the Milky Way."
+        ],
+        correctIndex: 0,
+        explanation: "A proportional speed-distance pattern is evidence for expansion of space."
+      },
+      {
+        id: "kp-547-q3",
+        prompt: "On a graph of galaxy velocity versus distance, what does the slope represent in this context?",
+        choices: [
+          "The Hubble constant, or expansion rate.",
+          "The mass of Earth.",
+          "The colour of a star.",
+          "The number of planets in the Solar System."
+        ],
+        correctIndex: 0,
+        explanation: "The slope of the velocity-distance graph gives the Hubble constant."
+      }
+    ]
+  },
+  "kp-548": {
+    title: "KP7: Cosmic microwave background radiation",
+    questions: [
+      {
+        id: "kp-548-q1",
+        prompt: "What is cosmic microwave background radiation?",
+        choices: [
+          "Leftover radiation from the early universe that now appears mostly as microwaves.",
+          "Visible light from only the nearest star.",
+          "Sound waves from planets.",
+          "Radiation produced only by Earth's atmosphere."
+        ],
+        correctIndex: 0,
+        explanation: "CMB radiation is a major piece of evidence for the hot early universe."
+      },
+      {
+        id: "kp-548-q2",
+        prompt: "Why did early radiation become microwave radiation over time?",
+        choices: [
+          "Expansion stretched its wavelengths into cooler, longer-wavelength parts of the spectrum.",
+          "It was reflected by planets until it became sound.",
+          "It was turned into visible light by Earth.",
+          "It stopped existing after stars formed."
+        ],
+        correctIndex: 0,
+        explanation: "As the universe expanded, wavelengths of radiation were stretched."
+      },
+      {
+        id: "kp-548-q3",
+        prompt: "What did COBE and WMAP help measure?",
+        choices: [
+          "Tiny temperature variations in the cosmic microwave background.",
+          "The weight of every galaxy.",
+          "The shape of Earth's oceans.",
+          "The exact number of zodiac constellations."
+        ],
+        correctIndex: 0,
+        explanation: "Satellite maps of the CMB gave detailed evidence about the early universe."
+      }
+    ]
+  },
+  "kp-549": {
+    title: "KP1: Looking back in time",
+    questions: [
+      {
+        id: "kp-549-q1",
+        prompt: "Why does looking farther into space mean looking farther back in time?",
+        choices: [
+          "Light has a finite speed, so distant light left its source long ago.",
+          "Telescopes reverse time directly.",
+          "Galaxies stop changing when observed.",
+          "Space has no distance."
+        ],
+        correctIndex: 0,
+        explanation: "The farther light travels, the older the information it carries."
+      },
+      {
+        id: "kp-549-q2",
+        prompt: "If a galaxy is 6 billion light-years away, what are we seeing?",
+        choices: [
+          "Light that began travelling about 6 billion years ago.",
+          "The galaxy exactly as it is this instant.",
+          "A galaxy only 6 AU away.",
+          "A galaxy with no history."
+        ],
+        correctIndex: 0,
+        explanation: "A light-year is tied to how long light has travelled."
+      },
+      {
+        id: "kp-549-q3",
+        prompt: "Why are distant galaxies useful for studying the early universe?",
+        choices: [
+          "Their light shows earlier stages because it has taken a long time to reach us.",
+          "They are physically younger because they are smaller in photographs.",
+          "They are always inside our Solar System.",
+          "They do not emit electromagnetic radiation."
+        ],
+        correctIndex: 0,
+        explanation: "Distant observations give evidence from earlier cosmic times."
+      }
+    ]
+  },
+  "kp-550": {
+    title: "KP2: Young universe and CMB",
+    questions: [
+      {
+        id: "kp-550-q1",
+        prompt: "What early stage does the CMB help scientists observe?",
+        choices: [
+          "A time when the young universe had cooled enough for photons to travel freely.",
+          "The exact moment Earth formed.",
+          "The formation of every individual planet.",
+          "The current surface of the Sun."
+        ],
+        correctIndex: 0,
+        explanation: "The CMB is light from an early stage when the universe became transparent to photons."
+      },
+      {
+        id: "kp-550-q2",
+        prompt: "About how old was the universe when the CMB light could travel freely?",
+        choices: [
+          "About 380 000 years old.",
+          "About 8 minutes old.",
+          "About 4.5 billion years old.",
+          "About 100 trillion years old."
+        ],
+        correctIndex: 0,
+        explanation: "The checklist identifies the CMB with the universe at about 380 000 years old."
+      },
+      {
+        id: "kp-550-q3",
+        prompt: "Why is the CMB seen in all directions?",
+        choices: [
+          "It is radiation from the early universe that fills space around us.",
+          "It comes only from the Moon.",
+          "It is produced by one nearby radio tower.",
+          "It is reflected sunlight from planets only."
+        ],
+        correctIndex: 0,
+        explanation: "CMB radiation is a background signal from the early universe."
+      }
+    ]
+  },
+  "kp-551": {
+    title: "KP3: Early expansion and inflation",
+    questions: [
+      {
+        id: "kp-551-q1",
+        prompt: "What does inflation describe in early-universe models?",
+        choices: [
+          "An extremely rapid expansion very soon after the big bang.",
+          "A slow shrinking of the Solar System.",
+          "The growth of one star into a galaxy.",
+          "A weather pattern in Earth's atmosphere."
+        ],
+        correctIndex: 0,
+        explanation: "Inflation refers to a very brief and rapid early expansion."
+      },
+      {
+        id: "kp-551-q2",
+        prompt: "Why is early expansion an important step in the universe's timeline?",
+        choices: [
+          "It helps explain how the universe grew from extremely small, hot conditions toward larger-scale structure.",
+          "It explains why Earth has seasons.",
+          "It proves the Milky Way is the only galaxy.",
+          "It describes the orbit of the Moon only."
+        ],
+        correctIndex: 0,
+        explanation: "Expansion is central to connecting the early universe with later cosmic structure."
+      },
+      {
+        id: "kp-551-q3",
+        prompt: "Which statement best avoids a misconception about the big bang?",
+        choices: [
+          "It describes expansion of the universe itself, not an ordinary explosion into pre-existing empty space.",
+          "It happened at Earth's centre.",
+          "It created only the Solar System.",
+          "It ended all expansion immediately."
+        ],
+        correctIndex: 0,
+        explanation: "Cosmic expansion is not the same as fragments flying through ordinary space from one point."
+      }
+    ]
+  },
+  "kp-552": {
+    title: "KP4: Cooling and particle formation",
+    questions: [
+      {
+        id: "kp-552-q1",
+        prompt: "What happened as the early universe expanded?",
+        choices: [
+          "It cooled, allowing particles and later atoms to form.",
+          "It became hotter forever with no matter forming.",
+          "It immediately formed the present-day Solar System.",
+          "It stopped containing energy."
+        ],
+        correctIndex: 0,
+        explanation: "Expansion and cooling allowed matter to form in stages."
+      },
+      {
+        id: "kp-552-q2",
+        prompt: "Why could photons travel freely only after the universe cooled enough?",
+        choices: [
+          "Electrons could bind with atoms, so light was no longer constantly scattered by charged particles.",
+          "Photons were invented by telescopes.",
+          "Gravity disappeared completely.",
+          "The universe became empty of all matter."
+        ],
+        correctIndex: 0,
+        explanation: "When atoms formed, radiation could travel through space more freely."
+      },
+      {
+        id: "kp-552-q3",
+        prompt: "Which sequence best matches the general idea of early-universe development?",
+        choices: [
+          "Hot dense conditions -> expansion and cooling -> particles and atoms -> larger structures later.",
+          "Planets first -> stars disappear -> atoms form last.",
+          "Modern galaxies first -> big bang later.",
+          "Earth's atmosphere first -> universe expands after humans appear."
+        ],
+        correctIndex: 0,
+        explanation: "The universe changed from very hot early conditions toward matter and later cosmic structures."
+      }
+    ]
   }
 };
