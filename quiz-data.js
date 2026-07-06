@@ -4098,5 +4098,415 @@ window.SCIENCE10_QUIZZES = {
         explanation: "The natural greenhouse effect is important, while human-caused increases in greenhouse gases can disrupt climate systems."
       }
     ]
+  },
+  "kp-401": {
+    title: "KP3: Aquatic ecosystems and temperature",
+    questions: [
+      {
+        id: "kp-401-q1",
+        prompt: "Why can warming water disrupt aquatic ecosystems?",
+        choices: [
+          "Many aquatic organisms thrive within specific temperature ranges.",
+          "Aquatic organisms are never affected by temperature.",
+          "Warm water removes all food webs from the ocean instantly.",
+          "Temperature changes only affect rocks, not organisms."
+        ],
+        correctIndex: 0,
+        explanation: "If water warms beyond a species' preferred range, organisms may move, struggle, or affect other species that depend on them."
+      },
+      {
+        id: "kp-401-q2",
+        prompt: "A small fish species moves north as local ocean water warms. What food-web effect could follow?",
+        choices: [
+          "Predators that rely on the fish may have less food in the original area.",
+          "Predators will automatically need no food.",
+          "The fish movement cannot affect any other organism.",
+          "Only rocks and sand are affected."
+        ],
+        correctIndex: 0,
+        explanation: "When prey move to cooler waters, predators may lose a reliable food source."
+      },
+      {
+        id: "kp-401-q3",
+        prompt: "Which statement best corrects the misconception that a 1 C average warming is too small to matter?",
+        choices: [
+          "Even small average temperature changes can shift habitats and food-web relationships.",
+          "A 1 C change cannot affect water temperature anywhere.",
+          "Only land ecosystems respond to warming.",
+          "Food webs are separate from temperature."
+        ],
+        correctIndex: 0,
+        explanation: "Ecosystems can be sensitive to temperature ranges, so small average changes can have large biological effects."
+      }
+    ]
+  },
+  "kp-402": {
+    title: "KP4: Coral bleaching",
+    questions: [
+      {
+        id: "kp-402-q1",
+        prompt: "What happens during coral bleaching?",
+        choices: [
+          "Warming can cause corals to expel algae that help provide food, leaving corals pale and stressed.",
+          "Corals become stronger because they absorb more algae.",
+          "Corals turn white because they gain extra soil nutrients.",
+          "Corals leave the reef and swim to cooler water."
+        ],
+        correctIndex: 0,
+        explanation: "Corals live closely with algae; warming can disrupt this relationship and cause bleaching."
+      },
+      {
+        id: "kp-402-q2",
+        prompt: "Why does coral bleaching matter beyond the coral animals themselves?",
+        choices: [
+          "Coral reefs provide habitat and nursery areas for many ocean organisms.",
+          "Coral reefs are never used by other organisms.",
+          "Bleaching increases every reef food source.",
+          "Bleaching affects only the colour of seawater."
+        ],
+        correctIndex: 0,
+        explanation: "Damaged reefs can reduce habitat quality for many species that depend on reef ecosystems."
+      },
+      {
+        id: "kp-402-q3",
+        prompt: "Which cause-and-effect chain best matches the textbook idea?",
+        choices: [
+          "Ocean warming -> coral-algae relationship disrupted -> bleaching -> reef habitat damage.",
+          "Ocean cooling -> more algae always leave -> all reefs grow faster.",
+          "Noise pollution -> coral becomes radioactive -> bleaching.",
+          "Tides stop -> coral changes into algae -> reef habitat doubles."
+        ],
+        correctIndex: 0,
+        explanation: "The chapter links warming ocean temperatures to coral bleaching and reef ecosystem harm."
+      }
+    ]
+  },
+  "kp-403": {
+    title: "KP5: Food-web disruption",
+    questions: [
+      {
+        id: "kp-403-q1",
+        prompt: "How can warming ocean water affect predators such as seabirds?",
+        choices: [
+          "Prey fish may move to cooler waters, making food harder for predators to find.",
+          "Predators stop needing food when water warms.",
+          "Warming water creates unlimited prey in every region.",
+          "Food webs are not affected by prey movement."
+        ],
+        correctIndex: 0,
+        explanation: "If prey shift location, predators that rely on them may have lower feeding success."
+      },
+      {
+        id: "kp-403-q2",
+        prompt: "In a textbook-like puffin example, adult birds follow fish to cooler waters and leave chicks behind. What is the likely result?",
+        choices: [
+          "Fewer young birds may survive to adulthood.",
+          "All chicks immediately become independent.",
+          "The food web becomes simpler with no consequences.",
+          "Ocean temperature no longer matters."
+        ],
+        correctIndex: 0,
+        explanation: "When adults must travel farther for food or abandon young, survival of young animals can decrease."
+      },
+      {
+        id: "kp-403-q3",
+        prompt: "What misconception about climate-related food-web disruption should be corrected?",
+        choices: [
+          "That only the species directly experiencing warmer water can be affected.",
+          "That prey location can influence predators.",
+          "That food webs include feeding relationships.",
+          "That aquatic species can have temperature ranges."
+        ],
+        correctIndex: 0,
+        explanation: "Effects can spread through food webs when one species changes location, abundance, or survival."
+      }
+    ]
+  },
+  "kp-404": {
+    title: "KP6: Radiation exposure in terrestrial ecosystems",
+    questions: [
+      {
+        id: "kp-404-q1",
+        prompt: "Why can radioactive materials be especially harmful in terrestrial ecosystems?",
+        choices: [
+          "They can accumulate in soil and expose organisms over time.",
+          "They always flush away instantly from soil.",
+          "They only affect ocean water and never land.",
+          "They remove all need for decomposition."
+        ],
+        correctIndex: 0,
+        explanation: "The textbook contrasts soil accumulation on land with faster flushing in many aquatic systems."
+      },
+      {
+        id: "kp-404-q2",
+        prompt: "Which comparison best explains why radiation effects may persist longer on land than in water?",
+        choices: [
+          "Soil can hold radioactive material, while water systems may move some materials away more quickly.",
+          "Soil cannot contain any particles.",
+          "Aquatic systems always trap radioactive material forever.",
+          "Land organisms are made of no cells."
+        ],
+        correctIndex: 0,
+        explanation: "Accumulation in soil can maintain exposure for organisms in terrestrial ecosystems."
+      },
+      {
+        id: "kp-404-q3",
+        prompt: "Which ecosystem process could be disrupted if radiation harms fungi, microorganisms, and insects?",
+        choices: [
+          "Biological decay and nutrient recycling.",
+          "The Moon's orbit.",
+          "The speed of visible light.",
+          "The existence of ocean tides."
+        ],
+        correctIndex: 0,
+        explanation: "Decomposers recycle nutrients from dead matter; radiation damage can disrupt this process."
+      }
+    ]
+  },
+  "kp-405": {
+    title: "KP7: Nuclear accidents and ecosystem damage",
+    questions: [
+      {
+        id: "kp-405-q1",
+        prompt: "What kind of biological effect can radiation from a nuclear accident cause?",
+        choices: [
+          "Mutations and damage to organisms.",
+          "Immediate improvement in every ecosystem process.",
+          "Permanent removal of all greenhouse gases.",
+          "A complete stop to gravity."
+        ],
+        correctIndex: 0,
+        explanation: "The textbook examples connect radiation exposure to mutations and long-term ecosystem damage."
+      },
+      {
+        id: "kp-405-q2",
+        prompt: "Why are nuclear accidents described as infrequent but potentially devastating?",
+        choices: [
+          "They do not happen often, but released radioactive materials can cause long-lasting harm.",
+          "They happen every day and never affect organisms.",
+          "They only produce harmless visible light.",
+          "They remove radioactive materials from ecosystems."
+        ],
+        correctIndex: 0,
+        explanation: "Radioactive contamination can persist and affect organisms, soil, and ecosystem processes for many years."
+      },
+      {
+        id: "kp-405-q3",
+        prompt: "A forest near a reactor accident shows slow tree growth and reduced decomposition years later. What is the best explanation?",
+        choices: [
+          "Radiation exposure can damage organisms involved in growth and nutrient cycling.",
+          "The forest has too much reflection from snow.",
+          "All forests naturally stop decomposing after a decade.",
+          "Noise pollution from ships is the only possible cause."
+        ],
+        correctIndex: 0,
+        explanation: "Radiation can affect plants, animals, and decomposers, leading to long-term ecosystem effects."
+      }
+    ]
+  },
+  "kp-406": {
+    title: "KP1: Nuclear waste and radioactive decay",
+    questions: [
+      {
+        id: "kp-406-q1",
+        prompt: "Why can some nuclear waste remain hazardous for a long time?",
+        choices: [
+          "It contains radioactive isotopes that release harmful radiation as they decay over time.",
+          "It stops all nuclear decay immediately.",
+          "It is made only of ordinary water.",
+          "It becomes harmless whenever it is placed outside."
+        ],
+        correctIndex: 0,
+        explanation: "Radioactive isotopes can continue releasing radiation until they decay to safer levels."
+      },
+      {
+        id: "kp-406-q2",
+        prompt: "What does radioactive decay mean in the context of nuclear waste?",
+        choices: [
+          "Unstable isotopes change over time and release radiation.",
+          "Waste cools because sunlight reflects from it.",
+          "A stable atom becomes a living cell.",
+          "All waste turns into soil nutrients instantly."
+        ],
+        correctIndex: 0,
+        explanation: "Nuclear waste hazards are tied to radioactive isotopes undergoing nuclear decay."
+      },
+      {
+        id: "kp-406-q3",
+        prompt: "Which storage concern follows from long-lasting radioactive decay?",
+        choices: [
+          "Waste may need containment and isolation for long periods.",
+          "Waste should always be scattered in soil.",
+          "Waste needs no monitoring after one day.",
+          "Waste becomes safer when mixed into drinking water."
+        ],
+        correctIndex: 0,
+        explanation: "Long-lived radioactivity means storage must prevent exposure and environmental contamination over time."
+      }
+    ]
+  },
+  "kp-407": {
+    title: "KP2: Nuclear waste classification",
+    questions: [
+      {
+        id: "kp-407-q1",
+        prompt: "Why is nuclear waste classified into levels?",
+        choices: [
+          "Different waste types require different amounts of containment and isolation.",
+          "All nuclear waste has exactly the same hazard level.",
+          "Classification is based only on colour.",
+          "Classification removes the need for safe storage."
+        ],
+        correctIndex: 0,
+        explanation: "Waste classification helps match storage and containment to the level of hazard."
+      },
+      {
+        id: "kp-407-q2",
+        prompt: "Which waste type generally requires the strongest long-term isolation?",
+        choices: [
+          "High-level waste such as used nuclear fuel.",
+          "A clean paper towel.",
+          "Low-risk office recycling.",
+          "Rainwater runoff from a roof."
+        ],
+        correctIndex: 0,
+        explanation: "High-level waste can remain radioactive and thermally hot, so it needs strong containment."
+      },
+      {
+        id: "kp-407-q3",
+        prompt: "What misconception about nuclear waste classification should be corrected?",
+        choices: [
+          "That all nuclear waste can be handled by the same disposal method.",
+          "That storage decisions depend on risk.",
+          "That some wastes require more isolation than others.",
+          "That radioactivity can decrease over time."
+        ],
+        correctIndex: 0,
+        explanation: "Different wastes have different hazards, so they cannot all be stored or disposed of in one simple way."
+      }
+    ]
+  },
+  "kp-408": {
+    title: "KP3: High-level waste storage",
+    questions: [
+      {
+        id: "kp-408-q1",
+        prompt: "Why is used nuclear fuel often cooled under water before later storage?",
+        choices: [
+          "It gives off radiation and thermal energy that must be managed safely.",
+          "Water makes the fuel immediately non-radioactive.",
+          "Water changes nuclear waste into food.",
+          "Water prevents all energy transfer forever."
+        ],
+        correctIndex: 0,
+        explanation: "High-level waste can release heat and radiation, so cooling and shielding are both important."
+      },
+      {
+        id: "kp-408-q2",
+        prompt: "If used fuel is stored underwater for several years before transfer to concrete containers, what storage strategy is being shown?",
+        choices: [
+          "A staged approach that first manages heat, then continues long-term containment.",
+          "A method that ignores radiation after one week.",
+          "A way to release waste directly into ecosystems.",
+          "A process that turns fuel into greenhouse gas."
+        ],
+        correctIndex: 0,
+        explanation: "The textbook describes cooling used fuel first, then moving it to containers for further decay."
+      },
+      {
+        id: "kp-408-q3",
+        prompt: "What two hazards must high-level nuclear waste storage manage?",
+        choices: [
+          "Radiation and thermal energy.",
+          "Visible light and plant growth.",
+          "Wind speed and ocean tides only.",
+          "Photosynthesis and transpiration only."
+        ],
+        correctIndex: 0,
+        explanation: "High-level waste can release radiation and a lot of thermal energy, so storage must handle both."
+      }
+    ]
+  },
+  "kp-409": {
+    title: "KP1: Underwater noise pollution",
+    questions: [
+      {
+        id: "kp-409-q1",
+        prompt: "What is underwater noise pollution in the Salish Sea example?",
+        choices: [
+          "Excess sound energy from marine vessels in busy shipping routes.",
+          "Extra infrared radiation from coral reefs.",
+          "Radioactive decay in ocean sediments only.",
+          "The natural silence produced by all ships."
+        ],
+        correctIndex: 0,
+        explanation: "Tankers and freighters can add sound energy to the underwater environment."
+      },
+      {
+        id: "kp-409-q2",
+        prompt: "Which source is most connected to the noise pollution discussed in the textbook extension?",
+        choices: [
+          "Engine and propeller noise from tankers and freighters.",
+          "Cloud formation above mountains.",
+          "Evaporation from inland lakes.",
+          "Heat stored in ocean water."
+        ],
+        correctIndex: 0,
+        explanation: "The Salish Sea example focuses on vessel noise from engines and propellers."
+      },
+      {
+        id: "kp-409-q3",
+        prompt: "Why is noise pollution an energy issue?",
+        choices: [
+          "Sound is a form of energy that can travel through water and affect organisms.",
+          "Sound has no energy and cannot move through water.",
+          "Sound energy is the same as nuclear waste.",
+          "Sound energy only exists in air, never in water."
+        ],
+        correctIndex: 0,
+        explanation: "Sound energy travels through the marine environment and can become a stressor for animals."
+      }
+    ]
+  },
+  "kp-410": {
+    title: "KP2: Effects on orcas",
+    questions: [
+      {
+        id: "kp-410-q1",
+        prompt: "How can underwater vessel noise affect orcas?",
+        choices: [
+          "It can interfere with communication and finding food.",
+          "It improves every orca's ability to hunt.",
+          "It removes the need for orcas to communicate.",
+          "It changes orcas into algae."
+        ],
+        correctIndex: 0,
+        explanation: "The textbook extension explains that noise pollution can interfere with orca communication and food-finding."
+      },
+      {
+        id: "kp-410-q2",
+        prompt: "Why can chronic underwater noise be an ecosystem problem rather than just an annoyance?",
+        choices: [
+          "It can increase stress and disrupt behaviours needed for survival.",
+          "It only affects human listeners on shore.",
+          "It makes all marine animals immune to stress.",
+          "It has no effect once it enters water."
+        ],
+        correctIndex: 0,
+        explanation: "Persistent noise can affect animal behaviour, stress, and feeding success."
+      },
+      {
+        id: "kp-410-q3",
+        prompt: "A proposed shipping expansion would increase vessel traffic in a habitat used by orcas. Which question best applies the chapter concept?",
+        choices: [
+          "How much additional underwater sound energy would be produced, and how might it affect orca survival behaviours?",
+          "Will the ships reduce all greenhouse gases instantly?",
+          "Can orcas survive without communication or food?",
+          "Will more ships stop all ocean currents?"
+        ],
+        correctIndex: 0,
+        explanation: "The key issue is whether added sound energy disrupts communication, food-finding, and stress levels."
+      }
+    ]
   }
 };
