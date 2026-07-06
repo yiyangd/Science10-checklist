@@ -8690,5 +8690,415 @@ window.SCIENCE10_QUIZZES = {
         explanation: "AU is convenient for Solar System distances, while light-years are better for stars and galaxies."
       }
     ]
+  },
+  "kp-513": {
+    title: "KP2: Light-year",
+    questions: [
+      {
+        id: "kp-513-q1",
+        prompt: "What is a light-year?",
+        choices: [
+          "The distance light travels in one year.",
+          "The time Earth takes to orbit the Sun once.",
+          "The brightness of a nearby star.",
+          "The distance from Earth to the Sun."
+        ],
+        correctIndex: 0,
+        explanation: "A light-year is a distance unit, not a time unit."
+      },
+      {
+        id: "kp-513-q2",
+        prompt: "Why are light-years more useful than kilometres for distances between stars?",
+        choices: [
+          "Interstellar distances are so large that light-years keep the numbers more manageable.",
+          "Kilometres cannot measure any distance in space.",
+          "Light-years make stars physically closer.",
+          "Light-years measure only objects inside Earth's atmosphere."
+        ],
+        correctIndex: 0,
+        explanation: "A light-year represents a very large distance, about \\(9.46 \\times 10^{12}\\,km\\)."
+      },
+      {
+        id: "kp-513-q3",
+        prompt: "A star is listed as 12 light-years away. What does that distance mean?",
+        choices: [
+          "Light from the star takes about 12 years to reach Earth.",
+          "The star is 12 years old.",
+          "The star travels around Earth every 12 years.",
+          "The star is 12 astronomical units from the Sun."
+        ],
+        correctIndex: 0,
+        explanation: "Distance in light-years also tells us how long the light has travelled."
+      }
+    ]
+  },
+  "kp-514": {
+    title: "KP3: Speed of light",
+    questions: [
+      {
+        id: "kp-514-q1",
+        prompt: "About how fast does light travel through space?",
+        choices: [
+          "\\(300\\,000\\,km/s\\)",
+          "\\(300\\,000\\,km/h\\)",
+          "\\(150\\,000\\,000\\,km/s\\)",
+          "\\(9.46\\,km/s\\)"
+        ],
+        correctIndex: 0,
+        explanation: "The speed of light in space is about \\(300\\,000\\,km/s\\)."
+      },
+      {
+        id: "kp-514-q2",
+        prompt: "If light travels for 3 seconds, about how far does it go in space?",
+        choices: [
+          "\\(900\\,000\\,km\\)",
+          "\\(300\\,003\\,km\\)",
+          "\\(100\\,000\\,km\\)",
+          "\\(9\\,000\\,km\\)"
+        ],
+        correctIndex: 0,
+        explanation: "Use distance = speed x time: \\(300\\,000\\,km/s \\times 3\\,s = 900\\,000\\,km\\)."
+      },
+      {
+        id: "kp-514-q3",
+        prompt: "What does the speed of light help explain about astronomy?",
+        choices: [
+          "Even light takes a long time to cross stellar and galactic distances.",
+          "Light from every object reaches Earth instantly.",
+          "Stars are close because light is fast.",
+          "Only radio waves can travel through space."
+        ],
+        correctIndex: 0,
+        explanation: "Space is so large that travel time matters even for light."
+      }
+    ]
+  },
+  "kp-515": {
+    title: "KP4: Looking back in time",
+    questions: [
+      {
+        id: "kp-515-q1",
+        prompt: "Why do astronomers say that looking at distant objects is looking back in time?",
+        choices: [
+          "The light left the object in the past and took time to reach us.",
+          "Telescopes can rewind time.",
+          "Distant objects stop changing after they emit light.",
+          "Light-years measure the age of the observer."
+        ],
+        correctIndex: 0,
+        explanation: "We see objects as they were when the light began travelling toward Earth."
+      },
+      {
+        id: "kp-515-q2",
+        prompt: "If a star is 40 light-years away, how old is the light we see from it?",
+        choices: [
+          "About 40 years old.",
+          "About 40 seconds old.",
+          "About 4 years old.",
+          "About 400 million years old."
+        ],
+        correctIndex: 0,
+        explanation: "A distance of 40 light-years means the light travelled for about 40 years."
+      },
+      {
+        id: "kp-515-q3",
+        prompt: "Which statement best corrects 'We see the Sun exactly as it is right now'?",
+        choices: [
+          "Sunlight takes several minutes to reach Earth, so we see the Sun slightly in the past.",
+          "Sunlight takes 25 years to reach Earth.",
+          "The Sun emits no light of its own.",
+          "The Sun is outside the Milky Way."
+        ],
+        correctIndex: 0,
+        explanation: "Even the Sun is not seen in real time because light has a finite speed."
+      }
+    ]
+  },
+  "kp-516": {
+    title: "KP5: Parallax",
+    questions: [
+      {
+        id: "kp-516-q1",
+        prompt: "What is parallax?",
+        choices: [
+          "The apparent shift of an object's position when viewed from two different lines of sight.",
+          "The colour change that makes blue stars hotter.",
+          "The total energy a star gives off each second.",
+          "The shape category of a galaxy."
+        ],
+        correctIndex: 0,
+        explanation: "Parallax is an apparent position shift caused by a change in viewpoint."
+      },
+      {
+        id: "kp-516-q2",
+        prompt: "In a classroom parallax model, your thumb seems to jump against a distant wall when you switch eyes. What is changing?",
+        choices: [
+          "Your line of sight to the thumb.",
+          "The actual location of the wall.",
+          "The mass of your thumb.",
+          "The speed of light."
+        ],
+        correctIndex: 0,
+        explanation: "Switching eyes changes the viewing position, which creates the apparent shift."
+      },
+      {
+        id: "kp-516-q3",
+        prompt: "How does parallax generally change when the object is moved closer to the observer?",
+        choices: [
+          "The apparent shift becomes larger.",
+          "The apparent shift becomes impossible in every case.",
+          "The object stops reflecting light.",
+          "The background moves closer too."
+        ],
+        correctIndex: 0,
+        explanation: "Nearby objects show a larger parallax shift than very distant objects."
+      }
+    ]
+  },
+  "kp-517": {
+    title: "KP6: Triangulation and parallax limits",
+    questions: [
+      {
+        id: "kp-517-q1",
+        prompt: "How do astronomers use Earth's orbit in stellar parallax?",
+        choices: [
+          "They observe a star from opposite sides of Earth's orbit to create a wide baseline.",
+          "They move the star to a new orbit.",
+          "They wait for the star to orbit Earth.",
+          "They use Earth's atmosphere as the star."
+        ],
+        correctIndex: 0,
+        explanation: "Earth's orbit provides two widely separated viewpoints for triangulation."
+      },
+      {
+        id: "kp-517-q2",
+        prompt: "Why does parallax become less useful for very distant stars?",
+        choices: [
+          "The apparent shift becomes extremely small and difficult to measure accurately.",
+          "Distant stars do not emit light.",
+          "Earth stops moving around the Sun.",
+          "The stars become planets."
+        ],
+        correctIndex: 0,
+        explanation: "As distance increases, parallax angle decreases."
+      },
+      {
+        id: "kp-517-q3",
+        prompt: "Why do satellites such as HIPPARCOS and Gaia improve distance measurements?",
+        choices: [
+          "They can measure tiny star positions and parallax shifts with high precision above much of Earth's interference.",
+          "They make all stars closer to Earth.",
+          "They use sound waves to measure distance.",
+          "They replace the need for geometry."
+        ],
+        correctIndex: 0,
+        explanation: "Precise instruments improve measurements of very small angular shifts."
+      }
+    ]
+  },
+  "kp-518": {
+    title: "KP1: Star properties",
+    questions: [
+      {
+        id: "kp-518-q1",
+        prompt: "Which list contains important properties used to compare stars?",
+        choices: [
+          "Colour, temperature, luminosity, mass, and brightness.",
+          "Continent, ocean, weather, soil, and rainfall.",
+          "Only name and constellation.",
+          "Only distance from Earth."
+        ],
+        correctIndex: 0,
+        explanation: "Astronomers compare multiple properties to understand stars and their life cycles."
+      },
+      {
+        id: "kp-518-q2",
+        prompt: "Why are star properties useful to astronomers?",
+        choices: [
+          "They help astronomers compare stars and infer stages of stellar development.",
+          "They prove all stars are identical.",
+          "They show that stars do not change over time.",
+          "They replace all telescope observations."
+        ],
+        correctIndex: 0,
+        explanation: "Patterns in star properties help explain how stars form, change, and end."
+      },
+      {
+        id: "kp-518-q3",
+        prompt: "Which observation alone is least enough to fully compare two stars?",
+        choices: [
+          "How bright they look from Earth.",
+          "Their colour.",
+          "Their temperature.",
+          "Their mass."
+        ],
+        correctIndex: 0,
+        explanation: "Apparent brightness depends on distance as well as actual energy output."
+      }
+    ]
+  },
+  "kp-519": {
+    title: "KP2: Colour and temperature",
+    questions: [
+      {
+        id: "kp-519-q1",
+        prompt: "What does a star's colour tell astronomers?",
+        choices: [
+          "It gives evidence about the star's surface temperature.",
+          "It gives the star's exact distance in AU.",
+          "It proves the star is a planet.",
+          "It shows the star's age in seconds."
+        ],
+        correctIndex: 0,
+        explanation: "Star colour is related to surface temperature."
+      },
+      {
+        id: "kp-519-q2",
+        prompt: "Which star colour usually indicates the hottest surface temperature?",
+        choices: [
+          "Blue or bluish-white.",
+          "Red.",
+          "Orange.",
+          "Dark brown."
+        ],
+        correctIndex: 0,
+        explanation: "Bluish stars are hotter than reddish stars."
+      },
+      {
+        id: "kp-519-q3",
+        prompt: "A student says, 'Red stars are hotter because red looks like fire.' What is the best correction?",
+        choices: [
+          "In stars, red generally indicates a cooler surface than blue.",
+          "Colour has no relationship to star temperature.",
+          "All red stars are the same temperature as Earth.",
+          "Blue stars are always cooler than red stars."
+        ],
+        correctIndex: 0,
+        explanation: "The everyday association of red with heat can be misleading for stellar colour."
+      }
+    ]
+  },
+  "kp-520": {
+    title: "KP3: Luminosity and brightness",
+    questions: [
+      {
+        id: "kp-520-q1",
+        prompt: "What is luminosity?",
+        choices: [
+          "The total amount of energy a star gives off each second.",
+          "How bright a star looks from Earth only.",
+          "The star's distance from the Sun.",
+          "The colour of a galaxy."
+        ],
+        correctIndex: 0,
+        explanation: "Luminosity describes a star's actual energy output."
+      },
+      {
+        id: "kp-520-q2",
+        prompt: "Two identical stars have the same luminosity, but Star A looks brighter from Earth than Star B. What is a likely reason?",
+        choices: [
+          "Star A is closer to Earth.",
+          "Star A must be colder.",
+          "Star B has no light.",
+          "Star B is outside the universe."
+        ],
+        correctIndex: 0,
+        explanation: "Apparent brightness depends on distance as well as luminosity."
+      },
+      {
+        id: "kp-520-q3",
+        prompt: "Which statement avoids a common misconception?",
+        choices: [
+          "The brightest-looking star is not always the most luminous star.",
+          "Apparent brightness and luminosity are always identical.",
+          "Distance never affects how bright a star looks.",
+          "Only red stars can be luminous."
+        ],
+        correctIndex: 0,
+        explanation: "A nearby modest star can look brighter than a distant highly luminous star."
+      }
+    ]
+  },
+  "kp-521": {
+    title: "KP4: Stellar mass",
+    questions: [
+      {
+        id: "kp-521-q1",
+        prompt: "What does one solar mass mean?",
+        choices: [
+          "A mass equal to the mass of the Sun.",
+          "The mass of Earth.",
+          "The distance between Earth and the Sun.",
+          "The brightness of Sirius."
+        ],
+        correctIndex: 0,
+        explanation: "Stellar masses are often compared with the Sun's mass."
+      },
+      {
+        id: "kp-521-q2",
+        prompt: "Why is stellar mass important in predicting a star's future?",
+        choices: [
+          "Mass strongly affects how long a star remains active and what final stage it may reach.",
+          "Mass determines the star's constellation name only.",
+          "Mass has no effect on stellar life cycles.",
+          "Mass tells astronomers only whether the star is visible in daylight."
+        ],
+        correctIndex: 0,
+        explanation: "Initial mass is one of the most important factors in stellar evolution."
+      },
+      {
+        id: "kp-521-q3",
+        prompt: "Which observation helped astronomers determine masses of many stars?",
+        choices: [
+          "Studying binary stars that orbit each other.",
+          "Counting planets in the Solar System.",
+          "Measuring ocean tides.",
+          "Using a planisphere to trace zodiac signs."
+        ],
+        correctIndex: 0,
+        explanation: "The orbits of binary stars provide information that can be used to calculate stellar mass."
+      }
+    ]
+  },
+  "kp-522": {
+    title: "KP5: Hertzsprung-Russell diagram",
+    questions: [
+      {
+        id: "kp-522-q1",
+        prompt: "What does an H-R diagram compare?",
+        choices: [
+          "Star properties such as colour, temperature, luminosity, and absolute magnitude.",
+          "Planet distances and moon phases only.",
+          "Types of telescopes and their prices.",
+          "Constellation myths and zodiac dates."
+        ],
+        correctIndex: 0,
+        explanation: "An H-R diagram is a graph used to show relationships among star properties."
+      },
+      {
+        id: "kp-522-q2",
+        prompt: "Why was the H-R diagram useful to astronomers?",
+        choices: [
+          "It revealed patterns in star data that helped classify stars and study stellar evolution.",
+          "It showed that all stars have the same temperature.",
+          "It replaced the need for observing stars.",
+          "It measured the diameter of Earth."
+        ],
+        correctIndex: 0,
+        explanation: "The H-R diagram organizes star data so important patterns become visible."
+      },
+      {
+        id: "kp-522-q3",
+        prompt: "On a simplified H-R diagram, a very hot and very luminous star is usually found toward which region?",
+        choices: [
+          "The upper-left region.",
+          "The lower-right region.",
+          "Exactly in the centre of every diagram.",
+          "Outside the graph because hot stars cannot be plotted."
+        ],
+        correctIndex: 0,
+        explanation: "H-R diagrams commonly place hotter stars toward the left and more luminous stars higher up."
+      }
+    ]
   }
 };
