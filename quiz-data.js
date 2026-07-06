@@ -6230,5 +6230,415 @@ window.SCIENCE10_QUIZZES = {
         explanation: "Evaluation should focus on evidence quality and reasoning, not presentation tricks alone."
       }
     ]
+  },
+  "kp-453": {
+    title: "KP1: Universe",
+    questions: [
+      {
+        id: "kp-453-q1",
+        prompt: "Which definition best matches the textbook meaning of the universe?",
+        choices: [
+          "All that exists everywhere, including matter, energy, stars, galaxies, and space.",
+          "Only Earth and its atmosphere.",
+          "Only the Milky Way galaxy.",
+          "Only objects humans have visited."
+        ],
+        correctIndex: 0,
+        explanation: "The textbook defines the universe as all that exists everywhere, including matter, energy, and space."
+      },
+      {
+        id: "kp-453-q2",
+        prompt: "When a scientist calls the universe the largest physical system being considered, what does that mean?",
+        choices: [
+          "It includes every physical object and region being discussed.",
+          "It includes only one planet.",
+          "It excludes energy and space.",
+          "It means only nearby stars are counted."
+        ],
+        correctIndex: 0,
+        explanation: "The universe is the broadest physical system in this context because it includes all matter, energy, and space."
+      },
+      {
+        id: "kp-453-q3",
+        prompt: "Which statement is a common misconception about the universe?",
+        choices: [
+          "The universe is just the Solar System.",
+          "The universe includes galaxies.",
+          "The universe includes matter and energy.",
+          "The universe includes space."
+        ],
+        correctIndex: 0,
+        explanation: "The Solar System is only a tiny part of the universe."
+      }
+    ]
+  },
+  "kp-454": {
+    title: "KP2: Universe as a story",
+    questions: [
+      {
+        id: "kp-454-q1",
+        prompt: "Why does the textbook compare scientific explanations of the universe to stories?",
+        choices: [
+          "They organize observations, evidence, hypotheses, and theories into an explanation.",
+          "They are imaginary and do not use evidence.",
+          "They avoid questions about the sky.",
+          "They cannot change when new evidence appears."
+        ],
+        correctIndex: 0,
+        explanation: "A scientific story is evidence-based and helps people make sense of observations."
+      },
+      {
+        id: "kp-454-q2",
+        prompt: "Which item would best support a scientific story about the universe?",
+        choices: [
+          "Careful observations of galaxies and light from space.",
+          "A claim with no observations.",
+          "A guess that cannot be compared with evidence.",
+          "A rule that questions are not allowed."
+        ],
+        correctIndex: 0,
+        explanation: "Scientific explanations are built from evidence such as observations of light, galaxies, and cosmic patterns."
+      },
+      {
+        id: "kp-454-q3",
+        prompt: "How can scientific and cultural stories about the universe both be meaningful?",
+        choices: [
+          "They can help people make sense of the sky, their place, and their experiences in different ways.",
+          "Only scientific stories can ever have meaning.",
+          "Only cultural stories can involve observation.",
+          "All stories about the universe must be identical."
+        ],
+        correctIndex: 0,
+        explanation: "The chapter invites students to consider scientific explanations along with cultural ways of understanding the universe."
+      }
+    ]
+  },
+  "kp-455": {
+    title: "KP3: Beginning of the universe",
+    questions: [
+      {
+        id: "kp-455-q1",
+        prompt: "About how long ago does the scientific story of the universe begin?",
+        choices: [
+          "About 13.8 billion years ago.",
+          "About 13.8 thousand years ago.",
+          "About 138 years ago.",
+          "About 13.8 days ago."
+        ],
+        correctIndex: 0,
+        explanation: "The textbook gives the beginning of the scientific story of the universe as approximately 13.8 billion years ago."
+      },
+      {
+        id: "kp-455-q2",
+        prompt: "Why is 13.8 billion years difficult for people to imagine?",
+        choices: [
+          "It is far beyond ordinary human time scales and everyday experience.",
+          "It is shorter than a school year.",
+          "It is the same as one human lifetime.",
+          "It is a number people use for daily shopping."
+        ],
+        correctIndex: 0,
+        explanation: "Cosmic time scales are so large that analogies and models can help make them more understandable."
+      },
+      {
+        id: "kp-455-q3",
+        prompt: "A student says, '13.8 billion means 13.8 million.' What is the best correction?",
+        choices: [
+          "A billion is 1000 million, so 13.8 billion is much larger than 13.8 million.",
+          "Billion and million are always the same.",
+          "13.8 billion is smaller than 13.8 million.",
+          "The words do not matter in science."
+        ],
+        correctIndex: 0,
+        explanation: "Keeping large-number units straight is important for understanding cosmic time scales."
+      }
+    ]
+  },
+  "kp-456": {
+    title: "KP4: Scale of the universe",
+    questions: [
+      {
+        id: "kp-456-q1",
+        prompt: "Why are scale models or analogies useful when studying the universe?",
+        choices: [
+          "They make extremely large distances, ages, and numbers easier to compare.",
+          "They make the universe smaller in reality.",
+          "They remove the need for evidence.",
+          "They prove galaxies are close together."
+        ],
+        correctIndex: 0,
+        explanation: "Scale thinking helps people reason about numbers far beyond daily experience."
+      },
+      {
+        id: "kp-456-q2",
+        prompt: "A tiny patch of sky contains many galaxies in a deep telescope image. What does this suggest about cosmic scale?",
+        choices: [
+          "The universe contains enormous numbers of galaxies across vast distances.",
+          "Only one galaxy exists.",
+          "A small sky area cannot contain distant objects.",
+          "Stars and galaxies are the same size."
+        ],
+        correctIndex: 0,
+        explanation: "Deep-field images show that even small areas of sky can contain many distant galaxies."
+      },
+      {
+        id: "kp-456-q3",
+        prompt: "Which comparison best uses scale thinking?",
+        choices: [
+          "Comparing 13.8 billion years to a timeline so early events and recent events can be placed proportionally.",
+          "Saying all large numbers are basically equal.",
+          "Ignoring units when comparing distances.",
+          "Describing galaxies without considering distance or age."
+        ],
+        correctIndex: 0,
+        explanation: "Scale thinking keeps relative size, time, and distance in mind."
+      }
+    ]
+  },
+  "kp-457": {
+    title: "KP5: Changing scientific understanding",
+    questions: [
+      {
+        id: "kp-457-q1",
+        prompt: "How has scientific understanding of the Milky Way changed?",
+        choices: [
+          "It was once thought to be the whole universe, but is now known as one galaxy among billions.",
+          "It was once known to be one galaxy, but is now known as the whole universe.",
+          "It has never been studied.",
+          "It is now known to be a planet."
+        ],
+        correctIndex: 0,
+        explanation: "Improved evidence and interpretation changed how scientists understand the Milky Way's place in the universe."
+      },
+      {
+        id: "kp-457-q2",
+        prompt: "What does this change in understanding show about science?",
+        choices: [
+          "Scientific explanations can change when new evidence and better interpretations become available.",
+          "Science never changes.",
+          "Old explanations are always better than new ones.",
+          "Evidence is not important in science."
+        ],
+        correctIndex: 0,
+        explanation: "Science is evidence-based and can revise explanations as knowledge improves."
+      },
+      {
+        id: "kp-457-q3",
+        prompt: "Which example is most similar to the Milky Way misunderstanding?",
+        choices: [
+          "Thinking a single room is all that exists before discovering the wider world outside.",
+          "Measuring a book with a ruler.",
+          "Knowing that Earth is one planet in the Solar System.",
+          "Using a telescope to collect more evidence."
+        ],
+        correctIndex: 0,
+        explanation: "The textbook uses a limited-room analogy to show how new perspective can expand what 'all that exists' means."
+      }
+    ]
+  },
+  "kp-458": {
+    title: "KP6: Relative meaning of all that exists",
+    questions: [
+      {
+        id: "kp-458-q1",
+        prompt: "Why can the phrase 'all that exists' be relative?",
+        choices: [
+          "People's understanding of all that exists depends on their knowledge, place, and time.",
+          "It always means only what one person can touch.",
+          "It has no connection to evidence.",
+          "It cannot change with new observations."
+        ],
+        correctIndex: 0,
+        explanation: "The chapter explains that what people mean by 'all' depends on their context and knowledge."
+      },
+      {
+        id: "kp-458-q2",
+        prompt: "A society with no telescopes sees only nearby sky patterns. How might this affect its meaning of universe?",
+        choices: [
+          "Its understanding may be shaped by what can be observed and experienced locally.",
+          "It would automatically know every distant galaxy.",
+          "It could not develop any sky knowledge.",
+          "Its understanding would be identical to modern astronomy in every detail."
+        ],
+        correctIndex: 0,
+        explanation: "Available observations and experiences shape how people define and explain the universe."
+      },
+      {
+        id: "kp-458-q3",
+        prompt: "Which statement best avoids a misconception about older understandings of the universe?",
+        choices: [
+          "They should be understood in the context of available knowledge and experience.",
+          "They were all careless because modern technology was unavailable.",
+          "They never involved observation.",
+          "They were exactly the same as current scientific models."
+        ],
+        correctIndex: 0,
+        explanation: "Understanding changes with context, evidence, and tools."
+      }
+    ]
+  },
+  "kp-459": {
+    title: "KP7: Place and perspective",
+    questions: [
+      {
+        id: "kp-459-q1",
+        prompt: "What does the Ngorongoro Crater example help illustrate?",
+        choices: [
+          "A person's sense of place can shape what they understand as their world.",
+          "Craters prevent all learning.",
+          "Everyone defines the universe in exactly the same way.",
+          "Place has no effect on perspective."
+        ],
+        correctIndex: 0,
+        explanation: "Living within a bounded place can shape how someone understands their world and what lies beyond it."
+      },
+      {
+        id: "kp-459-q2",
+        prompt: "If someone who grew up inside a walled crater first sees the wider landscape beyond it, what might change?",
+        choices: [
+          "Their understanding of their world and place in it may expand.",
+          "They would lose all ability to observe.",
+          "The crater would become the entire universe in reality.",
+          "Their previous experiences would have no relevance."
+        ],
+        correctIndex: 0,
+        explanation: "New perspective can shift a person's sense of what exists beyond familiar boundaries."
+      },
+      {
+        id: "kp-459-q3",
+        prompt: "Which factor is most connected to place and perspective?",
+        choices: [
+          "The environment and boundaries a person experiences in daily life.",
+          "A random number with no context.",
+          "The mass of a distant star only.",
+          "A word copied without meaning."
+        ],
+        correctIndex: 0,
+        explanation: "Place-based experience can influence how people interpret the world around them."
+      }
+    ]
+  },
+  "kp-460": {
+    title: "KP1: Context shapes understanding",
+    questions: [
+      {
+        id: "kp-460-q1",
+        prompt: "Which factors can shape a person's understanding of the universe?",
+        choices: [
+          "Identity, time period, place, knowledge, and experience.",
+          "Only shoe size.",
+          "Only the current weather.",
+          "Only whether a person has memorized one definition."
+        ],
+        correctIndex: 0,
+        explanation: "The chapter emphasizes that understanding is shaped by who we are, when we are, where we are, and what we know."
+      },
+      {
+        id: "kp-460-q2",
+        prompt: "Why might people from different historical periods interpret the universe differently?",
+        choices: [
+          "They have different tools, experiences, observations, and cultural contexts.",
+          "They all have exactly the same evidence.",
+          "Historical period has no effect on knowledge.",
+          "People in the past never observed the sky."
+        ],
+        correctIndex: 0,
+        explanation: "Context influences what people can observe, communicate, and explain."
+      },
+      {
+        id: "kp-460-q3",
+        prompt: "Which answer best reflects the chapter's view of understanding?",
+        choices: [
+          "Understanding can change as context and knowledge change.",
+          "Understanding is fixed forever at birth.",
+          "Understanding never depends on experience.",
+          "Understanding is unrelated to culture or place."
+        ],
+        correctIndex: 0,
+        explanation: "The chapter repeatedly asks students to reflect on how context shapes meaning."
+      }
+    ]
+  },
+  "kp-461": {
+    title: "KP2: Technology and worldview",
+    questions: [
+      {
+        id: "kp-461-q1",
+        prompt: "How can communication technology affect worldview?",
+        choices: [
+          "It changes how people share information, observe events, and understand daily life.",
+          "It prevents all learning.",
+          "It makes every time period identical.",
+          "It has no effect on how people communicate."
+        ],
+        correctIndex: 0,
+        explanation: "The textbook compares communication technologies from different eras to show how tools shape experience."
+      },
+      {
+        id: "kp-461-q2",
+        prompt: "A student from 1910 suddenly enters a classroom with smartphones and video calls. What concept does this best illustrate?",
+        choices: [
+          "Technology can make another time period's world feel unfamiliar and difficult to interpret.",
+          "Technology never changes daily life.",
+          "All communication tools are understood instantly by everyone.",
+          "Time period does not affect worldview."
+        ],
+        correctIndex: 0,
+        explanation: "Different technologies can strongly affect what feels normal, knowable, or confusing."
+      },
+      {
+        id: "kp-461-q3",
+        prompt: "Which comparison best shows technology shaping knowledge?",
+        choices: [
+          "People with telescopes can observe objects that unaided eyes cannot see.",
+          "People without tools know every galaxy automatically.",
+          "Technology removes all need for observation.",
+          "Communication devices have no connection to shared knowledge."
+        ],
+        correctIndex: 0,
+        explanation: "Tools can extend observation and communication, changing what people know and how they share it."
+      }
+    ]
+  },
+  "kp-462": {
+    title: "KP3: Culture shock",
+    questions: [
+      {
+        id: "kp-462-q1",
+        prompt: "What is culture shock?",
+        choices: [
+          "Anxiety or disorientation caused by entering a dramatically new social or cultural situation.",
+          "A type of telescope.",
+          "A galaxy outside the Milky Way.",
+          "A measurement of cosmic distance."
+        ],
+        correctIndex: 0,
+        explanation: "The textbook defines culture shock as disorientation in a dramatically new social or cultural setting."
+      },
+      {
+        id: "kp-462-q2",
+        prompt: "How could culture shock affect someone from another time period entering today's classroom?",
+        choices: [
+          "They might misunderstand modern tools, assumptions, and social behaviours.",
+          "They would automatically understand every modern device.",
+          "They would not notice any difference.",
+          "They would know more about every current technology than students today."
+        ],
+        correctIndex: 0,
+        explanation: "Different time periods can have different technologies, norms, and knowledge systems."
+      },
+      {
+        id: "kp-462-q3",
+        prompt: "Which response best reduces misunderstanding caused by culture shock?",
+        choices: [
+          "Recognize that people may be using different assumptions, experiences, and background knowledge.",
+          "Assume anyone confused is not intelligent.",
+          "Ignore the role of time, place, and culture.",
+          "Refuse to explain unfamiliar tools or ideas."
+        ],
+        correctIndex: 0,
+        explanation: "Understanding context helps explain why people from different settings may interpret things differently."
+      }
+    ]
   }
 };
