@@ -4508,5 +4508,415 @@ window.SCIENCE10_QUIZZES = {
         explanation: "The key issue is whether added sound energy disrupts communication, food-finding, and stress levels."
       }
     ]
+  },
+  "kp-411": {
+    title: "KP3: Reducing noise impacts",
+    questions: [
+      {
+        id: "kp-411-q1",
+        prompt: "Which action would most directly reduce underwater noise impacts from shipping?",
+        choices: [
+          "Designing quieter engines and propellers or regulating vessel noise.",
+          "Increasing vessel noise so animals get used to it instantly.",
+          "Adding more greenhouse gases above the ocean.",
+          "Removing all water from shipping routes."
+        ],
+        correctIndex: 0,
+        explanation: "The textbook notes that engine and propeller noise can be reduced, making design and regulation relevant solutions."
+      },
+      {
+        id: "kp-411-q2",
+        prompt: "Why might noise pollution be considered for regulation in endangered marine habitats?",
+        choices: [
+          "Because sound energy can interfere with survival behaviours such as communication and hunting.",
+          "Because sound energy cannot travel through water.",
+          "Because regulation makes ships louder.",
+          "Because endangered animals are unaffected by stress."
+        ],
+        correctIndex: 0,
+        explanation: "If underwater noise affects communication, food-finding, and stress, managing it can help protect endangered animals."
+      },
+      {
+        id: "kp-411-q3",
+        prompt: "A student says, 'Noise is not pollution because it is not a chemical.' What is the best response?",
+        choices: [
+          "Pollution can include harmful sound energy, not only harmful substances.",
+          "Only liquids can be pollution.",
+          "Sound energy cannot affect living things.",
+          "All noise helps ecosystems."
+        ],
+        correctIndex: 0,
+        explanation: "Noise pollution is harmful sound energy in an environment, so it can be an ecosystem concern."
+      }
+    ]
+  },
+  "kp-412": {
+    title: "KP1: Oil-spill response and marine ecosystems",
+    questions: [
+      {
+        id: "kp-412-q1",
+        prompt: "Why is fast oil-spill response important for marine ecosystems?",
+        choices: [
+          "Contaminants such as diesel fuel can spread and harm organisms and habitats.",
+          "Oil spills always improve habitat quality.",
+          "Diesel fuel becomes harmless as soon as it touches seawater.",
+          "Marine ecosystems contain no living organisms."
+        ],
+        correctIndex: 0,
+        explanation: "The extension connects diesel fuel release to harm in coastal and marine ecosystems."
+      },
+      {
+        id: "kp-412-q2",
+        prompt: "A tug releases fuel near an important shellfish habitat. Which response goal is most directly connected to ecosystem protection?",
+        choices: [
+          "Contain and clean the spill quickly to reduce exposure of organisms and shorelines.",
+          "Wait until the fuel spreads evenly everywhere.",
+          "Increase vessel noise to hide the spill.",
+          "Add more fuel so the concentration is easier to see."
+        ],
+        correctIndex: 0,
+        explanation: "Rapid containment and cleanup can reduce the area and time that ecosystems are exposed to contaminants."
+      },
+      {
+        id: "kp-412-q3",
+        prompt: "What does oil-spill planning have to do with energy transformation impacts?",
+        choices: [
+          "It reduces harm from technologies and fuels connected to human energy use and transport.",
+          "It prevents solar radiation from reaching Earth.",
+          "It replaces all ecosystem monitoring.",
+          "It has no connection to environmental protection."
+        ],
+        correctIndex: 0,
+        explanation: "Transporting fuels and using energy technologies can create risks, so response planning helps reduce harm."
+      }
+    ]
+  },
+  "kp-413": {
+    title: "KP2: First Peoples as first responders",
+    questions: [
+      {
+        id: "kp-413-q1",
+        prompt: "Why can First Peoples be important first responders to coastal emergencies in B.C.?",
+        choices: [
+          "They may be close to the affected territories and have detailed local knowledge.",
+          "They are never located near marine ecosystems.",
+          "They can stop all spills before they happen worldwide.",
+          "Local knowledge is unrelated to emergency response."
+        ],
+        correctIndex: 0,
+        explanation: "The extension emphasizes local response capacity and First Peoples knowledge in coastal territories."
+      },
+      {
+        id: "kp-413-q2",
+        prompt: "Which example best shows why local knowledge matters during a marine emergency?",
+        choices: [
+          "Knowing sensitive habitats, currents, shore access points, and community priorities.",
+          "Ignoring where the spill is located.",
+          "Using only distant maps and no local observations.",
+          "Delaying action until all contaminants disappear."
+        ],
+        correctIndex: 0,
+        explanation: "Local and Indigenous knowledge can guide faster, more appropriate response decisions."
+      },
+      {
+        id: "kp-413-q3",
+        prompt: "What misconception should be avoided when discussing emergency response?",
+        choices: [
+          "That only outside experts can contribute useful science and response knowledge.",
+          "That communities can help protect local ecosystems.",
+          "That local observations can support response planning.",
+          "That emergency plans can reduce harm."
+        ],
+        correctIndex: 0,
+        explanation: "The textbook example values both community capacity and knowledge rooted in place."
+      }
+    ]
+  },
+  "kp-414": {
+    title: "KP3: Indigenous Marine Response Centre",
+    questions: [
+      {
+        id: "kp-414-q1",
+        prompt: "What is a main goal of an Indigenous Marine Response Centre?",
+        choices: [
+          "To improve response time and combine Western science with First Peoples knowledge during marine emergencies.",
+          "To increase the amount of diesel released into coastal water.",
+          "To replace all community participation with remote decisions.",
+          "To make marine emergencies impossible everywhere."
+        ],
+        correctIndex: 0,
+        explanation: "The extension describes a response centre that would build local capacity and use multiple knowledge systems."
+      },
+      {
+        id: "kp-414-q2",
+        prompt: "If a response centre can reach a spill in 5 hours instead of 20 hours, what is the likely benefit?",
+        choices: [
+          "There is less time for contaminants to spread before action begins.",
+          "The spill becomes larger because response is faster.",
+          "The fuel becomes more toxic only because responders arrive.",
+          "Response time has no effect on emergency outcomes."
+        ],
+        correctIndex: 0,
+        explanation: "Faster response can reduce contaminant spread and limit ecosystem exposure."
+      },
+      {
+        id: "kp-414-q3",
+        prompt: "Which evaluation question best fits this response-centre proposal?",
+        choices: [
+          "How would local capacity, response time, and knowledge sharing reduce ecosystem harm?",
+          "How can spills be ignored most easily?",
+          "How can communities be excluded from decisions?",
+          "How can response planning avoid all evidence?"
+        ],
+        correctIndex: 0,
+        explanation: "The proposal is about improving emergency response through capacity, knowledge, and quicker action."
+      }
+    ]
+  },
+  "kp-415": {
+    title: "KP1: Comparing water and soil",
+    questions: [
+      {
+        id: "kp-415-q1",
+        prompt: "In a lamp investigation, equal samples of water and soil are heated for the same time. What result would support water having a higher specific heat capacity?",
+        choices: [
+          "Water's temperature increases less than soil's temperature.",
+          "Water's temperature increases much more than soil's temperature.",
+          "Neither sample changes temperature at all.",
+          "Soil disappears during heating."
+        ],
+        correctIndex: 0,
+        explanation: "A higher specific heat capacity means more energy is needed for the same temperature change."
+      },
+      {
+        id: "kp-415-q2",
+        prompt: "Why should the water and soil samples receive similar radiant energy in a fair comparison?",
+        choices: [
+          "So differences in temperature change are more likely due to material properties.",
+          "So the experiment has no variables.",
+          "So water and soil become the same material.",
+          "So the lamps do not give off energy."
+        ],
+        correctIndex: 0,
+        explanation: "Controlled conditions help compare how the two materials absorb and respond to energy."
+      },
+      {
+        id: "kp-415-q3",
+        prompt: "Which data pattern best matches the textbook idea that land warms faster than water?",
+        choices: [
+          "Soil changes from 20 C to 34 C while water changes from 20 C to 24 C in the same time.",
+          "Water changes from 20 C to 50 C while soil stays at 20 C.",
+          "Both stay exactly at 20 C after heating.",
+          "Soil cools to -10 C while under a heat lamp."
+        ],
+        correctIndex: 0,
+        explanation: "The larger temperature increase in soil suggests it warms faster than water under similar heating."
+      }
+    ]
+  },
+  "kp-416": {
+    title: "KP2: Air temperature above surfaces",
+    questions: [
+      {
+        id: "kp-416-q1",
+        prompt: "Why can air above soil warm differently from air above water?",
+        choices: [
+          "Soil and water absorb, store, and transfer thermal energy at different rates.",
+          "Air above water contains no molecules.",
+          "Soil blocks all energy transfer to air.",
+          "Water cannot affect local air temperature."
+        ],
+        correctIndex: 0,
+        explanation: "Different surface heating changes the thermal energy transferred to nearby air."
+      },
+      {
+        id: "kp-416-q2",
+        prompt: "A thermometer above dry soil rises faster than one above water under the same lamp. What is the best explanation?",
+        choices: [
+          "The soil surface warms faster and transfers more thermal energy to nearby air.",
+          "The thermometer above soil measures gravity instead of temperature.",
+          "The air above water has no temperature.",
+          "The water sample creates no energy interactions."
+        ],
+        correctIndex: 0,
+        explanation: "Warmer land can heat the air above it through conduction and convection."
+      },
+      {
+        id: "kp-416-q3",
+        prompt: "Which variable should be measured to connect surface heating to local air temperature?",
+        choices: [
+          "Temperature above each surface over time.",
+          "The colour of the notebook used.",
+          "The number of students in the room only.",
+          "The brand name of the graph paper."
+        ],
+        correctIndex: 0,
+        explanation: "Measuring air temperature above the surfaces shows how surface energy transfer affects the nearby atmosphere."
+      }
+    ]
+  },
+  "kp-417": {
+    title: "KP3: Specific heat capacity equation",
+    questions: [
+      {
+        id: "kp-417-q1",
+        prompt: "In the equation \\(Q = mc\\Delta T\\), what does \\(\\Delta T\\) represent?",
+        choices: [
+          "The change in temperature.",
+          "The total mass only.",
+          "The colour of the material.",
+          "The distance from the Sun."
+        ],
+        correctIndex: 0,
+        explanation: "In Q = mc delta T, delta T is the temperature change."
+      },
+      {
+        id: "kp-417-q2",
+        prompt: "A 50 g sample with \\(c = 2\\,J/(g\\cdot C)\\) warms by 4 C. Using \\(Q = mc\\Delta T\\), how much heat is absorbed?",
+        choices: [
+          "400 J.",
+          "100 J.",
+          "25 J.",
+          "56 J."
+        ],
+        correctIndex: 0,
+        explanation: "Q = 50 g x 2 J/(g C) x 4 C = 400 J."
+      },
+      {
+        id: "kp-417-q3",
+        prompt: "A student calculates \\(Q\\) but forgets to multiply by mass. What kind of error is this?",
+        choices: [
+          "They ignore that a larger mass needs more energy for the same temperature change.",
+          "They correctly use the equation.",
+          "They prove that specific heat has no units.",
+          "They show temperature change does not matter."
+        ],
+        correctIndex: 0,
+        explanation: "The equation includes mass because heating more material requires more energy."
+      }
+    ]
+  },
+  "kp-418": {
+    title: "KP4: Sea breezes and land breezes",
+    questions: [
+      {
+        id: "kp-418-q1",
+        prompt: "Why can a daytime sea breeze form near a coast?",
+        choices: [
+          "Land warms faster than water, warming nearby air so it rises and cooler air moves in from the sea.",
+          "Water always warms faster than land during the day.",
+          "Air cannot move near coastlines.",
+          "Sea breezes are caused only by radioactive decay."
+        ],
+        correctIndex: 0,
+        explanation: "Different heating rates between land and water can create pressure and convection patterns that move air."
+      },
+      {
+        id: "kp-418-q2",
+        prompt: "At night, land cools faster than nearby water. Which local wind pattern can this help create?",
+        choices: [
+          "A land breeze moving from land toward the water.",
+          "A sea breeze moving from water to land for the same daytime reason.",
+          "No possible air movement.",
+          "A nuclear breeze from Earth's mantle."
+        ],
+        correctIndex: 0,
+        explanation: "At night, warmer air may be over the water, so cooler land air can move seaward."
+      },
+      {
+        id: "kp-418-q3",
+        prompt: "Which concept best explains why land and water create different local winds?",
+        choices: [
+          "Different specific heat capacities cause different heating and cooling rates.",
+          "Land and water have identical temperature changes always.",
+          "Winds form only because of ocean noise.",
+          "Specific heat capacity applies only to metals."
+        ],
+        correctIndex: 0,
+        explanation: "Land and water do not warm and cool at the same rate, and that difference can drive local air movement."
+      }
+    ]
+  },
+  "kp-419": {
+    title: "KP1: Physical models of Earth systems",
+    questions: [
+      {
+        id: "kp-419-q1",
+        prompt: "Why do scientists use physical models of Earth systems?",
+        choices: [
+          "Models can represent selected parts of complex systems so variables can be tested.",
+          "Models are exact copies of all Earth processes.",
+          "Models remove the need for evidence.",
+          "Models always include every detail of the real system."
+        ],
+        correctIndex: 0,
+        explanation: "A model simplifies a complex system so key relationships can be investigated."
+      },
+      {
+        id: "kp-419-q2",
+        prompt: "A class builds two small greenhouse-effect models and changes only the covering material. What makes this a useful model test?",
+        choices: [
+          "One variable is changed while temperature data can be compared.",
+          "Every possible variable changes at once.",
+          "No measurements are taken.",
+          "The model claims to be the actual atmosphere."
+        ],
+        correctIndex: 0,
+        explanation: "A controlled model test allows students to connect a design variable to temperature results."
+      },
+      {
+        id: "kp-419-q3",
+        prompt: "What is an important limitation of a classroom greenhouse model?",
+        choices: [
+          "It cannot include every process and scale of the real atmosphere.",
+          "It cannot produce any useful evidence.",
+          "It is larger than Earth.",
+          "It proves that greenhouse gases do not exist."
+        ],
+        correctIndex: 0,
+        explanation: "Physical models are useful but simplified, so their limitations should be evaluated."
+      }
+    ]
+  },
+  "kp-420": {
+    title: "KP2: Natural and human-induced greenhouse effects",
+    questions: [
+      {
+        id: "kp-420-q1",
+        prompt: "Which feature should a greenhouse-effect model include?",
+        choices: [
+          "Light enters, energy is absorbed, thermal energy forms, and some infrared radiation is limited from leaving.",
+          "No light can enter the system.",
+          "All energy is destroyed inside the model.",
+          "Only sound energy is allowed in."
+        ],
+        correctIndex: 0,
+        explanation: "The model should represent key energy pathways in the greenhouse effect."
+      },
+      {
+        id: "kp-420-q2",
+        prompt: "How could a model be adjusted to represent a stronger human-induced greenhouse effect?",
+        choices: [
+          "Change a variable so more infrared energy is retained, then compare temperature data.",
+          "Remove all measurements from the investigation.",
+          "Prevent light from entering either model.",
+          "Make both models identical and expect different results."
+        ],
+        correctIndex: 0,
+        explanation: "The investigation asks students to adjust variables and compare temperature changes."
+      },
+      {
+        id: "kp-420-q3",
+        prompt: "Why should the outside temperature also be measured when testing a greenhouse model?",
+        choices: [
+          "It provides a comparison for judging temperature change inside the model.",
+          "It replaces all inside temperature measurements.",
+          "It makes the model no longer controlled.",
+          "It proves that energy cannot enter the model."
+        ],
+        correctIndex: 0,
+        explanation: "Comparing inside and outside temperatures helps evaluate how the model changes energy retention."
+      }
+    ]
   }
 };
