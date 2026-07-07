@@ -6559,6 +6559,826 @@ window.SCIENCE10_QUIZZES = {
       }
     ]
   },
+  "kp-161": {
+    title: "KP3: Evidence quality",
+    questions: [
+      {
+        id: "kp-161-q1",
+        prompt: "When judging a claim about a GMO's environmental effect, what should you check first?",
+        choices: [
+          "Whether the claim is supported by credible evidence and a reliable source.",
+          "Whether the claim appears in the biggest font.",
+          "Whether the claim agrees with your first opinion.",
+          "Whether the claim avoids mentioning uncertainty."
+        ],
+        correctIndex: 0,
+        explanation: "GMO claims should be judged by source credibility, evidence quality, and whether more data are needed."
+      },
+      {
+        id: "kp-161-q2",
+        prompt: "Which report would be strongest evidence about a GMO crop's effect on non-target insects?",
+        choices: [
+          "A controlled field study that measures insect populations and explains methods.",
+          "An anonymous comment with no data.",
+          "A product advertisement that lists only benefits.",
+          "A rumour that says all GMOs have the same effect."
+        ],
+        correctIndex: 0,
+        explanation: "Clear methods, relevant data, and reviewable evidence make a report more credible."
+      },
+      {
+        id: "kp-161-q3",
+        prompt: "Why might scientists say more data are needed before deciding whether a GMO is safe for an ecosystem?",
+        choices: [
+          "Ecosystems are complex, and effects may vary by species, location, and time.",
+          "Science cannot study ecosystems.",
+          "One opinion is always enough.",
+          "All GMOs have identical environmental effects."
+        ],
+        correctIndex: 0,
+        explanation: "Environmental effects can be complex, so strong conclusions often require multiple lines of evidence."
+      }
+    ]
+  },
+  "kp-162": {
+    title: "KP1: Chemical reactions",
+    questions: [
+      {
+        id: "kp-162-q1",
+        prompt: "What happens in a chemical reaction?",
+        choices: [
+          "Atoms are rearranged to form different substances.",
+          "Atoms disappear and no new substances form.",
+          "Only the shape changes while all substances remain the same.",
+          "Matter changes into pure energy with no atoms left."
+        ],
+        correctIndex: 0,
+        explanation: "A chemical reaction rearranges atoms from reactants into new substances called products."
+      },
+      {
+        id: "kp-162-q2",
+        prompt: "Which situation most clearly involves a chemical reaction?",
+        choices: [
+          "A firework burns fuel and produces hot gases and coloured light.",
+          "A glass cup is moved from one table to another.",
+          "A pencil is sharpened into smaller pieces.",
+          "Water is poured from a bottle into a cup."
+        ],
+        correctIndex: 0,
+        explanation: "Fireworks involve substances reacting to produce new substances, heat, gases, and light."
+      },
+      {
+        id: "kp-162-q3",
+        prompt: "Why are some chemical reactions easy to notice while others are not?",
+        choices: [
+          "Some produce obvious signs like light or gas, while others occur quietly in living systems or materials.",
+          "Only explosive reactions are real chemical reactions.",
+          "A reaction must always be colourful.",
+          "Chemical reactions happen only in laboratories."
+        ],
+        correctIndex: 0,
+        explanation: "Many reactions occur without dramatic signs, including reactions that sustain life."
+      }
+    ]
+  },
+  "kp-163": {
+    title: "KP2: Chemistry in living systems",
+    questions: [
+      {
+        id: "kp-163-q1",
+        prompt: "How is chemistry involved in digestion?",
+        choices: [
+          "Chemical reactions break food into forms that cells can use.",
+          "Food becomes useful only by changing colour.",
+          "Digestion avoids all chemical changes.",
+          "Nutrients are made only by fireworks."
+        ],
+        correctIndex: 0,
+        explanation: "Digestion uses chemical reactions to break down food molecules into usable nutrients."
+      },
+      {
+        id: "kp-163-q2",
+        prompt: "Why is it incorrect to say chemistry is separate from life?",
+        choices: [
+          "Living systems depend on chemical reactions to grow, repair, and use energy.",
+          "Cells contain no chemical compounds.",
+          "Only non-living materials involve atoms.",
+          "Life processes happen without matter."
+        ],
+        correctIndex: 0,
+        explanation: "Cells and body systems depend on chemical substances and reactions."
+      },
+      {
+        id: "kp-163-q3",
+        prompt: "Which example connects chemistry to health?",
+        choices: [
+          "Body cells using nutrients after food molecules are broken down.",
+          "A notebook being placed in a backpack.",
+          "A rock rolling down a hill with no chemical change.",
+          "A ruler measuring desk length."
+        ],
+        correctIndex: 0,
+        explanation: "Nutrient use by cells depends on chemical processes that support health."
+      }
+    ]
+  },
+  "kp-164": {
+    title: "KP3: Chemistry in medicine",
+    questions: [
+      {
+        id: "kp-164-q1",
+        prompt: "How can chemistry support medical imaging technologies?",
+        choices: [
+          "Chemical knowledge helps design materials and processes used to visualize internal body structures.",
+          "Medical imaging works only by guessing what is inside the body.",
+          "Chemistry prevents doctors from studying the body.",
+          "Medical tools never involve materials or substances."
+        ],
+        correctIndex: 0,
+        explanation: "Medical technologies rely on chemical understanding of materials, compounds, and body processes."
+      },
+      {
+        id: "kp-164-q2",
+        prompt: "Which statement best explains chemistry's role in medicine?",
+        choices: [
+          "It helps develop tools, drugs, materials, and methods for understanding and treating the body.",
+          "It is used only for fireworks.",
+          "It applies to personal care products but not health care.",
+          "It removes the need for biological knowledge."
+        ],
+        correctIndex: 0,
+        explanation: "Chemistry contributes to many medical advances, from imaging to treatments and materials."
+      },
+      {
+        id: "kp-164-q3",
+        prompt: "A patient receives a scan that depends on specially designed materials and interactions with body tissues. What concept does this illustrate?",
+        choices: [
+          "Chemistry can contribute to medical technologies.",
+          "Chemical reactions are never useful in medicine.",
+          "Medicine does not involve matter.",
+          "All imaging is unrelated to science."
+        ],
+        correctIndex: 0,
+        explanation: "Medical tools often depend on chemical properties and interactions."
+      }
+    ]
+  },
+  "kp-165": {
+    title: "KP4: Chemistry in personal and consumer products",
+    questions: [
+      {
+        id: "kp-165-q1",
+        prompt: "Why do companies use chemistry when developing personal care products?",
+        choices: [
+          "They design products with specific properties such as texture, stability, scent, or cleaning ability.",
+          "Personal care products contain no substances.",
+          "Chemistry makes product properties impossible to control.",
+          "Consumer products are all found unchanged in nature."
+        ],
+        correctIndex: 0,
+        explanation: "Product design depends on choosing substances with useful chemical and physical properties."
+      },
+      {
+        id: "kp-165-q2",
+        prompt: "Which question shows good chemical thinking about a consumer product?",
+        choices: [
+          "What ingredients give the product its properties, and how should it be used safely?",
+          "Can I assume all products are harmless because they smell pleasant?",
+          "Does the package colour prove the product is safe?",
+          "Can I ignore the label if the product is familiar?"
+        ],
+        correctIndex: 0,
+        explanation: "Chemistry helps explain both product performance and safe use."
+      },
+      {
+        id: "kp-165-q3",
+        prompt: "Why can a useful household product still require caution?",
+        choices: [
+          "Useful chemical properties can also create hazards if the product is misused.",
+          "Useful products never contain chemicals.",
+          "A product is always safe if it is sold in a store.",
+          "Labels are written only for decoration."
+        ],
+        correctIndex: 0,
+        explanation: "A product can be helpful and still need safe handling, storage, or disposal."
+      }
+    ]
+  },
+  "kp-166": {
+    title: "KP5: Chemistry in transportation and pollution",
+    questions: [
+      {
+        id: "kp-166-q1",
+        prompt: "How has chemistry helped transportation?",
+        choices: [
+          "It has contributed to fuels, materials, batteries, lubricants, and safety technologies.",
+          "It has prevented vehicles from using any materials.",
+          "It applies only to walking.",
+          "It has no connection to engines or road materials."
+        ],
+        correctIndex: 0,
+        explanation: "Transportation depends on chemical knowledge of fuels, materials, and reactions."
+      },
+      {
+        id: "kp-166-q2",
+        prompt: "What is a negative effect connected to transportation chemistry?",
+        choices: [
+          "Vehicle use and production can contribute to air, land, and water pollution.",
+          "Transportation chemistry eliminates all pollution.",
+          "Vehicles cannot release substances into the environment.",
+          "Only natural materials can pollute."
+        ],
+        correctIndex: 0,
+        explanation: "Transportation has benefits, but fuels, emissions, and materials can create pollution."
+      },
+      {
+        id: "kp-166-q3",
+        prompt: "Which evaluation is most balanced?",
+        choices: [
+          "Chemistry has made transportation useful and safer, but it can also create environmental problems.",
+          "Transportation chemistry is only harmful.",
+          "Transportation chemistry is only beneficial.",
+          "Environmental effects do not need evidence."
+        ],
+        correctIndex: 0,
+        explanation: "The textbook emphasizes considering both positive and negative effects."
+      }
+    ]
+  },
+  "kp-167": {
+    title: "KP6: Synthetic materials",
+    questions: [
+      {
+        id: "kp-167-q1",
+        prompt: "What is a synthetic material?",
+        choices: [
+          "A human-made material designed with specific properties.",
+          "A material that contains no atoms.",
+          "A material that can exist only inside living cells.",
+          "A substance that is always harmless."
+        ],
+        correctIndex: 0,
+        explanation: "Synthetic materials such as plastics and synthetic fibres are made by people for useful properties."
+      },
+      {
+        id: "kp-167-q2",
+        prompt: "Why is plastic's stability both helpful and problematic?",
+        choices: [
+          "It makes plastic durable in use, but it may persist as pollution after disposal.",
+          "It means plastic breaks down instantly.",
+          "It makes plastic useful only for food.",
+          "It prevents plastic from having any environmental effect."
+        ],
+        correctIndex: 0,
+        explanation: "Durability is useful during a product's life but can create waste and pollution challenges."
+      },
+      {
+        id: "kp-167-q3",
+        prompt: "Which comparison best shows a trade-off for synthetic fibres?",
+        choices: [
+          "They can be strong and stretchy, but production and disposal may have environmental impacts.",
+          "They are always worse than natural fibres in every way.",
+          "They are natural fibres that require no processing.",
+          "They disappear from ecosystems immediately after use."
+        ],
+        correctIndex: 0,
+        explanation: "Synthetic materials should be evaluated for both useful properties and environmental effects."
+      }
+    ]
+  },
+  "kp-168": {
+    title: "KP1: Chemical hazards",
+    questions: [
+      {
+        id: "kp-168-q1",
+        prompt: "What makes a chemical hazardous?",
+        choices: [
+          "Its properties can cause harm if it is handled, stored, used, or disposed of incorrectly.",
+          "It has a long name.",
+          "It appears in a science classroom.",
+          "It is made of atoms."
+        ],
+        correctIndex: 0,
+        explanation: "Hazards depend on chemical properties and how people interact with the substance."
+      },
+      {
+        id: "kp-168-q2",
+        prompt: "Why should you check hazard information before using a chemical?",
+        choices: [
+          "Different hazards require different precautions.",
+          "All chemicals have identical risks.",
+          "Hazard information is useful only after an accident.",
+          "Safety rules matter only outside the classroom."
+        ],
+        correctIndex: 0,
+        explanation: "Knowing the hazard helps you choose correct equipment, behaviour, storage, and disposal."
+      },
+      {
+        id: "kp-168-q3",
+        prompt: "Which statement is the safest assumption?",
+        choices: [
+          "A familiar chemical can still be dangerous if misused.",
+          "A chemical is safe if it has no smell.",
+          "A small bottle can never contain a hazard.",
+          "A liquid is harmless if it looks like water."
+        ],
+        correctIndex: 0,
+        explanation: "Appearance, smell, or familiarity do not prove safety."
+      }
+    ]
+  },
+  "kp-169": {
+    title: "KP2: WHMIS labels",
+    questions: [
+      {
+        id: "kp-169-q1",
+        prompt: "What is the purpose of WHMIS labels?",
+        choices: [
+          "They communicate chemical hazards in workplaces and laboratories.",
+          "They show the price of each chemical.",
+          "They replace all safety training.",
+          "They list only the colour of a chemical."
+        ],
+        correctIndex: 0,
+        explanation: "WHMIS labels provide standardized hazard information."
+      },
+      {
+        id: "kp-169-q2",
+        prompt: "A flame symbol appears on a chemical label. What should you infer?",
+        choices: [
+          "The chemical may present a fire hazard and needs precautions around ignition sources.",
+          "The chemical is safe to heat without limits.",
+          "The chemical is always a medicine.",
+          "The chemical must be poured into a storm drain."
+        ],
+        correctIndex: 0,
+        explanation: "The flame pictogram warns about fire-related hazards."
+      },
+      {
+        id: "kp-169-q3",
+        prompt: "Why are WHMIS symbols useful when planning an investigation?",
+        choices: [
+          "They help identify risks so procedures and protective equipment can be chosen.",
+          "They make it unnecessary to read instructions.",
+          "They prove every chemical has the same danger.",
+          "They are used only for fire extinguishers."
+        ],
+        correctIndex: 0,
+        explanation: "Hazard symbols guide safe planning, handling, and response."
+      }
+    ]
+  },
+  "kp-170": {
+    title: "KP3: Safety Data Sheets",
+    questions: [
+      {
+        id: "kp-170-q1",
+        prompt: "What information can an SDS provide?",
+        choices: [
+          "Chemical properties, hazards, handling, storage, disposal, and first aid.",
+          "Only the history of who discovered the chemical.",
+          "Only the chemical's price.",
+          "Only a list of unrelated careers."
+        ],
+        correctIndex: 0,
+        explanation: "Safety Data Sheets give detailed information needed for safe chemical work."
+      },
+      {
+        id: "kp-170-q2",
+        prompt: "When should you consult an SDS?",
+        choices: [
+          "Before planning or carrying out work with a chemical.",
+          "Only after throwing the chemical away.",
+          "Only if the label is colourful.",
+          "Never, because WHMIS symbols replace details."
+        ],
+        correctIndex: 0,
+        explanation: "SDS information should be checked before use so risks and procedures are understood."
+      },
+      {
+        id: "kp-170-q3",
+        prompt: "How are WHMIS labels and SDS related?",
+        choices: [
+          "WHMIS labels give hazard warnings, while SDS provide more detailed safety information.",
+          "They are unrelated systems.",
+          "SDS are used only for food recipes.",
+          "WHMIS labels are used only after an accident."
+        ],
+        correctIndex: 0,
+        explanation: "Labels alert users to hazards; SDS explain safe handling and response in more detail."
+      }
+    ]
+  },
+  "kp-171": {
+    title: "KP4: Protective equipment and behaviour",
+    questions: [
+      {
+        id: "kp-171-q1",
+        prompt: "Which action is appropriate before starting a chemical investigation?",
+        choices: [
+          "Wear required eye protection and secure loose hair or clothing.",
+          "Eat snacks at the lab bench.",
+          "Smell chemicals directly from the container.",
+          "Remove goggles once the chemical is opened."
+        ],
+        correctIndex: 0,
+        explanation: "Protective equipment and careful behaviour reduce the chance of injury."
+      },
+      {
+        id: "kp-171-q2",
+        prompt: "Why should food and drink stay out of a chemistry workspace?",
+        choices: [
+          "They could become contaminated or lead to accidental ingestion of chemicals.",
+          "Food changes all chemicals into water.",
+          "Eating improves chemical safety.",
+          "It is safe if the food is in a closed package."
+        ],
+        correctIndex: 0,
+        explanation: "No eating or drinking in the lab reduces exposure and contamination risks."
+      },
+      {
+        id: "kp-171-q3",
+        prompt: "Which behaviour best matches safe classroom chemistry?",
+        choices: [
+          "Follow teacher instructions and keep containers away from your face.",
+          "Mix unknown chemicals to see what happens.",
+          "Wear sandals while handling glassware.",
+          "Ignore safety equipment locations."
+        ],
+        correctIndex: 0,
+        explanation: "Responsible behaviour is part of chemical safety, not just wearing equipment."
+      }
+    ]
+  },
+  "kp-172": {
+    title: "KP5: Emergency response in the classroom",
+    questions: [
+      {
+        id: "kp-172-q1",
+        prompt: "What should you know before an investigation begins?",
+        choices: [
+          "Where emergency exits, eyewash stations, and other safety equipment are located.",
+          "Only where backpacks are stored.",
+          "How to hide spills from the teacher.",
+          "How to leave flames unattended."
+        ],
+        correctIndex: 0,
+        explanation: "Knowing emergency equipment and exits helps you respond quickly if something goes wrong."
+      },
+      {
+        id: "kp-172-q2",
+        prompt: "If a liquid chemical splashes on skin, what is the safest immediate response in a classroom setting?",
+        choices: [
+          "Rinse the area with water and notify the teacher.",
+          "Rub it into the skin to make it disappear.",
+          "Ignore it unless it hurts later.",
+          "Cover it with paper and continue the experiment."
+        ],
+        correctIndex: 0,
+        explanation: "Water rinsing and immediate reporting are standard first responses for many classroom spills."
+      },
+      {
+        id: "kp-172-q3",
+        prompt: "If something gets in a student's eye, why is an eyewash station important?",
+        choices: [
+          "It allows rapid rinsing while the teacher is notified.",
+          "It stores extra chemicals for experiments.",
+          "It replaces the need for goggles.",
+          "It should be used only at the end of class."
+        ],
+        correctIndex: 0,
+        explanation: "Eye exposures require immediate rinsing and adult help."
+      }
+    ]
+  },
+  "kp-173": {
+    title: "KP6: Heating, fumes, and handling containers",
+    questions: [
+      {
+        id: "kp-173-q1",
+        prompt: "Why should a heated test tube be pointed away from people?",
+        choices: [
+          "Hot liquid or vapour could suddenly escape and cause injury.",
+          "It makes the reaction happen faster.",
+          "It improves the colour of the flame.",
+          "It lets you smell fumes directly."
+        ],
+        correctIndex: 0,
+        explanation: "Heating can cause splashing or boiling, so the open end should not face anyone."
+      },
+      {
+        id: "kp-173-q2",
+        prompt: "What is the safe way to smell a substance if instructed to do so?",
+        choices: [
+          "Waft fumes gently toward your nose.",
+          "Place your nose directly over the container.",
+          "Drink a small amount first.",
+          "Heat it until the smell becomes stronger."
+        ],
+        correctIndex: 0,
+        explanation: "Wafting reduces direct exposure to concentrated fumes."
+      },
+      {
+        id: "kp-173-q3",
+        prompt: "Which action is unsafe when using a flame?",
+        choices: [
+          "Leaving an open flame unattended.",
+          "Knowing how to light and use the burner properly.",
+          "Keeping hair tied back.",
+          "Handling hot objects with care."
+        ],
+        correctIndex: 0,
+        explanation: "Open flames require attention because they can start fires or heat materials unexpectedly."
+      }
+    ]
+  },
+  "kp-174": {
+    title: "KP7: Minimizing personal and environmental risk",
+    questions: [
+      {
+        id: "kp-174-q1",
+        prompt: "Which plan best minimizes both personal and environmental risk?",
+        choices: [
+          "Use correct PPE, smallest practical amounts, safe storage, and approved disposal.",
+          "Pour leftover chemicals into the nearest drain without checking.",
+          "Use more chemical than needed because it looks impressive.",
+          "Skip labels if the container is familiar."
+        ],
+        correctIndex: 0,
+        explanation: "Risk reduction includes protecting people and preventing harmful releases to the environment."
+      },
+      {
+        id: "kp-174-q2",
+        prompt: "Why should disposal be part of a chemical safety plan?",
+        choices: [
+          "Improper disposal can harm people, plumbing, wastewater systems, or ecosystems.",
+          "Disposal is never connected to environmental safety.",
+          "All chemicals can be safely thrown in regular garbage.",
+          "Disposal matters only for solid objects."
+        ],
+        correctIndex: 0,
+        explanation: "Safe chemical work continues after the investigation, including storage and disposal."
+      },
+      {
+        id: "kp-174-q3",
+        prompt: "A painter uses solvents at work. Which risk-reduction strategy is most complete?",
+        choices: [
+          "Use ventilation and PPE, avoid spills, and dispose of waste properly.",
+          "Wear gloves but pour waste outside.",
+          "Open containers near flames to save time.",
+          "Ignore SDS information if the solvent is common."
+        ],
+        correctIndex: 0,
+        explanation: "Personal and environmental safety require multiple controls, not just one precaution."
+      }
+    ]
+  },
+  "kp-175": {
+    title: "KP1: Water as a solvent",
+    questions: [
+      {
+        id: "kp-175-q1",
+        prompt: "Why is water often called a universal solvent?",
+        choices: [
+          "Many different substances can dissolve in it.",
+          "It dissolves every substance equally well.",
+          "It is always chemically pure in nature.",
+          "It cannot carry pollutants."
+        ],
+        correctIndex: 0,
+        explanation: "Water dissolves many substances, though not all substances and not always completely."
+      },
+      {
+        id: "kp-175-q2",
+        prompt: "Why does pure water rarely exist in nature?",
+        choices: [
+          "Water can dissolve natural substances such as ions and minerals as it moves through the environment.",
+          "Water destroys all dissolved substances immediately.",
+          "Natural water contains no particles or ions.",
+          "Only human-made substances can dissolve in water."
+        ],
+        correctIndex: 0,
+        explanation: "Natural water often contains dissolved substances from soil, rocks, organisms, and human activity."
+      },
+      {
+        id: "kp-175-q3",
+        prompt: "How does water's solvent ability relate to pollution?",
+        choices: [
+          "It can carry harmful dissolved or suspended substances through water systems.",
+          "It prevents all pollution from moving.",
+          "It makes every pollutant harmless.",
+          "It affects only oceans, not rivers or groundwater."
+        ],
+        correctIndex: 0,
+        explanation: "Because water can carry substances, pollutants can travel into local ecosystems and drinking water sources."
+      }
+    ]
+  },
+  "kp-176": {
+    title: "KP2: Water pollution sources",
+    questions: [
+      {
+        id: "kp-176-q1",
+        prompt: "Which is an example of a human source of water pollution?",
+        choices: [
+          "Pharmaceuticals or personal care products poured down drains.",
+          "Dissolved minerals naturally picked up from rocks.",
+          "Clouds forming in the sky.",
+          "Water evaporating from a lake."
+        ],
+        correctIndex: 0,
+        explanation: "Human waste, industrial waste, mining waste, plastics, and pharmaceuticals can pollute water."
+      },
+      {
+        id: "kp-176-q2",
+        prompt: "Why can household habits affect water quality?",
+        choices: [
+          "Substances poured down toilets, sinks, or storm drains can enter water systems.",
+          "Household products cannot dissolve or move in water.",
+          "Only factories can pollute water.",
+          "Water treatment removes every possible chemical."
+        ],
+        correctIndex: 0,
+        explanation: "Everyday disposal choices can add pollutants to wastewater or stormwater."
+      },
+      {
+        id: "kp-176-q3",
+        prompt: "Which action would best reduce water pollution at the source?",
+        choices: [
+          "Dispose of medicines and chemicals through approved collection programs.",
+          "Flush unused products to make them disappear.",
+          "Pour paint thinner into a street drain.",
+          "Assume small amounts cannot matter."
+        ],
+        correctIndex: 0,
+        explanation: "Keeping harmful substances out of drains reduces what water systems must handle."
+      }
+    ]
+  },
+  "kp-177": {
+    title: "KP3: Wastewater and stormwater",
+    questions: [
+      {
+        id: "kp-177-q1",
+        prompt: "What is a key difference between wastewater and stormwater in many communities?",
+        choices: [
+          "Wastewater often goes to treatment, while stormwater may flow directly into local waterways.",
+          "Stormwater is always treated more than wastewater.",
+          "Wastewater never contains pollutants.",
+          "Stormwater cannot pick up substances from streets."
+        ],
+        correctIndex: 0,
+        explanation: "Storm drains can carry runoff directly to rivers or lakes without treatment."
+      },
+      {
+        id: "kp-177-q2",
+        prompt: "Why can even treated wastewater still affect ecosystems?",
+        choices: [
+          "Treatment can reduce pollutants but may not remove every dissolved or suspended chemical.",
+          "Treatment adds all pollutants on purpose.",
+          "Treatment means the water becomes chemically pure.",
+          "Treated water never returns to the environment."
+        ],
+        correctIndex: 0,
+        explanation: "Treatment systems vary and cannot always remove all chemicals."
+      },
+      {
+        id: "kp-177-q3",
+        prompt: "A person dumps oily liquid into a storm drain. What is the likely concern?",
+        choices: [
+          "It may be carried untreated into a local lake or river.",
+          "It will always be fully removed at a treatment plant.",
+          "It will become pure water instantly.",
+          "It cannot move because drains are sealed."
+        ],
+        correctIndex: 0,
+        explanation: "Storm drains often connect directly to local waterways, making dumping especially harmful."
+      }
+    ]
+  },
+  "kp-178": {
+    title: "KP4: Safe drinking water and community responsibility",
+    questions: [
+      {
+        id: "kp-178-q1",
+        prompt: "Why is safe drinking water a community responsibility?",
+        choices: [
+          "Water quality depends on infrastructure, pollution choices, monitoring, and public action.",
+          "Only individual taste matters.",
+          "Every community has identical water access.",
+          "Water treatment never requires funding or maintenance."
+        ],
+        correctIndex: 0,
+        explanation: "Safe water depends on systems and shared decisions, not only individual behaviour."
+      },
+      {
+        id: "kp-178-q2",
+        prompt: "Which action could support cleaner water systems?",
+        choices: [
+          "Raise awareness and reduce pollutants entering drains and waterways.",
+          "Ignore contamination unless it is visible.",
+          "Pour more chemicals into storm drains.",
+          "Assume boiling water solves every possible contamination issue."
+        ],
+        correctIndex: 0,
+        explanation: "Community action can reduce pollution and support better water quality."
+      },
+      {
+        id: "kp-178-q3",
+        prompt: "Why should water-quality plans consider different communities' needs?",
+        choices: [
+          "Some communities face greater barriers to safe drinking water and need appropriate support.",
+          "All communities have the same water infrastructure.",
+          "Water quality affects only large cities.",
+          "Unsafe drinking water is never a public health concern."
+        ],
+        correctIndex: 0,
+        explanation: "The textbook notes that safe drinking water issues affect communities differently, including some First Nations communities."
+      }
+    ]
+  },
+  "kp-179": {
+    title: "KP1: Fire extinguisher types",
+    questions: [
+      {
+        id: "kp-179-q1",
+        prompt: "Why are there different classes of fire extinguishers?",
+        choices: [
+          "Different fuel sources require different chemicals or methods to extinguish safely.",
+          "All fires are identical.",
+          "The letters only show extinguisher size.",
+          "Fire extinguishers are chosen by colour preference."
+        ],
+        correctIndex: 0,
+        explanation: "Extinguishers are matched to fuel sources such as ordinary combustibles, flammable liquids, electrical equipment, metals, or cooking oils."
+      },
+      {
+        id: "kp-179-q2",
+        prompt: "Which fire class involves live electrical equipment?",
+        choices: [
+          "Class C.",
+          "Class A.",
+          "Class D.",
+          "Class K."
+        ],
+        correctIndex: 0,
+        explanation: "Class C fires involve energized electrical equipment."
+      },
+      {
+        id: "kp-179-q3",
+        prompt: "Which fire class is associated with cooking oils and fats?",
+        choices: [
+          "Class K.",
+          "Class C.",
+          "Class D.",
+          "Class A only."
+        ],
+        correctIndex: 0,
+        explanation: "Class K fires involve cooking media such as vegetable or animal oils and fats."
+      }
+    ]
+  },
+  "kp-180": {
+    title: "KP2: Correct extinguisher choice",
+    questions: [
+      {
+        id: "kp-180-q1",
+        prompt: "Why should water not be used on a live electrical fire?",
+        choices: [
+          "Water can conduct electricity and create a life-threatening shock hazard.",
+          "Water makes electricity disappear safely in every situation.",
+          "Electrical fires are always Class A fires.",
+          "Water is the only correct choice for all fires."
+        ],
+        correctIndex: 0,
+        explanation: "Using water on live electrical equipment can cause electrocution."
+      },
+      {
+        id: "kp-180-q2",
+        prompt: "Why can water be dangerous on a cooking oil fire?",
+        choices: [
+          "It can spread burning oil and cause splattering.",
+          "It always cools oil safely with no risk.",
+          "It changes oil into harmless steam instantly.",
+          "It is required for all Class K fires."
+        ],
+        correctIndex: 0,
+        explanation: "Water can spread oil-based fires and increase burn risk."
+      },
+      {
+        id: "kp-180-q3",
+        prompt: "A small fire starts in a computer lab near energized equipment. What should guide extinguisher choice?",
+        choices: [
+          "The fire class and label showing safe use for electrical fires.",
+          "The heaviest extinguisher available.",
+          "A water extinguisher because water is familiar.",
+          "The extinguisher nearest the door regardless of label."
+        ],
+        correctIndex: 0,
+        explanation: "Extinguisher labels identify which fire classes they can safely address."
+      }
+    ]
+  },
   "kp-306": {
     title: "KP1: Energy as an indirect concept",
     questions: [
