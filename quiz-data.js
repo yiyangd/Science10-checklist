@@ -3279,6 +3279,416 @@ window.SCIENCE10_QUIZZES = {
       }
     ]
   },
+  "kp-81": {
+    title: "KP2: Genetic variation in populations",
+    questions: [
+      {
+        id: "kp-81-q1",
+        prompt: "What best explains why individuals in the same species can show genetic variation?",
+        choices: [
+          "They can inherit different combinations of alleles from their parents.",
+          "They all copy the exact same DNA sequence with no differences.",
+          "They stop having genes after birth.",
+          "They change their alleles whenever they need a new trait."
+        ],
+        correctIndex: 0,
+        explanation: "Sexual reproduction combines genetic material from parents, so individuals can inherit different allele combinations."
+      },
+      {
+        id: "kp-81-q2",
+        prompt: "A litter of young animals shows several coat colours and patterns. Which explanation best connects this observation to genetics?",
+        choices: [
+          "Each offspring inherited a different combination of alleles.",
+          "All offspring must have identical genotypes.",
+          "Coat pattern cannot be influenced by genes.",
+          "Variation appears only when there are no parents."
+        ],
+        correctIndex: 0,
+        explanation: "Visible differences can reflect different inherited allele combinations among offspring."
+      },
+      {
+        id: "kp-81-q3",
+        prompt: "Why is genetic variation important for a population?",
+        choices: [
+          "It provides different traits that selection can act on if conditions change.",
+          "It makes every individual equally suited to every environment.",
+          "It prevents mutations from ever happening.",
+          "It guarantees that no organism will die."
+        ],
+        correctIndex: 0,
+        explanation: "Variation gives a population more possible traits that may help some individuals survive and reproduce."
+      }
+    ]
+  },
+  "kp-82": {
+    title: "KP3: Sources of mutations",
+    questions: [
+      {
+        id: "kp-82-q1",
+        prompt: "Which situation is an example of a mutation arising spontaneously?",
+        choices: [
+          "A copying error occurs as DNA is duplicated before cell division.",
+          "A student chooses a different answer on a quiz.",
+          "An organism moves from shade into sunlight.",
+          "A predator eats fewer prey in one season."
+        ],
+        correctIndex: 0,
+        explanation: "Mutations can occur naturally when DNA is copied, even without an outside environmental agent."
+      },
+      {
+        id: "kp-82-q2",
+        prompt: "Which outside factor could increase the chance of mutations in DNA?",
+        choices: [
+          "Ultraviolet radiation.",
+          "A Punnett square.",
+          "A pedigree chart.",
+          "A recessive allele being hidden by a dominant allele."
+        ],
+        correctIndex: 0,
+        explanation: "The textbook identifies environmental agents such as ultraviolet radiation as possible sources of DNA damage and mutation."
+      },
+      {
+        id: "kp-82-q3",
+        prompt: "Which statement best avoids a misconception about mutation sources?",
+        choices: [
+          "Mutations can happen during normal DNA copying or because of environmental agents.",
+          "Mutations occur only when organisms intentionally need them.",
+          "Mutations can happen only in fossils.",
+          "Mutations require two different species to mate."
+        ],
+        correctIndex: 0,
+        explanation: "Mutations do not happen because an organism chooses them; they can occur randomly or after DNA-damaging exposure."
+      }
+    ]
+  },
+  "kp-83": {
+    title: "KP4: Effects of mutations",
+    questions: [
+      {
+        id: "kp-83-q1",
+        prompt: "Which statement best describes the possible effects of mutations?",
+        choices: [
+          "A mutation may be harmful, neutral, or beneficial depending on what changes and the environment.",
+          "Every mutation is harmful.",
+          "Every mutation gives an organism a selective advantage.",
+          "Mutations never affect cells."
+        ],
+        correctIndex: 0,
+        explanation: "The effect of a mutation depends on the DNA change and the situation in which the organism lives."
+      },
+      {
+        id: "kp-83-q2",
+        prompt: "A DNA change has no noticeable effect on how a cell functions. How should this mutation be classified in that context?",
+        choices: [
+          "Neutral.",
+          "Always lethal.",
+          "Always beneficial.",
+          "Not a mutation because there is no visible effect."
+        ],
+        correctIndex: 0,
+        explanation: "Some mutations have little or no effect even though the DNA sequence has changed."
+      },
+      {
+        id: "kp-83-q3",
+        prompt: "A mutation lets some bacteria survive a particular antibiotic. In that environment, what effect does the mutation have?",
+        choices: [
+          "It is beneficial for those bacteria under antibiotic exposure.",
+          "It is neutral because all mutations have no effect.",
+          "It is harmful because all mutations damage survival.",
+          "It is impossible because bacteria cannot mutate."
+        ],
+        correctIndex: 0,
+        explanation: "A mutation can be beneficial when it improves survival or reproduction in a specific environment."
+      }
+    ]
+  },
+  "kp-84": {
+    title: "KP5: Somatic cell mutations",
+    questions: [
+      {
+        id: "kp-84-q1",
+        prompt: "What is a somatic cell mutation?",
+        choices: [
+          "A DNA change in a body cell rather than in a gamete.",
+          "A DNA change in every offspring of a population.",
+          "A gene combination predicted by a Punnett square.",
+          "An allele found only on the Y chromosome."
+        ],
+        correctIndex: 0,
+        explanation: "Somatic cells are body cells, so mutations in them affect that organism's body cells rather than gametes directly."
+      },
+      {
+        id: "kp-84-q2",
+        prompt: "Why does a somatic cell mutation usually disappear from a population when the organism dies?",
+        choices: [
+          "It is not usually passed through egg or sperm cells to offspring.",
+          "It changes all future gametes automatically.",
+          "It always repairs itself before the organism dies.",
+          "It turns into a dominant allele in every relative."
+        ],
+        correctIndex: 0,
+        explanation: "If a mutation is limited to body cells, it usually is not inherited by future generations."
+      },
+      {
+        id: "kp-84-q3",
+        prompt: "A skin cell develops a DNA mutation after too much ultraviolet exposure. Which conclusion is most reasonable?",
+        choices: [
+          "The mutation may affect that body cell lineage but is unlikely to be inherited by offspring.",
+          "Every child of the organism must inherit the mutation.",
+          "The mutation cannot affect the organism at all.",
+          "The mutation proves natural selection has no role in populations."
+        ],
+        correctIndex: 0,
+        explanation: "A mutation in a body cell can affect the organism, but inheritance usually requires the mutation to be in a gamete-forming cell."
+      }
+    ]
+  },
+  "kp-85": {
+    title: "KP6: Gamete mutations",
+    questions: [
+      {
+        id: "kp-85-q1",
+        prompt: "Why can a mutation in a gamete be important for long-term population change?",
+        choices: [
+          "It may be passed to offspring as a new allele.",
+          "It always disappears when the parent dies.",
+          "It affects only one skin cell.",
+          "It prevents fertilization from ever happening."
+        ],
+        correctIndex: 0,
+        explanation: "Gametes can contribute DNA to offspring, so mutations in gametes can enter the next generation."
+      },
+      {
+        id: "kp-85-q2",
+        prompt: "A mutation occurs in a sperm-producing cell and is included in a sperm that forms an offspring. What can happen next?",
+        choices: [
+          "The offspring may carry the new allele in its cells.",
+          "The mutation must stay only in the parent body cell.",
+          "The mutation immediately affects only the grandparent.",
+          "The mutation cannot become part of inherited variation."
+        ],
+        correctIndex: 0,
+        explanation: "When a gamete with a mutation contributes to a zygote, the offspring may inherit that new allele."
+      },
+      {
+        id: "kp-85-q3",
+        prompt: "Which comparison between somatic and gamete mutations is correct?",
+        choices: [
+          "Gamete mutations can be inherited; somatic mutations usually are not inherited.",
+          "Somatic mutations are always inherited; gamete mutations never are.",
+          "Both types always disappear before reproduction.",
+          "Neither type involves DNA."
+        ],
+        correctIndex: 0,
+        explanation: "Inheritance depends strongly on whether the mutation is present in cells that form eggs or sperm."
+      }
+    ]
+  },
+  "kp-86": {
+    title: "KP1: Selective advantage",
+    questions: [
+      {
+        id: "kp-86-q1",
+        prompt: "What is a selective advantage?",
+        choices: [
+          "A heritable advantage that improves an organism's chance of survival and reproduction in a particular environment.",
+          "A trait that makes an organism perfect in every environment.",
+          "A change an individual chooses during its lifetime.",
+          "A harmful mutation that always disappears immediately."
+        ],
+        correctIndex: 0,
+        explanation: "A selective advantage helps survival and reproduction under specific environmental conditions."
+      },
+      {
+        id: "kp-86-q2",
+        prompt: "Some bacteria have a mutation that lets them survive an antibiotic. What does that mutation provide when the antibiotic is present?",
+        choices: [
+          "A selective advantage.",
+          "A guarantee that no reproduction will occur.",
+          "A reason the bacteria are no longer living things.",
+          "A change that affects only the antibiotic, not the bacteria."
+        ],
+        correctIndex: 0,
+        explanation: "In an antibiotic environment, resistance can help bacteria survive and reproduce."
+      },
+      {
+        id: "kp-86-q3",
+        prompt: "Which detail matters most when deciding whether a trait is a selective advantage?",
+        choices: [
+          "The environment in which the organism lives.",
+          "Whether the trait looks interesting to humans.",
+          "Whether the trait appeared in only one textbook diagram.",
+          "Whether the organism wants the trait."
+        ],
+        correctIndex: 0,
+        explanation: "The usefulness of a trait depends on environmental conditions, not on an organism's intention."
+      }
+    ]
+  },
+  "kp-87": {
+    title: "KP2: Natural selection",
+    questions: [
+      {
+        id: "kp-87-q1",
+        prompt: "What happens during natural selection?",
+        choices: [
+          "Heritable traits that improve survival and reproduction can become more common over generations.",
+          "Individuals change their DNA whenever they need to survive.",
+          "All members of a population become identical in one generation.",
+          "Only non-inherited traits are passed to offspring."
+        ],
+        correctIndex: 0,
+        explanation: "Natural selection changes populations over generations as inherited traits affect survival and reproduction."
+      },
+      {
+        id: "kp-87-q2",
+        prompt: "In a forest with very low light near the ground, young trees with alleles for shade tolerance survive better. What could happen over generations?",
+        choices: [
+          "Shade-tolerant alleles may become more common in the tree population.",
+          "Each individual tree decides to become shade tolerant.",
+          "The population loses all genetic variation immediately.",
+          "The low-light environment stops reproduction in all trees."
+        ],
+        correctIndex: 0,
+        explanation: "If shade-tolerant individuals survive and reproduce more, their alleles can increase in the population."
+      },
+      {
+        id: "kp-87-q3",
+        prompt: "Which statement best avoids a misconception about natural selection?",
+        choices: [
+          "Natural selection acts on existing heritable variation; it does not create traits because organisms need them.",
+          "Natural selection gives every individual the exact trait it wants.",
+          "Natural selection happens only in laboratories.",
+          "Natural selection affects only traits learned during an organism's life."
+        ],
+        correctIndex: 0,
+        explanation: "Selection favours existing inherited variation in a given environment; it does not plan ahead."
+      }
+    ]
+  },
+  "kp-88": {
+    title: "KP3: Adaptation",
+    questions: [
+      {
+        id: "kp-88-q1",
+        prompt: "Which example is an adaptation?",
+        choices: [
+          "A beak shape that helps a bird obtain food in its environment.",
+          "A random number written beside a species name.",
+          "A trait that prevents all reproduction.",
+          "A temporary shadow that changes during the day."
+        ],
+        correctIndex: 0,
+        explanation: "An adaptation is a structural, behavioural, or physiological feature that helps survival and reproduction."
+      },
+      {
+        id: "kp-88-q2",
+        prompt: "A plant population has traits that help it grow in deep shade. How should those traits be described in that environment?",
+        choices: [
+          "Adaptations.",
+          "Punnett squares.",
+          "Pedigree symbols.",
+          "Guaranteed disadvantages."
+        ],
+        correctIndex: 0,
+        explanation: "If a trait helps organisms survive and reproduce in a particular environment, it can be considered an adaptation."
+      },
+      {
+        id: "kp-88-q3",
+        prompt: "Which statement about adaptations is most accurate?",
+        choices: [
+          "An adaptation is useful in a particular environment, not necessarily in every environment.",
+          "An adaptation must help every organism everywhere.",
+          "Adaptations are never inherited.",
+          "Only behaviours can be adaptations."
+        ],
+        correctIndex: 0,
+        explanation: "Adaptations are context-dependent and can be structural, behavioural, or physiological."
+      }
+    ]
+  },
+  "kp-89": {
+    title: "KP4: Genetic diversity and selection",
+    questions: [
+      {
+        id: "kp-89-q1",
+        prompt: "Why does natural selection require variation within a population?",
+        choices: [
+          "Without differences among individuals, there are no different heritable traits for the environment to favour.",
+          "Variation prevents reproduction from happening.",
+          "Variation makes every organism equally likely to survive any change.",
+          "Natural selection works only when every individual is genetically identical."
+        ],
+        correctIndex: 0,
+        explanation: "Selection depends on some inherited traits being more helpful than others in a given environment."
+      },
+      {
+        id: "kp-89-q2",
+        prompt: "A sudden environmental change affects two populations. Population A has many heritable trait differences; Population B has very little variation. Which population may have more possible responses to the change?",
+        choices: [
+          "Population A.",
+          "Population B.",
+          "Neither, because variation never matters.",
+          "Both must respond in exactly the same way."
+        ],
+        correctIndex: 0,
+        explanation: "More genetic diversity can mean more possible traits that might help some individuals survive the new conditions."
+      },
+      {
+        id: "kp-89-q3",
+        prompt: "Which statement best links mutation and natural selection?",
+        choices: [
+          "Mutations can create new alleles, and selection can change how common helpful alleles become.",
+          "Natural selection makes mutations only when they are needed.",
+          "Mutations remove all variation from a population.",
+          "Selection changes an individual's alleles after it is born."
+        ],
+        correctIndex: 0,
+        explanation: "Mutation can add variation; natural selection can increase or decrease allele frequencies over generations."
+      }
+    ]
+  },
+  "kp-90": {
+    title: "KP5: Natural selection acts on populations",
+    questions: [
+      {
+        id: "kp-90-q1",
+        prompt: "Which statement correctly describes natural selection?",
+        choices: [
+          "Populations change over generations; individuals do not evolve during their own lifetimes.",
+          "Individual organisms evolve new alleles whenever they need them.",
+          "A population changes only if every individual changes at the same time.",
+          "Natural selection affects only non-living parts of the environment."
+        ],
+        correctIndex: 0,
+        explanation: "The textbook emphasizes that populations change over time, not individual organisms during one lifetime."
+      },
+      {
+        id: "kp-90-q2",
+        prompt: "After several antibiotic treatments, resistant bacteria become common in a bacterial population. What changed?",
+        choices: [
+          "The proportion of bacteria with resistance alleles increased over generations.",
+          "Each non-resistant bacterium chose to become resistant.",
+          "The antibiotic turned every bacterium into a different species immediately.",
+          "The population stopped reproducing completely."
+        ],
+        correctIndex: 0,
+        explanation: "Bacteria with resistance survived and reproduced more, so the population's allele frequencies shifted."
+      },
+      {
+        id: "kp-90-q3",
+        prompt: "A student says, 'A tree evolved shade tolerance because it needed to survive.' What is the best correction?",
+        choices: [
+          "Trees with inherited shade-tolerant traits were more likely to survive and reproduce, so the population changed over generations.",
+          "The individual tree intentionally rewrote its DNA.",
+          "Shade tolerance cannot be inherited.",
+          "Natural selection always helps every individual equally."
+        ],
+        correctIndex: 0,
+        explanation: "Natural selection favours inherited traits already present in some individuals; it does not involve individual intention."
+      }
+    ]
+  },
   "kp-306": {
     title: "KP1: Energy as an indirect concept",
     questions: [
