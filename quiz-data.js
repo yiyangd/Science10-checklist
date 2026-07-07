@@ -7379,6 +7379,826 @@ window.SCIENCE10_QUIZZES = {
       }
     ]
   },
+  "kp-181": {
+    title: "KP3: Fire extinguisher labels",
+    questions: [
+      {
+        id: "kp-181-q1",
+        prompt: "What do the letters on a fire extinguisher label tell you?",
+        choices: [
+          "Which classes of fire the extinguisher can be used on safely.",
+          "The extinguisher's brand popularity.",
+          "The exact temperature of every fire.",
+          "The number of people in the room."
+        ],
+        correctIndex: 0,
+        explanation: "Fire extinguisher labels use letters and symbols to show the fire classes they can safely address."
+      },
+      {
+        id: "kp-181-q2",
+        prompt: "Why should you read the label before using a fire extinguisher?",
+        choices: [
+          "Using the wrong extinguisher can spread the fire or create a new hazard.",
+          "All extinguishers work the same way on every fuel.",
+          "Labels are only decoration.",
+          "Reading labels is useful only after the fire is out."
+        ],
+        correctIndex: 0,
+        explanation: "The label helps match the extinguisher to the fuel source and hazard."
+      },
+      {
+        id: "kp-181-q3",
+        prompt: "A label shows Class C. What fire type is it safe for, if the label instructions are followed?",
+        choices: [
+          "Fires involving energized electrical equipment.",
+          "Cooking oil fires only.",
+          "Combustible metal fires only.",
+          "All fires, including every liquid fire."
+        ],
+        correctIndex: 0,
+        explanation: "Class C refers to fires involving live electrical equipment."
+      }
+    ]
+  },
+  "kp-182": {
+    title: "KP4: Chemical trade-offs in fire safety",
+    questions: [
+      {
+        id: "kp-182-q1",
+        prompt: "Why can fire-suppression chemicals involve trade-offs?",
+        choices: [
+          "They may put out fires effectively but still have health, cleanup, or environmental risks.",
+          "They always have benefits and no risks.",
+          "They are never useful in emergencies.",
+          "They are unrelated to chemistry."
+        ],
+        correctIndex: 0,
+        explanation: "A chemical can be useful for fire safety while also requiring careful handling or disposal."
+      },
+      {
+        id: "kp-182-q2",
+        prompt: "Why might a country phase out a fire-suppression chemical such as a halon?",
+        choices: [
+          "Its environmental or health risks may outweigh its benefits when safer alternatives exist.",
+          "It cannot extinguish any fire.",
+          "It is too easy to label.",
+          "It makes water safer to use on electrical fires."
+        ],
+        correctIndex: 0,
+        explanation: "Phasing out a chemical can happen when evidence shows unacceptable risk and alternatives are available."
+      },
+      {
+        id: "kp-182-q3",
+        prompt: "Which question best evaluates a fire-suppression chemical?",
+        choices: [
+          "Does it work for the fire class, and what risks does it create during use and disposal?",
+          "Is it the newest chemical?",
+          "Can it be used without reading any label?",
+          "Does it avoid all regulation?"
+        ],
+        correctIndex: 0,
+        explanation: "Good evaluation considers effectiveness, safety, environmental effects, and disposal."
+      }
+    ]
+  },
+  "kp-183": {
+    title: "KP1: Product life cycle",
+    questions: [
+      {
+        id: "kp-183-q1",
+        prompt: "What is included in a product's life cycle?",
+        choices: [
+          "Raw material extraction, processing, manufacture, distribution, use, recycling, and disposal.",
+          "Only the moment when the product is purchased.",
+          "Only the product's colour and price.",
+          "Only the final disposal step."
+        ],
+        correctIndex: 0,
+        explanation: "A life cycle analysis follows a product from raw materials through use and end-of-life."
+      },
+      {
+        id: "kp-183-q2",
+        prompt: "Why is life cycle thinking useful for synthetic products?",
+        choices: [
+          "It reveals impacts that may occur before use and after disposal, not just during use.",
+          "It proves every synthetic product is harmful.",
+          "It ignores manufacturing and waste.",
+          "It replaces evidence with opinions."
+        ],
+        correctIndex: 0,
+        explanation: "Environmental and social impacts can occur at many stages of a product's life."
+      },
+      {
+        id: "kp-183-q3",
+        prompt: "Which life cycle question fits a smartphone investigation?",
+        choices: [
+          "What materials are extracted, how is it manufactured, and what happens when it is discarded?",
+          "What is the owner's favourite ringtone?",
+          "How many apps are installed today?",
+          "What colour case is most popular?"
+        ],
+        correctIndex: 0,
+        explanation: "Life cycle analysis asks about materials, manufacturing, use, recycling, and disposal."
+      }
+    ]
+  },
+  "kp-184": {
+    title: "KP2: Positive and negative product impacts",
+    questions: [
+      {
+        id: "kp-184-q1",
+        prompt: "Which statement best describes many synthetic products?",
+        choices: [
+          "They can be useful and durable, but may also create waste, pollution, or toxicity concerns.",
+          "They are always harmful and never useful.",
+          "They are always safe because people made them.",
+          "They have no environmental impact after disposal."
+        ],
+        correctIndex: 0,
+        explanation: "Synthetic products often involve both benefits and unintended consequences."
+      },
+      {
+        id: "kp-184-q2",
+        prompt: "A plastic bottle is lightweight and convenient but may persist as waste. What kind of analysis is this?",
+        choices: [
+          "Comparing positive and negative product impacts.",
+          "Classifying an ionic bond.",
+          "Reading a WHMIS symbol only.",
+          "Balancing a chemical equation."
+        ],
+        correctIndex: 0,
+        explanation: "The example weighs usefulness against disposal and pollution concerns."
+      },
+      {
+        id: "kp-184-q3",
+        prompt: "Which evidence would help decide whether a product is 'worth it'?",
+        choices: [
+          "Data about usefulness, lifetime, resource use, waste, toxicity, and alternatives.",
+          "Only a product slogan.",
+          "Only one person's guess.",
+          "Only the product's shelf location."
+        ],
+        correctIndex: 0,
+        explanation: "A fair evaluation needs evidence about benefits, costs, and consequences."
+      }
+    ]
+  },
+  "kp-185": {
+    title: "KP3: Green alternatives and recycling",
+    questions: [
+      {
+        id: "kp-185-q1",
+        prompt: "How can recycling reduce a product's negative impacts?",
+        choices: [
+          "It can keep useful materials in use and reduce the need for new raw materials.",
+          "It makes every product biodegradable.",
+          "It removes all environmental impacts automatically.",
+          "It works without collection or processing systems."
+        ],
+        correctIndex: 0,
+        explanation: "Recycling can reduce some impacts, but it still requires systems and energy."
+      },
+      {
+        id: "kp-185-q2",
+        prompt: "What is a green alternative?",
+        choices: [
+          "A product or process designed to reduce environmental harm compared with another option.",
+          "Any product that is coloured green.",
+          "A product that is always perfect in every way.",
+          "A product that cannot be evaluated with evidence."
+        ],
+        correctIndex: 0,
+        explanation: "Green alternatives aim to reduce harm, but they still need life cycle evaluation."
+      },
+      {
+        id: "kp-185-q3",
+        prompt: "Why should a 'green' claim still be checked?",
+        choices: [
+          "The alternative may reduce one impact but create another impact elsewhere in its life cycle.",
+          "Green claims are always false.",
+          "Green claims are always complete proof.",
+          "Life cycle evidence is unnecessary for alternatives."
+        ],
+        correctIndex: 0,
+        explanation: "Evidence helps determine whether an alternative truly reduces overall harm."
+      }
+    ]
+  },
+  "kp-186": {
+    title: "KP1: Emergency preparedness",
+    questions: [
+      {
+        id: "kp-186-q1",
+        prompt: "Why is emergency preparedness important for chemical accidents?",
+        choices: [
+          "Planning can reduce harm to people and the environment before an accident occurs.",
+          "Accidents can be handled best by improvising only.",
+          "Planning makes hazards disappear completely.",
+          "Preparedness matters only after cleanup is finished."
+        ],
+        correctIndex: 0,
+        explanation: "Preparedness helps people respond quickly and safely during emergencies."
+      },
+      {
+        id: "kp-186-q2",
+        prompt: "Which scenario belongs in a chemical emergency plan?",
+        choices: [
+          "A transportation accident causing a hazardous chemical spill.",
+          "Choosing a new school mascot.",
+          "Graphing hand width variation.",
+          "Naming a covalent molecule only."
+        ],
+        correctIndex: 0,
+        explanation: "Chemical spills, gas leaks, fires, and evacuation needs are relevant emergency scenarios."
+      },
+      {
+        id: "kp-186-q3",
+        prompt: "What is a common mistake in emergency planning?",
+        choices: [
+          "Assuming people will know what to do without practice or communication.",
+          "Identifying exits and meeting places.",
+          "Considering cleanup and disposal.",
+          "Assigning roles to responsible people."
+        ],
+        correctIndex: 0,
+        explanation: "Plans must be communicated and practised so people can act under stress."
+      }
+    ]
+  },
+  "kp-187": {
+    title: "KP2: Response plan components",
+    questions: [
+      {
+        id: "kp-187-q1",
+        prompt: "Which item should be part of an emergency response plan?",
+        choices: [
+          "Evacuation routes, communication steps, cleanup methods, and disposal procedures.",
+          "Only a title page.",
+          "Only a list of unrelated chemicals.",
+          "Only the name of the fastest runner."
+        ],
+        correctIndex: 0,
+        explanation: "Effective plans include preparation, roles, evacuation, communication, cleanup, and disposal."
+      },
+      {
+        id: "kp-187-q2",
+        prompt: "Why should a plan state who is responsible for each action?",
+        choices: [
+          "Clear roles reduce confusion during an emergency.",
+          "Roles make the plan harder to follow.",
+          "No one needs responsibility in emergencies.",
+          "Only first responders need any information."
+        ],
+        correctIndex: 0,
+        explanation: "People need to know what actions to take and who coordinates them."
+      },
+      {
+        id: "kp-187-q3",
+        prompt: "A plan includes evacuation but says nothing about spilled chemical cleanup. What is missing?",
+        choices: [
+          "A way to manage contamination and dispose of affected material safely.",
+          "A decorative title.",
+          "A product life cycle diagram.",
+          "A list of diatomic elements."
+        ],
+        correctIndex: 0,
+        explanation: "Chemical emergencies may require safe cleanup and disposal to protect people and the environment."
+      }
+    ]
+  },
+  "kp-188": {
+    title: "KP3: Communication and audience",
+    questions: [
+      {
+        id: "kp-188-q1",
+        prompt: "Why should an emergency plan be tailored to its audience?",
+        choices: [
+          "Students, workers, families, and first responders may need different formats and details.",
+          "Everyone always needs the exact same wording.",
+          "Audience does not affect communication.",
+          "Plans should be written only for scientists."
+        ],
+        correctIndex: 0,
+        explanation: "Emergency information must be understandable and useful for the people who need to follow it."
+      },
+      {
+        id: "kp-188-q2",
+        prompt: "Which format could help communicate evacuation routes in a school?",
+        choices: [
+          "A clear map showing exits, routes, and meeting areas.",
+          "A paragraph with no locations.",
+          "A chemical formula only.",
+          "A product advertisement."
+        ],
+        correctIndex: 0,
+        explanation: "Maps and diagrams can show people where to go during an emergency."
+      },
+      {
+        id: "kp-188-q3",
+        prompt: "What should communication during an emergency be?",
+        choices: [
+          "Clear, accurate, and directed through known lines of communication.",
+          "Vague and delayed.",
+          "Different for every person with no coordination.",
+          "Hidden until after the emergency ends."
+        ],
+        correctIndex: 0,
+        explanation: "Clear communication helps people respond safely and consistently."
+      }
+    ]
+  },
+  "kp-189": {
+    title: "KP1: Compounds",
+    questions: [
+      {
+        id: "kp-189-q1",
+        prompt: "What is a compound?",
+        choices: [
+          "A substance made of atoms of different elements chemically combined in specific proportions.",
+          "A mixture of elements that are not chemically combined.",
+          "A substance made of only one kind of atom.",
+          "A single loose electron."
+        ],
+        correctIndex: 0,
+        explanation: "Compounds contain different elements bonded in fixed ratios."
+      },
+      {
+        id: "kp-189-q2",
+        prompt: "Which substance is a compound?",
+        choices: [
+          "Water, H2O.",
+          "Oxygen gas, O2.",
+          "Copper metal, Cu.",
+          "Helium gas, He."
+        ],
+        correctIndex: 0,
+        explanation: "Water contains hydrogen and oxygen chemically combined, so it is a compound."
+      },
+      {
+        id: "kp-189-q3",
+        prompt: "Why should you identify whether a substance is an element or compound before analyzing a reaction?",
+        choices: [
+          "It helps track which atoms are rearranged into products.",
+          "It changes the mass of the atoms.",
+          "It lets you ignore chemical formulas.",
+          "It proves no bonds are involved."
+        ],
+        correctIndex: 0,
+        explanation: "Chemical reactions rearrange atoms from elements and compounds into new substances."
+      }
+    ]
+  },
+  "kp-190": {
+    title: "KP2: Ionic compounds",
+    questions: [
+      {
+        id: "kp-190-q1",
+        prompt: "What particles make up ionic compounds?",
+        choices: [
+          "Positive cations and negative anions.",
+          "Only neutral atoms with no charges.",
+          "Only molecules made by sharing electrons.",
+          "Only loose protons."
+        ],
+        correctIndex: 0,
+        explanation: "Ionic compounds consist of oppositely charged ions."
+      },
+      {
+        id: "kp-190-q2",
+        prompt: "Which example best represents an ionic compound?",
+        choices: [
+          "Sodium chloride, made of Na+ and Cl- ions.",
+          "Oxygen gas, O2.",
+          "Hydrogen gas, H2.",
+          "Carbon dioxide molecules only."
+        ],
+        correctIndex: 0,
+        explanation: "Sodium chloride is composed of sodium cations and chloride anions in a crystal lattice."
+      },
+      {
+        id: "kp-190-q3",
+        prompt: "Why must the total positive and negative charges balance in an ionic compound?",
+        choices: [
+          "The compound as a whole is electrically neutral.",
+          "Ionic compounds always have extra positive charge.",
+          "Anions disappear when the compound forms.",
+          "Charge balance matters only in covalent compounds."
+        ],
+        correctIndex: 0,
+        explanation: "Formula units show the smallest whole-number ratio of ions that gives overall neutrality."
+      }
+    ]
+  },
+  "kp-191": {
+    title: "KP3: Ionic bonds",
+    questions: [
+      {
+        id: "kp-191-q1",
+        prompt: "What is an ionic bond?",
+        choices: [
+          "A strong attraction between oppositely charged ions.",
+          "A pair of atoms sharing electrons equally.",
+          "A weak attraction between two neutral molecules only.",
+          "A bond that contains no electrostatic attraction."
+        ],
+        correctIndex: 0,
+        explanation: "Ionic bonds are electrostatic attractions between cations and anions."
+      },
+      {
+        id: "kp-191-q2",
+        prompt: "In a binary ionic compound, what usually happens between a metal atom and a non-metal atom?",
+        choices: [
+          "The metal loses electrons and the non-metal gains electrons.",
+          "Both atoms share electrons equally.",
+          "Both atoms become negative ions.",
+          "Both atoms stop having valence shells."
+        ],
+        correctIndex: 0,
+        explanation: "Electron transfer forms a positive metal ion and a negative non-metal ion."
+      },
+      {
+        id: "kp-191-q3",
+        prompt: "Why does electron transfer often increase stability?",
+        choices: [
+          "The ions can achieve full valence shells.",
+          "The atoms lose all electrons.",
+          "The ions become unrelated to charge.",
+          "The compound becomes a separate molecule."
+        ],
+        correctIndex: 0,
+        explanation: "Full valence shells are associated with greater stability."
+      }
+    ]
+  },
+  "kp-192": {
+    title: "KP4: Covalent compounds",
+    questions: [
+      {
+        id: "kp-192-q1",
+        prompt: "How do covalent compounds form?",
+        choices: [
+          "Non-metal atoms share valence electrons.",
+          "Metal atoms transfer electrons to non-metals only.",
+          "Ions arrange in a crystal lattice only.",
+          "Atoms form bonds without electrons."
+        ],
+        correctIndex: 0,
+        explanation: "Covalent compounds form when non-metal atoms share electrons."
+      },
+      {
+        id: "kp-192-q2",
+        prompt: "Which substance is most likely covalent?",
+        choices: [
+          "Carbon dioxide, CO2.",
+          "Sodium chloride, NaCl.",
+          "Magnesium oxide, MgO.",
+          "Calcium fluoride, CaF2."
+        ],
+        correctIndex: 0,
+        explanation: "Carbon and oxygen are non-metals, so carbon dioxide is covalent."
+      },
+      {
+        id: "kp-192-q3",
+        prompt: "What is the key difference between covalent and ionic bonding?",
+        choices: [
+          "Covalent bonding shares electrons; ionic bonding involves attraction between ions after electron transfer.",
+          "Covalent bonding always involves metals.",
+          "Ionic bonding always forms separate molecules.",
+          "Covalent bonding has no valence electrons."
+        ],
+        correctIndex: 0,
+        explanation: "The bonding models differ by electron sharing versus electron transfer and ion attraction."
+      }
+    ]
+  },
+  "kp-193": {
+    title: "KP5: Covalent bonds",
+    questions: [
+      {
+        id: "kp-193-q1",
+        prompt: "What is a covalent bond?",
+        choices: [
+          "A strong attraction formed when atoms share valence electrons.",
+          "A bond between cations and anions only.",
+          "A reaction that destroys atoms.",
+          "A label on a fire extinguisher."
+        ],
+        correctIndex: 0,
+        explanation: "Covalent bonds involve shared electron pairs attracted to atomic nuclei."
+      },
+      {
+        id: "kp-193-q2",
+        prompt: "What does a double covalent bond represent?",
+        choices: [
+          "Two shared pairs of electrons between atoms.",
+          "Two formula units in an ionic lattice.",
+          "Two cations repelling each other.",
+          "Two fire classes on one label."
+        ],
+        correctIndex: 0,
+        explanation: "A double bond means the atoms share two pairs of electrons."
+      },
+      {
+        id: "kp-193-q3",
+        prompt: "In a Lewis diagram, what does a single line between two atoms usually represent?",
+        choices: [
+          "One shared pair of electrons.",
+          "One transferred proton.",
+          "One separate molecule of sodium chloride.",
+          "One unit of mass lost in the reaction."
+        ],
+        correctIndex: 0,
+        explanation: "A line in a Lewis diagram represents a bonding pair of electrons."
+      }
+    ]
+  },
+  "kp-194": {
+    title: "KP6: Molecules",
+    questions: [
+      {
+        id: "kp-194-q1",
+        prompt: "What is a molecule?",
+        choices: [
+          "A particle made of two or more atoms bonded by covalent bonds.",
+          "A crystal lattice of positive and negative ions.",
+          "A single charged ion only.",
+          "A fire class label."
+        ],
+        correctIndex: 0,
+        explanation: "Molecules are covalently bonded groups of atoms."
+      },
+      {
+        id: "kp-194-q2",
+        prompt: "Which is a molecule but not a compound?",
+        choices: [
+          "Oxygen gas, O2.",
+          "Water, H2O.",
+          "Sodium chloride, NaCl.",
+          "Magnesium oxide, MgO."
+        ],
+        correctIndex: 0,
+        explanation: "O2 is a molecule because oxygen atoms are covalently bonded, but it is not a compound because it has one element."
+      },
+      {
+        id: "kp-194-q3",
+        prompt: "Why is water described as molecular?",
+        choices: [
+          "It exists as independent H2O molecules held together by covalent bonds within each molecule.",
+          "It is a continuous ionic lattice.",
+          "It contains only one element.",
+          "It has no chemical bonds."
+        ],
+        correctIndex: 0,
+        explanation: "Water is a covalent compound whose smallest independent units are molecules."
+      }
+    ]
+  },
+  "kp-195": {
+    title: "KP7: Formula units versus molecules",
+    questions: [
+      {
+        id: "kp-195-q1",
+        prompt: "Why is sodium chloride usually described by formula units rather than molecules?",
+        choices: [
+          "It forms a continuous ionic lattice instead of separate NaCl molecules.",
+          "It has no ions.",
+          "It is made only of covalent bonds.",
+          "It contains only sodium atoms."
+        ],
+        correctIndex: 0,
+        explanation: "Ionic compounds are represented by the smallest ratio of ions, called a formula unit."
+      },
+      {
+        id: "kp-195-q2",
+        prompt: "What does the formula unit NaCl show?",
+        choices: [
+          "A 1:1 ratio of sodium ions to chloride ions.",
+          "One separate covalent molecule with shared electrons.",
+          "Two sodium ions for every chloride ion.",
+          "A compound with no charge balance."
+        ],
+        correctIndex: 0,
+        explanation: "NaCl shows the simplest whole-number ratio needed for a neutral ionic compound."
+      },
+      {
+        id: "kp-195-q3",
+        prompt: "Which statement avoids a common mistake?",
+        choices: [
+          "Ionic compounds have formula units; many covalent substances have molecules.",
+          "Every chemical formula represents a separate molecule.",
+          "Ionic compounds are always made of neutral atoms only.",
+          "Covalent compounds are always represented by formula units."
+        ],
+        correctIndex: 0,
+        explanation: "Formula units and molecules describe different kinds of structures."
+      }
+    ]
+  },
+  "kp-196": {
+    title: "KP1: Atom rearrangement",
+    questions: [
+      {
+        id: "kp-196-q1",
+        prompt: "What happens to atoms during a chemical reaction?",
+        choices: [
+          "They are rearranged into new substances.",
+          "They are created from nothing.",
+          "They vanish when products form.",
+          "They stop being matter."
+        ],
+        correctIndex: 0,
+        explanation: "Chemical reactions rearrange existing atoms into products."
+      },
+      {
+        id: "kp-196-q2",
+        prompt: "Methane reacts with oxygen to form carbon dioxide and water. What should be tracked to understand the reaction?",
+        choices: [
+          "Where each carbon, hydrogen, and oxygen atom goes in the products.",
+          "Only the colour of the flame.",
+          "Only the container shape.",
+          "Only the names of the reactants."
+        ],
+        correctIndex: 0,
+        explanation: "Tracking atoms shows how reactants are rearranged into products."
+      },
+      {
+        id: "kp-196-q3",
+        prompt: "Which statement is correct for a chemical reaction?",
+        choices: [
+          "Reactant atoms are conserved but bonded in new ways.",
+          "Product atoms appear from nowhere.",
+          "Reactant atoms are always destroyed.",
+          "Atoms are not involved in reactions."
+        ],
+        correctIndex: 0,
+        explanation: "Atoms are rearranged; later this connects to conservation of mass."
+      }
+    ]
+  },
+  "kp-197": {
+    title: "KP2: Breaking chemical bonds",
+    questions: [
+      {
+        id: "kp-197-q1",
+        prompt: "Why must some chemical bonds be broken during a reaction?",
+        choices: [
+          "Atoms must separate from old arrangements before new arrangements can form.",
+          "Bonds must be broken so atoms can disappear.",
+          "New products form without changing bonds.",
+          "Bonds are unrelated to reactions."
+        ],
+        correctIndex: 0,
+        explanation: "Reactant bonds are broken so atoms can rearrange."
+      },
+      {
+        id: "kp-197-q2",
+        prompt: "What is required to break a chemical bond?",
+        choices: [
+          "Energy must be added.",
+          "Energy is always released first.",
+          "No energy is involved.",
+          "Only a fire extinguisher label is needed."
+        ],
+        correctIndex: 0,
+        explanation: "Breaking the electrostatic attraction in a bond requires energy input."
+      },
+      {
+        id: "kp-197-q3",
+        prompt: "What does the amount of energy needed to break a bond depend on?",
+        choices: [
+          "The atoms or ions involved in the bond.",
+          "The colour of the textbook page.",
+          "The size of the classroom.",
+          "Whether the compound name is short."
+        ],
+        correctIndex: 0,
+        explanation: "Different bonds have different strengths depending on the particles involved."
+      }
+    ]
+  },
+  "kp-198": {
+    title: "KP3: Forming new chemical bonds",
+    questions: [
+      {
+        id: "kp-198-q1",
+        prompt: "What happens after atoms are rearranged in a chemical reaction?",
+        choices: [
+          "New bonds form to create product substances.",
+          "Atoms remain completely unbonded forever.",
+          "All energy disappears.",
+          "Reactants reform exactly as before in every case."
+        ],
+        correctIndex: 0,
+        explanation: "Products form when rearranged atoms bond in new combinations."
+      },
+      {
+        id: "kp-198-q2",
+        prompt: "What happens to energy when a chemical bond forms?",
+        choices: [
+          "Energy is released.",
+          "Energy must always be absorbed and never released.",
+          "No energy change occurs.",
+          "Mass is destroyed to make the bond."
+        ],
+        correctIndex: 0,
+        explanation: "Bond formation releases energy as atoms move to a more stable arrangement."
+      },
+      {
+        id: "kp-198-q3",
+        prompt: "Which observation could suggest that new products formed?",
+        choices: [
+          "A new gas, solid, colour, or other property appears after reactants interact.",
+          "The substances are simply moved to a new beaker.",
+          "A solid is broken into smaller pieces only.",
+          "A label is placed on the container."
+        ],
+        correctIndex: 0,
+        explanation: "New properties can indicate that new substances and bonds have formed."
+      }
+    ]
+  },
+  "kp-199": {
+    title: "KP4: Bond energy changes",
+    questions: [
+      {
+        id: "kp-199-q1",
+        prompt: "Which statement about bond energy is correct?",
+        choices: [
+          "Breaking bonds requires energy, while forming bonds releases energy.",
+          "Breaking bonds releases energy, while forming bonds always requires energy.",
+          "Both breaking and forming bonds destroy mass.",
+          "Energy is never involved in bonding."
+        ],
+        correctIndex: 0,
+        explanation: "This is the key energy pattern for chemical bonds."
+      },
+      {
+        id: "kp-199-q2",
+        prompt: "A reaction releases more energy when new bonds form than it absorbs breaking old bonds. What is the overall result?",
+        choices: [
+          "Energy is released overall.",
+          "Energy is absorbed overall.",
+          "No products can form.",
+          "Atoms are destroyed."
+        ],
+        correctIndex: 0,
+        explanation: "The net energy change depends on the balance between energy absorbed and released."
+      },
+      {
+        id: "kp-199-q3",
+        prompt: "Why do fireworks involve energy changes?",
+        choices: [
+          "Bonds in reactants break and new bonds form in products, producing heat, gas, and light.",
+          "Atoms in fireworks are not rearranged.",
+          "Fireworks are physical changes only.",
+          "Chemical bonds do not store or release energy."
+        ],
+        correctIndex: 0,
+        explanation: "Fireworks are dramatic examples of chemical reactions with energy changes."
+      }
+    ]
+  },
+  "kp-200": {
+    title: "KP5: Stability and valence shells",
+    questions: [
+      {
+        id: "kp-200-q1",
+        prompt: "Why do atoms form ionic or covalent bonds?",
+        choices: [
+          "Bonding can help atoms achieve more stable valence electron arrangements.",
+          "Atoms bond to increase instability on purpose.",
+          "Atoms bond only to change their nuclei.",
+          "Bonding is unrelated to valence electrons."
+        ],
+        correctIndex: 0,
+        explanation: "Atoms often become more stable when valence shells are filled through transfer or sharing of electrons."
+      },
+      {
+        id: "kp-200-q2",
+        prompt: "How can a non-metal atom achieve a full valence shell in a covalent compound?",
+        choices: [
+          "By sharing valence electrons with another non-metal atom.",
+          "By losing all its protons.",
+          "By becoming a fire extinguisher.",
+          "By forming no bonds at all."
+        ],
+        correctIndex: 0,
+        explanation: "Covalent bonding fills valence shells through shared electron pairs."
+      },
+      {
+        id: "kp-200-q3",
+        prompt: "How can a metal atom become more stable in a binary ionic compound?",
+        choices: [
+          "By losing valence electrons to form a cation with a stable electron arrangement.",
+          "By sharing electrons equally with another metal only.",
+          "By gaining unlimited electrons until it has no charge.",
+          "By refusing to interact with non-metals."
+        ],
+        correctIndex: 0,
+        explanation: "Metals often lose valence electrons, while non-metals gain them, forming stable ions."
+      }
+    ]
+  },
   "kp-306": {
     title: "KP1: Energy as an indirect concept",
     questions: [
