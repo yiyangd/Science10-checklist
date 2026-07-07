@@ -1229,6 +1229,416 @@ window.SCIENCE10_QUIZZES = {
       }
     ]
   },
+  "kp-31": {
+    title: "KP1: Human Genome Project goals",
+    questions: [
+      {
+        id: "kp-31-q1",
+        prompt: "What was a major goal of the Human Genome Project?",
+        choices: [
+          "To determine the complete sequence of the human genome and identify human genes.",
+          "To replace all human DNA with RNA.",
+          "To prove that humans have no genetic variation.",
+          "To sequence only the proteins found in blood."
+        ],
+        correctIndex: 0,
+        explanation: "The project focused on reading the human genome sequence and identifying genes."
+      },
+      {
+        id: "kp-31-q2",
+        prompt: "Why can genome sequencing help scientists understand human genetic information?",
+        choices: [
+          "It shows the order of DNA bases that can be studied for gene locations and functions.",
+          "It removes the need to study chromosomes or genes.",
+          "It changes inherited traits directly during every test.",
+          "It turns all non-human genomes into human genomes."
+        ],
+        correctIndex: 0,
+        explanation: "A genome sequence provides DNA base-order data that researchers can analyze."
+      },
+      {
+        id: "kp-31-q3",
+        prompt: "Which statement avoids a common misconception about the Human Genome Project?",
+        choices: [
+          "Completing the sequence was a major step, but interpreting the genome continues.",
+          "The project answered every possible question about every human trait.",
+          "The project showed that genes are unrelated to DNA.",
+          "The project studied only one chromosome and ignored the rest."
+        ],
+        correctIndex: 0,
+        explanation: "Genome sequencing produced important data, but understanding all of that information is ongoing work."
+      }
+    ]
+  },
+  "kp-32": {
+    title: "KP2: Human genome findings",
+    questions: [
+      {
+        id: "kp-32-q1",
+        prompt: "Which finding best matches the human genome information in this section?",
+        choices: [
+          "The human genome has about \\(3 \\times 10^9\\) base pairs and about 21 000 genes.",
+          "The human genome has about 21 base pairs and 3 billion genes.",
+          "The human genome contains no DNA outside genes.",
+          "The human genome is made only of proteins."
+        ],
+        correctIndex: 0,
+        explanation: "The section connects the human genome with about three billion base pairs and about 21 000 genes."
+      },
+      {
+        id: "kp-32-q2",
+        prompt: "If only about 1.5% of human DNA directly codes for genes, about what percent does not directly code for genes?",
+        choices: [
+          "About 98.5%.",
+          "About 50%.",
+          "About 21%.",
+          "About 1.5%."
+        ],
+        correctIndex: 0,
+        explanation: "Subtract 1.5% from 100%: about 98.5% is not directly gene-coding DNA."
+      },
+      {
+        id: "kp-32-q3",
+        prompt: "Which statement best corrects a misconception about non-coding DNA?",
+        choices: [
+          "Some DNA outside genes can still be important even if it does not directly code for proteins.",
+          "All DNA outside genes is guaranteed to be useless.",
+          "Only genes count as DNA; the rest is not part of the genome.",
+          "Non-coding DNA proves chromosomes do not contain genetic information."
+        ],
+        correctIndex: 0,
+        explanation: "The textbook notes that parts of the DNA outside genes are important, even though much remains poorly understood."
+      }
+    ]
+  },
+  "kp-33": {
+    title: "KP3: Genetic information and ethics",
+    questions: [
+      {
+        id: "kp-33-q1",
+        prompt: "Why does genome research raise ethical questions?",
+        choices: [
+          "Genetic information can be personal and may affect privacy, ownership, and use of data.",
+          "Genetic information is never connected to individuals or communities.",
+          "Ethics applies only to ecosystems, not to human data.",
+          "Genome research cannot produce information that anyone could misuse."
+        ],
+        correctIndex: 0,
+        explanation: "Genetic data can be sensitive, so its ownership, control, access, and use need careful consideration."
+      },
+      {
+        id: "kp-33-q2",
+        prompt: "A research group wants to study DNA data from a small isolated community. What concern is most relevant?",
+        choices: [
+          "How consent, privacy, community impact, and control of information will be handled.",
+          "Whether DNA data can be ignored because it has no social effects.",
+          "Whether chromosomes can be counted without any ethical rules.",
+          "Whether all communities must have identical gene pools."
+        ],
+        correctIndex: 0,
+        explanation: "Genetic research can affect individuals and communities, so consent and careful regulation matter."
+      },
+      {
+        id: "kp-33-q3",
+        prompt: "Which policy would best fit responsible use of genetic information?",
+        choices: [
+          "Clear rules for consent, privacy, access, and how data may be used.",
+          "Publishing every person's genome without permission.",
+          "Using genetic data for any purpose if the technology exists.",
+          "Avoiding all discussion of who controls genetic information."
+        ],
+        correctIndex: 0,
+        explanation: "Responsible genetics work requires protection and thoughtful regulation of sensitive information."
+      }
+    ]
+  },
+  "kp-34": {
+    title: "KP1: Hybrids and crop traits",
+    questions: [
+      {
+        id: "kp-34-q1",
+        prompt: "How are hybrid crop varieties usually produced?",
+        choices: [
+          "By crossing two plant lines to emphasize selected traits.",
+          "By storing seeds in cold conditions for decades.",
+          "By removing all genetic variation from a species.",
+          "By choosing only wild plants that have never been pollinated."
+        ],
+        correctIndex: 0,
+        explanation: "Hybrids are produced by crossing plant lines to combine or enhance chosen traits."
+      },
+      {
+        id: "kp-34-q2",
+        prompt: "Which trait might breeders try to enhance in a hybrid crop?",
+        choices: [
+          "Longer shelf life.",
+          "The absence of all seeds in every generation.",
+          "The ability to survive without genes.",
+          "A karyotype with no chromosomes."
+        ],
+        correctIndex: 0,
+        explanation: "Hybrid breeding may focus on traits such as size, appearance, or storage life."
+      },
+      {
+        id: "kp-34-q3",
+        prompt: "Which statement fairly compares a possible benefit and limitation of hybrids?",
+        choices: [
+          "They may have selected market traits, but some hybrid crops may not produce fertile seeds for replanting.",
+          "They always preserve the entire local gene pool better than seed banks.",
+          "They are always naturally pollinated heritage varieties.",
+          "They contain no inherited traits."
+        ],
+        correctIndex: 0,
+        explanation: "Hybrids can be bred for useful traits, but they may create dependence on buying new seed."
+      }
+    ]
+  },
+  "kp-35": {
+    title: "KP2: Native and heritage varieties",
+    questions: [
+      {
+        id: "kp-35-q1",
+        prompt: "Which description best matches native and heritage crop varieties in this section?",
+        choices: [
+          "Naturally pollinated, non-patented plants that can produce fertile seeds.",
+          "Plants that must be bought as new hybrid seed every year.",
+          "Plants with no local adaptations.",
+          "Plants that contain no genetic diversity."
+        ],
+        correctIndex: 0,
+        explanation: "The section contrasts native and heritage varieties with many commercial hybrids."
+      },
+      {
+        id: "kp-35-q2",
+        prompt: "Why can local heritage varieties be useful in a region?",
+        choices: [
+          "They may be adapted to local conditions and show resistance to pests or disease.",
+          "They always need the most irrigation and maintenance.",
+          "They cannot produce seeds.",
+          "They remove all alleles from the gene pool."
+        ],
+        correctIndex: 0,
+        explanation: "Local adaptation can help crops tolerate regional environmental pressures."
+      },
+      {
+        id: "kp-35-q3",
+        prompt: "Which statement connects heritage varieties to genetic diversity?",
+        choices: [
+          "Maintaining more plant varieties can keep more alleles in the gene pool.",
+          "Saving heritage varieties always makes every plant genetically identical.",
+          "Heritage crops are unrelated to biodiversity.",
+          "Plant varieties affect shelf life but never genetic diversity."
+        ],
+        correctIndex: 0,
+        explanation: "Preserving more varieties can help maintain genetic diversity within crops."
+      }
+    ]
+  },
+  "kp-36": {
+    title: "KP3: Seed libraries and seed banks",
+    questions: [
+      {
+        id: "kp-36-q1",
+        prompt: "What is one main difference between a seed library and a seed bank?",
+        choices: [
+          "A seed library distributes seeds and information, while a seed bank preserves seeds for future use.",
+          "A seed library stores chromosomes, while a seed bank stores only proteins.",
+          "A seed library destroys heritage seeds, while a seed bank prevents any seed storage.",
+          "A seed library works only with animals, while a seed bank works only with rocks."
+        ],
+        correctIndex: 0,
+        explanation: "Seed libraries emphasize sharing seeds and information; seed banks emphasize long-term preservation."
+      },
+      {
+        id: "kp-36-q2",
+        prompt: "Why might seeds be dried and kept cold in a seed bank?",
+        choices: [
+          "To help preserve them for long periods in case seed reserves are needed later.",
+          "To make them unable to germinate under any future condition.",
+          "To change every seed into a hybrid immediately.",
+          "To remove all genetic diversity from stored crops."
+        ],
+        correctIndex: 0,
+        explanation: "Cold, dry storage can help preserve seeds for future recovery or use."
+      },
+      {
+        id: "kp-36-q3",
+        prompt: "Which scenario best shows seed preservation supporting biodiversity?",
+        choices: [
+          "A community stores and shares several local crop varieties so their genetic diversity is not lost.",
+          "A farm grows only one identical variety and discards all other seeds.",
+          "A seed bank stores labels but no seeds.",
+          "A crop program avoids all naturally pollinated plants."
+        ],
+        correctIndex: 0,
+        explanation: "Seed sharing and banking can help keep diverse plant varieties available."
+      }
+    ]
+  },
+  "kp-37": {
+    title: "KP1: Karyotype preparation",
+    questions: [
+      {
+        id: "kp-37-q1",
+        prompt: "Which sequence best describes how scientists prepare chromosomes for a karyotype?",
+        choices: [
+          "Collect cells, stop them during mitosis, stain chromosomes, then photograph them.",
+          "Collect proteins, melt chromosomes, then count ecosystems.",
+          "Collect seeds, dry them, and arrange alleles by shelf life.",
+          "Collect RNA, remove the nucleus, and photograph only amino acids."
+        ],
+        correctIndex: 0,
+        explanation: "Karyotype preparation involves obtaining cells and making chromosomes visible for imaging."
+      },
+      {
+        id: "kp-37-q2",
+        prompt: "Why are cells stopped during mitosis when preparing a karyotype?",
+        choices: [
+          "Chromosomes are condensed and easier to see during mitosis.",
+          "Genes disappear during mitosis, making the image simpler.",
+          "Mitosis changes every chromosome into a seed.",
+          "Chromosomes are never present before mitosis."
+        ],
+        correctIndex: 0,
+        explanation: "Condensed chromosomes are more visible and can be photographed for analysis."
+      },
+      {
+        id: "kp-37-q3",
+        prompt: "What is the purpose of staining chromosomes in karyotype preparation?",
+        choices: [
+          "To make chromosome patterns easier to see under a microscope.",
+          "To turn autosomes into sex chromosomes.",
+          "To make all chromosomes identical in size.",
+          "To read every single DNA base directly."
+        ],
+        correctIndex: 0,
+        explanation: "Staining improves visibility and can reveal patterns useful for matching chromosomes."
+      }
+    ]
+  },
+  "kp-38": {
+    title: "KP2: Chromosome pairing and ordering",
+    questions: [
+      {
+        id: "kp-38-q1",
+        prompt: "How are chromosomes commonly arranged in a human karyotype?",
+        choices: [
+          "In homologous pairs, ordered from largest to smallest, with sex chromosomes placed last.",
+          "In random piles with no attention to size or shape.",
+          "Only by gene sequence, with no photograph needed.",
+          "As one long DNA molecule without pairs."
+        ],
+        correctIndex: 0,
+        explanation: "Karyotypes organize chromosomes by pairing and size, with autosomes numbered and sex chromosomes identified."
+      },
+      {
+        id: "kp-38-q2",
+        prompt: "Which features help match homologous chromosomes in a karyotype?",
+        choices: [
+          "Similar size, shape, and banding pattern.",
+          "The colour of the paper used for the activity.",
+          "The order in which chromosomes were cut out.",
+          "Whether the chromosome is closest to the page edge."
+        ],
+        correctIndex: 0,
+        explanation: "Chromosome size, shape, and banding patterns help identify pairs."
+      },
+      {
+        id: "kp-38-q3",
+        prompt: "A karyotype has 22 numbered autosome pairs and a pair labelled \\(XY\\). What does \\(XY\\) identify?",
+        choices: [
+          "The sex chromosome pair.",
+          "A missing autosome pair.",
+          "A pair of seed-bank samples.",
+          "The complete sequence of one gene."
+        ],
+        correctIndex: 0,
+        explanation: "X and Y are sex chromosomes; the other numbered pairs are autosomes."
+      }
+    ]
+  },
+  "kp-39": {
+    title: "KP3: Detecting chromosome abnormalities",
+    questions: [
+      {
+        id: "kp-39-q1",
+        prompt: "What type of evidence can a karyotype reveal?",
+        choices: [
+          "An abnormal chromosome number or a large chromosome structure change.",
+          "The exact base sequence of every allele.",
+          "The shelf life of a hybrid crop.",
+          "The full amino acid sequence of every protein."
+        ],
+        correctIndex: 0,
+        explanation: "Karyotypes are useful for spotting chromosome number and large structural abnormalities."
+      },
+      {
+        id: "kp-39-q2",
+        prompt: "A karyotype shows three copies of chromosome 21. Which interpretation fits this evidence?",
+        choices: [
+          "Trisomy 21.",
+          "A normal pair of chromosome 21.",
+          "A single-gene mutation invisible at chromosome scale.",
+          "A missing sex chromosome in every cell."
+        ],
+        correctIndex: 0,
+        explanation: "Trisomy means three copies of a chromosome; three chromosome 21s indicate trisomy 21."
+      },
+      {
+        id: "kp-39-q3",
+        prompt: "Why can a karyotype miss some genetic disorders?",
+        choices: [
+          "Some disorders involve changes in a single gene that are too small to see in a chromosome photograph.",
+          "Karyotypes show no chromosomes at all.",
+          "Single genes are always larger than whole chromosomes.",
+          "Karyotypes can detect only seed-bank problems."
+        ],
+        correctIndex: 0,
+        explanation: "A karyotype shows chromosome-scale features, not every nucleotide-level mutation."
+      }
+    ]
+  },
+  "kp-40": {
+    title: "KP1: Genetics and heredity",
+    questions: [
+      {
+        id: "kp-40-q1",
+        prompt: "What does genetics study?",
+        choices: [
+          "Heredity, or how traits pass from parents to offspring.",
+          "Only the weather patterns in ecosystems.",
+          "Only the storage of seeds in cold rooms.",
+          "The arrangement of planets in space."
+        ],
+        correctIndex: 0,
+        explanation: "Genetics is the field of biology that studies heredity."
+      },
+      {
+        id: "kp-40-q2",
+        prompt: "Which example best fits heredity?",
+        choices: [
+          "An offspring inherits alleles that influence a trait from its parents.",
+          "A rock becomes smoother after moving in a river.",
+          "A metal spoon warms when placed in hot soup.",
+          "A seed bank keeps seeds dry and cold."
+        ],
+        correctIndex: 0,
+        explanation: "Heredity involves inherited genetic information influencing traits across generations."
+      },
+      {
+        id: "kp-40-q3",
+        prompt: "Which statement corrects a misconception about inherited traits?",
+        choices: [
+          "Inherited traits are passed through genetic information, although the environment can also affect how traits appear.",
+          "All traits are learned and none are connected to parents.",
+          "Heredity means offspring are always identical to parents.",
+          "Genetics applies only to plants and never to animals."
+        ],
+        correctIndex: 0,
+        explanation: "Genetics explains inherited information from parents to offspring, while real traits can also be shaped by context."
+      }
+    ]
+  },
   "kp-306": {
     title: "KP1: Energy as an indirect concept",
     questions: [
