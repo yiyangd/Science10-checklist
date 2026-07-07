@@ -4,39 +4,39 @@ window.SCIENCE10_QUIZZES = {
     questions: [
       {
         id: "kp-1-q1",
-        prompt: "Which statement best explains why DNA is described as genetic material?",
+        prompt: "Which description best matches DNA in this section?",
         choices: [
-          "DNA is the main molecule cells use for short-term energy.",
-          "DNA is a membrane that controls what enters and leaves a cell.",
-          "DNA stores instructions that can be passed from cells to new cells.",
-          "DNA is a mineral that strengthens bones and shells."
+          "A double-stranded nucleic acid that stores genetic information.",
+          "A cell membrane that controls what enters a cell.",
+          "A sugar used mainly for quick energy.",
+          "A mineral that strengthens hard body parts."
         ],
-        correctIndex: 2,
-        explanation: "DNA is genetic material because it stores heritable information used by cells and passed on during reproduction."
+        correctIndex: 0,
+        explanation: "DNA, or deoxyribonucleic acid, is described as genetic material that stores information."
       },
       {
         id: "kp-1-q2",
-        prompt: "A student says, \"Offspring often resemble their parents because they receive DNA from them.\" What idea does this support?",
+        prompt: "Why can DNA help explain inherited traits?",
         choices: [
-          "All traits are learned after birth.",
-          "Inherited traits are connected to genetic information.",
-          "Only body size can be inherited.",
-          "DNA is found only outside living cells."
+          "Organisms receive genetic information in DNA from their biological parent or parents.",
+          "DNA is created only after an organism is fully grown.",
+          "DNA affects only non-living objects.",
+          "All inherited traits are learned from the environment."
         ],
-        correctIndex: 1,
-        explanation: "DNA carries information that helps explain inherited traits and family resemblance."
+        correctIndex: 0,
+        explanation: "DNA stores information that can be passed on and can influence traits."
       },
       {
         id: "kp-1-q3",
-        prompt: "Which example most directly uses DNA to explain variation?",
+        prompt: "Which statement corrects the misconception that DNA is only about appearance?",
         choices: [
-          "A rock breaks into pieces after freezing water expands in a crack.",
-          "A metal spoon feels cold because heat transfers from your hand.",
-          "A planet appears bright because it reflects sunlight.",
-          "Two plants of the same species have different flower colours because their genetic information differs."
+          "DNA can influence appearance and life processes inside cells.",
+          "DNA affects colour only and nothing else.",
+          "DNA is unrelated to inheritance.",
+          "DNA is found only in one group of organisms."
         ],
-        correctIndex: 3,
-        explanation: "Differences in DNA can lead to differences in traits such as flower colour."
+        correctIndex: 0,
+        explanation: "The textbook connects DNA to appearance and life processes, not just visible traits."
       }
     ]
   },
@@ -45,39 +45,39 @@ window.SCIENCE10_QUIZZES = {
     questions: [
       {
         id: "kp-2-q1",
-        prompt: "Two animals of the same species have different coat patterns. Which explanation best connects this variation to DNA?",
+        prompt: "Two patches of grass grow differently in similar conditions. Which explanation best connects this variation to DNA?",
         choices: [
-          "Their DNA must be exactly the same because they are the same species.",
-          "Coat pattern is never affected by inherited information.",
-          "Their DNA sequences may contain different information for coat traits.",
-          "Only the environment can produce any difference between organisms."
+          "Differences in DNA may influence traits such as root systems, stems, or leaf shape.",
+          "All plants must have exactly the same DNA.",
+          "DNA affects animals but never plants.",
+          "Variation is impossible within one type of organism."
         ],
-        correctIndex: 2,
-        explanation: "Variation among living things can result from differences in DNA that influence traits."
+        correctIndex: 0,
+        explanation: "The textbook uses plants as one example where DNA differences can contribute to structural variation."
       },
       {
         id: "kp-2-q2",
-        prompt: "Which pair is most likely to show DNA-related variation?",
+        prompt: "Why can two animal species share basic features but still look very different?",
         choices: [
-          "Two identical measuring cylinders made in the same factory.",
-          "Two bacteria with different inherited resistance traits.",
-          "Two ice cubes melting on the same desk.",
-          "Two samples of pure water at the same temperature."
+          "They share some life characteristics, but DNA differences can influence body shape, limbs, and organ systems.",
+          "Only one of them is alive.",
+          "Animals do not have DNA.",
+          "All differences between animals are caused only by weather."
         ],
-        correctIndex: 1,
-        explanation: "Living things such as bacteria can differ in inherited traits because their DNA differs."
+        correctIndex: 0,
+        explanation: "Animals share broad characteristics, while DNA differences help produce variation among species."
       },
       {
         id: "kp-2-q3",
-        prompt: "Why can DNA differences affect structures and life processes?",
+        prompt: "Which example best fits DNA-related variation among living things?",
         choices: [
-          "DNA directly pushes organs into their final shape like a muscle.",
-          "DNA replaces the need for food, water, and energy.",
-          "DNA is only a label and does not affect living systems.",
-          "DNA contains information that can influence proteins and cell activity."
+          "Some bacteria are helpful decomposers while others can cause disease.",
+          "Two ice cubes melt on a desk.",
+          "A rock breaks into smaller pieces.",
+          "A metal spoon feels cold."
         ],
-        correctIndex: 3,
-        explanation: "DNA information helps cells make proteins, which can affect structures and life processes."
+        correctIndex: 0,
+        explanation: "Bacteria are living things, and differences in DNA can help them live in different ways and places."
       }
     ]
   },
@@ -86,39 +86,39 @@ window.SCIENCE10_QUIZZES = {
     questions: [
       {
         id: "kp-3-q1",
-        prompt: "Which list contains characteristics shared by living things?",
+        prompt: "Which set lists characteristics shared by living things in this section?",
         choices: [
-          "Always move quickly, make sound, and glow.",
-          "Made of cells, use energy, grow, and reproduce.",
-          "Are always multicellular, green, and large.",
-          "Never change, never need energy, and never respond."
+          "Being made of cells, using energy, growing, and reproducing.",
+          "Always having roots, stems, and leaves.",
+          "Always moving quickly and making sound.",
+          "Never needing matter or energy."
         ],
-        correctIndex: 1,
-        explanation: "Living things share basic traits such as being cellular, using energy, growing, and reproducing."
+        correctIndex: 0,
+        explanation: "The text identifies cells, energy use, growth, and reproduction as shared characteristics of life."
       },
       {
         id: "kp-3-q2",
-        prompt: "A mushroom and a fish look very different. Which statement still connects them as living things?",
+        prompt: "A bacterium, a mushroom, and a crow are very different. What still connects them as living things?",
         choices: [
-          "Both make their own food using sunlight.",
-          "Both have the same body structures.",
-          "Both are made of cells and carry out life processes.",
-          "Both are non-living objects that only appear active."
+          "They carry out basic life processes and are linked to DNA.",
+          "They all photosynthesize.",
+          "They all have the same body plan.",
+          "They are all non-living objects."
         ],
-        correctIndex: 2,
-        explanation: "Different groups of organisms can share core life processes even when their bodies differ."
+        correctIndex: 0,
+        explanation: "Different organism groups can share basic life characteristics even when their structures differ."
       },
       {
         id: "kp-3-q3",
-        prompt: "Which observation best separates a shared life process from DNA-based differences?",
+        prompt: "Which comparison best separates shared life traits from DNA-based variation?",
         choices: [
-          "All rocks are made of cells, but some rocks are taller.",
-          "All living things are identical if they need energy.",
-          "All organisms reproduce in exactly the same way.",
-          "All healthy seedlings grow, but different seedlings may have different leaf shapes."
+          "All living grass uses energy and grows, but different grass plants can vary in leaf shape.",
+          "Only organisms that look identical are alive.",
+          "Living things never reproduce.",
+          "DNA removes all differences among organisms."
         ],
-        correctIndex: 3,
-        explanation: "Growth is a shared life process, while leaf-shape differences can reflect variation among organisms."
+        correctIndex: 0,
+        explanation: "Growth and energy use are shared life traits, while leaf-shape differences can reflect variation."
       }
     ]
   },
@@ -127,39 +127,39 @@ window.SCIENCE10_QUIZZES = {
     questions: [
       {
         id: "kp-4-q1",
-        prompt: "Why can DNA affect both visible traits and internal cell functions?",
+        prompt: "Where is genetic information found in most cells of an organism?",
         choices: [
-          "DNA is visible from outside the body and paints traits onto cells.",
-          "DNA provides instructions that influence how cells form and work.",
-          "DNA controls only eye colour and no other body process.",
-          "DNA is used only after an organism dies."
+          "In DNA inside the cell.",
+          "Only on the organism's outside surface.",
+          "Only in food after digestion.",
+          "Only in water around the organism."
         ],
-        correctIndex: 1,
-        explanation: "DNA information influences proteins and cell processes, so it can affect both visible and internal traits."
+        correctIndex: 0,
+        explanation: "Most cells contain genetic information, and that information can influence appearance and life processes."
       },
       {
         id: "kp-4-q2",
-        prompt: "Which example best shows DNA affecting organism function?",
+        prompt: "Which example best shows DNA influencing a life process rather than only a visible trait?",
         choices: [
+          "DNA information affects a protein that helps a cell function.",
           "A shadow changes shape as the Sun moves.",
-          "A glass of water evaporates from a warm surface.",
-          "A magnet attracts an iron nail.",
-          "A gene variant changes a protein involved in cell activity."
+          "A glass of water evaporates from a warm desk.",
+          "A rock rolls down a hill."
         ],
-        correctIndex: 3,
-        explanation: "Genes are sections of DNA, and DNA changes can affect proteins involved in cell function."
+        correctIndex: 0,
+        explanation: "DNA information can affect proteins and cell functions, not just visible structures."
       },
       {
         id: "kp-4-q3",
-        prompt: "A student says DNA matters only for appearance. What correction is most accurate?",
+        prompt: "A student says, 'DNA only explains why organisms look different.' What is the best correction?",
         choices: [
-          "DNA has no effect on any trait.",
-          "DNA affects only traits that can be seen without a microscope.",
-          "DNA can affect appearance and internal life processes.",
-          "DNA is found only in non-living things."
+          "DNA can influence both appearance and internal life processes.",
+          "DNA has no connection to organisms.",
+          "DNA is only found in dead material.",
+          "DNA affects plants only."
         ],
-        correctIndex: 2,
-        explanation: "DNA can influence visible traits and cell functions that are not directly visible."
+        correctIndex: 0,
+        explanation: "The textbook links DNA to an organism's appearance and life processes."
       }
     ]
   },
@@ -168,39 +168,244 @@ window.SCIENCE10_QUIZZES = {
     questions: [
       {
         id: "kp-5-q1",
-        prompt: "Which statement best connects DNA to the diversity of life?",
+        prompt: "Which group is included in the textbook examples of DNA-related variation?",
         choices: [
-          "Only animals have DNA, so only animals can show variation.",
-          "DNA is found only in plants with flowers.",
-          "DNA-based variation occurs in many groups, including plants, animals, bacteria, protists, and fungi.",
-          "Bacteria and fungi cannot have inherited differences."
+          "Plants, animals, bacteria, protists, and fungi.",
+          "Only mammals.",
+          "Only flowering plants.",
+          "Only organisms humans can see without tools."
         ],
-        correctIndex: 2,
-        explanation: "DNA is connected to variation across many major groups of living things."
+        correctIndex: 0,
+        explanation: "The section connects DNA-based variation to many organism groups, including microscopic groups."
       },
       {
         id: "kp-5-q2",
-        prompt: "Which example best shows DNA-based variation across organism groups?",
+        prompt: "Which example best connects DNA to diversity across organism groups?",
         choices: [
-          "All organisms in every group are genetically identical.",
-          "Different bacterial strains, plant varieties, and animal breeds can have inherited differences.",
-          "Only rocks and minerals pass traits to offspring.",
-          "Fungi and protists are excluded from biological diversity."
+          "Plants can vary in roots and leaves, animals in body structures, and bacteria in how they live.",
+          "All organisms have exactly the same structures.",
+          "Only animals show inherited variation.",
+          "Fungi and protists are not living things."
         ],
-        correctIndex: 1,
-        explanation: "Inherited variation can appear in many organism groups, not just one."
+        correctIndex: 0,
+        explanation: "The textbook uses several groups to show that DNA is connected to the diversity of life."
       },
       {
         id: "kp-5-q3",
-        prompt: "Why is it useful to compare DNA-related traits in different groups of organisms?",
+        prompt: "Why is it misleading to say that DNA matters only for large organisms?",
         choices: [
-          "It proves that all organisms have the same appearance.",
-          "It removes the need to observe organisms directly.",
-          "It shows that living things do not share any basic features.",
-          "It shows that DNA helps explain diversity across life, not just within one familiar group."
+          "Microscopic organisms such as bacteria and protists also show DNA-related variation.",
+          "Small organisms do not reproduce.",
+          "Only large organisms are made of cells.",
+          "DNA is not connected to life."
         ],
-        correctIndex: 3,
-        explanation: "Comparing groups helps connect DNA to the broad diversity of living things."
+        correctIndex: 0,
+        explanation: "The textbook includes bacteria and protists as examples of living things with DNA-related variation."
+      }
+    ]
+  },
+  "kp-6": {
+    title: "KP1: Nucleic acids",
+    questions: [
+      {
+        id: "kp-6-q1",
+        prompt: "Which two nucleic acids are named in this section?",
+        choices: [
+          "DNA and RNA.",
+          "Protein and starch.",
+          "Glucose and lipid.",
+          "Water and oxygen."
+        ],
+        correctIndex: 0,
+        explanation: "Cells contain nucleic acids such as DNA and RNA."
+      },
+      {
+        id: "kp-6-q2",
+        prompt: "What are nucleic acids made from?",
+        choices: [
+          "Smaller components called nucleotides.",
+          "Only amino acids.",
+          "Only whole chromosomes.",
+          "Only cell membranes."
+        ],
+        correctIndex: 0,
+        explanation: "Nucleic acids are large molecules built from nucleotide units."
+      },
+      {
+        id: "kp-6-q3",
+        prompt: "Which statement best avoids a common mix-up?",
+        choices: [
+          "DNA and RNA are nucleic acids, while proteins are a different type of molecule.",
+          "DNA is a protein made from amino acids.",
+          "RNA is a mineral in bones.",
+          "Nucleic acids are made only after cells die."
+        ],
+        correctIndex: 0,
+        explanation: "DNA and RNA are nucleic acids; proteins are discussed as products made from genetic instructions."
+      }
+    ]
+  },
+  "kp-7": {
+    title: "KP2: Nucleotide structure",
+    questions: [
+      {
+        id: "kp-7-q1",
+        prompt: "What three parts make up a nucleotide?",
+        choices: [
+          "A phosphate group, a sugar, and a nitrogenous base.",
+          "A nucleus, a membrane, and cytoplasm.",
+          "A protein, a lipid, and a carbohydrate.",
+          "A chromosome, a gene, and a trait."
+        ],
+        correctIndex: 0,
+        explanation: "Each nucleotide consists of a phosphate group, a sugar, and a nitrogenous base."
+      },
+      {
+        id: "kp-7-q2",
+        prompt: "In a DNA model, what does one nucleotide represent?",
+        choices: [
+          "One repeating building block in a DNA strand.",
+          "A whole organism.",
+          "A complete chromosome pair.",
+          "A folded protein only."
+        ],
+        correctIndex: 0,
+        explanation: "DNA strands are built from many nucleotide units linked together."
+      },
+      {
+        id: "kp-7-q3",
+        prompt: "Which student statement needs correction?",
+        choices: [
+          "A nucleotide is made of two complete DNA molecules.",
+          "A nucleotide has a sugar.",
+          "A nucleotide has a phosphate group.",
+          "A nucleotide has a nitrogenous base."
+        ],
+        correctIndex: 0,
+        explanation: "A nucleotide is one building block, not two complete DNA molecules."
+      }
+    ]
+  },
+  "kp-8": {
+    title: "KP3: DNA nitrogenous bases",
+    questions: [
+      {
+        id: "kp-8-q1",
+        prompt: "Which list contains the four nitrogenous bases in DNA?",
+        choices: [
+          "Adenine, cytosine, guanine, and thymine.",
+          "Alanine, glycine, lysine, and valine.",
+          "Chromatin, chromosome, gene, and allele.",
+          "RNA, protein, lipid, and starch."
+        ],
+        correctIndex: 0,
+        explanation: "The four DNA bases are adenine (A), cytosine (C), guanine (G), and thymine (T)."
+      },
+      {
+        id: "kp-8-q2",
+        prompt: "What do the letters \\(A\\), \\(C\\), \\(G\\), and \\(T\\) stand for in DNA?",
+        choices: [
+          "Nitrogenous bases.",
+          "Four types of cells.",
+          "Four organ systems.",
+          "Four kinds of chromosomes."
+        ],
+        correctIndex: 0,
+        explanation: "A, C, G, and T are shorthand for the four nitrogenous bases in DNA."
+      },
+      {
+        id: "kp-8-q3",
+        prompt: "Why are the bases important to genetic information?",
+        choices: [
+          "Their order in DNA helps store instructions used by cells.",
+          "They are only decorations on the molecule.",
+          "They make DNA unrelated to inheritance.",
+          "They are always arranged randomly with no effect."
+        ],
+        correctIndex: 0,
+        explanation: "The sequence of bases along DNA stores genetic information."
+      }
+    ]
+  },
+  "kp-9": {
+    title: "KP4: Double helix structure",
+    questions: [
+      {
+        id: "kp-9-q1",
+        prompt: "Which model best describes DNA structure?",
+        choices: [
+          "Two nucleotide strands arranged like a twisted ladder.",
+          "A single loose ball of amino acids.",
+          "A flat square sheet of cell membrane.",
+          "A chain of whole cells."
+        ],
+        correctIndex: 0,
+        explanation: "DNA is described as a double helix, like a twisted ladder made of two nucleotide strands."
+      },
+      {
+        id: "kp-9-q2",
+        prompt: "In the twisted-ladder model of DNA, what forms the sides of the ladder?",
+        choices: [
+          "Sugar and phosphate groups.",
+          "Whole chromosomes.",
+          "Proteins only.",
+          "Cell walls."
+        ],
+        correctIndex: 0,
+        explanation: "The sugar-phosphate parts of nucleotides form the sides, or backbone, of the DNA ladder."
+      },
+      {
+        id: "kp-9-q3",
+        prompt: "What forms the rungs of the DNA ladder?",
+        choices: [
+          "Pairs of nitrogenous bases.",
+          "Pairs of whole cells.",
+          "Pairs of nuclei.",
+          "Pairs of proteins."
+        ],
+        correctIndex: 0,
+        explanation: "Each rung is made from two nitrogenous bases bonded together as a base pair."
+      }
+    ]
+  },
+  "kp-10": {
+    title: "KP5: Complementary base pairing",
+    questions: [
+      {
+        id: "kp-10-q1",
+        prompt: "Which base-pairing rule is correct for DNA?",
+        choices: [
+          "\\(A\\) pairs with \\(T\\), and \\(G\\) pairs with \\(C\\).",
+          "\\(A\\) pairs with \\(G\\), and \\(T\\) pairs with \\(C\\).",
+          "\\(A\\) pairs only with \\(A\\), and \\(C\\) pairs only with \\(C\\).",
+          "Any base can pair with any other base equally."
+        ],
+        correctIndex: 0,
+        explanation: "Complementary bases pair in a specific way: A with T, and G with C."
+      },
+      {
+        id: "kp-10-q2",
+        prompt: "If one DNA strand has the sequence \\(ATGGCTA\\), what is the complementary strand?",
+        choices: [
+          "\\(TACCGAT\\)",
+          "\\(ATGGCTA\\)",
+          "\\(GCAATCG\\)",
+          "\\(CGTTAGC\\)"
+        ],
+        correctIndex: 0,
+        explanation: "Apply the pairing rules base by base: A-T, T-A, G-C, G-C, C-G, T-A, A-T."
+      },
+      {
+        id: "kp-10-q3",
+        prompt: "Why does complementary base pairing matter for DNA structure?",
+        choices: [
+          "It lets the two strands match in a specific way along the molecule.",
+          "It makes every base pair random.",
+          "It removes the need for nitrogenous bases.",
+          "It turns DNA into a protein immediately."
+        ],
+        correctIndex: 0,
+        explanation: "Specific base pairing helps the two DNA strands fit together and supports accurate information storage."
       }
     ]
   },
