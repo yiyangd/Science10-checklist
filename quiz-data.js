@@ -409,6 +409,416 @@ window.SCIENCE10_QUIZZES = {
       }
     ]
   },
+  "kp-11": {
+    title: "KP6: DNA sequence and protein instructions",
+    questions: [
+      {
+        id: "kp-11-q1",
+        prompt: "What part of DNA stores instructions for cells?",
+        choices: [
+          "The order of bases along the DNA molecule.",
+          "The colour of the chromosome under a microscope.",
+          "The number of cell membranes around the nucleus.",
+          "The amount of water in the cytoplasm."
+        ],
+        correctIndex: 0,
+        explanation: "Genetic information is connected to the sequence, or order, of bases in DNA."
+      },
+      {
+        id: "kp-11-q2",
+        prompt: "A cell uses a gene when it needs to build a certain protein. Which connection is most accurate?",
+        choices: [
+          "A DNA base sequence provides information used to make the protein.",
+          "The protein randomly chooses a DNA sequence after it is made.",
+          "Only the sugar-phosphate backbone determines the protein.",
+          "Proteins are made without using genetic information."
+        ],
+        correctIndex: 0,
+        explanation: "The base sequence in DNA carries instructions that help determine which protein is made."
+      },
+      {
+        id: "kp-11-q3",
+        prompt: "Which statement corrects a common misconception about DNA instructions?",
+        choices: [
+          "The same four bases can store different instructions when their order changes.",
+          "Only the number of bases matters; their order does not matter.",
+          "A single base type is enough to store all genetic instructions.",
+          "DNA instructions are stored mainly in phosphate groups, not bases."
+        ],
+        correctIndex: 0,
+        explanation: "DNA uses base sequences; changing the order can change the information carried."
+      }
+    ]
+  },
+  "kp-12": {
+    title: "KP7: Proteins and organism function",
+    questions: [
+      {
+        id: "kp-12-q1",
+        prompt: "Why are proteins important to organism function?",
+        choices: [
+          "They help form cell and tissue structures and help control cell activities.",
+          "They replace DNA as the molecule that stores inherited information.",
+          "They are used only as waterproof coverings outside organisms.",
+          "They prevent cells from needing energy."
+        ],
+        correctIndex: 0,
+        explanation: "Proteins are linked to both structures in organisms and many cell functions."
+      },
+      {
+        id: "kp-12-q2",
+        prompt: "A mutation changes instructions in a gene used by skin cells. Which result is most scientifically reasonable?",
+        choices: [
+          "The protein made from that information might change, affecting how those cells work.",
+          "The organism's DNA would instantly leave every cell.",
+          "Only non-living parts of the environment could be affected.",
+          "The change could not affect proteins because DNA and proteins are unrelated."
+        ],
+        correctIndex: 0,
+        explanation: "DNA instructions influence proteins, and proteins can affect how cells form and function."
+      },
+      {
+        id: "kp-12-q3",
+        prompt: "Which misconception about proteins is best corrected?",
+        choices: [
+          "Proteins do more than build muscles; many proteins help control cell processes.",
+          "Proteins are always identical in every organism.",
+          "Proteins are never made inside cells.",
+          "Proteins store all inherited information instead of DNA."
+        ],
+        correctIndex: 0,
+        explanation: "Proteins have many roles, including structural roles and control of cell activities."
+      }
+    ]
+  },
+  "kp-13": {
+    title: "KP8: Genome",
+    questions: [
+      {
+        id: "kp-13-q1",
+        prompt: "What is an organism's genome?",
+        choices: [
+          "The complete DNA sequence in the cells of that organism.",
+          "Only the proteins made during one day.",
+          "A single base pair chosen from one chromosome.",
+          "The cell membrane and cytoplasm together."
+        ],
+        correctIndex: 0,
+        explanation: "A genome refers to the complete DNA sequence of an organism."
+      },
+      {
+        id: "kp-13-q2",
+        prompt: "Which statement best connects the human genome to chromosomes?",
+        choices: [
+          "The genome is distributed across the chromosomes in human body cells.",
+          "The genome is stored outside cells in the bloodstream.",
+          "Each chromosome contains no DNA, only protein.",
+          "Only one chromosome contains the whole genome and the others are empty."
+        ],
+        correctIndex: 0,
+        explanation: "In humans, DNA is organized into chromosomes rather than existing as one loose sequence."
+      },
+      {
+        id: "kp-13-q3",
+        prompt: "A student says a genome is just one gene. What is the best correction?",
+        choices: [
+          "A genome includes all of an organism's DNA sequence, not just one gene.",
+          "A genome is smaller than a single DNA base.",
+          "A genome is another name for a protein molecule.",
+          "A genome exists only in bacteria, not in humans."
+        ],
+        correctIndex: 0,
+        explanation: "A gene is one section of DNA, while a genome refers to the complete DNA sequence."
+      }
+    ]
+  },
+  "kp-14": {
+    title: "KP1: DNA, chromatin, and chromosomes",
+    questions: [
+      {
+        id: "kp-14-q1",
+        prompt: "Which sequence best describes how long DNA is organized in a dividing cell?",
+        choices: [
+          "DNA is packaged as chromatin, which can condense into chromosomes.",
+          "Chromosomes dissolve into bases, which condense into sugars.",
+          "Proteins turn directly into DNA, then into chromosomes.",
+          "DNA leaves the nucleus and becomes cell membrane."
+        ],
+        correctIndex: 0,
+        explanation: "DNA is associated with chromatin, and chromatin can condense into visible chromosomes during cell division."
+      },
+      {
+        id: "kp-14-q2",
+        prompt: "Why is packaging DNA into chromatin and chromosomes useful?",
+        choices: [
+          "It helps a very long DNA molecule fit and organize inside a small nucleus.",
+          "It removes all genetic information before division.",
+          "It changes every DNA base into an amino acid.",
+          "It keeps chromosomes permanently invisible in every cell stage."
+        ],
+        correctIndex: 0,
+        explanation: "DNA must be compactly organized to fit in the nucleus and to be handled during division."
+      },
+      {
+        id: "kp-14-q3",
+        prompt: "Which statement avoids a common mix-up?",
+        choices: [
+          "Chromosomes are condensed structures made of DNA-containing chromatin.",
+          "DNA and chromosomes are completely unrelated materials.",
+          "Chromatin is a type of sugar found only in RNA.",
+          "Chromosomes are made only after all DNA has been destroyed."
+        ],
+        correctIndex: 0,
+        explanation: "Chromosomes are an organized, condensed form of DNA-containing material."
+      }
+    ]
+  },
+  "kp-15": {
+    title: "KP2: Chromosome number in human body cells",
+    questions: [
+      {
+        id: "kp-15-q1",
+        prompt: "What is the usual chromosome arrangement in a human somatic cell?",
+        choices: [
+          "46 chromosomes arranged as 23 pairs.",
+          "23 chromosomes arranged as 46 pairs.",
+          "46 chromosomes with no pairing pattern.",
+          "One chromosome pair containing all human DNA."
+        ],
+        correctIndex: 0,
+        explanation: "Human body cells usually contain 46 chromosomes organized into 23 pairs."
+      },
+      {
+        id: "kp-15-q2",
+        prompt: "A microscope image of a typical human body cell shows chromosome pairs. What should you expect for the total number?",
+        choices: [
+          "46 chromosomes total.",
+          "12 chromosomes total.",
+          "92 chromosome pairs.",
+          "Only 2 chromosomes total."
+        ],
+        correctIndex: 0,
+        explanation: "A typical human somatic cell has 46 chromosomes, arranged as pairs."
+      },
+      {
+        id: "kp-15-q3",
+        prompt: "Which correction is most accurate?",
+        choices: [
+          "The number of chromosome pairs is not the same as the total number of chromosomes.",
+          "A pair means four identical chromosomes.",
+          "Human body cells normally have no chromosomes.",
+          "Chromosome number can be found only by reading a protein sequence."
+        ],
+        correctIndex: 0,
+        explanation: "In humans, 23 pairs means 46 chromosomes total, because each pair contains two chromosomes."
+      }
+    ]
+  },
+  "kp-16": {
+    title: "KP3: Autosomes and sex chromosomes",
+    questions: [
+      {
+        id: "kp-16-q1",
+        prompt: "Which description correctly separates autosomes from sex chromosomes in humans?",
+        choices: [
+          "Most pairs are autosomes, and one pair is the sex chromosomes.",
+          "All chromosome pairs are sex chromosomes.",
+          "Autosomes are found only outside the nucleus.",
+          "Sex chromosomes contain no DNA."
+        ],
+        correctIndex: 0,
+        explanation: "Humans have 22 pairs of autosomes and one pair of sex chromosomes."
+      },
+      {
+        id: "kp-16-q2",
+        prompt: "A karyotype shows sex chromosomes labelled \\(XX\\). What can be inferred from that pair?",
+        choices: [
+          "The sex chromosome pair contains two X chromosomes.",
+          "The autosomes are missing.",
+          "The cell has no genetic information.",
+          "Every chromosome in the set is an X chromosome."
+        ],
+        correctIndex: 0,
+        explanation: "XX describes the sex chromosome pair; it does not describe all chromosome pairs."
+      },
+      {
+        id: "kp-16-q3",
+        prompt: "Which misconception should be rejected?",
+        choices: [
+          "Sex chromosomes are counted as one pair even when the two chromosomes are not the same size or shape.",
+          "Autosomes are the same thing as alleles.",
+          "Only sex chromosomes carry genes.",
+          "A chromosome set cannot include both autosomes and sex chromosomes."
+        ],
+        correctIndex: 0,
+        explanation: "The sex chromosomes are counted as a pair, while the remaining chromosome pairs are autosomes."
+      }
+    ]
+  },
+  "kp-17": {
+    title: "KP4: Homologous chromosomes",
+    questions: [
+      {
+        id: "kp-17-q1",
+        prompt: "What makes two chromosomes homologous?",
+        choices: [
+          "They have the same sequence of gene locations, though they may carry different alleles.",
+          "They are always exact copies with identical alleles.",
+          "They are made from RNA instead of DNA.",
+          "They have no genes in common."
+        ],
+        correctIndex: 0,
+        explanation: "Homologous chromosomes carry genes for the same traits at corresponding locations but are not necessarily identical."
+      },
+      {
+        id: "kp-17-q2",
+        prompt: "When matching homologous chromosomes in a karyotype, which feature would be useful?",
+        choices: [
+          "Similar length, centromere location, and banding pattern.",
+          "Whether the chromosome is closest to the edge of the photo.",
+          "The colour chosen by a student in a drawing.",
+          "The order in which the cell was collected."
+        ],
+        correctIndex: 0,
+        explanation: "Homologous chromosomes can be compared using physical features such as length, centromere position, and banding pattern."
+      },
+      {
+        id: "kp-17-q3",
+        prompt: "Why are homologous chromosomes not always identical?",
+        choices: [
+          "They can carry different versions of the same genes.",
+          "One chromosome in each pair contains no DNA.",
+          "Only one chromosome in a pair is inherited.",
+          "They always code for completely different traits."
+        ],
+        correctIndex: 0,
+        explanation: "A homologous pair can contain the same genes but different alleles."
+      }
+    ]
+  },
+  "kp-18": {
+    title: "KP5: Genes and alleles",
+    questions: [
+      {
+        id: "kp-18-q1",
+        prompt: "Which statement best distinguishes a gene from an allele?",
+        choices: [
+          "A gene is a DNA section for a trait; an allele is a version of that gene.",
+          "A gene is a protein, and an allele is a sugar.",
+          "An allele is a whole chromosome pair, while a gene is the nucleus.",
+          "Genes occur only in plants, while alleles occur only in animals."
+        ],
+        correctIndex: 0,
+        explanation: "A gene is a section of DNA connected to a trait, and alleles are different forms of the same gene."
+      },
+      {
+        id: "kp-18-q2",
+        prompt: "Two homologous chromosomes carry information for hair type at the same location, but one version is linked with straight hair and the other with curly hair. What are these versions called?",
+        choices: [
+          "Alleles.",
+          "Nucleotides.",
+          "Autosomes.",
+          "Karyotypes."
+        ],
+        correctIndex: 0,
+        explanation: "Different forms of the same gene are called alleles."
+      },
+      {
+        id: "kp-18-q3",
+        prompt: "Which misconception about alleles is best corrected?",
+        choices: [
+          "Alleles are not different genes for unrelated traits; they are different forms of the same gene.",
+          "Alleles are always larger than whole chromosomes.",
+          "Alleles are found only in non-living things.",
+          "Alleles are the same as sugar-phosphate backbones."
+        ],
+        correctIndex: 0,
+        explanation: "Alleles refer to alternate forms of a gene at a corresponding gene location."
+      }
+    ]
+  },
+  "kp-19": {
+    title: "KP6: Karyotypes",
+    questions: [
+      {
+        id: "kp-19-q1",
+        prompt: "What is a karyotype used to show?",
+        choices: [
+          "A photographed and arranged set of homologous chromosome pairs.",
+          "The exact amino acid sequence of every protein.",
+          "Only the bases floating outside the nucleus.",
+          "A list of abiotic factors in an ecosystem."
+        ],
+        correctIndex: 0,
+        explanation: "A karyotype displays chromosomes arranged in pairs so chromosome number and type can be examined."
+      },
+      {
+        id: "kp-19-q2",
+        prompt: "A student studies a human karyotype to identify whether the sex chromosomes are \\(XX\\) or \\(XY\\). Which part should they examine?",
+        choices: [
+          "The sex chromosome pair placed apart from the numbered autosomes.",
+          "Only the longest autosome pair.",
+          "The cytoplasm surrounding the chromosomes.",
+          "The sequence of bases in one RNA molecule."
+        ],
+        correctIndex: 0,
+        explanation: "Human karyotypes arrange autosomes in numbered pairs and label the sex chromosomes separately."
+      },
+      {
+        id: "kp-19-q3",
+        prompt: "Which statement about karyotypes is most accurate?",
+        choices: [
+          "They help examine chromosome number, pairs, and sex chromosomes, but they do not show every base sequence.",
+          "They show the exact order of every DNA base in the genome.",
+          "They replace the need to understand homologous chromosomes.",
+          "They show proteins but not chromosomes."
+        ],
+        correctIndex: 0,
+        explanation: "Karyotypes are useful for viewing chromosome organization, not for reading every nucleotide."
+      }
+    ]
+  },
+  "kp-20": {
+    title: "KP1: DNA replication",
+    questions: [
+      {
+        id: "kp-20-q1",
+        prompt: "What is DNA replication?",
+        choices: [
+          "The process of making an exact copy of a DNA molecule.",
+          "The process of turning chromosomes into cell membranes.",
+          "The process of removing all bases from DNA.",
+          "The process of changing every protein into RNA."
+        ],
+        correctIndex: 0,
+        explanation: "Replication copies DNA so genetic information can be passed to new cells."
+      },
+      {
+        id: "kp-20-q2",
+        prompt: "Why must a cell replicate its DNA before cell division?",
+        choices: [
+          "So each new cell can receive a complete set of genetic information.",
+          "So the cell can permanently lose its genome.",
+          "So proteins can replace all chromosomes.",
+          "So base-pairing rules no longer matter."
+        ],
+        correctIndex: 0,
+        explanation: "Before division, DNA must be copied so daughter cells can inherit genetic information."
+      },
+      {
+        id: "kp-20-q3",
+        prompt: "Which feature of DNA helps replication produce matching new strands?",
+        choices: [
+          "Complementary base pairing.",
+          "Random pairing of any bases.",
+          "The absence of nitrogenous bases.",
+          "Chromosomes having no genes."
+        ],
+        correctIndex: 0,
+        explanation: "Base-pairing rules allow each original strand to guide formation of a complementary new strand."
+      }
+    ]
+  },
   "kp-306": {
     title: "KP1: Energy as an indirect concept",
     questions: [
