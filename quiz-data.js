@@ -5329,6 +5329,416 @@ window.SCIENCE10_QUIZZES = {
       }
     ]
   },
+  "kp-131": {
+    title: "KP1: Biotechnology",
+    questions: [
+      {
+        id: "kp-131-q1",
+        prompt: "Which description best matches biotechnology?",
+        choices: [
+          "Using technology and living organisms to make useful products or solve problems.",
+          "Studying rocks without using any living cells.",
+          "Avoiding all applications of DNA knowledge.",
+          "Measuring weather patterns with no biological connection."
+        ],
+        correctIndex: 0,
+        explanation: "Biotechnology combines technology with organisms or biological systems to produce useful products."
+      },
+      {
+        id: "kp-131-q2",
+        prompt: "Why is gene manipulation considered both science and technology?",
+        choices: [
+          "It uses scientific knowledge of DNA together with tools and procedures to change or use genes.",
+          "It works without any understanding of DNA.",
+          "It is only a naming system for species.",
+          "It replaces evidence with guesses about traits."
+        ],
+        correctIndex: 0,
+        explanation: "Gene manipulation applies DNA science through technologies such as cloning, vectors, and genetic engineering."
+      },
+      {
+        id: "kp-131-q3",
+        prompt: "Which example is most clearly an application of biotechnology?",
+        choices: [
+          "Using bacteria carrying a human gene to produce a useful protein.",
+          "Sorting books by colour.",
+          "Counting the number of chairs in a classroom.",
+          "Watching clouds to predict rain."
+        ],
+        correctIndex: 0,
+        explanation: "Using engineered organisms to make a protein is a biotechnology application."
+      }
+    ]
+  },
+  "kp-132": {
+    title: "KP2: Cloning",
+    questions: [
+      {
+        id: "kp-132-q1",
+        prompt: "What does cloning mean in biotechnology?",
+        choices: [
+          "Producing identical copies of genes, cells, or organisms.",
+          "Mixing unrelated traits randomly in every offspring.",
+          "Destroying DNA so it cannot be copied.",
+          "Identifying only visible traits."
+        ],
+        correctIndex: 0,
+        explanation: "Cloning means making identical copies, but what is copied can be a gene, a cell, or an entire organism."
+      },
+      {
+        id: "kp-132-q2",
+        prompt: "Why is gene cloning not the same as cloning a whole animal?",
+        choices: [
+          "Gene cloning copies a DNA segment, while whole-organism cloning aims to copy an organism.",
+          "Gene cloning always creates a full adult organism.",
+          "Whole-organism cloning copies only one base pair.",
+          "There is no difference between copying a gene and copying an organism."
+        ],
+        correctIndex: 0,
+        explanation: "The word cloning can refer to different targets; gene cloning focuses on a gene or DNA segment."
+      },
+      {
+        id: "kp-132-q3",
+        prompt: "A lab makes many identical copies of a DNA segment for study. Which type of cloning is this closest to?",
+        choices: [
+          "Gene cloning.",
+          "Behavioural isolation.",
+          "Artificial insemination.",
+          "Frequency distribution."
+        ],
+        correctIndex: 0,
+        explanation: "Making many copies of a DNA segment is gene cloning, not reproductive cloning."
+      }
+    ]
+  },
+  "kp-133": {
+    title: "KP3: Gene cloning",
+    questions: [
+      {
+        id: "kp-133-q1",
+        prompt: "What is the main goal of gene cloning?",
+        choices: [
+          "To produce many copies of a gene or DNA segment in foreign cells.",
+          "To make every organism in a population genetically identical.",
+          "To prevent cells from copying DNA.",
+          "To measure the mass of seeds in a population."
+        ],
+        correctIndex: 0,
+        explanation: "Gene cloning uses foreign cells, such as bacteria, to copy a selected gene or DNA segment."
+      },
+      {
+        id: "kp-133-q2",
+        prompt: "Why can cloned genes be useful in medicine?",
+        choices: [
+          "They can help produce proteins, such as human insulin, in large amounts.",
+          "They make all diseases disappear instantly.",
+          "They remove the need to understand proteins.",
+          "They work only if the gene is never expressed."
+        ],
+        correctIndex: 0,
+        explanation: "If a cloned gene codes for a useful protein, cells can be used to make that protein."
+      },
+      {
+        id: "kp-133-q3",
+        prompt: "A researcher wants bacteria to make a human protein. What must the researcher first provide to the bacteria?",
+        choices: [
+          "A DNA sequence that carries the instructions for that protein.",
+          "A histogram of human heights.",
+          "A frog mating call.",
+          "A drought simulation tray."
+        ],
+        correctIndex: 0,
+        explanation: "Cells make proteins from genetic instructions, so the relevant gene must be introduced and copied."
+      }
+    ]
+  },
+  "kp-134": {
+    title: "KP4: Vectors and plasmids",
+    questions: [
+      {
+        id: "kp-134-q1",
+        prompt: "What is the role of a vector in gene cloning?",
+        choices: [
+          "It carries the DNA to be cloned into a foreign cell.",
+          "It measures the height of a plant.",
+          "It prevents any DNA from entering a cell.",
+          "It is the final protein product."
+        ],
+        correctIndex: 0,
+        explanation: "A vector acts as a carrier that moves the DNA segment into a host cell."
+      },
+      {
+        id: "kp-134-q2",
+        prompt: "Why are plasmids useful vectors in bacteria?",
+        choices: [
+          "They are small circular DNA molecules that can carry inserted DNA separately from the bacterial chromosome.",
+          "They are large bones found inside bacterial cells.",
+          "They are proteins that digest all DNA.",
+          "They are chromosomes from human egg cells."
+        ],
+        correctIndex: 0,
+        explanation: "Plasmids are small circular DNA pieces often used to carry genes into bacterial cells."
+      },
+      {
+        id: "kp-134-q3",
+        prompt: "In a cloning diagram, a gene of interest is inserted into a plasmid before the plasmid enters bacteria. What is the plasmid functioning as?",
+        choices: [
+          "A vector.",
+          "A frequency bar.",
+          "A mating signal.",
+          "A whole cloned organism."
+        ],
+        correctIndex: 0,
+        explanation: "The plasmid is carrying the gene into the bacterial host cell, so it is the vector."
+      }
+    ]
+  },
+  "kp-135": {
+    title: "KP5: Recombinant DNA",
+    questions: [
+      {
+        id: "kp-135-q1",
+        prompt: "What is recombinant DNA?",
+        choices: [
+          "A DNA molecule containing genetic material from different sources.",
+          "DNA that contains only one original source and no inserted sequence.",
+          "A protein made without any gene instructions.",
+          "A chart that shows trait frequencies."
+        ],
+        correctIndex: 0,
+        explanation: "Recombinant DNA combines DNA pieces from different sources into one DNA molecule."
+      },
+      {
+        id: "kp-135-q2",
+        prompt: "A bacterial plasmid now contains a human gene. Why is this plasmid recombinant DNA?",
+        choices: [
+          "It combines bacterial plasmid DNA with human DNA.",
+          "It contains no DNA from any source.",
+          "It is a normal bacterial chromosome with no changes.",
+          "It is a fossil of an extinct organism."
+        ],
+        correctIndex: 0,
+        explanation: "The molecule includes DNA from different sources: the plasmid and the inserted human gene."
+      },
+      {
+        id: "kp-135-q3",
+        prompt: "What do enzymes help do during the formation of recombinant DNA?",
+        choices: [
+          "Cut DNA and help join DNA pieces together.",
+          "Turn every DNA molecule into a protein.",
+          "Prevent all base pairing.",
+          "Measure beak depth in finches."
+        ],
+        correctIndex: 0,
+        explanation: "Gene cloning uses enzymes to cut DNA at useful places and join DNA pieces into a recombinant molecule."
+      }
+    ]
+  },
+  "kp-136": {
+    title: "KP6: Transformation",
+    questions: [
+      {
+        id: "kp-136-q1",
+        prompt: "What happens during transformation in gene cloning?",
+        choices: [
+          "A foreign cell takes in recombinant DNA.",
+          "A histogram is converted into a bar of DNA.",
+          "Two island species stop reproducing.",
+          "A mutation is removed from every organism in a population."
+        ],
+        correctIndex: 0,
+        explanation: "Transformation occurs when host cells, such as bacteria, take in the recombinant DNA."
+      },
+      {
+        id: "kp-136-q2",
+        prompt: "Why is transformation important after a recombinant plasmid has been made?",
+        choices: [
+          "The plasmid must enter host cells so the cloned gene can be copied.",
+          "The plasmid must stay outside all cells to be copied.",
+          "Transformation destroys the gene of interest.",
+          "Transformation changes the species concept into a histogram."
+        ],
+        correctIndex: 0,
+        explanation: "Once inside a host cell, the recombinant DNA can be copied as the cell grows and divides."
+      },
+      {
+        id: "kp-136-q3",
+        prompt: "Which sequence best summarizes a simple gene cloning process?",
+        choices: [
+          "Choose a gene and vector, make recombinant DNA, transform host cells, then copy the gene.",
+          "Measure hand width, draw a histogram, then identify frog calls.",
+          "Make a whole animal clone, then remove all DNA from it.",
+          "Wait for a drought, then count only large seeds."
+        ],
+        correctIndex: 0,
+        explanation: "This sequence follows the main cloning steps described for introducing recombinant DNA into host cells."
+      }
+    ]
+  },
+  "kp-137": {
+    title: "KP7: Transgenic organisms",
+    questions: [
+      {
+        id: "kp-137-q1",
+        prompt: "What makes an organism transgenic?",
+        choices: [
+          "Foreign DNA has been introduced into its genome through genetic engineering.",
+          "It has no DNA in any of its cells.",
+          "It is measured in a frequency distribution.",
+          "It reproduces only by artificial insemination."
+        ],
+        correctIndex: 0,
+        explanation: "A transgenic organism contains DNA from another source as part of its genome."
+      },
+      {
+        id: "kp-137-q2",
+        prompt: "Which example best fits a transgenic plant?",
+        choices: [
+          "A crop plant engineered with a gene that helps it resist a pest.",
+          "A plant growing taller because it received more sunlight.",
+          "A seed with a mass near the class average.",
+          "A plant classified by leaf shape only."
+        ],
+        correctIndex: 0,
+        explanation: "Adding a useful gene through genetic engineering can create a transgenic crop plant."
+      },
+      {
+        id: "kp-137-q3",
+        prompt: "Why are transgenic animals sometimes used in medical research or production?",
+        choices: [
+          "They can be engineered to produce useful human proteins or model disease processes.",
+          "They cannot express any inserted genes.",
+          "They are always identical to wild animals in every way.",
+          "They are used only to make histograms of inherited traits."
+        ],
+        correctIndex: 0,
+        explanation: "The textbook discusses animals engineered for research and for producing medical protein products."
+      }
+    ]
+  },
+  "kp-138": {
+    title: "KP1: DNA profiles",
+    questions: [
+      {
+        id: "kp-138-q1",
+        prompt: "What does a DNA profile compare?",
+        choices: [
+          "Specific DNA regions that can differ among individuals.",
+          "Only the height and mass of suspects.",
+          "The number of chromosomes in bacteria only.",
+          "The beak shapes of birds after a drought."
+        ],
+        correctIndex: 0,
+        explanation: "DNA profiles use DNA regions that are highly useful for distinguishing individuals."
+      },
+      {
+        id: "kp-138-q2",
+        prompt: "How can DNA profiles help in law enforcement?",
+        choices: [
+          "They can compare DNA from a sample with DNA from possible individuals.",
+          "They prove guilt without any need for careful interpretation.",
+          "They identify a person by eye colour alone.",
+          "They replace all other evidence in every case."
+        ],
+        correctIndex: 0,
+        explanation: "DNA profiles can help match or exclude people, but evidence still needs careful handling and interpretation."
+      },
+      {
+        id: "kp-138-q3",
+        prompt: "Which use of DNA profiling is not a crime-scene application?",
+        choices: [
+          "Testing whether two people are biologically related.",
+          "Matching a sample found at a scene to a suspect.",
+          "Comparing DNA patterns from evidence.",
+          "Eliminating someone whose DNA does not match a sample."
+        ],
+        correctIndex: 0,
+        explanation: "DNA profiles can also be used in relationship testing, not only law enforcement."
+      }
+    ]
+  },
+  "kp-139": {
+    title: "KP2: Artificial insemination",
+    questions: [
+      {
+        id: "kp-139-q1",
+        prompt: "What happens in artificial insemination?",
+        choices: [
+          "Sperm are collected, concentrated, and placed in the female's uterus.",
+          "Eggs are fertilized in a laboratory dish before embryos are transferred.",
+          "A healthy gene is inserted into lung tissue.",
+          "Foreign DNA is inserted into a plant genome."
+        ],
+        correctIndex: 0,
+        explanation: "Artificial insemination places prepared sperm in the uterus; fertilization still occurs inside the body."
+      },
+      {
+        id: "kp-139-q2",
+        prompt: "Why is artificial insemination considered a reproductive technology?",
+        choices: [
+          "It uses a procedure to help sperm reach the reproductive tract for possible fertilization.",
+          "It makes recombinant DNA in bacteria.",
+          "It changes the DNA profile of every embryo.",
+          "It prevents reproduction from occurring."
+        ],
+        correctIndex: 0,
+        explanation: "Artificial insemination is a technology used to assist conception."
+      },
+      {
+        id: "kp-139-q3",
+        prompt: "Which statement correctly distinguishes artificial insemination from gene cloning?",
+        choices: [
+          "Artificial insemination assists reproduction, while gene cloning copies a DNA segment in host cells.",
+          "Artificial insemination creates recombinant plasmids in bacteria.",
+          "Gene cloning places sperm into the uterus.",
+          "Both terms mean exactly the same procedure."
+        ],
+        correctIndex: 0,
+        explanation: "The two technologies have different goals: reproduction assistance versus copying DNA."
+      }
+    ]
+  },
+  "kp-140": {
+    title: "KP3: In vitro fertilization",
+    questions: [
+      {
+        id: "kp-140-q1",
+        prompt: "What is the key feature of in vitro fertilization, or IVF?",
+        choices: [
+          "Eggs are fertilized with sperm outside the body before embryos are placed in the uterus.",
+          "Sperm are placed directly in the uterus with no egg retrieval.",
+          "A plasmid carries a gene into bacteria.",
+          "A DNA profile is used to compare suspects."
+        ],
+        correctIndex: 0,
+        explanation: "In IVF, fertilization happens outside the body, and embryos are later transferred."
+      },
+      {
+        id: "kp-140-q2",
+        prompt: "Why might IVF help when blocked fallopian tubes prevent sperm and egg from meeting?",
+        choices: [
+          "Fertilization can occur outside the body, bypassing the blocked path.",
+          "IVF changes the person's DNA profile.",
+          "IVF removes the need for eggs or sperm.",
+          "IVF works by inserting a gene into bacteria."
+        ],
+        correctIndex: 0,
+        explanation: "If sperm and egg cannot meet naturally, IVF can combine them in a laboratory setting."
+      },
+      {
+        id: "kp-140-q3",
+        prompt: "Which comparison between artificial insemination and IVF is correct?",
+        choices: [
+          "Artificial insemination places sperm in the uterus; IVF fertilizes eggs outside the body first.",
+          "Both procedures require recombinant DNA plasmids.",
+          "IVF always happens entirely inside the body.",
+          "Artificial insemination transfers embryos after laboratory fertilization."
+        ],
+        correctIndex: 0,
+        explanation: "The main difference is where fertilization is intended to occur."
+      }
+    ]
+  },
   "kp-306": {
     title: "KP1: Energy as an indirect concept",
     questions: [
