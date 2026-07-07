@@ -9839,6 +9839,826 @@ window.SCIENCE10_QUIZZES = {
       }
     ]
   },
+  "kp-241": {
+    title: "KP2: Excited electrons and light",
+    questions: [
+      {
+        id: "kp-241-q1",
+        prompt: "What happens to an electron in luminol when it becomes excited?",
+        choices: [
+          "It absorbs energy and moves to a higher energy level.",
+          "It turns into a proton.",
+          "It leaves the atom forever and destroys the molecule.",
+          "It loses all energy before the glow begins."
+        ],
+        correctIndex: 0,
+        explanation: "An excited electron has absorbed energy and moved to a higher energy level."
+      },
+      {
+        id: "kp-241-q2",
+        prompt: "Why does the luminol reaction produce visible light?",
+        choices: [
+          "Excited electrons release energy as light when they return to lower energy levels.",
+          "Luminol creates new electrons from darkness.",
+          "Iron atoms become tiny light bulbs.",
+          "The solution reflects room light only."
+        ],
+        correctIndex: 0,
+        explanation: "The glow is caused by energy released as electrons drop back down."
+      },
+      {
+        id: "kp-241-q3",
+        prompt: "Which sequence best describes the light-producing energy change?",
+        choices: [
+          "Energy absorbed by electrons -> higher energy level -> return to lower level -> light emitted",
+          "Light emitted -> electrons disappear -> energy absorbed by the floor",
+          "Atoms destroyed -> mass lost -> light produced",
+          "Lower energy level -> no energy absorbed -> no reaction possible"
+        ],
+        correctIndex: 0,
+        explanation: "The order connects electron excitation with later light emission."
+      }
+    ]
+  },
+  "kp-242": {
+    title: "KP3: Limits of chemical evidence",
+    questions: [
+      {
+        id: "kp-242-q1",
+        prompt: "Why should investigators not treat a positive luminol test as final proof of blood?",
+        choices: [
+          "Some non-blood substances can also make luminol glow.",
+          "Luminol never reacts with substances related to blood.",
+          "A glow proves whose blood it is.",
+          "Chemical tests cannot provide any useful evidence."
+        ],
+        correctIndex: 0,
+        explanation: "Luminol is useful for screening, but it can have false positives."
+      },
+      {
+        id: "kp-242-q2",
+        prompt: "After a luminol glow appears on fabric, what is a reasonable next step?",
+        choices: [
+          "Use further tests, such as blood confirmation or DNA analysis, before drawing a strong conclusion.",
+          "Immediately identify a suspect from the glow alone.",
+          "Ignore the result because chemistry is never useful.",
+          "Assume bleach, blood, and metal are all the same substance."
+        ],
+        correctIndex: 0,
+        explanation: "Further testing can distinguish possible blood evidence from other luminol-reactive materials."
+      },
+      {
+        id: "kp-242-q3",
+        prompt: "Which statement best describes the strength of luminol evidence?",
+        choices: [
+          "It can point investigators toward possible evidence, but it needs confirmation.",
+          "It is conclusive DNA evidence.",
+          "It proves a chemical reaction did not occur.",
+          "It works only on visible stains."
+        ],
+        correctIndex: 0,
+        explanation: "Luminol is sensitive and useful, but positive results have limits."
+      }
+    ]
+  },
+  "kp-243": {
+    title: "KP1: Reaction rate",
+    questions: [
+      {
+        id: "kp-243-q1",
+        prompt: "What does reaction rate describe?",
+        choices: [
+          "How quickly reactants are changed into products under specific conditions.",
+          "The total number of protons in a product.",
+          "The colour of the container used.",
+          "Whether a reaction is written as a word equation."
+        ],
+        correctIndex: 0,
+        explanation: "Reaction rate is about speed of chemical change."
+      },
+      {
+        id: "kp-243-q2",
+        prompt: "Why can a slow reaction sometimes be useful?",
+        choices: [
+          "Some processes, such as rusting, are safer or more manageable when they occur slowly.",
+          "Slow reactions do not involve atoms.",
+          "Slow reactions never produce products.",
+          "Slow reactions always release no energy."
+        ],
+        correctIndex: 0,
+        explanation: "Whether a rate is desirable depends on the context and purpose."
+      },
+      {
+        id: "kp-243-q3",
+        prompt: "Which situation most clearly depends on controlling reaction rate?",
+        choices: [
+          "Preventing an industrial reaction from heating up too quickly",
+          "Choosing the font size for a lab report",
+          "Counting chairs in a classroom",
+          "Naming a compound without doing a reaction"
+        ],
+        correctIndex: 0,
+        explanation: "Industrial safety often depends on keeping reaction rates under control."
+      }
+    ]
+  },
+  "kp-244": {
+    title: "KP2: Factors affecting reaction rate",
+    questions: [
+      {
+        id: "kp-244-q1",
+        prompt: "Which change would usually speed up a reaction by increasing particle motion?",
+        choices: [
+          "Increasing temperature",
+          "Lowering all reactant concentration to zero",
+          "Removing every reactant",
+          "Keeping particles completely separated"
+        ],
+        correctIndex: 0,
+        explanation: "Higher temperature often increases collision frequency and collision energy."
+      },
+      {
+        id: "kp-244-q2",
+        prompt: "Why can powdered magnesium react faster than a solid strip of the same mass?",
+        choices: [
+          "The powder has more exposed surface area for collisions.",
+          "Powdered magnesium has no atoms.",
+          "The strip contains a different element.",
+          "Surface area never affects reaction rate."
+        ],
+        correctIndex: 0,
+        explanation: "More surface area gives reactant particles more places to collide."
+      },
+      {
+        id: "kp-244-q3",
+        prompt: "Which list contains factors that can affect reaction rate?",
+        choices: [
+          "Temperature, surface area, reactant concentration or amount, and catalysts",
+          "Only colour and container shape",
+          "Only the alphabetic order of reactant names",
+          "Only whether the product is written first"
+        ],
+        correctIndex: 0,
+        explanation: "These factors can change the number or success of reactant collisions."
+      }
+    ]
+  },
+  "kp-245": {
+    title: "KP3: Catalysts",
+    questions: [
+      {
+        id: "kp-245-q1",
+        prompt: "What is a catalyst?",
+        choices: [
+          "A substance that speeds up a reaction without being used up.",
+          "A reactant that must be completely consumed.",
+          "A product that stops all collisions.",
+          "A label that replaces a chemical equation."
+        ],
+        correctIndex: 0,
+        explanation: "Catalysts increase reaction rate and are not consumed overall."
+      },
+      {
+        id: "kp-245-q2",
+        prompt: "How does a catalytic converter connect to reaction rate?",
+        choices: [
+          "It uses catalyst materials to speed reactions that convert harmful exhaust gases into less harmful substances.",
+          "It slows all vehicle reactions to zero.",
+          "It creates fuel from nothing.",
+          "It prevents gases from reacting with any surface."
+        ],
+        correctIndex: 0,
+        explanation: "Catalytic converters are real applications of catalysts."
+      },
+      {
+        id: "kp-245-q3",
+        prompt: "Why are enzymes described as catalysts in body cells?",
+        choices: [
+          "They help important reactions occur fast enough without being used up in each reaction.",
+          "They are always consumed as fuel.",
+          "They make reactions impossible at body temperature.",
+          "They change every product into metal."
+        ],
+        correctIndex: 0,
+        explanation: "Enzymes speed up biological reactions under conditions compatible with life."
+      }
+    ]
+  },
+  "kp-246": {
+    title: "KP4: Runaway reactions",
+    questions: [
+      {
+        id: "kp-246-q1",
+        prompt: "What can cause a runaway reaction in a large industrial vessel?",
+        choices: [
+          "Heat released by an exothermic reaction increases reaction rate, releasing even more heat.",
+          "The reaction cools so much that all collisions stop.",
+          "The container removes every molecule instantly.",
+          "Products have no energy."
+        ],
+        correctIndex: 0,
+        explanation: "Heat can make a reaction self-accelerate if it is not removed safely."
+      },
+      {
+        id: "kp-246-q2",
+        prompt: "Why is scaling up a lab reaction to industry risky?",
+        choices: [
+          "Large amounts of reacting material can release heat faster than it is removed.",
+          "Large reactions cannot be chemical reactions.",
+          "Industrial containers do not contain atoms.",
+          "Exothermic reactions become harmless when scaled up."
+        ],
+        correctIndex: 0,
+        explanation: "Heat management becomes more important at larger scale."
+      },
+      {
+        id: "kp-246-q3",
+        prompt: "Which safety control directly addresses the risk of runaway reactions?",
+        choices: [
+          "Designing systems to remove excess heat and monitor temperature",
+          "Ignoring temperature changes",
+          "Adding reactants as fast as possible without measurement",
+          "Sealing all pressure relief systems permanently"
+        ],
+        correctIndex: 0,
+        explanation: "Monitoring and heat removal help keep reaction rate under control."
+      }
+    ]
+  },
+  "kp-247": {
+    title: "KP1: Thermoplastic polymers and energy",
+    questions: [
+      {
+        id: "kp-247-q1",
+        prompt: "In shape-shifting paper, what happens when thermoplastic polymers absorb energy in an oven?",
+        choices: [
+          "Molecular motion increases and the polymer can shrink from its stretched shape.",
+          "The polymer atoms disappear.",
+          "The paper turns into a gas instantly.",
+          "No molecular motion changes."
+        ],
+        correctIndex: 0,
+        explanation: "Energy input lets the polymer chains move out of their forced elongated shape."
+      },
+      {
+        id: "kp-247-q2",
+        prompt: "How does polymer shrinkage help the paper fold?",
+        choices: [
+          "Shrinking in selected places lifts and bends the paper into a three-dimensional form.",
+          "Shrinking removes all folds from the paper.",
+          "The polymer becomes a catalyst for combustion only.",
+          "The paper folds because mass is destroyed."
+        ],
+        correctIndex: 0,
+        explanation: "Placed polymer strips can pull parts of the paper as they shrink."
+      },
+      {
+        id: "kp-247-q3",
+        prompt: "Which idea connects this material to energy transfer?",
+        choices: [
+          "Energy absorbed by the polymer changes molecular motion and material shape.",
+          "Energy has no effect on polymers.",
+          "Only colour changes can show energy transfer.",
+          "The polymer creates energy from nothing."
+        ],
+        correctIndex: 0,
+        explanation: "The material's behaviour depends on energy input changing particle motion."
+      }
+    ]
+  },
+  "kp-248": {
+    title: "KP2: Chemistry and material design",
+    questions: [
+      {
+        id: "kp-248-q1",
+        prompt: "Why is shape-shifting paper an example of chemistry supporting material design?",
+        choices: [
+          "The chemical and physical properties of polymers are used to create useful structures.",
+          "The material works only because chemistry is avoided.",
+          "The paper folds without any material properties changing.",
+          "The design depends on destroying atoms."
+        ],
+        correctIndex: 0,
+        explanation: "Material design can use molecular behaviour to produce large-scale structure."
+      },
+      {
+        id: "kp-248-q2",
+        prompt: "Which design goal could be supported by lightweight shape-shifting materials?",
+        choices: [
+          "Creating packaging that forms a strong structure with less material",
+          "Making packaging heavier for no reason",
+          "Preventing all energy transfer",
+          "Replacing every chemical property with a drawing"
+        ],
+        correctIndex: 0,
+        explanation: "Light, strong, lower-material structures can be useful design targets."
+      },
+      {
+        id: "kp-248-q3",
+        prompt: "A designer chooses a polymer because it shrinks predictably when heated. What chemistry idea are they using?",
+        choices: [
+          "Material properties can be matched to a desired function.",
+          "Subscripts should be changed to fold paper.",
+          "Catalysts are always used up.",
+          "Energy cannot affect materials."
+        ],
+        correctIndex: 0,
+        explanation: "Design can rely on predictable material responses to conditions."
+      }
+    ]
+  },
+  "kp-249": {
+    title: "KP3: Science and creative innovation",
+    questions: [
+      {
+        id: "kp-249-q1",
+        prompt: "What does the shape-shifting paper example show about science and creativity?",
+        choices: [
+          "Ideas from chemistry, art, design, and engineering can combine to create new technologies.",
+          "Science must be separated from design and art.",
+          "Creative ideas cannot be tested.",
+          "Engineering never uses chemistry."
+        ],
+        correctIndex: 0,
+        explanation: "Innovation often comes from combining knowledge across fields."
+      },
+      {
+        id: "kp-249-q2",
+        prompt: "Which project best connects a personal interest with science?",
+        choices: [
+          "Using polymer behaviour to design an origami-inspired package",
+          "Copying a product name without understanding materials",
+          "Ignoring safety data while building a toy",
+          "Choosing materials only by favourite colour"
+        ],
+        correctIndex: 0,
+        explanation: "A strong project uses science concepts to solve a creative design problem."
+      },
+      {
+        id: "kp-249-q3",
+        prompt: "Why should creative science designs still be evaluated?",
+        choices: [
+          "They must be checked for function, safety, cost, and environmental impact.",
+          "Evaluation stops all innovation.",
+          "A creative idea is always automatically safe.",
+          "Materials do not have properties."
+        ],
+        correctIndex: 0,
+        explanation: "Good innovation balances creativity with evidence and responsibility."
+      }
+    ]
+  },
+  "kp-250": {
+    title: "KP1: Chemistry-related careers",
+    questions: [
+      {
+        id: "kp-250-q1",
+        prompt: "Which career task clearly uses chemistry knowledge?",
+        choices: [
+          "A forensic scientist analyzes chemical evidence from a scene.",
+          "A person alphabetizes book titles only.",
+          "A driver chooses a radio station.",
+          "A student counts empty chairs."
+        ],
+        correctIndex: 0,
+        explanation: "Forensic science can depend on chemical tests and evidence interpretation."
+      },
+      {
+        id: "kp-250-q2",
+        prompt: "Why might a mudlogger need chemistry and geology knowledge?",
+        choices: [
+          "They analyze underground rock samples and information related to oil and gas deposits.",
+          "They design clothing colours only.",
+          "They never use material evidence.",
+          "They study only weather forecasts."
+        ],
+        correctIndex: 0,
+        explanation: "The textbook connects mudlogging to chemistry, geology, and underground samples."
+      },
+      {
+        id: "kp-250-q3",
+        prompt: "Which pair of careers from this section both connect to chemical processes or materials?",
+        choices: [
+          "Food scientist and materials technician",
+          "Poet and piano tuner only",
+          "Bus driver and novelist only",
+          "Painter and cashier only"
+        ],
+        correctIndex: 0,
+        explanation: "Food science and materials work can both require chemical knowledge."
+      }
+    ]
+  },
+  "kp-251": {
+    title: "KP2: Chemistry and public safety",
+    questions: [
+      {
+        id: "kp-251-q1",
+        prompt: "How can a fire protection engineer use chemistry?",
+        choices: [
+          "By understanding combustion, suppression chemicals, building risks, and emergency planning.",
+          "By ignoring how fires start and spread.",
+          "By avoiding all knowledge of materials.",
+          "By replacing safety systems with guesses."
+        ],
+        correctIndex: 0,
+        explanation: "Fire protection involves chemical processes, materials, design, and safety."
+      },
+      {
+        id: "kp-251-q2",
+        prompt: "Which public-safety decision depends on chemistry?",
+        choices: [
+          "Choosing a response plan for a spill based on the chemical's hazards",
+          "Choosing a hallway poster by colour only",
+          "Counting the number of desks in a room",
+          "Naming a sports team"
+        ],
+        correctIndex: 0,
+        explanation: "Chemical hazards influence safe handling, response, and protection."
+      },
+      {
+        id: "kp-251-q3",
+        prompt: "Why do environmental assessors need chemistry knowledge?",
+        choices: [
+          "They may evaluate how substances affect soil, water, air, and living systems.",
+          "They only need to memorize street names.",
+          "They prove that pollutants disappear.",
+          "They avoid studying materials."
+        ],
+        correctIndex: 0,
+        explanation: "Environmental protection often requires understanding chemical behaviour and risk."
+      }
+    ]
+  },
+  "kp-252": {
+    title: "KP3: Chemistry and sustainability",
+    questions: [
+      {
+        id: "kp-252-q1",
+        prompt: "What might a fuel researcher compare when studying fuels?",
+        choices: [
+          "Energy output, emissions, renewability, and environmental impacts",
+          "Only the colour of fuel containers",
+          "Only the spelling of fuel names",
+          "Whether fuels have no chemical reactions"
+        ],
+        correctIndex: 0,
+        explanation: "Fuel research connects chemistry to performance and sustainability."
+      },
+      {
+        id: "kp-252-q2",
+        prompt: "Why are alternative fuels part of a chemistry-and-sustainability discussion?",
+        choices: [
+          "Different reactions and fuel sources can have different emissions and impacts.",
+          "Alternative fuels do not involve matter.",
+          "Fuel choices cannot affect climate or air quality.",
+          "All fuels have identical chemical reactions."
+        ],
+        correctIndex: 0,
+        explanation: "Energy decisions depend on chemical processes and their consequences."
+      },
+      {
+        id: "kp-252-q3",
+        prompt: "Which question would best guide a sustainable fuel investigation?",
+        choices: [
+          "What are the useful energy output, by-products, costs, and environmental trade-offs?",
+          "Which fuel has the shortest name?",
+          "Can fuel create matter from nothing?",
+          "Can emissions be ignored if the reaction is fast?"
+        ],
+        correctIndex: 0,
+        explanation: "Sustainability requires evaluating benefits and impacts together."
+      }
+    ]
+  },
+  "kp-253": {
+    title: "KP1: Temperature data and reaction type",
+    questions: [
+      {
+        id: "kp-253-q1",
+        prompt: "A reaction mixture changes from 19.8°C to 34.6°C. What does this temperature data suggest?",
+        choices: [
+          "The reaction is exothermic because the surroundings warmed.",
+          "The reaction is endothermic because the surroundings warmed.",
+          "No energy transfer occurred.",
+          "The reaction destroyed temperature."
+        ],
+        correctIndex: 0,
+        explanation: "A temperature increase in the reaction mixture suggests energy was released to the surroundings."
+      },
+      {
+        id: "kp-253-q2",
+        prompt: "A reaction mixture changes from 22.4°C to 16.9°C. What is the temperature change?",
+        choices: [
+          "\\(-5.5^\\circ C\\)",
+          "\\(+5.5^\\circ C\\)",
+          "\\(+39.3^\\circ C\\)",
+          "\\(0^\\circ C\\)"
+        ],
+        correctIndex: 0,
+        explanation: "Final minus initial is 16.9 - 22.4 = -5.5°C."
+      },
+      {
+        id: "kp-253-q3",
+        prompt: "Why should temperature be recorded over time during an energy investigation?",
+        choices: [
+          "It shows the direction and size of the temperature change as the reaction proceeds.",
+          "It balances the chemical equation automatically.",
+          "It proves every product identity without other evidence.",
+          "It prevents reactions from happening."
+        ],
+        correctIndex: 0,
+        explanation: "Temperature-time data supports a claim about energy transfer."
+      }
+    ]
+  },
+  "kp-254": {
+    title: "KP2: Overall energy change",
+    questions: [
+      {
+        id: "kp-254-q1",
+        prompt: "A reaction absorbs 95 kJ to break bonds and releases 130 kJ when new bonds form. What is the net energy change?",
+        choices: [
+          "35 kJ released overall",
+          "35 kJ absorbed overall",
+          "225 kJ absorbed overall",
+          "No overall change"
+        ],
+        correctIndex: 0,
+        explanation: "130 kJ released minus 95 kJ absorbed gives 35 kJ released overall."
+      },
+      {
+        id: "kp-254-q2",
+        prompt: "Which data would best support a claim that a reaction was endothermic?",
+        choices: [
+          "Temperature decreased while the reaction system absorbed energy from surroundings.",
+          "Temperature increased and heat was released.",
+          "No temperature measurements were made.",
+          "The product name was longer than the reactant name."
+        ],
+        correctIndex: 0,
+        explanation: "Endothermic reactions absorb energy overall and often cool the surroundings."
+      },
+      {
+        id: "kp-254-q3",
+        prompt: "Why is overall energy change called a net result?",
+        choices: [
+          "It compares energy absorbed in bond breaking with energy released in bond forming.",
+          "It is based only on the colour of the reactants.",
+          "It ignores all bonds.",
+          "It counts atoms without considering energy."
+        ],
+        correctIndex: 0,
+        explanation: "The overall change depends on the balance of absorbed and released energy."
+      }
+    ]
+  },
+  "kp-255": {
+    title: "KP3: Reaction evidence",
+    questions: [
+      {
+        id: "kp-255-q1",
+        prompt: "Which set of observations would best support that a chemical reaction occurred?",
+        choices: [
+          "Temperature change, gas production, colour change, or formation of a new solid",
+          "Only the shape of the lab bench",
+          "Only the date written on the worksheet",
+          "Only the number of students in the group"
+        ],
+        correctIndex: 0,
+        explanation: "These observations can indicate new substances and energy transfer."
+      },
+      {
+        id: "kp-255-q2",
+        prompt: "In an aluminum and copper(II) chloride investigation, the solution colour changes and a solid forms. What is a reasonable interpretation?",
+        choices: [
+          "New substances likely formed as atoms and ions rearranged.",
+          "No reaction occurred because colour is irrelevant.",
+          "Atoms were destroyed.",
+          "The thermometer caused the products."
+        ],
+        correctIndex: 0,
+        explanation: "Colour change and solid formation can be evidence of chemical change."
+      },
+      {
+        id: "kp-255-q3",
+        prompt: "Why should observations be recorded during a reaction, not only at the end?",
+        choices: [
+          "Changes over time help connect evidence to the process of the reaction.",
+          "Only final observations can ever be useful.",
+          "Recording observations changes the products.",
+          "Evidence is unnecessary if the reaction has a name."
+        ],
+        correctIndex: 0,
+        explanation: "The timing and sequence of observations can support explanations."
+      }
+    ]
+  },
+  "kp-256": {
+    title: "KP4: Particle-level explanation",
+    questions: [
+      {
+        id: "kp-256-q1",
+        prompt: "What should a particle-level explanation of a chemical reaction include?",
+        choices: [
+          "Atoms, ions, bonds broken, bonds formed, and how particles rearrange",
+          "Only whether the solution looks pretty",
+          "Only the container brand",
+          "Only the names of lab partners"
+        ],
+        correctIndex: 0,
+        explanation: "Particle-level explanations connect observations to atoms, ions, and bonds."
+      },
+      {
+        id: "kp-256-q2",
+        prompt: "Why is 'the test tube got warm' not a complete particle-level explanation?",
+        choices: [
+          "It describes evidence but not what happened to atoms, ions, and bonds.",
+          "It proves no energy was transferred.",
+          "It explains every bond change fully.",
+          "It is never a useful observation."
+        ],
+        correctIndex: 0,
+        explanation: "Temperature is evidence; a deeper explanation describes particles and energy changes."
+      },
+      {
+        id: "kp-256-q3",
+        prompt: "Which statement is most particle-level?",
+        choices: [
+          "Aluminum atoms become ions while copper ions form copper atoms, so particles rearrange into new substances.",
+          "The beaker looked different.",
+          "The reaction was interesting.",
+          "The lab took 20 minutes."
+        ],
+        correctIndex: 0,
+        explanation: "This explanation identifies particle changes instead of only visible observations."
+      }
+    ]
+  },
+  "kp-257": {
+    title: "KP1: Dissolving and energy change",
+    questions: [
+      {
+        id: "kp-257-q1",
+        prompt: "Why can dissolving an ionic compound in water be useful for a hand warmer investigation?",
+        choices: [
+          "Some dissolving processes release energy and raise the temperature.",
+          "Dissolving always destroys matter.",
+          "Dissolving cannot involve energy transfer.",
+          "Water prevents all particle interactions."
+        ],
+        correctIndex: 0,
+        explanation: "Some ionic compounds dissolve exothermically, making them possible heat sources."
+      },
+      {
+        id: "kp-257-q2",
+        prompt: "A salt dissolves in water and the temperature drops from 20.0°C to 13.0°C. What type of energy change is suggested?",
+        choices: [
+          "Endothermic dissolving",
+          "Exothermic dissolving",
+          "No energy transfer",
+          "Combustion"
+        ],
+        correctIndex: 0,
+        explanation: "A temperature decrease suggests the dissolving process absorbed energy from surroundings."
+      },
+      {
+        id: "kp-257-q3",
+        prompt: "Which data would help decide whether a substance could work in a hand warmer?",
+        choices: [
+          "Temperature change after dissolving a measured amount in water",
+          "Only the colour of the solid before testing",
+          "Only the label font",
+          "The number of letters in the compound name"
+        ],
+        correctIndex: 0,
+        explanation: "Temperature data shows whether dissolving releases enough useful heat."
+      }
+    ]
+  },
+  "kp-258": {
+    title: "KP2: Design criteria",
+    questions: [
+      {
+        id: "kp-258-q1",
+        prompt: "Why should the 'best' hand warmer not be chosen only by the highest temperature?",
+        choices: [
+          "It must also be safe, practical, affordable, and environmentally responsible.",
+          "Temperature is never relevant.",
+          "The hottest chemical is always safest.",
+          "Environmental impact cannot be considered in design."
+        ],
+        correctIndex: 0,
+        explanation: "Good design balances performance with constraints and safety."
+      },
+      {
+        id: "kp-258-q2",
+        prompt: "Which criterion directly protects the user of a hand warmer?",
+        choices: [
+          "Maximum temperature that will not harm skin",
+          "Longest compound name",
+          "Most expensive package",
+          "Largest possible waste volume"
+        ],
+        correctIndex: 0,
+        explanation: "A hand warmer must produce useful warmth without burning the user."
+      },
+      {
+        id: "kp-258-q3",
+        prompt: "A chemical warms water quickly but is expensive and difficult to dispose of safely. What should a design team do?",
+        choices: [
+          "Compare it against all criteria before deciding whether it is suitable.",
+          "Choose it automatically because it gets hot.",
+          "Ignore safety and disposal.",
+          "Assume cost and waste do not matter."
+        ],
+        correctIndex: 0,
+        explanation: "Design decisions should weigh multiple criteria, not just one measurement."
+      }
+    ]
+  },
+  "kp-259": {
+    title: "KP3: Safe chemical design",
+    questions: [
+      {
+        id: "kp-259-q1",
+        prompt: "Which safety factor should be included in designing a chemical hand warmer?",
+        choices: [
+          "Whether the reactants or products can irritate skin or harm the environment",
+          "Whether the package colour is the user's favourite",
+          "Whether the chemical name is short",
+          "Whether the product avoids all testing"
+        ],
+        correctIndex: 0,
+        explanation: "Chemical products must be evaluated for safe use, cleanup, and disposal."
+      },
+      {
+        id: "kp-259-q2",
+        prompt: "Why should cleanup and disposal instructions be part of a chemical product design?",
+        choices: [
+          "The materials still exist after use and may affect people or the environment.",
+          "Used chemicals disappear immediately.",
+          "Disposal has no connection to chemistry.",
+          "Instructions make the product hotter."
+        ],
+        correctIndex: 0,
+        explanation: "Conservation of matter and chemical risk both matter after the product is used."
+      },
+      {
+        id: "kp-259-q3",
+        prompt: "Which design choice best reflects safe chemical design?",
+        choices: [
+          "Using a sealed packet, clear handling instructions, and tested disposal procedures",
+          "Letting users touch unknown powders directly",
+          "Choosing the most reactive chemical without testing",
+          "Removing all safety labels to save space"
+        ],
+        correctIndex: 0,
+        explanation: "Safe design anticipates handling, containment, and end-of-use risks."
+      }
+    ]
+  },
+  "kp-260": {
+    title: "KP1: Chemical reactions as energy sources",
+    questions: [
+      {
+        id: "kp-260-q1",
+        prompt: "Which example uses a chemical reaction as an energy source?",
+        choices: [
+          "Burning propane to heat food",
+          "Folding paper without any material change",
+          "Writing a title on a worksheet",
+          "Counting batteries in a drawer without using them"
+        ],
+        correctIndex: 0,
+        explanation: "Combustion of propane releases useful energy for heating and cooking."
+      },
+      {
+        id: "kp-260-q2",
+        prompt: "Why should an energy-source investigation include both pros and cons?",
+        choices: [
+          "Useful energy output, emissions, cost, and environmental impacts all matter.",
+          "Only the fuel's name matters.",
+          "All energy sources have identical impacts.",
+          "Balanced equations remove all social and environmental questions."
+        ],
+        correctIndex: 0,
+        explanation: "Energy choices involve chemical, environmental, and socio-economic trade-offs."
+      },
+      {
+        id: "kp-260-q3",
+        prompt: "Which comparison fits this investigation topic?",
+        choices: [
+          "Fossil-fuel combustion and hydrogen fuel cells both involve chemical reactions, but they can differ in products and impacts.",
+          "Hydrogen fuel cells do not involve chemistry.",
+          "Gasoline releases energy without any reaction.",
+          "All alternative energy sources produce exactly the same products as propane."
+        ],
+        correctIndex: 0,
+        explanation: "Different energy technologies can use different reactions with different outcomes."
+      }
+    ]
+  },
   "kp-306": {
     title: "KP1: Energy as an indirect concept",
     questions: [
