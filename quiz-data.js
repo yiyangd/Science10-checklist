@@ -4509,6 +4509,416 @@ window.SCIENCE10_QUIZZES = {
       }
     ]
   },
+  "kp-111": {
+    title: "KP7: Monoculture",
+    questions: [
+      {
+        id: "kp-111-q1",
+        prompt: "What is monoculture?",
+        choices: [
+          "Repeated planting of the same varieties of a species over large areas.",
+          "Growing many unrelated crops together on one plot.",
+          "A process where two species merge into one hybrid species.",
+          "A mutation that increases cancer risk."
+        ],
+        correctIndex: 0,
+        explanation: "Monoculture means large areas are planted with the same crop variety or very similar varieties."
+      },
+      {
+        id: "kp-111-q2",
+        prompt: "Why can monoculture increase risk from disease or environmental change?",
+        choices: [
+          "Low genetic diversity means many plants may be vulnerable in the same way.",
+          "Every plant has completely different resistance traits.",
+          "Disease cannot spread in large fields.",
+          "Monoculture prevents all selective pressure."
+        ],
+        correctIndex: 0,
+        explanation: "When crops are genetically similar, one disease or stress can affect a large part of the crop."
+      },
+      {
+        id: "kp-111-q3",
+        prompt: "Which statement shows both a benefit and a risk of monoculture?",
+        choices: [
+          "It can simplify large-scale farming, but reduced diversity can make crops less resilient.",
+          "It always increases biodiversity and eliminates all crop diseases.",
+          "It is the same as companion planting.",
+          "It prevents farmers from using machines or fertilizers."
+        ],
+        correctIndex: 0,
+        explanation: "The textbook notes that monoculture can be easier to manage but carries risk because diversity is low."
+      }
+    ]
+  },
+  "kp-112": {
+    title: "KP1: Reverse speciation",
+    questions: [
+      {
+        id: "kp-112-q1",
+        prompt: "What is reverse speciation?",
+        choices: [
+          "Two species that diverged from a common ancestor are replaced by one hybrid species.",
+          "One species splitting into many island species.",
+          "A crop field being planted with one variety.",
+          "A mutation being repaired before it affects DNA."
+        ],
+        correctIndex: 0,
+        explanation: "Reverse speciation describes species merging through interbreeding rather than diverging into separate species."
+      },
+      {
+        id: "kp-112-q2",
+        prompt: "In the Enos Lake example, what happened after the two stickleback species began interbreeding?",
+        choices: [
+          "The two distinct species were replaced by a hybrid population.",
+          "Both original species became more separate than before.",
+          "All fish in the lake stopped reproducing.",
+          "The lake gained two additional non-hybrid species."
+        ],
+        correctIndex: 0,
+        explanation: "The textbook describes the original two stickleback species disappearing and a hybrid species remaining."
+      },
+      {
+        id: "kp-112-q3",
+        prompt: "Why is reverse speciation different from adaptive radiation?",
+        choices: [
+          "Reverse speciation merges previously separate species, while adaptive radiation diversifies a common ancestor into different species.",
+          "Reverse speciation always increases the number of species.",
+          "Adaptive radiation happens only when humans select crops.",
+          "Both terms mean exactly the same process."
+        ],
+        correctIndex: 0,
+        explanation: "Adaptive radiation increases diversity from a common ancestor; reverse speciation can reduce distinct species."
+      }
+    ]
+  },
+  "kp-113": {
+    title: "KP2: Human-caused selection pressure",
+    questions: [
+      {
+        id: "kp-113-q1",
+        prompt: "How can an introduced species create selection pressure?",
+        choices: [
+          "It can change feeding, nesting, breeding, or survival conditions for existing species.",
+          "It removes all interactions among organisms.",
+          "It guarantees that biodiversity increases.",
+          "It prevents any hybrid offspring from forming."
+        ],
+        correctIndex: 0,
+        explanation: "Introduced species can alter ecological relationships and change which traits or behaviours are favoured."
+      },
+      {
+        id: "kp-113-q2",
+        prompt: "In the stickleback case, why might an invasive crayfish have changed breeding patterns?",
+        choices: [
+          "It may have changed nesting areas or pushed one species into the other's territory.",
+          "It made both fish species genetically identical before they bred.",
+          "It prevented the fish from sharing any habitat.",
+          "It removed every selective pressure from the lake."
+        ],
+        correctIndex: 0,
+        explanation: "The textbook suggests crayfish may have changed nesting, feeding, or movement patterns, increasing interbreeding."
+      },
+      {
+        id: "kp-113-q3",
+        prompt: "Which statement best connects human activity to reverse speciation risk?",
+        choices: [
+          "Human-introduced species can alter ecosystems in ways that change breeding and survival patterns.",
+          "Human activity can never affect selection pressure.",
+          "Introduced species always prevent hybridization.",
+          "Reverse speciation can occur only in laboratory populations."
+        ],
+        correctIndex: 0,
+        explanation: "Human actions can introduce new pressures that change how existing species interact and reproduce."
+      }
+    ]
+  },
+  "kp-114": {
+    title: "KP3: Biodiversity impact",
+    questions: [
+      {
+        id: "kp-114-q1",
+        prompt: "Why might reverse speciation reduce biodiversity even if a hybrid species remains?",
+        choices: [
+          "Two distinct species can be lost and replaced by one hybrid species.",
+          "A hybrid species always means there are more species than before.",
+          "Biodiversity counts only the number of individuals, not species.",
+          "Reverse speciation prevents extinction."
+        ],
+        correctIndex: 0,
+        explanation: "If two species disappear and one hybrid remains, the number of distinct species can decrease."
+      },
+      {
+        id: "kp-114-q2",
+        prompt: "A lake once had two specialized fish species and now has one hybrid species. What is the best biodiversity interpretation?",
+        choices: [
+          "Species diversity in the lake has likely decreased.",
+          "Biodiversity must have doubled.",
+          "No ecological change could follow.",
+          "The original species are still present if any fish remain."
+        ],
+        correctIndex: 0,
+        explanation: "Replacing two distinct species with one hybrid population reduces distinct species diversity."
+      },
+      {
+        id: "kp-114-q3",
+        prompt: "Which question would help evaluate the ecosystem impact of reverse speciation?",
+        choices: [
+          "Did feeding patterns, insect populations, or decomposition rates change after the species merged?",
+          "Did the fish become immune to every disease?",
+          "Can a Punnett square alone identify all ecosystem effects?",
+          "Did the hybrid species remove the need for habitats?"
+        ],
+        correctIndex: 0,
+        explanation: "The textbook notes ecosystem changes after Enos Lake sticklebacks merged, so ecological effects matter."
+      }
+    ]
+  },
+  "kp-115": {
+    title: "KP1: Monoculture consequences",
+    questions: [
+      {
+        id: "kp-115-q1",
+        prompt: "Which is an environmental consequence associated with large-scale monoculture?",
+        choices: [
+          "Loss of topsoil or pollution of air and water.",
+          "Automatic increase in wild biodiversity.",
+          "Complete removal of all fertilizer needs.",
+          "Guaranteed resistance to every pest."
+        ],
+        correctIndex: 0,
+        explanation: "The textbook lists topsoil loss, pollution, and increased chemical use as possible monoculture consequences."
+      },
+      {
+        id: "kp-115-q2",
+        prompt: "Which economic or social issue can be considered when evaluating monoculture food systems?",
+        choices: [
+          "Rising material and energy costs or working-condition concerns.",
+          "The impossibility of mechanized farming.",
+          "The total absence of food production gains.",
+          "The end of all crop diseases."
+        ],
+        correctIndex: 0,
+        explanation: "Sustainability evaluation includes economic and social dimensions, not only crop yield."
+      },
+      {
+        id: "kp-115-q3",
+        prompt: "Why is it incomplete to say, 'Monoculture is good because it grows a lot of food'?",
+        choices: [
+          "Food production gains should also be weighed against environmental, economic, and social costs.",
+          "Monoculture never increases food production.",
+          "Food production is unrelated to farming systems.",
+          "Only genetic diagrams can evaluate agriculture."
+        ],
+        correctIndex: 0,
+        explanation: "The textbook frames monoculture as productive but potentially unsustainable when wider consequences are considered."
+      }
+    ]
+  },
+  "kp-116": {
+    title: "KP2: Sustainable agriculture",
+    questions: [
+      {
+        id: "kp-116-q1",
+        prompt: "What is the goal of sustainable agriculture?",
+        choices: [
+          "Meet present food needs while supporting land, human ecosystems, and natural ecosystems for the future.",
+          "Maximize yield this year while ignoring future soil and ecosystem health.",
+          "Plant only one crop variety everywhere.",
+          "Remove all economic and social considerations from food production."
+        ],
+        correctIndex: 0,
+        explanation: "Sustainable agriculture balances current needs with long-term environmental, economic, and social health."
+      },
+      {
+        id: "kp-116-q2",
+        prompt: "Which set of criteria best matches the textbook's sustainability lens?",
+        choices: [
+          "Environmental, economic, and social needs.",
+          "Colour, taste, and package size only.",
+          "Only the number of machines used.",
+          "Only the genetic code of one plant."
+        ],
+        correctIndex: 0,
+        explanation: "The section evaluates food systems through environmental, economic, and social criteria."
+      },
+      {
+        id: "kp-116-q3",
+        prompt: "Which practice would best fit sustainable agriculture thinking?",
+        choices: [
+          "A method that maintains soil health and supports future food production.",
+          "A method that increases short-term yield by destroying topsoil.",
+          "A method that requires every field to have one identical crop forever.",
+          "A method that ignores workers and local communities."
+        ],
+        correctIndex: 0,
+        explanation: "Sustainable approaches consider long-term health of ecosystems and people."
+      }
+    ]
+  },
+  "kp-117": {
+    title: "KP3: Polyculture",
+    questions: [
+      {
+        id: "kp-117-q1",
+        prompt: "What is polyculture?",
+        choices: [
+          "Growing a diversity of crops on the same plot of land.",
+          "Planting one crop variety across a large region.",
+          "Replacing two species with one hybrid species.",
+          "Increasing mutation rate with UV radiation."
+        ],
+        correctIndex: 0,
+        explanation: "Polyculture uses crop diversity on the same land, unlike monoculture."
+      },
+      {
+        id: "kp-117-q2",
+        prompt: "Why can polyculture improve resilience compared with monoculture?",
+        choices: [
+          "Greater biological and genetic diversity can reduce the chance that one disease or stress affects everything the same way.",
+          "All plants in a polyculture are genetically identical.",
+          "Polyculture prevents any species from interacting.",
+          "Polyculture removes all selective pressures."
+        ],
+        correctIndex: 0,
+        explanation: "Diversity can make the system less vulnerable to a single pest, disease, or environmental stress."
+      },
+      {
+        id: "kp-117-q3",
+        prompt: "In a rice field, mixing disease-resistant varieties with vulnerable varieties lowers fungal infection. What does this example support?",
+        choices: [
+          "Polyculture can reduce disease spread and support crop yield.",
+          "Monoculture always prevents infection better.",
+          "Genetic diversity has no role in crop health.",
+          "All crop varieties must be grown separately."
+        ],
+        correctIndex: 0,
+        explanation: "The textbook describes mixed rice varieties reducing infection and improving yield compared with monoculture."
+      }
+    ]
+  },
+  "kp-118": {
+    title: "KP4: Companion planting",
+    questions: [
+      {
+        id: "kp-118-q1",
+        prompt: "What is companion planting?",
+        choices: [
+          "Planting two or more species near each other so they provide benefits such as pest control or nutrient support.",
+          "Growing one identical crop over a huge area.",
+          "Separating species so they can never interact.",
+          "Using radiation to increase mutation rate."
+        ],
+        correctIndex: 0,
+        explanation: "Companion planting is a type of polyculture based on helpful relationships among plants."
+      },
+      {
+        id: "kp-118-q2",
+        prompt: "In the three sisters system, which role is correctly matched?",
+        choices: [
+          "Corn provides a structure for beans to climb.",
+          "Squash removes all soil moisture.",
+          "Beans prevent nitrogen compounds from entering the soil.",
+          "All three plants compete without any benefit."
+        ],
+        correctIndex: 0,
+        explanation: "The textbook describes corn as a support structure, beans as adding nitrogen compounds, and squash as ground cover."
+      },
+      {
+        id: "kp-118-q3",
+        prompt: "How can companion planting support sustainability?",
+        choices: [
+          "Plant relationships can reduce some inputs and support soil moisture, nutrients, or pest control.",
+          "It requires every plant to be genetically identical.",
+          "It always eliminates the need to observe crop health.",
+          "It is the same process as reverse speciation."
+        ],
+        correctIndex: 0,
+        explanation: "Companion planting can mimic natural relationships and reduce dependence on some external inputs."
+      }
+    ]
+  },
+  "kp-119": {
+    title: "KP1: Sixth mass extinction",
+    questions: [
+      {
+        id: "kp-119-q1",
+        prompt: "What makes the possible sixth mass extinction different from the five earlier mass extinctions described in the text?",
+        choices: [
+          "Human activities are a major driving force in current biodiversity loss.",
+          "It would involve no species loss.",
+          "It is caused only by normal seasonal changes.",
+          "It cannot be affected by conservation action."
+        ],
+        correctIndex: 0,
+        explanation: "The textbook contrasts earlier natural events with current human-driven pressures."
+      },
+      {
+        id: "kp-119-q2",
+        prompt: "Which observation would support concern about a sixth mass extinction?",
+        choices: [
+          "Many species across ecosystems are declining because of human-caused pressures.",
+          "One individual organism dies of old age.",
+          "A farm grows several crops together.",
+          "A species' population stays stable in protected habitat."
+        ],
+        correctIndex: 0,
+        explanation: "Mass extinction concern involves broad biodiversity loss, not isolated individual deaths."
+      },
+      {
+        id: "kp-119-q3",
+        prompt: "Why is biodiversity loss connected to human well-being in this section?",
+        choices: [
+          "Ecosystem services and healthy land support life and human communities.",
+          "Humans do not depend on ecosystems in any way.",
+          "Biodiversity matters only for naming species.",
+          "Conservation removes all economic questions."
+        ],
+        correctIndex: 0,
+        explanation: "The section links biodiversity and ecosystem services to the well-being of life on Earth, including humans."
+      }
+    ]
+  },
+  "kp-120": {
+    title: "KP2: Human impacts on extinction risk",
+    questions: [
+      {
+        id: "kp-120-q1",
+        prompt: "Which human activity can increase extinction risk?",
+        choices: [
+          "Habitat destruction.",
+          "Protecting habitat corridors.",
+          "Restoring degraded land.",
+          "Monitoring species at risk."
+        ],
+        correctIndex: 0,
+        explanation: "Habitat destruction is one of the human activities identified as putting species at risk."
+      },
+      {
+        id: "kp-120-q2",
+        prompt: "What does over-exploitation mean in the context of extinction risk?",
+        choices: [
+          "Using or harvesting organisms faster than populations can recover.",
+          "Growing several crops in one field.",
+          "Reducing exposure to UV radiation.",
+          "Measuring variation within a population."
+        ],
+        correctIndex: 0,
+        explanation: "Over-exploitation can reduce populations and increase extinction pressure."
+      },
+      {
+        id: "kp-120-q3",
+        prompt: "Which action would most directly reduce human-caused extinction pressure?",
+        choices: [
+          "Protecting and restoring habitat for a species at risk.",
+          "Introducing a new invasive species into every lake.",
+          "Increasing land degradation near remaining populations.",
+          "Ignoring population status data."
+        ],
+        correctIndex: 0,
+        explanation: "Habitat protection and restoration can reduce pressure on species at risk."
+      }
+    ]
+  },
   "kp-306": {
     title: "KP1: Energy as an indirect concept",
     questions: [
