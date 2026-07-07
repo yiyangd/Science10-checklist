@@ -3689,6 +3689,416 @@ window.SCIENCE10_QUIZZES = {
       }
     ]
   },
+  "kp-91": {
+    title: "KP6: Selective pressure",
+    questions: [
+      {
+        id: "kp-91-q1",
+        prompt: "What is selective pressure?",
+        choices: [
+          "An environmental condition that favours some heritable traits and selects against others.",
+          "A decision an organism makes to change its genes.",
+          "A rule that stops all mutations from occurring.",
+          "A trait that is useful in every environment."
+        ],
+        correctIndex: 0,
+        explanation: "Selective pressure comes from the environment and affects which traits improve survival and reproduction."
+      },
+      {
+        id: "kp-91-q2",
+        prompt: "Which example is an abiotic selective pressure?",
+        choices: [
+          "Very low light levels under a dense forest canopy.",
+          "A predator catching slower prey.",
+          "A parasite infecting a host.",
+          "Competition between two animals for food."
+        ],
+        correctIndex: 0,
+        explanation: "Light level is a non-living environmental condition, so it is an abiotic selective pressure."
+      },
+      {
+        id: "kp-91-q3",
+        prompt: "Which example is a biotic selective pressure?",
+        choices: [
+          "Predators more easily catching individuals with poor camouflage.",
+          "A change in sunlight after a forest gap opens.",
+          "A drug used to treat a bacterial infection.",
+          "A change in soil temperature."
+        ],
+        correctIndex: 0,
+        explanation: "Predators are living parts of the environment, so predator-prey interactions are biotic selective pressures."
+      }
+    ]
+  },
+  "kp-92": {
+    title: "KP7: Natural selection is situational",
+    questions: [
+      {
+        id: "kp-92-q1",
+        prompt: "What does it mean to say that natural selection is situational?",
+        choices: [
+          "Whether a trait is helpful depends on the current environment.",
+          "Natural selection has a plan for every species.",
+          "A useful trait is always useful in every place and time.",
+          "Organisms decide which traits to pass on."
+        ],
+        correctIndex: 0,
+        explanation: "A trait can be an advantage in one environment and unhelpful or harmful in another."
+      },
+      {
+        id: "kp-92-q2",
+        prompt: "Shade tolerance helps young trees survive under a dense canopy. If a storm opens the canopy and light becomes intense, what may happen?",
+        choices: [
+          "The same trait may no longer provide the same advantage.",
+          "The trait must become better in every individual immediately.",
+          "The population can no longer have genetic variation.",
+          "The environment stops affecting survival."
+        ],
+        correctIndex: 0,
+        explanation: "The usefulness of shade tolerance depends on light conditions, so environmental change can alter which traits are favoured."
+      },
+      {
+        id: "kp-92-q3",
+        prompt: "Which statement best avoids a common misconception about natural selection?",
+        choices: [
+          "Natural selection has no will or purpose; it depends on how traits perform in a situation.",
+          "Natural selection tries to make every species more complex.",
+          "Natural selection always improves every individual.",
+          "Natural selection predicts exactly which mutation will happen next."
+        ],
+        correctIndex: 0,
+        explanation: "Natural selection is not goal-directed; it reflects survival and reproduction in particular conditions."
+      }
+    ]
+  },
+  "kp-93": {
+    title: "KP1: Species",
+    questions: [
+      {
+        id: "kp-93-q1",
+        prompt: "In this chapter, what is a species?",
+        choices: [
+          "A population or group of populations whose members can interbreed and produce fertile offspring.",
+          "Any two organisms that look similar in a photograph.",
+          "A group of organisms that all live in the same country.",
+          "A population that cannot reproduce at all."
+        ],
+        correctIndex: 0,
+        explanation: "The textbook definition focuses on interbreeding in nature and producing fertile offspring."
+      },
+      {
+        id: "kp-93-q2",
+        prompt: "Two animal groups look similar, but when they mate their offspring are not fertile. What does this suggest?",
+        choices: [
+          "They may not belong to the same species under the biological species concept.",
+          "They must be the same species because they look alike.",
+          "They cannot have any shared ancestor.",
+          "They are definitely both extinct."
+        ],
+        correctIndex: 0,
+        explanation: "Ability to produce fertile offspring is important for distinguishing species in this context."
+      },
+      {
+        id: "kp-93-q3",
+        prompt: "Why is appearance alone sometimes not enough to decide whether two groups are the same species?",
+        choices: [
+          "Similar-looking organisms may differ in their ability to interbreed and produce fertile offspring.",
+          "Appearance never has any biological information.",
+          "Only organisms with different colours can be different species.",
+          "Species are defined only by the size of an organism."
+        ],
+        correctIndex: 0,
+        explanation: "Physical form can help, but reproductive compatibility can provide stronger evidence."
+      }
+    ]
+  },
+  "kp-94": {
+    title: "KP2: Speciation",
+    questions: [
+      {
+        id: "kp-94-q1",
+        prompt: "What is speciation?",
+        choices: [
+          "The formation of new species from existing species.",
+          "The disappearance of all organisms from Earth.",
+          "A temporary change in one individual's behaviour.",
+          "The exact copying of every allele in a population forever."
+        ],
+        correctIndex: 0,
+        explanation: "Speciation occurs when populations become different enough that new species form."
+      },
+      {
+        id: "kp-94-q2",
+        prompt: "Which situation could indicate that speciation has occurred in sexually reproducing organisms?",
+        choices: [
+          "Two separated populations can no longer produce fertile offspring together.",
+          "Two individuals in one population have slightly different colours.",
+          "One organism learns a new behaviour during its lifetime.",
+          "A population has no genetic variation at all."
+        ],
+        correctIndex: 0,
+        explanation: "Failure to interbreed successfully and produce fertile offspring is evidence of reproductive separation."
+      },
+      {
+        id: "kp-94-q3",
+        prompt: "Why does speciation usually require many generations?",
+        choices: [
+          "Populations accumulate inherited differences over time through mutation, selection, and other factors.",
+          "Individuals must intentionally choose to become new species.",
+          "One non-inherited injury creates a new species immediately.",
+          "Speciation happens only when every organism dies at once."
+        ],
+        correctIndex: 0,
+        explanation: "Speciation involves population-level genetic change, which usually builds over long time periods."
+      }
+    ]
+  },
+  "kp-95": {
+    title: "KP3: Geographic isolation",
+    questions: [
+      {
+        id: "kp-95-q1",
+        prompt: "How can geographic isolation contribute to speciation?",
+        choices: [
+          "A barrier can split a population so separated groups follow different evolutionary paths.",
+          "It makes all separated organisms genetically identical forever.",
+          "It prevents mutation from happening in either group.",
+          "It guarantees that no selection occurs."
+        ],
+        correctIndex: 0,
+        explanation: "Separated populations can experience different mutations, environments, and selective pressures."
+      },
+      {
+        id: "kp-95-q2",
+        prompt: "Which example could geographically isolate members of a population?",
+        choices: [
+          "A new lava flow separating habitats.",
+          "Two organisms standing beside each other.",
+          "A carrier allele in one family.",
+          "A Punnett square predicting a 3:1 ratio."
+        ],
+        correctIndex: 0,
+        explanation: "Physical barriers such as lava flows, glaciers, ocean changes, or separate islands can split populations."
+      },
+      {
+        id: "kp-95-q3",
+        prompt: "After two populations are isolated for many generations, why might they no longer interbreed successfully?",
+        choices: [
+          "Their gene pools may become different enough that fertile offspring are no longer produced.",
+          "They must have stopped reproducing entirely.",
+          "They will always become identical again.",
+          "Their acquired behaviours automatically change their DNA in the same way."
+        ],
+        correctIndex: 0,
+        explanation: "Isolation can allow genetic differences to build until the groups become reproductively separated."
+      }
+    ]
+  },
+  "kp-96": {
+    title: "KP4: Adaptive radiation",
+    questions: [
+      {
+        id: "kp-96-q1",
+        prompt: "What is adaptive radiation?",
+        choices: [
+          "Diversification of a common ancestral species into differently adapted species.",
+          "A type of ultraviolet radiation that always causes cancer.",
+          "One individual changing into many species during its lifetime.",
+          "A process that removes all adaptation from a population."
+        ],
+        correctIndex: 0,
+        explanation: "Adaptive radiation occurs when descendants of a common ancestor diversify into species adapted to different environments."
+      },
+      {
+        id: "kp-96-q2",
+        prompt: "Why are islands often useful places to study adaptive radiation?",
+        choices: [
+          "Islands can provide isolated habitats with different selective pressures and open ecological roles.",
+          "Islands prevent all mutation and selection.",
+          "Every island has exactly the same environment.",
+          "Island organisms cannot reproduce."
+        ],
+        correctIndex: 0,
+        explanation: "Isolation and varied environments can help populations diverge into differently adapted species."
+      },
+      {
+        id: "kp-96-q3",
+        prompt: "Several finch species on different islands have beaks suited to different foods. What does this pattern best illustrate?",
+        choices: [
+          "Adaptive radiation from a common ancestral finch population.",
+          "A single finch changing its beak because it wanted a new food.",
+          "A lack of selective pressure on islands.",
+          "Extinction of every ancestral bird."
+        ],
+        correctIndex: 0,
+        explanation: "Different beaks suited to different food sources are a classic example of diversification into adapted species."
+      }
+    ]
+  },
+  "kp-97": {
+    title: "KP5: Mutations and natural selection in speciation",
+    questions: [
+      {
+        id: "kp-97-q1",
+        prompt: "How do mutations and natural selection work together during speciation?",
+        choices: [
+          "Mutations add variation, and selection can favour different traits in different environments.",
+          "Selection creates only the mutations that organisms request.",
+          "Mutations stop populations from changing.",
+          "Selection makes isolated populations identical."
+        ],
+        correctIndex: 0,
+        explanation: "New variation can arise by mutation, while different environments can favour different inherited traits."
+      },
+      {
+        id: "kp-97-q2",
+        prompt: "Two isolated populations experience different food sources for many generations. Why might they become increasingly different?",
+        choices: [
+          "Different traits may be favoured in each environment, changing allele frequencies over time.",
+          "Each individual changes its alleles to match the food it eats.",
+          "Isolation prevents all reproduction.",
+          "The two populations must experience identical selective pressures."
+        ],
+        correctIndex: 0,
+        explanation: "Different selective pressures can favour different alleles, especially when gene flow between populations is limited."
+      },
+      {
+        id: "kp-97-q3",
+        prompt: "Which sequence best fits the textbook's speciation model?",
+        choices: [
+          "Variation arises, environments favour some traits, populations diverge, and new species may form.",
+          "A species decides to split, then mutations stop.",
+          "All organisms become identical, then adaptive radiation begins.",
+          "Extinction always happens before any variation exists."
+        ],
+        correctIndex: 0,
+        explanation: "Speciation builds from inherited variation, selection, divergence, and reproductive separation over time."
+      }
+    ]
+  },
+  "kp-98": {
+    title: "KP6: Extinction",
+    questions: [
+      {
+        id: "kp-98-q1",
+        prompt: "What is extinction?",
+        choices: [
+          "The complete disappearance of a species from Earth.",
+          "The formation of a new species from an old one.",
+          "A temporary decline in one individual's health.",
+          "A mutation that always improves survival."
+        ],
+        correctIndex: 0,
+        explanation: "Extinction means no living members of that species remain on Earth."
+      },
+      {
+        id: "kp-98-q2",
+        prompt: "How can selective pressure contribute to extinction?",
+        choices: [
+          "If environmental change strongly selects against all members and none can survive and reproduce, the species may disappear.",
+          "Selective pressure always creates a helpful mutation in time.",
+          "Selective pressure affects only species that are already extinct.",
+          "Selective pressure prevents environments from changing."
+        ],
+        correctIndex: 0,
+        explanation: "When conditions change beyond what a population can tolerate, survival and reproduction may fail."
+      },
+      {
+        id: "kp-98-q3",
+        prompt: "Which example best matches extinction?",
+        choices: [
+          "A species has no surviving individuals anywhere on Earth.",
+          "A population moves to a new island and survives.",
+          "One organism dies but many others of the species remain.",
+          "Two populations become geographically separated."
+        ],
+        correctIndex: 0,
+        explanation: "Extinction is species-level disappearance, not just the death of one individual."
+      }
+    ]
+  },
+  "kp-99": {
+    title: "KP7: Mass extinction",
+    questions: [
+      {
+        id: "kp-99-q1",
+        prompt: "What is a mass extinction event?",
+        choices: [
+          "A sharp decline in biodiversity involving many species over a relatively short geological time.",
+          "The loss of one individual from a population.",
+          "A normal birth season in a stable ecosystem.",
+          "A small change in one allele that affects no organisms."
+        ],
+        correctIndex: 0,
+        explanation: "Mass extinction events involve large-scale losses of species and major drops in biodiversity."
+      },
+      {
+        id: "kp-99-q2",
+        prompt: "Why could an asteroid impact lead to widespread extinction?",
+        choices: [
+          "It could cause large environmental changes, such as blocked sunlight and disrupted food webs.",
+          "It would make every organism instantly better adapted.",
+          "It would stop selective pressure from acting.",
+          "It would guarantee adaptive radiation before any species died."
+        ],
+        correctIndex: 0,
+        explanation: "Large environmental disruptions can create severe selective pressures that many species cannot survive."
+      },
+      {
+        id: "kp-99-q3",
+        prompt: "After a mass extinction, what happens to biodiversity at that time?",
+        choices: [
+          "It decreases sharply because many species are lost.",
+          "It always increases immediately.",
+          "It becomes exactly the same as before.",
+          "It can no longer change."
+        ],
+        correctIndex: 0,
+        explanation: "A mass extinction is identified by a major decline in the number and variety of species."
+      }
+    ]
+  },
+  "kp-100": {
+    title: "KP1: Mutagen",
+    questions: [
+      {
+        id: "kp-100-q1",
+        prompt: "What is a mutagen?",
+        choices: [
+          "A substance or event that increases the rate of mutation.",
+          "Any trait that helps survival in every environment.",
+          "A population that can interbreed and produce fertile offspring.",
+          "A chart used to show family relationships."
+        ],
+        correctIndex: 0,
+        explanation: "Mutagens increase the chance that DNA will be changed."
+      },
+      {
+        id: "kp-100-q2",
+        prompt: "Which example is a mutagen described in this section?",
+        choices: [
+          "Ultraviolet radiation.",
+          "A completed Punnett square.",
+          "A fertile offspring.",
+          "A neutral pedigree symbol."
+        ],
+        correctIndex: 0,
+        explanation: "Ultraviolet radiation is a physical mutagen because it can damage DNA structure."
+      },
+      {
+        id: "kp-100-q3",
+        prompt: "Why are mutagens important when studying natural selection and new species?",
+        choices: [
+          "They can increase mutations, which can create genetic variation for selection to act on.",
+          "They remove all variation from a population.",
+          "They make every mutation beneficial.",
+          "They cause individuals to evolve on purpose."
+        ],
+        correctIndex: 0,
+        explanation: "Mutations can introduce new alleles, and inherited variation is part of the raw material for selection."
+      }
+    ]
+  },
   "kp-306": {
     title: "KP1: Energy as an indirect concept",
     questions: [
