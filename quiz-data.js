@@ -9019,6 +9019,826 @@ window.SCIENCE10_QUIZZES = {
       }
     ]
   },
+  "kp-221": {
+    title: "KP3: Sustainability trade-offs",
+    questions: [
+      {
+        id: "kp-221-q1",
+        prompt: "Which comparison best evaluates tanning methods using sustainability and safety?",
+        choices: [
+          "Brain tanning may use natural materials and more of the animal, while some industrial methods can involve toxic chemicals that require careful control.",
+          "Industrial tanning is always sustainable because it is faster.",
+          "Traditional tanning has no chemical process, so it has no environmental impact.",
+          "Any method that produces leather has exactly the same risks."
+        ],
+        correctIndex: 0,
+        explanation: "A strong evaluation considers materials used, waste, safety, scale, and environmental impact."
+      },
+      {
+        id: "kp-221-q2",
+        prompt: "Why might a traditional method be difficult to use on a large commercial scale even if it is more natural?",
+        choices: [
+          "It may require more labour, time, specialized knowledge, and limited biological materials.",
+          "Natural materials cannot cause chemical changes.",
+          "Commercial scale removes the need to think about waste.",
+          "Leather can only be made with chromium salts."
+        ],
+        correctIndex: 0,
+        explanation: "Sustainability decisions must include practicality as well as chemical and environmental risks."
+      },
+      {
+        id: "kp-221-q3",
+        prompt: "A company claims its tanning method is sustainable because it uses fewer synthetic chemicals. What question should still be asked?",
+        choices: [
+          "How much waste, energy use, safety risk, and usable product does the whole process involve?",
+          "Does the method avoid all atoms?",
+          "Can the product be made without any matter?",
+          "Does the method ignore worker safety?"
+        ],
+        correctIndex: 0,
+        explanation: "A sustainability claim should be checked across the whole process, not only one material choice."
+      }
+    ]
+  },
+  "kp-222": {
+    title: "KP1: Testing conservation of mass",
+    questions: [
+      {
+        id: "kp-222-q1",
+        prompt: "Why should a conservation-of-mass investigation measure the system both before and after a reaction?",
+        choices: [
+          "The comparison shows whether the measured total mass changed during the reaction.",
+          "The first measurement is enough to identify every product.",
+          "The second measurement proves no reaction happened.",
+          "Mass measurements are unrelated to conservation."
+        ],
+        correctIndex: 0,
+        explanation: "Before-and-after measurements let you compare the total mass of the reaction system."
+      },
+      {
+        id: "kp-222-q2",
+        prompt: "A closed flask has a mass of 183.42 g before two solutions are mixed. After the reaction, the flask and contents measure 183.41 g. What is the best interpretation?",
+        choices: [
+          "The small difference is likely measurement uncertainty; mass is essentially conserved.",
+          "A large amount of matter was destroyed.",
+          "The products have no mass.",
+          "The law of conservation of mass failed completely."
+        ],
+        correctIndex: 0,
+        explanation: "Real measurements can vary slightly, so evidence should be interpreted with uncertainty in mind."
+      },
+      {
+        id: "kp-222-q3",
+        prompt: "Why compare a closed-system trial with an open-system trial?",
+        choices: [
+          "It helps show how escaping matter can affect measured mass even when total matter is conserved.",
+          "It proves open systems cannot have chemical reactions.",
+          "It shows that energy is the same as mass.",
+          "It removes the need to record observations."
+        ],
+        correctIndex: 0,
+        explanation: "Open and closed systems help distinguish actual conservation from what the balance measures."
+      }
+    ]
+  },
+  "kp-223": {
+    title: "KP2: Closed-system reaction",
+    questions: [
+      {
+        id: "kp-223-q1",
+        prompt: "In a closed-system reaction, why is a stopper or sealed lid important?",
+        choices: [
+          "It prevents matter such as gases or droplets from escaping the measured system.",
+          "It prevents all energy transfer.",
+          "It changes reactants into products without mixing.",
+          "It makes the balance ignore the container."
+        ],
+        correctIndex: 0,
+        explanation: "A sealed container keeps all matter inside the system being weighed."
+      },
+      {
+        id: "kp-223-q2",
+        prompt: "Two solutions react inside a sealed flask and form a cloudy solid. What should happen to the total mass of the sealed flask and contents?",
+        choices: [
+          "It should remain the same within measurement uncertainty.",
+          "It should drop to zero because a solid formed.",
+          "It should increase because cloudiness adds atoms.",
+          "It should depend only on the colour of the precipitate."
+        ],
+        correctIndex: 0,
+        explanation: "New substances can form while the total matter in the closed system remains constant."
+      },
+      {
+        id: "kp-223-q3",
+        prompt: "Which observation would be evidence of a reaction in a closed system without contradicting mass conservation?",
+        choices: [
+          "A colour change occurs while the sealed container's total mass stays constant.",
+          "The stopper disappears.",
+          "Atoms are lost through the glass.",
+          "The balance reading becomes unrelated to matter."
+        ],
+        correctIndex: 0,
+        explanation: "Chemical evidence and mass conservation can occur at the same time."
+      }
+    ]
+  },
+  "kp-224": {
+    title: "KP3: Open-system reaction",
+    questions: [
+      {
+        id: "kp-224-q1",
+        prompt: "A tablet bubbles in an open beaker of water and the balance reading decreases over several minutes. What most likely left the measured system?",
+        choices: [
+          "Gas produced by the reaction",
+          "All of the water instantly",
+          "The glass beaker's atoms",
+          "The balance pan"
+        ],
+        correctIndex: 0,
+        explanation: "Bubbling can indicate gas production, and gas can escape from an open beaker."
+      },
+      {
+        id: "kp-224-q2",
+        prompt: "If the same bubbling reaction were done in a sealed container, what result would better show conservation of mass?",
+        choices: [
+          "The total mass of the sealed container and contents would stay nearly constant.",
+          "The total mass would always decrease faster.",
+          "No gas could be produced.",
+          "The reaction would stop being chemical."
+        ],
+        correctIndex: 0,
+        explanation: "Sealing the system keeps gas inside, so it remains part of the measured mass."
+      },
+      {
+        id: "kp-224-q3",
+        prompt: "Why is it misleading to say that mass was destroyed in an open beaker reaction?",
+        choices: [
+          "The missing measured mass may have moved into the surrounding air.",
+          "Open beakers do not contain matter.",
+          "Gas has no mass once it leaves a beaker.",
+          "Mass conservation applies only to solids."
+        ],
+        correctIndex: 0,
+        explanation: "Open-system measurements can lose track of matter that leaves the container."
+      }
+    ]
+  },
+  "kp-225": {
+    title: "KP4: Evidence of chemical reaction",
+    questions: [
+      {
+        id: "kp-225-q1",
+        prompt: "Which observation would be good evidence that a chemical reaction occurred when two clear solutions were mixed?",
+        choices: [
+          "A new cloudy solid formed in the mixture.",
+          "The flask was placed on a table.",
+          "The labels on the bottles were read aloud.",
+          "The liquids were measured with a cylinder."
+        ],
+        correctIndex: 0,
+        explanation: "Formation of a precipitate can indicate that new substances formed."
+      },
+      {
+        id: "kp-225-q2",
+        prompt: "Which set of observations should be recorded during a reaction investigation?",
+        choices: [
+          "Temperature changes, gas production, colour changes, precipitates, and mass readings",
+          "Only the final answer from a classmate",
+          "Only the brand of the balance",
+          "Only whether the lab bench is clean"
+        ],
+        correctIndex: 0,
+        explanation: "Multiple observations help connect evidence to whether a chemical reaction occurred."
+      },
+      {
+        id: "kp-225-q3",
+        prompt: "A reaction mixture becomes colder and produces bubbles. What should a careful student conclude?",
+        choices: [
+          "These observations are evidence of a reaction and energy transfer, but the student should still record data carefully.",
+          "The reaction definitely destroyed matter.",
+          "Bubbles prove the system was closed.",
+          "Temperature change is never related to chemical reactions."
+        ],
+        correctIndex: 0,
+        explanation: "Observations support a reaction claim, but good science still depends on careful data."
+      }
+    ]
+  },
+  "kp-226": {
+    title: "KP1: Matter and energy interaction",
+    questions: [
+      {
+        id: "kp-226-q1",
+        prompt: "Which everyday example shows matter and energy interacting during a physical change?",
+        choices: [
+          "Ice absorbs energy from warmer surroundings and melts.",
+          "A pencil is counted on a desk.",
+          "A closed book sits on a shelf.",
+          "A label is copied onto a notebook."
+        ],
+        correctIndex: 0,
+        explanation: "Melting is a physical change that involves energy transfer."
+      },
+      {
+        id: "kp-226-q2",
+        prompt: "Which example shows matter and energy interacting during a chemical change?",
+        choices: [
+          "Bread browns in a toaster as energy causes chemical changes.",
+          "A rock is moved across a table.",
+          "A glass of water is labelled.",
+          "A metal spoon is counted."
+        ],
+        correctIndex: 0,
+        explanation: "Cooking can involve chemical changes driven by energy input."
+      },
+      {
+        id: "kp-226-q3",
+        prompt: "What is the main idea of this concept?",
+        choices: [
+          "Matter changes are often linked to energy transfers.",
+          "Matter and energy never interact.",
+          "Only chemical changes involve energy.",
+          "Energy transfer always creates new atoms."
+        ],
+        correctIndex: 0,
+        explanation: "Physical and chemical changes can both involve energy moving between objects or systems."
+      }
+    ]
+  },
+  "kp-227": {
+    title: "KP2: Energy input for change",
+    questions: [
+      {
+        id: "kp-227-q1",
+        prompt: "Why does water on a stove not boil instantly at room temperature?",
+        choices: [
+          "Energy must be transferred to the water to increase its temperature and change state.",
+          "Water cannot absorb energy.",
+          "Boiling creates new oxygen atoms.",
+          "The stove removes all energy from the water."
+        ],
+        correctIndex: 0,
+        explanation: "Boiling requires energy input to heat the water and support the phase change."
+      },
+      {
+        id: "kp-227-q2",
+        prompt: "Which situation best shows that a reaction may need energy to begin?",
+        choices: [
+          "A propane torch needs a spark before the fuel starts burning.",
+          "A sealed bottle remains on a shelf.",
+          "A solution is labelled with its name.",
+          "A cold spoon is weighed."
+        ],
+        correctIndex: 0,
+        explanation: "The spark provides initial energy so some reactant particles can begin reacting."
+      },
+      {
+        id: "kp-227-q3",
+        prompt: "A student says, 'If a reaction releases energy, it should never need energy to start.' What is the misconception?",
+        choices: [
+          "Even energy-releasing reactions may need an initial input to get past the starting barrier.",
+          "Energy-releasing reactions cannot occur.",
+          "Energy input always means the reaction is physical only.",
+          "Released energy destroys reactants before products form."
+        ],
+        correctIndex: 0,
+        explanation: "Initial energy and overall energy release are different ideas."
+      }
+    ]
+  },
+  "kp-228": {
+    title: "KP3: Activation energy",
+    questions: [
+      {
+        id: "kp-228-q1",
+        prompt: "What is activation energy?",
+        choices: [
+          "The minimum energy reactants need for a reaction to occur.",
+          "The total mass of all products.",
+          "The energy stored only in the surroundings after a reaction.",
+          "The amount of light absorbed by a label."
+        ],
+        correctIndex: 0,
+        explanation: "Activation energy is the starting energy barrier for a chemical reaction."
+      },
+      {
+        id: "kp-228-q2",
+        prompt: "Why is activation energy often compared to a hill?",
+        choices: [
+          "Reactants need enough energy to get over a barrier before products can form.",
+          "Reactants roll downhill before any collisions occur.",
+          "Products must always have more mass than reactants.",
+          "Chemical reactions happen only outdoors."
+        ],
+        correctIndex: 0,
+        explanation: "The hill model represents the energy barrier that must be overcome."
+      },
+      {
+        id: "kp-228-q3",
+        prompt: "If reactant particles collide but do not have enough energy to overcome activation energy, what is most likely?",
+        choices: [
+          "They will not react successfully in that collision.",
+          "They will create atoms from nothing.",
+          "They will form products without changing bonds.",
+          "They will become a closed system."
+        ],
+        correctIndex: 0,
+        explanation: "A collision must have sufficient energy for the reaction to start."
+      }
+    ]
+  },
+  "kp-229": {
+    title: "KP4: Reactant collisions",
+    questions: [
+      {
+        id: "kp-229-q1",
+        prompt: "Why do reactant particles need to collide for many reactions to occur?",
+        choices: [
+          "Collisions allow particles to interact and begin breaking old bonds.",
+          "Collisions make atoms disappear.",
+          "Particles react best when they never meet.",
+          "Collisions replace the need for activation energy."
+        ],
+        correctIndex: 0,
+        explanation: "Reacting particles must interact directly with enough energy to start rearranging bonds."
+      },
+      {
+        id: "kp-229-q2",
+        prompt: "Which collision is most likely to lead to a reaction?",
+        choices: [
+          "One with enough energy and a suitable orientation for bonds to begin changing.",
+          "One where particles barely touch with too little energy.",
+          "One between unrelated container walls only.",
+          "One where particles avoid each other."
+        ],
+        correctIndex: 0,
+        explanation: "Successful collisions depend on sufficient energy and an arrangement that can lead to bond changes."
+      },
+      {
+        id: "kp-229-q3",
+        prompt: "How does the propane torch example relate to collisions?",
+        choices: [
+          "A spark gives some propane and oxygen particles enough energy for successful collisions.",
+          "A spark prevents propane and oxygen from colliding.",
+          "Propane burns without particles interacting.",
+          "Oxygen is not involved in the reaction."
+        ],
+        correctIndex: 0,
+        explanation: "The spark helps enough reactant particles overcome the activation energy barrier."
+      }
+    ]
+  },
+  "kp-230": {
+    title: "KP5: Initial energy and self-sustaining reactions",
+    questions: [
+      {
+        id: "kp-230-q1",
+        prompt: "Why can a propane flame continue after the first spark?",
+        choices: [
+          "The reaction releases enough energy to help more reactant particles overcome activation energy.",
+          "The spark remains the only energy source forever.",
+          "The reaction no longer needs oxygen.",
+          "The products turn back into propane instantly."
+        ],
+        correctIndex: 0,
+        explanation: "Energy released by early reactions can help sustain later reactions."
+      },
+      {
+        id: "kp-230-q2",
+        prompt: "Which statement best distinguishes initial energy input from ongoing reaction energy?",
+        choices: [
+          "Initial energy starts some particles reacting; released energy may keep the reaction going.",
+          "Initial energy and released energy are always the same object.",
+          "Initial energy destroys products before they form.",
+          "Ongoing reaction energy means matter is no longer conserved."
+        ],
+        correctIndex: 0,
+        explanation: "Some reactions need a start but then produce enough energy to continue."
+      },
+      {
+        id: "kp-230-q3",
+        prompt: "A fuel-air mixture will not ignite until a spark is added. What does the spark provide?",
+        choices: [
+          "Enough starting energy for some collisions to be successful.",
+          "Extra atoms that become all the products.",
+          "A way to remove oxygen from the reaction.",
+          "A closed system boundary."
+        ],
+        correctIndex: 0,
+        explanation: "The spark supplies the activation energy needed to begin the reaction."
+      }
+    ]
+  },
+  "kp-231": {
+    title: "KP6: Energy in physical changes",
+    questions: [
+      {
+        id: "kp-231-q1",
+        prompt: "When an ice cube melts in your hand, what energy transfer is occurring?",
+        choices: [
+          "Energy moves from your warmer hand to the colder ice.",
+          "Energy is created inside the ice from nothing.",
+          "The ice releases energy to warm your hand.",
+          "No energy transfer occurs because melting is physical."
+        ],
+        correctIndex: 0,
+        explanation: "Physical changes such as melting still involve energy transfer."
+      },
+      {
+        id: "kp-231-q2",
+        prompt: "Why is melting ice not evidence by itself of a new substance forming?",
+        choices: [
+          "The substance remains water, but its physical state changes.",
+          "The ice atoms disappear.",
+          "Liquid water is a different element from ice.",
+          "Melting always produces carbon dioxide."
+        ],
+        correctIndex: 0,
+        explanation: "Melting changes state without changing chemical identity."
+      },
+      {
+        id: "kp-231-q3",
+        prompt: "Which observation would support that your hand loses energy while holding ice?",
+        choices: [
+          "Your hand feels colder as the ice melts.",
+          "The ice becomes a new compound.",
+          "The ice gains mass from nowhere.",
+          "The room stops containing energy."
+        ],
+        correctIndex: 0,
+        explanation: "Your hand feels colder because energy is transferred from your hand to the ice."
+      }
+    ]
+  },
+  "kp-232": {
+    title: "KP1: Energy changes in chemical reactions",
+    questions: [
+      {
+        id: "kp-232-q1",
+        prompt: "Which statement best describes energy in chemical reactions?",
+        choices: [
+          "All chemical reactions involve energy changes.",
+          "Only reactions with flames involve energy.",
+          "Chemical reactions never transfer energy.",
+          "Energy changes only happen in physical changes."
+        ],
+        correctIndex: 0,
+        explanation: "Bond breaking and bond forming mean chemical reactions involve energy changes."
+      },
+      {
+        id: "kp-232-q2",
+        prompt: "How are photosynthesis and cellular respiration related to energy?",
+        choices: [
+          "Photosynthesis stores energy in chemical bonds, while cellular respiration releases stored energy.",
+          "Both processes destroy energy.",
+          "Photosynthesis releases all energy as heat only, while respiration stores no energy.",
+          "Neither process involves chemical reactions."
+        ],
+        correctIndex: 0,
+        explanation: "The textbook connects these life processes to energy stored and released in chemical bonds."
+      },
+      {
+        id: "kp-232-q3",
+        prompt: "A reaction mixture cools down during a reaction. What does this show?",
+        choices: [
+          "Energy transfer occurred between the reaction system and surroundings.",
+          "No chemical reaction could have happened.",
+          "Atoms were destroyed to make cold.",
+          "The system had no matter."
+        ],
+        correctIndex: 0,
+        explanation: "Temperature change is evidence that energy moved between system and surroundings."
+      }
+    ]
+  },
+  "kp-233": {
+    title: "KP2: System and surroundings",
+    questions: [
+      {
+        id: "kp-233-q1",
+        prompt: "In a test tube reaction, what is the system?",
+        choices: [
+          "The reacting materials inside the test tube",
+          "Only the classroom air",
+          "Only the student's hand",
+          "Everything except the reacting chemicals"
+        ],
+        correctIndex: 0,
+        explanation: "Chemists define the system as the materials involved in the reaction."
+      },
+      {
+        id: "kp-233-q2",
+        prompt: "Which item is part of the surroundings for a reaction in a flask?",
+        choices: [
+          "The flask and nearby air",
+          "Only the reactant molecules",
+          "Only the products after they form",
+          "The bonds being broken inside the reactants"
+        ],
+        correctIndex: 0,
+        explanation: "Surroundings include the container, air, and everything outside the reacting system."
+      },
+      {
+        id: "kp-233-q3",
+        prompt: "Why is identifying the system and surroundings useful?",
+        choices: [
+          "It helps trace where energy is transferred during a reaction.",
+          "It proves mass is not conserved.",
+          "It shows that containers cannot absorb energy.",
+          "It removes the need for observations."
+        ],
+        correctIndex: 0,
+        explanation: "Energy can leave or enter the system through the surroundings."
+      }
+    ]
+  },
+  "kp-234": {
+    title: "KP3: Conservation of energy",
+    questions: [
+      {
+        id: "kp-234-q1",
+        prompt: "What does conservation of energy mean in a chemical reaction?",
+        choices: [
+          "Energy is transferred between system and surroundings, not created or destroyed.",
+          "Energy disappears when products form.",
+          "Energy is created whenever bonds break.",
+          "Only matter, not energy, can move between places."
+        ],
+        correctIndex: 0,
+        explanation: "The total energy remains constant, but it can move between system and surroundings."
+      },
+      {
+        id: "kp-234-q2",
+        prompt: "If an exothermic reaction releases 75 kJ to the surroundings, what happened to the system's energy overall?",
+        choices: [
+          "The system lost 75 kJ of energy to the surroundings.",
+          "The system created 75 kJ from nothing.",
+          "The surroundings lost 75 kJ to the system.",
+          "The energy stopped existing."
+        ],
+        correctIndex: 0,
+        explanation: "Energy leaving the system enters the surroundings."
+      },
+      {
+        id: "kp-234-q3",
+        prompt: "If a reaction absorbs energy from its surroundings, what should happen to the surroundings if no other energy source replaces it?",
+        choices: [
+          "The surroundings lose energy and may cool down.",
+          "The surroundings must heat up.",
+          "Energy is destroyed in the surroundings.",
+          "The system loses energy to the surroundings."
+        ],
+        correctIndex: 0,
+        explanation: "Endothermic processes take energy from the surroundings."
+      }
+    ]
+  },
+  "kp-235": {
+    title: "KP4: Exothermic reactions",
+    questions: [
+      {
+        id: "kp-235-q1",
+        prompt: "What is an exothermic reaction?",
+        choices: [
+          "A reaction with a net release of energy to the surroundings.",
+          "A reaction with a net absorption of energy from the surroundings.",
+          "A reaction where no bonds change.",
+          "A reaction that cannot warm anything."
+        ],
+        correctIndex: 0,
+        explanation: "Exothermic reactions transfer energy out of the chemical system."
+      },
+      {
+        id: "kp-235-q2",
+        prompt: "A solution's temperature rises from 21.0°C to 29.5°C during a reaction. What is the temperature change and likely reaction type?",
+        choices: [
+          "\\(+8.5^\\circ C\\), exothermic",
+          "\\(-8.5^\\circ C\\), endothermic",
+          "\\(+50.5^\\circ C\\), endothermic",
+          "\\(0^\\circ C\\), no energy transfer"
+        ],
+        correctIndex: 0,
+        explanation: "The temperature increased by 8.5°C, suggesting energy was released to the surroundings."
+      },
+      {
+        id: "kp-235-q3",
+        prompt: "In an exothermic reaction, how do bond energy changes compare overall?",
+        choices: [
+          "Forming new bonds releases more energy than breaking old bonds absorbs.",
+          "Breaking old bonds absorbs more energy than forming new bonds releases.",
+          "No energy is involved in bonds.",
+          "Subscripts release energy while coefficients absorb it."
+        ],
+        correctIndex: 0,
+        explanation: "A net release occurs when bond formation releases more energy than bond breaking absorbs."
+      }
+    ]
+  },
+  "kp-236": {
+    title: "KP5: Endothermic reactions",
+    questions: [
+      {
+        id: "kp-236-q1",
+        prompt: "What is an endothermic reaction?",
+        choices: [
+          "A reaction with a net absorption of energy from the surroundings.",
+          "A reaction with a net release of energy to the surroundings.",
+          "A reaction that cannot change temperature.",
+          "A reaction where products have no energy."
+        ],
+        correctIndex: 0,
+        explanation: "Endothermic reactions take in energy overall."
+      },
+      {
+        id: "kp-236-q2",
+        prompt: "A beaker cools from 24.0°C to 18.5°C during a reaction. What does this suggest?",
+        choices: [
+          "The reaction is likely endothermic because it absorbed energy from the surroundings.",
+          "The reaction is likely exothermic because it warmed the surroundings.",
+          "No energy transfer occurred.",
+          "Mass was destroyed."
+        ],
+        correctIndex: 0,
+        explanation: "The surroundings cooled by 5.5°C, consistent with energy being absorbed by the reaction."
+      },
+      {
+        id: "kp-236-q3",
+        prompt: "For an endothermic reaction, what is true about the relative energy of products and reactants in an energy-level diagram?",
+        choices: [
+          "Products are at a higher energy level than reactants.",
+          "Products are always at a lower energy level than reactants.",
+          "Reactants and products must have zero energy.",
+          "Energy levels cannot be shown in diagrams."
+        ],
+        correctIndex: 0,
+        explanation: "Endothermic reactions absorb energy overall, so products are higher in energy."
+      }
+    ]
+  },
+  "kp-237": {
+    title: "KP6: Bond-breaking and bond-forming energy",
+    questions: [
+      {
+        id: "kp-237-q1",
+        prompt: "Which statement correctly describes bond energy changes?",
+        choices: [
+          "Breaking bonds absorbs energy; forming bonds releases energy.",
+          "Breaking bonds releases energy; forming bonds absorbs energy.",
+          "Both breaking and forming bonds always destroy energy.",
+          "Bonds change without any energy transfer."
+        ],
+        correctIndex: 0,
+        explanation: "This comparison is central to explaining endothermic and exothermic reactions."
+      },
+      {
+        id: "kp-237-q2",
+        prompt: "A reaction absorbs 180 kJ breaking bonds and releases 240 kJ forming bonds. What is the overall energy change?",
+        choices: [
+          "60 kJ released overall",
+          "60 kJ absorbed overall",
+          "420 kJ absorbed overall",
+          "No energy change"
+        ],
+        correctIndex: 0,
+        explanation: "240 kJ released minus 180 kJ absorbed gives 60 kJ released overall."
+      },
+      {
+        id: "kp-237-q3",
+        prompt: "A reaction absorbs more energy breaking bonds than it releases forming bonds. How should it be classified?",
+        choices: [
+          "Endothermic",
+          "Exothermic",
+          "Balanced but not chemical",
+          "A closed system only"
+        ],
+        correctIndex: 0,
+        explanation: "If the system absorbs more energy than it releases, the reaction is endothermic overall."
+      }
+    ]
+  },
+  "kp-238": {
+    title: "KP7: Temperature as evidence",
+    questions: [
+      {
+        id: "kp-238-q1",
+        prompt: "Why can temperature change be useful evidence during a reaction?",
+        choices: [
+          "It can show whether energy moved into or out of the surroundings.",
+          "It proves the exact products without any other observations.",
+          "It shows atoms were created.",
+          "It replaces the need to know the system."
+        ],
+        correctIndex: 0,
+        explanation: "Temperature change is a measurable sign of energy transfer."
+      },
+      {
+        id: "kp-238-q2",
+        prompt: "A reaction mixture gets warmer in a test tube. What is the most likely energy interpretation?",
+        choices: [
+          "Energy was released from the reaction system to the surroundings.",
+          "Energy was absorbed from the surroundings into the system.",
+          "No bonds were formed.",
+          "The reaction must be photosynthesis."
+        ],
+        correctIndex: 0,
+        explanation: "A warmer surrounding solution or container suggests an exothermic change."
+      },
+      {
+        id: "kp-238-q3",
+        prompt: "A student wants stronger evidence than 'it felt cold.' What data should they collect?",
+        choices: [
+          "Temperature measurements over time before and after mixing reactants",
+          "Only a drawing of the test tube",
+          "Only the names of the students nearby",
+          "Only the colour of the thermometer"
+        ],
+        correctIndex: 0,
+        explanation: "Quantitative temperature data makes the energy-transfer claim stronger."
+      }
+    ]
+  },
+  "kp-239": {
+    title: "KP8: Energy-level diagrams",
+    questions: [
+      {
+        id: "kp-239-q1",
+        prompt: "In an energy-level diagram, products are shown lower than reactants. What type of reaction does this represent?",
+        choices: [
+          "Exothermic",
+          "Endothermic",
+          "No energy transfer",
+          "An open system only"
+        ],
+        correctIndex: 0,
+        explanation: "Lower-energy products indicate energy was released overall."
+      },
+      {
+        id: "kp-239-q2",
+        prompt: "What does the vertical difference between reactants and products represent in an energy-level diagram?",
+        choices: [
+          "The overall energy change of the reaction",
+          "The number of atoms destroyed",
+          "The colour of the products",
+          "The mass of the container"
+        ],
+        correctIndex: 0,
+        explanation: "Energy-level diagrams compare relative energies to show net absorption or release."
+      },
+      {
+        id: "kp-239-q3",
+        prompt: "A diagram shows products above reactants and an arrow labelled energy absorbed. What is the correct interpretation?",
+        choices: [
+          "The reaction is endothermic because the products have higher energy.",
+          "The reaction is exothermic because products are above reactants.",
+          "The reaction cannot involve bonds.",
+          "The products have less energy than reactants."
+        ],
+        correctIndex: 0,
+        explanation: "Higher-energy products match an overall absorption of energy."
+      }
+    ]
+  },
+  "kp-240": {
+    title: "KP1: Luminol reaction",
+    questions: [
+      {
+        id: "kp-240-q1",
+        prompt: "Why can luminol help forensic investigators find possible blood evidence?",
+        choices: [
+          "It can react with iron from hemoglobin and emit a blue-green glow in the dark.",
+          "It turns every fabric red.",
+          "It destroys all non-blood stains.",
+          "It identifies a person's DNA by itself."
+        ],
+        correctIndex: 0,
+        explanation: "The glow can reveal traces that may contain blood, but it is a screening test."
+      },
+      {
+        id: "kp-240-q2",
+        prompt: "Why is a positive luminol test not conclusive proof that blood is present?",
+        choices: [
+          "Other substances can also cause luminol to emit light.",
+          "Luminol never reacts with blood.",
+          "The glow always lasts for several days.",
+          "A positive test means DNA has already been analyzed."
+        ],
+        correctIndex: 0,
+        explanation: "Some materials containing certain metals or other chemicals can also trigger luminol."
+      },
+      {
+        id: "kp-240-q3",
+        prompt: "What energy change causes the visible glow in a luminol reaction?",
+        choices: [
+          "Energy is released as light when excited electrons return to lower energy levels.",
+          "Atoms are converted completely into light.",
+          "Energy is destroyed by hemoglobin.",
+          "Electrons stop having energy after reacting."
+        ],
+        correctIndex: 0,
+        explanation: "The emitted light comes from electrons releasing energy as they drop back down."
+      }
+    ]
+  },
   "kp-306": {
     title: "KP1: Energy as an indirect concept",
     questions: [
