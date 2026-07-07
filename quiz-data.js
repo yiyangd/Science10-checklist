@@ -5739,6 +5739,826 @@ window.SCIENCE10_QUIZZES = {
       }
     ]
   },
+  "kp-141": {
+    title: "KP4: Gene therapy",
+    questions: [
+      {
+        id: "kp-141-q1",
+        prompt: "What is the main idea of gene therapy?",
+        choices: [
+          "A working form of a gene is delivered into affected cells or tissues.",
+          "A DNA profile is used to identify a suspect.",
+          "Sperm are placed in the uterus to assist reproduction.",
+          "A histogram is made from measured traits."
+        ],
+        correctIndex: 0,
+        explanation: "Gene therapy aims to add a healthy gene so affected cells can make a needed functional product."
+      },
+      {
+        id: "kp-141-q2",
+        prompt: "In a lung disorder caused by a faulty gene, why might delivering a healthy gene to lung cells help?",
+        choices: [
+          "The lung cells may begin making a normal protein that improves cell function.",
+          "The healthy gene changes every cell in the body instantly.",
+          "The treatment works by measuring DNA profile bands.",
+          "The treatment prevents all mutations from ever occurring."
+        ],
+        correctIndex: 0,
+        explanation: "If affected cells receive and use a working gene, they may produce the protein that the faulty gene could not."
+      },
+      {
+        id: "kp-141-q3",
+        prompt: "Why are delivery methods important in gene therapy?",
+        choices: [
+          "The healthy gene must reach the correct cells without causing unacceptable harm.",
+          "Genes can work only if they stay outside the body.",
+          "Delivery methods are used only for artificial insemination.",
+          "The method matters only for plant crops, never for human tissue."
+        ],
+        correctIndex: 0,
+        explanation: "Gene therapy depends on moving genetic material into target cells safely and effectively."
+      }
+    ]
+  },
+  "kp-142": {
+    title: "KP5: Genetic disease diagnosis",
+    questions: [
+      {
+        id: "kp-142-q1",
+        prompt: "How can identifying a mutated gene improve disease diagnosis?",
+        choices: [
+          "It can link a DNA change to a disorder and help doctors understand risk.",
+          "It guarantees that every person with the gene will have identical symptoms.",
+          "It removes the need for medical evidence.",
+          "It proves that all diseases are inherited."
+        ],
+        correctIndex: 0,
+        explanation: "Finding a disease-related mutation can support diagnosis and risk prediction, but it must be interpreted carefully."
+      },
+      {
+        id: "kp-142-q2",
+        prompt: "A family has a history of an inherited condition. What could DNA technology help determine?",
+        choices: [
+          "Whether a person carries a genetic variant linked to that condition.",
+          "Whether the person will never need medical care.",
+          "The person's exact future health in every detail.",
+          "The person's height without any measurement."
+        ],
+        correctIndex: 0,
+        explanation: "DNA testing can identify some disease-linked variants, but environment and other factors may also matter."
+      },
+      {
+        id: "kp-142-q3",
+        prompt: "What is a common misconception about genetic diagnosis?",
+        choices: [
+          "That a genetic test result is always a complete prediction of a person's future health.",
+          "That DNA technology can help connect genes and disease.",
+          "That some disorders are linked to mutations.",
+          "That doctors must interpret test results carefully."
+        ],
+        correctIndex: 0,
+        explanation: "Genetic information can be powerful, but results often need context and do not always predict outcomes perfectly."
+      }
+    ]
+  },
+  "kp-143": {
+    title: "KP6: DNA technology in British Columbia",
+    questions: [
+      {
+        id: "kp-143-q1",
+        prompt: "How can DNA-based testing support agriculture and trade?",
+        choices: [
+          "It can detect plant viruses earlier, reducing quarantine delays and crop losses.",
+          "It makes all crops immune to every virus.",
+          "It replaces the need to inspect imported plants.",
+          "It changes the price of crops without testing anything."
+        ],
+        correctIndex: 0,
+        explanation: "Earlier virus detection can help growers and buyers avoid spreading disease and reduce costly delays."
+      },
+      {
+        id: "kp-143-q2",
+        prompt: "Why is rapid DNA identification useful for invasive species in forests?",
+        choices: [
+          "Early detection can reduce damage and help prevent spread.",
+          "It makes invasive species native to the ecosystem.",
+          "It removes the need for forest management.",
+          "It works only after an invasive species has already destroyed the forest."
+        ],
+        correctIndex: 0,
+        explanation: "Fast identification helps people respond before an invasive species or pathogen causes greater harm."
+      },
+      {
+        id: "kp-143-q3",
+        prompt: "A device compares DNA from an insect egg sample with a library of known invasive species. What is the device mainly doing?",
+        choices: [
+          "Using genetic information to identify the organism.",
+          "Fertilizing eggs outside the body.",
+          "Creating a transgenic animal.",
+          "Measuring seed mass variation."
+        ],
+        correctIndex: 0,
+        explanation: "The device uses DNA comparison to identify whether the sample matches a known species or pathogen."
+      }
+    ]
+  },
+  "kp-144": {
+    title: "KP1: GMO controversy",
+    questions: [
+      {
+        id: "kp-144-q1",
+        prompt: "Why are GMOs controversial even when they have useful applications?",
+        choices: [
+          "They can bring benefits but also raise environmental, health, social, and ethical questions.",
+          "They never have any possible benefit.",
+          "They are controversial only because people dislike the word DNA.",
+          "They cannot affect farming, medicine, or ecosystems."
+        ],
+        correctIndex: 0,
+        explanation: "Responsible evaluation considers both potential benefits and possible risks or ethical concerns."
+      },
+      {
+        id: "kp-144-q2",
+        prompt: "A transgenic crop reduces insect damage but may affect non-target organisms. What is the best response?",
+        choices: [
+          "Evaluate both the farming benefit and the ecological risk using evidence.",
+          "Approve it automatically because one benefit exists.",
+          "Reject all evidence because it is biotechnology.",
+          "Ignore environmental effects if the crop grows well."
+        ],
+        correctIndex: 0,
+        explanation: "GMO decisions should weigh benefits and risks rather than focusing on only one side."
+      },
+      {
+        id: "kp-144-q3",
+        prompt: "Which question best shows balanced GMO evaluation?",
+        choices: [
+          "What are the benefits, risks, evidence quality, and who is affected?",
+          "Can I decide based only on one opinion?",
+          "Should all biotechnology be treated as identical?",
+          "Can environmental concerns be ignored if profit increases?"
+        ],
+        correctIndex: 0,
+        explanation: "A balanced evaluation asks about evidence, benefits, risks, and social effects."
+      }
+    ]
+  },
+  "kp-145": {
+    title: "KP2: Environmental risks",
+    questions: [
+      {
+        id: "kp-145-q1",
+        prompt: "What is one environmental concern linked to herbicide-resistant crops?",
+        choices: [
+          "They may encourage heavier herbicide use that could affect soil or water organisms.",
+          "They always remove the need for any chemicals.",
+          "They prevent all genes from moving between species.",
+          "They cannot interact with ecosystems."
+        ],
+        correctIndex: 0,
+        explanation: "Herbicide-resistant plants may change how chemicals are used, creating possible environmental risks."
+      },
+      {
+        id: "kp-145-q2",
+        prompt: "What do people mean by a possible 'superweed' concern?",
+        choices: [
+          "A resistance gene might move to a wild relative, making the weed harder to control.",
+          "A weed becomes larger only because it receives more sunlight.",
+          "A crop stops having DNA.",
+          "All weeds become harmless after gene transfer."
+        ],
+        correctIndex: 0,
+        explanation: "Gene transfer to wild plants could create populations that are more difficult to manage."
+      },
+      {
+        id: "kp-145-q3",
+        prompt: "A GMO plant grows well outside farms and competes with wild species. Which risk is this?",
+        choices: [
+          "A genetically modified organism may out-compete or breed with wild populations.",
+          "A reproductive technology risk from IVF.",
+          "A DNA profile privacy issue.",
+          "A frequency distribution error."
+        ],
+        correctIndex: 0,
+        explanation: "One ecological concern is that GMOs could affect natural populations through competition or interbreeding."
+      }
+    ]
+  },
+  "kp-146": {
+    title: "KP3: Health concerns",
+    questions: [
+      {
+        id: "kp-146-q1",
+        prompt: "Which concern is often raised about genetically modified food or medicine?",
+        choices: [
+          "Long-term effects and possible allergic reactions may need more evidence.",
+          "All GM foods are proven to cause the same illness.",
+          "GM food contains no molecules.",
+          "Labelling has no connection to consumer choice."
+        ],
+        correctIndex: 0,
+        explanation: "Some concerns focus on safety, allergies, and the need for long-term evidence."
+      },
+      {
+        id: "kp-146-q2",
+        prompt: "Why might some consumers want GMO labelling?",
+        choices: [
+          "Labelling can help people make informed choices about what they buy or eat.",
+          "Labelling changes the DNA of the food.",
+          "Labelling proves a product is unsafe.",
+          "Labelling prevents any need for regulation."
+        ],
+        correctIndex: 0,
+        explanation: "Labelling is connected to transparency and informed decision-making, not automatic proof of harm."
+      },
+      {
+        id: "kp-146-q3",
+        prompt: "What is the strongest evidence-based way to address a GMO health concern?",
+        choices: [
+          "Use carefully designed studies and transparent safety review.",
+          "Rely only on rumours from advertisements.",
+          "Assume all products are identical.",
+          "Ignore evidence if the product is popular."
+        ],
+        correctIndex: 0,
+        explanation: "Health claims should be evaluated with reliable studies and regulatory review."
+      }
+    ]
+  },
+  "kp-147": {
+    title: "KP4: Social and economic issues",
+    questions: [
+      {
+        id: "kp-147-q1",
+        prompt: "Why can biotechnology decisions be social and economic, not only scientific?",
+        choices: [
+          "They can affect research funding, food markets, farmers, consumers, and access to benefits.",
+          "They happen only inside one cell and never affect people.",
+          "They have no cost and no ownership questions.",
+          "They are unrelated to agriculture or medicine."
+        ],
+        correctIndex: 0,
+        explanation: "Biotechnology can influence who pays, who profits, who benefits, and who may face risks."
+      },
+      {
+        id: "kp-147-q2",
+        prompt: "A company owns a patented transgenic seed that many farmers rely on. Which issue is most relevant?",
+        choices: [
+          "Private enterprise may influence farming choices and food markets.",
+          "Stem cells can differentiate into many cell types.",
+          "Fertilization happens outside the body.",
+          "DNA profiles are used only in criminal cases."
+        ],
+        correctIndex: 0,
+        explanation: "Ownership and control of biotechnology products can create social and economic questions."
+      },
+      {
+        id: "kp-147-q3",
+        prompt: "Which evaluation question best fits this KP?",
+        choices: [
+          "Do the benefits justify the costs and who has access to those benefits?",
+          "Can this topic be judged without considering people?",
+          "Does biotechnology remove all economic concerns?",
+          "Can market effects be ignored if DNA is involved?"
+        ],
+        correctIndex: 0,
+        explanation: "Social and economic evaluation looks at costs, benefits, access, influence, and fairness."
+      }
+    ]
+  },
+  "kp-148": {
+    title: "KP5: Ethics of using organisms",
+    questions: [
+      {
+        id: "kp-148-q1",
+        prompt: "Which question is most directly ethical when using transgenic animals?",
+        choices: [
+          "Is it acceptable to create or use animals mainly for human medical benefit?",
+          "How many nucleotides are in a codon?",
+          "What is the average hand width in the class?",
+          "Which island has more cactus plants?"
+        ],
+        correctIndex: 0,
+        explanation: "Ethics asks what should be done and how living organisms should be treated."
+      },
+      {
+        id: "kp-148-q2",
+        prompt: "A transgenic goat produces a medicine in its milk. What should an ethical evaluation include?",
+        choices: [
+          "Human benefit, animal welfare, risks, and whether alternatives exist.",
+          "Only the price of the medicine.",
+          "Only the colour of the goat.",
+          "Only whether the gene came from a plant."
+        ],
+        correctIndex: 0,
+        explanation: "Ethical reasoning weighs benefits, harms, responsibilities, and possible alternatives."
+      },
+      {
+        id: "kp-148-q3",
+        prompt: "Why can organ-donor animal research raise difficult questions?",
+        choices: [
+          "It may help patients but also raises concerns about animal use and disease transfer.",
+          "It has no connection to human health.",
+          "It cannot involve any risk.",
+          "It is the same as measuring seed mass."
+        ],
+        correctIndex: 0,
+        explanation: "The textbook connects possible medical benefits with concerns about ethics and safety."
+      }
+    ]
+  },
+  "kp-149": {
+    title: "KP6: Gene therapy concerns",
+    questions: [
+      {
+        id: "kp-149-q1",
+        prompt: "Why has some gene therapy research been slowed or stopped in the past?",
+        choices: [
+          "Some treatments produced negative results, so safer procedures were needed.",
+          "Gene therapy never showed any promise.",
+          "DNA cannot be inserted into cells under any conditions.",
+          "All genetic disorders were already cured."
+        ],
+        correctIndex: 0,
+        explanation: "Safety concerns can lead researchers to pause or redesign experimental procedures."
+      },
+      {
+        id: "kp-149-q2",
+        prompt: "Which question shows a concern about defining a 'disorder' for gene therapy?",
+        choices: [
+          "Which genetic conditions should be treated, and who gets to decide?",
+          "How many seeds can tweezers pick up?",
+          "Which frog call is loudest?",
+          "How do roots absorb water?"
+        ],
+        correctIndex: 0,
+        explanation: "Gene therapy raises ethical questions about what counts as a condition needing treatment."
+      },
+      {
+        id: "kp-149-q3",
+        prompt: "What should be considered before approving a gene therapy trial?",
+        choices: [
+          "Possible benefits, safety risks, informed consent, and regulation.",
+          "Only whether the treatment sounds exciting.",
+          "Only whether the gene has a short name.",
+          "Only whether the patient lives near a laboratory."
+        ],
+        correctIndex: 0,
+        explanation: "Because gene therapy changes cells using genetic material, careful safety and ethical review matter."
+      }
+    ]
+  },
+  "kp-150": {
+    title: "KP1: Stem cells",
+    questions: [
+      {
+        id: "kp-150-q1",
+        prompt: "What is a stem cell?",
+        choices: [
+          "A cell that can divide and differentiate into other cell types.",
+          "A cell that has no DNA.",
+          "A finished protein made by bacteria.",
+          "A DNA band used in profiling."
+        ],
+        correctIndex: 0,
+        explanation: "Stem cells can divide and develop into specialized cell types under the right conditions."
+      },
+      {
+        id: "kp-150-q2",
+        prompt: "Why might stem cells help repair damaged tissue?",
+        choices: [
+          "They may be guided to become replacement cells for damaged tissue.",
+          "They erase all injuries instantly.",
+          "They work by changing a person's DNA profile.",
+          "They are useful only for identifying invasive species."
+        ],
+        correctIndex: 0,
+        explanation: "The promise of stem cells comes from their ability to produce specialized cells that may replace damaged ones."
+      },
+      {
+        id: "kp-150-q3",
+        prompt: "Which example best matches a possible stem cell application?",
+        choices: [
+          "Generating cells that may help repair damaged heart, nerve, or eye tissue.",
+          "Using a plasmid to clone a gene in bacteria.",
+          "Placing sperm in the uterus.",
+          "Testing fruit exports for viruses."
+        ],
+        correctIndex: 0,
+        explanation: "Stem cell research often focuses on producing useful cell types for tissue repair."
+      }
+    ]
+  },
+  "kp-151": {
+    title: "KP2: Embryonic and adult stem cells",
+    questions: [
+      {
+        id: "kp-151-q1",
+        prompt: "How do embryonic stem cells differ from adult stem cells?",
+        choices: [
+          "Embryonic stem cells can become any cell type; adult stem cells are more limited.",
+          "Adult stem cells can become any cell type, but embryonic stem cells cannot divide.",
+          "Both types can become only red blood cells.",
+          "Neither type can differentiate."
+        ],
+        correctIndex: 0,
+        explanation: "Embryonic stem cells have broader developmental potential than adult stem cells."
+      },
+      {
+        id: "kp-151-q2",
+        prompt: "Bone marrow stem cells commonly produce blood-related cells. What does this show?",
+        choices: [
+          "Adult stem cells are often limited to certain cell types.",
+          "Adult stem cells contain no DNA.",
+          "Embryonic stem cells are always found in bone marrow.",
+          "All stem cells can become any tissue equally easily."
+        ],
+        correctIndex: 0,
+        explanation: "Adult stem cells exist in specialized tissues and usually have a narrower range of possible cell types."
+      },
+      {
+        id: "kp-151-q3",
+        prompt: "What misconception should be avoided when comparing stem cells?",
+        choices: [
+          "Assuming every stem cell has the same ability to become any cell type.",
+          "Recognizing that stem cells can divide.",
+          "Comparing adult and embryonic stem cells by potential.",
+          "Connecting stem cells to tissue repair research."
+        ],
+        correctIndex: 0,
+        explanation: "Different stem cell types differ in how many cell types they can produce."
+      }
+    ]
+  },
+  "kp-152": {
+    title: "KP3: Adult stem cell treatments",
+    questions: [
+      {
+        id: "kp-152-q1",
+        prompt: "What are scientists trying to do with adult stem cells in treatments?",
+        choices: [
+          "Grow and guide them to make specific cell types for repair.",
+          "Use them only as labels on food products.",
+          "Turn every adult cell into a sperm cell.",
+          "Use them to make frequency histograms."
+        ],
+        correctIndex: 0,
+        explanation: "Adult stem cell research investigates how to grow and direct cells toward useful specialized types."
+      },
+      {
+        id: "kp-152-q2",
+        prompt: "Which condition could be connected to adult stem cell repair research?",
+        choices: [
+          "Damaged cardiac tissue after a heart attack.",
+          "A crop shipment tested for viruses.",
+          "A paternity DNA profile comparison.",
+          "A transgenic corn plant resisting insects."
+        ],
+        correctIndex: 0,
+        explanation: "The textbook lists possible uses such as heart tissue repair, vision restoration, diabetes, and spinal injury repair."
+      },
+      {
+        id: "kp-152-q3",
+        prompt: "Why is adult stem cell treatment still an area of research rather than a simple guaranteed cure?",
+        choices: [
+          "Cells must be grown, guided, delivered, and tested safely and effectively.",
+          "Adult stem cells cannot ever divide.",
+          "All adult stem cell treatments already work perfectly.",
+          "Stem cells are unrelated to tissue repair."
+        ],
+        correctIndex: 0,
+        explanation: "Medical treatments require evidence that the cells work safely in the intended tissue."
+      }
+    ]
+  },
+  "kp-153": {
+    title: "KP4: Stem cells and paralysis",
+    questions: [
+      {
+        id: "kp-153-q1",
+        prompt: "Why are stem cells being studied for spinal cord injuries?",
+        choices: [
+          "They may help replace or support damaged nerve cells.",
+          "They can identify a suspect at a crime scene.",
+          "They produce herbicide-resistant crops.",
+          "They make embryos form outside the body."
+        ],
+        correctIndex: 0,
+        explanation: "Some research explores whether stem cells can generate nerve cells or support repair after spinal cord injury."
+      },
+      {
+        id: "kp-153-q2",
+        prompt: "In evaluating a report about stem cells and paralysis, which point is most important?",
+        choices: [
+          "Whether the evidence shows real improvement, safety, and limits of the treatment.",
+          "Whether the headline promises a miracle cure.",
+          "Whether the treatment sounds futuristic.",
+          "Whether one patient story replaces all data."
+        ],
+        correctIndex: 0,
+        explanation: "Promising treatments still need careful evidence about benefits, risks, and limits."
+      },
+      {
+        id: "kp-153-q3",
+        prompt: "A treatment helps some patients regain sensation but not full movement. What is the best conclusion?",
+        choices: [
+          "The result may be promising but should not be described as a complete cure.",
+          "The treatment has no effect at all.",
+          "The treatment proves all paralysis is easily cured.",
+          "The treatment is unrelated to stem cells."
+        ],
+        correctIndex: 0,
+        explanation: "Partial improvement can be meaningful, but scientific claims should match the evidence."
+      }
+    ]
+  },
+  "kp-154": {
+    title: "KP1: Biology-related careers",
+    questions: [
+      {
+        id: "kp-154-q1",
+        prompt: "Which career connects biology knowledge with ethical decision-making?",
+        choices: [
+          "Bioethicist.",
+          "Weather announcer with no science role.",
+          "Store cashier sorting receipts only.",
+          "Musician tuning a guitar."
+        ],
+        correctIndex: 0,
+        explanation: "Bioethicists help think through difficult ethical questions in health care and research."
+      },
+      {
+        id: "kp-154-q2",
+        prompt: "Which career could use DNA and forest knowledge to improve tree health or growth?",
+        choices: [
+          "Tree breeder.",
+          "DNA profile suspect only.",
+          "Artificial insemination technician only.",
+          "Island travel agent."
+        ],
+        correctIndex: 0,
+        explanation: "Tree breeders can use biology and genetics to support forest management."
+      },
+      {
+        id: "kp-154-q3",
+        prompt: "Why does Unit 1 connect to many careers?",
+        choices: [
+          "DNA, genetics, biodiversity, and biotechnology are used in health, agriculture, ecology, and communication.",
+          "Biology careers never use evidence.",
+          "Careers in biology all require the same daily tasks.",
+          "DNA knowledge applies only to one laboratory job."
+        ],
+        correctIndex: 0,
+        explanation: "The unit's concepts connect to many fields, from medicine and forests to data science and illustration."
+      }
+    ]
+  },
+  "kp-155": {
+    title: "KP2: Career knowledge and skills",
+    questions: [
+      {
+        id: "kp-155-q1",
+        prompt: "Which skill would be especially important for a bioinformatics data scientist?",
+        choices: [
+          "Analyzing biological data with computational tools.",
+          "Ignoring evidence from DNA sequences.",
+          "Drawing conclusions without datasets.",
+          "Avoiding all communication with scientists."
+        ],
+        correctIndex: 0,
+        explanation: "Bioinformatics combines biology with data analysis and computing."
+      },
+      {
+        id: "kp-155-q2",
+        prompt: "A medical illustrator creates textbook diagrams of anatomy. Which mix of skills is most useful?",
+        choices: [
+          "Scientific understanding plus clear visual communication.",
+          "Only memorizing company slogans.",
+          "Only guessing at body structures.",
+          "Avoiding communication because the work is visual."
+        ],
+        correctIndex: 0,
+        explanation: "Medical illustration requires accurate science and strong communication through images."
+      },
+      {
+        id: "kp-155-q3",
+        prompt: "Why might a plant pathologist need both fieldwork and lab skills?",
+        choices: [
+          "Plant diseases may be observed in crops and investigated with biological tests.",
+          "Plant disease cannot be studied outside a computer game.",
+          "Field observations replace all need for evidence.",
+          "Lab tests are unrelated to agriculture."
+        ],
+        correctIndex: 0,
+        explanation: "Many biology careers combine observation, testing, analysis, and communication."
+      }
+    ]
+  },
+  "kp-156": {
+    title: "KP1: Genetic information privacy",
+    questions: [
+      {
+        id: "kp-156-q1",
+        prompt: "Why is genetic information a privacy issue?",
+        choices: [
+          "It can reveal personal and family health-related information.",
+          "It contains no personal information.",
+          "It can be safely shared with everyone without consent.",
+          "It is always identical for all people."
+        ],
+        correctIndex: 0,
+        explanation: "Genetic information can reveal sensitive information about a person and sometimes relatives."
+      },
+      {
+        id: "kp-156-q2",
+        prompt: "Which question is most connected to ownership of genetic information?",
+        choices: [
+          "Who should control access to a person's DNA test results?",
+          "How many seeds can be picked up in 30 seconds?",
+          "Which beak model works best for rice?",
+          "What colour is a transgenic crop?"
+        ],
+        correctIndex: 0,
+        explanation: "Ownership and control ask who can access, use, store, or share genetic data."
+      },
+      {
+        id: "kp-156-q3",
+        prompt: "Why might regulation be needed for personal genetic data?",
+        choices: [
+          "To help protect consent, privacy, storage, and responsible sharing.",
+          "To stop all medical research forever.",
+          "To make all DNA profiles public.",
+          "To prevent people from learning any biology."
+        ],
+        correctIndex: 0,
+        explanation: "Rules can help balance useful research and testing with protection of personal information."
+      }
+    ]
+  },
+  "kp-157": {
+    title: "KP2: Genetic discrimination",
+    questions: [
+      {
+        id: "kp-157-q1",
+        prompt: "What is genetic discrimination?",
+        choices: [
+          "Treating someone unfairly because of genetic information or predicted risk.",
+          "Using DNA to detect a plant virus.",
+          "Making a histogram of hand widths.",
+          "Choosing a vector for gene cloning."
+        ],
+        correctIndex: 0,
+        explanation: "Genetic discrimination means genetic data are used unfairly against a person."
+      },
+      {
+        id: "kp-157-q2",
+        prompt: "Which situation could raise a genetic discrimination concern?",
+        choices: [
+          "An insurer wants DNA test results before deciding coverage.",
+          "A teacher asks students to graph seed masses anonymously.",
+          "A biologist compares frog calls to identify species.",
+          "A farmer checks plants for visible disease symptoms."
+        ],
+        correctIndex: 0,
+        explanation: "Insurance, employment, medical plans, and similar decisions can raise concerns if genetic risk is misused."
+      },
+      {
+        id: "kp-157-q3",
+        prompt: "Why can genetic information about one person affect relatives?",
+        choices: [
+          "Relatives may share alleles and inherited risks.",
+          "Relatives always have identical DNA profiles.",
+          "Genetic data never runs in families.",
+          "Only unrelated people can share genes."
+        ],
+        correctIndex: 0,
+        explanation: "Because relatives share inherited DNA, one person's result may imply information about family members."
+      }
+    ]
+  },
+  "kp-158": {
+    title: "KP3: Regulation and policy",
+    questions: [
+      {
+        id: "kp-158-q1",
+        prompt: "Why can laws struggle to keep up with genetics technology?",
+        choices: [
+          "Scientific tools can change faster than policies are written and updated.",
+          "Genetic technology never changes.",
+          "Laws automatically update whenever DNA changes.",
+          "Policies are unnecessary for personal information."
+        ],
+        correctIndex: 0,
+        explanation: "New testing and data-sharing abilities can appear faster than governments can create clear rules."
+      },
+      {
+        id: "kp-158-q2",
+        prompt: "Which policy would support responsible genetic information use?",
+        choices: [
+          "Require informed consent before sharing identifiable genetic test results.",
+          "Allow anyone to sell a person's DNA data without permission.",
+          "Ban all discussion of privacy.",
+          "Make genetic information public by default."
+        ],
+        correctIndex: 0,
+        explanation: "Consent and limits on sharing help protect privacy and control."
+      },
+      {
+        id: "kp-158-q3",
+        prompt: "A research biobank stores DNA sequences for future studies. What rule would be most relevant?",
+        choices: [
+          "Clear rules for consent, storage, access, and whether data can be reused.",
+          "No record of who can access the samples.",
+          "Automatic sharing with employers.",
+          "Destroy all information before any study can begin."
+        ],
+        correctIndex: 0,
+        explanation: "Biobanks can be useful, but they need policies to protect participants and guide responsible research."
+      }
+    ]
+  },
+  "kp-159": {
+    title: "KP1: GMO benefits and purposes",
+    questions: [
+      {
+        id: "kp-159-q1",
+        prompt: "Why might scientists develop a GMO crop?",
+        choices: [
+          "To improve a trait such as pest resistance, nutrition, shelf life, or disease resistance.",
+          "To remove all need for evidence about food safety.",
+          "To make plants stop containing DNA.",
+          "To prevent farmers from comparing benefits and risks."
+        ],
+        correctIndex: 0,
+        explanation: "GMOs are often developed for specific purposes such as agriculture, nutrition, medicine, or environmental management."
+      },
+      {
+        id: "kp-159-q2",
+        prompt: "A crop is engineered to produce a protein that harms a major insect pest. What is the intended benefit?",
+        choices: [
+          "Reducing crop damage from that pest.",
+          "Making the crop impossible to regulate.",
+          "Increasing all non-target effects on purpose.",
+          "Turning the crop into an animal."
+        ],
+        correctIndex: 0,
+        explanation: "Pest-resistant crops are designed to reduce losses from organisms that damage the crop."
+      },
+      {
+        id: "kp-159-q3",
+        prompt: "What should you identify when researching a specific GMO?",
+        choices: [
+          "Why it was developed, what advantage it provides, and what evidence supports claims.",
+          "Only whether the name sounds scientific.",
+          "Only the company logo.",
+          "Only one opinion with no source."
+        ],
+        correctIndex: 0,
+        explanation: "A good GMO evaluation explains the purpose, claimed benefit, and evidence."
+      }
+    ]
+  },
+  "kp-160": {
+    title: "KP2: GMO environmental effects",
+    questions: [
+      {
+        id: "kp-160-q1",
+        prompt: "Which environmental effect should be investigated for a pest-resistant GMO crop?",
+        choices: [
+          "Whether it affects non-target organisms in the ecosystem.",
+          "Whether it changes the spelling of DNA.",
+          "Whether it can be used for IVF.",
+          "Whether it makes all organisms identical."
+        ],
+        correctIndex: 0,
+        explanation: "Environmental assessment asks how GMOs affect organisms beyond the intended pest or crop."
+      },
+      {
+        id: "kp-160-q2",
+        prompt: "A GMO reduces pesticide spraying but may affect insect biodiversity. What is the best evaluation?",
+        choices: [
+          "Compare both the reduced chemical use and possible biodiversity effects using evidence.",
+          "Accept the GMO without checking any ecosystem data.",
+          "Reject all possible benefits because one risk exists.",
+          "Ignore non-target organisms."
+        ],
+        correctIndex: 0,
+        explanation: "Environmental effects can be positive and negative, so evidence-based comparison is needed."
+      },
+      {
+        id: "kp-160-q3",
+        prompt: "Why might additional studies be needed before judging a GMO's environmental safety?",
+        choices: [
+          "Ecosystem effects can be complex and may appear over time.",
+          "No GMO can ever affect an ecosystem.",
+          "All environmental effects are obvious after one day.",
+          "Evidence quality does not matter."
+        ],
+        correctIndex: 0,
+        explanation: "Longer-term and broader studies can reveal impacts on biodiversity, non-target species, and ecosystem interactions."
+      }
+    ]
+  },
   "kp-306": {
     title: "KP1: Energy as an indirect concept",
     questions: [
