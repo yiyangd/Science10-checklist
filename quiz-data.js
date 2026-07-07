@@ -8199,6 +8199,826 @@ window.SCIENCE10_QUIZZES = {
       }
     ]
   },
+  "kp-201": {
+    title: "KP1: Law of conservation of mass",
+    questions: [
+      {
+        id: "kp-201-q1",
+        prompt: "A sealed flask contains 42.0 g of reactants before a reaction. After the reaction is complete, what total mass should be in the flask?",
+        choices: [
+          "42.0 g",
+          "Less than 42.0 g because products are new substances",
+          "More than 42.0 g because atoms are made during reactions",
+          "0 g because the reactants were used up"
+        ],
+        correctIndex: 0,
+        explanation: "In a chemical reaction, mass is conserved when matter cannot leave or enter the system."
+      },
+      {
+        id: "kp-201-q2",
+        prompt: "Which statement best describes the law of conservation of mass?",
+        choices: [
+          "The total mass of substances used equals the total mass of substances produced.",
+          "Reactants always have more mass than products.",
+          "Products always have more mass because new atoms are formed.",
+          "Mass is conserved only in physical changes."
+        ],
+        correctIndex: 0,
+        explanation: "Chemical reactions rearrange atoms; they do not create or destroy matter."
+      },
+      {
+        id: "kp-201-q3",
+        prompt: "Why is atom rearrangement important for explaining conservation of mass?",
+        choices: [
+          "The same atoms are present before and after the reaction, just connected differently.",
+          "Atoms disappear when bonds break.",
+          "Only energy is conserved in chemical reactions.",
+          "Each product atom is newly created from heat."
+        ],
+        correctIndex: 0,
+        explanation: "Conservation of mass follows from conserving the number and type of atoms."
+      }
+    ]
+  },
+  "kp-202": {
+    title: "KP2: Closed systems",
+    questions: [
+      {
+        id: "kp-202-q1",
+        prompt: "Which setup is best for testing whether mass is conserved during a reaction that produces a gas?",
+        choices: [
+          "A sealed container on a balance before and after mixing the reactants.",
+          "An open beaker so the gas can escape easily.",
+          "A paper cup that is weighed only after the reaction.",
+          "A container with one reactant added after the final mass is measured."
+        ],
+        correctIndex: 0,
+        explanation: "A closed system prevents matter, including gases, from leaving or entering."
+      },
+      {
+        id: "kp-202-q2",
+        prompt: "In a closed system, what can enter or leave while matter cannot?",
+        choices: [
+          "Energy",
+          "Atoms",
+          "Liquid products",
+          "Gas molecules only"
+        ],
+        correctIndex: 0,
+        explanation: "Closed systems can exchange energy with the surroundings, but not matter."
+      },
+      {
+        id: "kp-202-q3",
+        prompt: "A student seals a flask, mixes two solutions inside it, and finds the mass is unchanged. What does this result support?",
+        choices: [
+          "The reaction conserved mass because no matter left the system.",
+          "No reaction could have happened.",
+          "The products must be identical to the reactants.",
+          "The balance ignored gas particles."
+        ],
+        correctIndex: 0,
+        explanation: "Mass can remain constant even when new substances form, if the system is closed."
+      }
+    ]
+  },
+  "kp-203": {
+    title: "KP3: Open systems",
+    questions: [
+      {
+        id: "kp-203-q1",
+        prompt: "An effervescent tablet reacts in an open beaker of water and the measured mass decreases. What is the best explanation?",
+        choices: [
+          "Gas particles escaped into the air, so the beaker system lost matter.",
+          "Atoms were destroyed during bubbling.",
+          "The water stopped being matter.",
+          "The balance always reads lower during chemical reactions."
+        ],
+        correctIndex: 0,
+        explanation: "In an open system, matter such as gas can leave, changing the measured mass of the container."
+      },
+      {
+        id: "kp-203-q2",
+        prompt: "Which description matches an open system?",
+        choices: [
+          "Matter and energy can both enter or leave.",
+          "Matter is trapped but energy cannot move.",
+          "Only atoms can enter, not molecules.",
+          "Nothing can enter or leave."
+        ],
+        correctIndex: 0,
+        explanation: "Open systems allow exchange of both matter and energy with surroundings."
+      },
+      {
+        id: "kp-203-q3",
+        prompt: "Why can an open-system reaction seem to violate conservation of mass?",
+        choices: [
+          "Matter may move out of the measured system even though total matter is still conserved.",
+          "Chemical reactions sometimes destroy atoms in open containers.",
+          "Open containers stop products from forming.",
+          "Energy leaving the system has mass equal to the missing product."
+        ],
+        correctIndex: 0,
+        explanation: "The apparent change comes from the boundary of what is measured, not from matter being destroyed."
+      }
+    ]
+  },
+  "kp-204": {
+    title: "KP4: Lavoisier's contribution",
+    questions: [
+      {
+        id: "kp-204-q1",
+        prompt: "Why were careful mass measurements important in Lavoisier-style experiments?",
+        choices: [
+          "They showed that the mass of reactants matched the mass of products in closed systems.",
+          "They proved that gases have no mass.",
+          "They showed that products are always heavier than reactants.",
+          "They replaced the need to observe chemical changes."
+        ],
+        correctIndex: 0,
+        explanation: "Repeated measurements helped establish the law of conservation of mass."
+      },
+      {
+        id: "kp-204-q2",
+        prompt: "A scientist heats a solid in sealed glassware and measures all contents before and after. What makes this evidence strong?",
+        choices: [
+          "The system prevents products such as gases from escaping during measurement.",
+          "Heating always makes the final mass larger.",
+          "Glassware cancels measurement errors automatically.",
+          "The colour of a product is enough to prove conservation."
+        ],
+        correctIndex: 0,
+        explanation: "Keeping matter inside the apparatus lets the measured mass represent all reactants and products."
+      },
+      {
+        id: "kp-204-q3",
+        prompt: "Which conclusion best connects experimental evidence to a scientific law?",
+        choices: [
+          "Repeated closed-system reactions with equal before-and-after mass support a general conservation rule.",
+          "One colourful reaction proves every scientific idea.",
+          "If a reaction gives off light, mass cannot be measured.",
+          "A law is based on preference rather than evidence."
+        ],
+        correctIndex: 0,
+        explanation: "Scientific laws are supported by repeated patterns in evidence."
+      }
+    ]
+  },
+  "kp-205": {
+    title: "KP5: Atom conservation",
+    questions: [
+      {
+        id: "kp-205-q1",
+        prompt: "Which atom count shows that \\(2CO + O_2 -> 2CO_2\\) conserves oxygen atoms?",
+        choices: [
+          "Left: 4 O atoms; right: 4 O atoms",
+          "Left: 2 O atoms; right: 4 O atoms",
+          "Left: 3 O atoms; right: 2 O atoms",
+          "Left: 1 O atom; right: 2 O atoms"
+        ],
+        correctIndex: 0,
+        explanation: "The left side has 2 O atoms in 2CO plus 2 O atoms in O2, for 4 total; the right side has 4 O atoms in 2CO2."
+      },
+      {
+        id: "kp-205-q2",
+        prompt: "Which equation is not balanced because oxygen atoms are not conserved?",
+        choices: [
+          "\\(H_2 + O_2 -> H_2O\\)",
+          "\\(2H_2 + O_2 -> 2H_2O\\)",
+          "\\(N_2 + 3H_2 -> 2NH_3\\)",
+          "\\(CH_4 + 2O_2 -> CO_2 + 2H_2O\\)"
+        ],
+        correctIndex: 0,
+        explanation: "Hydrogen is conserved in this equation, but oxygen is not; it is still the unbalanced choice among the options."
+      },
+      {
+        id: "kp-205-q3",
+        prompt: "What should you count to check whether an equation obeys conservation of mass?",
+        choices: [
+          "Atoms of each element on both sides of the arrow.",
+          "Only the number of plus signs.",
+          "Only the number of product formulas.",
+          "The number of letters in each compound name."
+        ],
+        correctIndex: 0,
+        explanation: "A balanced equation has the same number of each kind of atom on both sides."
+      }
+    ]
+  },
+  "kp-206": {
+    title: "KP1: Chemical equations",
+    questions: [
+      {
+        id: "kp-206-q1",
+        prompt: "What does a chemical equation represent?",
+        choices: [
+          "A chemical reaction using words, formulas, or both.",
+          "Only the colour of a product.",
+          "A list of unrelated elements.",
+          "The temperature of a room during an experiment."
+        ],
+        correctIndex: 0,
+        explanation: "Chemical equations summarize reactants changing into products."
+      },
+      {
+        id: "kp-206-q2",
+        prompt: "In a chemical equation, what does the arrow usually mean?",
+        choices: [
+          "Produces or yields",
+          "Is less important than",
+          "Must be cooled before",
+          "Has the same name as"
+        ],
+        correctIndex: 0,
+        explanation: "The arrow points from reactants toward the products formed."
+      },
+      {
+        id: "kp-206-q3",
+        prompt: "In \\(zinc + hydrochloric\\ acid -> zinc\\ chloride + hydrogen\\), what does the plus sign on the left mean?",
+        choices: [
+          "Zinc reacts with hydrochloric acid.",
+          "Zinc is the same substance as hydrochloric acid.",
+          "Hydrochloric acid is a product.",
+          "No chemical change is described."
+        ],
+        correctIndex: 0,
+        explanation: "On the reactant side, the plus sign means the substances react with each other."
+      }
+    ]
+  },
+  "kp-207": {
+    title: "KP2: Reactants and products",
+    questions: [
+      {
+        id: "kp-207-q1",
+        prompt: "In \\(2Mg + O_2 -> 2MgO\\), which substance is a product?",
+        choices: [
+          "\\(MgO\\)",
+          "\\(Mg\\)",
+          "\\(O_2\\)",
+          "\\(Mg + O_2\\)"
+        ],
+        correctIndex: 0,
+        explanation: "Products are written on the right side of the arrow."
+      },
+      {
+        id: "kp-207-q2",
+        prompt: "What are reactants?",
+        choices: [
+          "Substances that undergo chemical change during a reaction.",
+          "Substances formed only after a reaction ends.",
+          "Symbols that show physical states.",
+          "Numbers used only for balancing."
+        ],
+        correctIndex: 0,
+        explanation: "Reactants start on the left side and are changed into products."
+      },
+      {
+        id: "kp-207-q3",
+        prompt: "A student writes calcium carbonate -> calcium oxide + carbon dioxide. Which statement is correct?",
+        choices: [
+          "Calcium carbonate is the reactant; calcium oxide and carbon dioxide are products.",
+          "All three substances are reactants.",
+          "Carbon dioxide is the only reactant.",
+          "The arrow points from products to reactants."
+        ],
+        correctIndex: 0,
+        explanation: "The substance before the arrow reacts, and the substances after the arrow form."
+      }
+    ]
+  },
+  "kp-208": {
+    title: "KP3: Word equations",
+    questions: [
+      {
+        id: "kp-208-q1",
+        prompt: "Which is a word equation for iron reacting with sulfur to form iron sulfide?",
+        choices: [
+          "iron + sulfur -> iron sulfide",
+          "\\(Fe + S -> FeS\\)",
+          "\\(2Fe + 3Cl_2 -> 2FeCl_3\\)",
+          "iron sulfide -> iron + sulfur + oxygen"
+        ],
+        correctIndex: 0,
+        explanation: "A word equation uses substance names instead of chemical formulas."
+      },
+      {
+        id: "kp-208-q2",
+        prompt: "Why can a word equation be useful before writing formulas?",
+        choices: [
+          "It identifies the reactants and products in words first.",
+          "It always proves the equation is balanced.",
+          "It shows every atom count automatically.",
+          "It replaces the need for chemical formulas in all cases."
+        ],
+        correctIndex: 0,
+        explanation: "Word equations help organize the reaction before translating names into formulas."
+      },
+      {
+        id: "kp-208-q3",
+        prompt: "Which information is usually missing from a simple word equation?",
+        choices: [
+          "Exact chemical formulas and coefficients",
+          "Names of reactants and products",
+          "The direction from reactants to products",
+          "Whether a reaction is being described"
+        ],
+        correctIndex: 0,
+        explanation: "Word equations name substances but usually do not show formulas or balanced ratios."
+      }
+    ]
+  },
+  "kp-209": {
+    title: "KP4: Skeleton equations",
+    questions: [
+      {
+        id: "kp-209-q1",
+        prompt: "What makes \\(Mg + O_2 -> MgO\\) a skeleton equation rather than a balanced equation?",
+        choices: [
+          "It uses formulas but does not show equal oxygen atom counts on both sides.",
+          "It uses only words.",
+          "It has no products.",
+          "It contains state symbols."
+        ],
+        correctIndex: 0,
+        explanation: "A skeleton equation gives formulas but may not yet conserve atoms."
+      },
+      {
+        id: "kp-209-q2",
+        prompt: "Which statement about skeleton equations is correct?",
+        choices: [
+          "They may need coefficients added to obey conservation of mass.",
+          "They are always already balanced.",
+          "They change formulas by altering subscripts.",
+          "They cannot include real chemical formulas."
+        ],
+        correctIndex: 0,
+        explanation: "Skeleton equations are starting points for balancing."
+      },
+      {
+        id: "kp-209-q3",
+        prompt: "A skeleton equation has correct formulas but unequal atom counts. What should be changed?",
+        choices: [
+          "Coefficients in front of formulas",
+          "Subscripts inside formulas",
+          "Element symbols into different elements",
+          "Reactants into unrelated substances"
+        ],
+        correctIndex: 0,
+        explanation: "Balancing changes coefficients, not the identities of substances."
+      }
+    ]
+  },
+  "kp-210": {
+    title: "KP5: Balanced chemical equations",
+    questions: [
+      {
+        id: "kp-210-q1",
+        prompt: "Which equation is balanced?",
+        choices: [
+          "\\(2Na + Cl_2 -> 2NaCl\\)",
+          "\\(Na + Cl_2 -> NaCl\\)",
+          "\\(Na + Cl -> NaCl_2\\)",
+          "\\(2Na + Cl_2 -> Na_2Cl\\)"
+        ],
+        correctIndex: 0,
+        explanation: "The balanced equation has 2 Na atoms and 2 Cl atoms on both sides."
+      },
+      {
+        id: "kp-210-q2",
+        prompt: "What must be true in a balanced chemical equation?",
+        choices: [
+          "Each element has the same number of atoms on both sides.",
+          "The products must have fewer atoms than the reactants.",
+          "Every coefficient must be 1.",
+          "All substances must be gases."
+        ],
+        correctIndex: 0,
+        explanation: "Balanced equations show conservation of atoms and mass."
+      },
+      {
+        id: "kp-210-q3",
+        prompt: "Which final check best confirms that \\(N_2 + 3H_2 -> 2NH_3\\) is balanced?",
+        choices: [
+          "Count 2 N atoms and 6 H atoms on both sides.",
+          "Count one formula on the left and one formula on the right.",
+          "Check that nitrogen is written before hydrogen.",
+          "Make sure no state symbols are included."
+        ],
+        correctIndex: 0,
+        explanation: "The atom counts for every element must match."
+      }
+    ]
+  },
+  "kp-211": {
+    title: "KP6: Coefficients",
+    questions: [
+      {
+        id: "kp-211-q1",
+        prompt: "In \\(3H_2O\\), what does the coefficient 3 apply to?",
+        choices: [
+          "The entire water formula, giving 3 molecules of water.",
+          "Only the hydrogen atoms, giving 3 hydrogen atoms total.",
+          "Only the oxygen atom, giving 3 oxygen molecules.",
+          "The charge on water."
+        ],
+        correctIndex: 0,
+        explanation: "A coefficient multiplies every atom in the formula that follows it."
+      },
+      {
+        id: "kp-211-q2",
+        prompt: "How many oxygen atoms are represented by \\(4CO_2\\)?",
+        choices: [
+          "8",
+          "2",
+          "4",
+          "6"
+        ],
+        correctIndex: 0,
+        explanation: "Each CO2 has 2 oxygen atoms, and the coefficient 4 gives 4 x 2 = 8 oxygen atoms."
+      },
+      {
+        id: "kp-211-q3",
+        prompt: "Why are coefficients used when balancing equations?",
+        choices: [
+          "They change the number of formula units or molecules without changing substance identities.",
+          "They change one compound into a different compound.",
+          "They show the colour of each substance.",
+          "They replace element symbols."
+        ],
+        correctIndex: 0,
+        explanation: "Coefficients adjust amounts while keeping formulas unchanged."
+      }
+    ]
+  },
+  "kp-212": {
+    title: "KP7: Subscripts",
+    questions: [
+      {
+        id: "kp-212-q1",
+        prompt: "What does the subscript 2 mean in \\(H_2O\\)?",
+        choices: [
+          "Each water molecule contains 2 hydrogen atoms.",
+          "There are 2 water molecules.",
+          "Water has a charge of 2.",
+          "Oxygen appears twice."
+        ],
+        correctIndex: 0,
+        explanation: "Subscripts describe the atom ratio within one molecule or formula unit."
+      },
+      {
+        id: "kp-212-q2",
+        prompt: "Why should you not change \\(H_2O\\) to \\(H_2O_2\\) when balancing an equation?",
+        choices: [
+          "Changing a subscript changes the identity of the substance.",
+          "Subscripts do not affect atom counts.",
+          "Changing subscripts is the only correct balancing method.",
+          "The coefficient already shows the state of matter."
+        ],
+        correctIndex: 0,
+        explanation: "H2O and H2O2 are different substances with different formulas."
+      },
+      {
+        id: "kp-212-q3",
+        prompt: "How many oxygen atoms are in one formula unit of \\(Ca(NO_3)_2\\)?",
+        choices: [
+          "6",
+          "3",
+          "2",
+          "5"
+        ],
+        correctIndex: 0,
+        explanation: "The subscript outside the bracket doubles all atoms inside: 2 x 3 oxygen atoms = 6."
+      }
+    ]
+  },
+  "kp-213": {
+    title: "KP8: States of matter",
+    questions: [
+      {
+        id: "kp-213-q1",
+        prompt: "What does \\((aq)\\) mean in a chemical equation?",
+        choices: [
+          "The substance is dissolved in water.",
+          "The substance is a gas.",
+          "The substance is a pure solid metal.",
+          "The substance is absent from the reaction."
+        ],
+        correctIndex: 0,
+        explanation: "Aqueous means dissolved in water."
+      },
+      {
+        id: "kp-213-q2",
+        prompt: "Which state symbol should be used for oxygen gas in an equation?",
+        choices: [
+          "\\((g)\\)",
+          "\\((s)\\)",
+          "\\((l)\\)",
+          "\\((aq)\\)"
+        ],
+        correctIndex: 0,
+        explanation: "The symbol (g) represents a gas."
+      },
+      {
+        id: "kp-213-q3",
+        prompt: "Why can state symbols be useful in chemical equations?",
+        choices: [
+          "They show the physical form of each reactant and product.",
+          "They replace the need to balance atom counts.",
+          "They show which atoms have disappeared.",
+          "They tell the exact mass of each substance."
+        ],
+        correctIndex: 0,
+        explanation: "State symbols add information about whether substances are solid, liquid, gas, or aqueous."
+      }
+    ]
+  },
+  "kp-214": {
+    title: "KP9: Diatomic and polyatomic elements",
+    questions: [
+      {
+        id: "kp-214-q1",
+        prompt: "Which formula correctly represents elemental nitrogen in a chemical equation?",
+        choices: [
+          "\\(N_2\\)",
+          "\\(N\\)",
+          "\\(N_3\\)",
+          "\\(NO_2\\)"
+        ],
+        correctIndex: 0,
+        explanation: "Nitrogen is one of the elements that naturally occurs as diatomic N2."
+      },
+      {
+        id: "kp-214-q2",
+        prompt: "Which pair contains only diatomic elements listed in this topic?",
+        choices: [
+          "\\(H_2\\) and \\(Cl_2\\)",
+          "\\(Na\\) and \\(Mg\\)",
+          "\\(CO_2\\) and \\(H_2O\\)",
+          "\\(S_8\\) and \\(P_4\\)"
+        ],
+        correctIndex: 0,
+        explanation: "Hydrogen and chlorine are common diatomic elements; sulfur and phosphorus are polyatomic elements."
+      },
+      {
+        id: "kp-214-q3",
+        prompt: "Why is writing oxygen as \\(O_2\\) important when balancing a reaction with oxygen gas?",
+        choices: [
+          "Elemental oxygen gas naturally exists as two-atom molecules.",
+          "Oxygen atoms can only react one at a time.",
+          "The subscript 2 means oxygen is aqueous.",
+          "Oxygen stops being an element when written as O2."
+        ],
+        correctIndex: 0,
+        explanation: "Using the correct elemental formula prevents atom-counting errors."
+      }
+    ]
+  },
+  "kp-215": {
+    title: "KP10: Balancing strategy",
+    questions: [
+      {
+        id: "kp-215-q1",
+        prompt: "When balancing a chemical equation, which strategy is usually recommended?",
+        choices: [
+          "Balance compounds first, elements last, and check all atom counts at the end.",
+          "Change subscripts until both sides look similar.",
+          "Balance hydrogen and oxygen first in every equation no matter what.",
+          "Ignore polyatomic ions because they cannot be counted."
+        ],
+        correctIndex: 0,
+        explanation: "The textbook strategy emphasizes coefficients, compounds first, and a final atom check."
+      },
+      {
+        id: "kp-215-q2",
+        prompt: "Which balanced equation correctly uses the smallest whole-number coefficients?",
+        choices: [
+          "\\(2Al + 3Cl_2 -> 2AlCl_3\\)",
+          "\\(Al + Cl_2 -> AlCl_3\\)",
+          "\\(4Al + 6Cl_2 -> 4AlCl_3\\)",
+          "\\(2Al + Cl_2 -> 2AlCl_3\\)"
+        ],
+        correctIndex: 0,
+        explanation: "2, 3, and 2 balance Al and Cl using the smallest whole-number ratio."
+      },
+      {
+        id: "kp-215-q3",
+        prompt: "If \\(SO_4\\) appears unchanged on both sides of an equation, what can help with balancing?",
+        choices: [
+          "Treat \\(SO_4\\) as a single polyatomic ion unit while placing coefficients.",
+          "Split sulfur and oxygen into new elements.",
+          "Change \\(SO_4\\) to \\(S_4O\\).",
+          "Ignore it because polyatomic ions have no atoms."
+        ],
+        correctIndex: 0,
+        explanation: "Unchanged polyatomic ions can be counted as units to simplify balancing."
+      }
+    ]
+  },
+  "kp-216": {
+    title: "KP1: Matter and waste",
+    questions: [
+      {
+        id: "kp-216-q1",
+        prompt: "How does conservation of mass apply to waste that is burned or buried?",
+        choices: [
+          "The matter is transformed or moved, but it does not disappear.",
+          "The matter is destroyed completely.",
+          "The matter becomes energy with no remaining products.",
+          "The law applies only inside school labs."
+        ],
+        correctIndex: 0,
+        explanation: "Waste matter remains on Earth in changed forms or locations."
+      },
+      {
+        id: "kp-216-q2",
+        prompt: "Why is conservation of mass relevant to environmental responsibility?",
+        choices: [
+          "It reminds us that materials released into air, water, or soil still exist somewhere.",
+          "It proves pollution cannot spread.",
+          "It means recycling creates brand-new matter.",
+          "It shows that all waste becomes harmless immediately."
+        ],
+        correctIndex: 0,
+        explanation: "Matter cycles and persists, so waste decisions can have long-term effects."
+      },
+      {
+        id: "kp-216-q3",
+        prompt: "A factory says its liquid waste is gone because it was diluted in a river. What is the science problem with that claim?",
+        choices: [
+          "Dilution spreads the matter out; it does not make the matter cease to exist.",
+          "Liquids are not matter.",
+          "Water destroys all dissolved substances.",
+          "Only solid waste must obey conservation of mass."
+        ],
+        correctIndex: 0,
+        explanation: "Conservation of mass means the waste particles remain, even if less concentrated."
+      }
+    ]
+  },
+  "kp-217": {
+    title: "KP2: Reducing versus recycling",
+    questions: [
+      {
+        id: "kp-217-q1",
+        prompt: "Which action is an example of reducing waste rather than recycling it?",
+        choices: [
+          "Choosing a reusable bottle so fewer single-use bottles are made.",
+          "Melting used plastic into new pellets.",
+          "Sorting cans into a blue bin after use.",
+          "Breaking down paper fibres to make new paper."
+        ],
+        correctIndex: 0,
+        explanation: "Reducing prevents some material use before waste is created."
+      },
+      {
+        id: "kp-217-q2",
+        prompt: "Why is reducing waste different from recycling waste?",
+        choices: [
+          "Reducing avoids producing some waste, while recycling manages material after it exists.",
+          "Reducing only applies to gases, while recycling only applies to metals.",
+          "Reducing destroys matter, while recycling creates matter.",
+          "There is no meaningful difference."
+        ],
+        correctIndex: 0,
+        explanation: "Reducing changes demand and use; recycling processes existing material."
+      },
+      {
+        id: "kp-217-q3",
+        prompt: "Which argument best uses conservation of mass?",
+        choices: [
+          "Preventing waste can matter because discarded material does not simply vanish later.",
+          "Recycling is unnecessary because matter disappears in landfills.",
+          "Reducing waste creates new natural resources.",
+          "Burning waste removes all atoms from Earth."
+        ],
+        correctIndex: 0,
+        explanation: "The law supports thinking about waste before and after it is produced."
+      }
+    ]
+  },
+  "kp-218": {
+    title: "KP3: Waste classification",
+    questions: [
+      {
+        id: "kp-218-q1",
+        prompt: "Why might communities classify waste as hazardous, residential, agricultural, or industrial?",
+        choices: [
+          "Different waste types may need different handling, storage, or disposal decisions.",
+          "Classification makes waste stop being matter.",
+          "All classified waste becomes safe automatically.",
+          "Classification replaces the need to reduce waste."
+        ],
+        correctIndex: 0,
+        explanation: "Classification can guide safer decisions, but it does not remove the material."
+      },
+      {
+        id: "kp-218-q2",
+        prompt: "What is a possible limitation of waste classification?",
+        choices: [
+          "Labels can create a false sense of security if people ignore actual risk or quantity.",
+          "It prevents waste from being measured.",
+          "It always makes hazardous waste harmless.",
+          "It can only be used for kitchen garbage."
+        ],
+        correctIndex: 0,
+        explanation: "Classification helps, but decisions still require evidence about danger, amount, and movement."
+      },
+      {
+        id: "kp-218-q3",
+        prompt: "Which item would most likely need special hazardous-waste handling?",
+        choices: [
+          "A container of leftover corrosive cleaner",
+          "A clean cardboard box",
+          "An apple core",
+          "A plain notebook page"
+        ],
+        correctIndex: 0,
+        explanation: "Hazardous wastes can pose chemical risks and need careful handling."
+      }
+    ]
+  },
+  "kp-219": {
+    title: "KP1: Tanning as chemical processing",
+    questions: [
+      {
+        id: "kp-219-q1",
+        prompt: "Why is tanning a chemical processing example?",
+        choices: [
+          "Chemicals are used to change raw hide so it resists decay and stays useful.",
+          "The hide is only cut into smaller pieces.",
+          "No properties of the hide change.",
+          "Tanning is just measuring the mass of leather."
+        ],
+        correctIndex: 0,
+        explanation: "Tanning changes the hide's chemical properties, not just its shape."
+      },
+      {
+        id: "kp-219-q2",
+        prompt: "Which property is a goal of treating raw hide during tanning?",
+        choices: [
+          "Keeping the material flexible and less likely to decay",
+          "Making the hide dissolve instantly in water",
+          "Removing all fibres from the hide",
+          "Turning the hide into a gas"
+        ],
+        correctIndex: 0,
+        explanation: "Tanning helps preserve hide and make it useful as leather."
+      },
+      {
+        id: "kp-219-q3",
+        prompt: "How does traditional tanning knowledge connect to chemistry?",
+        choices: [
+          "It uses materials and processes that change the properties of animal hide.",
+          "It avoids all interactions between substances.",
+          "It works only because matter is destroyed.",
+          "It has no connection to chemical change."
+        ],
+        correctIndex: 0,
+        explanation: "Traditional practices can involve detailed understanding of material changes."
+      }
+    ]
+  },
+  "kp-220": {
+    title: "KP2: Brain tanning",
+    questions: [
+      {
+        id: "kp-220-q1",
+        prompt: "What role do fats and oils play in brain tanning?",
+        choices: [
+          "They help change and lubricate the hide fibres so the leather remains flexible.",
+          "They make atoms disappear from the hide.",
+          "They turn the hide into a metal.",
+          "They are used only as a colour label."
+        ],
+        correctIndex: 0,
+        explanation: "Brain tissue can provide fats and oils that affect the hide's fibres."
+      },
+      {
+        id: "kp-220-q2",
+        prompt: "Which step would best fit the idea that brain tanning is a process, not a single instant reaction?",
+        choices: [
+          "Scraping, washing, stretching, treating with an emulsion, and smoking the hide",
+          "Writing a formula once and doing nothing to the hide",
+          "Only weighing the hide before class",
+          "Changing a subscript in a chemical equation"
+        ],
+        correctIndex: 0,
+        explanation: "The method includes several physical and chemical steps."
+      },
+      {
+        id: "kp-220-q3",
+        prompt: "Which comparison is most reasonable between brain tanning and some industrial tanning methods?",
+        choices: [
+          "Brain tanning can use natural materials, while some industrial methods use chemicals that require careful risk management.",
+          "Brain tanning creates no chemical changes at all.",
+          "Industrial tanning cannot involve chemical substances.",
+          "Both methods make waste matter disappear."
+        ],
+        correctIndex: 0,
+        explanation: "A sustainability comparison considers materials, risks, scale, and waste."
+      }
+    ]
+  },
   "kp-306": {
     title: "KP1: Energy as an indirect concept",
     questions: [
