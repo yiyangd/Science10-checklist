@@ -4919,6 +4919,416 @@ window.SCIENCE10_QUIZZES = {
       }
     ]
   },
+  "kp-121": {
+    title: "KP3: Conservation action",
+    questions: [
+      {
+        id: "kp-121-q1",
+        prompt: "Which step belongs in a strong conservation campaign for a species at risk?",
+        choices: [
+          "Check the population status, identify threats, and choose actions that can be evaluated.",
+          "Pick a logo first and avoid collecting any population evidence.",
+          "Protect only the species but ignore the habitat it depends on.",
+          "Measure success only by how many posters are printed."
+        ],
+        correctIndex: 0,
+        explanation: "A conservation plan should use evidence about population status and threats, then evaluate whether actions help."
+      },
+      {
+        id: "kp-121-q2",
+        prompt: "A class wants to protect a local amphibian whose breeding pond is being damaged. Which action is most directly connected to conservation biology?",
+        choices: [
+          "Document the population, reduce pond damage, and monitor whether breeding improves.",
+          "Move all amphibians to an unrelated habitat without checking their needs.",
+          "Count only the number of social media views for the campaign.",
+          "Assume the species is safe because it was common ten years ago."
+        ],
+        correctIndex: 0,
+        explanation: "Conservation action should connect the species' needs, habitat protection, and measurable outcomes."
+      },
+      {
+        id: "kp-121-q3",
+        prompt: "What is a common weakness in a conservation proposal?",
+        choices: [
+          "It describes a threat but does not explain how success will be measured.",
+          "It includes both habitat protection and population monitoring.",
+          "It uses current evidence about the species' status.",
+          "It considers people, materials, and timing."
+        ],
+        correctIndex: 0,
+        explanation: "Without a way to measure outcomes, it is hard to know whether the campaign actually helped the species."
+      }
+    ]
+  },
+  "kp-122": {
+    title: "KP1: Measuring variation",
+    questions: [
+      {
+        id: "kp-122-q1",
+        prompt: "Why should students use the same measuring method for every hand-width measurement in a variation investigation?",
+        choices: [
+          "A standardized method makes the measurements more reliable and comparable.",
+          "Changing the method each time increases accuracy.",
+          "The method does not matter if the sample is small.",
+          "Standardized measurement removes all variation from the population."
+        ],
+        correctIndex: 0,
+        explanation: "To compare individuals fairly, the measured trait must be collected in the same way each time."
+      },
+      {
+        id: "kp-122-q2",
+        prompt: "Which trait would be suitable for studying measurable variation within one plant species?",
+        choices: [
+          "Seed mass measured from many individual seeds of the same species.",
+          "The number of pages in a science textbook.",
+          "The colour of classroom desks.",
+          "The weather on one afternoon."
+        ],
+        correctIndex: 0,
+        explanation: "Seed mass is a measurable biological trait that can vary among individuals in a population."
+      },
+      {
+        id: "kp-122-q3",
+        prompt: "A student measures only three seeds and concludes that all seeds of that species have almost the same mass. What is the main problem?",
+        choices: [
+          "The sample is too small to represent variation in the population well.",
+          "Seed mass cannot be measured with a balance.",
+          "All inherited traits are identical within a species.",
+          "Variation can be studied only by looking at DNA sequences."
+        ],
+        correctIndex: 0,
+        explanation: "Larger samples usually give a more reliable picture of the range of variation."
+      }
+    ]
+  },
+  "kp-123": {
+    title: "KP2: Frequency distributions",
+    questions: [
+      {
+        id: "kp-123-q1",
+        prompt: "In a frequency histogram of hand widths, what does the tallest bar usually show?",
+        choices: [
+          "The measurement range that occurred most often in the sample.",
+          "The exact hand width of every person in the class.",
+          "The trait that has no genetic influence.",
+          "The measurement range that must be ignored."
+        ],
+        correctIndex: 0,
+        explanation: "A frequency histogram groups measurements into ranges; the tallest bar has the greatest frequency."
+      },
+      {
+        id: "kp-123-q2",
+        prompt: "A continuous trait forms a bell-shaped distribution. What does this usually mean?",
+        choices: [
+          "Most individuals are near the middle range, with fewer at the extremes.",
+          "Every individual has exactly the same measurement.",
+          "Only the extreme values are real measurements.",
+          "The trait cannot be influenced by inheritance."
+        ],
+        correctIndex: 0,
+        explanation: "Many continuous traits have many individuals near average values and fewer individuals at very high or low values."
+      },
+      {
+        id: "kp-123-q3",
+        prompt: "A class records seed masses in ranges of 0.10 g. Which graph best shows how often each range occurred?",
+        choices: [
+          "A frequency histogram.",
+          "A map of the school.",
+          "A food web diagram.",
+          "A Punnett square."
+        ],
+        correctIndex: 0,
+        explanation: "A histogram is used to display frequencies for ranges of numerical data."
+      }
+    ]
+  },
+  "kp-124": {
+    title: "KP1: Modelling beak adaptation",
+    questions: [
+      {
+        id: "kp-124-q1",
+        prompt: "In a beak adaptation model, what could different tweezers or forceps represent?",
+        choices: [
+          "Different beak structures that may collect different foods with different success.",
+          "Different species that all have identical feeding ability.",
+          "Different weather events that do not affect food supply.",
+          "Different alleles that cannot influence survival."
+        ],
+        correctIndex: 0,
+        explanation: "The tools model beak structures, and their success can be compared with different food types."
+      },
+      {
+        id: "kp-124-q2",
+        prompt: "Tool A picks up 18 small seeds and 3 large seeds in 30 s. Tool B picks up 6 small seeds and 15 large seeds. If only large seeds are common, which tool would the model suggest is favoured?",
+        choices: [
+          "Tool B, because it gathers more large seeds.",
+          "Tool A, because it gathers fewer large seeds.",
+          "Neither tool, because food type never matters.",
+          "Both tools equally, because the small-seed result is higher for Tool A."
+        ],
+        correctIndex: 0,
+        explanation: "If large seeds are the main available food, the tool that handles large seeds better would have the advantage in the model."
+      },
+      {
+        id: "kp-124-q3",
+        prompt: "What is the model trying to show about small advantages?",
+        choices: [
+          "A small feeding advantage can affect survival and reproduction over many generations.",
+          "A beak advantage matters only for one trial and never for future populations.",
+          "All beak shapes are always equally useful in every environment.",
+          "Adaptation happens because individuals choose new genes when food changes."
+        ],
+        correctIndex: 0,
+        explanation: "If a trait helps individuals get more food, it may increase survival and reproduction over time."
+      }
+    ]
+  },
+  "kp-125": {
+    title: "KP2: Environmental change and food availability",
+    questions: [
+      {
+        id: "kp-125-q1",
+        prompt: "A drought greatly reduces the number of soft, small seeds but leaves many tough, large seeds. What selective pressure might increase?",
+        choices: [
+          "Pressure favouring birds with beaks that can handle tough, large seeds.",
+          "Pressure favouring birds that can eat only the missing small seeds.",
+          "Pressure making every bird's beak change instantly.",
+          "No pressure, because food supply cannot affect survival."
+        ],
+        correctIndex: 0,
+        explanation: "When available food changes, traits that help individuals use the available food may be favoured."
+      },
+      {
+        id: "kp-125-q2",
+        prompt: "In a model trial, seed A drops from 40 seeds to 4 seeds after an environmental event. What is the best interpretation?",
+        choices: [
+          "The event changed food availability, so feeding success may shift among beak types.",
+          "The event proves all beak types are now extinct.",
+          "The event has no connection to adaptation models.",
+          "The event guarantees the same tool will always win."
+        ],
+        correctIndex: 0,
+        explanation: "A change in available food can change which structure performs best in the model."
+      },
+      {
+        id: "kp-125-q3",
+        prompt: "Which prediction best uses natural selection reasoning?",
+        choices: [
+          "If a food type stays common for many generations, traits that help use that food may become more common.",
+          "If the food changes, all individuals immediately grow the same new beak.",
+          "A rare food type always favours the largest population.",
+          "Environmental change affects only behaviour and never survival."
+        ],
+        correctIndex: 0,
+        explanation: "Natural selection can change trait frequencies when traits affect survival and reproduction under current conditions."
+      }
+    ]
+  },
+  "kp-126": {
+    title: "KP3: Model limitations",
+    questions: [
+      {
+        id: "kp-126-q1",
+        prompt: "What is one limitation of using tweezers and seeds to model bird beak adaptation?",
+        choices: [
+          "The model leaves out many real factors such as predators, competition, behaviour, and reproduction.",
+          "The model is useless because it cannot show any pattern at all.",
+          "The model includes every detail of a real ecosystem.",
+          "The model proves that birds are the same as tools."
+        ],
+        correctIndex: 0,
+        explanation: "Models can show useful patterns, but they simplify complex ecosystems."
+      },
+      {
+        id: "kp-126-q2",
+        prompt: "Which conclusion goes beyond what the beak model can safely show?",
+        choices: [
+          "This tool won one food-collection trial, so one real bird species will definitely evolve in exactly the same way.",
+          "Some structures may collect certain food types more efficiently.",
+          "Food availability can change which structure performs best.",
+          "Repeating trials can make the model data more reliable."
+        ],
+        correctIndex: 0,
+        explanation: "A classroom model can suggest patterns, but it cannot predict exact evolution in a real species."
+      },
+      {
+        id: "kp-126-q3",
+        prompt: "How can students improve the reliability of a beak adaptation model?",
+        choices: [
+          "Run repeated trials, average the results, and keep procedures consistent.",
+          "Use a different timing method for every trial.",
+          "Record only the trial that supports their prediction.",
+          "Change the number of seeds randomly during each comparison."
+        ],
+        correctIndex: 0,
+        explanation: "Repeated, consistent trials reduce the effect of chance and make comparisons stronger."
+      }
+    ]
+  },
+  "kp-127": {
+    title: "KP1: Behavioural isolation",
+    questions: [
+      {
+        id: "kp-127-q1",
+        prompt: "How can different frog calls contribute to behavioural isolation?",
+        choices: [
+          "Frogs may choose mates with the correct call, reducing interbreeding with other groups.",
+          "Calls change the number of chromosomes in every frog.",
+          "Calls make all frogs look identical.",
+          "Calls prevent any frog from surviving in water."
+        ],
+        correctIndex: 0,
+        explanation: "Mating signals such as calls can keep closely related groups from interbreeding."
+      },
+      {
+        id: "kp-127-q2",
+        prompt: "Two meadowlark species look very similar and live in overlapping areas, but their songs differ and they rarely mate. What kind of barrier is this?",
+        choices: [
+          "Behavioural isolation.",
+          "Identical gene pools.",
+          "Monoculture.",
+          "Artificial insemination."
+        ],
+        correctIndex: 0,
+        explanation: "Different mating signals are a behavioural barrier between species."
+      },
+      {
+        id: "kp-127-q3",
+        prompt: "Why might similar-looking leopard frogs still be classified as different species?",
+        choices: [
+          "They may have different calls and other differences that limit interbreeding.",
+          "Species must always be identified only by body colour.",
+          "If organisms look similar, their mating signals must be identical.",
+          "Frogs cannot be separated into more than one species."
+        ],
+        correctIndex: 0,
+        explanation: "Appearance alone may miss behavioural and biological differences between related species."
+      }
+    ]
+  },
+  "kp-128": {
+    title: "KP2: Conservation and species identification",
+    questions: [
+      {
+        id: "kp-128-q1",
+        prompt: "Why does it matter if leopard frogs are eight related species rather than one widespread species?",
+        choices: [
+          "A decline in one species could be hidden if all frogs are counted as a single group.",
+          "It means amphibian populations cannot decline.",
+          "It proves conservation monitoring is unnecessary.",
+          "It means calls are never useful for identifying species."
+        ],
+        correctIndex: 0,
+        explanation: "Correct species identification helps scientists notice which populations or species need protection."
+      },
+      {
+        id: "kp-128-q2",
+        prompt: "A wetland survey reports 'many leopard frogs' but does not identify the species. What conservation problem could this create?",
+        choices: [
+          "A rare species might be overlooked because it is grouped with more common relatives.",
+          "The survey automatically becomes more accurate.",
+          "All conservation decisions become easier.",
+          "Species identification has no role in monitoring."
+        ],
+        correctIndex: 0,
+        explanation: "Grouping different species together can hide declines or local rarity."
+      },
+      {
+        id: "kp-128-q3",
+        prompt: "Which evidence would best support separating two similar frog populations into different species?",
+        choices: [
+          "Consistent differences in mating calls plus other biological differences.",
+          "One blurry photograph of a frog from each population.",
+          "The fact that both populations live near water.",
+          "The assumption that all frogs in North America are the same species."
+        ],
+        correctIndex: 0,
+        explanation: "Multiple consistent differences, especially those linked to reproduction, strengthen species identification."
+      }
+    ]
+  },
+  "kp-129": {
+    title: "KP1: Island adaptation",
+    questions: [
+      {
+        id: "kp-129-q1",
+        prompt: "On an island with rocky tide pools and slippery algae, which rat trait would most likely be useful?",
+        choices: [
+          "Good grip and feeding traits suited to shore organisms.",
+          "Bright colours that make the rat easier for predators to see.",
+          "A body plan that works only in dry desert sand.",
+          "Loss of all ability to find food."
+        ],
+        correctIndex: 0,
+        explanation: "Useful adaptations should match the island's food sources, surface, predators, and climate."
+      },
+      {
+        id: "kp-129-q2",
+        prompt: "Why can rats on different islands become adapted in different ways?",
+        choices: [
+          "Each island can have different foods, predators, geography, and climate.",
+          "All islands have exactly the same selective pressures.",
+          "Isolation prevents natural selection from acting.",
+          "A population's traits change only when humans design them."
+        ],
+        correctIndex: 0,
+        explanation: "Different environments can favour different traits in isolated populations."
+      },
+      {
+        id: "kp-129-q3",
+        prompt: "Which island-design explanation uses natural selection correctly?",
+        choices: [
+          "Rats with traits that help them survive and reproduce on the island may pass those alleles on more often.",
+          "A rat decides which alleles it needs and adds them to its DNA.",
+          "Every rat on the island changes traits at the same time.",
+          "Adaptations appear only because the island is old."
+        ],
+        correctIndex: 0,
+        explanation: "Adaptation depends on heritable traits affecting survival and reproduction over generations."
+      }
+    ]
+  },
+  "kp-130": {
+    title: "KP2: Adaptation and gene pools",
+    questions: [
+      {
+        id: "kp-130-q1",
+        prompt: "A rat from Island A washes onto Island B. What must happen before its alleles can affect Island B's gene pool?",
+        choices: [
+          "It must survive, reproduce, and pass alleles to offspring in the Island B population.",
+          "It only needs to arrive on the shore.",
+          "It must be larger than every other rat, even if it never reproduces.",
+          "It must change all existing alleles in the population immediately."
+        ],
+        correctIndex: 0,
+        explanation: "Migration affects a gene pool only when migrants contribute alleles through reproduction."
+      },
+      {
+        id: "kp-130-q2",
+        prompt: "Which situation would most likely add new alleles to an island population?",
+        choices: [
+          "A migrant with a different allele survives and has offspring with local individuals.",
+          "A migrant arrives but dies before reproducing.",
+          "A local rat finds a new food but leaves no offspring.",
+          "A storm changes the beach but no organisms migrate or reproduce."
+        ],
+        correctIndex: 0,
+        explanation: "New alleles enter the gene pool when reproducing individuals pass them to the next generation."
+      },
+      {
+        id: "kp-130-q3",
+        prompt: "Why might a migrant rat fail to change the future population even if it reaches a new island?",
+        choices: [
+          "It may be poorly adapted to the new island and fail to survive or reproduce.",
+          "Arrival always guarantees many offspring.",
+          "Gene pools change without reproduction.",
+          "Migration always removes all existing variation."
+        ],
+        correctIndex: 0,
+        explanation: "Survival and reproduction determine whether the migrant's alleles become part of the population."
+      }
+    ]
+  },
   "kp-306": {
     title: "KP1: Energy as an indirect concept",
     questions: [
