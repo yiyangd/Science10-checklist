@@ -12299,6 +12299,211 @@ window.SCIENCE10_QUIZZES = {
       }
     ]
   },
+  "kp-301": {
+    title: "KP4: Observation and reaction type",
+    questions: [
+      {
+        id: "kp-301-q1",
+        prompt: "A student mixes two clear solutions and a cloudy solid appears while the temperature stays nearly the same. Which observation is most useful for classifying the reaction?",
+        choices: [
+          "The formation of a precipitate suggests a double replacement reaction may have occurred.",
+          "The lack of temperature change proves no chemical reaction occurred.",
+          "A cloudy solid always means combustion occurred.",
+          "The reaction must be neutralization because both reactants were liquids."
+        ],
+        correctIndex: 0,
+        explanation: "A new insoluble solid is evidence of a chemical change and often supports double replacement reasoning."
+      },
+      {
+        id: "kp-301-q2",
+        prompt: "In a lab, a candle burns and a cool beaker held above it becomes foggy inside. Which classification is best supported?",
+        choices: [
+          "Combustion, because a fuel reacted with oxygen and produced water vapour among the products.",
+          "Decomposition, because the beaker broke the wax into elements.",
+          "Single replacement, because oxygen replaced carbon in the wax.",
+          "Neutralization, because the flame became smaller."
+        ],
+        correctIndex: 0,
+        explanation: "Burning candle wax is a combustion reaction; water vapour on the beaker is one clue that hydrogen in the fuel formed water."
+      },
+      {
+        id: "kp-301-q3",
+        prompt: "Why should observations be connected to equations before deciding a reaction type?",
+        choices: [
+          "Different reaction types can share visible signs, so the reactants and products must also be considered.",
+          "Visible evidence is never useful in chemistry.",
+          "Reaction type depends only on whether a thermometer was used.",
+          "Equations are needed only for reactions that produce light."
+        ],
+        correctIndex: 0,
+        explanation: "Evidence such as bubbles, precipitates, heat, or colour change is helpful, but classification also depends on the pattern of reactants and products."
+      }
+    ]
+  },
+  "kp-302": {
+    title: "KP1: Antacids and neutralization",
+    questions: [
+      {
+        id: "kp-302-q1",
+        prompt: "Why can an antacid reduce the effect of excess stomach acid?",
+        choices: [
+          "It contains a basic substance that reacts with acid to form less acidic products.",
+          "It makes the stomach acid disappear without forming products.",
+          "It turns every acid into oxygen gas.",
+          "It works only by cooling the stomach acid."
+        ],
+        correctIndex: 0,
+        explanation: "Antacids are bases or basic compounds that neutralize acid, producing products such as a salt and water, and sometimes carbon dioxide."
+      },
+      {
+        id: "kp-302-q2",
+        prompt: "A tablet containing magnesium hydroxide reacts with hydrochloric acid. Which equation is balanced?",
+        choices: [
+          "\\(Mg(OH)_2 + 2HCl -> MgCl_2 + 2H_2O\\)",
+          "\\(Mg(OH)_2 + HCl -> MgCl + H_2O\\)",
+          "\\(Mg(OH)_2 + 2HCl -> MgH_2 + 2ClOH\\)",
+          "\\(Mg(OH)_2 -> MgO + H_2\\)"
+        ],
+        correctIndex: 0,
+        explanation: "Two hydrochloric acid units are needed to neutralize the two hydroxide groups, forming magnesium chloride and water."
+      },
+      {
+        id: "kp-302-q3",
+        prompt: "A student says, \"The best antacid is the one that makes the solution basic.\" What is the best correction?",
+        choices: [
+          "An antacid should neutralize excess acid, not necessarily make the final solution strongly basic.",
+          "A strong base is always safest to swallow.",
+          "Neutralization means the solution must become pH 14.",
+          "Antacids work by adding more acid."
+        ],
+        correctIndex: 0,
+        explanation: "The goal is to reduce acidity toward a safer range; making the solution strongly basic could create a different problem."
+      }
+    ]
+  },
+  "kp-303": {
+    title: "KP2: Experimental variables",
+    questions: [
+      {
+        id: "kp-303-q1",
+        prompt: "A group compares three antacid brands by adding each to the same volume and concentration of acid. What is the independent variable?",
+        choices: [
+          "The antacid brand being tested.",
+          "The final pH measurement.",
+          "The volume and concentration of acid kept the same.",
+          "The safety goggles worn during the test."
+        ],
+        correctIndex: 0,
+        explanation: "The independent variable is what the group changes between trials: the antacid being compared."
+      },
+      {
+        id: "kp-303-q2",
+        prompt: "Which setup is the fairest way to compare how much acid different antacids can neutralize?",
+        choices: [
+          "Use the same acid volume and concentration, same tablet mass, and same endpoint method for each antacid.",
+          "Use a different acid concentration for each brand to save time.",
+          "Crush one tablet but leave the others whole, then compare speed only.",
+          "Stop each trial whenever the solution looks interesting."
+        ],
+        correctIndex: 0,
+        explanation: "Controlled conditions help ensure that differences in results are caused by the antacid, not by inconsistent testing."
+      },
+      {
+        id: "kp-303-q3",
+        prompt: "In an antacid investigation, final pH is measured after each trial. What role does final pH play?",
+        choices: [
+          "It is a dependent variable because it is measured as a result of the test.",
+          "It is an independent variable because the group chooses it before testing.",
+          "It is a controlled variable because it must start different each time.",
+          "It is unrelated to neutralization."
+        ],
+        correctIndex: 0,
+        explanation: "The dependent variable is what is measured to judge the effect of the independent variable."
+      }
+    ]
+  },
+  "kp-304": {
+    title: "KP3: Effectiveness criteria",
+    questions: [
+      {
+        id: "kp-304-q1",
+        prompt: "Two antacids both neutralize the same amount of acid. Antacid A costs less per dose, but Antacid B needs a smaller mass. What is the best conclusion?",
+        choices: [
+          "The recommendation depends on which effectiveness criteria are most important.",
+          "Antacid A must be best because cost is the only scientific factor.",
+          "Antacid B must be best because mass is the only possible factor.",
+          "Neither antacid worked because the results were not identical."
+        ],
+        correctIndex: 0,
+        explanation: "Effectiveness can include neutralizing ability, amount needed, cost, side effects, and other evidence-based criteria."
+      },
+      {
+        id: "kp-304-q2",
+        prompt: "A class decides that the best antacid should neutralize acid with the fewest side effects and a reasonable cost. Which evidence best supports a recommendation?",
+        choices: [
+          "A data table comparing neutralizing ability, dose needed, cost, and side-effect notes for each antacid.",
+          "A single student's favourite package colour.",
+          "The tablet that fizzed the loudest, with no other data.",
+          "The antacid with the longest brand name."
+        ],
+        correctIndex: 0,
+        explanation: "A recommendation should match the chosen criteria and use multiple pieces of evidence."
+      },
+      {
+        id: "kp-304-q3",
+        prompt: "Why can choosing an antacid from only one measurement be misleading?",
+        choices: [
+          "One measurement may ignore other important criteria such as cost, dose, safety, or side effects.",
+          "Scientific decisions should never use measurements.",
+          "A single measurement always proves a product is safe.",
+          "Neutralization cannot be measured in a lab."
+        ],
+        correctIndex: 0,
+        explanation: "The textbook-style investigation asks students to decide which properties matter, so the conclusion should be based on those criteria together."
+      }
+    ]
+  },
+  "kp-305": {
+    title: "KP4: Balanced neutralization equations",
+    questions: [
+      {
+        id: "kp-305-q1",
+        prompt: "Which balanced equation represents hydrochloric acid reacting with sodium hydroxide?",
+        choices: [
+          "\\(HCl + NaOH -> NaCl + H_2O\\)",
+          "\\(HCl + NaOH -> NaH + ClOH\\)",
+          "\\(2HCl + NaOH -> NaCl_2 + H_2O\\)",
+          "\\(HCl + NaOH -> NaCl + H_2\\)"
+        ],
+        correctIndex: 0,
+        explanation: "A simple acid-base neutralization forms a salt, sodium chloride, and water with atoms conserved."
+      },
+      {
+        id: "kp-305-q2",
+        prompt: "Calcium carbonate can act as an antacid. Which balanced equation fits its reaction with hydrochloric acid?",
+        choices: [
+          "\\(CaCO_3 + 2HCl -> CaCl_2 + CO_2 + H_2O\\)",
+          "\\(CaCO_3 + HCl -> CaCl + CO_2 + H_2O\\)",
+          "\\(CaCO_3 + 2HCl -> CaH_2 + CCl_2 + O_3\\)",
+          "\\(CaCO_3 -> CaO + CO_2 + HCl\\)"
+        ],
+        correctIndex: 0,
+        explanation: "Carbonate antacids react with acid to form a salt, carbon dioxide, and water; two HCl units balance the chloride and hydrogen atoms."
+      },
+      {
+        id: "kp-305-q3",
+        prompt: "When writing a balanced neutralization equation for an antacid, what should be checked last?",
+        choices: [
+          "That every element has the same number of atoms on both sides of the equation.",
+          "That subscripts have been changed until the equation looks balanced.",
+          "That the acid is always written as the only product.",
+          "That water is removed if it makes balancing harder."
+        ],
+        correctIndex: 0,
+        explanation: "Balancing uses coefficients to conserve atoms; changing subscripts would change the substances."
+      }
+    ]
+  },
   "kp-306": {
     title: "KP1: Energy as an indirect concept",
     questions: [
