@@ -10666,12 +10666,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-261-q1",
         prompt: "Why should an energy-source investigation include a balanced chemical equation?",
         choices: [
-          "It shows the atoms conserved and the reactant-product ratios involved in the energy-producing reaction.",
           "It proves the fuel has no environmental impact.",
           "It replaces all evidence about energy output.",
+          "It shows the atoms conserved and the reactant-product ratios involved in the energy-producing reaction.",
           "It makes the reaction happen faster."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "A balanced equation connects the reaction to atom rearrangement, bond changes, and fuel use."
       },
       {
@@ -10690,12 +10690,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-261-q3",
         prompt: "How does bond information help explain useful energy from a fuel reaction?",
         choices: [
-          "Energy is absorbed when bonds break and released when new bonds form, so the net change matters.",
           "Bonds are unrelated to energy output.",
           "Only coefficients store energy.",
-          "Energy appears because atoms are destroyed."
+          "Energy appears because atoms are destroyed.",
+          "Energy is absorbed when bonds break and released when new bonds form, so the net change matters."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Useful energy depends on the overall balance of bond-breaking and bond-forming energy."
       }
     ]
@@ -10707,24 +10707,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-262-q1",
         prompt: "Which evaluation compares both advantages and disadvantages of gasoline as an energy source?",
         choices: [
-          "It stores useful energy for transportation, but combustion products and extraction impacts must be considered.",
           "It is useful, so it has no drawbacks.",
+          "It stores useful energy for transportation, but combustion products and extraction impacts must be considered.",
           "It has emissions, so it can never provide useful energy.",
           "Its chemical equation is balanced, so social impacts do not matter."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Energy sources should be evaluated using benefits and trade-offs."
       },
       {
         id: "kp-262-q2",
         prompt: "Which factor belongs in a broad evaluation of an energy source?",
         choices: [
-          "Environmental, social, economic, and energy-use impacts",
-          "Only whether the reaction has an arrow",
-          "Only whether the fuel name is familiar",
-          "Only the colour of the flame"
+          "Only whether the reaction has an arrow.",
+          "Only whether the fuel name is familiar.",
+          "Environmental, social, economic, and energy-use impacts.",
+          "Only the colour of the flame."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "A broad evaluation includes more than the chemistry alone."
       },
       {
@@ -10748,36 +10748,36 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-263-q1",
         prompt: "Which description best matches a synthesis reaction?",
         choices: [
-          "Two or more reactants combine to form one compound.",
           "One compound breaks into several products.",
           "Two ionic compounds exchange positive ions.",
-          "A fuel reacts with oxygen to form only carbon dioxide."
+          "A fuel reacts with oxygen to form only carbon dioxide.",
+          "Two or more reactants combine to form one compound."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Synthesis reactions build a single product from simpler reactants."
       },
       {
         id: "kp-263-q2",
         prompt: "Which equation is a synthesis reaction?",
         choices: [
-          "\\(2Mg + O_2 -> 2MgO\\)",
           "\\(2H_2O -> 2H_2 + O_2\\)",
+          "\\(2Mg + O_2 -> 2MgO\\)",
           "\\(Zn + CuSO_4 -> ZnSO_4 + Cu\\)",
           "\\(AgNO_3 + NaCl -> AgCl + NaNO_3\\)"
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Magnesium and oxygen combine to form one compound, magnesium oxide."
       },
       {
         id: "kp-263-q3",
         prompt: "What feature should you look for when classifying a synthesis reaction?",
         choices: [
-          "Several reactants forming a single product",
-          "One reactant forming several products",
-          "Two solutions switching ions",
-          "A solid forming from two aqueous reactants only"
+          "One reactant forming several products.",
+          "Two solutions switching ions.",
+          "Several reactants forming a single product.",
+          "A solid forming from two aqueous reactants only."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "The product side of a synthesis reaction typically has one compound."
       }
     ]
@@ -10801,24 +10801,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-264-q2",
         prompt: "A metal and a non-metal combine to form an ionic compound. Which classification is most likely?",
         choices: [
-          "Synthesis",
           "Double replacement",
           "Decomposition",
-          "Neutralization"
+          "Neutralization",
+          "Synthesis"
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Combining simpler reactants into one compound matches synthesis."
       },
       {
         id: "kp-264-q3",
         prompt: "Which balanced equation fits the pattern \\(A + B -> AB\\)?",
         choices: [
-          "\\(2K + Cl_2 -> 2KCl\\)",
           "\\(CaCO_3 -> CaO + CO_2\\)",
+          "\\(2K + Cl_2 -> 2KCl\\)",
           "\\(Cl_2 + 2NaBr -> 2NaCl + Br_2\\)",
           "\\(BaCl_2 + Na_2SO_4 -> BaSO_4 + 2NaCl\\)"
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Potassium and chlorine combine to form potassium chloride."
       }
     ]
@@ -10830,12 +10830,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-265-q1",
         prompt: "Why are many synthesis reactions exothermic?",
         choices: [
-          "Forming new bonds in the product can release more energy than was needed to start the reaction.",
           "Synthesis reactions always destroy energy.",
           "No bonds form in synthesis reactions.",
+          "Forming new bonds in the product can release more energy than was needed to start the reaction.",
           "A single product cannot contain energy."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Many synthesis reactions release energy overall as stable products form."
       },
       {
@@ -10854,12 +10854,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-265-q3",
         prompt: "Which observation best supports energy release during product formation?",
         choices: [
-          "The reaction container becomes warmer as one compound forms.",
           "The reactants are listed alphabetically.",
           "The equation contains two plus signs.",
-          "The product has a longer name."
+          "The product has a longer name.",
+          "The reaction container becomes warmer as one compound forms."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "A temperature increase is evidence of exothermic energy transfer."
       }
     ]
@@ -10871,24 +10871,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-266-q1",
         prompt: "Which example from environmental chemistry can involve synthesis?",
         choices: [
-          "Sulfur trioxide combining with water to form sulfuric acid",
-          "One compound breaking into two simpler substances",
-          "Two dissolved salts exchanging ions to make a precipitate",
-          "A metal replacing another metal ion"
+          "One compound breaking into two simpler substances.",
+          "Sulfur trioxide combining with water to form sulfuric acid.",
+          "Two dissolved salts exchanging ions to make a precipitate.",
+          "A metal replacing another metal ion."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "SO3 and water combine into one acid compound, matching synthesis."
       },
       {
         id: "kp-266-q2",
         prompt: "How is rust formation related to synthesis reactions?",
         choices: [
-          "Iron and oxygen combine through reactions that produce iron oxide.",
           "Iron oxide breaks into iron and oxygen in ordinary rusting.",
           "Rusting is only a physical colour change.",
+          "Iron and oxygen combine through reactions that produce iron oxide.",
           "Rust formation requires no atoms to rearrange."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Rusting involves atoms combining into iron oxide products."
       },
       {
@@ -10912,36 +10912,36 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-267-q1",
         prompt: "What is a decomposition reaction?",
         choices: [
-          "One compound breaks down into elements or simpler compounds.",
           "Two elements combine to make one compound.",
           "Two aqueous compounds exchange ions.",
-          "A hydrocarbon burns in oxygen."
+          "A hydrocarbon burns in oxygen.",
+          "One compound breaks down into elements or simpler compounds."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Decomposition reactions start with one compound and produce simpler substances."
       },
       {
         id: "kp-267-q2",
         prompt: "Which equation is a decomposition reaction?",
         choices: [
-          "\\(2HgO -> 2Hg + O_2\\)",
           "\\(2Na + Cl_2 -> 2NaCl\\)",
+          "\\(2HgO -> 2Hg + O_2\\)",
           "\\(Cu + 2AgNO_3 -> Cu(NO_3)_2 + 2Ag\\)",
           "\\(CH_4 + 2O_2 -> CO_2 + 2H_2O\\)"
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Mercury(II) oxide breaks into mercury and oxygen."
       },
       {
         id: "kp-267-q3",
         prompt: "What feature should you look for to identify decomposition?",
         choices: [
-          "One reactant producing two or more products",
-          "Two reactants producing one product",
-          "Oxygen reacting with a fuel",
-          "Two positive ions switching places"
+          "Two reactants producing one product.",
+          "Oxygen reacting with a fuel.",
+          "One reactant producing two or more products.",
+          "Two positive ions switching places."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "The reactant side usually has one compound in decomposition."
       }
     ]
@@ -10965,24 +10965,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-268-q2",
         prompt: "Why is decomposition often described as the reverse of synthesis?",
         choices: [
-          "Synthesis combines parts into one compound, while decomposition splits one compound apart.",
           "Both always have identical reactants.",
           "Decomposition always makes a single product.",
-          "Synthesis and decomposition never involve bonds."
+          "Synthesis and decomposition never involve bonds.",
+          "Synthesis combines parts into one compound, while decomposition splits one compound apart."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Their general patterns point in opposite directions."
       },
       {
         id: "kp-268-q3",
         prompt: "Which reaction fits \\(AB -> A + B\\) most closely?",
         choices: [
-          "\\(2H_2O -> 2H_2 + O_2\\)",
           "\\(H_2 + Cl_2 -> 2HCl\\)",
+          "\\(2H_2O -> 2H_2 + O_2\\)",
           "\\(Zn + 2HCl -> ZnCl_2 + H_2\\)",
           "\\(AgNO_3 + KCl -> AgCl + KNO_3\\)"
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Water is split into hydrogen and oxygen."
       }
     ]
@@ -10994,12 +10994,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-269-q1",
         prompt: "Why do most decomposition reactions require energy input?",
         choices: [
-          "Enough energy must be absorbed to break bonds in the reactant compound.",
           "Energy must be destroyed before products can form.",
           "The products always have no bonds.",
+          "Enough energy must be absorbed to break bonds in the reactant compound.",
           "Decomposition never changes bonds."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Breaking bonds requires energy, so decomposition often needs heat, electricity, or light."
       },
       {
@@ -11018,12 +11018,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-269-q3",
         prompt: "Which energy source could start a decomposition reaction?",
         choices: [
-          "Heat or electricity supplied to the reactant",
-          "Changing a coefficient only",
-          "Removing all reactants",
-          "Cooling the products after they form"
+          "Changing a coefficient only.",
+          "Removing all reactants.",
+          "Cooling the products after they form.",
+          "Heat or electricity supplied to the reactant."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Energy input can provide the energy needed to break reactant bonds."
       }
     ]
@@ -11035,24 +11035,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-270-q1",
         prompt: "What happens in a single replacement reaction?",
         choices: [
-          "An element takes the place of another element in a compound.",
           "Two compounds exchange both ions at once.",
+          "An element takes the place of another element in a compound.",
           "One compound breaks into only elements.",
           "A hydrocarbon reacts only with nitrogen."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Single replacement involves one free element replacing an element in a compound."
       },
       {
         id: "kp-270-q2",
         prompt: "Which equation is a single replacement reaction?",
         choices: [
-          "\\(Fe + CuSO_4 -> FeSO_4 + Cu\\)",
           "\\(2Na + Cl_2 -> 2NaCl\\)",
           "\\(CaCO_3 -> CaO + CO_2\\)",
+          "\\(Fe + CuSO_4 -> FeSO_4 + Cu\\)",
           "\\(Pb(NO_3)_2 + 2KI -> PbI_2 + 2KNO_3\\)"
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Iron replaces copper in the copper(II) sulfate compound."
       },
       {
