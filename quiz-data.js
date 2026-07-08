@@ -6609,7 +6609,7 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "Atoms disappear and no new substances form.",
           "Atoms are rearranged to form different substances.",
-          "Only the shape changes while all substances remain the same.",
+          "The materials are broken into smaller pieces but keep the same substances.",
           "Matter changes into pure energy with no atoms left."
         ],
         correctIndex: 1,
@@ -6632,9 +6632,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why are some chemical reactions easy to notice while others are not?",
         choices: [
           "Some produce obvious signs like light or gas, while others occur quietly in living systems or materials.",
-          "Only explosive reactions are real chemical reactions.",
-          "A reaction must always be colourful.",
-          "Chemical reactions happen only in laboratories."
+          "Explosions are easier to notice, so quiet reactions are usually physical changes.",
+          "Colour is the main sign needed to classify a process as a chemical reaction.",
+          "Laboratory reactions are easier to study, so everyday examples are less scientific."
         ],
         correctIndex: 0,
         explanation: "Many reactions occur without dramatic signs, including reactions that sustain life."
@@ -6648,9 +6648,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-163-q1",
         prompt: "How is chemistry involved in digestion?",
         choices: [
-          "Food becomes useful only by changing colour.",
-          "Digestion avoids all chemical changes.",
-          "Nutrients are made only by fireworks.",
+          "Food becomes useful when it is physically mixed but its molecules stay unchanged.",
+          "Digestion mainly moves food through the body without changing molecules.",
+          "Nutrients are produced by heating food rather than by reactions in the body.",
           "Chemical reactions break food into forms that cells can use."
         ],
         correctIndex: 3,
@@ -6662,7 +6662,7 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "Cells contain no chemical compounds.",
           "Living systems depend on chemical reactions to grow, repair, and use energy.",
-          "Only non-living materials involve atoms.",
+          "Atoms are mainly useful for explaining non-living materials.",
           "Life processes happen without matter."
         ],
         correctIndex: 1,
@@ -6690,9 +6690,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "How can chemistry support medical imaging technologies?",
         choices: [
           "Chemical knowledge helps design materials and processes used to visualize internal body structures.",
-          "Medical imaging works only by guessing what is inside the body.",
+          "Medical imaging mainly depends on guessing from symptoms rather than material interactions.",
           "Chemistry prevents doctors from studying body structures.",
-          "Medical tools never involve materials, substances, or interactions."
+          "Medical tools are designed separately from the properties of substances."
         ],
         correctIndex: 0,
         explanation: "Medical technologies rely on chemical understanding of materials, compounds, and body processes."
@@ -6701,7 +6701,7 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-164-q2",
         prompt: "Which statement best explains chemistry's role in medicine?",
         choices: [
-          "It is used only for fireworks.",
+          "It mainly explains dramatic examples such as fireworks.",
           "It applies to personal care products but not health care.",
           "It removes the need for biological knowledge.",
           "It helps develop tools, drugs, materials, and methods for understanding and treating the body."
@@ -6713,10 +6713,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-164-q3",
         prompt: "A patient receives a scan that depends on specially designed materials and interactions with body tissues. What concept does this illustrate?",
         choices: [
-          "Chemical reactions are never useful in medicine.",
+          "Chemical reactions are useful for products but not for medical technologies.",
           "Chemistry can contribute to medical technologies.",
           "Medicine does not involve matter.",
-          "All imaging is unrelated to science."
+          "Imaging depends on equipment but not on the behaviour of materials."
         ],
         correctIndex: 1,
         explanation: "Medical tools often depend on chemical properties and interactions."
@@ -6731,9 +6731,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why do companies use chemistry when developing personal care products?",
         choices: [
           "Personal care products contain no substances.",
-          "Chemistry makes product properties impossible to control.",
+          "Chemistry changes product properties randomly, so testing is less important.",
           "They design products with specific properties such as texture, stability, scent, or cleaning ability.",
-          "Consumer products are all found unchanged in nature."
+          "Consumer products work best when ingredients are left close to their natural form."
         ],
         correctIndex: 2,
         explanation: "Product design depends on choosing substances with useful chemical and physical properties."
@@ -6743,7 +6743,7 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which question shows good chemical thinking about a consumer product?",
         choices: [
           "What ingredients give the product its properties, and how should it be used safely?",
-          "Can I assume all products are harmless because they smell pleasant?",
+          "Can pleasant smell be used as the main evidence that a product is low risk?",
           "Does the package colour prove the product is safe?",
           "Can I ignore the label if the product is familiar?"
         ],
@@ -6754,9 +6754,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-165-q3",
         prompt: "Why can a useful household product still require caution?",
         choices: [
-          "Useful products never contain chemicals.",
-          "A product is always safe if it is sold in a store.",
-          "Labels are written only for decoration.",
+          "Useful products are safer when their chemical ingredients are not mentioned.",
+          "A product sold in a store has already had its misuse risks removed.",
+          "Labels mainly help with marketing rather than safe handling.",
           "Useful chemical properties can also create hazards if the product is misused."
         ],
         correctIndex: 3,
@@ -6773,7 +6773,7 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "It has prevented vehicles from using any materials.",
           "It has contributed to fuels, materials, batteries, lubricants, and safety technologies.",
-          "It applies only to walking.",
+          "It mainly applies to road surfaces rather than engines or vehicle materials.",
           "It has no connection to engines or road materials."
         ],
         correctIndex: 1,
@@ -6783,10 +6783,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-166-q2",
         prompt: "What is a negative effect connected to transportation chemistry?",
         choices: [
-          "Transportation chemistry eliminates all pollution.",
-          "Vehicles cannot release substances into the environment.",
+          "Transportation chemistry reduces pollution concerns enough that evidence is less important.",
+          "Vehicle materials stay inside the vehicle and do not enter the environment.",
           "Vehicle use and production can contribute to air, land, and water pollution.",
-          "Only natural materials can pollute."
+          "Pollution is mainly a concern when materials are synthetic."
         ],
         correctIndex: 2,
         explanation: "Transportation has benefits, but fuels, emissions, and materials can create pollution."
@@ -6796,8 +6796,8 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which evaluation is most balanced?",
         choices: [
           "Chemistry has made transportation useful and safer, but it can also create environmental problems.",
-          "Transportation chemistry is only harmful.",
-          "Transportation chemistry is only beneficial.",
+          "Transportation chemistry should be judged by its hazards before considering benefits.",
+          "Transportation chemistry should be judged by its benefits before considering pollution.",
           "Environmental effects do not need evidence."
         ],
         correctIndex: 0,
@@ -6813,8 +6813,8 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What is a synthetic material?",
         choices: [
           "A material that contains no atoms.",
-          "A material that can exist only inside living cells.",
-          "A substance that is always harmless.",
+          "A material made by organisms but changed slightly by people.",
+          "A substance whose designed properties remove safety concerns.",
           "A human-made material designed with specific properties."
         ],
         correctIndex: 3,
@@ -6824,9 +6824,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-167-q2",
         prompt: "Why is plastic's stability both helpful and problematic?",
         choices: [
-          "It means plastic breaks down instantly.",
+          "It means plastic breaks down soon after it is thrown away.",
           "It makes plastic durable in use, but it may persist as pollution after disposal.",
-          "It makes plastic useful only for food.",
+          "It makes plastic useful mainly when products need to be disposable.",
           "It prevents plastic from having any environmental effect."
         ],
         correctIndex: 1,
@@ -6836,7 +6836,7 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-167-q3",
         prompt: "Which comparison best shows a trade-off for synthetic fibres?",
         choices: [
-          "They are always worse than natural fibres in every way.",
+          "They should be judged as worse because they are human-made.",
           "They are natural fibres that require no processing.",
           "They can be strong and stretchy, but production and disposal may have environmental impacts.",
           "They disappear from ecosystems immediately after use."
@@ -6865,9 +6865,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-168-q2",
         prompt: "Why should you check hazard information before using a chemical?",
         choices: [
-          "All chemicals have identical risks.",
-          "Hazard information is useful only after an accident.",
-          "Safety rules matter only outside the classroom.",
+          "Chemicals with similar-looking containers usually have similar risks.",
+          "Hazard information is most useful after something goes wrong.",
+          "Classroom chemicals are familiar enough that workplace-style rules matter less.",
           "Different hazards require different precautions."
         ],
         correctIndex: 3,
@@ -6879,7 +6879,7 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "A chemical is safe if it has no smell.",
           "A familiar chemical can still be dangerous if misused.",
-          "A small bottle can never contain a hazard.",
+          "A small bottle usually means the hazard is too small to matter.",
           "A liquid is harmless if it looks like water."
         ],
         correctIndex: 1,
@@ -6895,9 +6895,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What is the purpose of WHMIS labels?",
         choices: [
           "They show the price of each chemical.",
-          "They replace all safety training.",
+          "They give enough information that detailed procedures are less necessary.",
           "They communicate chemical hazards in workplaces and laboratories.",
-          "They list only the colour of a chemical."
+          "They mainly identify the container rather than the hazard."
         ],
         correctIndex: 2,
         explanation: "WHMIS labels provide standardized hazard information."
@@ -6908,7 +6908,7 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "The chemical may present a fire hazard and needs precautions around ignition sources.",
           "The chemical is safe to heat without limits.",
-          "The chemical is always a medicine.",
+          "The chemical is used for health purposes because it has a flame symbol.",
           "The chemical must be poured into a storm drain."
         ],
         correctIndex: 0,
@@ -6919,8 +6919,8 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why are WHMIS symbols useful when planning an investigation?",
         choices: [
           "They make it unnecessary to read instructions.",
-          "They prove every chemical has the same danger.",
-          "They are used only for fire extinguishers.",
+          "They show that chemical hazards can be handled with the same procedure.",
+          "They are mainly useful for choosing a fire extinguisher.",
           "They help identify risks so procedures and protective equipment can be chosen."
         ],
         correctIndex: 3,
@@ -6935,10 +6935,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-170-q1",
         prompt: "What information can an SDS provide?",
         choices: [
-          "Only the history of who discovered the chemical.",
+          "Background information about who discovered the chemical.",
           "Chemical properties, hazards, handling, storage, disposal, and first aid.",
-          "Only the chemical's price.",
-          "Only a list of unrelated careers."
+          "A product price list for ordering lab supplies.",
+          "A general career guide for chemical workplaces."
         ],
         correctIndex: 1,
         explanation: "Safety Data Sheets give detailed information needed for safe chemical work."
@@ -6947,10 +6947,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-170-q2",
         prompt: "When should you consult an SDS?",
         choices: [
-          "Only after throwing the chemical away.",
-          "Only if the label is colourful.",
+          "After disposal, when you can compare the SDS to what happened.",
+          "When the label design makes the hazard seem serious.",
           "Before planning or carrying out work with a chemical.",
-          "Never, because WHMIS symbols replace details."
+          "When WHMIS symbols are missing, because symbols and SDS are interchangeable."
         ],
         correctIndex: 2,
         explanation: "SDS information should be checked before use so risks and procedures are understood."
@@ -6961,8 +6961,8 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "WHMIS labels give hazard warnings, while SDS provide more detailed safety information.",
           "They are unrelated systems.",
-          "SDS are used only for food recipes.",
-          "WHMIS labels are used only after an accident."
+          "SDS are mainly used to identify ingredients in food products.",
+          "WHMIS labels are mainly useful once an accident has already happened."
         ],
         correctIndex: 0,
         explanation: "Labels alert users to hazards; SDS explain safe handling and response in more detail."
@@ -6976,7 +6976,7 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-171-q1",
         prompt: "Which action is appropriate before starting a chemical investigation?",
         choices: [
-          "Put on goggles only after the first chemical is poured.",
+          "Put on goggles once the first visible reaction begins.",
           "Keep long hair loose so it does not touch the goggles.",
           "Wear required eye protection and secure loose hair or clothing.",
           "Rely on careful handling instead of protective equipment."
@@ -6991,7 +6991,7 @@ window.SCIENCE10_QUIZZES = {
           "They could become contaminated or lead to accidental ingestion of chemicals.",
           "Food packages act like WHMIS labels for nearby chemicals.",
           "Eating is safe as long as the chemical has no smell.",
-          "Food and drink are allowed if only familiar household chemicals are used."
+          "Food and drink are low risk when the chemicals are familiar household products."
         ],
         correctIndex: 0,
         explanation: "No eating or drinking in the lab reduces exposure and contamination risks."
