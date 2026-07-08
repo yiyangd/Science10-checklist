@@ -11868,7 +11868,7 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What are the products of \\(HCl + KOH\\) in a neutralization reaction?",
         choices: [
           "\\(KOH + H_2\\)",
-          "\\(HCl + KOH\\) with no products because acids and bases do not react",
+          "\\(HCl + KOH\\) left unchanged because both dissolve in water",
           "\\(KCl + H_2O\\)",
           "\\(CO_2 + H_2O\\)"
         ],
@@ -11899,7 +11899,7 @@ window.SCIENCE10_QUIZZES = {
           "The oxygen in air changes into carbon without reacting with the fuel.",
           "The fuel absorbs \\(CO_2\\) from nearby water and stores it as soot.",
           "Carbon atoms in the fuel combine with oxygen during combustion.",
-          "The reaction changes every product into neutral salt crystals."
+          "The reaction changes carbon products into neutral salt crystals."
         ],
         correctIndex: 2,
         explanation: "Fossil fuels contain carbon, and complete combustion produces carbon dioxide."
@@ -11910,8 +11910,8 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "It is a greenhouse gas and can dissolve in ocean water.",
           "It is a strong base with pH 14.",
-          "It is a solid precipitate in all oceans.",
-          "It cannot interact with water."
+          "It forms a solid precipitate in seawater before affecting pH.",
+          "It remains in the atmosphere and does not dissolve at the ocean surface."
         ],
         correctIndex: 0,
         explanation: "CO2 affects the atmosphere and can change ocean chemistry."
@@ -11939,8 +11939,8 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "It immediately forms sodium hydroxide and raises pH to 14.",
           "It can form carbonic acid, which can increase \\(H^+\\) in the water.",
-          "It turns all dissolved salts into oxygen gas.",
-          "It removes every acid-base reaction from the ocean."
+          "It reacts with dissolved salts to make oxygen gas.",
+          "It removes carbonate chemistry from the ocean water."
         ],
         correctIndex: 1,
         explanation: "CO2 and water can form carbonic acid, changing ocean chemistry."
@@ -11949,7 +11949,7 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-292-q2",
         prompt: "If more dissolved \\(CO_2\\) leads to more \\(H^+\\) in seawater, what happens to pH?",
         choices: [
-          "pH rises because more \\(H^+\\) always means more basic.",
+          "pH rises because more \\(H^+\\) means the water is becoming more basic.",
           "pH stays fixed at 7 because oceans are too large to change.",
           "pH decreases because the water becomes more acidic.",
           "pH becomes a coefficient in the reaction equation."
@@ -11963,7 +11963,7 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "Some \\(H^+\\) combines with \\(CO_3^{2-}\\), forming bicarbonate ions.",
           "Carbonate ions change into pure oxygen gas at pH 7.",
-          "All carbonate ions become metals when water is acidic.",
+          "Carbonate ions become calcium atoms when water is acidic.",
           "\\(CO_2\\) prevents hydrogen ions from existing in seawater."
         ],
         correctIndex: 0,
@@ -11980,7 +11980,7 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "It increases carbonate ions so quickly that shells grow too thick.",
           "It turns calcium carbonate shells into hydrocarbon fuel.",
-          "It removes the need for calcium compounds in shells.",
+          "It makes shell material stronger but slower to form.",
           "It can reduce carbonate ions needed to make calcium carbonate shells."
         ],
         correctIndex: 3,
@@ -11992,7 +11992,7 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "Gasoline and propane molecules",
           "Clams, oysters, some plankton, and corals",
-          "Only land plants growing far from the ocean",
+          "Land plants and freshwater insects far from seawater",
           "Pure copper wire in a flame test"
         ],
         correctIndex: 1,
@@ -12002,10 +12002,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-293-q3",
         prompt: "Why can a decrease in shell-building plankton affect larger ocean food webs?",
         choices: [
-          "Plankton are never eaten, so their number changes cannot matter.",
-          "Food webs include only large fish and never microscopic organisms.",
+          "Plankton changes stay local because larger organisms use different habitats.",
+          "Food webs are affected mainly by large predators, not by microscopic organisms.",
           "Some plankton form the base of food chains that support other organisms.",
-          "Acidic water only changes rock colour, not organisms."
+          "Acidic water mostly changes rock colour before affecting organisms."
         ],
         correctIndex: 2,
         explanation: "Changes to organisms near the base of food chains can affect many other organisms."
@@ -12021,8 +12021,8 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "Chemical changes can affect ecosystems, food supply, and people's livelihoods.",
           "Chemistry issues stop matter from affecting living things.",
-          "Ocean pH can change only in laboratory beakers, not in nature.",
-          "Social issues cannot use chemical or ecological evidence."
+          "Ocean pH changes are useful for chemistry but separate from food supply.",
+          "Social issues are evaluated best without chemical or ecological evidence."
         ],
         correctIndex: 0,
         explanation: "Chemical changes can have ecological and human consequences."
@@ -12031,9 +12031,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-294-q2",
         prompt: "Which evidence would best support an evaluation of ocean acidification?",
         choices: [
-          "Only the colour of a poster about oceans",
-          "Only a guess about whether seawater tastes sour",
-          "Only the number of letters in the formula \\(CO_2\\)",
+          "The colour of a poster about oceans",
+          "A guess about whether seawater would taste sour",
+          "The number of letters in the formula \\(CO_2\\)",
           "pH data, carbonate chemistry, organism health, and effects on communities"
         ],
         correctIndex: 3,
@@ -12045,8 +12045,8 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "How many pages are in the chapter?",
           "How might lower carbonate availability affect shellfish harvests?",
-          "Can all pH data be ignored because ions are too small to see?",
-          "Does every ocean organism respond exactly the same way?"
+          "Should pH data be ignored because ions are too small to see?",
+          "Do ocean organisms respond in similar ways regardless of shell material?"
         ],
         correctIndex: 1,
         explanation: "Shellfish harvests connect chemical changes to food supply and livelihoods."
@@ -12061,7 +12061,7 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which evidence pattern best supports the claim that an unknown is acidic?",
         choices: [
           "pH above 7 and red litmus turns blue",
-          "pH exactly 7 and both litmus papers stay unchanged",
+          "pH near 7 and neither litmus paper changes",
           "pH below 7 and blue litmus turns red",
           "A smoky yellow flame and soot form during heating"
         ],
@@ -12074,7 +12074,7 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "pH above 7 and red litmus turns blue",
           "pH below 7 and blue litmus turns red",
-          "pH exactly 7 only",
+          "pH near 7 with little indicator change",
           "Carbon monoxide production"
         ],
         correctIndex: 0,
@@ -12085,8 +12085,8 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why might a student use more than one acid-base test on an unknown?",
         choices: [
           "Extra tests remove the need for goggles and careful disposal.",
-          "One indicator always gives the exact identity of every compound.",
-          "Indicators cannot provide useful evidence about pH.",
+          "One indicator gives enough evidence to identify the exact compound.",
+          "Indicators provide colour, but the colour is unrelated to pH.",
           "Several observations can narrow the pH range and make the claim stronger."
         ],
         correctIndex: 3,
@@ -12103,7 +12103,7 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "Taste a tiny drop so the procedure can be shorter.",
           "Plan a teacher-approved procedure and put on required PPE.",
-          "Mix all unknowns together to save time.",
+          "Mix the unknowns together after recording their labels.",
           "Heat each sample before deciding which tests are needed."
         ],
         correctIndex: 1,
@@ -12127,7 +12127,7 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "Testing with litmus, pH paper, or another acid-base indicator",
           "Counting bubbles from a candle flame across the room",
-          "Balancing an unrelated combustion equation only",
+          "Balancing an unrelated combustion equation",
           "Measuring the outside length of the test tube"
         ],
         correctIndex: 0,
@@ -12143,7 +12143,7 @@ window.SCIENCE10_QUIZZES = {
         prompt: "An unknown turns blue litmus red and has a pH near 3. What claim is best supported?",
         choices: [
           "The unknown is neutral because it has a pH number.",
-          "The unknown is basic because all indicators changed.",
+          "The unknown is basic because an indicator changed colour.",
           "The unknown is a hydrocarbon fuel.",
           "The unknown is acidic."
         ],
@@ -12157,7 +12157,7 @@ window.SCIENCE10_QUIZZES = {
           "A pH range means the student forgot to record observations.",
           "Some indicators change colour over a range rather than at one exact pH.",
           "A pH range proves the unknown contains no ions.",
-          "Indicators always give exact pH values to two decimal places."
+          "Indicators give precise pH values when the colour is recorded carefully."
         ],
         correctIndex: 1,
         explanation: "Indicator colour changes often correspond to a range of possible pH values."
@@ -12167,7 +12167,7 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which explanation is evidence-based?",
         choices: [
           "Unknown B is basic because I liked its label.",
-          "Unknown B is basic because all unknowns must be basic.",
+          "Unknown B is basic because it looked similar to another sample.",
           "Unknown B is basic because it had pH 10 and turned red litmus blue.",
           "Unknown B is basic because it was tested last."
         ],
@@ -12224,7 +12224,7 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-299-q1",
         prompt: "Predict the products for complete combustion of \\(C_4H_{10}\\).",
         choices: [
-          "\\(C\\) and \\(H_2\\) only",
+          "\\(C\\) and \\(H_2\\)",
           "\\(NaCl\\) and \\(H_2O\\)",
           "\\(CO_2\\) and \\(H_2O\\)",
           "\\(AgCl\\) and \\(KNO_3\\)"
