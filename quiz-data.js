@@ -10625,10 +10625,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-260-q1",
         prompt: "Which example uses a chemical reaction as an energy source?",
         choices: [
-          "Folding paper without any material change.",
+          "Using stored spring energy to open a clip.",
           "Burning propane to heat food.",
-          "Writing a title on a worksheet.",
-          "Counting batteries in a drawer without using them."
+          "Warming soup by placing it in sunlight.",
+          "Moving a fan with electricity already supplied from a wall outlet."
         ],
         correctIndex: 1,
         explanation: "Combustion of propane releases useful energy for heating and cooking."
@@ -10637,10 +10637,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-260-q2",
         prompt: "Why should an energy-source investigation include both pros and cons?",
         choices: [
-          "Only the fuel's name matters.",
-          "All energy sources have identical impacts.",
-          "Useful energy output, emissions, cost, and environmental impacts all matter.",
-          "Balanced equations remove all social and environmental questions."
+          "A fuel's name usually tells whether its impacts are acceptable.",
+          "Energy sources with high output tend to have similar impacts.",
+          "Useful energy output, emissions, cost, and environmental impacts each matter.",
+          "Balanced equations are enough to answer most social and environmental questions."
         ],
         correctIndex: 2,
         explanation: "Energy choices involve chemical, environmental, and socio-economic trade-offs."
@@ -10650,9 +10650,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which comparison fits this investigation topic?",
         choices: [
           "Fossil-fuel combustion and hydrogen fuel cells both involve chemical reactions, but they can differ in products and impacts.",
-          "Hydrogen fuel cells do not involve chemistry.",
-          "Gasoline releases energy without any reaction.",
-          "All alternative energy sources produce exactly the same products as propane."
+          "Hydrogen fuel cells are mainly electrical devices, so their chemical products are not important.",
+          "Gasoline releases energy mostly because it evaporates quickly.",
+          "Alternative energy sources should be compared by output, not by reaction products."
         ],
         correctIndex: 0,
         explanation: "Different energy technologies can use different reactions with different outcomes."
@@ -10666,8 +10666,8 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-261-q1",
         prompt: "Why should an energy-source investigation include a balanced chemical equation?",
         choices: [
-          "It proves the fuel has no environmental impact.",
-          "It replaces all evidence about energy output.",
+          "It shows that the fuel's environmental impact is already solved.",
+          "It estimates energy output without needing observations or other data.",
           "It shows the atoms conserved and the reactant-product ratios involved in the energy-producing reaction.",
           "It makes the reaction happen faster."
         ],
@@ -10690,9 +10690,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-261-q3",
         prompt: "How does bond information help explain useful energy from a fuel reaction?",
         choices: [
-          "Bonds are unrelated to energy output.",
-          "Only coefficients store energy.",
-          "Energy appears because atoms are destroyed.",
+          "Bond changes matter less than the physical state of the fuel.",
+          "Coefficients show amounts, so they also show where energy is stored.",
+          "Energy output comes from atoms becoming smaller during the reaction.",
           "Energy is absorbed when bonds break and released when new bonds form, so the net change matters."
         ],
         correctIndex: 3,
@@ -10707,9 +10707,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-262-q1",
         prompt: "Which evaluation compares both advantages and disadvantages of gasoline as an energy source?",
         choices: [
-          "It is useful, so it has no drawbacks.",
+          "It is useful for transportation, so the evaluation can focus on performance.",
           "It stores useful energy for transportation, but combustion products and extraction impacts must be considered.",
-          "It has emissions, so it can never provide useful energy.",
+          "Its emissions make the chemistry irrelevant to transportation use.",
           "Its chemical equation is balanced, so social impacts do not matter."
         ],
         correctIndex: 1,
@@ -10719,10 +10719,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-262-q2",
         prompt: "Which factor belongs in a broad evaluation of an energy source?",
         choices: [
-          "Only whether the reaction has an arrow.",
-          "Only whether the fuel name is familiar.",
+          "Whether the reaction arrow points toward products.",
+          "Whether the fuel name is familiar to consumers.",
           "Environmental, social, economic, and energy-use impacts.",
-          "Only the colour of the flame."
+          "The colour of the flame as the main evidence of sustainability."
         ],
         correctIndex: 2,
         explanation: "A broad evaluation includes more than the chemistry alone."
@@ -10733,7 +10733,7 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "A complete evaluation must include how the fuel is made, used, and supplied.",
           "Hydrogen fuel cells do not involve chemistry.",
-          "Only the final product matters.",
+          "The final product is the main factor, so fuel production can be considered later.",
           "Water as a product means no trade-offs exist."
         ],
         correctIndex: 0,
@@ -10750,7 +10750,7 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "One compound breaks into several products.",
           "Two ionic compounds exchange positive ions.",
-          "A fuel reacts with oxygen to form only carbon dioxide.",
+          "A fuel reacts with oxygen and forms several combustion products.",
           "Two or more reactants combine to form one compound."
         ],
         correctIndex: 3,
@@ -10775,7 +10775,7 @@ window.SCIENCE10_QUIZZES = {
           "One reactant forming several products.",
           "Two solutions switching ions.",
           "Several reactants forming a single product.",
-          "A solid forming from two aqueous reactants only."
+          "A solid forming after two dissolved compounds exchange ions."
         ],
         correctIndex: 2,
         explanation: "The product side of a synthesis reaction typically has one compound."
@@ -10830,10 +10830,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-265-q1",
         prompt: "Why are many synthesis reactions exothermic?",
         choices: [
-          "Synthesis reactions always destroy energy.",
-          "No bonds form in synthesis reactions.",
+          "Synthesis reactions release energy because reactants are written on the left.",
+          "Energy release happens before any new bonds form.",
           "Forming new bonds in the product can release more energy than was needed to start the reaction.",
-          "A single product cannot contain energy."
+          "A single product means there is less matter to hold energy."
         ],
         correctIndex: 2,
         explanation: "Many synthesis reactions release energy overall as stable products form."
@@ -10844,8 +10844,8 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "The synthesis reaction is exothermic.",
           "The reaction must be endothermic.",
-          "No chemical reaction occurred.",
-          "The salt was destroyed."
+          "The light is evidence of a physical change rather than bond changes.",
+          "The salt absorbed the heat and prevented energy transfer."
         ],
         correctIndex: 0,
         explanation: "Heat and light are evidence of energy released to the surroundings."
@@ -10856,7 +10856,7 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "The reactants are listed alphabetically.",
           "The equation contains two plus signs.",
-          "The product has a longer name.",
+          "The product name includes both reactant names.",
           "The reaction container becomes warmer as one compound forms."
         ],
         correctIndex: 3,
@@ -10884,9 +10884,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "How is rust formation related to synthesis reactions?",
         choices: [
           "Iron oxide breaks into iron and oxygen in ordinary rusting.",
-          "Rusting is only a physical colour change.",
+          "Rusting is mainly a surface colour change with the same substances present.",
           "Iron and oxygen combine through reactions that produce iron oxide.",
-          "Rust formation requires no atoms to rearrange."
+          "Rust formation rearranges surface particles but does not form a new compound."
         ],
         correctIndex: 2,
         explanation: "Rusting involves atoms combining into iron oxide products."
@@ -10965,9 +10965,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-268-q2",
         prompt: "Why is decomposition often described as the reverse of synthesis?",
         choices: [
-          "Both always have identical reactants.",
-          "Decomposition always makes a single product.",
-          "Synthesis and decomposition never involve bonds.",
+          "Both use the same pattern, but decomposition is written with smaller coefficients.",
+          "Decomposition makes a single product when the reactant has two elements.",
+          "Synthesis changes bonds, while decomposition is mainly a change in particle spacing.",
           "Synthesis combines parts into one compound, while decomposition splits one compound apart."
         ],
         correctIndex: 3,
@@ -10994,10 +10994,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-269-q1",
         prompt: "Why do most decomposition reactions require energy input?",
         choices: [
-          "Energy must be destroyed before products can form.",
-          "The products always have no bonds.",
+          "Energy input is needed because products are written on the right side.",
+          "The products usually have fewer names than the reactant.",
           "Enough energy must be absorbed to break bonds in the reactant compound.",
-          "Decomposition never changes bonds."
+          "Decomposition changes state but keeps the bonding pattern the same."
         ],
         correctIndex: 2,
         explanation: "Breaking bonds requires energy, so decomposition often needs heat, electricity, or light."
@@ -11018,8 +11018,8 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-269-q3",
         prompt: "Which energy source could start a decomposition reaction?",
         choices: [
-          "Changing a coefficient only.",
-          "Removing all reactants.",
+          "Changing a coefficient in the written equation.",
+          "Removing reactants so the product side is easier to form.",
           "Cooling the products after they form.",
           "Heat or electricity supplied to the reactant."
         ],
