@@ -4269,6 +4269,15 @@
       }
     }
 
+    function shuffledChoiceEntries(question) {
+      const entries = question.choices.map((choice, choiceIndex) => ({ choice, choiceIndex }));
+      for (let i = entries.length - 1; i > 0; i -= 1) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [entries[i], entries[j]] = [entries[j], entries[i]];
+      }
+      return entries;
+    }
+
     function renderQuiz(kpId) {
       const quiz = quizData[kpId];
       activeQuizKpId = kpId;
@@ -4277,7 +4286,7 @@
       quizRetry.hidden = true;
       quizSubmit.hidden = false;
       quizForm.innerHTML = quiz.questions.map((question, questionIndex) => {
-        const choices = question.choices.map((choice, choiceIndex) => `
+        const choices = shuffledChoiceEntries(question).map(({ choice, choiceIndex }) => `
           <label class="quiz-choice">
             <input type="radio" name="${question.id}" value="${choiceIndex}" required>
             <span>${choice}</span>
