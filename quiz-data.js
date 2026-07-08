@@ -11037,8 +11037,8 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "Two compounds exchange both ions at once.",
           "An element takes the place of another element in a compound.",
-          "One compound breaks into only elements.",
-          "A hydrocarbon reacts only with nitrogen."
+          "One compound splits into simpler products after absorbing energy.",
+          "A hydrocarbon reacts with oxygen to form oxides."
         ],
         correctIndex: 1,
         explanation: "Single replacement involves one free element replacing an element in a compound."
@@ -11060,9 +11060,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What reactant pattern is typical for single replacement?",
         choices: [
           "An element plus a compound",
-          "Two compounds only",
-          "One compound only",
-          "A hydrocarbon plus oxygen only"
+          "Two dissolved ionic compounds",
+          "One compound that absorbs energy",
+          "A hydrocarbon and oxygen"
         ],
         correctIndex: 0,
         explanation: "Single replacement starts with a free element reacting with a compound."
@@ -11100,9 +11100,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-271-q3",
         prompt: "Why is an aqueous compound often involved in metal replacement reactions?",
         choices: [
-          "Water destroys all metals instantly.",
-          "Aqueous means no ions are present.",
-          "Only gases can undergo replacement.",
+          "Water supplies the metal atoms that appear as products.",
+          "Aqueous compounds keep ions locked in fixed positions.",
+          "Gases replace metal ions more easily than solids do.",
           "Dissolving separates ions so a free metal can interact with metal ions."
         ],
         correctIndex: 3,
@@ -11143,8 +11143,8 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "A new brown colour appears in the solution.",
           "The container label changes by itself.",
-          "The solution loses all matter.",
-          "No particles interact."
+          "The solution becomes clearer because ions stop reacting.",
+          "The sodium ions change into chlorine atoms."
         ],
         correctIndex: 0,
         explanation: "The textbook example connects bromine formation with a brown colour."
@@ -11158,9 +11158,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-273-q1",
         prompt: "In some single replacement reactions with water, how can hydrogen behave?",
         choices: [
-          "Like a precipitate that never forms gas.",
-          "Like a catalyst that is never part of products.",
-          "Like oxygen in hydrocarbon combustion only.",
+          "Like a precipitate that remains dissolved in water.",
+          "Like a spectator ion that stays paired with oxygen.",
+          "Like oxygen in combustion because it forms an oxide product.",
           "Like a metal that can be replaced by a more reactive metal."
         ],
         correctIndex: 3,
@@ -11183,9 +11183,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What evidence might show hydrogen gas is produced when a reactive metal is placed in water?",
         choices: [
           "The water label changes colour.",
-          "A hydrocarbon appears from nowhere.",
+          "A hydrocarbon forms because water contains hydrogen.",
           "Bubbles form at the metal surface.",
-          "All ions stop moving."
+          "The metal surface becomes smoother without producing gas."
         ],
         correctIndex: 2,
         explanation: "Gas production often appears as bubbling."
@@ -11200,8 +11200,8 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why can the reaction between aluminum powder and iron(III) oxide be useful for welding?",
         choices: [
           "It releases enough heat to melt the iron produced.",
-          "It absorbs all heat from the track.",
-          "It produces no metal.",
+          "It absorbs heat from the track so the metal can cool into place.",
+          "It produces iron oxide instead of iron metal.",
           "It is a double replacement reaction that forms a precipitate."
         ],
         correctIndex: 0,
@@ -11223,7 +11223,7 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-274-q3",
         prompt: "What do welding railroad tracks and joining electrical conductors have in common in this topic?",
         choices: [
-          "They require no chemical reaction.",
+          "They mainly use pressure to force cold metals together.",
           "They can use energy-releasing single replacement reactions to produce molten metal.",
           "They are both examples of photosynthesis.",
           "They both depend on a positive luminol test."
@@ -11281,9 +11281,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-276-q1",
         prompt: "What is a precipitate?",
         choices: [
-          "A gas that escapes from any beaker.",
+          "A gas that collects above an aqueous mixture.",
           "A solid that forms from a reaction between solutions.",
-          "A reactant that is always oxygen.",
+          "A reactant that dissolves before the solutions are mixed.",
           "A coefficient in front of a formula."
         ],
         correctIndex: 1,
@@ -11296,7 +11296,7 @@ window.SCIENCE10_QUIZZES = {
           "Proof of hydrocarbon combustion.",
           "Evidence that no reaction happened.",
           "Precipitate formation, often linked to a double replacement reaction.",
-          "A sign that atoms were destroyed."
+          "A sign that dissolved ions stopped moving before reacting."
         ],
         correctIndex: 2,
         explanation: "A new solid can indicate ions exchanged partners and formed an insoluble product."
@@ -11322,9 +11322,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-277-q1",
         prompt: "What is a combustion reaction?",
         choices: [
-          "A reaction where one compound always absorbs light and breaks down.",
+          "A reaction where one compound absorbs light and breaks down.",
           "A reaction where ions exchange partners with no oxygen involved.",
-          "A reaction that cannot produce heat.",
+          "A reaction where heat is usually a minor side observation.",
           "A reaction in which a substance reacts with oxygen and releases energy, often forming oxides."
         ],
         correctIndex: 3,
@@ -11346,7 +11346,7 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-277-q3",
         prompt: "Which clue most strongly suggests a reaction is combustion?",
         choices: [
-          "One compound splits into two products only.",
+          "One compound splits into simpler products after heating.",
           "Two aqueous solutions form a solid.",
           "Oxygen is a reactant and heat or light is released.",
           "A metal replaces another metal ion."
@@ -11369,7 +11369,7 @@ window.SCIENCE10_QUIZZES = {
           "Calcium and sulfur"
         ],
         correctIndex: 0,
-        explanation: "Hydrocarbons are compounds containing only carbon and hydrogen."
+        explanation: "Hydrocarbons are compounds containing carbon and hydrogen."
       },
       {
         id: "kp-278-q2",
@@ -11393,7 +11393,7 @@ window.SCIENCE10_QUIZZES = {
           "Barium sulfate, \\(BaSO_4\\)"
         ],
         correctIndex: 1,
-        explanation: "Propane contains only carbon and hydrogen."
+        explanation: "Propane contains carbon and hydrogen."
       }
     ]
   },
