@@ -8206,12 +8206,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-201-q1",
         prompt: "A sealed flask contains 42.0 g of reactants before a reaction. After the reaction is complete, what total mass should be in the flask?",
         choices: [
-          "42.0 g",
           "Less than 42.0 g because products are new substances",
           "More than 42.0 g because atoms are made during reactions",
+          "42.0 g",
           "0 g because the reactants were used up"
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "In a chemical reaction, mass is conserved when matter cannot leave or enter the system."
       },
       {
@@ -8230,12 +8230,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-201-q3",
         prompt: "Why is atom rearrangement important for explaining conservation of mass?",
         choices: [
-          "The same atoms are present before and after the reaction, just connected differently.",
           "Atoms disappear when bonds break.",
           "Only energy is conserved in chemical reactions.",
-          "Each product atom is newly created from heat."
+          "Each product atom is newly created from heat.",
+          "The same atoms are present before and after the reaction, just connected differently."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Conservation of mass follows from conserving the number and type of atoms."
       }
     ]
@@ -8247,24 +8247,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-202-q1",
         prompt: "Which setup is best for testing whether mass is conserved during a reaction that produces a gas?",
         choices: [
-          "A sealed container on a balance before and after mixing the reactants.",
           "An open beaker so the gas can escape easily.",
+          "A sealed container on a balance before and after mixing the reactants.",
           "A paper cup that is weighed only after the reaction.",
           "A container with one reactant added after the final mass is measured."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "A closed system prevents matter, including gases, from leaving or entering."
       },
       {
         id: "kp-202-q2",
         prompt: "In a closed system, what can enter or leave while matter cannot?",
         choices: [
-          "Energy",
           "Atoms",
           "Liquid products",
+          "Energy",
           "Gas molecules only"
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Closed systems can exchange energy with the surroundings, but not matter."
       },
       {
@@ -8288,36 +8288,36 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-203-q1",
         prompt: "An effervescent tablet reacts in an open beaker of water and the measured mass decreases. What is the best explanation?",
         choices: [
-          "Gas particles escaped into the air, so the beaker system lost matter.",
           "Atoms were destroyed during bubbling.",
           "The water stopped being matter.",
-          "The balance always reads lower during chemical reactions."
+          "The balance always reads lower during chemical reactions.",
+          "Gas particles escaped into the air, so the beaker system lost matter."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "In an open system, matter such as gas can leave, changing the measured mass of the container."
       },
       {
         id: "kp-203-q2",
         prompt: "Which description matches an open system?",
         choices: [
-          "Matter and energy can both enter or leave.",
           "Matter is trapped but energy cannot move.",
+          "Matter and energy can both enter or leave.",
           "Only atoms can enter, not molecules.",
           "Nothing can enter or leave."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Open systems allow exchange of both matter and energy with surroundings."
       },
       {
         id: "kp-203-q3",
         prompt: "Why can an open-system reaction seem to violate conservation of mass?",
         choices: [
-          "Matter may move out of the measured system even though total matter is still conserved.",
           "Chemical reactions sometimes destroy atoms in open containers.",
           "Open containers stop products from forming.",
+          "Matter may move out of the measured system even though total matter is still conserved.",
           "Energy leaving the system has mass equal to the missing product."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "The apparent change comes from the boundary of what is measured, not from matter being destroyed."
       }
     ]
@@ -8341,24 +8341,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-204-q2",
         prompt: "A scientist heats a solid in sealed glassware and measures all contents before and after. What makes this evidence strong?",
         choices: [
-          "The system prevents products such as gases from escaping during measurement.",
           "Heating always makes the final mass larger.",
           "Glassware cancels measurement errors automatically.",
-          "The colour of a product is enough to prove conservation."
+          "The colour of a product is enough to prove conservation.",
+          "The system prevents products such as gases from escaping during measurement."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Keeping matter inside the apparatus lets the measured mass represent all reactants and products."
       },
       {
         id: "kp-204-q3",
         prompt: "Which conclusion best connects experimental evidence to a scientific law?",
         choices: [
-          "Repeated closed-system reactions with equal before-and-after mass support a general conservation rule.",
           "One colourful reaction proves every scientific idea.",
+          "Repeated closed-system reactions with equal before-and-after mass support a general conservation rule.",
           "If a reaction gives off light, mass cannot be measured.",
           "A law is based on preference rather than evidence."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Scientific laws are supported by repeated patterns in evidence."
       }
     ]
@@ -8370,12 +8370,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-205-q1",
         prompt: "Which atom count shows that \\(2CO + O_2 -> 2CO_2\\) conserves oxygen atoms?",
         choices: [
-          "Left: 4 O atoms; right: 4 O atoms",
           "Left: 2 O atoms; right: 4 O atoms",
+          "Left: 4 O atoms; right: 4 O atoms",
           "Left: 3 O atoms; right: 2 O atoms",
           "Left: 1 O atom; right: 2 O atoms"
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "The left side has 2 O atoms in 2CO plus 2 O atoms in O2, for 4 total; the right side has 4 O atoms in 2CO2."
       },
       {
@@ -8394,12 +8394,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-205-q3",
         prompt: "What should you count to check whether an equation obeys conservation of mass?",
         choices: [
-          "Atoms of each element on both sides of the arrow.",
           "Only the number of plus signs.",
           "Only the number of product formulas.",
-          "The number of letters in each compound name."
+          "The number of letters in each compound name.",
+          "Atoms of each element on both sides of the arrow."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "A balanced equation has the same number of each kind of atom on both sides."
       }
     ]
@@ -8411,24 +8411,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-206-q1",
         prompt: "What does a chemical equation represent?",
         choices: [
-          "A chemical reaction using words, formulas, or both.",
           "Only the colour of a product.",
+          "A chemical reaction using words, formulas, or both.",
           "A list of unrelated elements.",
           "The temperature of a room during an experiment."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Chemical equations summarize reactants changing into products."
       },
       {
         id: "kp-206-q2",
         prompt: "In a chemical equation, what does the arrow usually mean?",
         choices: [
-          "Produces or yields",
           "Is less important than",
           "Must be cooled before",
+          "Produces or yields",
           "Has the same name as"
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "The arrow points from reactants toward the products formed."
       },
       {
@@ -8452,36 +8452,36 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-207-q1",
         prompt: "In \\(2Mg + O_2 -> 2MgO\\), which substance is a product?",
         choices: [
-          "\\(MgO\\)",
           "\\(Mg\\)",
           "\\(O_2\\)",
-          "\\(Mg + O_2\\)"
+          "\\(Mg + O_2\\)",
+          "\\(MgO\\)"
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Products are written on the right side of the arrow."
       },
       {
         id: "kp-207-q2",
         prompt: "What are reactants?",
         choices: [
-          "Substances that undergo chemical change during a reaction.",
           "Substances formed only after a reaction ends.",
+          "Substances that undergo chemical change during a reaction.",
           "Symbols that show physical states.",
           "Numbers used only for balancing."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Reactants start on the left side and are changed into products."
       },
       {
         id: "kp-207-q3",
         prompt: "A student writes calcium carbonate -> calcium oxide + carbon dioxide. Which statement is correct?",
         choices: [
-          "Calcium carbonate is the reactant; calcium oxide and carbon dioxide are products.",
           "All three substances are reactants.",
           "Carbon dioxide is the only reactant.",
+          "Calcium carbonate is the reactant; calcium oxide and carbon dioxide are products.",
           "The arrow points from products to reactants."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "The substance before the arrow reacts, and the substances after the arrow form."
       }
     ]
@@ -8505,24 +8505,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-208-q2",
         prompt: "Why can a word equation be useful before writing formulas?",
         choices: [
-          "It identifies the reactants and products in words first.",
           "It always proves the equation is balanced.",
           "It shows every atom count automatically.",
-          "It replaces the need for chemical formulas in all cases."
+          "It replaces the need for chemical formulas in all cases.",
+          "It identifies the reactants and products in words first."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Word equations help organize the reaction before translating names into formulas."
       },
       {
         id: "kp-208-q3",
         prompt: "Which information is usually missing from a simple word equation?",
         choices: [
-          "Exact chemical formulas and coefficients",
           "Names of reactants and products",
+          "Exact chemical formulas and coefficients",
           "The direction from reactants to products",
           "Whether a reaction is being described"
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Word equations name substances but usually do not show formulas or balanced ratios."
       }
     ]
@@ -8534,12 +8534,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-209-q1",
         prompt: "What makes \\(Mg + O_2 -> MgO\\) a skeleton equation rather than a balanced equation?",
         choices: [
-          "It uses formulas but does not show equal oxygen atom counts on both sides.",
           "It uses only words.",
           "It has no products.",
+          "It uses formulas but does not show equal oxygen atom counts on both sides.",
           "It contains state symbols."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "A skeleton equation gives formulas but may not yet conserve atoms."
       },
       {
@@ -8558,12 +8558,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-209-q3",
         prompt: "A skeleton equation has correct formulas but unequal atom counts. What should be changed?",
         choices: [
-          "Coefficients in front of formulas",
           "Subscripts inside formulas",
           "Element symbols into different elements",
-          "Reactants into unrelated substances"
+          "Reactants into unrelated substances",
+          "Coefficients in front of formulas"
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Balancing changes coefficients, not the identities of substances."
       }
     ]
@@ -8575,24 +8575,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-210-q1",
         prompt: "Which equation is balanced?",
         choices: [
-          "\\(2Na + Cl_2 -> 2NaCl\\)",
           "\\(Na + Cl_2 -> NaCl\\)",
+          "\\(2Na + Cl_2 -> 2NaCl\\)",
           "\\(Na + Cl -> NaCl_2\\)",
           "\\(2Na + Cl_2 -> Na_2Cl\\)"
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "The balanced equation has 2 Na atoms and 2 Cl atoms on both sides."
       },
       {
         id: "kp-210-q2",
         prompt: "What must be true in a balanced chemical equation?",
         choices: [
-          "Each element has the same number of atoms on both sides.",
           "The products must have fewer atoms than the reactants.",
           "Every coefficient must be 1.",
+          "Each element has the same number of atoms on both sides.",
           "All substances must be gases."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Balanced equations show conservation of atoms and mass."
       },
       {
