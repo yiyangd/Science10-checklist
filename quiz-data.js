@@ -2466,12 +2466,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-61-q1",
         prompt: "A flower-colour gene has a red allele and a white allele that show incomplete dominance. Which notation best shows that neither allele is simply recessive?",
         choices: [
+          "\\(C\\) and \\(c\\), because one allele must be recessive.",
+          "\\(R\\) and \\(w\\), because the traits have different starting letters.",
           "\\(C^R\\) and \\(C^W\\).",
-          "\\(C\\) and \\(c\\).",
-          "\\(R\\) and \\(w\\).",
-          "\\(X^R\\) and \\(Y^W\\)."
+          "\\(X^R\\) and \\(Y^W\\), because the alleles use superscripts."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Superscripts such as C^R and C^W show different forms of the same gene without implying that one is dominant and one is recessive."
       },
       {
@@ -2479,9 +2479,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why would using \\(c\\) for the white flower allele be misleading in an incomplete-dominance example?",
         choices: [
           "Lowercase usually suggests a recessive allele, but the white allele still contributes to the heterozygote phenotype.",
-          "Lowercase letters are used only for sex chromosomes.",
-          "Lowercase letters mean the allele is found on a different chromosome.",
-          "Lowercase letters mean the allele cannot be inherited."
+          "Lowercase would show that the white allele is carried only on a Y chromosome.",
+          "Lowercase would mean the allele skips meiosis and cannot enter gametes.",
+          "Lowercase would show the allele is codominant rather than incompletely dominant."
         ],
         correctIndex: 0,
         explanation: "In incomplete dominance, both alleles affect the heterozygote, so notation should not make one allele look completely recessive."
@@ -2490,12 +2490,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-61-q3",
         prompt: "A student writes the genotype of a pink four o'clock flower as \\(C^R C^W\\). What does this genotype communicate?",
         choices: [
-          "The plant has one red allele form and one white allele form, producing an intermediate phenotype.",
-          "The plant has two recessive white alleles.",
-          "The plant has a mutation on the Y chromosome.",
-          "The plant must produce only red-flowered offspring."
+          "The plant has two recessive white alleles written with different symbols.",
+          "The plant has separate red and white patches, so the pattern must be codominance.",
+          "The plant must produce only red-flowered offspring because \\(C^R\\) is written first.",
+          "The plant has one red allele form and one white allele form, producing an intermediate phenotype."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "C^R C^W identifies the heterozygote; in this pattern, the heterozygote appears intermediate."
       }
     ]
@@ -2507,24 +2507,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-62-q1",
         prompt: "Which heterozygote phenotype best matches incomplete dominance?",
         choices: [
-          "A flower that is pink when the homozygotes are red and white.",
           "An animal coat that clearly shows both red hairs and white hairs.",
-          "A trait that disappears completely in the heterozygote.",
-          "A sex-linked trait that appears only on the Y chromosome."
+          "A flower that is pink when the homozygotes are red and white.",
+          "A heterozygote that looks exactly like the homozygous dominant parent.",
+          "A trait that appears only when the genotype is homozygous recessive."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Incomplete dominance produces an intermediate phenotype, while codominance shows both allele effects fully."
       },
       {
         id: "kp-62-q2",
         prompt: "A heterozygous animal has a coat with both black hairs and white hairs visible. Which pattern does this most strongly suggest?",
         choices: [
-          "Codominance.",
           "Incomplete dominance.",
-          "Simple recessive inheritance.",
-          "A test cross with no heterozygotes."
+          "Simple dominance, because only the first allele is expressed.",
+          "Codominance.",
+          "Incomplete dominance with a single blended grey hair colour."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "When both allele effects are visible side by side, the pattern is codominance rather than an intermediate blend."
       },
       {
@@ -2532,9 +2532,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What is the best question to ask when deciding between incomplete dominance and codominance?",
         choices: [
           "Does the heterozygote look intermediate, or does it show both traits distinctly?",
-          "Does the trait involve only one parent?",
-          "Can the trait be studied without a Punnett square?",
-          "Is the trait always harmful?"
+          "Does the allele symbol use a capital letter or a lowercase letter?",
+          "Does the Punnett square have four boxes or more than four boxes?",
+          "Is the trait controlled by a gene on an X chromosome?"
         ],
         correctIndex: 0,
         explanation: "The heterozygote phenotype is the key evidence: intermediate points to incomplete dominance, while both traits showing points to codominance."
@@ -2548,36 +2548,36 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-63-q1",
         prompt: "What makes a trait sex-linked?",
         choices: [
-          "The gene for the trait is located on a sex chromosome.",
-          "The trait appears only after a person becomes an adult.",
-          "The trait is controlled by every chromosome at once.",
-          "The trait can be inherited only from the mother."
+          "The trait is expressed only in genetic males.",
+          "The trait always depends on a recessive allele.",
+          "The trait can be inherited only from the mother.",
+          "The gene for the trait is located on a sex chromosome."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Sex-linked traits are tied to genes carried on sex chromosomes, such as the X or Y chromosome."
       },
       {
         id: "kp-63-q2",
         prompt: "A class is tracking a trait whose allele is carried on the X chromosome. Which detail must they include in their inheritance model?",
         choices: [
+          "Only the number of alleles on non-sex chromosomes.",
           "Whether each child receives an X or a Y chromosome from the father.",
-          "Only the height of the parents.",
-          "The number of recessive alleles on autosomes only.",
-          "Whether meiosis happens after fertilization."
+          "Whether the trait is always codominant in heterozygotes.",
+          "Only the phenotype ratio from a simple autosomal cross."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "For sex-linked inheritance, the combination of sex chromosomes affects which alleles an offspring can receive."
       },
       {
         id: "kp-63-q3",
         prompt: "Which statement corrects a common misconception about sex-linked traits?",
         choices: [
-          "Sex-linked traits can affect any person, but inheritance patterns depend on sex chromosomes.",
-          "Sex-linked traits are never inherited.",
           "Sex-linked traits are always found only on the Y chromosome.",
-          "Sex-linked traits cannot be represented with genotypes."
+          "Sex-linked traits cannot be represented with genotypes.",
+          "Sex-linked traits can affect any person, but inheritance patterns depend on sex chromosomes.",
+          "Sex-linked traits are always unrelated to alleles."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Sex-linked does not mean only one sex can have the trait; it means the gene is on a sex chromosome."
       }
     ]
@@ -2590,9 +2590,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "A trait is controlled by a gene on the X chromosome. What kind of trait is it?",
         choices: [
           "An X-linked trait.",
-          "A codominant autosomal trait.",
-          "A mitochondrial-only trait.",
-          "A trait with no genotype."
+          "An autosomal recessive trait.",
+          "A Y-linked trait in every child.",
+          "An incomplete-dominance trait by definition."
         ],
         correctIndex: 0,
         explanation: "Traits controlled by genes on the X chromosome are X-linked traits."
@@ -2601,24 +2601,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-64-q2",
         prompt: "Why are X-linked genotypes often written with symbols such as \\(X^B\\), \\(X^b\\), and \\(Y\\)?",
         choices: [
-          "The notation shows both the sex chromosome and the allele carried on the X chromosome.",
-          "The notation means the allele is found on every chromosome.",
-          "The notation is used only for incomplete dominance in plants.",
-          "The notation prevents Punnett squares from being used."
+          "The notation means the same allele is carried on both the X and Y chromosomes.",
+          "The notation shows that the trait cannot be recessive.",
+          "The notation is used only when the heterozygote has an intermediate phenotype.",
+          "The notation shows both the sex chromosome and the allele carried on the X chromosome."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "The superscript shows the allele on the X chromosome; Y is shown separately because it does not carry the same X-linked allele."
       },
       {
         id: "kp-64-q3",
         prompt: "A genetic male has genotype \\(X^bY\\) for an X-linked trait. How many copies of the \\(b\\) allele does he have?",
         choices: [
-          "One copy.",
           "Two copies.",
-          "Three copies.",
-          "No copies, because Y cancels it."
+          "One copy.",
+          "No copies, because Y cancels it.",
+          "One copy on X plus a matching copy on Y."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "A genetic male has one X chromosome, so one recessive allele on that X can be enough to affect the phenotype."
       }
     ]
@@ -2630,12 +2630,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-65-q1",
         prompt: "Why do recessive X-linked traits often appear more often in genetic males?",
         choices: [
+          "A genetic male has two X chromosomes, so both recessive alleles are often present.",
+          "The Y chromosome turns every X-linked allele into a dominant allele.",
           "A genetic male usually has only one X chromosome, so a recessive allele on it is not masked by another X allele.",
-          "A genetic male has two Y chromosomes that make every recessive trait appear.",
-          "Recessive X-linked alleles cannot be passed to genetic females.",
-          "The X chromosome is never inherited from a parent."
+          "Recessive X-linked alleles can be passed only to sons and never to daughters."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "With only one X chromosome, a genetic male has no second X allele to mask a recessive X-linked allele."
       },
       {
@@ -2645,7 +2645,7 @@ window.SCIENCE10_QUIZZES = {
           "\\(X^bX^b\\).",
           "\\(X^BX^b\\).",
           "\\(X^BX^B\\).",
-          "\\(X^BY\\)."
+          "\\(X^bY\\)."
         ],
         correctIndex: 0,
         explanation: "A genetic female usually needs two recessive X-linked alleles to express a recessive X-linked trait."
@@ -2654,12 +2654,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-65-q3",
         prompt: "A carrier mother \\((X^B X^b)\\) and an unaffected father \\((X^B Y)\\) have children. Which outcome is possible?",
         choices: [
-          "A son with genotype \\(X^bY\\) who expresses the recessive trait.",
-          "A daughter with genotype \\(YY\\).",
-          "Every child must express the recessive trait.",
-          "No child can inherit the \\(X^b\\) allele."
+          "Every daughter must express the recessive trait.",
+          "Every son must inherit \\(X^B\\) from the father.",
+          "No child can inherit the \\(X^b\\) allele.",
+          "A son with genotype \\(X^bY\\) who expresses the recessive trait."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "A son can receive X^b from the mother and Y from the father, so he can express the recessive X-linked trait."
       }
     ]
@@ -2671,24 +2671,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-66-q1",
         prompt: "For a recessive X-linked trait, what does it mean for a genetic female to be a carrier?",
         choices: [
+          "She expresses the trait because one recessive allele is always enough in females.",
           "She has one recessive allele on one X chromosome but usually does not express the trait.",
-          "She has no allele for the trait at all.",
-          "She has a Y chromosome carrying the recessive allele.",
-          "She cannot pass the allele to offspring."
+          "She has the allele only on a Y chromosome.",
+          "She has the trait in her phenotype but cannot pass the allele on."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "A carrier has the allele and can pass it on, even if a second X allele masks its effect."
       },
       {
         id: "kp-66-q2",
         prompt: "Which genotype represents a carrier female for red-green colour vision deficiency using \\(X^B\\) for normal vision and \\(X^b\\) for the recessive allele?",
         choices: [
-          "\\(X^B X^b\\).",
           "\\(X^b Y\\).",
+          "\\(X^B X^B\\).",
+          "\\(X^B X^b\\).",
           "\\(X^B Y\\).",
-          "\\(X^B X^B\\)."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "X^B X^b has one normal allele and one recessive allele, so it represents a carrier female."
       },
       {
@@ -2696,9 +2696,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why can carrier genotypes help explain a trait that seems to skip a generation?",
         choices: [
           "A recessive allele can be passed through a carrier who does not show the trait.",
-          "Carriers change the allele into a dominant allele.",
-          "Carriers cannot have children with the trait.",
-          "A skipped generation proves the trait is not inherited."
+          "A carrier changes the recessive allele into a dominant allele before passing it on.",
+          "An unaffected carrier proves the allele disappeared from the family.",
+          "A carrier can pass the allele only to daughters, never to sons."
         ],
         correctIndex: 0,
         explanation: "A carrier may appear unaffected but still pass the recessive allele to a child who expresses it."
@@ -2712,36 +2712,36 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-67-q1",
         prompt: "Red-green colour vision deficiency is often modelled as a recessive X-linked trait. Which genotype represents an affected genetic male?",
         choices: [
-          "\\(X^bY\\).",
           "\\(X^BY\\).",
           "\\(X^BX^b\\).",
-          "\\(X^BX^B\\)."
+          "\\(X^BX^B\\).",
+          "\\(X^bY\\)."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "A genetic male with X^bY has the recessive allele on his only X chromosome, so the trait is expressed."
       },
       {
         id: "kp-67-q2",
         prompt: "A carrier mother \\((X^B X^b)\\) and a father with typical colour vision \\((X^B Y)\\) have a child. What is the predicted chance that a son has red-green colour vision deficiency?",
         choices: [
-          "50%.",
           "25%.",
+          "50%.",
           "75%.",
           "100%."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Sons receive Y from the father and one X from the mother; half of the mother's eggs carry X^b."
       },
       {
         id: "kp-67-q3",
         prompt: "Which statement best explains why red-green colour vision deficiency is rarer in genetic females than in genetic males?",
         choices: [
-          "A genetic female usually needs two recessive X-linked alleles to express it.",
-          "Genetic females do not have X chromosomes.",
           "The allele is dominant in males but recessive in females.",
-          "The Y chromosome always fixes colour vision."
+          "The Y chromosome always supplies a normal colour-vision allele.",
+          "A genetic female usually needs two recessive X-linked alleles to express it.",
+          "Carrier females cannot pass the allele to offspring."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "A second X chromosome can carry a normal allele that masks a recessive X-linked allele."
       }
     ]
@@ -2754,9 +2754,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What is the main purpose of a pedigree in genetics?",
         choices: [
           "To show family relationships and how a trait appears across generations.",
-          "To list every DNA base in a chromosome.",
-          "To prove that all traits are codominant.",
-          "To replace all Punnett squares with photographs."
+          "To calculate a 3:1 ratio without needing parent genotypes.",
+          "To show only the current generation and ignore ancestry.",
+          "To prove whether a trait is helpful or harmful in an environment."
         ],
         correctIndex: 0,
         explanation: "A pedigree is a family flowchart used to trace inherited traits through generations."
@@ -2765,24 +2765,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-68-q2",
         prompt: "A trait appears in several males across a family tree, while some unaffected females have affected sons. What pattern might a pedigree help investigate?",
         choices: [
-          "A recessive X-linked inheritance pattern.",
+          "Incomplete dominance in flower colour.",
+          "A codominant coat-colour pattern only.",
           "A trait caused only by diet.",
-          "A non-inherited change in every generation.",
-          "A trait carried only on the Y chromosome in females."
+          "A recessive X-linked inheritance pattern."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Unaffected carrier females can have affected sons in recessive X-linked inheritance, so a pedigree can help reveal the pattern."
       },
       {
         id: "kp-68-q3",
         prompt: "Why is a pedigree useful before making a Punnett square for a family trait?",
         choices: [
+          "It guarantees the phenotype of all future children.",
           "It helps infer which family members may be affected, unaffected, or carriers.",
-          "It shows the exact DNA sequence of every allele.",
-          "It makes probability unnecessary.",
-          "It guarantees the phenotype of all future children."
+          "It makes parent genotypes unnecessary in every case.",
+          "It changes recessive alleles into dominant alleles."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Pedigree evidence can help narrow likely genotypes, which can then be tested with Punnett-square reasoning."
       }
     ]
@@ -2794,12 +2794,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-69-q1",
         prompt: "Hemophilia is described as a recessive X-linked disorder. What body process is directly affected?",
         choices: [
-          "Blood clotting.",
           "Colour perception.",
-          "Flower pigment blending.",
-          "Chromosome separation during every mitosis."
+          "Hemoglobin oxygen transport.",
+          "Blood clotting.",
+          "Flower pigment blending."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Hemophilia affects the ability of blood to clot properly."
       },
       {
@@ -2818,12 +2818,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-69-q3",
         prompt: "An affected father with hemophilia \\((X^hY)\\) and an unaffected non-carrier mother \\((X^H X^H)\\) have a daughter. What genotype is expected for the daughter?",
         choices: [
-          "\\(X^H X^h\\), a carrier.",
           "\\(X^hY\\), affected.",
           "\\(X^H Y\\), unaffected male.",
-          "\\(X^h X^h\\), affected."
+          "\\(X^h X^h\\), affected.",
+          "\\(X^H X^h\\), a carrier."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "A daughter receives her father's X^h and one X^H from her mother, making her a carrier."
       }
     ]
@@ -2835,24 +2835,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-70-q1",
         prompt: "A pedigree shows an affected male with a recessive X-linked disorder and an unaffected daughter. What is a reasonable inference if the mother is unaffected and not a carrier?",
         choices: [
-          "The daughter is a carrier because she received her father's affected X chromosome.",
           "The daughter must be affected because all daughters of affected fathers are affected.",
+          "The daughter is a carrier because she received her father's affected X chromosome.",
           "The daughter cannot inherit any X chromosome from her father.",
-          "The father passes his Y chromosome to every child."
+          "The father passes his Y chromosome to all daughters."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Daughters receive an X chromosome from their father; if his X carries the recessive allele and the mother's X is typical, the daughter is a carrier."
       },
       {
         id: "kp-70-q2",
         prompt: "Why might a student combine pedigree evidence with a Punnett square?",
         choices: [
-          "The pedigree suggests likely parent genotypes, and the Punnett square predicts possible offspring genotypes.",
-          "The Punnett square shows family names, while the pedigree calculates DNA mass.",
+          "The pedigree replaces genotypes, while the Punnett square replaces family relationships.",
           "Using both guarantees the exact traits of future children.",
-          "Pedigrees can be used only for plant crosses."
+          "The pedigree suggests likely parent genotypes, and the Punnett square predicts possible offspring genotypes.",
+          "Pedigrees are useful only when traits are not inherited."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Pedigrees help infer genotypes from family history; Punnett squares organize the probabilities from those genotypes."
       },
       {
@@ -2862,7 +2862,7 @@ window.SCIENCE10_QUIZZES = {
           "Carrier, such as \\(X^H X^h\\).",
           "Affected male, such as \\(X^hY\\).",
           "Non-carrier only, such as \\(X^H X^H\\).",
-          "No X chromosomes."
+          "Affected female only, such as \\(X^h X^h\\)."
         ],
         correctIndex: 0,
         explanation: "An affected son must receive the recessive X-linked allele from his mother, so she may be a carrier."
