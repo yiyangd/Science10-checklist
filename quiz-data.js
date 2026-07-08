@@ -7715,9 +7715,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What is a compound?",
         choices: [
           "A mixture of elements that are not chemically combined.",
-          "A substance made of only one kind of atom.",
+          "A substance made from one element written with a formula.",
           "A substance made of atoms of different elements chemically combined in specific proportions.",
-          "A single loose electron."
+          "A sample where different elements are close together but not bonded."
         ],
         correctIndex: 2,
         explanation: "Compounds contain different elements bonded in fixed ratios."
@@ -7755,10 +7755,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-190-q1",
         prompt: "What particles make up ionic compounds?",
         choices: [
-          "Only neutral atoms with no charges.",
+          "Neutral atoms arranged side by side without forming ions.",
           "Positive cations and negative anions.",
-          "Only molecules made by sharing electrons.",
-          "Only loose protons."
+          "Separate molecules made by shared electron pairs.",
+          "Positive nuclei held together without electrons."
         ],
         correctIndex: 1,
         explanation: "Ionic compounds consist of oppositely charged ions."
@@ -7770,7 +7770,7 @@ window.SCIENCE10_QUIZZES = {
           "Oxygen gas, O2.",
           "Hydrogen gas, H2.",
           "Sodium chloride, made of Na+ and Cl- ions.",
-          "Carbon dioxide molecules only."
+          "Carbon dioxide, because it contains two non-metals."
         ],
         correctIndex: 2,
         explanation: "Sodium chloride is composed of sodium cations and chloride anions in a crystal lattice."
@@ -7780,9 +7780,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why must the total positive and negative charges balance in an ionic compound?",
         choices: [
           "The compound as a whole is electrically neutral.",
-          "Ionic compounds always have extra positive charge.",
+          "Ionic compounds need more positive ions than negative ions to hold together.",
           "Anions disappear when the compound forms.",
-          "Charge balance matters only in covalent compounds."
+          "Charge balance is less important once a crystal lattice forms."
         ],
         correctIndex: 0,
         explanation: "Formula units show the smallest whole-number ratio of ions that gives overall neutrality."
@@ -7797,9 +7797,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What is an ionic bond?",
         choices: [
           "A pair of atoms sharing electrons equally.",
-          "A weak attraction between two neutral molecules only.",
+          "An attraction between neutral molecules after they share electrons.",
           "A strong attraction between oppositely charged ions.",
-          "A bond that forms only between two non-metals by sharing electrons."
+          "A bond between non-metals that is stronger when electrons are shared."
         ],
         correctIndex: 2,
         explanation: "Ionic bonds are electrostatic attractions between cations and anions."
@@ -7820,7 +7820,7 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-191-q3",
         prompt: "Why does electron transfer often increase stability?",
         choices: [
-          "The atoms lose all electrons.",
+          "The atoms remove their valence shells completely.",
           "The ions become unrelated to charge.",
           "The compound becomes a separate molecule.",
           "The ions can achieve full valence shells."
@@ -7837,9 +7837,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-192-q1",
         prompt: "How do covalent compounds form?",
         choices: [
-          "Metal atoms transfer electrons to non-metals only.",
+          "Metal atoms transfer electrons to non-metals to make charged ions.",
           "Non-metal atoms share valence electrons.",
-          "Ions arrange in a crystal lattice only.",
+          "Ions arrange in a lattice after electrons are transferred.",
           "Atoms form bonds without electrons."
         ],
         correctIndex: 1,
@@ -7862,8 +7862,8 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What is the key difference between covalent and ionic bonding?",
         choices: [
           "Covalent bonding shares electrons; ionic bonding involves attraction between ions after electron transfer.",
-          "Covalent bonding always involves metals.",
-          "Ionic bonding always forms separate molecules.",
+          "Covalent bonding uses metals when the compound has a familiar formula.",
+          "Ionic bonding forms separate molecules when the ion ratio is simple.",
           "Covalent bonding has no valence electrons."
         ],
         correctIndex: 0,
@@ -7878,7 +7878,7 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-193-q1",
         prompt: "What is a covalent bond?",
         choices: [
-          "A bond between cations and anions only.",
+          "An attraction between cations and anions after electron transfer.",
           "A reaction that destroys atoms.",
           "A formula unit in a crystal lattice.",
           "A strong attraction formed when atoms share valence electrons."
@@ -7921,7 +7921,7 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "A particle made of two or more atoms bonded by covalent bonds.",
           "A crystal lattice of positive and negative ions.",
-          "A single charged ion only.",
+          "A charged ion that represents the smallest part of an ionic compound.",
           "A fire class label."
         ],
         correctIndex: 0,
@@ -7945,7 +7945,7 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "It is a continuous ionic lattice.",
           "It exists as independent H2O molecules held together by covalent bonds within each molecule.",
-          "It contains only one element.",
+          "It contains a repeated ion ratio like sodium chloride.",
           "It has no chemical bonds."
         ],
         correctIndex: 1,
@@ -7961,9 +7961,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why is sodium chloride usually described by formula units rather than molecules?",
         choices: [
           "It has no ions.",
-          "It is made only of covalent bonds.",
+          "It is made of shared electron pairs between sodium and chlorine.",
           "It forms a continuous ionic lattice instead of separate NaCl molecules.",
-          "It contains only sodium atoms."
+          "It contains sodium atoms but chlorine is present as separate molecules."
         ],
         correctIndex: 2,
         explanation: "Ionic compounds are represented by the smallest ratio of ions, called a formula unit."
@@ -7974,7 +7974,7 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "A 1:1 ratio of sodium ions to chloride ions.",
           "One separate covalent molecule with shared electrons.",
-          "Two sodium ions for every chloride ion.",
+          "A 2:1 ratio because sodium has the lower atomic mass.",
           "A compound with no charge balance."
         ],
         correctIndex: 0,
@@ -7984,9 +7984,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-195-q3",
         prompt: "Which statement avoids a common mistake?",
         choices: [
-          "Every chemical formula represents a separate molecule.",
-          "Ionic compounds are always made of neutral atoms only.",
-          "Covalent compounds are always represented by formula units.",
+          "A simple chemical formula usually means a substance is a separate molecule.",
+          "Ionic compounds are best pictured as neutral atom pairs.",
+          "Covalent compounds use formula units when they have more than two atoms.",
           "Ionic compounds have formula units; many covalent substances have molecules."
         ],
         correctIndex: 3,
@@ -8013,10 +8013,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-196-q2",
         prompt: "Methane reacts with oxygen to form carbon dioxide and water. What should be tracked to understand the reaction?",
         choices: [
-          "Only the colour of the flame.",
-          "Only the container shape.",
+          "The colour and temperature of the flame, but not individual atoms.",
+          "The container shape, because it controls where products form.",
           "Where each carbon, hydrogen, and oxygen atom goes in the products.",
-          "Only the names of the reactants."
+          "The names of the reactants, because formulas are not needed."
         ],
         correctIndex: 2,
         explanation: "Tracking atoms shows how reactants are rearranged into products."
@@ -8027,7 +8027,7 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "Reactant atoms are conserved but bonded in new ways.",
           "Product atoms appear from nowhere.",
-          "Reactant atoms are always destroyed.",
+          "Reactant atoms are used up by turning into energy.",
           "Atoms are not involved in reactions."
         ],
         correctIndex: 0,
@@ -8054,10 +8054,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-197-q2",
         prompt: "What is required to break a chemical bond?",
         choices: [
-          "Energy is always released first.",
+          "Energy is released as soon as old bonds start to separate.",
           "Energy must be added.",
           "No energy is involved.",
-          "Only a fire extinguisher label is needed."
+          "A catalyst label is enough to separate bonded atoms."
         ],
         correctIndex: 1,
         explanation: "Breaking the electrostatic attraction in a bond requires energy input."
@@ -8085,8 +8085,8 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "New bonds form to create product substances.",
           "Atoms remain completely unbonded forever.",
-          "All energy disappears.",
-          "Reactants reform exactly as before in every case."
+          "Energy is used up so it is no longer involved.",
+          "Reactant bonds reform if the reaction gives off heat."
         ],
         correctIndex: 0,
         explanation: "Products form when rearranged atoms bond in new combinations."
@@ -8095,7 +8095,7 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-198-q2",
         prompt: "What happens to energy when a chemical bond forms?",
         choices: [
-          "Energy must always be absorbed and never released.",
+          "Energy must be absorbed because atoms are moving closer together.",
           "No energy change occurs.",
           "Mass is destroyed to make the bond.",
           "Energy is released."
@@ -8109,7 +8109,7 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "The substances are simply moved to a new beaker.",
           "A new gas, solid, colour, or other property appears after reactants interact.",
-          "A solid is broken into smaller pieces only.",
+          "A solid is crushed so it has a different shape.",
           "A label is placed on the container."
         ],
         correctIndex: 1,
@@ -8124,10 +8124,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-199-q1",
         prompt: "Which statement about bond energy is correct?",
         choices: [
-          "Breaking bonds releases energy, while forming bonds always requires energy.",
+          "Breaking bonds releases energy because atoms move apart.",
           "Both breaking and forming bonds destroy mass.",
           "Breaking bonds requires energy, while forming bonds releases energy.",
-          "Energy is never involved in bonding."
+          "Energy changes happen after products form, not during bonding."
         ],
         correctIndex: 2,
         explanation: "This is the key energy pattern for chemical bonds."
@@ -8149,7 +8149,7 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why do fireworks involve energy changes?",
         choices: [
           "Atoms in fireworks are not rearranged.",
-          "Fireworks are physical changes only.",
+          "Fireworks mainly show heated materials glowing without new substances.",
           "Chemical bonds do not store or release energy.",
           "Bonds in reactants break and new bonds form in products, producing heat, gas, and light."
         ],
@@ -8167,7 +8167,7 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "Atoms bond to increase instability on purpose.",
           "Bonding can help atoms achieve more stable valence electron arrangements.",
-          "Atoms bond only to change their nuclei.",
+          "Atoms bond mainly to change the number of particles in their nuclei.",
           "Bonding is unrelated to valence electrons."
         ],
         correctIndex: 1,
@@ -8177,10 +8177,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-200-q2",
         prompt: "How can a non-metal atom achieve a full valence shell in a covalent compound?",
         choices: [
-          "By losing all its protons.",
+          "By losing protons until its charge becomes positive.",
           "By becoming a fire extinguisher.",
           "By sharing valence electrons with another non-metal atom.",
-          "By forming no bonds at all."
+          "By keeping its valence electrons separate from nearby atoms."
         ],
         correctIndex: 2,
         explanation: "Covalent bonding fills valence shells through shared electron pairs."
@@ -8190,7 +8190,7 @@ window.SCIENCE10_QUIZZES = {
         prompt: "How can a metal atom become more stable in a binary ionic compound?",
         choices: [
           "By losing valence electrons to form a cation with a stable electron arrangement.",
-          "By sharing electrons equally with another metal only.",
+          "By sharing electrons equally with another metal atom.",
           "By gaining unlimited electrons until it has no charge.",
           "By refusing to interact with non-metals."
         ],
