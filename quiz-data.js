@@ -3986,7 +3986,7 @@ window.SCIENCE10_QUIZZES = {
           "The formation of a new species from an existing species.",
           "The complete disappearance of a species from Earth.",
           "A temporary decline in one population while other populations remain widespread.",
-          "A mutation that always improves survival."
+          "A mutation that improves survival under one selective pressure."
         ],
         correctIndex: 1,
         explanation: "Extinction means no living members of that species remain on Earth."
@@ -3995,10 +3995,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-98-q2",
         prompt: "How can selective pressure contribute to extinction?",
         choices: [
-          "Selective pressure always creates a helpful mutation before a species disappears.",
-          "Selective pressure affects only species that are already extinct.",
-          "If environmental change strongly selects against all members and none can survive and reproduce, the species may disappear.",
-          "Selective pressure prevents environments from changing."
+          "Selective pressure matters after a population has already recovered.",
+          "Selective pressure changes species names but not survival or reproduction.",
+          "If environmental change strongly selects against a population and survivors cannot reproduce enough, the species may disappear.",
+          "Selective pressure prevents environmental change from affecting populations."
         ],
         correctIndex: 2,
         explanation: "When conditions change beyond what a population can tolerate, survival and reproduction may fail."
@@ -4037,9 +4037,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why could an asteroid impact lead to widespread extinction?",
         choices: [
           "It could cause large environmental changes, such as blocked sunlight and disrupted food webs.",
-          "It would make every organism instantly better adapted.",
+          "It would give populations time to adapt before food webs changed.",
           "It would stop selective pressure from acting on populations.",
-          "It would guarantee adaptive radiation before any species died."
+          "It would mainly create new niches before disrupting existing species."
         ],
         correctIndex: 0,
         explanation: "Large environmental disruptions can create severe selective pressures that many species cannot survive."
@@ -4048,7 +4048,7 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-99-q3",
         prompt: "After a mass extinction, what happens to biodiversity at that time?",
         choices: [
-          "It always increases immediately because habitats open up.",
+          "It rebounds so quickly that the loss is not visible in the fossil record.",
           "It becomes exactly the same as before after one generation.",
           "It can no longer change after the event.",
           "It decreases sharply because many species are lost."
@@ -4065,7 +4065,7 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-100-q1",
         prompt: "What is a mutagen?",
         choices: [
-          "Any trait that helps survival in every environment.",
+          "A trait that helps survival under a selective pressure.",
           "A substance or event that increases the rate of mutation.",
           "A population that can interbreed and produce fertile offspring.",
           "A chart used to show family relationships."
@@ -4090,8 +4090,8 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why are mutagens important when studying natural selection and new species?",
         choices: [
           "They can increase mutations, which can create genetic variation for selection to act on.",
-          "They remove all variation from a population.",
-          "They make every mutation beneficial in every environment.",
+          "They reduce genetic variation by damaging harmful alleles first.",
+          "They make mutations more likely to help survival in stressful environments.",
           "They cause individuals to evolve on purpose."
         ],
         correctIndex: 0,
@@ -4130,10 +4130,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-101-q3",
         prompt: "Which statement best avoids a misconception about physical mutagens?",
         choices: [
-          "Physical mutagens always create beneficial mutations.",
-          "Physical mutagens change only proteins and never DNA.",
+          "Physical mutagens tend to create adaptations when organisms are exposed.",
+          "Physical mutagens affect protein shape directly without changing DNA.",
           "Physical mutagens are the same thing as artificial selection.",
-          "Physical mutagens can increase mutation risk, but not every exposure causes cancer or an inherited mutation."
+          "Physical mutagens can increase mutation risk; the result depends on exposure, repair, and which cells are affected."
         ],
         correctIndex: 3,
         explanation: "Mutagens increase mutation rate or risk; the outcome depends on the dose, cells affected, and DNA change."
@@ -4147,7 +4147,7 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-102-q1",
         prompt: "What is a chemical mutagen?",
         choices: [
-          "A form of radiation that changes DNA only through physical energy.",
+          "A form of radiation that damages DNA through energy rather than chemical reaction.",
           "A molecule that can enter a cell nucleus and react with DNA.",
           "A selected trait that breeders choose in crops.",
           "A geographic barrier that separates gene pools."
@@ -4172,8 +4172,8 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which comparison between physical and chemical mutagens is correct?",
         choices: [
           "Physical mutagens include radiation; chemical mutagens include molecules that react with DNA.",
-          "Physical mutagens are inherited alleles; chemical mutagens are always adaptations.",
-          "Physical mutagens always repair DNA; chemical mutagens always prevent mutation.",
+          "Physical mutagens are inherited traits; chemical mutagens are selected adaptations.",
+          "Physical mutagens repair DNA, while chemical mutagens guide helpful variation.",
           "Both terms mean human-directed selective breeding."
         ],
         correctIndex: 0,
@@ -4188,8 +4188,8 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-103-q1",
         prompt: "What is a carcinogen?",
         choices: [
-          "A mutagen that always affects only gametes.",
-          "A trait that improves survival in every environment.",
+          "A mutagen that affects gamete cells but cannot affect body cells.",
+          "A trait that improves survival under a selective pressure.",
           "A species formed by adaptive radiation.",
           "A substance or agent that causes cancer."
         ],
@@ -4213,7 +4213,7 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why can sunscreen reduce one kind of cancer risk?",
         choices: [
           "It changes harmful alleles into helpful alleles.",
-          "It prevents all mutations in every cell of the body.",
+          "It lowers heat exposure rather than DNA-damaging radiation.",
           "It can reduce exposure to ultraviolet radiation, a mutagen associated with skin cancer risk.",
           "It causes artificial selection in skin cells."
         ],
@@ -4230,9 +4230,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "How can a mutation affect protein production?",
         choices: [
           "It can change gene instructions, which may alter the protein made from that gene.",
-          "It always stops every protein in the body from being made.",
-          "It affects only the organism's habitat, not its cells.",
-          "It changes only the species name used in a pedigree."
+          "It changes proteins after they are made without changing gene instructions.",
+          "It changes the habitat first, and cell instructions respond later.",
+          "It changes species labels rather than cell function."
         ],
         correctIndex: 0,
         explanation: "Genes carry instructions for proteins, so DNA changes can affect protein structure or production."
@@ -4243,8 +4243,8 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "The cell must become a new species immediately.",
           "The mutation cannot affect cell function.",
-          "The mutation can only change the cell's colour in a photograph.",
-          "The cell may produce a protein that works differently or not at all."
+          "The mutation affects the population but not that cell's protein instructions.",
+          "The cell may produce a protein that works differently or fails to function normally."
         ],
         correctIndex: 3,
         explanation: "If a protein is altered, cell function and organism health may be affected."
@@ -4253,10 +4253,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-104-q3",
         prompt: "Which statement best avoids a misconception about mutations and proteins?",
         choices: [
-          "Every mutation affects every protein equally.",
+          "A mutation in one gene affects many proteins in the same direct way.",
           "A DNA change may affect a specific protein, but the effect depends on where and how the gene changes.",
           "Proteins make genes, so DNA cannot affect protein production.",
-          "Mutations only matter if they are visible from outside the organism."
+          "Mutations matter mainly when the change is visible from outside the organism."
         ],
         correctIndex: 1,
         explanation: "The impact of a mutation depends on the gene involved and whether the protein's instructions are changed."
@@ -4519,7 +4519,7 @@ window.SCIENCE10_QUIZZES = {
           "Growing many unrelated crops together on one plot.",
           "A process where two species merge into one hybrid species.",
           "Repeated planting of the same varieties of a species over large areas.",
-          "A farming system that always increases genetic diversity."
+          "A farming system that increases crop diversity by mixing varieties."
         ],
         correctIndex: 2,
         explanation: "Monoculture means large areas are planted with the same crop variety or very similar varieties."
@@ -4529,9 +4529,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why can monoculture increase risk from disease or environmental change?",
         choices: [
           "Low genetic diversity means many plants may be vulnerable in the same way.",
-          "Every plant has completely different resistance traits.",
+          "Plants with similar genetics may still vary enough to resist the same disease.",
           "Disease cannot spread when fields are large.",
-          "Monoculture prevents all selective pressure."
+          "Monoculture reduces selection pressure by simplifying the field."
         ],
         correctIndex: 0,
         explanation: "When crops are genetically similar, one disease or stress can affect a large part of the crop."
@@ -4540,7 +4540,7 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-111-q3",
         prompt: "Which statement shows both a benefit and a risk of monoculture?",
         choices: [
-          "It always increases biodiversity and eliminates all crop diseases.",
+          "It increases biodiversity because uniform fields are easier to manage.",
           "It is the same as companion planting.",
           "It prevents farmers from using machines or fertilizers.",
           "It can simplify large-scale farming, but reduced diversity can make crops less resilient."
@@ -4570,7 +4570,7 @@ window.SCIENCE10_QUIZZES = {
         prompt: "In the Enos Lake example, what happened after the two stickleback species began interbreeding?",
         choices: [
           "Both original species became more separate than before.",
-          "All fish in the lake stopped reproducing.",
+          "The original two species stayed separate but shared the same hybrid offspring.",
           "The two distinct species were replaced by a hybrid population.",
           "The lake gained two additional non-hybrid species."
         ],
@@ -4582,8 +4582,8 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why is reverse speciation different from adaptive radiation?",
         choices: [
           "Reverse speciation merges previously separate species, while adaptive radiation diversifies a common ancestor into different species.",
-          "Reverse speciation always increases the number of species.",
-          "Adaptive radiation happens only when humans select crops.",
+          "Reverse speciation increases diversity because a hybrid population remains.",
+          "Adaptive radiation happens when human selection produces crop varieties.",
           "Both terms mean exactly the same process."
         ],
         correctIndex: 0,
@@ -4598,9 +4598,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-113-q1",
         prompt: "How can an introduced species create selection pressure?",
         choices: [
-          "It removes all interactions among organisms.",
+          "It leaves feeding and breeding patterns unchanged after entering an ecosystem.",
           "It guarantees that biodiversity increases.",
-          "It prevents any hybrid offspring from forming in every case.",
+          "It keeps hybrid offspring from surviving in that ecosystem.",
           "It can change feeding, nesting, breeding, or survival conditions for existing species."
         ],
         correctIndex: 3,
@@ -4613,7 +4613,7 @@ window.SCIENCE10_QUIZZES = {
           "It may have changed nesting areas or pushed one species into the other's territory.",
           "It made both fish species genetically identical before they bred.",
           "It prevented the fish from sharing any habitat.",
-          "It removed every selective pressure from the lake."
+          "It made selective pressures in the lake irrelevant to breeding."
         ],
         correctIndex: 0,
         explanation: "The textbook suggests crayfish may have changed nesting, feeding, or movement patterns, increasing interbreeding."
@@ -4622,9 +4622,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-113-q3",
         prompt: "Which statement best connects human activity to reverse speciation risk?",
         choices: [
-          "Human activity can never affect selection pressure.",
-          "Introduced species always prevent hybridization.",
-          "Reverse speciation can occur only in laboratory populations.",
+          "Human activity is unrelated to selection pressure once a species is introduced.",
+          "Introduced species tend to keep separated species from breeding.",
+          "Reverse speciation requires a laboratory population rather than an ecosystem.",
           "Human-introduced species can alter ecosystems in ways that change breeding and survival patterns."
         ],
         correctIndex: 3,
@@ -4639,9 +4639,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-114-q1",
         prompt: "Why might reverse speciation reduce biodiversity even if a hybrid species remains?",
         choices: [
-          "A hybrid species always means there are more species than before.",
+          "A hybrid population means species diversity has increased.",
           "Two distinct species can be lost and replaced by one hybrid species.",
-          "Biodiversity counts only the number of individuals, not species.",
+          "Biodiversity counts individuals but not differences among species.",
           "Reverse speciation prevents extinction."
         ],
         correctIndex: 1,
@@ -4664,8 +4664,8 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which question would help evaluate the ecosystem impact of reverse speciation?",
         choices: [
           "Did feeding patterns, insect populations, or decomposition rates change after the species merged?",
-          "Did the fish become immune to every disease?",
-          "Can a Punnett square alone identify all ecosystem effects?",
+          "Did the fish become resistant to the main disease in the lake?",
+          "Can a Punnett square identify ecosystem effects without field evidence?",
           "Did the hybrid species remove the need for habitats?"
         ],
         correctIndex: 0,
@@ -4681,9 +4681,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which is an environmental consequence associated with large-scale monoculture?",
         choices: [
           "Automatic increase in wild biodiversity.",
-          "Complete removal of all fertilizer needs.",
+          "Reduced fertilizer need because one crop is easier to manage.",
           "Loss of topsoil or pollution of air and water.",
-          "Guaranteed resistance to every pest."
+          "Strong pest resistance because the field is uniform."
         ],
         correctIndex: 2,
         explanation: "The textbook lists topsoil loss, pollution, and increased chemical use as possible monoculture consequences."
@@ -4695,7 +4695,7 @@ window.SCIENCE10_QUIZZES = {
           "Rising material and energy costs or working-condition concerns.",
           "The impossibility of mechanized farming.",
           "The total absence of food production gains.",
-          "The end of all crop diseases."
+          "Lower disease risk because the field uses one crop type."
         ],
         correctIndex: 0,
         explanation: "Sustainability evaluation includes economic and social dimensions, not only crop yield."
@@ -4704,9 +4704,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-115-q3",
         prompt: "Why is it incomplete to say, 'Monoculture is good because it grows a lot of food'?",
         choices: [
-          "Monoculture never increases food production.",
+          "Monoculture increases food production but has no sustainability trade-offs.",
           "Food production is unrelated to farming systems.",
-          "Only genetic diagrams can evaluate agriculture.",
+          "Genetic diagrams are enough to evaluate agriculture.",
           "Food production gains should also be weighed against environmental, economic, and social costs."
         ],
         correctIndex: 3,
@@ -4723,8 +4723,8 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "Maximize yield this year while ignoring future soil and ecosystem health.",
           "Meet present food needs while supporting land, human ecosystems, and natural ecosystems for the future.",
-          "Plant only one crop variety everywhere.",
-          "Remove all economic and social considerations from food production."
+          "Plant one crop variety across a region to simplify production.",
+          "Focus on yield while treating economic and social effects as separate."
         ],
         correctIndex: 1,
         explanation: "Sustainable agriculture balances current needs with long-term environmental, economic, and social health."
@@ -4733,10 +4733,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-116-q2",
         prompt: "Which set of criteria best matches the textbook's sustainability lens?",
         choices: [
-          "Colour, taste, and package size only.",
-          "Only the number of machines used.",
+          "Colour, taste, and package size.",
+          "The number of machines and amount of land.",
           "Environmental, economic, and social needs.",
-          "Only the genetic code of one plant."
+          "The DNA sequence of one crop plant."
         ],
         correctIndex: 2,
         explanation: "The section evaluates food systems through environmental, economic, and social criteria."
@@ -4747,7 +4747,7 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "A method that maintains soil health and supports future food production.",
           "A method that increases short-term yield by destroying topsoil.",
-          "A method that requires every field to have one identical crop forever.",
+          "A method that keeps fields genetically uniform for easier harvesting.",
           "A method that ignores workers and local communities."
         ],
         correctIndex: 0,
@@ -4774,9 +4774,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-117-q2",
         prompt: "Why can polyculture improve resilience compared with monoculture?",
         choices: [
-          "All plants in a polyculture are genetically identical.",
+          "The plants in a polyculture are selected to be as similar as possible.",
           "Polyculture prevents any species from interacting.",
-          "Polyculture removes all selective pressures.",
+          "Polyculture reduces disease by removing the need for diversity.",
           "Greater biological and genetic diversity can reduce the chance that one disease or stress affects everything the same way."
         ],
         correctIndex: 3,
@@ -4786,10 +4786,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-117-q3",
         prompt: "In a rice field, mixing disease-resistant varieties with vulnerable varieties lowers fungal infection. What does this example support?",
         choices: [
-          "Monoculture always prevents infection better.",
+          "Monoculture prevents infection better because crops are uniform.",
           "Polyculture can reduce disease spread and support crop yield.",
           "Genetic diversity has no role in crop health.",
-          "All crop varieties must be grown separately."
+          "Crop varieties must be separated so disease-resistant plants can protect themselves."
         ],
         correctIndex: 1,
         explanation: "The textbook describes mixed rice varieties reducing infection and improving yield compared with monoculture."
@@ -4805,7 +4805,7 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "Growing one identical crop over a huge area.",
           "Planting two or more species near each other so they provide benefits such as pest control or nutrient support.",
-          "Separating species so they can never interact.",
+          "Separating species to avoid plant interactions.",
           "Using radiation to increase mutation rate."
         ],
         correctIndex: 1,
@@ -4815,10 +4815,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-118-q2",
         prompt: "In the three sisters system, which role is correctly matched?",
         choices: [
-          "Squash removes all soil moisture.",
+          "Squash provides a tall support for beans to climb.",
           "Beans prevent nitrogen compounds from entering the soil.",
           "Corn provides a structure for beans to climb.",
-          "All three plants compete without any benefit."
+          "The plants use different roles without affecting one another."
         ],
         correctIndex: 2,
         explanation: "The textbook describes corn as a support structure, beans as adding nitrogen compounds, and squash as ground cover."
@@ -4828,8 +4828,8 @@ window.SCIENCE10_QUIZZES = {
         prompt: "How can companion planting support sustainability?",
         choices: [
           "Plant relationships can reduce some inputs and support soil moisture, nutrients, or pest control.",
-          "It requires every plant to be genetically identical.",
-          "It always eliminates the need to observe crop health.",
+          "It works because the plants share the same genetics.",
+          "It replaces observation and pest monitoring.",
           "It is the same process as reverse speciation."
         ],
         correctIndex: 0,
