@@ -8821,7 +8821,7 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-216-q1",
         prompt: "An incinerator turns a bag of waste into ash and gases. What does conservation of mass suggest?",
         choices: [
-          "The ash is the only matter left, because gases do not count as matter.",
+          "The ash is the main matter left because gases spread out and are harder to collect.",
           "The original atoms are now distributed among ash and gases rather than disappearing.",
           "The mass law stops applying when a reaction happens outside a lab.",
           "The missing mass has been converted entirely into heat."
@@ -8846,8 +8846,8 @@ window.SCIENCE10_QUIZZES = {
         prompt: "A company says a pollutant is no longer a concern because it was diluted in a large volume of water. What is the key science concern?",
         choices: [
           "Dilution lowers concentration, but the pollutant matter still exists and may move through the environment.",
-          "Dilution always increases the total mass of pollutant atoms.",
-          "Water changes all pollutants into harmless elements.",
+          "Dilution increases the total amount of pollutant atoms by spreading them out.",
+          "Water changes pollutants into harmless materials once they are mixed thoroughly.",
           "Dissolved substances stop obeying conservation of mass."
         ],
         correctIndex: 0,
@@ -8876,7 +8876,7 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "Reducing changes atoms into energy before waste can form.",
           "Reducing lowers how much material must later be collected, processed, or released.",
-          "Reducing works only for substances that are already hazardous.",
+          "Reducing matters mainly for waste that is already classified as hazardous.",
           "Reducing is useful because recycled matter eventually disappears."
         ],
         correctIndex: 1,
@@ -8889,7 +8889,7 @@ window.SCIENCE10_QUIZZES = {
           "How colourful the refill station sign is.",
           "Whether students can name the plastic recycling code.",
           "How many single-use bottles are avoided before they become waste.",
-          "Whether every bottle placed in the recycling bin is perfectly clean."
+          "Whether bottles in the recycling bin are sorted neatly."
         ],
         correctIndex: 2,
         explanation: "Reduction is measured by material use prevented, not only by how existing waste is processed."
@@ -8904,7 +8904,7 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why is waste classification useful when making disposal decisions?",
         choices: [
           "It helps match handling and storage decisions to the waste's source, hazards, and possible movement.",
-          "It proves that residential waste cannot contain hazardous materials.",
+          "It shows that residential waste is usually separate from hazardous-material decisions.",
           "It removes the need to measure the amount of waste.",
           "It changes chemical waste into ordinary garbage."
         ],
@@ -8915,9 +8915,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-218-q2",
         prompt: "What is a possible limitation of simply labelling waste by source, such as residential or industrial?",
         choices: [
-          "The label automatically gives the exact chemical formula of every material.",
+          "The label gives a broad category but may not identify each chemical present.",
           "The label tells whether the waste obeys conservation of mass.",
-          "The label means every item from that source has the same risk.",
+          "The label can make different items from one source seem more similar than they are.",
           "The label may hide important differences in toxicity, concentration, or how the waste can spread."
         ],
         correctIndex: 3,
@@ -8944,7 +8944,7 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-219-q1",
         prompt: "Why is tanning better described as chemical processing than just shaping a hide?",
         choices: [
-          "The hide is useful only after its mass has been measured.",
+          "The hide becomes useful mainly after it has been cut to the right shape.",
           "Cutting the hide into a pattern is the main chemical change.",
           "Materials added during tanning change properties such as decay resistance, flexibility, and water response.",
           "The process works because the atoms in the hide are destroyed."
@@ -8958,7 +8958,7 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "It remains flexible and resists decay better than untreated hide.",
           "It dissolves quickly when placed in water.",
-          "It loses all fibre structure.",
+          "It becomes stiff because the fibres stop interacting with oils.",
           "It changes into a gas during storage."
         ],
         correctIndex: 0,
@@ -8968,9 +8968,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-219-q3",
         prompt: "What is the strongest chemistry connection in traditional tanning knowledge?",
         choices: [
-          "It depends only on the colour of the hide before treatment.",
+          "It depends mainly on the hide colour before treatment begins.",
           "It is unrelated to chemical change because the materials are natural.",
-          "It uses smoke only as decoration after the hide is finished.",
+          "It uses smoke mostly to change the appearance after treatment.",
           "It applies substances and process conditions that change how hide fibres behave."
         ],
         correctIndex: 3,
@@ -8998,7 +8998,7 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which sequence best shows why brain tanning is a process rather than a single instant reaction?",
         choices: [
           "Naming the animal, then storing the hide without treatment.",
-          "Only adding water, then assuming the hide is preserved.",
+          "Adding water and assuming preservation follows from soaking.",
           "Scraping and washing the hide, working in the emulsion, stretching it, and smoking it.",
           "Changing the word hide to leather in a written description."
         ],
@@ -9011,7 +9011,7 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "Brain tanning can use natural materials, while some industrial methods use chemicals that require careful waste and safety management.",
           "Natural materials automatically mean there are no environmental trade-offs at any scale.",
-          "Industrial methods cannot be chemical because they happen in factories.",
+          "Industrial methods are less chemical if machines do most of the work.",
           "Both methods make waste matter disappear once the leather is finished."
         ],
         correctIndex: 0,
@@ -9040,8 +9040,8 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "It may require more labour, time, specialized knowledge, and limited biological materials.",
           "It would stop being a chemical process as soon as more hides were treated.",
-          "Commercial scale would make all waste disappear.",
-          "Natural materials cannot interact with hide fibres."
+          "Commercial scale would spread waste enough that disposal is less important.",
+          "Natural materials mostly coat the surface without interacting with hide fibres."
         ],
         correctIndex: 0,
         explanation: "Sustainability decisions must include practicality as well as chemical and environmental risks."
@@ -9052,7 +9052,7 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "Does the word natural appear on the package?",
           "Can the process be described without using any chemistry terms?",
-          "Does the finished leather look exactly the same colour every time?",
+          "Does the finished leather have a consistent colour and texture?",
           "How much waste, energy use, worker exposure, and usable product does the whole process involve?"
         ],
         correctIndex: 3,
@@ -9067,10 +9067,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-222-q1",
         prompt: "Why should a conservation-of-mass investigation measure the system both before and after a reaction?",
         choices: [
-          "The first measurement identifies every product without observations.",
+          "The first measurement identifies products before the reaction is observed.",
           "The two measurements can be compared to test whether the defined system's mass changed.",
           "The second measurement replaces the need for a balanced equation.",
-          "Mass should be measured only after all gas has escaped."
+          "Mass should be measured after gas escape so the final reading is stable."
         ],
         correctIndex: 1,
         explanation: "Before-and-after measurements let you compare the total mass of the reaction system."
@@ -9082,7 +9082,7 @@ window.SCIENCE10_QUIZZES = {
           "A large amount of matter was destroyed by the reaction.",
           "The products have no mass because a solid formed.",
           "The 0.01 g difference is likely measurement uncertainty, so mass is essentially conserved.",
-          "The law of conservation of mass applies only to gases."
+          "The law of conservation of mass applies best when a gas is produced."
         ],
         correctIndex: 2,
         explanation: "Real measurements can vary slightly, so evidence should be interpreted with uncertainty in mind."
@@ -9092,8 +9092,8 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why compare a closed-system trial with an open-system trial?",
         choices: [
           "It helps show how escaping matter can affect measured mass even when total matter is conserved.",
-          "It proves open systems cannot have chemical reactions.",
-          "It shows that every gas has no mass.",
+          "It proves open systems give invalid results for chemical reactions.",
+          "It shows that gases are easy to miss during measurement.",
           "It removes the need to record observations."
         ],
         correctIndex: 0,
@@ -9108,7 +9108,7 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-223-q1",
         prompt: "In a closed-system reaction, why is a stopper or sealed lid important?",
         choices: [
-          "It prevents all energy transfer between the flask and the room.",
+          "It prevents matter transfer while energy can still move between the flask and room.",
           "It changes reactants into products without allowing them to touch.",
           "It makes the balance ignore the container's mass.",
           "It keeps matter such as gases, droplets, and solutions inside the measured system."
@@ -9123,7 +9123,7 @@ window.SCIENCE10_QUIZZES = {
           "It should drop to zero because a solid formed.",
           "It should remain the same within measurement uncertainty.",
           "It should increase because cloudiness adds atoms.",
-          "It should depend only on the colour of the precipitate."
+          "It should depend on how cloudy the precipitate looks."
         ],
         correctIndex: 1,
         explanation: "New substances can form while the total matter in the closed system remains constant."
@@ -9150,7 +9150,7 @@ window.SCIENCE10_QUIZZES = {
         prompt: "A tablet bubbles in an open beaker of water and the balance reading decreases over several minutes. What most likely left the measured system?",
         choices: [
           "Gas produced by the reaction",
-          "Only the label on the tablet package",
+          "The tablet package label, if it was placed near the beaker",
           "Atoms from the glass beaker",
           "The balance pan"
         ],
@@ -9161,7 +9161,7 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-224-q2",
         prompt: "If the same bubbling reaction were done in a sealed container, what result would better show conservation of mass?",
         choices: [
-          "The total mass would always decrease faster.",
+          "The total mass would decrease more slowly because the gas has less space.",
           "No gas could be produced if the container were sealed.",
           "The reaction would stop being chemical.",
           "The total mass of the sealed container and contents would stay nearly constant."
@@ -9176,7 +9176,7 @@ window.SCIENCE10_QUIZZES = {
           "Open beakers do not contain matter.",
           "The missing measured mass may have moved into the surrounding air.",
           "Gas has no mass once it leaves a beaker.",
-          "Mass conservation applies only to solids."
+          "Mass conservation is easier to see with solids than with gases."
         ],
         correctIndex: 1,
         explanation: "Open-system measurements can lose track of matter that leaves the container."
@@ -9203,9 +9203,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which set of observations should be recorded during a reaction investigation?",
         choices: [
           "Temperature changes, gas production, colour changes, precipitates, and mass readings",
-          "Only the final answer copied after the lab is over",
-          "Only the brand of the balance, because equipment names are the data",
-          "Only whether the lab bench is clean, because observations of the mixture can be skipped"
+          "The final answer after the lab, without intermediate observations",
+          "The brand of the balance and the names of the containers.",
+          "The lab bench condition instead of observations of the mixture."
         ],
         correctIndex: 0,
         explanation: "Multiple observations help connect evidence to whether a chemical reaction occurred."
@@ -9216,7 +9216,7 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "The reaction definitely destroyed matter.",
           "Bubbles prove the system was closed.",
-          "Temperature change is never related to chemical reactions.",
+          "Temperature change should be ignored if bubbles are present.",
           "These observations are evidence of a reaction and energy transfer, but the student should still record data carefully."
         ],
         correctIndex: 3,
