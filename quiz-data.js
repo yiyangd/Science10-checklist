@@ -1671,9 +1671,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which statement corrects a misconception about traits?",
         choices: [
           "Traits can be influenced by inherited alleles, but the environment may also affect how some traits appear.",
-          "Traits are always identical to genotype and never visible as phenotype.",
-          "Traits are found only in plants and never in animals.",
-          "Traits are only abiotic conditions in an ecosystem."
+          "Traits are identical to genotype and separate from phenotype.",
+          "Traits are studied mainly in plants rather than animals.",
+          "Traits are abiotic conditions that shape an ecosystem."
         ],
         correctIndex: 0,
         explanation: "Genetics studies inherited traits, while real organisms may also be affected by environmental conditions."
@@ -1687,7 +1687,7 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-42-q1",
         prompt: "Why were Mendel's controlled pea-plant crosses useful for studying inheritance?",
         choices: [
-          "He allowed random pollination and counted only unusual offspring.",
+          "He allowed random pollination and focused on unusual offspring.",
           "He could choose which plants produced offspring and track the traits carefully.",
           "He studied many unrelated traits at once without recording parent plants.",
           "He removed inherited traits before breeding plants."
@@ -1699,7 +1699,7 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-42-q2",
         prompt: "What is cross-pollination in the pea-plant context?",
         choices: [
-          "A flower fertilizes itself using gametes from the same flower only.",
+          "A flower fertilizes itself using gametes from the same flower.",
           "A chromosome is photographed and arranged by size.",
           "A male gamete from one plant combines with a female gamete from a different plant.",
           "A seed is dried and stored at low temperature."
@@ -1711,8 +1711,8 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-42-q3",
         prompt: "Which practice made Mendel's work more scientific?",
         choices: [
-          "Changing the question after every plant grew.",
-          "Counting only the results that matched his prediction.",
+          "Changing the question after the plants grew.",
+          "Counting the results that matched his prediction first.",
           "Avoiding repeated crosses so no pattern could be checked.",
           "Keeping careful records and analyzing offspring trait patterns."
         ],
@@ -1728,9 +1728,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-43-q1",
         prompt: "What is a true-breeding plant?",
         choices: [
-          "A plant whose offspring always show both forms of a trait equally.",
+          "A plant whose offspring show both forms of a trait in equal numbers.",
           "A plant that consistently produces offspring with one form of a trait when self-fertilized.",
-          "A plant that cannot pass alleles to offspring.",
+          "A plant that passes random alleles unrelated to the studied trait.",
           "A plant with no homologous chromosomes."
         ],
         correctIndex: 1,
@@ -1740,7 +1740,7 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-43-q2",
         prompt: "In Mendel-style notation, what does \\(F_1\\) usually refer to?",
         choices: [
-          "The parent generation only.",
+          "The parent generation before a cross.",
           "The generation produced after \\(F_1\\) plants self-fertilize.",
           "The first generation of offspring from a cross.",
           "The ratio of dominant to recessive alleles."
@@ -1752,8 +1752,8 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-43-q3",
         prompt: "A recessive trait seems to disappear in \\(F_1\\) offspring but reappears in some \\(F_2\\) offspring. What does this suggest?",
         choices: [
-          "The allele was destroyed forever in the \\(F_1\\) generation.",
-          "The trait is not inherited by any offspring.",
+          "The allele was removed from the \\(F_1\\) generation.",
+          "The trait is not inherited when it is hidden in \\(F_1\\).",
           "The \\(F_2\\) generation has no genetic material.",
           "The allele can be carried without being expressed in the heterozygous phenotype."
         ],
@@ -1770,8 +1770,8 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What does the law of segregation state?",
         choices: [
           "Alleles for a trait separate during gamete formation, so each gamete carries one allele.",
-          "Both alleles for a trait always enter the same gamete together.",
-          "Only recessive alleles separate during gamete formation.",
+          "Both alleles for a trait enter the same gamete together.",
+          "Recessive alleles separate during gamete formation, while dominant alleles stay paired.",
           "Alleles disappear before fertilization and are remade later."
         ],
         correctIndex: 0,
@@ -1782,8 +1782,8 @@ window.SCIENCE10_QUIZZES = {
         prompt: "An organism has genotype \\(Bb\\) for a trait. Which alleles can its gametes carry for that trait?",
         choices: [
           "\\(B\\) or \\(b\\).",
-          "\\(BB\\) only.",
-          "\\(Bb\\) in every gamete.",
+          "\\(BB\\) as the usual gamete form.",
+          "\\(Bb\\) in most gametes.",
           "No allele for the trait."
         ],
         correctIndex: 0,
@@ -1794,7 +1794,7 @@ window.SCIENCE10_QUIZZES = {
         prompt: "How does fertilization relate to segregation?",
         choices: [
           "Gametes prevent chromosomes from pairing in the offspring.",
-          "Fertilization removes all recessive alleles.",
+          "Fertilization removes recessive alleles that were hidden in the parents.",
           "Gametes combine and restore paired alleles in the offspring.",
           "Fertilization happens before gametes form."
         ],
@@ -1812,7 +1812,7 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "\\(Bb\\).",
           "\\(BB\\).",
-          "\\(B\\) only with no second allele.",
+          "\\(B\\) written without the second allele.",
           "\\(bb\\)."
         ],
         correctIndex: 3,
@@ -1824,8 +1824,8 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "\\(Bb\\).",
           "\\(bb\\).",
-          "Only a genotype with two recessive alleles.",
-          "Only a gamete with \\(b\\), before fertilization."
+          "A genotype with two recessive alleles.",
+          "A gamete with \\(b\\), before fertilization."
         ],
         correctIndex: 0,
         explanation: "One dominant allele is enough for the dominant trait to be expressed."
@@ -1835,7 +1835,7 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which allele-symbol convention is commonly used?",
         choices: [
           "Lowercase for dominant and uppercase for recessive.",
-          "Numbers only, because letters are never used for alleles.",
+          "Numbers instead of letters for the two alleles.",
           "Uppercase for the dominant allele and lowercase for the recessive allele.",
           "Different unrelated letters for two alleles of the same gene."
         ],
@@ -1852,7 +1852,7 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What is the difference between genotype and phenotype?",
         choices: [
           "Genotype is the visible trait; phenotype is the chromosome photograph.",
-          "Genotype is always environmental, while phenotype is always a seed bank.",
+          "Genotype describes environment, while phenotype describes seed storage.",
           "There is no difference between the two terms.",
           "Genotype is the allele combination; phenotype is the expressed trait."
         ],
@@ -1866,7 +1866,7 @@ window.SCIENCE10_QUIZZES = {
           "\\(RR\\).",
           "\\(Rr\\).",
           "\\(rr\\).",
-          "\\(R\\) only."
+          "\\(R\\) written by itself."
         ],
         correctIndex: 1,
         explanation: "Heterozygous means two different alleles for a trait."
@@ -1875,10 +1875,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-46-q3",
         prompt: "Two pea plants both have purple flowers, but one is \\(BB\\) and the other is \\(Bb\\). What is the key lesson?",
         choices: [
-          "A visible trait always reveals the exact genotype.",
-          "Heterozygous organisms cannot show dominant traits.",
+          "A visible trait usually reveals the exact genotype.",
+          "Heterozygous organisms usually show a recessive trait.",
           "The same phenotype can come from different genotypes.",
-          "Dominant alleles are never expressed."
+          "Dominant alleles are expressed mainly in homozygous genotypes."
         ],
         correctIndex: 2,
         explanation: "A dominant phenotype can occur in both homozygous dominant and heterozygous organisms."
@@ -1894,7 +1894,7 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "A chart of chromosome photographs arranged by size.",
           "A method for storing heritage seeds.",
-          "A mutation that always removes one chromosome.",
+          "A mutation that removes a chromosome from one parent.",
           "Deliberate breeding between two parents to study offspring inheritance."
         ],
         correctIndex: 3,
@@ -1916,7 +1916,7 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-47-q3",
         prompt: "A cross is written \\(Bb \\times bb\\). What does this notation show?",
         choices: [
-          "The exact phenotype of every offspring after birth.",
+          "The exact phenotype of each offspring after birth.",
           "The number of chromosomes in a karyotype.",
           "The genotypes of the two parents being crossed.",
           "The total number of genes in the human genome."
@@ -1934,8 +1934,8 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What does a monohybrid cross study?",
         choices: [
           "Inheritance of one trait or one gene at a time.",
-          "Every inherited and environmental trait in an organism at once.",
-          "Only chromosome number in a karyotype.",
+          "Several inherited and environmental traits in an organism at once.",
+          "Chromosome number in a karyotype.",
           "The preservation of seeds in a cold bank."
         ],
         correctIndex: 0,
@@ -1945,8 +1945,8 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-48-q2",
         prompt: "Which situation is best modeled as a monohybrid cross?",
         choices: [
-          "Comparing all species and ecosystems in one wetland.",
-          "Counting every base pair in the human genome.",
+          "Comparing species and ecosystems in one wetland.",
+          "Counting base pairs across the human genome.",
           "Predicting offspring coat colour using one gene with two alleles.",
           "Preparing a karyotype from stained chromosomes."
         ],
@@ -1957,10 +1957,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-48-q3",
         prompt: "Which statement avoids a common mistake?",
         choices: [
-          "A monohybrid cross always studies three traits at once.",
-          "A monohybrid cross cannot use a Punnett square.",
+          "A monohybrid cross studies several traits at once.",
+          "A monohybrid cross is too simple to use a Punnett square.",
           "A monohybrid cross requires parents with identical genotypes.",
-          "A monohybrid cross does not track every trait; it focuses on one trait."
+          "A monohybrid cross does not track the whole organism; it focuses on one trait."
         ],
         correctIndex: 3,
         explanation: "Mono- means one, so the cross focuses on one inherited trait."
@@ -1974,10 +1974,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-49-q1",
         prompt: "What does a Punnett square show?",
         choices: [
-          "The exact number of bases in every gene.",
+          "The number of bases in a gene.",
           "Possible offspring genotypes based on alleles in parent gametes.",
           "The location of ecosystems in the biosphere.",
-          "Only the visible traits of the parents, not allele combinations."
+          "The visible traits of the parents without allele combinations."
         ],
         correctIndex: 1,
         explanation: "A Punnett square models possible allele combinations formed at fertilization."
@@ -1987,7 +1987,7 @@ window.SCIENCE10_QUIZZES = {
         prompt: "In a Punnett square, what do the alleles written along the top and side represent?",
         choices: [
           "Possible alleles carried by each parent's gametes.",
-          "The final phenotypes of adult offspring only.",
+          "The final phenotypes of adult offspring.",
           "Chromosomes sorted from largest to smallest.",
           "The percentage of DNA that does not code for genes."
         ],
@@ -2000,8 +2000,8 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "\\(R\\) and \\(r\\).",
           "\\(Rr\\) and \\(Rr\\), because gametes carry both alleles.",
-          "\\(rr\\) only, because recessive alleles always segregate first.",
-          "\\(RR\\) only, because the dominant allele is always passed on."
+          "\\(rr\\), because recessive alleles segregate first.",
+          "\\(RR\\), because the dominant allele is more likely to be passed on."
         ],
         correctIndex: 0,
         explanation: "A heterozygous parent can produce gametes carrying either R or r."
@@ -2015,7 +2015,7 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-50-q1",
         prompt: "What does a genotypic ratio compare?",
         choices: [
-          "Only the visible traits, ignoring alleles.",
+          "The visible traits while ignoring allele combinations.",
           "The number of chromosomes in each karyotype pair.",
           "The total number of ecosystems in an area.",
           "The predicted allele combinations among offspring."
