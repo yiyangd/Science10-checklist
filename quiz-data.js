@@ -9256,9 +9256,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What is the main idea of this concept?",
         choices: [
           "Matter changes are often linked to energy transfers.",
-          "Matter and energy never interact during ordinary events.",
-          "Only chemical changes involve energy; physical changes do not.",
-          "Energy transfer always creates new atoms."
+          "Matter and energy are separate ideas unless a flame is visible.",
+          "Chemical changes involve energy, while physical changes mainly involve shape.",
+          "Energy transfer changes the kind of atoms present."
         ],
         correctIndex: 0,
         explanation: "Physical and chemical changes can both involve energy moving between objects or systems."
@@ -9272,9 +9272,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-227-q1",
         prompt: "Why does water on a stove not boil instantly at room temperature?",
         choices: [
-          "Water cannot absorb energy from its surroundings.",
+          "Water absorbs energy, but boiling begins before molecular motion changes.",
           "Boiling creates new oxygen atoms before the temperature changes.",
-          "The stove removes all energy from the water.",
+          "The stove removes energy from water until bubbles appear.",
           "Energy must be transferred to the water to increase its temperature and support the change of state."
         ],
         correctIndex: 3,
@@ -9296,8 +9296,8 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-227-q3",
         prompt: "A student says, 'If a reaction releases energy, it should never need energy to start.' What is the misconception?",
         choices: [
-          "Energy-releasing reactions cannot occur in real life.",
-          "Energy input always means the change must be physical only.",
+          "Energy-releasing reactions should start without any energy barrier.",
+          "Energy input means the reaction must absorb energy overall.",
           "Even energy-releasing reactions may need an initial input to get past the starting barrier.",
           "Released energy destroys reactants before products form."
         ],
@@ -9314,8 +9314,8 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What is activation energy?",
         choices: [
           "The minimum energy reactants need for a reaction to occur.",
-          "The total mass of all products after a reaction.",
-          "The energy stored only in the surroundings after a reaction.",
+          "The total energy released after products have formed.",
+          "The energy stored in the surroundings before reactants collide.",
           "The amount of light absorbed by a label."
         ],
         correctIndex: 0,
@@ -9326,8 +9326,8 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why is activation energy often compared to a hill?",
         choices: [
           "Reactants roll downhill before any collisions occur.",
-          "Products must always have more mass than reactants.",
-          "Chemical reactions happen only outdoors where hills exist.",
+          "Products have more mass after reactants climb the energy barrier.",
+          "The hill represents a real height that reactants physically climb.",
           "Reactants need enough energy to get over a barrier before products can form."
         ],
         correctIndex: 3,
@@ -9355,7 +9355,7 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why do reactant particles need to collide for many reactions to occur?",
         choices: [
           "Collisions make atoms disappear so products can form.",
-          "Particles react best when they never meet.",
+          "Particles can react from a distance if the container is warm enough.",
           "Collisions allow particles to interact and begin bond changes if enough energy is available.",
           "Collisions replace the need for activation energy."
         ],
@@ -9368,7 +9368,7 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "One with enough energy and a suitable orientation for bonds to begin changing.",
           "One where particles barely touch with too little energy.",
-          "One between unrelated container walls only.",
+          "One where particles hit the container wall instead of each other.",
           "One where particles avoid each other."
         ],
         correctIndex: 0,
@@ -9395,10 +9395,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-230-q1",
         prompt: "Why can a propane flame continue after the first spark?",
         choices: [
-          "The spark remains the only energy source forever.",
+          "The spark continues to supply most of the energy after ignition.",
           "The reaction releases enough energy to help more reactant particles overcome activation energy.",
           "The reaction no longer needs oxygen after it starts.",
-          "The products turn back into propane instantly."
+          "The products quickly turn back into propane to keep the flame going."
         ],
         correctIndex: 1,
         explanation: "Energy released by early reactions can help sustain later reactions."
@@ -9407,7 +9407,7 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-230-q2",
         prompt: "Which statement best distinguishes initial energy input from ongoing reaction energy?",
         choices: [
-          "Initial energy and released energy are always the same object.",
+          "Initial energy and released energy must come from the same source.",
           "Initial energy destroys products before they form.",
           "Initial energy starts some particles reacting; released energy may keep the reaction going.",
           "Ongoing reaction energy means matter is no longer conserved."
@@ -9420,7 +9420,7 @@ window.SCIENCE10_QUIZZES = {
         prompt: "A fuel-air mixture will not ignite until a spark is added. What does the spark provide?",
         choices: [
           "Enough starting energy for some collisions to be successful.",
-          "Extra atoms that become all the products.",
+          "Extra atoms that add mass to the products.",
           "A way to remove oxygen from the reaction.",
           "A closed system boundary."
         ],
@@ -9477,10 +9477,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-232-q1",
         prompt: "Which statement best describes energy in chemical reactions?",
         choices: [
-          "Only reactions with visible flames involve energy changes.",
-          "All chemical reactions involve energy changes because bonds are broken and formed.",
-          "Chemical reactions never transfer energy to their surroundings.",
-          "Energy changes happen only when matter is not changing."
+          "Visible flames are the main sign that a reaction involves energy.",
+          "Chemical reactions involve energy changes because bonds are broken and formed.",
+          "Chemical reactions keep energy inside the reacting materials.",
+          "Energy changes happen when matter is unchanged by the process."
         ],
         correctIndex: 1,
         explanation: "Bond breaking and bond forming mean chemical reactions involve energy changes."
@@ -9490,7 +9490,7 @@ window.SCIENCE10_QUIZZES = {
         prompt: "How are photosynthesis and cellular respiration related to energy?",
         choices: [
           "Both processes destroy energy so organisms can use matter.",
-          "Photosynthesis releases all energy as heat only, while respiration stores no energy.",
+          "Photosynthesis releases energy as heat, while respiration does not involve stored energy.",
           "Photosynthesis stores energy in chemical bonds, while cellular respiration releases stored energy.",
           "Neither process involves chemical reactions."
         ],
@@ -9518,8 +9518,8 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-233-q1",
         prompt: "In a test tube reaction, what is usually defined as the system?",
         choices: [
-          "Only the classroom air around the test tube",
-          "Only the student's hand touching the tube",
+          "The classroom air around the test tube",
+          "The student's hand touching the tube",
           "Everything except the reacting chemicals",
           "The reacting materials inside the test tube"
         ],
@@ -9530,9 +9530,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-233-q2",
         prompt: "Which item is part of the surroundings for a reaction in a flask?",
         choices: [
-          "Only the reactant molecules before they collide.",
+          "The reactant molecules before they collide.",
           "The flask, nearby air, and anything outside the reacting materials.",
-          "Only the products after they form.",
+          "The products after they form inside the reaction mixture.",
           "The bonds being broken inside the reactants."
         ],
         correctIndex: 1,
@@ -9543,7 +9543,7 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why is identifying the system and surroundings useful?",
         choices: [
           "It proves mass is not conserved during chemical reactions.",
-          "It shows that containers cannot absorb or release energy.",
+          "It shows that containers are not involved in energy transfer.",
           "It helps trace whether energy is entering or leaving the reacting materials.",
           "It removes the need to collect temperature observations."
         ],
@@ -9562,7 +9562,7 @@ window.SCIENCE10_QUIZZES = {
           "Energy is transferred between system and surroundings, not created or destroyed.",
           "Energy disappears when products form.",
           "Energy is created whenever bonds break.",
-          "Only matter, not energy, can move between places."
+          "Matter moves between places, while energy stays in the system."
         ],
         correctIndex: 0,
         explanation: "The total energy remains constant, but it can move between system and surroundings."
@@ -9603,7 +9603,7 @@ window.SCIENCE10_QUIZZES = {
           "A reaction with a net absorption of energy from the surroundings.",
           "A reaction where no bonds change.",
           "A reaction with a net release of energy to the surroundings.",
-          "A reaction that cannot warm anything."
+          "A reaction where the surroundings stay at the starting temperature."
         ],
         correctIndex: 2,
         explanation: "Exothermic reactions transfer energy out of the chemical system."
@@ -9643,7 +9643,7 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "A reaction with a net release of energy to the surroundings.",
           "A reaction with a net absorption of energy from the surroundings.",
-          "A reaction that cannot change temperature.",
+          "A reaction where temperature is not useful evidence.",
           "A reaction where products have no energy."
         ],
         correctIndex: 1,
@@ -9666,9 +9666,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "For an endothermic reaction, what is true about the relative energy of products and reactants in an energy-level diagram?",
         choices: [
           "Products are at a higher energy level than reactants.",
-          "Products are always at a lower energy level than reactants.",
+          "Products are lower in energy whenever the surroundings cool.",
           "Reactants and products must have zero energy.",
-          "Energy levels cannot be shown in diagrams."
+          "Energy levels are shown by formula subscripts rather than diagram height."
         ],
         correctIndex: 0,
         explanation: "Endothermic reactions absorb energy overall, so products are higher in energy."
@@ -9683,7 +9683,7 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which statement correctly describes bond energy changes?",
         choices: [
           "Breaking bonds releases energy; forming bonds absorbs energy.",
-          "Both breaking and forming bonds always destroy energy.",
+          "Both breaking and forming bonds remove energy from the reaction.",
           "Bonds change without any energy transfer.",
           "Breaking bonds absorbs energy; forming bonds releases energy."
         ],
@@ -9709,7 +9709,7 @@ window.SCIENCE10_QUIZZES = {
           "Exothermic",
           "Balanced but not chemical",
           "Endothermic",
-          "A closed system only"
+          "A closed-system measurement"
         ],
         correctIndex: 2,
         explanation: "If the system absorbs more energy than it releases, the reaction is endothermic overall."
@@ -9747,10 +9747,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-238-q3",
         prompt: "A student wants stronger evidence than 'it felt cold.' What data should they collect?",
         choices: [
-          "Only a drawing of the test tube.",
+          "A drawing of the test tube shape.",
           "Temperature measurements over time before and after mixing reactants.",
-          "Only the names of the students nearby.",
-          "Only the colour of the thermometer."
+          "The names of the students nearby.",
+          "The colour of the thermometer casing."
         ],
         correctIndex: 1,
         explanation: "Quantitative temperature data makes the energy-transfer claim stronger."
@@ -9767,7 +9767,7 @@ window.SCIENCE10_QUIZZES = {
           "Endothermic",
           "No energy transfer",
           "Exothermic",
-          "An open system only"
+          "An open-system measurement"
         ],
         correctIndex: 2,
         explanation: "Lower-energy products indicate energy was released overall."
@@ -9789,7 +9789,7 @@ window.SCIENCE10_QUIZZES = {
         prompt: "A diagram shows products above reactants and an arrow labelled energy absorbed. What is the correct interpretation?",
         choices: [
           "The reaction is exothermic because products are above reactants.",
-          "The reaction cannot involve bonds.",
+          "The reaction involves energy but no bond changes.",
           "The products have less energy than reactants.",
           "The reaction is endothermic because the products have higher energy."
         ],
