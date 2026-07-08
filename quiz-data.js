@@ -3245,7 +3245,7 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-80-q1",
         prompt: "What is a mutation?",
         choices: [
-          "A temporary change in phenotype caused by weather only.",
+          "A short-term change in appearance caused by a local condition.",
           "A permanent change in an organism's DNA.",
           "A prediction made in a Punnett square.",
           "A change in allele frequency caused by selection, with no DNA change."
@@ -3257,12 +3257,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-80-q2",
         prompt: "How can a mutation create genetic variation in a population?",
         choices: [
-          "It makes all members of a population genetically identical.",
-          "It changes only the environment and never DNA.",
-          "It can produce a new allele that may be inherited by offspring if it occurs in a gamete-forming cell.",
-          "It guarantees the new allele will become common in the next generation."
+          "It changes which traits are favoured without changing DNA sequence.",
+          "It changes a body cell in a way that cannot affect that organism.",
+          "It improves survival first, and then a matching allele appears.",
+          "It can produce a new allele that may be inherited if it occurs in a gamete-forming cell."
         ],
-        correctIndex: 2,
+        correctIndex: 3,
         explanation: "Inherited mutations can introduce new alleles, which are a source of variation in populations."
       },
       {
@@ -3270,9 +3270,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which statement avoids a common misconception about mutations?",
         choices: [
           "Mutations can be harmful, neutral, or sometimes beneficial.",
-          "All mutations immediately create useful adaptations.",
-          "Mutations in body cells are always passed to offspring.",
-          "Mutations happen only when environmental agents cause them."
+          "A DNA change is harmful whenever it changes a visible trait.",
+          "A mutation in a skin cell is inherited in the same way as a sperm-cell mutation.",
+          "Environmental agents are the source of mutation, while DNA copying is unrelated."
         ],
         correctIndex: 0,
         explanation: "The effect of a mutation depends on what changes in the DNA and the context in which the organism lives."
@@ -3286,8 +3286,8 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-81-q1",
         prompt: "What best explains why individuals in the same species can show genetic variation?",
         choices: [
-          "They change their alleles whenever they need a new trait.",
-          "They all inherit identical allele combinations from both parents.",
+          "They adjust their alleles after birth to match local conditions.",
+          "They inherit the same allele combinations but use them at different times.",
           "They can inherit different combinations of alleles from their parents.",
           "They stop having genes after birth, so traits vary randomly."
         ],
@@ -3300,8 +3300,8 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "Each offspring inherited a different combination of alleles.",
           "Each offspring must have the same genotype but chooses a different phenotype.",
-          "Coat pattern is affected only by the environment after birth.",
-          "Variation appears only when there are no inherited alleles."
+          "Coat pattern is mostly a learned feature that parents teach after birth.",
+          "Variation appears because inherited alleles stop affecting traits."
         ],
         correctIndex: 0,
         explanation: "Visible differences can reflect different inherited allele combinations among offspring."
@@ -3310,9 +3310,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-81-q3",
         prompt: "Why is genetic variation important for a population?",
         choices: [
-          "It makes every individual equally suited to every environment.",
+          "It makes individuals respond to environmental change in the same way.",
           "It prevents mutations from ever happening.",
-          "It guarantees that all organisms survive environmental change.",
+          "It removes the effect of selective pressures on survival.",
           "It provides different traits that selection can act on if conditions change."
         ],
         correctIndex: 3,
@@ -3352,9 +3352,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which statement best avoids a misconception about mutation sources?",
         choices: [
           "Mutations can happen during normal DNA copying or because of environmental agents.",
-          "Mutations happen only when organisms intentionally need them.",
+          "Mutations happen because organisms sense which allele would be useful.",
           "Mutations require natural selection to decide which DNA base should change.",
-          "Mutations can arise only after two different species interbreed."
+          "Mutations can arise after interbreeding, but not during DNA copying."
         ],
         correctIndex: 0,
         explanation: "Mutations do not happen because an organism chooses them; they can occur randomly or after DNA-damaging exposure."
@@ -3368,10 +3368,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-83-q1",
         prompt: "Which statement best describes the possible effects of mutations?",
         choices: [
-          "Every mutation is harmful because all DNA changes damage survival.",
+          "A mutation is harmful whenever it changes a DNA base.",
           "A mutation may be harmful, neutral, or beneficial depending on what changes and the environment.",
-          "Every mutation gives an organism a selective advantage.",
-          "Mutations in DNA never affect any cell process."
+          "A mutation becomes useful as soon as an organism needs a new trait.",
+          "A mutation in DNA changes habitat conditions rather than cell instructions."
         ],
         correctIndex: 1,
         explanation: "The effect of a mutation depends on the DNA change and the situation in which the organism lives."
@@ -3381,8 +3381,8 @@ window.SCIENCE10_QUIZZES = {
         prompt: "A DNA change has no noticeable effect on how a cell functions. How should this mutation be classified in that context?",
         choices: [
           "Neutral.",
-          "Always lethal because all DNA changes kill cells.",
-          "Always beneficial because it does not harm the cell.",
+          "Lethal, because a DNA base changed somewhere in the cell.",
+          "Beneficial, because no visible problem was observed.",
           "Not a mutation because mutations must change the phenotype visibly."
         ],
         correctIndex: 0,
@@ -3392,8 +3392,8 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-83-q3",
         prompt: "A mutation lets some bacteria survive a particular antibiotic. In that environment, what effect does the mutation have?",
         choices: [
-          "It is neutral because all mutations have no effect.",
-          "It is harmful because all mutations reduce survival.",
+          "It is neutral because the antibiotic affects the environment, not inheritance.",
+          "It is harmful because resistance uses energy that could be used for growth.",
           "It is impossible because bacteria cannot have mutations.",
           "It is beneficial for those bacteria under antibiotic exposure."
         ],
@@ -3409,10 +3409,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-84-q1",
         prompt: "What is a somatic cell mutation?",
         choices: [
-          "A DNA change in a gamete that must be inherited by all offspring.",
+          "A DNA change in a gamete that can enter the next generation.",
           "A DNA change in a body cell rather than in a gamete.",
           "A predicted allele combination shown in a Punnett square.",
-          "A mutation that can occur only on a Y chromosome."
+          "A mutation that occurs in a population but not in a cell."
         ],
         correctIndex: 1,
         explanation: "Somatic cells are body cells, so mutations in them affect that organism's body cells rather than gametes directly."
@@ -3421,19 +3421,19 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-84-q2",
         prompt: "Why does a somatic cell mutation usually disappear from a population when the organism dies?",
         choices: [
-          "It changes all future gametes automatically.",
-          "It always repairs itself before the organism dies.",
-          "It turns into a dominant allele in every relative.",
-          "It is not usually passed through egg or sperm cells to offspring."
+          "It affects the organism's body cells but is not usually included in eggs or sperm.",
+          "It is copied into gametes when the organism reproduces.",
+          "It turns into a dominant allele in close relatives.",
+          "It becomes part of the population gene pool through nearby cells."
         ],
-        correctIndex: 3,
+        correctIndex: 0,
         explanation: "If a mutation is limited to body cells, it usually is not inherited by future generations."
       },
       {
         id: "kp-84-q3",
         prompt: "A skin cell develops a DNA mutation after too much ultraviolet exposure. Which conclusion is most reasonable?",
         choices: [
-          "Every child of the organism must inherit the mutation.",
+          "The mutation is most likely passed on if the organism later has offspring.",
           "The mutation cannot affect any cell because it is not in a gamete.",
           "The mutation may affect that body cell lineage but is unlikely to be inherited by offspring.",
           "The mutation automatically becomes common in the population."
@@ -3450,8 +3450,8 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-85-q1",
         prompt: "Why can a mutation in a gamete be important for long-term population change?",
         choices: [
-          "It affects only one body cell and cannot enter offspring.",
-          "It always disappears when the parent dies.",
+          "It affects a body cell but not the DNA that forms offspring.",
+          "It changes the parent's trait without changing inherited DNA.",
           "It may be passed to offspring as a new allele.",
           "It prevents any fertilization event from producing offspring."
         ],
@@ -3463,8 +3463,8 @@ window.SCIENCE10_QUIZZES = {
         prompt: "A mutation occurs in a sperm-producing cell and is included in a sperm that forms an offspring. What can happen next?",
         choices: [
           "The offspring may carry the new allele in its cells.",
-          "The mutation must stay only in the parent's skin cells.",
-          "The mutation can be inherited only if it is useful immediately.",
+          "The mutation must stay in the parent's skin cells.",
+          "The mutation can be inherited if natural selection has already favoured it.",
           "The mutation cannot become part of population variation."
         ],
         correctIndex: 0,
@@ -3474,8 +3474,8 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-85-q3",
         prompt: "Which comparison between somatic and gamete mutations is correct?",
         choices: [
-          "Both types always disappear before reproduction.",
-          "Somatic mutations are always inherited; gamete mutations never are.",
+          "Somatic mutations are usually inherited; gamete mutations usually affect body cells.",
+          "Somatic and gamete mutations have the same inheritance pattern.",
           "Neither type involves DNA changes.",
           "Gamete mutations can be inherited; somatic mutations usually are not inherited."
         ],
@@ -3491,10 +3491,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-86-q1",
         prompt: "What is a selective advantage?",
         choices: [
-          "A trait that makes an organism perfectly adapted in every possible environment.",
+          "A trait that helps survival in one environment but has no connection to reproduction.",
           "A heritable advantage that improves an organism's chance of survival and reproduction in a particular environment.",
           "A change an individual chooses during its lifetime because it needs the trait.",
-          "A harmful mutation that is guaranteed to disappear in one generation."
+          "A DNA change that is useful because it makes the organism look different."
         ],
         correctIndex: 1,
         explanation: "A selective advantage helps survival and reproduction under specific environmental conditions."
@@ -3503,10 +3503,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-86-q2",
         prompt: "Some bacteria have a mutation that lets them survive an antibiotic. What does that mutation provide when the antibiotic is present?",
         choices: [
-          "A guarantee that every bacterium will become resistant.",
-          "A reason the bacteria are no longer part of the same population.",
+          "A trait that would be equally helpful in an antibiotic-free environment.",
+          "Evidence that the bacteria learned resistance during treatment.",
           "A selective advantage.",
-          "A change that helps only when the antibiotic is absent."
+          "A new species boundary between resistant and non-resistant bacteria."
         ],
         correctIndex: 2,
         explanation: "In an antibiotic environment, resistance can help bacteria survive and reproduce."
@@ -3517,7 +3517,7 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "The environment in which the organism lives.",
           "Whether the trait looks unusual to humans.",
-          "Whether the trait appeared in only one generation.",
+          "Whether the trait appeared recently in the population.",
           "Whether the organism wants the trait."
         ],
         correctIndex: 0,
@@ -3532,10 +3532,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-87-q1",
         prompt: "What happens during natural selection?",
         choices: [
-          "Individuals change their DNA whenever they need to survive.",
-          "All members of a population become identical in one generation.",
+          "Individuals with useful acquired traits pass those acquired changes to offspring.",
+          "Environmental conditions directly redesign the DNA of less-suited individuals.",
           "Heritable traits that improve survival and reproduction can become more common over generations.",
-          "Only traits learned during life are passed to offspring."
+          "A population changes because each organism improves its traits during its lifetime."
         ],
         correctIndex: 2,
         explanation: "Natural selection changes populations over generations as inherited traits affect survival and reproduction."
@@ -3546,7 +3546,7 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "Shade-tolerant alleles may become more common in the tree population.",
           "Each individual tree rewrites its DNA to become shade tolerant.",
-          "The low-light environment makes every seedling genetically identical.",
+          "Seedlings without shade tolerance learn the trait before reproducing.",
           "Shade-tolerant alleles disappear because the environment is difficult."
         ],
         correctIndex: 0,
@@ -3556,9 +3556,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-87-q3",
         prompt: "Which statement best avoids a misconception about natural selection?",
         choices: [
-          "Natural selection gives every individual the exact trait it needs.",
-          "Natural selection happens only when humans breed organisms.",
-          "Natural selection affects only traits learned during an organism's life.",
+          "Natural selection supplies new mutations when a population faces a challenge.",
+          "Natural selection is the same process as breeders choosing parents.",
+          "Natural selection changes individual organisms into better versions of themselves.",
           "Natural selection acts on existing heritable variation; it does not create traits because organisms need them."
         ],
         correctIndex: 3,
@@ -3573,7 +3573,7 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-88-q1",
         prompt: "Which example is an adaptation?",
         choices: [
-          "A trait that prevents all reproduction in the environment.",
+          "A beak shape that happens to look different but does not affect feeding or mating.",
           "A beak shape that helps a bird obtain food in its environment.",
           "A random number used to label a species in a data table.",
           "A temporary shadow that is not an inherited feature."
@@ -3585,7 +3585,7 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-88-q2",
         prompt: "A plant population has traits that help it grow in deep shade. How should those traits be described in that environment?",
         choices: [
-          "Guaranteed advantages in every possible environment.",
+          "Traits that would have the same value in a bright, dry field.",
           "Punnett-square predictions rather than traits.",
           "Pedigree symbols used to mark family relationships.",
           "Adaptations."
@@ -3597,10 +3597,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-88-q3",
         prompt: "Which statement about adaptations is most accurate?",
         choices: [
-          "An adaptation must help every organism in every environment.",
-          "Adaptations are never inherited and cannot affect reproduction.",
-          "An adaptation is useful in a particular environment, not necessarily in every environment.",
-          "Only behaviours can be adaptations; structures cannot be."
+          "An adaptation is useful because the organism practiced it during life.",
+          "Adaptations are traits that help survival but have no link to reproduction.",
+          "An adaptation is useful in a particular environment, not necessarily in other environments.",
+          "Adaptations include structures, but behaviours and physiology are separate ideas."
         ],
         correctIndex: 2,
         explanation: "Adaptations are context-dependent and can be structural, behavioural, or physiological."
@@ -3616,8 +3616,8 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "Variation prevents reproduction from happening.",
           "Without differences among individuals, there are no different heritable traits for the environment to favour.",
-          "Variation makes every organism equally likely to survive any change.",
-          "Natural selection works only when every individual is genetically identical."
+          "Variation lets individuals choose which genes to pass on after a change.",
+          "Natural selection acts more strongly when inherited differences are absent."
         ],
         correctIndex: 1,
         explanation: "Selection depends on some inherited traits being more helpful than others in a given environment."
@@ -3627,8 +3627,8 @@ window.SCIENCE10_QUIZZES = {
         prompt: "A sudden environmental change affects two populations. Population A has many heritable trait differences; Population B has very little variation. Which population may have more possible responses to the change?",
         choices: [
           "Population A.",
-          "Population B, because fewer traits always means faster adaptation.",
-          "Neither, because variation never matters to natural selection.",
+          "Population B, because similarity makes selection act more quickly.",
+          "Neither, because environmental change affects habitats but not survival.",
           "Both must respond in exactly the same way because the environment changed."
         ],
         correctIndex: 0,
@@ -3639,7 +3639,7 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which statement best links mutation and natural selection?",
         choices: [
           "Natural selection creates exactly the mutations a population needs.",
-          "Mutations remove all variation from a population.",
+          "Mutations usually reduce variation before selection can act.",
           "Selection changes an individual's alleles after it is born.",
           "Mutations can create new alleles, and selection can change how common helpful alleles become."
         ],
@@ -3655,10 +3655,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-90-q1",
         prompt: "Which statement correctly describes natural selection?",
         choices: [
-          "Individual organisms evolve new alleles whenever they need them.",
+          "Individual organisms improve their alleles after surviving a challenge.",
           "Populations change over generations; individuals do not evolve during their own lifetimes.",
-          "A population changes only if every individual changes in the same direction.",
-          "Natural selection affects only non-living parts of the environment."
+          "A population changes when individuals decide which traits to inherit.",
+          "Natural selection affects environments but not inherited traits."
         ],
         correctIndex: 1,
         explanation: "The textbook emphasizes that populations change over time, not individual organisms during one lifetime."
@@ -3668,7 +3668,7 @@ window.SCIENCE10_QUIZZES = {
         prompt: "After several antibiotic treatments, resistant bacteria become common in a bacterial population. What changed?",
         choices: [
           "Each non-resistant bacterium chose to become resistant.",
-          "The antibiotic turned every bacterium into a different species immediately.",
+          "The antibiotic taught resistant behaviour to bacteria that survived.",
           "The proportion of bacteria with resistance alleles increased over generations.",
           "The population stopped reproducing completely before resistance appeared."
         ],
@@ -3682,7 +3682,7 @@ window.SCIENCE10_QUIZZES = {
           "Trees with inherited shade-tolerant traits were more likely to survive and reproduce, so the population changed over generations.",
           "The individual tree intentionally rewrote its DNA to match the shade.",
           "Shade tolerance cannot be inherited or selected for.",
-          "Natural selection always helps every individual equally."
+          "Natural selection improved the tree before it passed on the trait."
         ],
         correctIndex: 0,
         explanation: "Natural selection favours inherited traits already present in some individuals; it does not involve individual intention."
@@ -3697,7 +3697,7 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What is selective pressure?",
         choices: [
           "A decision an organism makes to change its genes.",
-          "A trait that is useful in every environment.",
+          "A helpful trait itself, rather than a condition acting on traits.",
           "An environmental condition that favours some heritable traits and selects against others.",
           "A rule that prevents populations from changing over generations."
         ],
@@ -3738,8 +3738,8 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What does it mean to say that natural selection is situational?",
         choices: [
           "Whether a trait is helpful depends on the current environment.",
-          "A useful trait is always useful in every place and time.",
-          "Natural selection has a plan for every species.",
+          "A useful trait has the same advantage in most habitats.",
+          "Natural selection moves species toward a planned goal.",
           "Organisms decide which traits to pass on when conditions change."
         ],
         correctIndex: 0,
@@ -3749,7 +3749,7 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-92-q2",
         prompt: "Shade tolerance helps young trees survive under a dense canopy. If a storm opens the canopy and light becomes intense, what may happen?",
         choices: [
-          "The trait must become stronger in every individual immediately.",
+          "The trait remains the strongest advantage because it helped before.",
           "The same trait may no longer provide the same advantage.",
           "The population can no longer have genetic variation.",
           "The environment stops acting as a selective pressure."
@@ -3761,8 +3761,8 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-92-q3",
         prompt: "Which statement best avoids a common misconception about natural selection?",
         choices: [
-          "Natural selection tries to make every species more complex.",
-          "Natural selection always improves every individual.",
+          "Natural selection works toward greater complexity as its goal.",
+          "Natural selection improves individuals during their own lifetimes.",
           "Natural selection predicts exactly which mutation will happen next.",
           "Natural selection has no will or purpose; it depends on how traits perform in a situation."
         ],
@@ -3779,8 +3779,8 @@ window.SCIENCE10_QUIZZES = {
         prompt: "In this chapter, what is a species?",
         choices: [
           "Any two organisms that look similar in a photograph.",
-          "A group of organisms that all live in the same country.",
-          "A population that cannot reproduce at all.",
+          "A group of organisms that share a habitat but do not interbreed.",
+          "A population that reproduces asexually in a lab culture.",
           "A population or group of populations whose members can interbreed and produce fertile offspring."
         ],
         correctIndex: 3,
@@ -3791,7 +3791,7 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Two animal groups look similar, but when they mate their offspring are not fertile. What does this suggest?",
         choices: [
           "They must be the same species because they look alike.",
-          "They must be different species only if they live on different continents.",
+          "They can be treated as the same species if their habitats overlap.",
           "They may not belong to the same species under the biological species concept.",
           "They are definitely both extinct because their offspring are not fertile."
         ],
@@ -3802,10 +3802,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-93-q3",
         prompt: "Why is appearance alone sometimes not enough to decide whether two groups are the same species?",
         choices: [
-          "Appearance never gives any useful biological information.",
+          "Appearance is more reliable than reproduction when classifying species.",
           "Similar-looking organisms may differ in their ability to interbreed and produce fertile offspring.",
-          "Only organisms with different colours can be different species.",
-          "Species are defined only by where an organism lives."
+          "Colour difference is the main evidence needed for species identity.",
+          "Shared habitat is stronger evidence than fertile offspring."
         ],
         correctIndex: 1,
         explanation: "Physical form can help, but reproductive compatibility can provide stronger evidence."
@@ -3820,9 +3820,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What is speciation?",
         choices: [
           "The formation of new species from existing species.",
-          "The extinction of all species in a habitat at the same time.",
+          "The loss of many species during a major environmental disruption.",
           "A temporary change in one individual's behaviour.",
-          "The exact copying of every allele in a population forever."
+          "The movement of a population into a new habitat without genetic divergence."
         ],
         correctIndex: 0,
         explanation: "Speciation occurs when populations become different enough that new species form."
@@ -3845,7 +3845,7 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "Individuals must intentionally choose to become a new species.",
           "One non-inherited injury creates a new species immediately.",
-          "Speciation happens only when every organism dies at once.",
+          "Speciation begins when a population stops having genetic variation.",
           "Populations accumulate inherited differences over time through mutation, selection, and other factors."
         ],
         correctIndex: 3,
@@ -3860,7 +3860,7 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-95-q1",
         prompt: "How can geographic isolation contribute to speciation?",
         choices: [
-          "It makes all separated organisms genetically identical forever.",
+          "It makes separated groups experience the same gene flow as before.",
           "A barrier can split a population so separated groups follow different evolutionary paths.",
           "It prevents mutation from happening in either group.",
           "It guarantees that no selection occurs."
@@ -3886,7 +3886,7 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "Their gene pools may become different enough that fertile offspring are no longer produced.",
           "They must have stopped reproducing entirely in both habitats.",
-          "They will always become identical again because they share an ancestor.",
+          "They will remain compatible if they share an ancestor.",
           "Their learned behaviours automatically change DNA in the same direction."
         ],
         correctIndex: 0,
@@ -3901,10 +3901,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-96-q1",
         prompt: "What is adaptive radiation?",
         choices: [
-          "A type of ultraviolet radiation that always causes cancer.",
+          "A type of DNA-damaging radiation that explains island evolution.",
           "A single individual changing into several species during its lifetime.",
           "Diversification of a common ancestral species into differently adapted species.",
-          "A process that removes all adaptation from a population."
+          "The loss of differences among populations after they enter new habitats."
         ],
         correctIndex: 2,
         explanation: "Adaptive radiation occurs when descendants of a common ancestor diversify into species adapted to different environments."
@@ -3913,9 +3913,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-96-q2",
         prompt: "Why are islands often useful places to study adaptive radiation?",
         choices: [
-          "Islands prevent all mutation and selection.",
+          "Islands create habitats that keep gene pools connected in the same way.",
           "Islands can provide isolated habitats with different selective pressures and open ecological roles.",
-          "Every island has exactly the same environment.",
+          "Island habitats usually have matching food sources and predators.",
           "Island organisms cannot reproduce, so species stay unchanged."
         ],
         correctIndex: 1,
@@ -3927,7 +3927,7 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "A single finch changing its beak because it wanted a new food.",
           "A lack of selective pressure on islands.",
-          "Extinction of every ancestral bird before any descendants formed.",
+          "A pedigree pattern caused by dominant and recessive beak alleles.",
           "Adaptive radiation from a common ancestral finch population."
         ],
         correctIndex: 3,
@@ -3942,7 +3942,7 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-97-q1",
         prompt: "How do mutations and natural selection work together during speciation?",
         choices: [
-          "Selection creates only the mutations that organisms request.",
+          "Selection creates mutations that match a population's immediate needs.",
           "Mutations add variation, and selection can favour different traits in different environments.",
           "Mutations stop populations from changing.",
           "Selection makes isolated populations identical."
@@ -3955,7 +3955,7 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Two isolated populations experience different food sources for many generations. Why might they become increasingly different?",
         choices: [
           "Each individual changes its alleles to match the food it eats.",
-          "Isolation prevents all reproduction.",
+          "Isolation prevents gene flow between groups but stops selection as well.",
           "Different traits may be favoured in each environment, changing allele frequencies over time.",
           "The two populations must experience identical selective pressures."
         ],
@@ -3968,7 +3968,7 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "Variation arises, environments favour some traits, populations diverge, and new species may form.",
           "A species decides to split, then mutations stop.",
-          "All organisms become identical, then adaptive radiation begins.",
+          "Individuals learn new traits, then offspring inherit those learned changes.",
           "Extinction must happen before any new species can form."
         ],
         correctIndex: 0,
@@ -4271,7 +4271,7 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What is artificial selection?",
         choices: [
           "Environmental selection with no human role.",
-          "A random mutation that always produces cancer.",
+          "A mutation process controlled by an organism's needs.",
           "Human-directed selective pressure used to increase or modify desired traits.",
           "The formation of species without any selection.",
         ],
@@ -4296,7 +4296,7 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "Individual organisms change their genes because humans ask them to.",
           "Breeders eliminate inheritance from the process.",
-          "Artificial selection prevents all reproduction.",
+          "Human preference changes the trait directly before reproduction occurs.",
           "Chosen parents pass alleles for desired traits to offspring more often."
         ],
         correctIndex: 3,
@@ -4311,10 +4311,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-106-q1",
         prompt: "What is the key difference between natural selection and artificial selection?",
         choices: [
-          "Natural selection uses genes, but artificial selection never involves genes.",
+          "Natural selection changes traits through inheritance, while artificial selection changes traits without inheritance.",
           "Natural selection is driven by environmental conditions; artificial selection is directed by humans.",
-          "Artificial selection happens only in wild ecosystems.",
-          "Natural selection changes individuals instantly, but artificial selection changes populations."
+          "Artificial selection is random environmental survival with no human choice.",
+          "Natural selection changes individuals during life, while artificial selection changes offspring."
         ],
         correctIndex: 1,
         explanation: "In both processes, traits can become more common, but the selecting pressure differs."
@@ -4323,7 +4323,7 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-106-q2",
         prompt: "A farmer keeps seeds only from plants that produced well in dry conditions. Which kind of selection is this?",
         choices: [
-          "Natural selection only, because humans are not involved.",
+          "Natural selection, because dry conditions affected plant growth.",
           "Geographic isolation, because seeds are small.",
           "Artificial selection, because a human chooses which plants reproduce.",
           "Mass extinction, because some seeds are not planted."
@@ -4337,8 +4337,8 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "Both can change trait frequencies in populations over generations.",
           "Both require organisms to decide to mutate.",
-          "Both always increase genetic diversity.",
-          "Both happen only in domestic animals."
+          "Both increase genetic diversity as selected traits become common.",
+          "Both are limited to domestic animals and crop plants."
         ],
         correctIndex: 0,
         explanation: "Both processes can shift which inherited traits are common in future generations."
@@ -4366,7 +4366,7 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "They make each animal rewrite its DNA during its life.",
           "They choose parents with desired heritable traits, increasing the chance those traits are passed on.",
-          "They prevent all offspring from inheriting alleles.",
+          "They make selected traits appear in offspring without alleles being inherited.",
           "They remove variation by stopping reproduction completely."
         ],
         correctIndex: 1,
@@ -4377,7 +4377,7 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why can breeding for appearance in companion animals have risks?",
         choices: [
           "Appearance traits cannot be inherited.",
-          "Artificial selection always improves every trait at once.",
+          "Appearance is separate from physiology, so health effects are unlikely.",
           "Selecting strongly for one visible trait may also increase health problems linked with that breeding pattern.",
           "Breeding for appearance prevents any offspring from being fertile."
         ],
@@ -4394,9 +4394,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "How does wild mustard illustrate artificial selection in crops?",
         choices: [
           "Different plant parts were selected over generations, producing crops such as broccoli, cabbage, and kale.",
-          "It shows that all crop plants must be different species with no shared ancestry.",
+          "It shows that different crop forms cannot share ancestry if they look different.",
           "It proves that human selection cannot affect inherited plant traits.",
-          "It shows that crops form only after geographic isolation."
+          "It shows that crops form through geographic barriers rather than breeding choices."
         ],
         correctIndex: 0,
         explanation: "Many Brassica crops came from selective breeding of different traits in the same ancestral species."
@@ -4405,9 +4405,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-108-q2",
         prompt: "If breeders repeatedly choose plants with larger flower buds, which crop-like trait are they selecting for?",
         choices: [
-          "Less inherited variation in every unrelated species.",
+          "A trait linked with root storage rather than flower structures.",
           "A stronger Y chromosome.",
-          "Resistance to all mutagens.",
+          "A mutagen-resistant DNA sequence in unrelated crops.",
           "More developed flower buds."
         ],
         correctIndex: 3,
@@ -4417,9 +4417,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-108-q3",
         prompt: "Why can two crop varieties look very different yet still belong to the same species?",
         choices: [
-          "Appearance always proves species identity without other evidence.",
+          "Appearance is enough to separate crop varieties into different species.",
           "Selective breeding can emphasize different traits while the varieties can still interbreed and produce fertile offspring.",
-          "Artificial selection removes all shared genes.",
+          "Artificial selection removes shared ancestry from crop varieties.",
           "Different-looking crops cannot have any common ancestor."
         ],
         correctIndex: 1,
@@ -4434,8 +4434,8 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-109-q1",
         prompt: "What is one possible limit of breeding crops mainly for fast growth?",
         choices: [
-          "They automatically become resistant to every disease.",
-          "They keep maximum genetic diversity in every generation.",
+          "They may grow faster without changing tolerance to stress.",
+          "They keep the same range of traits as an unselected wild population.",
           "They may become less tolerant of poor soil or other environmental stresses.",
           "They become unable to pass any traits to offspring."
         ],
@@ -4447,8 +4447,8 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why should crop breeders balance productivity with genetic variation?",
         choices: [
           "Variation can help crops respond to disease, pests, or environmental change.",
-          "Genetic variation always lowers survival.",
-          "Productive crops never face selective pressure.",
+          "Genetic variation makes useful crop traits disappear as soon as breeding begins.",
+          "Productive crops are protected from pests because they have been selected.",
           "Genetic variation prevents plants from growing."
         ],
         correctIndex: 0,
@@ -4458,8 +4458,8 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-109-q3",
         prompt: "Which statement best avoids a misconception about selective breeding?",
         choices: [
-          "Artificial selection always improves every trait at once.",
-          "A selected trait can never reduce environmental tolerance.",
+          "Artificial selection improves a chosen trait without possible trade-offs.",
+          "A selected trait matters for yield but not for stress tolerance.",
           "Selective breeding removes the need for genetic diversity.",
           "Breeding for one desired trait can have trade-offs in other traits."
         ],
@@ -4475,10 +4475,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-110-q1",
         prompt: "Which is a possible positive consequence of artificial selection?",
         choices: [
-          "All genetic diversity is always preserved.",
+          "Genetic diversity is preserved as selected varieties become more similar.",
           "Food crops can be bred for traits such as larger edible parts or higher yield.",
-          "Every selected organism becomes healthier in every way.",
-          "Cancer risk is removed from all organisms."
+          "Selected organisms become healthier in unrelated body systems.",
+          "Health risks disappear because breeders choose a useful trait."
         ],
         correctIndex: 1,
         explanation: "Artificial selection has helped produce useful crop and animal traits that support human needs."
@@ -4487,10 +4487,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-110-q2",
         prompt: "Which is a possible negative consequence of artificial selection?",
         choices: [
-          "All offspring become unrelated to their parents.",
+          "Offspring become less related to selected parents over generations.",
           "Artificial selection prevents any inherited trait from passing on.",
           "Reduced genetic diversity can make a population more vulnerable to disease or environmental change.",
-          "Selected traits can never affect health."
+          "Selected traits affect appearance but not physiology or health."
         ],
         correctIndex: 2,
         explanation: "Selecting for similarity can reduce diversity, increasing risk when conditions change."
@@ -4501,8 +4501,8 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "Artificial selection can have unintended health consequences.",
           "Artificial selection cannot affect animal bodies.",
-          "Only natural selection can change populations.",
-          "Health problems mean the selected body shape was not inherited."
+          "Natural selection changes populations, while artificial selection affects individual bodies.",
+          "Health problems mean breeders selected an environmental trait rather than an inherited trait."
         ],
         correctIndex: 0,
         explanation: "Selection for desired traits can also increase linked problems or harmful consequences."
