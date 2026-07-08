@@ -9024,14 +9024,14 @@ window.SCIENCE10_QUIZZES = {
     questions: [
       {
         id: "kp-221-q1",
-        prompt: "Which comparison best evaluates tanning methods using sustainability and safety?",
+        prompt: "Which comparison best evaluates tanning methods using both sustainability and safety?",
         choices: [
-          "Brain tanning may use natural materials and more of the animal, while some industrial methods can involve toxic chemicals that require careful control.",
-          "Industrial tanning is always sustainable because it is faster.",
-          "Traditional tanning has no chemical process, so it has no environmental impact.",
-          "Any method that produces leather has exactly the same risks."
+          "Industrial tanning is automatically best because it can produce more leather quickly.",
+          "Traditional tanning is automatically risk-free because its materials are natural.",
+          "Traditional methods may use more of the animal and natural materials, while some industrial methods may need controls for toxic chemicals and waste.",
+          "Any method that produces the same product must have the same environmental impact."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "A strong evaluation considers materials used, waste, safety, scale, and environmental impact."
       },
       {
@@ -9039,9 +9039,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why might a traditional method be difficult to use on a large commercial scale even if it is more natural?",
         choices: [
           "It may require more labour, time, specialized knowledge, and limited biological materials.",
-          "Natural materials cannot cause chemical changes.",
-          "Commercial scale removes the need to think about waste.",
-          "Leather can only be made with chromium salts."
+          "It would stop being a chemical process as soon as more hides were treated.",
+          "Commercial scale would make all waste disappear.",
+          "Natural materials cannot interact with hide fibres."
         ],
         correctIndex: 0,
         explanation: "Sustainability decisions must include practicality as well as chemical and environmental risks."
@@ -9050,12 +9050,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-221-q3",
         prompt: "A company claims its tanning method is sustainable because it uses fewer synthetic chemicals. What question should still be asked?",
         choices: [
-          "How much waste, energy use, safety risk, and usable product does the whole process involve?",
-          "Does the method avoid all atoms?",
-          "Can the product be made without any matter?",
-          "Does the method ignore worker safety?"
+          "Does the word natural appear on the package?",
+          "Can the process be described without using any chemistry terms?",
+          "Does the finished leather look exactly the same colour every time?",
+          "How much waste, energy use, worker exposure, and usable product does the whole process involve?"
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "A sustainability claim should be checked across the whole process, not only one material choice."
       }
     ]
@@ -9067,24 +9067,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-222-q1",
         prompt: "Why should a conservation-of-mass investigation measure the system both before and after a reaction?",
         choices: [
-          "The comparison shows whether the measured total mass changed during the reaction.",
-          "The first measurement is enough to identify every product.",
-          "The second measurement proves no reaction happened.",
-          "Mass measurements are unrelated to conservation."
+          "The first measurement identifies every product without observations.",
+          "The two measurements can be compared to test whether the defined system's mass changed.",
+          "The second measurement replaces the need for a balanced equation.",
+          "Mass should be measured only after all gas has escaped."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Before-and-after measurements let you compare the total mass of the reaction system."
       },
       {
         id: "kp-222-q2",
-        prompt: "A closed flask has a mass of 183.42 g before two solutions are mixed. After the reaction, the flask and contents measure 183.41 g. What is the best interpretation?",
+        prompt: "A sealed flask has a mass of 184.37 g before two solutions are mixed. After the reaction, it measures 184.36 g. What is the best interpretation?",
         choices: [
-          "The small difference is likely measurement uncertainty; mass is essentially conserved.",
-          "A large amount of matter was destroyed.",
-          "The products have no mass.",
-          "The law of conservation of mass failed completely."
+          "A large amount of matter was destroyed by the reaction.",
+          "The products have no mass because a solid formed.",
+          "The 0.01 g difference is likely measurement uncertainty, so mass is essentially conserved.",
+          "The law of conservation of mass applies only to gases."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Real measurements can vary slightly, so evidence should be interpreted with uncertainty in mind."
       },
       {
@@ -9093,7 +9093,7 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "It helps show how escaping matter can affect measured mass even when total matter is conserved.",
           "It proves open systems cannot have chemical reactions.",
-          "It shows that energy is the same as mass.",
+          "It shows that every gas has no mass.",
           "It removes the need to record observations."
         ],
         correctIndex: 0,
@@ -9108,36 +9108,36 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-223-q1",
         prompt: "In a closed-system reaction, why is a stopper or sealed lid important?",
         choices: [
-          "It prevents matter such as gases or droplets from escaping the measured system.",
-          "It prevents all energy transfer.",
-          "It changes reactants into products without mixing.",
-          "It makes the balance ignore the container."
+          "It prevents all energy transfer between the flask and the room.",
+          "It changes reactants into products without allowing them to touch.",
+          "It makes the balance ignore the container's mass.",
+          "It keeps matter such as gases, droplets, and solutions inside the measured system."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "A sealed container keeps all matter inside the system being weighed."
       },
       {
         id: "kp-223-q2",
         prompt: "Two solutions react inside a sealed flask and form a cloudy solid. What should happen to the total mass of the sealed flask and contents?",
         choices: [
-          "It should remain the same within measurement uncertainty.",
           "It should drop to zero because a solid formed.",
+          "It should remain the same within measurement uncertainty.",
           "It should increase because cloudiness adds atoms.",
           "It should depend only on the colour of the precipitate."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "New substances can form while the total matter in the closed system remains constant."
       },
       {
         id: "kp-223-q3",
         prompt: "Which observation would be evidence of a reaction in a closed system without contradicting mass conservation?",
         choices: [
-          "A colour change occurs while the sealed container's total mass stays constant.",
-          "The stopper disappears.",
-          "Atoms are lost through the glass.",
-          "The balance reading becomes unrelated to matter."
+          "The stopper disappears during the reaction.",
+          "Atoms are lost through the glass because the liquid changed colour.",
+          "A precipitate forms while the sealed container's total mass stays nearly constant.",
+          "The balance reading becomes unrelated to matter once products form."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Chemical evidence and mass conservation can occur at the same time."
       }
     ]
@@ -9150,8 +9150,8 @@ window.SCIENCE10_QUIZZES = {
         prompt: "A tablet bubbles in an open beaker of water and the balance reading decreases over several minutes. What most likely left the measured system?",
         choices: [
           "Gas produced by the reaction",
-          "All of the water instantly",
-          "The glass beaker's atoms",
+          "Only the label on the tablet package",
+          "Atoms from the glass beaker",
           "The balance pan"
         ],
         correctIndex: 0,
@@ -9161,24 +9161,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-224-q2",
         prompt: "If the same bubbling reaction were done in a sealed container, what result would better show conservation of mass?",
         choices: [
-          "The total mass of the sealed container and contents would stay nearly constant.",
           "The total mass would always decrease faster.",
-          "No gas could be produced.",
-          "The reaction would stop being chemical."
+          "No gas could be produced if the container were sealed.",
+          "The reaction would stop being chemical.",
+          "The total mass of the sealed container and contents would stay nearly constant."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Sealing the system keeps gas inside, so it remains part of the measured mass."
       },
       {
         id: "kp-224-q3",
         prompt: "Why is it misleading to say that mass was destroyed in an open beaker reaction?",
         choices: [
-          "The missing measured mass may have moved into the surrounding air.",
           "Open beakers do not contain matter.",
+          "The missing measured mass may have moved into the surrounding air.",
           "Gas has no mass once it leaves a beaker.",
           "Mass conservation applies only to solids."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Open-system measurements can lose track of matter that leaves the container."
       }
     ]
@@ -9190,12 +9190,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-225-q1",
         prompt: "Which observation would be good evidence that a chemical reaction occurred when two clear solutions were mixed?",
         choices: [
-          "A new cloudy solid formed in the mixture.",
-          "The flask was placed on a table.",
+          "The flask was placed on a table before mixing.",
           "The labels on the bottles were read aloud.",
+          "A new cloudy solid formed in the mixture.",
           "The liquids were measured with a cylinder."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Formation of a precipitate can indicate that new substances formed."
       },
       {
@@ -9203,9 +9203,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which set of observations should be recorded during a reaction investigation?",
         choices: [
           "Temperature changes, gas production, colour changes, precipitates, and mass readings",
-          "Only the final answer from a classmate",
-          "Only the brand of the balance",
-          "Only whether the lab bench is clean"
+          "Only the final answer copied after the lab is over",
+          "Only the brand of the balance, because equipment names are the data",
+          "Only whether the lab bench is clean, because observations of the mixture can be skipped"
         ],
         correctIndex: 0,
         explanation: "Multiple observations help connect evidence to whether a chemical reaction occurred."
@@ -9214,12 +9214,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-225-q3",
         prompt: "A reaction mixture becomes colder and produces bubbles. What should a careful student conclude?",
         choices: [
-          "These observations are evidence of a reaction and energy transfer, but the student should still record data carefully.",
           "The reaction definitely destroyed matter.",
           "Bubbles prove the system was closed.",
-          "Temperature change is never related to chemical reactions."
+          "Temperature change is never related to chemical reactions.",
+          "These observations are evidence of a reaction and energy transfer, but the student should still record data carefully."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Observations support a reaction claim, but good science still depends on careful data."
       }
     ]
@@ -9231,24 +9231,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-226-q1",
         prompt: "Which everyday example shows matter and energy interacting during a physical change?",
         choices: [
-          "Ice absorbs energy from warmer surroundings and melts.",
           "A pencil is counted on a desk.",
+          "Ice absorbs energy from warmer surroundings and melts.",
           "A closed book sits on a shelf.",
           "A label is copied onto a notebook."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Melting is a physical change that involves energy transfer."
       },
       {
         id: "kp-226-q2",
         prompt: "Which example shows matter and energy interacting during a chemical change?",
         choices: [
-          "Bread browns in a toaster as energy causes chemical changes.",
-          "A rock is moved across a table.",
-          "A glass of water is labelled.",
-          "A metal spoon is counted."
+          "A rock is moved across a table without changing.",
+          "A glass of water is labelled with its name.",
+          "Bread browns in a toaster as energy causes chemical changes in the food.",
+          "A metal spoon is counted before lunch."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Cooking can involve chemical changes driven by energy input."
       },
       {
@@ -9256,8 +9256,8 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What is the main idea of this concept?",
         choices: [
           "Matter changes are often linked to energy transfers.",
-          "Matter and energy never interact.",
-          "Only chemical changes involve energy.",
+          "Matter and energy never interact during ordinary events.",
+          "Only chemical changes involve energy; physical changes do not.",
           "Energy transfer always creates new atoms."
         ],
         correctIndex: 0,
@@ -9272,36 +9272,36 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-227-q1",
         prompt: "Why does water on a stove not boil instantly at room temperature?",
         choices: [
-          "Energy must be transferred to the water to increase its temperature and change state.",
-          "Water cannot absorb energy.",
-          "Boiling creates new oxygen atoms.",
-          "The stove removes all energy from the water."
+          "Water cannot absorb energy from its surroundings.",
+          "Boiling creates new oxygen atoms before the temperature changes.",
+          "The stove removes all energy from the water.",
+          "Energy must be transferred to the water to increase its temperature and support the change of state."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Boiling requires energy input to heat the water and support the phase change."
       },
       {
         id: "kp-227-q2",
         prompt: "Which situation best shows that a reaction may need energy to begin?",
         choices: [
+          "A sealed bottle remains on a shelf without changing.",
           "A propane torch needs a spark before the fuel starts burning.",
-          "A sealed bottle remains on a shelf.",
           "A solution is labelled with its name.",
-          "A cold spoon is weighed."
+          "A cold spoon is weighed on a balance."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "The spark provides initial energy so some reactant particles can begin reacting."
       },
       {
         id: "kp-227-q3",
         prompt: "A student says, 'If a reaction releases energy, it should never need energy to start.' What is the misconception?",
         choices: [
+          "Energy-releasing reactions cannot occur in real life.",
+          "Energy input always means the change must be physical only.",
           "Even energy-releasing reactions may need an initial input to get past the starting barrier.",
-          "Energy-releasing reactions cannot occur.",
-          "Energy input always means the reaction is physical only.",
           "Released energy destroys reactants before products form."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Initial energy and overall energy release are different ideas."
       }
     ]
@@ -9314,7 +9314,7 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What is activation energy?",
         choices: [
           "The minimum energy reactants need for a reaction to occur.",
-          "The total mass of all products.",
+          "The total mass of all products after a reaction.",
           "The energy stored only in the surroundings after a reaction.",
           "The amount of light absorbed by a label."
         ],
@@ -9325,24 +9325,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-228-q2",
         prompt: "Why is activation energy often compared to a hill?",
         choices: [
-          "Reactants need enough energy to get over a barrier before products can form.",
           "Reactants roll downhill before any collisions occur.",
           "Products must always have more mass than reactants.",
-          "Chemical reactions happen only outdoors."
+          "Chemical reactions happen only outdoors where hills exist.",
+          "Reactants need enough energy to get over a barrier before products can form."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "The hill model represents the energy barrier that must be overcome."
       },
       {
         id: "kp-228-q3",
         prompt: "If reactant particles collide but do not have enough energy to overcome activation energy, what is most likely?",
         choices: [
-          "They will not react successfully in that collision.",
           "They will create atoms from nothing.",
-          "They will form products without changing bonds.",
+          "They will not react successfully in that collision.",
+          "They will form products without any bond changes.",
           "They will become a closed system."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "A collision must have sufficient energy for the reaction to start."
       }
     ]
@@ -9354,12 +9354,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-229-q1",
         prompt: "Why do reactant particles need to collide for many reactions to occur?",
         choices: [
-          "Collisions allow particles to interact and begin breaking old bonds.",
-          "Collisions make atoms disappear.",
+          "Collisions make atoms disappear so products can form.",
           "Particles react best when they never meet.",
+          "Collisions allow particles to interact and begin bond changes if enough energy is available.",
           "Collisions replace the need for activation energy."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Reacting particles must interact directly with enough energy to start rearranging bonds."
       },
       {
@@ -9378,12 +9378,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-229-q3",
         prompt: "How does the propane torch example relate to collisions?",
         choices: [
-          "A spark gives some propane and oxygen particles enough energy for successful collisions.",
           "A spark prevents propane and oxygen from colliding.",
           "Propane burns without particles interacting.",
-          "Oxygen is not involved in the reaction."
+          "Oxygen is not involved in the reaction.",
+          "A spark gives some propane and oxygen particles enough energy for successful collisions."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "The spark helps enough reactant particles overcome the activation energy barrier."
       }
     ]
@@ -9395,24 +9395,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-230-q1",
         prompt: "Why can a propane flame continue after the first spark?",
         choices: [
-          "The reaction releases enough energy to help more reactant particles overcome activation energy.",
           "The spark remains the only energy source forever.",
-          "The reaction no longer needs oxygen.",
+          "The reaction releases enough energy to help more reactant particles overcome activation energy.",
+          "The reaction no longer needs oxygen after it starts.",
           "The products turn back into propane instantly."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Energy released by early reactions can help sustain later reactions."
       },
       {
         id: "kp-230-q2",
         prompt: "Which statement best distinguishes initial energy input from ongoing reaction energy?",
         choices: [
-          "Initial energy starts some particles reacting; released energy may keep the reaction going.",
           "Initial energy and released energy are always the same object.",
           "Initial energy destroys products before they form.",
+          "Initial energy starts some particles reacting; released energy may keep the reaction going.",
           "Ongoing reaction energy means matter is no longer conserved."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Some reactions need a start but then produce enough energy to continue."
       },
       {
