@@ -5336,10 +5336,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-131-q1",
         prompt: "Which description best matches biotechnology?",
         choices: [
-          "Using only natural breeding and never applying laboratory tools.",
+          "Using traditional breeding without applying DNA-based tools.",
           "Studying inherited traits without trying to apply the knowledge.",
           "Using technology and organisms or biological systems to produce useful products.",
-          "Classifying organisms only by visible body structures."
+          "Classifying organisms by visible body structures for identification."
         ],
         correctIndex: 2,
         explanation: "Biotechnology combines technology with organisms or biological systems to produce useful products."
@@ -5350,8 +5350,8 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "It uses DNA knowledge together with tools and procedures that copy, modify, or move genes.",
           "It studies genetic disorders but does not use any tools or procedures.",
-          "It changes traits only by selecting parents over many generations.",
-          "It compares DNA profiles but never changes or uses genetic material."
+          "It changes traits through selective breeding without directly working with DNA.",
+          "It compares DNA profiles but does not apply genetic material in a useful process."
         ],
         correctIndex: 0,
         explanation: "Gene manipulation applies DNA science through technologies such as cloning, vectors, and genetic engineering."
@@ -5360,7 +5360,7 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-131-q3",
         prompt: "Which example is most clearly an application of biotechnology?",
         choices: [
-          "Breeding plants only by choosing the largest seeds each year.",
+          "Choosing the largest seeds each year through traditional selection.",
           "Drawing a food web to show feeding relationships.",
           "Using bacteria carrying a human gene to produce a useful protein.",
           "Measuring hand width to make a variation histogram."
@@ -5379,7 +5379,7 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "Producing identical copies of genes, cells, or organisms.",
           "Combining alleles by fertilization to make genetically different offspring.",
-          "Changing a DNA sequence so that every copy becomes unique.",
+          "Changing a DNA sequence so the copies become different from the original.",
           "Identifying a person by comparing variable DNA regions."
         ],
         correctIndex: 0,
@@ -5389,9 +5389,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-132-q2",
         prompt: "Why is gene cloning not the same as cloning a whole animal?",
         choices: [
-          "Gene cloning produces offspring through fertilization, while organism cloning uses bacteria only.",
-          "Gene cloning must copy every chromosome, while organism cloning copies only one gene.",
-          "Both processes always have the same goal and differ only in the equipment used.",
+          "Gene cloning produces offspring through fertilization, while organism cloning copies DNA segments.",
+          "Gene cloning copies a whole chromosome set, while organism cloning copies a short DNA segment.",
+          "Both processes have the same goal but differ in the equipment used.",
           "Gene cloning copies a DNA segment in host cells, while whole-organism cloning aims to copy an organism."
         ],
         correctIndex: 3,
@@ -5418,7 +5418,7 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-133-q1",
         prompt: "What is the main goal of gene cloning?",
         choices: [
-          "To make a complete adult organism from every copied gene.",
+          "To make a complete adult organism from a copied gene segment.",
           "To produce many copies of a selected gene or DNA segment in host cells.",
           "To predict a phenotypic ratio without using DNA.",
           "To make a DNA profile by comparing several people."
@@ -5431,9 +5431,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why can cloned genes be useful in medicine?",
         choices: [
           "They can help cells produce useful proteins, such as human insulin, in large amounts.",
-          "They automatically repair every mutation in the patient who receives the protein.",
+          "They repair the patient's mutation whenever the protein is injected.",
           "They replace the need for vectors because copied genes enter cells by themselves.",
-          "They are useful only when the copied gene does not code for a protein."
+          "They are useful mainly when the copied gene is not used to make a protein."
         ],
         correctIndex: 0,
         explanation: "If a cloned gene codes for a useful protein, cells can be used to make that protein."
@@ -5444,8 +5444,8 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "A sample of the finished protein without any DNA instructions.",
           "A DNA sequence carrying instructions for that protein.",
-          "A full human chromosome set in every bacterial cell.",
-          "A DNA profile that only identifies the protein donor."
+          "A full human chromosome set in the bacterial culture.",
+          "A DNA profile that identifies the protein donor but lacks the gene."
         ],
         correctIndex: 1,
         explanation: "Cells make proteins from genetic instructions, so the relevant gene must be introduced and copied."
@@ -5472,7 +5472,7 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why are plasmids useful vectors in bacteria?",
         choices: [
           "They are small circular DNA molecules that can carry inserted DNA separately from the bacterial chromosome.",
-          "They are bacterial proteins that translate every human gene automatically.",
+          "They are bacterial proteins that help translate an inserted gene.",
           "They are the same as human chromosomes, so bacteria accept them without changes.",
           "They are empty cell membranes used to surround the copied protein."
         ],
@@ -5500,7 +5500,7 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-135-q1",
         prompt: "What is recombinant DNA?",
         choices: [
-          "A copied gene that has never been inserted into any carrier DNA.",
+          "A copied gene kept separate from carrier DNA.",
           "A protein produced after a cloned gene has been expressed.",
           "A complete organism produced by reproductive cloning.",
           "A molecule of DNA that contains genetic material from different sources."
@@ -5514,7 +5514,7 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "It is no longer DNA because genes from two species cancel each other out.",
           "It is recombinant because it combines bacterial plasmid DNA with inserted human DNA.",
-          "It is recombinant only after the human protein has been purified.",
+          "It becomes recombinant after the bacterial cell makes the human protein.",
           "It is simply a normal bacterial chromosome with no added sequence."
         ],
         correctIndex: 1,
@@ -5527,7 +5527,7 @@ window.SCIENCE10_QUIZZES = {
           "Move embryos into the uterus after fertilization.",
           "Compare DNA regions from different individuals.",
           "Cut DNA and help join DNA pieces together.",
-          "Make every bacterial cell become a whole cloned animal."
+          "Make bacterial cells develop into cloned animals."
         ],
         correctIndex: 2,
         explanation: "Gene cloning uses enzymes to cut DNA at useful places and join DNA pieces into a recombinant molecule."
@@ -5541,7 +5541,7 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-136-q1",
         prompt: "What happens during transformation in gene cloning?",
         choices: [
-          "A vector is chosen but remains outside all cells.",
+          "A vector is prepared but kept outside the host cells.",
           "A host cell takes in recombinant DNA.",
           "A protein is purified before any gene enters a cell.",
           "An embryo is placed in the uterus after IVF."
@@ -5594,7 +5594,7 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-137-q2",
         prompt: "Which example best fits a transgenic plant?",
         choices: [
-          "A plant that grows taller only because it received more sunlight.",
+          "A plant that grows taller because it received more sunlight.",
           "A crop plant engineered with a gene that helps it resist an insect pest.",
           "A plant selected from a naturally variable population but not genetically engineered.",
           "A plant identified by a DNA profile without changing its genome."
@@ -5607,9 +5607,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why are transgenic animals sometimes used in medical research or production?",
         choices: [
           "They can be engineered to produce useful human proteins or model disease processes.",
-          "They are used because inserted genes can never affect animal cells.",
+          "They are used because inserted genes affect the animal's appearance but not its cells.",
           "They are the same as DNA profiles, so no living organism is changed.",
-          "They are produced only by placing sperm directly in the uterus."
+          "They are produced through assisted reproduction without changing a genome."
         ],
         correctIndex: 0,
         explanation: "The textbook discusses animals engineered for research and for producing medical protein products."
@@ -5623,8 +5623,8 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-138-q1",
         prompt: "What does a DNA profile compare?",
         choices: [
-          "Only genes that have been inserted into plasmids.",
-          "Only visible traits such as height, hair colour, and scars.",
+          "Inserted genes carried by plasmids.",
+          "Visible traits such as height, hair colour, and scars.",
           "Specific DNA regions that can differ among individuals.",
           "The complete set of proteins made by a transgenic plant."
         ],
@@ -5638,7 +5638,7 @@ window.SCIENCE10_QUIZZES = {
           "They can compare DNA from a sample with DNA from possible individuals.",
           "They prove guilt by themselves without careful interpretation or other evidence.",
           "They change a suspect's DNA so it matches evidence from a scene.",
-          "They identify people only if they are identical twins."
+          "They identify people by making unrelated DNA samples identical."
         ],
         correctIndex: 0,
         explanation: "DNA profiles can help match or exclude people, but evidence still needs careful handling and interpretation."
@@ -5731,7 +5731,7 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "Artificial insemination places sperm in the uterus; IVF fertilizes eggs outside the body first.",
           "Both procedures require recombinant DNA plasmids before fertilization.",
-          "IVF always happens entirely inside the body after sperm is concentrated.",
+          "IVF places concentrated sperm in the uterus and waits for fertilization.",
           "Artificial insemination transfers embryos after laboratory fertilization."
         ],
         correctIndex: 0,
@@ -5759,7 +5759,7 @@ window.SCIENCE10_QUIZZES = {
         prompt: "In a lung disorder caused by a faulty gene, why might delivering a healthy gene to lung cells help?",
         choices: [
           "The lung cells may begin making a normal protein that improves cell function.",
-          "The healthy gene changes every cell in the body and all future offspring instantly.",
+          "The healthy gene changes unrelated tissues and future offspring at the same time.",
           "The treatment works by measuring DNA profile bands rather than changing cell instructions.",
           "The treatment replaces fertilization with artificial insemination."
         ],
@@ -5770,9 +5770,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-141-q3",
         prompt: "Why are delivery methods important in gene therapy?",
         choices: [
-          "Genes can work only if they remain outside all body cells.",
-          "Delivery methods matter only for crop plants, not human tissues.",
-          "The method's only job is to prove that two people are related.",
+          "Genes can work without entering the affected cells.",
+          "Delivery methods matter for crop plants but not for affected human tissues.",
+          "The method's main job is to prove that two people are related.",
           "The healthy gene must reach the correct cells without causing unacceptable harm."
         ],
         correctIndex: 3,
@@ -5787,10 +5787,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-142-q1",
         prompt: "How can identifying a mutated gene improve disease diagnosis?",
         choices: [
-          "It guarantees that every person with the gene will have identical symptoms.",
+          "It predicts identical symptoms for each person who carries the variant.",
           "It can link a DNA change to a disorder and help doctors understand risk.",
           "It removes the need for symptoms, family history, or other medical evidence.",
-          "It proves that all diseases are inherited and never affected by environment."
+          "It proves that inherited disease risk is not affected by environment or other genes."
         ],
         correctIndex: 1,
         explanation: "Finding a disease-related mutation can support diagnosis and risk prediction, but it must be interpreted carefully."
@@ -5799,10 +5799,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-142-q2",
         prompt: "A family has a history of an inherited condition. What could DNA technology help determine?",
         choices: [
-          "Whether the person will never need medical care.",
-          "The person's exact future health in every detail.",
+          "Whether the person can avoid medical care after testing.",
+          "The person's future health without uncertainty.",
           "Whether a person carries a genetic variant linked to that condition.",
-          "Whether all relatives must have identical symptoms."
+          "Whether relatives with the variant must show matching symptoms."
         ],
         correctIndex: 2,
         explanation: "DNA testing can identify some disease-linked variants, but environment and other factors may also matter."
@@ -5811,7 +5811,7 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-142-q3",
         prompt: "What is a common misconception about genetic diagnosis?",
         choices: [
-          "That a genetic test result is always a complete prediction of a person's future health.",
+          "That a genetic test result is a complete prediction of a person's future health.",
           "That DNA technology can help connect genes and disease.",
           "That some disorders are linked to mutations.",
           "That doctors must interpret test results carefully."
@@ -5828,7 +5828,7 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-143-q1",
         prompt: "How can DNA-based testing support agriculture and trade?",
         choices: [
-          "It makes all crops immune to every virus.",
+          "It prevents crop viruses by changing the crop genome during testing.",
           "It replaces the need to inspect imported plants.",
           "It changes crop prices without testing plants or samples.",
           "It can detect plant viruses earlier, reducing quarantine delays and crop losses."
@@ -5843,7 +5843,7 @@ window.SCIENCE10_QUIZZES = {
           "It makes invasive species native to the ecosystem.",
           "Early detection can reduce damage and help prevent spread.",
           "It removes the need for forest management.",
-          "It works only after an invasive species has already destroyed the forest."
+          "It is useful after damage is widespread enough to see easily."
         ],
         correctIndex: 1,
         explanation: "Fast identification helps people respond before an invasive species or pathogen causes greater harm."
