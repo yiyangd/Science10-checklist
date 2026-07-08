@@ -5746,12 +5746,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-141-q1",
         prompt: "What is the main idea of gene therapy?",
         choices: [
+          "A DNA profile is compared with a sample to identify a person.",
+          "Eggs and sperm are combined outside the body before embryo transfer.",
           "A working form of a gene is delivered into affected cells or tissues.",
-          "A DNA profile is used to identify a suspect.",
-          "Sperm are placed in the uterus to assist reproduction.",
-          "A histogram is made from measured traits."
+          "Parents with desired traits are selected over many generations."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Gene therapy aims to add a healthy gene so affected cells can make a needed functional product."
       },
       {
@@ -5759,9 +5759,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "In a lung disorder caused by a faulty gene, why might delivering a healthy gene to lung cells help?",
         choices: [
           "The lung cells may begin making a normal protein that improves cell function.",
-          "The healthy gene changes every cell in the body instantly.",
-          "The treatment works by measuring DNA profile bands.",
-          "The treatment prevents all mutations from ever occurring."
+          "The healthy gene changes every cell in the body and all future offspring instantly.",
+          "The treatment works by measuring DNA profile bands rather than changing cell instructions.",
+          "The treatment replaces fertilization with artificial insemination."
         ],
         correctIndex: 0,
         explanation: "If affected cells receive and use a working gene, they may produce the protein that the faulty gene could not."
@@ -5770,12 +5770,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-141-q3",
         prompt: "Why are delivery methods important in gene therapy?",
         choices: [
-          "The healthy gene must reach the correct cells without causing unacceptable harm.",
-          "Genes can work only if they stay outside the body.",
-          "Delivery methods are used only for artificial insemination.",
-          "The method matters only for plant crops, never for human tissue."
+          "Genes can work only if they remain outside all body cells.",
+          "Delivery methods matter only for crop plants, not human tissues.",
+          "The method's only job is to prove that two people are related.",
+          "The healthy gene must reach the correct cells without causing unacceptable harm."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Gene therapy depends on moving genetic material into target cells safely and effectively."
       }
     ]
@@ -5787,24 +5787,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-142-q1",
         prompt: "How can identifying a mutated gene improve disease diagnosis?",
         choices: [
-          "It can link a DNA change to a disorder and help doctors understand risk.",
           "It guarantees that every person with the gene will have identical symptoms.",
-          "It removes the need for medical evidence.",
-          "It proves that all diseases are inherited."
+          "It can link a DNA change to a disorder and help doctors understand risk.",
+          "It removes the need for symptoms, family history, or other medical evidence.",
+          "It proves that all diseases are inherited and never affected by environment."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Finding a disease-related mutation can support diagnosis and risk prediction, but it must be interpreted carefully."
       },
       {
         id: "kp-142-q2",
         prompt: "A family has a history of an inherited condition. What could DNA technology help determine?",
         choices: [
-          "Whether a person carries a genetic variant linked to that condition.",
           "Whether the person will never need medical care.",
           "The person's exact future health in every detail.",
-          "The person's height without any measurement."
+          "Whether a person carries a genetic variant linked to that condition.",
+          "Whether all relatives must have identical symptoms."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "DNA testing can identify some disease-linked variants, but environment and other factors may also matter."
       },
       {
@@ -5828,36 +5828,36 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-143-q1",
         prompt: "How can DNA-based testing support agriculture and trade?",
         choices: [
-          "It can detect plant viruses earlier, reducing quarantine delays and crop losses.",
           "It makes all crops immune to every virus.",
           "It replaces the need to inspect imported plants.",
-          "It changes the price of crops without testing anything."
+          "It changes crop prices without testing plants or samples.",
+          "It can detect plant viruses earlier, reducing quarantine delays and crop losses."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Earlier virus detection can help growers and buyers avoid spreading disease and reduce costly delays."
       },
       {
         id: "kp-143-q2",
         prompt: "Why is rapid DNA identification useful for invasive species in forests?",
         choices: [
-          "Early detection can reduce damage and help prevent spread.",
           "It makes invasive species native to the ecosystem.",
+          "Early detection can reduce damage and help prevent spread.",
           "It removes the need for forest management.",
           "It works only after an invasive species has already destroyed the forest."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Fast identification helps people respond before an invasive species or pathogen causes greater harm."
       },
       {
         id: "kp-143-q3",
         prompt: "A device compares DNA from an insect egg sample with a library of known invasive species. What is the device mainly doing?",
         choices: [
-          "Using genetic information to identify the organism.",
           "Fertilizing eggs outside the body.",
           "Creating a transgenic animal.",
-          "Measuring seed mass variation."
+          "Using genetic information to identify the organism.",
+          "Changing the insect so it becomes a native species."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "The device uses DNA comparison to identify whether the sample matches a known species or pathogen."
       }
     ]
@@ -5870,9 +5870,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why are GMOs controversial even when they have useful applications?",
         choices: [
           "They can bring benefits but also raise environmental, health, social, and ethical questions.",
-          "They never have any possible benefit.",
-          "They are controversial only because people dislike the word DNA.",
-          "They cannot affect farming, medicine, or ecosystems."
+          "They are controversial only because no one has found any useful application.",
+          "They always affect health in the same way, so no evidence is needed.",
+          "They are controversial only in laboratories and cannot affect farming or ecosystems."
         ],
         correctIndex: 0,
         explanation: "Responsible evaluation considers both potential benefits and possible risks or ethical concerns."
@@ -5881,24 +5881,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-144-q2",
         prompt: "A transgenic crop reduces insect damage but may affect non-target organisms. What is the best response?",
         choices: [
-          "Evaluate both the farming benefit and the ecological risk using evidence.",
           "Approve it automatically because one benefit exists.",
           "Reject all evidence because it is biotechnology.",
-          "Ignore environmental effects if the crop grows well."
+          "Ignore environmental effects if the crop grows well.",
+          "Evaluate both the farming benefit and the ecological risk using evidence."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "GMO decisions should weigh benefits and risks rather than focusing on only one side."
       },
       {
         id: "kp-144-q3",
         prompt: "Which question best shows balanced GMO evaluation?",
         choices: [
-          "What are the benefits, risks, evidence quality, and who is affected?",
           "Can I decide based only on one opinion?",
+          "What are the benefits, risks, evidence quality, and who is affected?",
           "Should all biotechnology be treated as identical?",
           "Can environmental concerns be ignored if profit increases?"
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "A balanced evaluation asks about evidence, benefits, risks, and social effects."
       }
     ]
@@ -5910,12 +5910,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-145-q1",
         prompt: "What is one environmental concern linked to herbicide-resistant crops?",
         choices: [
-          "They may encourage heavier herbicide use that could affect soil or water organisms.",
           "They always remove the need for any chemicals.",
           "They prevent all genes from moving between species.",
+          "They may encourage heavier herbicide use that could affect soil or water organisms.",
           "They cannot interact with ecosystems."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Herbicide-resistant plants may change how chemicals are used, creating possible environmental risks."
       },
       {
@@ -5923,9 +5923,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What do people mean by a possible 'superweed' concern?",
         choices: [
           "A resistance gene might move to a wild relative, making the weed harder to control.",
-          "A weed becomes larger only because it receives more sunlight.",
-          "A crop stops having DNA.",
-          "All weeds become harmless after gene transfer."
+          "A weed becomes larger only because it receives more sunlight, not because of gene flow.",
+          "A crop stops having DNA after it is sprayed with herbicide.",
+          "All weeds become harmless once they receive a crop gene."
         ],
         correctIndex: 0,
         explanation: "Gene transfer to wild plants could create populations that are more difficult to manage."
@@ -5934,12 +5934,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-145-q3",
         prompt: "A GMO plant grows well outside farms and competes with wild species. Which risk is this?",
         choices: [
-          "A genetically modified organism may out-compete or breed with wild populations.",
           "A reproductive technology risk from IVF.",
           "A DNA profile privacy issue.",
-          "A frequency distribution error."
+          "A frequency distribution error.",
+          "A genetically modified organism may out-compete or breed with wild populations."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "One ecological concern is that GMOs could affect natural populations through competition or interbreeding."
       }
     ]
@@ -5951,24 +5951,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-146-q1",
         prompt: "Which concern is often raised about genetically modified food or medicine?",
         choices: [
-          "Long-term effects and possible allergic reactions may need more evidence.",
           "All GM foods are proven to cause the same illness.",
-          "GM food contains no molecules.",
-          "Labelling has no connection to consumer choice."
+          "Long-term effects and possible allergic reactions may need more evidence.",
+          "GM food contains no DNA, proteins, or other molecules.",
+          "Labelling has no connection to consumer choice or regulation."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Some concerns focus on safety, allergies, and the need for long-term evidence."
       },
       {
         id: "kp-146-q2",
         prompt: "Why might some consumers want GMO labelling?",
         choices: [
-          "Labelling can help people make informed choices about what they buy or eat.",
           "Labelling changes the DNA of the food.",
+          "Labelling can help people make informed choices about what they buy or eat.",
           "Labelling proves a product is unsafe.",
           "Labelling prevents any need for regulation."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Labelling is connected to transparency and informed decision-making, not automatic proof of harm."
       },
       {
@@ -5992,36 +5992,36 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-147-q1",
         prompt: "Why can biotechnology decisions be social and economic, not only scientific?",
         choices: [
-          "They can affect research funding, food markets, farmers, consumers, and access to benefits.",
           "They happen only inside one cell and never affect people.",
           "They have no cost and no ownership questions.",
-          "They are unrelated to agriculture or medicine."
+          "They are unrelated to agriculture, medicine, or access to products.",
+          "They can affect research funding, food markets, farmers, consumers, and access to benefits."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Biotechnology can influence who pays, who profits, who benefits, and who may face risks."
       },
       {
         id: "kp-147-q2",
         prompt: "A company owns a patented transgenic seed that many farmers rely on. Which issue is most relevant?",
         choices: [
-          "Private enterprise may influence farming choices and food markets.",
           "Stem cells can differentiate into many cell types.",
+          "Private enterprise may influence farming choices and food markets.",
           "Fertilization happens outside the body.",
           "DNA profiles are used only in criminal cases."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Ownership and control of biotechnology products can create social and economic questions."
       },
       {
         id: "kp-147-q3",
         prompt: "Which evaluation question best fits this KP?",
         choices: [
-          "Do the benefits justify the costs and who has access to those benefits?",
           "Can this topic be judged without considering people?",
           "Does biotechnology remove all economic concerns?",
+          "Do the benefits justify the costs and who has access to those benefits?",
           "Can market effects be ignored if DNA is involved?"
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Social and economic evaluation looks at costs, benefits, access, influence, and fairness."
       }
     ]
@@ -6034,9 +6034,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which question is most directly ethical when using transgenic animals?",
         choices: [
           "Is it acceptable to create or use animals mainly for human medical benefit?",
-          "How many nucleotides are in a codon?",
-          "What is the average hand width in the class?",
-          "Which island has more cactus plants?"
+          "Which DNA regions are useful for matching a suspect to a sample?",
+          "How many embryos are transferred after IVF?",
+          "Which vector is best for copying a bacterial gene?"
         ],
         correctIndex: 0,
         explanation: "Ethics asks what should be done and how living organisms should be treated."
@@ -6045,24 +6045,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-148-q2",
         prompt: "A transgenic goat produces a medicine in its milk. What should an ethical evaluation include?",
         choices: [
-          "Human benefit, animal welfare, risks, and whether alternatives exist.",
           "Only the price of the medicine.",
           "Only the colour of the goat.",
-          "Only whether the gene came from a plant."
+          "Only whether the gene came from a plant.",
+          "Human benefit, animal welfare, risks, and whether alternatives exist."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Ethical reasoning weighs benefits, harms, responsibilities, and possible alternatives."
       },
       {
         id: "kp-148-q3",
         prompt: "Why can organ-donor animal research raise difficult questions?",
         choices: [
-          "It may help patients but also raises concerns about animal use and disease transfer.",
           "It has no connection to human health.",
+          "It may help patients but also raises concerns about animal use and disease transfer.",
           "It cannot involve any risk.",
           "It is the same as measuring seed mass."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "The textbook connects possible medical benefits with concerns about ethics and safety."
       }
     ]
@@ -6074,12 +6074,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-149-q1",
         prompt: "Why has some gene therapy research been slowed or stopped in the past?",
         choices: [
-          "Some treatments produced negative results, so safer procedures were needed.",
           "Gene therapy never showed any promise.",
           "DNA cannot be inserted into cells under any conditions.",
-          "All genetic disorders were already cured."
+          "Some treatments produced negative results, so safer procedures were needed.",
+          "All genetic disorders were already cured by one successful trial."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Safety concerns can lead researchers to pause or redesign experimental procedures."
       },
       {
@@ -6087,9 +6087,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which question shows a concern about defining a 'disorder' for gene therapy?",
         choices: [
           "Which genetic conditions should be treated, and who gets to decide?",
-          "How many seeds can tweezers pick up?",
-          "Which frog call is loudest?",
-          "How do roots absorb water?"
+          "Which DNA regions are compared in a forensic profile?",
+          "How many embryos should be transferred during IVF?",
+          "Which plasmid carries an inserted gene into bacteria?"
         ],
         correctIndex: 0,
         explanation: "Gene therapy raises ethical questions about what counts as a condition needing treatment."
@@ -6098,12 +6098,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-149-q3",
         prompt: "What should be considered before approving a gene therapy trial?",
         choices: [
-          "Possible benefits, safety risks, informed consent, and regulation.",
           "Only whether the treatment sounds exciting.",
           "Only whether the gene has a short name.",
-          "Only whether the patient lives near a laboratory."
+          "Only whether the patient lives near a laboratory.",
+          "Possible benefits, safety risks, informed consent, and regulation."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Because gene therapy changes cells using genetic material, careful safety and ethical review matter."
       }
     ]
@@ -6115,24 +6115,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-150-q1",
         prompt: "What is a stem cell?",
         choices: [
-          "A cell that can divide and differentiate into other cell types.",
           "A cell that has no DNA.",
+          "A cell that can divide and differentiate into other cell types.",
           "A finished protein made by bacteria.",
           "A DNA band used in profiling."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Stem cells can divide and develop into specialized cell types under the right conditions."
       },
       {
         id: "kp-150-q2",
         prompt: "Why might stem cells help repair damaged tissue?",
         choices: [
-          "They may be guided to become replacement cells for damaged tissue.",
           "They erase all injuries instantly.",
           "They work by changing a person's DNA profile.",
+          "They may be guided to become replacement cells for damaged tissue.",
           "They are useful only for identifying invasive species."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "The promise of stem cells comes from their ability to produce specialized cells that may replace damaged ones."
       },
       {
