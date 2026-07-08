@@ -8614,39 +8614,39 @@ window.SCIENCE10_QUIZZES = {
     questions: [
       {
         id: "kp-211-q1",
-        prompt: "In \\(3H_2O\\), what does the coefficient 3 apply to?",
+        prompt: "In \\(2Ca_3(PO_4)_2\\), which atom count correctly uses the coefficient?",
         choices: [
-          "The entire water formula, giving 3 molecules of water.",
-          "Only the hydrogen atoms, giving 3 hydrogen atoms total.",
-          "Only the oxygen atom, giving 3 oxygen molecules.",
-          "The charge on water."
+          "3 calcium atoms, 2 phosphorus atoms, and 8 oxygen atoms.",
+          "2 calcium atoms, 3 phosphorus atoms, and 4 oxygen atoms.",
+          "6 calcium atoms, 4 phosphorus atoms, and 16 oxygen atoms.",
+          "6 calcium atoms, 2 phosphorus atoms, and 8 oxygen atoms."
         ],
-        correctIndex: 0,
-        explanation: "A coefficient multiplies every atom in the formula that follows it."
+        correctIndex: 2,
+        explanation: "The coefficient multiplies the whole formula: 2 x Ca3 gives 6 Ca, 2 x P2 gives 4 P, and 2 x O8 gives 16 O."
       },
       {
         id: "kp-211-q2",
-        prompt: "How many oxygen atoms are represented by \\(4CO_2\\)?",
+        prompt: "A student places a 2 in front of \\(MgO\\) in \\(Mg + O_2 -> MgO\\). What does that coefficient mean?",
         choices: [
-          "8",
-          "2",
-          "4",
-          "6"
+          "There are two formula units of magnesium oxide, so both Mg and O are doubled.",
+          "Only the oxygen in magnesium oxide is doubled.",
+          "The formula becomes \\(Mg_2O\\).",
+          "The coefficient shows that magnesium oxide is a gas."
         ],
         correctIndex: 0,
-        explanation: "Each CO2 has 2 oxygen atoms, and the coefficient 4 gives 4 x 2 = 8 oxygen atoms."
+        explanation: "A coefficient applies to the entire formula after it; it changes the amount, not the formula itself."
       },
       {
         id: "kp-211-q3",
-        prompt: "Why are coefficients used when balancing equations?",
+        prompt: "Why are coefficients used instead of changing formulas when balancing a chemical equation?",
         choices: [
-          "They change the number of formula units or molecules without changing substance identities.",
-          "They change one compound into a different compound.",
-          "They show the colour of each substance.",
-          "They replace element symbols."
+          "They let subscripts be ignored after the first atom count.",
+          "They show which reactant has the greatest mass.",
+          "They turn skeleton equations into word equations.",
+          "They adjust the number of particles while keeping each substance's identity the same."
         ],
-        correctIndex: 0,
-        explanation: "Coefficients adjust amounts while keeping formulas unchanged."
+        correctIndex: 3,
+        explanation: "Balancing changes the amounts of substances. Changing a formula would describe a different substance."
       }
     ]
   },
@@ -8655,39 +8655,39 @@ window.SCIENCE10_QUIZZES = {
     questions: [
       {
         id: "kp-212-q1",
-        prompt: "What does the subscript 2 mean in \\(H_2O\\)?",
+        prompt: "In \\(Al_2(SO_4)_3\\), what does the subscript 3 outside the brackets mean?",
         choices: [
-          "Each water molecule contains 2 hydrogen atoms.",
-          "There are 2 water molecules.",
-          "Water has a charge of 2.",
-          "Oxygen appears twice."
+          "Only the sulfur atoms are tripled; oxygen stays as \\(O_4\\).",
+          "The whole sulfate group is counted three times in one formula unit.",
+          "There are three separate aluminum sulfate molecules.",
+          "The compound has a +3 charge overall."
         ],
-        correctIndex: 0,
-        explanation: "Subscripts describe the atom ratio within one molecule or formula unit."
+        correctIndex: 1,
+        explanation: "A subscript outside brackets multiplies every atom inside the bracketed group."
       },
       {
         id: "kp-212-q2",
-        prompt: "Why should you not change \\(H_2O\\) to \\(H_2O_2\\) when balancing an equation?",
+        prompt: "Which change would alter the identity of a substance rather than just the amount present?",
         choices: [
-          "Changing a subscript changes the identity of the substance.",
-          "Subscripts do not affect atom counts.",
-          "Changing subscripts is the only correct balancing method.",
-          "The coefficient already shows the state of matter."
+          "Changing \\(CO_2\\) to \\(2CO_2\\).",
+          "Changing \\(Cl_2\\) to \\(3Cl_2\\).",
+          "Changing \\(H_2O\\) to \\(H_2O_2\\).",
+          "Changing \\(NaCl\\) to \\(4NaCl\\)."
         ],
-        correctIndex: 0,
-        explanation: "H2O and H2O2 are different substances with different formulas."
+        correctIndex: 2,
+        explanation: "Changing a subscript changes the atom ratio inside one formula unit, so it describes a different substance."
       },
       {
         id: "kp-212-q3",
-        prompt: "How many oxygen atoms are in one formula unit of \\(Ca(NO_3)_2\\)?",
+        prompt: "How many oxygen atoms are represented by \\(3Ca(NO_3)_2\\)?",
         choices: [
+          "18",
+          "9",
           "6",
-          "3",
-          "2",
-          "5"
+          "15"
         ],
         correctIndex: 0,
-        explanation: "The subscript outside the bracket doubles all atoms inside: 2 x 3 oxygen atoms = 6."
+        explanation: "One formula unit has 2 nitrate groups, each with 3 oxygen atoms. The coefficient 3 gives 3 x 2 x 3 = 18 oxygen atoms."
       }
     ]
   },
@@ -8696,39 +8696,39 @@ window.SCIENCE10_QUIZZES = {
     questions: [
       {
         id: "kp-213-q1",
-        prompt: "What does \\((aq)\\) mean in a chemical equation?",
+        prompt: "Which statement correctly distinguishes \\((aq)\\) from \\((l)\\) in a chemical equation?",
         choices: [
-          "The substance is dissolved in water.",
-          "The substance is a gas.",
-          "The substance is a pure solid metal.",
-          "The substance is absent from the reaction."
+          "\\((aq)\\) means the substance is a liquid element, while \\((l)\\) means it is dissolved.",
+          "Both symbols mean liquid water is being produced.",
+          "\\((aq)\\) means the substance has not reacted yet, while \\((l)\\) means it is a product.",
+          "\\((aq)\\) means dissolved in water, while \\((l)\\) means the pure substance is liquid."
         ],
-        correctIndex: 0,
-        explanation: "Aqueous means dissolved in water."
+        correctIndex: 3,
+        explanation: "Aqueous describes a substance dissolved in water; liquid describes the physical state of the pure substance."
       },
       {
         id: "kp-213-q2",
-        prompt: "Which state symbol should be used for oxygen gas in an equation?",
+        prompt: "Which equation fragment correctly shows solid zinc reacting with hydrochloric acid solution?",
         choices: [
-          "\\((g)\\)",
-          "\\((s)\\)",
-          "\\((l)\\)",
-          "\\((aq)\\)"
+          "\\(Zn(aq) + HCl(s)\\)",
+          "\\(Zn(s) + HCl(aq)\\)",
+          "\\(Zn(l) + HCl(g)\\)",
+          "\\(Zn(g) + HCl(l)\\)"
         ],
-        correctIndex: 0,
-        explanation: "The symbol (g) represents a gas."
+        correctIndex: 1,
+        explanation: "A metal sample is shown as solid, and an acid solution is aqueous."
       },
       {
         id: "kp-213-q3",
-        prompt: "Why can state symbols be useful in chemical equations?",
+        prompt: "A reaction between two clear solutions forms a cloudy solid. Why would state symbols matter in the equation?",
         choices: [
-          "They show the physical form of each reactant and product.",
-          "They replace the need to balance atom counts.",
-          "They show which atoms have disappeared.",
-          "They tell the exact mass of each substance."
+          "They prove that the equation is balanced without checking atoms.",
+          "They replace coefficients when a solid forms.",
+          "They show that dissolved reactants can form an insoluble solid product.",
+          "They show the exact temperature at which the reaction occurred."
         ],
-        correctIndex: 0,
-        explanation: "State symbols add information about whether substances are solid, liquid, gas, or aqueous."
+        correctIndex: 2,
+        explanation: "State symbols can show aqueous reactants and a solid precipitate, adding useful evidence about what changed."
       }
     ]
   },
@@ -8737,39 +8737,39 @@ window.SCIENCE10_QUIZZES = {
     questions: [
       {
         id: "kp-214-q1",
-        prompt: "Which formula correctly represents elemental nitrogen in a chemical equation?",
+        prompt: "Which formula correctly represents elemental chlorine in a chemical equation?",
         choices: [
-          "\\(N_2\\)",
-          "\\(N\\)",
-          "\\(N_3\\)",
-          "\\(NO_2\\)"
+          "\\(Cl_2\\)",
+          "\\(Cl\\)",
+          "\\(Cl_3\\)",
+          "\\(ClO_2\\)"
         ],
         correctIndex: 0,
-        explanation: "Nitrogen is one of the elements that naturally occurs as diatomic N2."
+        explanation: "Chlorine is one of the elements that naturally occurs as a diatomic molecule."
       },
       {
         id: "kp-214-q2",
-        prompt: "Which pair contains only diatomic elements listed in this topic?",
+        prompt: "Which pair correctly includes one diatomic elemental form and one polyatomic elemental form from this topic?",
         choices: [
-          "\\(H_2\\) and \\(Cl_2\\)",
-          "\\(Na\\) and \\(Mg\\)",
+          "\\(Na_2\\) and \\(Mg_4\\)",
           "\\(CO_2\\) and \\(H_2O\\)",
-          "\\(S_8\\) and \\(P_4\\)"
+          "\\(Br\\) and \\(P\\)",
+          "\\(Br_2\\) and \\(S_8\\)"
         ],
-        correctIndex: 0,
-        explanation: "Hydrogen and chlorine are common diatomic elements; sulfur and phosphorus are polyatomic elements."
+        correctIndex: 3,
+        explanation: "Bromine is diatomic as \\(Br_2\\), while sulfur is commonly represented as the polyatomic element \\(S_8\\)."
       },
       {
         id: "kp-214-q3",
-        prompt: "Why is writing oxygen as \\(O_2\\) important when balancing a reaction with oxygen gas?",
+        prompt: "In \\(N_2 + 3H_2 -> 2NH_3\\), why is nitrogen written as \\(N_2\\) instead of \\(N\\)?",
         choices: [
-          "Elemental oxygen gas naturally exists as two-atom molecules.",
-          "Oxygen atoms can only react one at a time.",
-          "The subscript 2 means oxygen is aqueous.",
-          "Oxygen stops being an element when written as O2."
+          "The coefficient 3 forces nitrogen to become diatomic.",
+          "Elemental nitrogen naturally exists as two-atom molecules.",
+          "A subscript is always added to any reactant.",
+          "Nitrogen becomes a compound when it reacts with hydrogen."
         ],
-        correctIndex: 0,
-        explanation: "Using the correct elemental formula prevents atom-counting errors."
+        correctIndex: 1,
+        explanation: "Some elements, including nitrogen and hydrogen, must be written as diatomic molecules when they appear as elements."
       }
     ]
   },
@@ -8778,38 +8778,38 @@ window.SCIENCE10_QUIZZES = {
     questions: [
       {
         id: "kp-215-q1",
-        prompt: "When balancing a chemical equation, which strategy is usually recommended?",
+        prompt: "When beginning to balance a chemical equation, which move best matches the textbook strategy?",
         choices: [
-          "Balance compounds first, elements last, and check all atom counts at the end.",
-          "Change subscripts until both sides look similar.",
-          "Balance hydrogen and oxygen first in every equation no matter what.",
-          "Ignore polyatomic ions because they cannot be counted."
+          "Change the formula of the compound with the most atoms first.",
+          "Start with hydrogen and oxygen every time, even if they appear in several substances.",
+          "Check that formulas are correct, then balance compounds and leave elements such as H and O until later when helpful.",
+          "Use decimal coefficients first and skip the final atom count."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "The textbook strategy emphasizes coefficients, compounds first, and a final atom check."
       },
       {
         id: "kp-215-q2",
-        prompt: "Which balanced equation correctly uses the smallest whole-number coefficients?",
+        prompt: "Which balanced equation uses the smallest whole-number coefficients for iron reacting with chlorine to form iron(III) chloride?",
         choices: [
-          "\\(2Al + 3Cl_2 -> 2AlCl_3\\)",
-          "\\(Al + Cl_2 -> AlCl_3\\)",
-          "\\(4Al + 6Cl_2 -> 4AlCl_3\\)",
-          "\\(2Al + Cl_2 -> 2AlCl_3\\)"
+          "\\(2Fe + 3Cl_2 -> 2FeCl_3\\)",
+          "\\(Fe + Cl_2 -> FeCl_3\\)",
+          "\\(4Fe + 6Cl_2 -> 4FeCl_3\\)",
+          "\\(2Fe + Cl_2 -> 2FeCl_3\\)"
         ],
         correctIndex: 0,
-        explanation: "2, 3, and 2 balance Al and Cl using the smallest whole-number ratio."
+        explanation: "The coefficients 2, 3, and 2 give 2 Fe atoms and 6 Cl atoms on each side, and the ratio cannot be reduced."
       },
       {
         id: "kp-215-q3",
-        prompt: "If \\(SO_4\\) appears unchanged on both sides of an equation, what can help with balancing?",
+        prompt: "In \\(Pb(NO_3)_2 + KI -> PbI_2 + KNO_3\\), why can nitrate be counted as a unit while balancing?",
         choices: [
-          "Treat \\(SO_4\\) as a single polyatomic ion unit while placing coefficients.",
-          "Split sulfur and oxygen into new elements.",
-          "Change \\(SO_4\\) to \\(S_4O\\).",
-          "Ignore it because polyatomic ions have no atoms."
+          "Nitrate has no atoms that affect conservation of mass.",
+          "Any ion can be deleted if it appears in an aqueous solution.",
+          "The subscript on nitrate must be changed before coefficients are placed.",
+          "The \\(NO_3\\) group appears unchanged on both sides, so tracking it as a group can simplify the count."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Unchanged polyatomic ions can be counted as units to simplify balancing."
       }
     ]
@@ -8819,39 +8819,39 @@ window.SCIENCE10_QUIZZES = {
     questions: [
       {
         id: "kp-216-q1",
-        prompt: "How does conservation of mass apply to waste that is burned or buried?",
+        prompt: "An incinerator turns a bag of waste into ash and gases. What does conservation of mass suggest?",
         choices: [
-          "The matter is transformed or moved, but it does not disappear.",
-          "The matter is destroyed completely.",
-          "The matter becomes energy with no remaining products.",
-          "The law applies only inside school labs."
+          "The ash is the only matter left, because gases do not count as matter.",
+          "The original atoms are now distributed among ash and gases rather than disappearing.",
+          "The mass law stops applying when a reaction happens outside a lab.",
+          "The missing mass has been converted entirely into heat."
         ],
-        correctIndex: 0,
-        explanation: "Waste matter remains on Earth in changed forms or locations."
+        correctIndex: 1,
+        explanation: "Waste can be transformed into other substances or spread into the surroundings, but its atoms are still conserved."
       },
       {
         id: "kp-216-q2",
-        prompt: "Why is conservation of mass relevant to environmental responsibility?",
+        prompt: "In an open beaker, a fizzy tablet reaction seems to lose mass over time. What is the best interpretation?",
         choices: [
-          "It reminds us that materials released into air, water, or soil still exist somewhere.",
-          "It proves pollution cannot spread.",
-          "It means recycling creates brand-new matter.",
-          "It shows that all waste becomes harmless immediately."
+          "The reaction destroyed some atoms because the beaker was open.",
+          "The balance is inaccurate whenever bubbles form.",
+          "Gas likely escaped into the surroundings, so the measured system lost matter.",
+          "The tablet stopped being matter after dissolving."
         ],
-        correctIndex: 0,
-        explanation: "Matter cycles and persists, so waste decisions can have long-term effects."
+        correctIndex: 2,
+        explanation: "In an open system, gas products can leave the measured system even though total matter is conserved overall."
       },
       {
         id: "kp-216-q3",
-        prompt: "A factory says its liquid waste is gone because it was diluted in a river. What is the science problem with that claim?",
+        prompt: "A company says a pollutant is no longer a concern because it was diluted in a large volume of water. What is the key science concern?",
         choices: [
-          "Dilution spreads the matter out; it does not make the matter cease to exist.",
-          "Liquids are not matter.",
-          "Water destroys all dissolved substances.",
-          "Only solid waste must obey conservation of mass."
+          "Dilution lowers concentration, but the pollutant matter still exists and may move through the environment.",
+          "Dilution always increases the total mass of pollutant atoms.",
+          "Water changes all pollutants into harmless elements.",
+          "Dissolved substances stop obeying conservation of mass."
         ],
         correctIndex: 0,
-        explanation: "Conservation of mass means the waste particles remain, even if less concentrated."
+        explanation: "Conservation of mass helps explain why spreading material out is not the same as eliminating it."
       }
     ]
   },
@@ -8860,39 +8860,39 @@ window.SCIENCE10_QUIZZES = {
     questions: [
       {
         id: "kp-217-q1",
-        prompt: "Which action is an example of reducing waste rather than recycling it?",
+        prompt: "Which choice is the clearest example of reducing waste before it is created?",
         choices: [
-          "Choosing a reusable bottle so fewer single-use bottles are made.",
-          "Melting used plastic into new pellets.",
-          "Sorting cans into a blue bin after use.",
-          "Breaking down paper fibres to make new paper."
+          "Sorting plastic containers after a picnic.",
+          "Melting used aluminum cans into new sheet metal.",
+          "Composting fruit peels after lunch.",
+          "Buying a durable lunch container instead of daily disposable packaging."
         ],
-        correctIndex: 0,
-        explanation: "Reducing prevents some material use before waste is created."
+        correctIndex: 3,
+        explanation: "Reducing prevents some material from entering the waste stream in the first place."
       },
       {
         id: "kp-217-q2",
-        prompt: "Why is reducing waste different from recycling waste?",
+        prompt: "Which statement best connects reducing waste to conservation of mass?",
         choices: [
-          "Reducing avoids producing some waste, while recycling manages material after it exists.",
-          "Reducing only applies to gases, while recycling only applies to metals.",
-          "Reducing destroys matter, while recycling creates matter.",
-          "There is no meaningful difference."
+          "Reducing changes atoms into energy before waste can form.",
+          "Reducing lowers how much material must later be collected, processed, or released.",
+          "Reducing works only for substances that are already hazardous.",
+          "Reducing is useful because recycled matter eventually disappears."
         ],
-        correctIndex: 0,
-        explanation: "Reducing changes demand and use; recycling processes existing material."
+        correctIndex: 1,
+        explanation: "Because matter persists, preventing some material use can reduce the later handling problem."
       },
       {
         id: "kp-217-q3",
-        prompt: "Which argument best uses conservation of mass?",
+        prompt: "A school is comparing a bottle-refill program with a larger recycling bin. Which evidence best evaluates the reducing option?",
         choices: [
-          "Preventing waste can matter because discarded material does not simply vanish later.",
-          "Recycling is unnecessary because matter disappears in landfills.",
-          "Reducing waste creates new natural resources.",
-          "Burning waste removes all atoms from Earth."
+          "How colourful the refill station sign is.",
+          "Whether students can name the plastic recycling code.",
+          "How many single-use bottles are avoided before they become waste.",
+          "Whether every bottle placed in the recycling bin is perfectly clean."
         ],
-        correctIndex: 0,
-        explanation: "The law supports thinking about waste before and after it is produced."
+        correctIndex: 2,
+        explanation: "Reduction is measured by material use prevented, not only by how existing waste is processed."
       }
     ]
   },
@@ -8901,39 +8901,39 @@ window.SCIENCE10_QUIZZES = {
     questions: [
       {
         id: "kp-218-q1",
-        prompt: "Why might communities classify waste as hazardous, residential, agricultural, or industrial?",
+        prompt: "Why is waste classification useful when making disposal decisions?",
         choices: [
-          "Different waste types may need different handling, storage, or disposal decisions.",
-          "Classification makes waste stop being matter.",
-          "All classified waste becomes safe automatically.",
-          "Classification replaces the need to reduce waste."
+          "It helps match handling and storage decisions to the waste's source, hazards, and possible movement.",
+          "It proves that residential waste cannot contain hazardous materials.",
+          "It removes the need to measure the amount of waste.",
+          "It changes chemical waste into ordinary garbage."
         ],
         correctIndex: 0,
-        explanation: "Classification can guide safer decisions, but it does not remove the material."
+        explanation: "Classifying waste helps guide decisions, but it does not remove the need to consider evidence and risk."
       },
       {
         id: "kp-218-q2",
-        prompt: "What is a possible limitation of waste classification?",
+        prompt: "What is a possible limitation of simply labelling waste by source, such as residential or industrial?",
         choices: [
-          "Labels can create a false sense of security if people ignore actual risk or quantity.",
-          "It prevents waste from being measured.",
-          "It always makes hazardous waste harmless.",
-          "It can only be used for kitchen garbage."
+          "The label automatically gives the exact chemical formula of every material.",
+          "The label tells whether the waste obeys conservation of mass.",
+          "The label means every item from that source has the same risk.",
+          "The label may hide important differences in toxicity, concentration, or how the waste can spread."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Classification helps, but decisions still require evidence about danger, amount, and movement."
       },
       {
         id: "kp-218-q3",
-        prompt: "Which item would most likely need special hazardous-waste handling?",
+        prompt: "After a container is labelled hazardous waste, what question is still scientifically important?",
         choices: [
-          "A container of leftover corrosive cleaner",
-          "A clean cardboard box",
-          "An apple core",
-          "A plain notebook page"
+          "Whether the label is printed in red or black.",
+          "What concentration, amount, reactivity, and exposure pathway are involved.",
+          "Whether the container came from a home or a school.",
+          "Whether the waste can be renamed as industrial waste instead."
         ],
-        correctIndex: 0,
-        explanation: "Hazardous wastes can pose chemical risks and need careful handling."
+        correctIndex: 1,
+        explanation: "A hazard label is a starting point; risk decisions also depend on amount, concentration, and how people or ecosystems could be exposed."
       }
     ]
   },
@@ -8942,39 +8942,39 @@ window.SCIENCE10_QUIZZES = {
     questions: [
       {
         id: "kp-219-q1",
-        prompt: "Why is tanning a chemical processing example?",
+        prompt: "Why is tanning better described as chemical processing than just shaping a hide?",
         choices: [
-          "Chemicals are used to change raw hide so it resists decay and stays useful.",
-          "The hide is only cut into smaller pieces.",
-          "No properties of the hide change.",
-          "Tanning is just measuring the mass of leather."
+          "The hide is useful only after its mass has been measured.",
+          "Cutting the hide into a pattern is the main chemical change.",
+          "Materials added during tanning change properties such as decay resistance, flexibility, and water response.",
+          "The process works because the atoms in the hide are destroyed."
         ],
-        correctIndex: 0,
-        explanation: "Tanning changes the hide's chemical properties, not just its shape."
+        correctIndex: 2,
+        explanation: "Tanning changes the material's properties, so it involves more than a physical change in shape."
       },
       {
         id: "kp-219-q2",
-        prompt: "Which property is a goal of treating raw hide during tanning?",
+        prompt: "Which property would be most useful evidence that raw hide has been successfully treated?",
         choices: [
-          "Keeping the material flexible and less likely to decay",
-          "Making the hide dissolve instantly in water",
-          "Removing all fibres from the hide",
-          "Turning the hide into a gas"
+          "It remains flexible and resists decay better than untreated hide.",
+          "It dissolves quickly when placed in water.",
+          "It loses all fibre structure.",
+          "It changes into a gas during storage."
         ],
         correctIndex: 0,
         explanation: "Tanning helps preserve hide and make it useful as leather."
       },
       {
         id: "kp-219-q3",
-        prompt: "How does traditional tanning knowledge connect to chemistry?",
+        prompt: "What is the strongest chemistry connection in traditional tanning knowledge?",
         choices: [
-          "It uses materials and processes that change the properties of animal hide.",
-          "It avoids all interactions between substances.",
-          "It works only because matter is destroyed.",
-          "It has no connection to chemical change."
+          "It depends only on the colour of the hide before treatment.",
+          "It is unrelated to chemical change because the materials are natural.",
+          "It uses smoke only as decoration after the hide is finished.",
+          "It applies substances and process conditions that change how hide fibres behave."
         ],
-        correctIndex: 0,
-        explanation: "Traditional practices can involve detailed understanding of material changes."
+        correctIndex: 3,
+        explanation: "Traditional methods can involve careful knowledge of material interactions, preservation, and fibre properties."
       }
     ]
   },
@@ -8983,39 +8983,39 @@ window.SCIENCE10_QUIZZES = {
     questions: [
       {
         id: "kp-220-q1",
-        prompt: "What role do fats and oils play in brain tanning?",
+        prompt: "What role do fats and oils from the brain emulsion play in brain tanning?",
         choices: [
-          "They help change and lubricate the hide fibres so the leather remains flexible.",
-          "They make atoms disappear from the hide.",
-          "They turn the hide into a metal.",
-          "They are used only as a colour label."
+          "They balance the chemical equation for the hide.",
+          "They help lubricate and alter hide fibres so the finished leather stays flexible.",
+          "They remove the need for any scraping, stretching, or smoking.",
+          "They convert the hide into a new element."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Brain tissue can provide fats and oils that affect the hide's fibres."
       },
       {
         id: "kp-220-q2",
-        prompt: "Which step would best fit the idea that brain tanning is a process, not a single instant reaction?",
+        prompt: "Which sequence best shows why brain tanning is a process rather than a single instant reaction?",
         choices: [
-          "Scraping, washing, stretching, treating with an emulsion, and smoking the hide",
-          "Writing a formula once and doing nothing to the hide",
-          "Only weighing the hide before class",
-          "Changing a subscript in a chemical equation"
+          "Naming the animal, then storing the hide without treatment.",
+          "Only adding water, then assuming the hide is preserved.",
+          "Scraping and washing the hide, working in the emulsion, stretching it, and smoking it.",
+          "Changing the word hide to leather in a written description."
         ],
-        correctIndex: 0,
-        explanation: "The method includes several physical and chemical steps."
+        correctIndex: 2,
+        explanation: "The method includes several physical preparation steps and chemical treatment steps."
       },
       {
         id: "kp-220-q3",
-        prompt: "Which comparison is most reasonable between brain tanning and some industrial tanning methods?",
+        prompt: "Which comparison is most reasonable when evaluating brain tanning and industrial tanning?",
         choices: [
-          "Brain tanning can use natural materials, while some industrial methods use chemicals that require careful risk management.",
-          "Brain tanning creates no chemical changes at all.",
-          "Industrial tanning cannot involve chemical substances.",
-          "Both methods make waste matter disappear."
+          "Brain tanning can use natural materials, while some industrial methods use chemicals that require careful waste and safety management.",
+          "Natural materials automatically mean there are no environmental trade-offs at any scale.",
+          "Industrial methods cannot be chemical because they happen in factories.",
+          "Both methods make waste matter disappear once the leather is finished."
         ],
         correctIndex: 0,
-        explanation: "A sustainability comparison considers materials, risks, scale, and waste."
+        explanation: "A fair comparison considers materials, toxicity, labour, scale, waste, and the fact that matter does not disappear."
       }
     ]
   },
