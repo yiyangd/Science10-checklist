@@ -9436,22 +9436,22 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-231-q1",
         prompt: "When an ice cube melts in your hand, what energy transfer is occurring?",
         choices: [
-          "Energy moves from your warmer hand to the colder ice.",
           "Energy is created inside the ice from nothing.",
           "The ice releases energy to warm your hand.",
+          "Energy moves from your warmer hand to the colder ice.",
           "No energy transfer occurs because melting is physical."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Physical changes such as melting still involve energy transfer."
       },
       {
         id: "kp-231-q2",
-        prompt: "Why is melting ice not evidence by itself of a new substance forming?",
+        prompt: "Why is melting ice not evidence by itself that a new substance formed?",
         choices: [
           "The substance remains water, but its physical state changes.",
-          "The ice atoms disappear.",
-          "Liquid water is a different element from ice.",
-          "Melting always produces carbon dioxide."
+          "The water molecules become a different element.",
+          "The ice must have released carbon dioxide.",
+          "The atoms disappear and reform as liquid."
         ],
         correctIndex: 0,
         explanation: "Melting changes state without changing chemical identity."
@@ -9460,12 +9460,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-231-q3",
         prompt: "Which observation would support that your hand loses energy while holding ice?",
         choices: [
-          "Your hand feels colder as the ice melts.",
           "The ice becomes a new compound.",
           "The ice gains mass from nowhere.",
-          "The room stops containing energy."
+          "The room stops containing energy.",
+          "Your hand feels colder as the ice melts."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Your hand feels colder because energy is transferred from your hand to the ice."
       }
     ]
@@ -9477,24 +9477,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-232-q1",
         prompt: "Which statement best describes energy in chemical reactions?",
         choices: [
-          "All chemical reactions involve energy changes.",
-          "Only reactions with flames involve energy.",
-          "Chemical reactions never transfer energy.",
-          "Energy changes only happen in physical changes."
+          "Only reactions with visible flames involve energy changes.",
+          "All chemical reactions involve energy changes because bonds are broken and formed.",
+          "Chemical reactions never transfer energy to their surroundings.",
+          "Energy changes happen only when matter is not changing."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Bond breaking and bond forming mean chemical reactions involve energy changes."
       },
       {
         id: "kp-232-q2",
         prompt: "How are photosynthesis and cellular respiration related to energy?",
         choices: [
-          "Photosynthesis stores energy in chemical bonds, while cellular respiration releases stored energy.",
-          "Both processes destroy energy.",
+          "Both processes destroy energy so organisms can use matter.",
           "Photosynthesis releases all energy as heat only, while respiration stores no energy.",
+          "Photosynthesis stores energy in chemical bonds, while cellular respiration releases stored energy.",
           "Neither process involves chemical reactions."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "The textbook connects these life processes to energy stored and released in chemical bonds."
       },
       {
@@ -9502,9 +9502,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "A reaction mixture cools down during a reaction. What does this show?",
         choices: [
           "Energy transfer occurred between the reaction system and surroundings.",
-          "No chemical reaction could have happened.",
+          "No chemical reaction could have happened because cold rules out reactions.",
           "Atoms were destroyed to make cold.",
-          "The system had no matter."
+          "The system had no matter once the temperature changed."
         ],
         correctIndex: 0,
         explanation: "Temperature change is evidence that energy moved between system and surroundings."
@@ -9516,38 +9516,38 @@ window.SCIENCE10_QUIZZES = {
     questions: [
       {
         id: "kp-233-q1",
-        prompt: "In a test tube reaction, what is the system?",
+        prompt: "In a test tube reaction, what is usually defined as the system?",
         choices: [
-          "The reacting materials inside the test tube",
-          "Only the classroom air",
-          "Only the student's hand",
-          "Everything except the reacting chemicals"
+          "Only the classroom air around the test tube",
+          "Only the student's hand touching the tube",
+          "Everything except the reacting chemicals",
+          "The reacting materials inside the test tube"
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Chemists define the system as the materials involved in the reaction."
       },
       {
         id: "kp-233-q2",
         prompt: "Which item is part of the surroundings for a reaction in a flask?",
         choices: [
-          "The flask and nearby air",
-          "Only the reactant molecules",
-          "Only the products after they form",
-          "The bonds being broken inside the reactants"
+          "Only the reactant molecules before they collide.",
+          "The flask, nearby air, and anything outside the reacting materials.",
+          "Only the products after they form.",
+          "The bonds being broken inside the reactants."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Surroundings include the container, air, and everything outside the reacting system."
       },
       {
         id: "kp-233-q3",
         prompt: "Why is identifying the system and surroundings useful?",
         choices: [
-          "It helps trace where energy is transferred during a reaction.",
-          "It proves mass is not conserved.",
-          "It shows that containers cannot absorb energy.",
-          "It removes the need for observations."
+          "It proves mass is not conserved during chemical reactions.",
+          "It shows that containers cannot absorb or release energy.",
+          "It helps trace whether energy is entering or leaving the reacting materials.",
+          "It removes the need to collect temperature observations."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Energy can leave or enter the system through the surroundings."
       }
     ]
@@ -9571,24 +9571,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-234-q2",
         prompt: "If an exothermic reaction releases 75 kJ to the surroundings, what happened to the system's energy overall?",
         choices: [
-          "The system lost 75 kJ of energy to the surroundings.",
           "The system created 75 kJ from nothing.",
           "The surroundings lost 75 kJ to the system.",
-          "The energy stopped existing."
+          "The energy stopped existing.",
+          "The system lost 75 kJ of energy to the surroundings."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Energy leaving the system enters the surroundings."
       },
       {
         id: "kp-234-q3",
         prompt: "If a reaction absorbs energy from its surroundings, what should happen to the surroundings if no other energy source replaces it?",
         choices: [
+          "The surroundings must heat up because energy was created.",
           "The surroundings lose energy and may cool down.",
-          "The surroundings must heat up.",
           "Energy is destroyed in the surroundings.",
           "The system loses energy to the surroundings."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Endothermic processes take energy from the surroundings."
       }
     ]
@@ -9600,12 +9600,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-235-q1",
         prompt: "What is an exothermic reaction?",
         choices: [
-          "A reaction with a net release of energy to the surroundings.",
           "A reaction with a net absorption of energy from the surroundings.",
           "A reaction where no bonds change.",
+          "A reaction with a net release of energy to the surroundings.",
           "A reaction that cannot warm anything."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Exothermic reactions transfer energy out of the chemical system."
       },
       {
@@ -9624,12 +9624,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-235-q3",
         prompt: "In an exothermic reaction, how do bond energy changes compare overall?",
         choices: [
-          "Forming new bonds releases more energy than breaking old bonds absorbs.",
           "Breaking old bonds absorbs more energy than forming new bonds releases.",
           "No energy is involved in bonds.",
-          "Subscripts release energy while coefficients absorb it."
+          "Subscripts release energy while coefficients absorb it.",
+          "Forming new bonds releases more energy than breaking old bonds absorbs."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "A net release occurs when bond formation releases more energy than bond breaking absorbs."
       }
     ]
@@ -9641,24 +9641,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-236-q1",
         prompt: "What is an endothermic reaction?",
         choices: [
-          "A reaction with a net absorption of energy from the surroundings.",
           "A reaction with a net release of energy to the surroundings.",
+          "A reaction with a net absorption of energy from the surroundings.",
           "A reaction that cannot change temperature.",
           "A reaction where products have no energy."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Endothermic reactions take in energy overall."
       },
       {
         id: "kp-236-q2",
         prompt: "A beaker cools from 24.0°C to 18.5°C during a reaction. What does this suggest?",
         choices: [
-          "The reaction is likely endothermic because it absorbed energy from the surroundings.",
           "The reaction is likely exothermic because it warmed the surroundings.",
-          "No energy transfer occurred.",
-          "Mass was destroyed."
+          "No energy transfer occurred because the beaker is cooler.",
+          "The reaction is likely endothermic because it absorbed energy from the surroundings.",
+          "Mass was destroyed to make the temperature drop."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "The surroundings cooled by 5.5°C, consistent with energy being absorbed by the reaction."
       },
       {
@@ -9682,36 +9682,36 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-237-q1",
         prompt: "Which statement correctly describes bond energy changes?",
         choices: [
-          "Breaking bonds absorbs energy; forming bonds releases energy.",
           "Breaking bonds releases energy; forming bonds absorbs energy.",
           "Both breaking and forming bonds always destroy energy.",
-          "Bonds change without any energy transfer."
+          "Bonds change without any energy transfer.",
+          "Breaking bonds absorbs energy; forming bonds releases energy."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "This comparison is central to explaining endothermic and exothermic reactions."
       },
       {
         id: "kp-237-q2",
         prompt: "A reaction absorbs 180 kJ breaking bonds and releases 240 kJ forming bonds. What is the overall energy change?",
         choices: [
-          "60 kJ released overall",
           "60 kJ absorbed overall",
+          "60 kJ released overall",
           "420 kJ absorbed overall",
           "No energy change"
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "240 kJ released minus 180 kJ absorbed gives 60 kJ released overall."
       },
       {
         id: "kp-237-q3",
         prompt: "A reaction absorbs more energy breaking bonds than it releases forming bonds. How should it be classified?",
         choices: [
-          "Endothermic",
           "Exothermic",
           "Balanced but not chemical",
+          "Endothermic",
           "A closed system only"
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "If the system absorbs more energy than it releases, the reaction is endothermic overall."
       }
     ]
@@ -9735,24 +9735,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-238-q2",
         prompt: "A reaction mixture gets warmer in a test tube. What is the most likely energy interpretation?",
         choices: [
-          "Energy was released from the reaction system to the surroundings.",
           "Energy was absorbed from the surroundings into the system.",
-          "No bonds were formed.",
-          "The reaction must be photosynthesis."
+          "No bonds were formed because the tube got warmer.",
+          "The reaction must be photosynthesis.",
+          "Energy was released from the reaction system to the surroundings."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "A warmer surrounding solution or container suggests an exothermic change."
       },
       {
         id: "kp-238-q3",
         prompt: "A student wants stronger evidence than 'it felt cold.' What data should they collect?",
         choices: [
-          "Temperature measurements over time before and after mixing reactants",
-          "Only a drawing of the test tube",
-          "Only the names of the students nearby",
-          "Only the colour of the thermometer"
+          "Only a drawing of the test tube.",
+          "Temperature measurements over time before and after mixing reactants.",
+          "Only the names of the students nearby.",
+          "Only the colour of the thermometer."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Quantitative temperature data makes the energy-transfer claim stronger."
       }
     ]
@@ -9764,12 +9764,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-239-q1",
         prompt: "In an energy-level diagram, products are shown lower than reactants. What type of reaction does this represent?",
         choices: [
-          "Exothermic",
           "Endothermic",
           "No energy transfer",
+          "Exothermic",
           "An open system only"
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Lower-energy products indicate energy was released overall."
       },
       {
@@ -9777,9 +9777,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What does the vertical difference between reactants and products represent in an energy-level diagram?",
         choices: [
           "The overall energy change of the reaction",
-          "The number of atoms destroyed",
-          "The colour of the products",
-          "The mass of the container"
+          "The number of atoms destroyed.",
+          "The colour of the products.",
+          "The mass of the container."
         ],
         correctIndex: 0,
         explanation: "Energy-level diagrams compare relative energies to show net absorption or release."
@@ -9788,12 +9788,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-239-q3",
         prompt: "A diagram shows products above reactants and an arrow labelled energy absorbed. What is the correct interpretation?",
         choices: [
-          "The reaction is endothermic because the products have higher energy.",
           "The reaction is exothermic because products are above reactants.",
           "The reaction cannot involve bonds.",
-          "The products have less energy than reactants."
+          "The products have less energy than reactants.",
+          "The reaction is endothermic because the products have higher energy."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Higher-energy products match an overall absorption of energy."
       }
     ]
@@ -9805,24 +9805,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-240-q1",
         prompt: "Why can luminol help forensic investigators find possible blood evidence?",
         choices: [
+          "It turns every fabric red so stains are easier to see.",
           "It can react with iron from hemoglobin and emit a blue-green glow in the dark.",
-          "It turns every fabric red.",
           "It destroys all non-blood stains.",
           "It identifies a person's DNA by itself."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "The glow can reveal traces that may contain blood, but it is a screening test."
       },
       {
         id: "kp-240-q2",
         prompt: "Why is a positive luminol test not conclusive proof that blood is present?",
         choices: [
-          "Other substances can also cause luminol to emit light.",
           "Luminol never reacts with blood.",
           "The glow always lasts for several days.",
+          "Other substances can also cause luminol to emit light.",
           "A positive test means DNA has already been analyzed."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Some materials containing certain metals or other chemicals can also trigger luminol."
       },
       {
