@@ -826,12 +826,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-21-q1",
         prompt: "What does it mean for a cell to copy its genome before division?",
         choices: [
+          "The cell copies only the genes that were used most recently.",
+          "The cell converts each chromosome into RNA before division.",
           "The cell makes a copy of all its DNA, not just one small section.",
-          "The cell copies only the proteins outside the nucleus.",
-          "The cell removes half of its chromosomes permanently.",
-          "The cell changes every DNA molecule into a lipid."
+          "The cell copies only the sex chromosomes and leaves autosomes unchanged."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Genome copying means the cell replicates its complete DNA set so genetic information can be inherited accurately."
       },
       {
@@ -839,9 +839,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why is copying the whole genome important before cell division?",
         choices: [
           "Each new cell needs a complete set of genetic instructions.",
-          "Only one new cell receives genetic information after division.",
-          "DNA is used up and cannot be reused after one cell cycle.",
-          "Copying the genome prevents chromosomes from containing genes."
+          "Only the cell with the larger nucleus needs chromosomes after division.",
+          "DNA is used up during interphase, so daughter cells need brand-new genes.",
+          "Copying the genome removes alleles that are not expressed."
         ],
         correctIndex: 0,
         explanation: "Replication prepares genetic information so daughter cells can receive the DNA they need."
@@ -850,12 +850,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-21-q3",
         prompt: "Which statement best corrects a misconception about genome copying?",
         choices: [
-          "A cell copies its DNA in an organized part of the cell cycle, not randomly again and again.",
-          "A cell should copy its genome many times during every minute of the cell cycle.",
-          "Genome copying happens only after the cell has finished dividing.",
-          "Genome copying means copying only the sex chromosomes."
+          "Genome copying happens after daughter cells have already separated.",
+          "Genome copying means copying only the chromosome pair with the most genes.",
+          "A cell should repeatedly copy its genome whenever it needs a protein.",
+          "A cell copies its DNA once during the cell cycle, not randomly again and again."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "The textbook emphasizes that DNA replication happens once for the genome during the cell cycle."
       }
     ]
@@ -867,24 +867,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-22-q1",
         prompt: "During DNA replication, what role does an original strand play?",
         choices: [
+          "It is copied into a strand with the exact same bases across from it.",
           "It acts as a template for building a complementary new strand.",
-          "It becomes a protein chain immediately.",
-          "It is discarded before any new DNA forms.",
-          "It pairs only with identical bases of the same type."
+          "It is discarded before any new DNA molecule can form.",
+          "It becomes the amino acid chain of a protein."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "An original DNA strand can guide formation of a matching complementary strand."
       },
       {
         id: "kp-22-q2",
         prompt: "If an original DNA strand begins \\(TACG\\), which new complementary sequence should form across from it?",
         choices: [
-          "\\(ATGC\\)",
           "\\(TACG\\)",
-          "\\(CGTA\\)",
-          "\\(AATT\\)"
+          "\\(TGCA\\)",
+          "\\(ATGC\\)",
+          "\\(CGTA\\)"
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Use base-pairing rules: T pairs with A, A with T, C with G, and G with C."
       },
       {
@@ -892,9 +892,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which statement describes the two DNA molecules formed by replication?",
         choices: [
           "Each new DNA molecule has one original strand and one newly made complementary strand.",
-          "One molecule has only old strands and the other has only new strands.",
-          "Both molecules contain RNA instead of DNA.",
-          "Neither molecule keeps any strand from the original DNA."
+          "One DNA molecule keeps both original strands, while the second is made only from new strands.",
+          "Both resulting molecules are RNA until proteins convert them back into DNA.",
+          "Both resulting molecules contain only newly made strands and no original strand."
         ],
         correctIndex: 0,
         explanation: "The copied DNA molecules each include an original template strand paired with a new strand."
@@ -908,36 +908,36 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-23-q1",
         prompt: "Which pathway best summarizes how genetic information is used to make a protein?",
         choices: [
-          "DNA information is copied into RNA, and RNA helps direct protein assembly.",
-          "Protein information is copied into DNA, and DNA becomes RNA only after the cell dies.",
-          "RNA becomes a chromosome, and the chromosome becomes a cell membrane.",
-          "DNA changes directly into amino acids without any copied information."
+          "RNA information is stored as DNA only after a protein has already formed.",
+          "A protein is copied into RNA, and RNA then edits the DNA sequence.",
+          "DNA changes directly into amino acids without an RNA copy.",
+          "DNA information is copied into RNA, and RNA helps direct protein assembly."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "The concept links a gene in DNA to an RNA copy, then to the assembly of amino acids in a protein."
       },
       {
         id: "kp-23-q2",
         prompt: "A cell needs a protein for a cellular activity. What is the most likely first genetic step?",
         choices: [
+          "The cell translates an amino acid chain before any gene is accessed.",
           "The cell accesses the DNA information in a gene and makes an RNA copy.",
-          "The cell destroys all chromosomes so no instructions remain.",
-          "The cell waits for the protein to create a gene by itself.",
-          "The cell copies only the cell membrane."
+          "The cell removes all chromosomes so the protein can form without instructions.",
+          "The cell copies only the chromosome with the shortest length."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "A gene's DNA sequence can be copied into RNA as part of the process leading to protein production."
       },
       {
         id: "kp-23-q3",
         prompt: "Which misconception about RNA is best corrected?",
         choices: [
+          "RNA permanently replaces DNA as the inherited genome in body cells.",
+          "RNA is just another name for a homologous chromosome pair.",
           "RNA is involved in carrying genetic information from DNA toward protein production.",
-          "RNA is unrelated to genes and proteins.",
-          "RNA is the same thing as a chromosome pair.",
-          "RNA is used only to store ecosystem diversity."
+          "RNA is only used when cells copy their entire genome before division."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "RNA is part of the information pathway between DNA and proteins."
       }
     ]
@@ -950,9 +950,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why can a change in a DNA base sequence affect a protein?",
         choices: [
           "DNA base order helps determine RNA order, which helps determine amino acid order.",
-          "Proteins ignore all information in DNA and RNA.",
-          "Only the number of chromosomes affects protein sequence.",
-          "Base sequence changes always affect ecosystem rainfall directly."
+          "Only chromosome length matters, so the exact base order is not important.",
+          "The sugar-phosphate backbone alone determines the amino acid order.",
+          "A protein sequence changes only when an ecosystem changes."
         ],
         correctIndex: 0,
         explanation: "The DNA sequence influences the RNA sequence, and RNA helps determine the amino acid sequence of a protein."
@@ -961,24 +961,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-24-q2",
         prompt: "Two versions of a gene differ by a few bases. What is a reasonable possible result?",
         choices: [
-          "They may lead to different amino acid sequences in a protein.",
-          "They must always produce exactly the same RNA and protein.",
-          "They will turn the cell into a non-living object.",
-          "They can affect only the sugar-phosphate backbone and never protein production."
+          "They must produce the same RNA because only the number of bases matters.",
+          "They can change only a karyotype photo, not any molecule in the cell.",
+          "They always change every protein in the organism by the same amount.",
+          "They may lead to different amino acid sequences in a protein."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Because sequence matters, differences in DNA can sometimes change the resulting protein."
       },
       {
         id: "kp-24-q3",
         prompt: "Which statement best explains the importance of sequence rather than just quantity?",
         choices: [
+          "Any DNA segment with the same number of bases must code for the same protein.",
           "The order of bases carries information, much like the order of letters changes a word.",
-          "Any four bases always carry the same instruction no matter how they are ordered.",
-          "A protein sequence is determined only by chromosome length.",
-          "Amino acids assemble randomly without using RNA information."
+          "A protein sequence depends only on whether DNA is condensed into chromatin.",
+          "Amino acids assemble in a random order whenever RNA is present."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Genetic information depends on sequence; order can affect the RNA and protein produced."
       }
     ]
@@ -990,12 +990,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-25-q1",
         prompt: "Which set lists the three levels of biodiversity emphasized in this section?",
         choices: [
+          "Animal diversity, plant diversity, and bacteria diversity.",
+          "Chromosome diversity, RNA diversity, and protein diversity.",
           "Genetic diversity, species diversity, and ecosystem diversity.",
-          "Only animal diversity, plant diversity, and mineral diversity.",
-          "Cell diversity, atom diversity, and weather diversity.",
-          "Protein diversity, sugar diversity, and water diversity only."
+          "Weather diversity, soil diversity, and mineral diversity."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Biodiversity includes variation at genetic, species, and ecosystem levels."
       },
       {
@@ -1003,9 +1003,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "A wetland contains many species, and nearby forests and grasslands form different habitats. Which biodiversity level is most about the variety of habitats and ecosystems?",
         choices: [
           "Ecosystem diversity.",
-          "Only genetic diversity.",
-          "Only chromosome-pair diversity.",
-          "Only protein sequence diversity."
+          "Species diversity only, because habitats are counted as species.",
+          "Genetic diversity only, because ecosystems are made of genes.",
+          "Allele diversity only, because abiotic factors are not part of biodiversity."
         ],
         correctIndex: 0,
         explanation: "Ecosystem diversity concerns the variety of ecosystems in the biosphere."
@@ -1014,12 +1014,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-25-q3",
         prompt: "Which statement corrects a common oversimplification?",
         choices: [
-          "Biodiversity means more than just counting how many species live in an area.",
-          "Biodiversity means only the number of animals and never includes plants.",
-          "Biodiversity ignores genes and ecosystems.",
-          "Biodiversity can be measured only inside a single cell."
+          "Biodiversity is only another word for species diversity.",
+          "Biodiversity includes ecosystems but not inherited variation.",
+          "Biodiversity includes genes but not the abundance of species.",
+          "Biodiversity means more than just counting how many species live in an area."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Species diversity is important, but biodiversity also includes genetic and ecosystem diversity."
       }
     ]
@@ -1031,12 +1031,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-26-q1",
         prompt: "What does genetic diversity describe?",
         choices: [
+          "The number of different ecosystems in the biosphere.",
           "Variation in inherited traits within a species or population.",
-          "Only the number of ecosystems on Earth.",
-          "The amount of rainfall in a habitat.",
-          "The number of non-living objects in an environment."
+          "The abundance of different species in one wetland.",
+          "The non-living conditions that shape a habitat."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Genetic diversity refers to inherited variation among individuals."
       },
       {
@@ -1045,8 +1045,8 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "Different inherited colour patterns among individuals in one population.",
           "A lake, a desert, and a forest existing in different regions.",
-          "A rock sample containing several minerals.",
-          "Two identical copies of the same printed diagram."
+          "Many species living together in one freshwater wetland.",
+          "Different abiotic conditions such as light, soil nutrients, and climate."
         ],
         correctIndex: 0,
         explanation: "Inherited trait differences among members of a species are evidence of genetic diversity."
@@ -1055,12 +1055,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-26-q3",
         prompt: "Which misconception about genetic diversity should be rejected?",
         choices: [
-          "Individuals in the same species can still have inherited differences.",
+          "Genetic diversity can be seen as inherited variation among individuals.",
+          "Different alleles can contribute to different traits in a population.",
           "All members of one species must have identical alleles.",
-          "Genetic diversity has no connection to traits.",
-          "Genetic diversity exists only between ecosystems, never within populations."
+          "Variation in genes can help explain differences within a species."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Members of the same species can vary because they may carry different alleles."
       }
     ]
@@ -1072,24 +1072,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-27-q1",
         prompt: "What is a gene pool?",
         choices: [
-          "All versions of all genes in a population.",
-          "Only the genes found in one individual organism.",
-          "A pond where organisms exchange chromosomes.",
-          "A list of abiotic factors in an ecosystem."
+          "Only the alleles found in one selected individual.",
+          "The total number of ecosystems where a species can live.",
+          "A list of the abiotic factors that affect one habitat.",
+          "All versions of all genes in a population."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "A gene pool includes the alleles present across a population."
       },
       {
         id: "kp-27-q2",
         prompt: "Why can a species have more genetic diversity than one population of that species?",
         choices: [
+          "Each population has only one allele for each gene.",
           "Different populations can contain different combinations of alleles.",
-          "Every population must have exactly the same gene pool.",
-          "A species has no alleles unless it lives in one place.",
-          "Genetic diversity disappears when populations are compared."
+          "A species has genetic diversity only if all populations are identical.",
+          "Separate populations lose their gene pools when compared."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Separate populations may have different gene pools, so the species as a whole can include more variation."
       },
       {
@@ -1097,9 +1097,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "A population of insects contains several alleles for body colour. What does this add to?",
         choices: [
           "The population's gene pool.",
-          "Only ecosystem diversity.",
-          "The sex chromosome pair of one human cell.",
-          "A single RNA copy of one gene."
+          "Only the number of ecosystems in the region.",
+          "The abiotic conditions of the insects' habitat.",
+          "The species definition, but not genetic diversity."
         ],
         correctIndex: 0,
         explanation: "The alleles present in members of a population are part of that population's gene pool."
@@ -1113,36 +1113,36 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-28-q1",
         prompt: "In this section, what is a species?",
         choices: [
-          "A group of organisms that can interbreed in nature and produce fertile offspring.",
           "Any organisms that live in the same ecosystem, even if they cannot reproduce together.",
-          "Only organisms with identical DNA sequences.",
-          "A group of non-living things sorted by size."
+          "A population with no genetic variation at all.",
+          "A group of organisms that can interbreed in nature and produce fertile offspring.",
+          "A group of organisms that share one habitat but cannot pass on traits."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "The textbook definition focuses on interbreeding in nature and producing fertile offspring."
       },
       {
         id: "kp-28-q2",
         prompt: "Which observation is most directly about species diversity?",
         choices: [
-          "A park has many different species, and some are very abundant.",
           "Two birds of one species have different inherited feather patterns.",
-          "A single gene has two alleles in one population.",
-          "A chromosome pair has a similar banding pattern."
+          "A single gene has several alleles in one population.",
+          "A region contains forests, wetlands, and grasslands.",
+          "A park has many different species, and some are very abundant."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Species diversity concerns the variety and abundance of species in an area."
       },
       {
         id: "kp-28-q3",
         prompt: "Which statement avoids confusing species diversity with genetic diversity?",
         choices: [
+          "Species diversity only counts alleles in one gene pool.",
           "Species diversity compares kinds and abundance of species, while genetic diversity compares inherited variation within species or populations.",
-          "Species diversity and genetic diversity are always exactly the same measurement.",
-          "Species diversity only counts alleles in one population.",
-          "Genetic diversity is only the number of ecosystems in a region."
+          "Genetic diversity is the variety of ecosystems in the biosphere.",
+          "Species diversity and genetic diversity are always exactly the same measurement."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "The two levels are connected but describe different scales of biodiversity."
       }
     ]
@@ -1155,9 +1155,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What does ecosystem diversity describe?",
         choices: [
           "The variety of ecosystems in the biosphere.",
-          "Only the number of alleles in one gene pool.",
-          "Only differences among chromosomes in one cell.",
-          "The order of bases in one DNA strand."
+          "The variety of alleles for one trait within a population.",
+          "The number and abundance of species in one sample plot.",
+          "The RNA sequences copied from a gene."
         ],
         correctIndex: 0,
         explanation: "Ecosystem diversity is the largest biodiversity scale described here."
@@ -1166,24 +1166,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-29-q2",
         prompt: "Which pair includes one biotic factor and one abiotic factor that can shape an ecosystem?",
         choices: [
-          "A plant species and soil nutrients.",
           "Two alleles of the same gene.",
-          "A DNA strand and its complementary strand.",
-          "Two copies of the same chromosome."
+          "Two homologous chromosomes in one cell.",
+          "A plant species and soil nutrients.",
+          "Two RNA copies made from the same gene."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Biotic factors are living organisms; abiotic factors include non-living conditions such as soil nutrients."
       },
       {
         id: "kp-29-q3",
         prompt: "Why can ecosystem diversity be high across Earth's surface?",
         choices: [
-          "Different places have different living communities and non-living conditions.",
-          "Every ecosystem has the same species and the same climate.",
-          "Only genetic diversity matters, so habitats do not vary.",
-          "Ecosystems contain no abiotic factors."
+          "Species in every ecosystem have identical gene pools.",
+          "Each ecosystem contains only abiotic factors and no living organisms.",
+          "Only the number of chromosomes changes from place to place.",
+          "Different places have different living communities and non-living conditions."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Variation in organisms and abiotic conditions helps create many different ecosystems."
       }
     ]
@@ -1195,12 +1195,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-30-q1",
         prompt: "How can genetic variation support biodiversity?",
         choices: [
+          "Genetic variation matters only in one cell and cannot affect traits.",
           "Differences in genes can produce trait variation that helps populations and species differ.",
-          "Genetic variation makes all organisms identical.",
-          "Genetic variation removes species diversity from ecosystems.",
-          "Genes affect only rocks and climate, not living traits."
+          "Genetic variation makes all organisms in a species genetically identical.",
+          "Genes affect only abiotic factors such as soil and light."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Variation in genes can lead to inherited trait differences, which contribute to biodiversity."
       },
       {
@@ -1208,9 +1208,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "A population contains inherited differences that help some individuals survive local conditions. Which larger idea does this support?",
         choices: [
           "Genetic differences can contribute to the persistence and diversity of life forms.",
-          "Only abiotic factors determine all traits.",
-          "A population with variation has no gene pool.",
-          "Species diversity is unrelated to any genetic differences."
+          "A population with inherited variation cannot have a gene pool.",
+          "Species diversity is unrelated to changes in genetic variation.",
+          "Only ecosystem diversity matters, so traits within a species are irrelevant."
         ],
         correctIndex: 0,
         explanation: "Genetic variation can affect traits, survival, and eventually patterns of biodiversity."
@@ -1219,12 +1219,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-30-q3",
         prompt: "Which statement best connects the three biodiversity levels?",
         choices: [
+          "Ecosystem diversity is smaller in scale than the alleles in one gene.",
+          "Species diversity can exist only when all individuals have identical genes.",
           "Genetic variation within populations can influence species differences and the communities found in ecosystems.",
-          "Genetic, species, and ecosystem diversity are completely unrelated.",
-          "Ecosystem diversity is smaller in scale than one allele.",
-          "Species diversity can exist only if all individuals have identical genes."
+          "Genetic, species, and ecosystem diversity are completely unrelated categories."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "The levels of biodiversity are related: genetic variation helps shape species and ecosystems over time."
       }
     ]
