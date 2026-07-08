@@ -7017,7 +7017,7 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-172-q1",
         prompt: "What should you know before an investigation begins?",
         choices: [
-          "Only where backpacks are stored.",
+          "Where backpacks are stored so walkways stay clear.",
           "Where emergency exits, eyewash stations, and other safety equipment are located.",
           "How to hide spills from the teacher.",
           "How to leave flames unattended."
@@ -7044,7 +7044,7 @@ window.SCIENCE10_QUIZZES = {
           "It allows rapid rinsing while the teacher is notified.",
           "It stores extra chemicals for experiments.",
           "It replaces the need for goggles.",
-          "It should be used only at the end of class."
+          "It should be used after finishing the written observations."
         ],
         correctIndex: 0,
         explanation: "Eye exposures require immediate rinsing and adult help."
@@ -7101,7 +7101,7 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "Use correct PPE, smallest practical amounts, safe storage, and approved disposal.",
           "Use more chemical than needed if it makes results easier to see.",
-          "Focus only on personal PPE and ignore waste disposal.",
+          "Focus on personal PPE and leave waste decisions until cleanup.",
           "Skip labels if the container is familiar from home."
         ],
         correctIndex: 0,
@@ -7111,9 +7111,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-174-q2",
         prompt: "Why should disposal be part of a chemical safety plan?",
         choices: [
-          "Disposal is never connected to environmental safety.",
-          "All chemicals can be safely thrown in regular garbage.",
-          "Disposal matters only for solid objects.",
+          "Disposal is mainly a classroom-cleanup issue rather than an environmental issue.",
+          "Small amounts of lab chemicals usually belong in regular garbage.",
+          "Disposal matters more for solids than for dissolved substances.",
           "Improper disposal can harm people, plumbing, wastewater systems, or ecosystems."
         ],
         correctIndex: 3,
@@ -7140,10 +7140,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-175-q1",
         prompt: "Why is water often called a universal solvent?",
         choices: [
-          "It dissolves every substance equally well.",
-          "It is always chemically pure in nature.",
+          "It dissolves most substances at the same rate and amount.",
+          "It is usually chemically pure unless people add pollutants.",
           "Many different substances can dissolve in it.",
-          "It cannot carry pollutants once it enters the ground."
+          "It carries substances in rivers but not through soil or groundwater."
         ],
         correctIndex: 2,
         explanation: "Water dissolves many substances, though not all substances and not always completely."
@@ -7153,9 +7153,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why does pure water rarely exist in nature?",
         choices: [
           "Water can dissolve natural substances such as ions and minerals as it moves through the environment.",
-          "Water destroys all dissolved substances immediately.",
+          "Water changes dissolved substances into harmless materials right away.",
           "Natural water contains no particles or ions.",
-          "Only human-made substances can dissolve in water."
+          "Human-made substances dissolve more easily than naturally occurring substances."
         ],
         correctIndex: 0,
         explanation: "Natural water often contains dissolved substances from soil, rocks, organisms, and human activity."
@@ -7164,9 +7164,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-175-q3",
         prompt: "How does water's solvent ability relate to pollution?",
         choices: [
-          "It prevents all pollution from moving.",
-          "It makes every pollutant harmless.",
-          "It affects only oceans, not rivers or groundwater.",
+          "It keeps pollution near its original source.",
+          "It dilutes pollutants enough that their effects no longer need to be checked.",
+          "It mainly affects oceans rather than rivers or groundwater.",
           "It can carry harmful dissolved or suspended substances through water systems."
         ],
         correctIndex: 3,
@@ -7194,9 +7194,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why can household habits affect water quality?",
         choices: [
           "Household products cannot dissolve or move in water.",
-          "Only factories can pollute water.",
+          "Factories are the main source to consider, so household sources are minor.",
           "Substances poured down toilets, sinks, or storm drains can enter water systems.",
-          "Water treatment removes every possible chemical."
+          "Water treatment can be assumed to remove chemicals from household products."
         ],
         correctIndex: 2,
         explanation: "Everyday disposal choices can add pollutants to wastewater or stormwater."
@@ -7208,7 +7208,7 @@ window.SCIENCE10_QUIZZES = {
           "Dispose of medicines and chemicals through approved collection programs.",
           "Flush unused products to make them disappear.",
           "Pour paint thinner into a street drain.",
-          "Assume small amounts cannot matter."
+          "Assume small amounts are too diluted to affect water quality."
         ],
         correctIndex: 0,
         explanation: "Keeping harmful substances out of drains reduces what water systems must handle."
@@ -7222,8 +7222,8 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-177-q1",
         prompt: "What is a key difference between wastewater and stormwater in many communities?",
         choices: [
-          "Stormwater is always treated more than wastewater.",
-          "Wastewater never contains pollutants.",
+          "Stormwater usually receives the same treatment as wastewater.",
+          "Wastewater is less likely to contain pollutants because it comes from buildings.",
           "Stormwater cannot pick up substances from streets.",
           "Wastewater often goes to treatment, while stormwater may flow directly into local waterways."
         ],
@@ -7234,10 +7234,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-177-q2",
         prompt: "Why can even treated wastewater still affect ecosystems?",
         choices: [
-          "Treatment adds all pollutants on purpose.",
-          "Treatment can reduce pollutants but may not remove every dissolved or suspended chemical.",
+          "Treatment adds chemicals mainly to make pollution easier to ignore.",
+          "Treatment can reduce pollutants but may leave some dissolved or suspended chemicals.",
           "Treatment means the water becomes chemically pure.",
-          "Treated water never returns to the environment."
+          "Treated water is usually stored away from ecosystems permanently."
         ],
         correctIndex: 1,
         explanation: "Treatment systems vary and cannot always remove all chemicals."
@@ -7246,8 +7246,8 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-177-q3",
         prompt: "A person dumps oily liquid into a storm drain. What is the likely concern?",
         choices: [
-          "It will always be fully removed at a treatment plant.",
-          "It will become pure water instantly.",
+          "It will probably be removed before reaching a nearby waterway.",
+          "It will dilute right away and become chemically pure.",
           "It may be carried untreated into a local lake or river.",
           "It cannot move because drains are sealed."
         ],
@@ -7264,9 +7264,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why is safe drinking water a community responsibility?",
         choices: [
           "Water quality depends on infrastructure, pollution choices, monitoring, and public action.",
-          "Only individual taste matters.",
-          "Every community has identical water access.",
-          "Water treatment never requires funding or maintenance."
+          "Individual taste is the main way to judge whether water is safe.",
+          "Most communities can use the same water plan without local changes.",
+          "Water treatment systems work well without funding or maintenance."
         ],
         correctIndex: 0,
         explanation: "Safe water depends on systems and shared decisions, not only individual behaviour."
@@ -7277,7 +7277,7 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "Ignore contamination unless it is visible.",
           "Pour more chemicals into storm drains.",
-          "Assume boiling water solves every possible contamination issue.",
+          "Assume boiling water solves contamination without identifying the problem.",
           "Raise awareness and reduce pollutants entering drains and waterways."
         ],
         correctIndex: 3,
@@ -7287,10 +7287,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-178-q3",
         prompt: "Why should water-quality plans consider different communities' needs?",
         choices: [
-          "All communities have the same water infrastructure.",
+          "Most communities have similar water infrastructure and maintenance needs.",
           "Some communities face greater barriers to safe drinking water and need appropriate support.",
-          "Water quality affects only large cities.",
-          "Unsafe drinking water is never a public health concern."
+          "Water quality problems are mainly an issue for large cities.",
+          "Unsafe drinking water is mostly an inconvenience rather than a health concern."
         ],
         correctIndex: 1,
         explanation: "The textbook notes that safe drinking water issues affect communities differently, including some First Nations communities."
@@ -7304,8 +7304,8 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-179-q1",
         prompt: "Why are there different classes of fire extinguishers?",
         choices: [
-          "All fires are identical once oxygen is present.",
-          "The letters only show extinguisher size.",
+          "Fires can be grouped mainly by flame size once oxygen is present.",
+          "The letters mostly show how large the extinguisher is.",
           "Different fuel sources require different chemicals or methods to extinguish safely.",
           "Fire extinguishers are chosen by colour preference."
         ],
@@ -7330,7 +7330,7 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "Class C.",
           "Class D.",
-          "Class A only.",
+          "Class A, because cooking often uses paper packaging.",
           "Class K."
         ],
         correctIndex: 3,
@@ -7345,10 +7345,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-180-q1",
         prompt: "Why should water not be used on a live electrical fire?",
         choices: [
-          "Water makes electricity disappear safely in every situation.",
+          "Water cools electrical equipment enough to remove the hazard.",
           "Water can conduct electricity and create a life-threatening shock hazard.",
-          "Electrical fires are always Class A fires.",
-          "Water is the only correct choice for all fires."
+          "Electrical fires should be treated like ordinary combustibles once the flame starts.",
+          "Water is the familiar choice, so it is usually the safest first option."
         ],
         correctIndex: 1,
         explanation: "Using water on live electrical equipment can cause electrocution."
@@ -7357,10 +7357,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-180-q2",
         prompt: "Why can water be dangerous on a cooking oil fire?",
         choices: [
-          "It always cools oil safely with no risk.",
-          "It changes oil into harmless steam instantly.",
+          "It cools oil gradually without changing how the fire spreads.",
+          "It turns the oil fire into steam before the oil can splash.",
           "It can spread burning oil and cause splattering.",
-          "It is required for all Class K fires."
+          "It works well when the cooking oil is in a small container."
         ],
         correctIndex: 2,
         explanation: "Water can spread oil-based fires and increase burn risk."
@@ -7387,7 +7387,7 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What do the letters on a fire extinguisher label tell you?",
         choices: [
           "The extinguisher's brand popularity.",
-          "The exact temperature of every fire.",
+          "The temperature range the extinguisher was tested at.",
           "Which classes of fire the extinguisher can be used on safely.",
           "The number of people allowed in the room."
         ],
@@ -7399,9 +7399,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why should you read the label before using a fire extinguisher?",
         choices: [
           "Using the wrong extinguisher can spread the fire or create a new hazard.",
-          "All extinguishers work the same way on every fuel.",
-          "Labels are only decoration.",
-          "Reading labels is useful only after the fire is out."
+          "Most extinguishers work similarly if the fire is still small.",
+          "Labels mainly help with storage and inspection.",
+          "Reading labels matters most after the fire has been controlled."
         ],
         correctIndex: 0,
         explanation: "The label helps match the extinguisher to the fuel source and hazard."
@@ -7410,9 +7410,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-181-q3",
         prompt: "A label shows Class C. What fire type is it safe for, if the label instructions are followed?",
         choices: [
-          "Cooking oil fires only.",
-          "Combustible metal fires only.",
-          "All fires, including every liquid fire.",
+          "Cooking oil fires, because they often occur near appliances.",
+          "Combustible metal fires, because they need special dry powder.",
+          "Most fire types, as long as the fire is small.",
           "Fires involving energized electrical equipment."
         ],
         correctIndex: 3,
@@ -7427,9 +7427,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-182-q1",
         prompt: "Why can fire-suppression chemicals involve trade-offs?",
         choices: [
-          "They are never useful in emergencies.",
+          "They are useful mainly for storage but not for active emergencies.",
           "They may put out fires effectively but still have health, cleanup, or environmental risks.",
-          "They always have benefits and no risks.",
+          "Their effectiveness means health and environmental effects are usually minor.",
           "They are unrelated to chemistry."
         ],
         correctIndex: 1,
@@ -7439,7 +7439,7 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-182-q2",
         prompt: "Why might a country phase out a fire-suppression chemical such as a halon?",
         choices: [
-          "It cannot extinguish any fire.",
+          "Its fire-fighting effect is too weak to compare with alternatives.",
           "It is too easy to label.",
           "Its environmental or health risks may outweigh its benefits when safer alternatives exist.",
           "It makes water safer to use on electrical fires."
@@ -7454,7 +7454,7 @@ window.SCIENCE10_QUIZZES = {
           "Does it work for the fire class, and what risks does it create during use and disposal?",
           "Is it the newest chemical?",
           "Can it be used without reading any label?",
-          "Does it avoid all regulation?"
+          "Does it simplify cleanup enough to skip a risk review?"
         ],
         correctIndex: 0,
         explanation: "Good evaluation considers effectiveness, safety, environmental effects, and disposal."
@@ -7468,9 +7468,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-183-q1",
         prompt: "What is included in a product's life cycle?",
         choices: [
-          "Only the moment when the product is purchased.",
-          "Only the product's colour and price.",
-          "Only the final disposal step.",
+          "The moment the product is purchased and used.",
+          "The product's colour, price, and popularity.",
+          "The disposal step after the product is no longer useful.",
           "Raw material extraction, processing, manufacture, distribution, use, recycling, and disposal."
         ],
         correctIndex: 3,
@@ -7480,7 +7480,7 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-183-q2",
         prompt: "Why is life cycle thinking useful for synthetic products?",
         choices: [
-          "It proves every synthetic product is harmful.",
+          "It shows whether a synthetic product should be rejected before comparing benefits.",
           "It reveals impacts that may occur before use and after disposal, not just during use.",
           "It ignores manufacturing and waste.",
           "It replaces evidence with opinions."
@@ -7510,8 +7510,8 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which statement best describes many synthetic products?",
         choices: [
           "They can be useful and durable, but may also create waste, pollution, or toxicity concerns.",
-          "They are always harmful and never useful.",
-          "They are always safe because people made them.",
+          "Their usefulness usually outweighs environmental questions without further evidence.",
+          "Their human-made design means safety concerns have already been solved.",
           "They have no environmental impact after disposal."
         ],
         correctIndex: 0,
@@ -7522,7 +7522,7 @@ window.SCIENCE10_QUIZZES = {
         prompt: "A plastic bottle is lightweight and convenient but may persist as waste. What kind of analysis is this?",
         choices: [
           "Classifying an ionic bond.",
-          "Reading a WHMIS symbol only.",
+          "Reading a hazard symbol without considering the product's life cycle.",
           "Balancing a chemical equation.",
           "Comparing positive and negative product impacts."
         ],
@@ -7533,10 +7533,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-184-q3",
         prompt: "Which evidence would help decide whether a product is 'worth it'?",
         choices: [
-          "Only a product slogan.",
+          "A product slogan that describes the intended benefit.",
           "Data about usefulness, lifetime, resource use, waste, toxicity, and alternatives.",
-          "Only one person's guess.",
-          "Only the product's shelf location."
+          "One person's experience using the product.",
+          "The product's shelf location and packaging style."
         ],
         correctIndex: 1,
         explanation: "A fair evaluation needs evidence about benefits, costs, and consequences."
@@ -7550,8 +7550,8 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-185-q1",
         prompt: "How can recycling reduce a product's negative impacts?",
         choices: [
-          "It makes every product biodegradable.",
-          "It removes all environmental impacts automatically.",
+          "It makes products biodegradable once they enter a recycling bin.",
+          "It removes environmental impacts from the manufacturing stage.",
           "It can keep useful materials in use and reduce the need for new raw materials.",
           "It works without collection or processing systems."
         ],
@@ -7564,7 +7564,7 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "A product or process designed to reduce environmental harm compared with another option.",
           "Any product that is coloured green.",
-          "A product that is always perfect in every way.",
+          "A product whose name suggests nature or sustainability.",
           "A product that cannot be evaluated with evidence."
         ],
         correctIndex: 0,
@@ -7574,8 +7574,8 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-185-q3",
         prompt: "Why should a 'green' claim still be checked?",
         choices: [
-          "Green claims are always false.",
-          "Green claims are always complete proof.",
+          "Green claims may focus on one benefit while leaving out other impacts.",
+          "Green claims are usually enough if the packaging looks environmentally friendly.",
           "Life cycle evidence is unnecessary for alternatives.",
           "The alternative may reduce one impact but create another impact elsewhere in its life cycle."
         ],
@@ -7591,10 +7591,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-186-q1",
         prompt: "Why is emergency preparedness important for chemical accidents?",
         choices: [
-          "Accidents can be handled best by improvising only.",
+          "Accidents can be handled by deciding roles after the event starts.",
           "Planning can reduce harm to people and the environment before an accident occurs.",
           "Planning makes hazards disappear completely.",
-          "Preparedness matters only after cleanup is finished."
+          "Preparedness matters most after cleanup is finished."
         ],
         correctIndex: 1,
         explanation: "Preparedness helps people respond quickly and safely during emergencies."
@@ -7606,7 +7606,7 @@ window.SCIENCE10_QUIZZES = {
           "Choosing a new school mascot.",
           "Graphing hand width variation.",
           "A transportation accident causing a hazardous chemical spill.",
-          "Naming a covalent molecule only."
+          "Naming a covalent molecule for a worksheet."
         ],
         correctIndex: 2,
         explanation: "Chemical spills, gas leaks, fires, and evacuation needs are relevant emergency scenarios."
@@ -7632,9 +7632,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-187-q1",
         prompt: "Which item should be part of an emergency response plan?",
         choices: [
-          "Only a title page.",
-          "Only a list of unrelated chemicals.",
-          "Only the name of the fastest runner.",
+          "A title page and the date the plan was written.",
+          "A list of chemicals without roles or procedures.",
+          "The name of the person who can leave the building fastest.",
           "Evacuation routes, communication steps, cleanup methods, and disposal procedures."
         ],
         correctIndex: 3,
@@ -7647,7 +7647,7 @@ window.SCIENCE10_QUIZZES = {
           "Roles make the plan harder to follow.",
           "Clear roles reduce confusion during an emergency.",
           "No one needs responsibility in emergencies.",
-          "Only first responders need any information."
+          "First responders need details, while people on site can wait for instructions."
         ],
         correctIndex: 1,
         explanation: "People need to know what actions to take and who coordinates them."
@@ -7674,9 +7674,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why should an emergency plan be tailored to its audience?",
         choices: [
           "Students, workers, families, and first responders may need different formats and details.",
-          "Everyone always needs the exact same wording.",
+          "A single technical version is usually clearer for any audience.",
           "Audience does not affect communication.",
-          "Plans should be written only for scientists."
+          "Plans should be written mainly for people with science training."
         ],
         correctIndex: 0,
         explanation: "Emergency information must be understandable and useful for the people who need to follow it."
@@ -7686,7 +7686,7 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which format could help communicate evacuation routes in a school?",
         choices: [
           "A paragraph with no locations.",
-          "A chemical formula only.",
+          "A chemical formula without directions or locations.",
           "A product advertisement.",
           "A clear map showing exits, routes, and meeting areas."
         ],
@@ -7699,7 +7699,7 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "Vague and delayed.",
           "Clear, accurate, and directed through known lines of communication.",
-          "Different for every person with no coordination.",
+          "Customized separately for each person without a shared procedure.",
           "Hidden until after the emergency ends."
         ],
         correctIndex: 1,
