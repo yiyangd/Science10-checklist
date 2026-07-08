@@ -7386,12 +7386,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-181-q1",
         prompt: "What do the letters on a fire extinguisher label tell you?",
         choices: [
-          "Which classes of fire the extinguisher can be used on safely.",
           "The extinguisher's brand popularity.",
           "The exact temperature of every fire.",
-          "The number of people in the room."
+          "Which classes of fire the extinguisher can be used on safely.",
+          "The number of people allowed in the room."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Fire extinguisher labels use letters and symbols to show the fire classes they can safely address."
       },
       {
@@ -7410,12 +7410,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-181-q3",
         prompt: "A label shows Class C. What fire type is it safe for, if the label instructions are followed?",
         choices: [
-          "Fires involving energized electrical equipment.",
           "Cooking oil fires only.",
           "Combustible metal fires only.",
-          "All fires, including every liquid fire."
+          "All fires, including every liquid fire.",
+          "Fires involving energized electrical equipment."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Class C refers to fires involving live electrical equipment."
       }
     ]
@@ -7427,24 +7427,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-182-q1",
         prompt: "Why can fire-suppression chemicals involve trade-offs?",
         choices: [
+          "They are never useful in emergencies.",
           "They may put out fires effectively but still have health, cleanup, or environmental risks.",
           "They always have benefits and no risks.",
-          "They are never useful in emergencies.",
           "They are unrelated to chemistry."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "A chemical can be useful for fire safety while also requiring careful handling or disposal."
       },
       {
         id: "kp-182-q2",
         prompt: "Why might a country phase out a fire-suppression chemical such as a halon?",
         choices: [
-          "Its environmental or health risks may outweigh its benefits when safer alternatives exist.",
           "It cannot extinguish any fire.",
           "It is too easy to label.",
+          "Its environmental or health risks may outweigh its benefits when safer alternatives exist.",
           "It makes water safer to use on electrical fires."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Phasing out a chemical can happen when evidence shows unacceptable risk and alternatives are available."
       },
       {
@@ -7468,36 +7468,36 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-183-q1",
         prompt: "What is included in a product's life cycle?",
         choices: [
-          "Raw material extraction, processing, manufacture, distribution, use, recycling, and disposal.",
           "Only the moment when the product is purchased.",
           "Only the product's colour and price.",
-          "Only the final disposal step."
+          "Only the final disposal step.",
+          "Raw material extraction, processing, manufacture, distribution, use, recycling, and disposal."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "A life cycle analysis follows a product from raw materials through use and end-of-life."
       },
       {
         id: "kp-183-q2",
         prompt: "Why is life cycle thinking useful for synthetic products?",
         choices: [
-          "It reveals impacts that may occur before use and after disposal, not just during use.",
           "It proves every synthetic product is harmful.",
+          "It reveals impacts that may occur before use and after disposal, not just during use.",
           "It ignores manufacturing and waste.",
           "It replaces evidence with opinions."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Environmental and social impacts can occur at many stages of a product's life."
       },
       {
         id: "kp-183-q3",
         prompt: "Which life cycle question fits a smartphone investigation?",
         choices: [
-          "What materials are extracted, how is it manufactured, and what happens when it is discarded?",
           "What is the owner's favourite ringtone?",
           "How many apps are installed today?",
+          "What materials are extracted, how is it manufactured, and what happens when it is discarded?",
           "What colour case is most popular?"
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Life cycle analysis asks about materials, manufacturing, use, recycling, and disposal."
       }
     ]
@@ -7521,24 +7521,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-184-q2",
         prompt: "A plastic bottle is lightweight and convenient but may persist as waste. What kind of analysis is this?",
         choices: [
-          "Comparing positive and negative product impacts.",
           "Classifying an ionic bond.",
           "Reading a WHMIS symbol only.",
-          "Balancing a chemical equation."
+          "Balancing a chemical equation.",
+          "Comparing positive and negative product impacts."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "The example weighs usefulness against disposal and pollution concerns."
       },
       {
         id: "kp-184-q3",
         prompt: "Which evidence would help decide whether a product is 'worth it'?",
         choices: [
-          "Data about usefulness, lifetime, resource use, waste, toxicity, and alternatives.",
           "Only a product slogan.",
+          "Data about usefulness, lifetime, resource use, waste, toxicity, and alternatives.",
           "Only one person's guess.",
           "Only the product's shelf location."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "A fair evaluation needs evidence about benefits, costs, and consequences."
       }
     ]
@@ -7550,12 +7550,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-185-q1",
         prompt: "How can recycling reduce a product's negative impacts?",
         choices: [
-          "It can keep useful materials in use and reduce the need for new raw materials.",
           "It makes every product biodegradable.",
           "It removes all environmental impacts automatically.",
+          "It can keep useful materials in use and reduce the need for new raw materials.",
           "It works without collection or processing systems."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Recycling can reduce some impacts, but it still requires systems and energy."
       },
       {
@@ -7574,12 +7574,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-185-q3",
         prompt: "Why should a 'green' claim still be checked?",
         choices: [
-          "The alternative may reduce one impact but create another impact elsewhere in its life cycle.",
           "Green claims are always false.",
           "Green claims are always complete proof.",
-          "Life cycle evidence is unnecessary for alternatives."
+          "Life cycle evidence is unnecessary for alternatives.",
+          "The alternative may reduce one impact but create another impact elsewhere in its life cycle."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Evidence helps determine whether an alternative truly reduces overall harm."
       }
     ]
@@ -7591,24 +7591,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-186-q1",
         prompt: "Why is emergency preparedness important for chemical accidents?",
         choices: [
-          "Planning can reduce harm to people and the environment before an accident occurs.",
           "Accidents can be handled best by improvising only.",
+          "Planning can reduce harm to people and the environment before an accident occurs.",
           "Planning makes hazards disappear completely.",
           "Preparedness matters only after cleanup is finished."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Preparedness helps people respond quickly and safely during emergencies."
       },
       {
         id: "kp-186-q2",
         prompt: "Which scenario belongs in a chemical emergency plan?",
         choices: [
-          "A transportation accident causing a hazardous chemical spill.",
           "Choosing a new school mascot.",
           "Graphing hand width variation.",
+          "A transportation accident causing a hazardous chemical spill.",
           "Naming a covalent molecule only."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Chemical spills, gas leaks, fires, and evacuation needs are relevant emergency scenarios."
       },
       {
@@ -7632,36 +7632,36 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-187-q1",
         prompt: "Which item should be part of an emergency response plan?",
         choices: [
-          "Evacuation routes, communication steps, cleanup methods, and disposal procedures.",
           "Only a title page.",
           "Only a list of unrelated chemicals.",
-          "Only the name of the fastest runner."
+          "Only the name of the fastest runner.",
+          "Evacuation routes, communication steps, cleanup methods, and disposal procedures."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Effective plans include preparation, roles, evacuation, communication, cleanup, and disposal."
       },
       {
         id: "kp-187-q2",
         prompt: "Why should a plan state who is responsible for each action?",
         choices: [
-          "Clear roles reduce confusion during an emergency.",
           "Roles make the plan harder to follow.",
+          "Clear roles reduce confusion during an emergency.",
           "No one needs responsibility in emergencies.",
           "Only first responders need any information."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "People need to know what actions to take and who coordinates them."
       },
       {
         id: "kp-187-q3",
         prompt: "A plan includes evacuation but says nothing about spilled chemical cleanup. What is missing?",
         choices: [
-          "A way to manage contamination and dispose of affected material safely.",
           "A decorative title.",
           "A product life cycle diagram.",
+          "A way to manage contamination and dispose of affected material safely.",
           "A list of diatomic elements."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Chemical emergencies may require safe cleanup and disposal to protect people and the environment."
       }
     ]
@@ -7685,24 +7685,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-188-q2",
         prompt: "Which format could help communicate evacuation routes in a school?",
         choices: [
-          "A clear map showing exits, routes, and meeting areas.",
           "A paragraph with no locations.",
           "A chemical formula only.",
-          "A product advertisement."
+          "A product advertisement.",
+          "A clear map showing exits, routes, and meeting areas."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Maps and diagrams can show people where to go during an emergency."
       },
       {
         id: "kp-188-q3",
         prompt: "What should communication during an emergency be?",
         choices: [
-          "Clear, accurate, and directed through known lines of communication.",
           "Vague and delayed.",
+          "Clear, accurate, and directed through known lines of communication.",
           "Different for every person with no coordination.",
           "Hidden until after the emergency ends."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Clear communication helps people respond safely and consistently."
       }
     ]
@@ -7714,12 +7714,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-189-q1",
         prompt: "What is a compound?",
         choices: [
-          "A substance made of atoms of different elements chemically combined in specific proportions.",
           "A mixture of elements that are not chemically combined.",
           "A substance made of only one kind of atom.",
+          "A substance made of atoms of different elements chemically combined in specific proportions.",
           "A single loose electron."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Compounds contain different elements bonded in fixed ratios."
       },
       {
@@ -7738,12 +7738,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-189-q3",
         prompt: "Why should you identify whether a substance is an element or compound before analyzing a reaction?",
         choices: [
-          "It helps track which atoms are rearranged into products.",
           "It changes the mass of the atoms.",
           "It lets you ignore chemical formulas.",
-          "It proves no bonds are involved."
+          "It proves no bonds are involved.",
+          "It helps track which atoms are rearranged into products."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Chemical reactions rearrange atoms from elements and compounds into new substances."
       }
     ]
@@ -7755,24 +7755,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-190-q1",
         prompt: "What particles make up ionic compounds?",
         choices: [
-          "Positive cations and negative anions.",
           "Only neutral atoms with no charges.",
+          "Positive cations and negative anions.",
           "Only molecules made by sharing electrons.",
           "Only loose protons."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Ionic compounds consist of oppositely charged ions."
       },
       {
         id: "kp-190-q2",
         prompt: "Which example best represents an ionic compound?",
         choices: [
-          "Sodium chloride, made of Na+ and Cl- ions.",
           "Oxygen gas, O2.",
           "Hydrogen gas, H2.",
+          "Sodium chloride, made of Na+ and Cl- ions.",
           "Carbon dioxide molecules only."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Sodium chloride is composed of sodium cations and chloride anions in a crystal lattice."
       },
       {
