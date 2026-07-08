@@ -9805,9 +9805,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-240-q1",
         prompt: "Why can luminol help forensic investigators find possible blood evidence?",
         choices: [
-          "It turns every fabric red so stains are easier to see.",
+          "It stains fabric permanently so investigators can see old marks in daylight.",
           "It can react with iron from hemoglobin and emit a blue-green glow in the dark.",
-          "It destroys all non-blood stains.",
+          "It removes non-blood stains so the remaining stain is easier to test.",
           "It identifies a person's DNA by itself."
         ],
         correctIndex: 1,
@@ -9817,8 +9817,8 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-240-q2",
         prompt: "Why is a positive luminol test not conclusive proof that blood is present?",
         choices: [
-          "Luminol never reacts with blood.",
-          "The glow always lasts for several days.",
+          "Luminol reacts with blood but the glow is too dim to record.",
+          "The glow lasts long enough that timing does not matter.",
           "Other substances can also cause luminol to emit light.",
           "A positive test means DNA has already been analyzed."
         ],
@@ -9849,7 +9849,7 @@ window.SCIENCE10_QUIZZES = {
           "It turns into a proton.",
           "It leaves the atom forever and destroys the molecule.",
           "It absorbs energy and moves to a higher energy level.",
-          "It loses all energy before the glow begins."
+          "It gives up energy before moving to a higher level."
         ],
         correctIndex: 2,
         explanation: "An excited electron has absorbed energy and moved to a higher energy level."
@@ -9861,7 +9861,7 @@ window.SCIENCE10_QUIZZES = {
           "Excited electrons release energy as light when they return to lower energy levels.",
           "Luminol creates new electrons from darkness.",
           "Iron atoms become tiny light bulbs without an energy change.",
-          "The solution only reflects room light and produces no light of its own."
+          "The solution reflects room light after the investigator darkens the room."
         ],
         correctIndex: 0,
         explanation: "The glow is caused by energy released as electrons drop back down."
@@ -9887,10 +9887,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-242-q1",
         prompt: "Why should investigators not treat a positive luminol test as final proof of blood?",
         choices: [
-          "Luminol never reacts with substances related to blood.",
+          "Luminol reacts with blood so strongly that other tests become less important.",
           "Some non-blood substances can also make luminol glow.",
           "A glow proves whose blood it is.",
-          "Chemical tests cannot provide any useful evidence."
+          "Chemical tests are useful for colour changes but not for forensic evidence."
         ],
         correctIndex: 1,
         explanation: "Luminol is useful for screening, but it can have false positives."
@@ -9900,9 +9900,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "After a luminol glow appears on fabric, what is a reasonable next step?",
         choices: [
           "Immediately identify a suspect from the glow alone.",
-          "Ignore the result because chemistry is never useful.",
+          "Ignore the result because a screening test is not final proof.",
           "Use further tests, such as blood confirmation or DNA analysis, before drawing a strong conclusion.",
-          "Assume bleach, blood, and metal are all the same substance."
+          "Treat bleach, blood, and metal as equivalent evidence if they glow."
         ],
         correctIndex: 2,
         explanation: "Further testing can distinguish possible blood evidence from other luminol-reactive materials."
@@ -9914,7 +9914,7 @@ window.SCIENCE10_QUIZZES = {
           "It can point investigators toward possible evidence, but it needs confirmation.",
           "It is conclusive DNA evidence by itself.",
           "It proves a chemical reaction did not occur.",
-          "It works only on visible stains."
+          "It is most useful after the stain is already visible."
         ],
         correctIndex: 0,
         explanation: "Luminol is sensitive and useful, but positive results have limits."
@@ -9942,8 +9942,8 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "Slow reactions do not involve atoms.",
           "A slower rate can make damage easier to manage or prevent over time.",
-          "Slow reactions never produce products.",
-          "Slow reactions always release no energy."
+          "Slow reactions produce fewer products because atoms are partly conserved.",
+          "Slow reactions are usually physical changes rather than chemical changes."
         ],
         correctIndex: 1,
         explanation: "Whether a rate is desirable depends on the context and purpose."
@@ -9970,8 +9970,8 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which change would usually speed up a reaction by increasing particle motion?",
         choices: [
           "Increasing temperature",
-          "Lowering all reactant concentration to zero",
-          "Removing every reactant",
+          "Lowering reactant concentration so particles collide less often",
+          "Removing a reactant to make the mixture simpler",
           "Keeping particles completely separated"
         ],
         correctIndex: 0,
@@ -9983,7 +9983,7 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "Powdered magnesium has no atoms.",
           "The strip contains a different element.",
-          "Surface area never affects reaction rate.",
+          "Surface area matters less than the colour of the metal.",
           "The powder has more exposed surface area for collisions."
         ],
         correctIndex: 3,
@@ -9993,10 +9993,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-244-q3",
         prompt: "Which list contains factors that can affect reaction rate?",
         choices: [
-          "Only colour and container shape.",
+          "Colour, container shape, and label size.",
           "Temperature, surface area, reactant concentration or amount, and catalysts.",
-          "Only the alphabetic order of reactant names.",
-          "Only whether the product is written first."
+          "Alphabetic order of reactant names and product names.",
+          "Whether the product is written first in the equation."
         ],
         correctIndex: 1,
         explanation: "These factors can change the number or success of reactant collisions."
@@ -10011,7 +10011,7 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What is a catalyst?",
         choices: [
           "A reactant that must be completely consumed.",
-          "A product that stops all collisions.",
+          "A product that slows collisions after it forms.",
           "A substance that speeds up a reaction without being used up overall.",
           "A label that replaces a chemical equation."
         ],
@@ -10023,7 +10023,7 @@ window.SCIENCE10_QUIZZES = {
         prompt: "How does a catalytic converter connect to reaction rate?",
         choices: [
           "It uses catalyst materials to speed reactions that convert harmful exhaust gases into less harmful substances.",
-          "It slows all vehicle reactions to zero.",
+          "It slows exhaust reactions so gases leave the vehicle unchanged.",
           "It creates fuel from nothing.",
           "It prevents gases from reacting with any surface."
         ],
@@ -10034,9 +10034,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-245-q3",
         prompt: "Why are enzymes described as catalysts in body cells?",
         choices: [
-          "They are always consumed as fuel.",
-          "They make reactions impossible at body temperature.",
-          "They change every product into metal.",
+          "They are consumed each time they help a reaction.",
+          "They make reactions require higher temperatures than usual.",
+          "They change products into the enzyme's material.",
           "They help important reactions occur fast enough without being used up in each reaction."
         ],
         correctIndex: 3,
@@ -10051,9 +10051,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-246-q1",
         prompt: "What can cause a runaway reaction in a large industrial vessel?",
         choices: [
-          "The reaction cools so much that all collisions stop.",
+          "The reaction cools and slows before operators can measure it.",
           "Heat released by an exothermic reaction increases reaction rate, releasing even more heat.",
-          "The container removes every molecule instantly.",
+          "The container removes products faster than reactants can collide.",
           "Products have no energy."
         ],
         correctIndex: 1,
@@ -10063,7 +10063,7 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-246-q2",
         prompt: "Why is scaling up a lab reaction to industry risky?",
         choices: [
-          "Large reactions cannot be chemical reactions.",
+          "Large reactions behave like physical changes once the vessel is big enough.",
           "Industrial containers do not contain atoms.",
           "Large amounts of reacting material can release heat faster than it is removed.",
           "Exothermic reactions become harmless when scaled up."
@@ -10078,7 +10078,7 @@ window.SCIENCE10_QUIZZES = {
           "Designing systems to remove excess heat and monitor temperature",
           "Ignoring temperature changes.",
           "Adding reactants as fast as possible without measurement.",
-          "Sealing all pressure relief systems permanently."
+          "Sealing pressure relief systems so heat stays contained."
         ],
         correctIndex: 0,
         explanation: "Monitoring and heat removal help keep reaction rate under control."
