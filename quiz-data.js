@@ -6566,12 +6566,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-161-q1",
         prompt: "When judging a claim about a GMO's environmental effect, what should you check first?",
         choices: [
+          "Whether the claim appears in a dramatic headline.",
+          "Whether the claim matches what most people in a comment section say.",
           "Whether the claim is supported by credible evidence and a reliable source.",
-          "Whether the claim appears in the biggest font.",
-          "Whether the claim agrees with your first opinion.",
-          "Whether the claim avoids mentioning uncertainty."
+          "Whether the claim avoids mentioning uncertainty or limitations."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "GMO claims should be judged by source credibility, evidence quality, and whether more data are needed."
       },
       {
@@ -6590,12 +6590,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-161-q3",
         prompt: "Why might scientists say more data are needed before deciding whether a GMO is safe for an ecosystem?",
         choices: [
-          "Ecosystems are complex, and effects may vary by species, location, and time.",
           "Science cannot study ecosystems.",
           "One opinion is always enough.",
-          "All GMOs have identical environmental effects."
+          "All GMOs have identical environmental effects.",
+          "Ecosystems are complex, and effects may vary by species, location, and time."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Environmental effects can be complex, so strong conclusions often require multiple lines of evidence."
       }
     ]
@@ -6607,24 +6607,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-162-q1",
         prompt: "What happens in a chemical reaction?",
         choices: [
-          "Atoms are rearranged to form different substances.",
           "Atoms disappear and no new substances form.",
+          "Atoms are rearranged to form different substances.",
           "Only the shape changes while all substances remain the same.",
           "Matter changes into pure energy with no atoms left."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "A chemical reaction rearranges atoms from reactants into new substances called products."
       },
       {
         id: "kp-162-q2",
         prompt: "Which situation most clearly involves a chemical reaction?",
         choices: [
-          "A firework burns fuel and produces hot gases and coloured light.",
           "A glass cup is moved from one table to another.",
           "A pencil is sharpened into smaller pieces.",
+          "A firework burns fuel and produces hot gases and coloured light.",
           "Water is poured from a bottle into a cup."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Fireworks involve substances reacting to produce new substances, heat, gases, and light."
       },
       {
@@ -6648,36 +6648,36 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-163-q1",
         prompt: "How is chemistry involved in digestion?",
         choices: [
-          "Chemical reactions break food into forms that cells can use.",
           "Food becomes useful only by changing colour.",
           "Digestion avoids all chemical changes.",
-          "Nutrients are made only by fireworks."
+          "Nutrients are made only by fireworks.",
+          "Chemical reactions break food into forms that cells can use."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Digestion uses chemical reactions to break down food molecules into usable nutrients."
       },
       {
         id: "kp-163-q2",
         prompt: "Why is it incorrect to say chemistry is separate from life?",
         choices: [
-          "Living systems depend on chemical reactions to grow, repair, and use energy.",
           "Cells contain no chemical compounds.",
+          "Living systems depend on chemical reactions to grow, repair, and use energy.",
           "Only non-living materials involve atoms.",
           "Life processes happen without matter."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Cells and body systems depend on chemical substances and reactions."
       },
       {
         id: "kp-163-q3",
         prompt: "Which example connects chemistry to health?",
         choices: [
-          "Body cells using nutrients after food molecules are broken down.",
           "A notebook being placed in a backpack.",
           "A rock rolling down a hill with no chemical change.",
+          "Body cells using nutrients after food molecules are broken down.",
           "A ruler measuring desk length."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Nutrient use by cells depends on chemical processes that support health."
       }
     ]
@@ -6691,8 +6691,8 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "Chemical knowledge helps design materials and processes used to visualize internal body structures.",
           "Medical imaging works only by guessing what is inside the body.",
-          "Chemistry prevents doctors from studying the body.",
-          "Medical tools never involve materials or substances."
+          "Chemistry prevents doctors from studying body structures.",
+          "Medical tools never involve materials, substances, or interactions."
         ],
         correctIndex: 0,
         explanation: "Medical technologies rely on chemical understanding of materials, compounds, and body processes."
@@ -6701,24 +6701,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-164-q2",
         prompt: "Which statement best explains chemistry's role in medicine?",
         choices: [
-          "It helps develop tools, drugs, materials, and methods for understanding and treating the body.",
           "It is used only for fireworks.",
           "It applies to personal care products but not health care.",
-          "It removes the need for biological knowledge."
+          "It removes the need for biological knowledge.",
+          "It helps develop tools, drugs, materials, and methods for understanding and treating the body."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Chemistry contributes to many medical advances, from imaging to treatments and materials."
       },
       {
         id: "kp-164-q3",
         prompt: "A patient receives a scan that depends on specially designed materials and interactions with body tissues. What concept does this illustrate?",
         choices: [
-          "Chemistry can contribute to medical technologies.",
           "Chemical reactions are never useful in medicine.",
+          "Chemistry can contribute to medical technologies.",
           "Medicine does not involve matter.",
           "All imaging is unrelated to science."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Medical tools often depend on chemical properties and interactions."
       }
     ]
@@ -6730,12 +6730,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-165-q1",
         prompt: "Why do companies use chemistry when developing personal care products?",
         choices: [
-          "They design products with specific properties such as texture, stability, scent, or cleaning ability.",
           "Personal care products contain no substances.",
           "Chemistry makes product properties impossible to control.",
+          "They design products with specific properties such as texture, stability, scent, or cleaning ability.",
           "Consumer products are all found unchanged in nature."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Product design depends on choosing substances with useful chemical and physical properties."
       },
       {
@@ -6754,12 +6754,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-165-q3",
         prompt: "Why can a useful household product still require caution?",
         choices: [
-          "Useful chemical properties can also create hazards if the product is misused.",
           "Useful products never contain chemicals.",
           "A product is always safe if it is sold in a store.",
-          "Labels are written only for decoration."
+          "Labels are written only for decoration.",
+          "Useful chemical properties can also create hazards if the product is misused."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "A product can be helpful and still need safe handling, storage, or disposal."
       }
     ]
@@ -6771,24 +6771,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-166-q1",
         prompt: "How has chemistry helped transportation?",
         choices: [
-          "It has contributed to fuels, materials, batteries, lubricants, and safety technologies.",
           "It has prevented vehicles from using any materials.",
+          "It has contributed to fuels, materials, batteries, lubricants, and safety technologies.",
           "It applies only to walking.",
           "It has no connection to engines or road materials."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Transportation depends on chemical knowledge of fuels, materials, and reactions."
       },
       {
         id: "kp-166-q2",
         prompt: "What is a negative effect connected to transportation chemistry?",
         choices: [
-          "Vehicle use and production can contribute to air, land, and water pollution.",
           "Transportation chemistry eliminates all pollution.",
           "Vehicles cannot release substances into the environment.",
+          "Vehicle use and production can contribute to air, land, and water pollution.",
           "Only natural materials can pollute."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Transportation has benefits, but fuels, emissions, and materials can create pollution."
       },
       {
@@ -6812,36 +6812,36 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-167-q1",
         prompt: "What is a synthetic material?",
         choices: [
-          "A human-made material designed with specific properties.",
           "A material that contains no atoms.",
           "A material that can exist only inside living cells.",
-          "A substance that is always harmless."
+          "A substance that is always harmless.",
+          "A human-made material designed with specific properties."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Synthetic materials such as plastics and synthetic fibres are made by people for useful properties."
       },
       {
         id: "kp-167-q2",
         prompt: "Why is plastic's stability both helpful and problematic?",
         choices: [
-          "It makes plastic durable in use, but it may persist as pollution after disposal.",
           "It means plastic breaks down instantly.",
+          "It makes plastic durable in use, but it may persist as pollution after disposal.",
           "It makes plastic useful only for food.",
           "It prevents plastic from having any environmental effect."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Durability is useful during a product's life but can create waste and pollution challenges."
       },
       {
         id: "kp-167-q3",
         prompt: "Which comparison best shows a trade-off for synthetic fibres?",
         choices: [
-          "They can be strong and stretchy, but production and disposal may have environmental impacts.",
           "They are always worse than natural fibres in every way.",
           "They are natural fibres that require no processing.",
+          "They can be strong and stretchy, but production and disposal may have environmental impacts.",
           "They disappear from ecosystems immediately after use."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Synthetic materials should be evaluated for both useful properties and environmental effects."
       }
     ]
@@ -6865,24 +6865,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-168-q2",
         prompt: "Why should you check hazard information before using a chemical?",
         choices: [
-          "Different hazards require different precautions.",
           "All chemicals have identical risks.",
           "Hazard information is useful only after an accident.",
-          "Safety rules matter only outside the classroom."
+          "Safety rules matter only outside the classroom.",
+          "Different hazards require different precautions."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Knowing the hazard helps you choose correct equipment, behaviour, storage, and disposal."
       },
       {
         id: "kp-168-q3",
         prompt: "Which statement is the safest assumption?",
         choices: [
-          "A familiar chemical can still be dangerous if misused.",
           "A chemical is safe if it has no smell.",
+          "A familiar chemical can still be dangerous if misused.",
           "A small bottle can never contain a hazard.",
           "A liquid is harmless if it looks like water."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Appearance, smell, or familiarity do not prove safety."
       }
     ]
@@ -6894,12 +6894,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-169-q1",
         prompt: "What is the purpose of WHMIS labels?",
         choices: [
-          "They communicate chemical hazards in workplaces and laboratories.",
           "They show the price of each chemical.",
           "They replace all safety training.",
+          "They communicate chemical hazards in workplaces and laboratories.",
           "They list only the colour of a chemical."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "WHMIS labels provide standardized hazard information."
       },
       {
@@ -6918,12 +6918,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-169-q3",
         prompt: "Why are WHMIS symbols useful when planning an investigation?",
         choices: [
-          "They help identify risks so procedures and protective equipment can be chosen.",
           "They make it unnecessary to read instructions.",
           "They prove every chemical has the same danger.",
-          "They are used only for fire extinguishers."
+          "They are used only for fire extinguishers.",
+          "They help identify risks so procedures and protective equipment can be chosen."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Hazard symbols guide safe planning, handling, and response."
       }
     ]
@@ -6935,24 +6935,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-170-q1",
         prompt: "What information can an SDS provide?",
         choices: [
-          "Chemical properties, hazards, handling, storage, disposal, and first aid.",
           "Only the history of who discovered the chemical.",
+          "Chemical properties, hazards, handling, storage, disposal, and first aid.",
           "Only the chemical's price.",
           "Only a list of unrelated careers."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Safety Data Sheets give detailed information needed for safe chemical work."
       },
       {
         id: "kp-170-q2",
         prompt: "When should you consult an SDS?",
         choices: [
-          "Before planning or carrying out work with a chemical.",
           "Only after throwing the chemical away.",
           "Only if the label is colourful.",
+          "Before planning or carrying out work with a chemical.",
           "Never, because WHMIS symbols replace details."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "SDS information should be checked before use so risks and procedures are understood."
       },
       {
