@@ -4845,7 +4845,7 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What makes the possible sixth mass extinction different from the five earlier mass extinctions described in the text?",
         choices: [
           "It would involve no species loss.",
-          "It is caused only by normal seasonal changes.",
+          "It is caused by ordinary seasonal population cycles.",
           "Human activities are a major driving force in current biodiversity loss.",
           "It cannot be affected by conservation action."
         ],
@@ -4869,8 +4869,8 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why is biodiversity loss connected to human well-being in this section?",
         choices: [
           "Humans do not depend on ecosystems in any way.",
-          "Biodiversity matters only for naming species.",
-          "Conservation removes all economic questions.",
+          "Biodiversity matters mainly for naming species.",
+          "Conservation is separate from economic questions.",
           "Ecosystem services and healthy land support life and human communities."
         ],
         correctIndex: 3,
@@ -4909,7 +4909,7 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-120-q3",
         prompt: "Which action would most directly reduce human-caused extinction pressure?",
         choices: [
-          "Introducing a new invasive species into every lake.",
+          "Introducing a new invasive species into a sensitive lake.",
           "Increasing land degradation near remaining populations.",
           "Ignoring population status data.",
           "Protecting and restoring habitat for a species at risk."
@@ -4927,7 +4927,7 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which step belongs in a strong conservation campaign for a species at risk?",
         choices: [
           "Pick a logo first and avoid collecting any population evidence.",
-          "Protect only the species but ignore the habitat it depends on.",
+          "Protect the species while overlooking the habitat it depends on.",
           "Check the population status, identify threats, and choose actions that can be evaluated.",
           "Assume the species is recovering without monitoring its population."
         ],
@@ -4939,8 +4939,8 @@ window.SCIENCE10_QUIZZES = {
         prompt: "A class wants to protect a local amphibian whose breeding pond is being damaged. Which action is most directly connected to conservation biology?",
         choices: [
           "Document the population, reduce pond damage, and monitor whether breeding improves.",
-          "Move all amphibians to an unrelated habitat without checking their needs.",
-          "Count only the number of social media views for the campaign.",
+          "Move amphibians to a different habitat without checking their needs.",
+          "Count social media views as the main evidence of success.",
           "Assume the species is safe because it was common ten years ago."
         ],
         correctIndex: 0,
@@ -4970,7 +4970,7 @@ window.SCIENCE10_QUIZZES = {
           "Changing the method each time increases accuracy.",
           "A standardized method makes the measurements more reliable and comparable.",
           "The method does not matter if the sample is small.",
-          "Standardized measurement removes all variation from the population."
+          "Standardized measurement makes the population look less variable than it is."
         ],
         correctIndex: 1,
         explanation: "To compare individuals fairly, the measured trait must be collected in the same way each time."
@@ -4993,8 +4993,8 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "The sample is too small to represent variation in the population well.",
           "Seed mass cannot be measured with a balance.",
-          "All inherited traits are identical within a species.",
-          "Variation can be studied only by looking at DNA sequences."
+          "Inherited traits are identical within a species.",
+          "Variation is better studied through DNA sequences than measurements."
         ],
         correctIndex: 0,
         explanation: "Larger samples usually give a more reliable picture of the range of variation."
@@ -5008,7 +5008,7 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-123-q1",
         prompt: "In a frequency histogram of hand widths, what does the tallest bar usually show?",
         choices: [
-          "The exact hand width of every person in the class.",
+          "A single exact hand width for the whole class.",
           "The trait that has no genetic influence.",
           "The measurement range that must be ignored.",
           "The measurement range that occurred most often in the sample."
@@ -5020,9 +5020,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-123-q2",
         prompt: "A continuous trait forms a bell-shaped distribution. What does this usually mean?",
         choices: [
-          "Every individual has exactly the same measurement.",
+          "Most individuals have exactly the same measurement.",
           "Most individuals are near the middle range, with fewer at the extremes.",
-          "Only the extreme values are real measurements.",
+          "Extreme values are more important than middle ranges.",
           "The trait cannot be influenced by inheritance."
         ],
         correctIndex: 1,
@@ -5050,7 +5050,7 @@ window.SCIENCE10_QUIZZES = {
         prompt: "In a beak adaptation model, what could different tweezers or forceps represent?",
         choices: [
           "Different beak structures that may collect different foods with different success.",
-          "Different species that all have identical feeding ability.",
+          "Different species with similar feeding success across foods.",
           "Different weather events that do not affect food supply.",
           "Different alleles that cannot influence survival."
         ],
@@ -5062,7 +5062,7 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Tool A picks up 18 small seeds and 3 large seeds in 30 s. Tool B picks up 6 small seeds and 15 large seeds. If only large seeds are common, which tool would the model suggest is favoured?",
         choices: [
           "Tool A, because it gathers fewer large seeds.",
-          "Neither tool, because food type never matters.",
+          "Neither tool, because food type is less important than trial order.",
           "Both tools equally, because the small-seed result is higher for Tool A.",
           "Tool B, because it gathers more large seeds."
         ],
@@ -5073,9 +5073,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-124-q3",
         prompt: "What is the model trying to show about small advantages?",
         choices: [
-          "A beak advantage matters only for one trial and never for future populations.",
+          "A beak advantage matters in one trial but would not affect reproduction.",
           "A small feeding advantage can affect survival and reproduction over many generations.",
-          "All beak shapes are always equally useful in every environment.",
+          "Beak shapes are equally useful when the environment changes.",
           "Adaptation happens because individuals choose new genes when food changes."
         ],
         correctIndex: 1,
@@ -5090,8 +5090,8 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-125-q1",
         prompt: "A drought greatly reduces the number of soft, small seeds but leaves many tough, large seeds. What selective pressure might increase?",
         choices: [
-          "Pressure favouring birds that can eat only the missing small seeds.",
-          "Pressure making every bird's beak change instantly.",
+          "Pressure favouring birds specialized for the now-rare small seeds.",
+          "Pressure making each bird's beak change as soon as food changes.",
           "Pressure favouring birds with beaks that can handle tough, large seeds.",
           "No pressure, because food supply cannot affect survival."
         ],
@@ -5103,9 +5103,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "In a model trial, seed A drops from 40 seeds to 4 seeds after an environmental event. What is the best interpretation?",
         choices: [
           "The event changed food availability, so feeding success may shift among beak types.",
-          "The event proves all beak types are now extinct.",
+          "The event suggests the beak types are now the same species.",
           "The event has no connection to adaptation models.",
-          "The event guarantees the same tool will always win."
+          "The event means the same tool should win regardless of food type."
         ],
         correctIndex: 0,
         explanation: "A change in available food can change which structure performs best in the model."
@@ -5114,9 +5114,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-125-q3",
         prompt: "Which prediction best uses natural selection reasoning?",
         choices: [
-          "If the food changes, all individuals immediately grow the same new beak.",
-          "A rare food type always favours the largest population.",
-          "Environmental change affects only behaviour and never survival.",
+          "If the food changes, individuals grow matching beaks during their lifetime.",
+          "A rare food type favours the largest population even if individuals cannot eat it well.",
+          "Environmental change affects behaviour but not survival or reproduction.",
           "If a food type stays common for many generations, traits that help use that food may become more common."
         ],
         correctIndex: 3,
@@ -5131,9 +5131,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-126-q1",
         prompt: "What is one limitation of using tweezers and seeds to model bird beak adaptation?",
         choices: [
-          "The model is useless because it cannot show any pattern at all.",
+          "The model is too simple to reveal useful patterns.",
           "The model leaves out many real factors such as predators, competition, behaviour, and reproduction.",
-          "The model includes every detail of a real ecosystem.",
+          "The model includes enough ecosystem detail to replace field studies.",
           "The model proves that birds are the same as tools."
         ],
         correctIndex: 1,
@@ -5156,8 +5156,8 @@ window.SCIENCE10_QUIZZES = {
         prompt: "How can students improve the reliability of a beak adaptation model?",
         choices: [
           "Run repeated trials, average the results, and keep procedures consistent.",
-          "Use a different timing method for every trial.",
-          "Record only the trial that supports their prediction.",
+          "Use a different timing method for each trial.",
+          "Record the trial that best supports their prediction.",
           "Change the number of seeds randomly during each comparison."
         ],
         correctIndex: 0,
@@ -5172,8 +5172,8 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-127-q1",
         prompt: "How can different frog calls contribute to behavioural isolation?",
         choices: [
-          "Calls change the number of chromosomes in every frog.",
-          "Calls make all frogs look identical.",
+          "Calls change chromosome number in frogs.",
+          "Calls make related frogs look alike.",
           "Calls prevent any frog from surviving in water.",
           "Frogs may choose mates with the correct call, reducing interbreeding with other groups."
         ],
@@ -5196,7 +5196,7 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-127-q3",
         prompt: "Why might similar-looking leopard frogs still be classified as different species?",
         choices: [
-          "Species must always be identified only by body colour.",
+          "Species identification should rely on body colour before mating signals.",
           "If organisms look similar, their mating signals must be identical.",
           "They may have different calls and other differences that limit interbreeding.",
           "Frogs cannot be separated into more than one species."
@@ -5213,10 +5213,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-128-q1",
         prompt: "Why does it matter if leopard frogs are eight related species rather than one widespread species?",
         choices: [
-          "A decline in one species could be hidden if all frogs are counted as a single group.",
+          "A decline in one species could be hidden if different frogs are counted as a single group.",
           "It means amphibian populations cannot decline.",
           "It proves conservation monitoring is unnecessary.",
-          "It means calls are never useful for identifying species."
+          "It means calls are not useful for identifying species."
         ],
         correctIndex: 0,
         explanation: "Correct species identification helps scientists notice which populations or species need protection."
@@ -5226,7 +5226,7 @@ window.SCIENCE10_QUIZZES = {
         prompt: "A wetland survey reports 'many leopard frogs' but does not identify the species. What conservation problem could this create?",
         choices: [
           "The survey automatically becomes more accurate.",
-          "All conservation decisions become easier.",
+          "Conservation decisions become easier because species names are combined.",
           "Species identification has no role in monitoring.",
           "A rare species might be overlooked because it is grouped with more common relatives."
         ],
@@ -5240,7 +5240,7 @@ window.SCIENCE10_QUIZZES = {
           "One blurry photograph of a frog from each population.",
           "Consistent differences in mating calls plus other biological differences.",
           "The fact that both populations live near water.",
-          "The assumption that all frogs in North America are the same species."
+          "The assumption that leopard frogs across North America are one species."
         ],
         correctIndex: 1,
         explanation: "Multiple consistent differences, especially those linked to reproduction, strengthen species identification."
@@ -5255,9 +5255,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "On an island with rocky tide pools and slippery algae, which rat trait would most likely be useful?",
         choices: [
           "Bright colours that make the rat easier for predators to see.",
-          "A body plan that works only in dry desert sand.",
+          "A body plan suited to dry desert sand rather than wet rocks.",
           "Good grip and feeding traits suited to shore organisms.",
-          "Loss of all ability to find food."
+          "Poor ability to find food in shore habitats."
         ],
         correctIndex: 2,
         explanation: "Useful adaptations should match the island's food sources, surface, predators, and climate."
@@ -5267,9 +5267,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why can rats on different islands become adapted in different ways?",
         choices: [
           "Each island can have different foods, predators, geography, and climate.",
-          "All islands have exactly the same selective pressures.",
+          "Island environments have matching selective pressures.",
           "Isolation prevents natural selection from acting.",
-          "A population's traits change only when humans design them."
+          "A population's traits change when humans design them."
         ],
         correctIndex: 0,
         explanation: "Different environments can favour different traits in isolated populations."
@@ -5279,8 +5279,8 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which island-design explanation uses natural selection correctly?",
         choices: [
           "A rat decides which alleles it needs and adds them to its DNA.",
-          "Every rat on the island changes traits at the same time.",
-          "Adaptations appear only because the island is old.",
+          "Many rats on the island change traits at the same time.",
+          "Adaptations appear because the island is old, not because traits affect survival.",
           "Rats with traits that help them survive and reproduce on the island may pass those alleles on more often."
         ],
         correctIndex: 3,
@@ -5295,10 +5295,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-130-q1",
         prompt: "A rat from Island A washes onto Island B. What must happen before its alleles can affect Island B's gene pool?",
         choices: [
-          "It only needs to arrive on the shore.",
+          "Arrival on the shore is enough, even without reproduction.",
           "It must survive, reproduce, and pass alleles to offspring in the Island B population.",
-          "It must be larger than every other rat, even if it never reproduces.",
-          "It must change all existing alleles in the population immediately."
+          "It must be larger than nearby rats, even if it fails to reproduce.",
+          "It must replace existing alleles in the population immediately."
         ],
         correctIndex: 1,
         explanation: "Migration affects a gene pool only when migrants contribute alleles through reproduction."
@@ -5320,9 +5320,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why might a migrant rat fail to change the future population even if it reaches a new island?",
         choices: [
           "It may be poorly adapted to the new island and fail to survive or reproduce.",
-          "Arrival always guarantees many offspring.",
+          "Arrival guarantees many offspring.",
           "Gene pools change without reproduction.",
-          "Migration always removes all existing variation."
+          "Migration removes existing variation as new alleles arrive."
         ],
         correctIndex: 0,
         explanation: "Survival and reproduction determine whether the migrant's alleles become part of the population."
