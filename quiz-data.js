@@ -7796,12 +7796,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-191-q1",
         prompt: "What is an ionic bond?",
         choices: [
-          "A strong attraction between oppositely charged ions.",
           "A pair of atoms sharing electrons equally.",
           "A weak attraction between two neutral molecules only.",
-          "A bond that contains no electrostatic attraction."
+          "A strong attraction between oppositely charged ions.",
+          "A bond that forms only between two non-metals by sharing electrons."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Ionic bonds are electrostatic attractions between cations and anions."
       },
       {
@@ -7820,12 +7820,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-191-q3",
         prompt: "Why does electron transfer often increase stability?",
         choices: [
-          "The ions can achieve full valence shells.",
           "The atoms lose all electrons.",
           "The ions become unrelated to charge.",
-          "The compound becomes a separate molecule."
+          "The compound becomes a separate molecule.",
+          "The ions can achieve full valence shells."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Full valence shells are associated with greater stability."
       }
     ]
@@ -7837,24 +7837,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-192-q1",
         prompt: "How do covalent compounds form?",
         choices: [
-          "Non-metal atoms share valence electrons.",
           "Metal atoms transfer electrons to non-metals only.",
+          "Non-metal atoms share valence electrons.",
           "Ions arrange in a crystal lattice only.",
           "Atoms form bonds without electrons."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Covalent compounds form when non-metal atoms share electrons."
       },
       {
         id: "kp-192-q2",
         prompt: "Which substance is most likely covalent?",
         choices: [
-          "Carbon dioxide, CO2.",
           "Sodium chloride, NaCl.",
           "Magnesium oxide, MgO.",
+          "Carbon dioxide, CO2.",
           "Calcium fluoride, CaF2."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Carbon and oxygen are non-metals, so carbon dioxide is covalent."
       },
       {
@@ -7878,36 +7878,36 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-193-q1",
         prompt: "What is a covalent bond?",
         choices: [
-          "A strong attraction formed when atoms share valence electrons.",
           "A bond between cations and anions only.",
           "A reaction that destroys atoms.",
-          "A label on a fire extinguisher."
+          "A formula unit in a crystal lattice.",
+          "A strong attraction formed when atoms share valence electrons."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Covalent bonds involve shared electron pairs attracted to atomic nuclei."
       },
       {
         id: "kp-193-q2",
         prompt: "What does a double covalent bond represent?",
         choices: [
-          "Two shared pairs of electrons between atoms.",
           "Two formula units in an ionic lattice.",
+          "Two shared pairs of electrons between atoms.",
           "Two cations repelling each other.",
           "Two fire classes on one label."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "A double bond means the atoms share two pairs of electrons."
       },
       {
         id: "kp-193-q3",
         prompt: "In a Lewis diagram, what does a single line between two atoms usually represent?",
         choices: [
-          "One shared pair of electrons.",
           "One transferred proton.",
           "One separate molecule of sodium chloride.",
+          "One shared pair of electrons.",
           "One unit of mass lost in the reaction."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "A line in a Lewis diagram represents a bonding pair of electrons."
       }
     ]
@@ -7931,24 +7931,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-194-q2",
         prompt: "Which is a molecule but not a compound?",
         choices: [
-          "Oxygen gas, O2.",
           "Water, H2O.",
           "Sodium chloride, NaCl.",
-          "Magnesium oxide, MgO."
+          "Magnesium oxide, MgO.",
+          "Oxygen gas, O2."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "O2 is a molecule because oxygen atoms are covalently bonded, but it is not a compound because it has one element."
       },
       {
         id: "kp-194-q3",
         prompt: "Why is water described as molecular?",
         choices: [
-          "It exists as independent H2O molecules held together by covalent bonds within each molecule.",
           "It is a continuous ionic lattice.",
+          "It exists as independent H2O molecules held together by covalent bonds within each molecule.",
           "It contains only one element.",
           "It has no chemical bonds."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Water is a covalent compound whose smallest independent units are molecules."
       }
     ]
@@ -7960,12 +7960,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-195-q1",
         prompt: "Why is sodium chloride usually described by formula units rather than molecules?",
         choices: [
-          "It forms a continuous ionic lattice instead of separate NaCl molecules.",
           "It has no ions.",
           "It is made only of covalent bonds.",
+          "It forms a continuous ionic lattice instead of separate NaCl molecules.",
           "It contains only sodium atoms."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Ionic compounds are represented by the smallest ratio of ions, called a formula unit."
       },
       {
@@ -7984,12 +7984,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-195-q3",
         prompt: "Which statement avoids a common mistake?",
         choices: [
-          "Ionic compounds have formula units; many covalent substances have molecules.",
           "Every chemical formula represents a separate molecule.",
           "Ionic compounds are always made of neutral atoms only.",
-          "Covalent compounds are always represented by formula units."
+          "Covalent compounds are always represented by formula units.",
+          "Ionic compounds have formula units; many covalent substances have molecules."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Formula units and molecules describe different kinds of structures."
       }
     ]
@@ -8001,24 +8001,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-196-q1",
         prompt: "What happens to atoms during a chemical reaction?",
         choices: [
-          "They are rearranged into new substances.",
           "They are created from nothing.",
+          "They are rearranged into new substances.",
           "They vanish when products form.",
           "They stop being matter."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Chemical reactions rearrange existing atoms into products."
       },
       {
         id: "kp-196-q2",
         prompt: "Methane reacts with oxygen to form carbon dioxide and water. What should be tracked to understand the reaction?",
         choices: [
-          "Where each carbon, hydrogen, and oxygen atom goes in the products.",
           "Only the colour of the flame.",
           "Only the container shape.",
+          "Where each carbon, hydrogen, and oxygen atom goes in the products.",
           "Only the names of the reactants."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Tracking atoms shows how reactants are rearranged into products."
       },
       {
@@ -8042,36 +8042,36 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-197-q1",
         prompt: "Why must some chemical bonds be broken during a reaction?",
         choices: [
-          "Atoms must separate from old arrangements before new arrangements can form.",
           "Bonds must be broken so atoms can disappear.",
           "New products form without changing bonds.",
-          "Bonds are unrelated to reactions."
+          "Bonds are unrelated to reactions.",
+          "Atoms must separate from old arrangements before new arrangements can form."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Reactant bonds are broken so atoms can rearrange."
       },
       {
         id: "kp-197-q2",
         prompt: "What is required to break a chemical bond?",
         choices: [
-          "Energy must be added.",
           "Energy is always released first.",
+          "Energy must be added.",
           "No energy is involved.",
           "Only a fire extinguisher label is needed."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Breaking the electrostatic attraction in a bond requires energy input."
       },
       {
         id: "kp-197-q3",
         prompt: "What does the amount of energy needed to break a bond depend on?",
         choices: [
-          "The atoms or ions involved in the bond.",
           "The colour of the textbook page.",
           "The size of the classroom.",
+          "The atoms or ions involved in the bond.",
           "Whether the compound name is short."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Different bonds have different strengths depending on the particles involved."
       }
     ]
@@ -8095,24 +8095,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-198-q2",
         prompt: "What happens to energy when a chemical bond forms?",
         choices: [
-          "Energy is released.",
           "Energy must always be absorbed and never released.",
           "No energy change occurs.",
-          "Mass is destroyed to make the bond."
+          "Mass is destroyed to make the bond.",
+          "Energy is released."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Bond formation releases energy as atoms move to a more stable arrangement."
       },
       {
         id: "kp-198-q3",
         prompt: "Which observation could suggest that new products formed?",
         choices: [
-          "A new gas, solid, colour, or other property appears after reactants interact.",
           "The substances are simply moved to a new beaker.",
+          "A new gas, solid, colour, or other property appears after reactants interact.",
           "A solid is broken into smaller pieces only.",
           "A label is placed on the container."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "New properties can indicate that new substances and bonds have formed."
       }
     ]
@@ -8124,12 +8124,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-199-q1",
         prompt: "Which statement about bond energy is correct?",
         choices: [
-          "Breaking bonds requires energy, while forming bonds releases energy.",
           "Breaking bonds releases energy, while forming bonds always requires energy.",
           "Both breaking and forming bonds destroy mass.",
+          "Breaking bonds requires energy, while forming bonds releases energy.",
           "Energy is never involved in bonding."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "This is the key energy pattern for chemical bonds."
       },
       {
@@ -8148,12 +8148,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-199-q3",
         prompt: "Why do fireworks involve energy changes?",
         choices: [
-          "Bonds in reactants break and new bonds form in products, producing heat, gas, and light.",
           "Atoms in fireworks are not rearranged.",
           "Fireworks are physical changes only.",
-          "Chemical bonds do not store or release energy."
+          "Chemical bonds do not store or release energy.",
+          "Bonds in reactants break and new bonds form in products, producing heat, gas, and light."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Fireworks are dramatic examples of chemical reactions with energy changes."
       }
     ]
@@ -8165,24 +8165,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-200-q1",
         prompt: "Why do atoms form ionic or covalent bonds?",
         choices: [
-          "Bonding can help atoms achieve more stable valence electron arrangements.",
           "Atoms bond to increase instability on purpose.",
+          "Bonding can help atoms achieve more stable valence electron arrangements.",
           "Atoms bond only to change their nuclei.",
           "Bonding is unrelated to valence electrons."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Atoms often become more stable when valence shells are filled through transfer or sharing of electrons."
       },
       {
         id: "kp-200-q2",
         prompt: "How can a non-metal atom achieve a full valence shell in a covalent compound?",
         choices: [
-          "By sharing valence electrons with another non-metal atom.",
           "By losing all its protons.",
           "By becoming a fire extinguisher.",
+          "By sharing valence electrons with another non-metal atom.",
           "By forming no bonds at all."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Covalent bonding fills valence shells through shared electron pairs."
       },
       {
