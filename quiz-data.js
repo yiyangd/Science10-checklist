@@ -10092,9 +10092,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-247-q1",
         prompt: "In shape-shifting paper, what happens when thermoplastic polymers absorb energy in an oven?",
         choices: [
-          "The polymer atoms disappear.",
-          "The paper turns into a gas instantly.",
-          "No molecular motion changes.",
+          "The polymer chains become more rigid and resist changing shape.",
+          "The paper dries out, so ordinary folds hold their position.",
+          "The polymer absorbs heat but its molecules keep the same motion.",
           "Molecular motion increases and the polymer can shrink from its stretched shape."
         ],
         correctIndex: 3,
@@ -10104,10 +10104,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-247-q2",
         prompt: "How does polymer shrinkage help the paper fold?",
         choices: [
-          "Shrinking removes all folds from the paper.",
+          "Shrinking makes the entire sheet expand as one flat layer.",
           "Shrinking in selected places lifts and bends the paper into a three-dimensional form.",
-          "The polymer becomes a catalyst for combustion only.",
-          "The paper folds because mass is destroyed."
+          "The polymer reacts away so gaps pull the paper inward.",
+          "Heating weakens the paper fibres until gravity forms the final shape."
         ],
         correctIndex: 1,
         explanation: "Placed polymer strips can pull parts of the paper as they shrink."
@@ -10116,10 +10116,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-247-q3",
         prompt: "Which idea connects this material to energy transfer?",
         choices: [
-          "Energy has no effect on polymers.",
-          "Only colour changes can show energy transfer.",
+          "Energy transfer matters mainly because it changes the paper's colour.",
+          "The oven supplies matter that becomes part of the polymer.",
           "Energy absorbed by the polymer changes molecular motion and material shape.",
-          "The polymer creates energy from nothing."
+          "The polymer stores heat without changing its molecular arrangement."
         ],
         correctIndex: 2,
         explanation: "The material's behaviour depends on energy input changing particle motion."
@@ -10134,9 +10134,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why is shape-shifting paper an example of chemistry supporting material design?",
         choices: [
           "The chemical and physical properties of polymers are used to create useful structures.",
-          "The material works only because chemistry is avoided.",
-          "The paper folds without any material properties changing.",
-          "The design depends on destroying atoms."
+          "The design relies mostly on cutting patterns, while polymer behaviour is incidental.",
+          "The paper folds because heating changes the external air pressure around it.",
+          "The polymer is chosen because it stays unchanged under the oven conditions."
         ],
         correctIndex: 0,
         explanation: "Material design can use molecular behaviour to produce large-scale structure."
@@ -10145,9 +10145,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-248-q2",
         prompt: "Which design goal could be supported by lightweight shape-shifting materials?",
         choices: [
-          "Making packaging heavier for no reason.",
-          "Preventing all energy transfer.",
-          "Replacing every chemical property with a drawing.",
+          "Making packaging thicker so it needs more raw material to be strong.",
+          "Choosing materials that soften but do not hold a useful shape.",
+          "Using a drawing to plan folds without considering material response.",
           "Creating packaging that forms a strong structure with less material."
         ],
         correctIndex: 3,
@@ -10157,10 +10157,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-248-q3",
         prompt: "A designer chooses a polymer because it shrinks predictably when heated. What chemistry idea are they using?",
         choices: [
-          "Subscripts should be changed to fold paper.",
+          "Chemical symbols can be rearranged to make a material fold.",
           "Material properties can be matched to a desired function.",
-          "Catalysts are always used up.",
-          "Energy cannot affect materials."
+          "A catalyst is needed whenever a material changes shape.",
+          "Heating changes the design drawing rather than the material."
         ],
         correctIndex: 1,
         explanation: "Design can rely on predictable material responses to conditions."
@@ -10174,10 +10174,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-249-q1",
         prompt: "What does the shape-shifting paper example show about science and creativity?",
         choices: [
-          "Science must be separated from design and art.",
-          "Creative ideas cannot be tested.",
+          "Design ideas are creative, but chemistry is mainly useful after the product is finished.",
+          "Creative ideas are strongest when they avoid measurement and testing.",
           "Ideas from chemistry, art, design, and engineering can combine to create new technologies.",
-          "Engineering never uses chemistry."
+          "Engineering uses shape and structure, while chemistry mostly supplies names for materials."
         ],
         correctIndex: 2,
         explanation: "Innovation often comes from combining knowledge across fields."
@@ -10187,9 +10187,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which project best connects a personal interest with science?",
         choices: [
           "Using polymer behaviour to design an origami-inspired package",
-          "Copying a product name without understanding materials.",
-          "Ignoring safety data while building a toy.",
-          "Choosing materials only by favourite colour."
+          "Choosing an origami pattern first and testing material behaviour afterward",
+          "Making a toy attractive before checking how the material responds to heat",
+          "Selecting a bright material because appearance is easier to evaluate than performance"
         ],
         correctIndex: 0,
         explanation: "A strong project uses science concepts to solve a creative design problem."
@@ -10198,9 +10198,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-249-q3",
         prompt: "Why should creative science designs still be evaluated?",
         choices: [
-          "Evaluation stops all innovation.",
-          "A creative idea is always automatically safe.",
-          "Materials do not have properties.",
+          "Evaluation is mainly for advertising, because creative designs already show they work.",
+          "Safety checks matter less when a material is lightweight.",
+          "A design that folds correctly once will work in the same way in any condition.",
           "They must be checked for function, safety, cost, and environmental impact."
         ],
         correctIndex: 3,
@@ -10215,10 +10215,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-250-q1",
         prompt: "Which career task clearly uses chemistry knowledge?",
         choices: [
-          "A person alphabetizes book titles only.",
+          "A technician sorts sample labels before sending them to another lab.",
           "A forensic scientist analyzes chemical evidence from a scene.",
-          "A driver chooses a radio station.",
-          "A student counts empty chairs."
+          "A worker records the location of equipment without testing materials.",
+          "A planner schedules staff for a lab but does not interpret the samples."
         ],
         correctIndex: 1,
         explanation: "Forensic science can depend on chemical tests and evidence interpretation."
@@ -10227,10 +10227,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-250-q2",
         prompt: "Why might a mudlogger need chemistry and geology knowledge?",
         choices: [
-          "They design clothing colours only.",
-          "They never use material evidence.",
+          "They mainly use chemistry to choose drilling equipment colours.",
+          "They identify underground samples by depth but do not interpret their composition.",
           "They analyze underground rock samples and information related to oil and gas deposits.",
-          "They study only weather forecasts."
+          "They focus on surface weather because rock samples give little chemical information."
         ],
         correctIndex: 2,
         explanation: "The textbook connects mudlogging to chemistry, geology, and underground samples."
@@ -10240,9 +10240,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which pair of careers from this section both connect to chemical processes or materials?",
         choices: [
           "Food scientist and materials technician",
-          "Poet and piano tuner only",
-          "Bus driver and novelist only",
-          "Painter and cashier only"
+          "Architectural drafter and delivery scheduler",
+          "Graphic designer and office receptionist",
+          "Tour guide and event photographer"
         ],
         correctIndex: 0,
         explanation: "Food science and materials work can both require chemical knowledge."
@@ -10256,10 +10256,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-251-q1",
         prompt: "How can a fire protection engineer use chemistry?",
         choices: [
-          "By ignoring how fires start and spread.",
-          "By choosing safety systems only by appearance.",
+          "By focusing on alarm placement while treating material fire risk as mostly similar.",
+          "By choosing suppression systems mainly from their cost and appearance.",
           "By understanding combustion, suppression chemicals, material risks, and emergency planning.",
-          "By assuming all building materials burn in exactly the same way."
+          "By assuming ventilation design matters more than the chemistry of combustion."
         ],
         correctIndex: 2,
         explanation: "Fire protection involves chemical processes, materials, design, and safety."
@@ -10269,9 +10269,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which public-safety decision depends on chemistry?",
         choices: [
           "Choosing a response plan for a spill based on the chemical's hazards",
-          "Choosing a hallway poster by colour only",
-          "Counting the number of desks in a room",
-          "Naming a sports team"
+          "Choosing a storage room based mainly on how close it is to the entrance",
+          "Counting containers before reading the safety information",
+          "Using the same cleanup method for liquids that look similar"
         ],
         correctIndex: 0,
         explanation: "Chemical hazards influence safe handling, response, and protection."
@@ -10280,9 +10280,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-251-q3",
         prompt: "Why do environmental assessors need chemistry knowledge?",
         choices: [
-          "They only need to memorize street names.",
-          "They prove that pollutants disappear after being diluted.",
-          "They avoid studying material properties.",
+          "They estimate risk mainly from where a sample was taken, not what it contains.",
+          "They treat dilution as a complete solution once a pollutant is hard to see.",
+          "They focus on property boundaries before considering how substances move.",
           "They may evaluate how substances move through and affect soil, water, air, and living systems."
         ],
         correctIndex: 3,
@@ -10297,10 +10297,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-252-q1",
         prompt: "What might a fuel researcher compare when studying fuels?",
         choices: [
-          "Only the colour of fuel containers.",
+          "Container labels and colour, because those summarize fuel quality.",
           "Energy output, emissions, renewability, and environmental impacts.",
-          "Only the spelling of fuel names.",
-          "Whether fuels can produce energy without chemical changes."
+          "Fuel names and marketing claims before checking reaction evidence.",
+          "Whether a fuel burns quickly, without considering by-products."
         ],
         correctIndex: 1,
         explanation: "Fuel research connects chemistry to performance and sustainability."
@@ -10309,10 +10309,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-252-q2",
         prompt: "Why are alternative fuels part of a chemistry-and-sustainability discussion?",
         choices: [
-          "Alternative fuels do not involve matter.",
-          "Fuel choices cannot affect climate or air quality.",
+          "Alternative fuels are mainly a transportation issue, not a chemical one.",
+          "Fuel choices matter mostly for cost, while emissions are separate from chemistry.",
           "Different reactions and fuel sources can have different emissions and impacts.",
-          "All fuels have identical chemical reactions."
+          "A renewable source guarantees that the fuel's reaction products are harmless."
         ],
         correctIndex: 2,
         explanation: "Energy decisions depend on chemical processes and their consequences."
@@ -10322,9 +10322,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which question would best guide a sustainable fuel investigation?",
         choices: [
           "What are the useful energy output, by-products, costs, and environmental trade-offs?",
-          "Which fuel has the shortest name?",
-          "Can fuel create matter from nothing?",
-          "Can emissions be ignored if the reaction is fast?"
+          "Which fuel has the simplest formula to write in a notebook?",
+          "Can the fuel burn hot enough to make by-products less important?",
+          "Which fuel is easiest to transport before checking emissions or renewability?"
         ],
         correctIndex: 0,
         explanation: "Sustainability requires evaluating benefits and impacts together."
