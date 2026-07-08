@@ -1236,8 +1236,8 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-31-q1",
         prompt: "What was a major goal of the Human Genome Project?",
         choices: [
-          "To identify only the proteins found in human blood samples.",
-          "To prove that all human traits are controlled by one chromosome.",
+          "To identify proteins in selected human blood samples.",
+          "To test whether most traits are controlled by one chromosome.",
           "To determine the complete sequence of the human genome and identify human genes.",
           "To replace chromosome studies with karyotypes alone."
         ],
@@ -1249,8 +1249,8 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why can genome sequencing help scientists understand human genetic information?",
         choices: [
           "It shows the order of DNA bases that can be studied for gene locations and functions.",
-          "It shows only chromosome size, so base order no longer matters.",
-          "It changes every person's inherited traits as soon as the sequence is read.",
+          "It shows chromosome size better than base order.",
+          "It changes a person's inherited traits as soon as the sequence is read.",
           "It proves that DNA outside genes has no possible function."
         ],
         correctIndex: 0,
@@ -1260,8 +1260,8 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-31-q3",
         prompt: "Which statement avoids a common misconception about the Human Genome Project?",
         choices: [
-          "The project answered every possible question about every human trait.",
-          "The project proved that non-human genomes cannot help human research.",
+          "The project answered most questions about how each human trait works.",
+          "The project proved that non-human genomes are less useful for human research.",
           "The project showed that genes are unrelated to DNA sequence.",
           "Completing the sequence was a major step, but interpreting the genome continues."
         ],
@@ -1279,7 +1279,7 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "The human genome has about 21 base pairs and about 3 billion genes.",
           "The human genome has about \\(3 \\times 10^9\\) base pairs and about 21 000 genes.",
-          "The human genome contains only genes, with no other DNA sequences.",
+          "The human genome is mostly protein-coding genes with little other DNA.",
           "The human genome is mainly a list of proteins rather than DNA bases."
         ],
         correctIndex: 1,
@@ -1303,7 +1303,7 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "Some DNA outside genes can still be important even if it does not directly code for proteins.",
           "DNA outside genes is not part of chromosomes.",
-          "Only protein-coding DNA can be included in a genome sequence.",
+          "Protein-coding DNA is the main DNA included in a genome sequence.",
           "The existence of non-coding DNA proves genes are not made of DNA."
         ],
         correctIndex: 0,
@@ -1318,9 +1318,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-33-q1",
         prompt: "Why does genome research raise ethical questions?",
         choices: [
-          "Genetic information is never connected to families or communities.",
-          "Genetic information is useful only after it is made public.",
-          "Ethics applies only to plant breeding, not human DNA data.",
+          "Genetic information is usually separate from families or communities.",
+          "Genetic information becomes more useful when it is made public.",
+          "Ethics applies mainly to plant breeding rather than human DNA data.",
           "Genetic information can be personal and may affect privacy, ownership, and use of data."
         ],
         correctIndex: 3,
@@ -1332,7 +1332,7 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "Whether chromosome number makes consent unnecessary.",
           "How consent, privacy, community impact, and control of information will be handled.",
-          "Whether all communities must have identical gene pools before research begins.",
+          "Whether communities should have similar gene pools before research begins.",
           "Whether DNA data should be treated as non-personal once it is sequenced."
         ],
         correctIndex: 1,
@@ -1360,9 +1360,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "How are hybrid crop varieties usually produced?",
         choices: [
           "By crossing two plant lines to emphasize selected traits.",
-          "By preserving only old seeds in a seed bank without crossing plants.",
-          "By removing inherited variation from every plant in a crop species.",
-          "By choosing only plants that cannot reproduce by pollination."
+          "By preserving older seeds in a seed bank without crossing plants.",
+          "By reducing inherited variation so crop plants become easier to sort.",
+          "By choosing plants mainly because they do not reproduce by pollination."
         ],
         correctIndex: 0,
         explanation: "Hybrids are produced by crossing plant lines to combine or enhance chosen traits."
@@ -1373,7 +1373,7 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "The ability to grow without inherited traits.",
           "The absence of chromosomes in harvested seeds.",
-          "A guarantee that all offspring seeds remain fertile forever.",
+          "A guarantee that offspring seeds will keep the same selected traits.",
           "Longer shelf life."
         ],
         correctIndex: 3,
@@ -1383,10 +1383,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-34-q3",
         prompt: "Which statement fairly compares a possible benefit and limitation of hybrids?",
         choices: [
-          "They always preserve regional heritage gene pools better than native varieties.",
+          "They preserve regional heritage gene pools better when they have strong market traits.",
           "They may have selected market traits, but some hybrid crops may not produce fertile seeds for replanting.",
           "They are defined as non-patented plants that are at least 50 years old.",
-          "They are useful only because they contain no inherited traits."
+          "They are useful because they contain fewer inherited trait differences."
         ],
         correctIndex: 1,
         explanation: "Hybrids can be bred for useful traits, but they may create dependence on buying new seed."
@@ -1400,8 +1400,8 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-35-q1",
         prompt: "Which description best matches native and heritage crop varieties in this section?",
         choices: [
-          "New hybrid lines selected only for longer shelf life.",
-          "Plants that cannot produce fertile seeds after harvest.",
+          "New hybrid lines selected mainly for longer shelf life.",
+          "Plants bred for shelf life that may need new seed purchases each year.",
           "Naturally pollinated, non-patented plants that can produce fertile seeds.",
           "Plants defined by having no regional history or adaptations."
         ],
@@ -1413,9 +1413,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why can local heritage varieties be useful in a region?",
         choices: [
           "They may be adapted to local conditions and show resistance to pests or disease.",
-          "They are useful only if they have no local adaptations.",
-          "They remove all alleles except the ones found in hybrids.",
-          "They always require more irrigation than hybrid crops."
+          "They are useful when local adaptation does not affect crop survival.",
+          "They replace regional alleles with alleles from commercial hybrids.",
+          "They may need more irrigation if they are not matched to local conditions."
         ],
         correctIndex: 0,
         explanation: "Local adaptation can help crops tolerate regional environmental pressures."
@@ -1424,9 +1424,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-35-q3",
         prompt: "Which statement connects heritage varieties to genetic diversity?",
         choices: [
-          "Saving heritage varieties always makes every crop genetically identical.",
-          "Heritage crops affect taste but cannot affect a gene pool.",
-          "Only hybrid crops can contain inherited variation.",
+          "Saving heritage varieties makes crop populations more uniform each generation.",
+          "Heritage crops affect taste more than the crop gene pool.",
+          "Hybrid crops contain inherited variation more reliably than local varieties.",
           "Maintaining more plant varieties can keep more alleles in the gene pool."
         ],
         correctIndex: 3,
@@ -1441,9 +1441,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-36-q1",
         prompt: "What is one main difference between a seed library and a seed bank?",
         choices: [
-          "A seed library preserves only microscope slides, while a seed bank lends books.",
+          "A seed library preserves reference labels, while a seed bank lends planting guides.",
           "A seed library distributes seeds and information, while a seed bank preserves seeds for future use.",
-          "A seed library is only for hybrid crops, while a seed bank is only for animals.",
+          "A seed library is mainly for hybrid crops, while a seed bank is mainly for animals.",
           "A seed library removes local varieties, while a seed bank prevents storage."
         ],
         correctIndex: 1,
@@ -1453,10 +1453,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-36-q2",
         prompt: "Why might seeds be dried and kept cold in a seed bank?",
         choices: [
-          "To make all stored seeds genetically identical.",
+          "To make stored seeds develop the same traits before planting.",
           "To convert heritage varieties into patented hybrids.",
           "To help preserve them for long periods in case seed reserves are needed later.",
-          "To ensure the seeds can never germinate again."
+          "To stop the seeds from being useful after long storage."
         ],
         correctIndex: 2,
         explanation: "Cold, dry storage can help preserve seeds for future recovery or use."
@@ -1466,9 +1466,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which scenario best shows seed preservation supporting biodiversity?",
         choices: [
           "A community stores and shares several local crop varieties so their genetic diversity is not lost.",
-          "A farm grows only one identical variety and discards all other seeds.",
+          "A farm grows one uniform variety and stores the package labels.",
           "A seed bank stores labels but no seeds or living material.",
-          "A crop program avoids all naturally pollinated local plants."
+          "A crop program focuses on one high-yield variety and sets aside local plants."
         ],
         correctIndex: 0,
         explanation: "Seed sharing and banking can help keep diverse plant varieties available."
@@ -1482,8 +1482,8 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-37-q1",
         prompt: "Which sequence best describes how scientists prepare chromosomes for a karyotype?",
         choices: [
-          "Collect cells, sequence every base pair, then arrange genes by function.",
-          "Collect chromosomes after meiosis only, then sort by allele dominance.",
+          "Collect cells, sequence base regions, then arrange genes by function.",
+          "Collect chromosomes after meiosis, then sort by allele dominance.",
           "Collect RNA, translate it, and photograph the protein products.",
           "Collect cells, stop them during mitosis, stain chromosomes, then photograph them."
         ],
@@ -1496,8 +1496,8 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "The DNA sequence becomes easier to read base by base during mitosis.",
           "Chromosomes are condensed and easier to see during mitosis.",
-          "Mitosis removes all homologous pairs so only one chromosome remains.",
-          "Chromosomes exist only during mitosis and disappear from all other cells."
+          "Mitosis separates homologous pairs so their alleles can be compared.",
+          "Chromosomes are easiest to photograph during mitosis because they are fully stretched out."
         ],
         correctIndex: 1,
         explanation: "Condensed chromosomes are more visible and can be photographed for analysis."
@@ -1509,7 +1509,7 @@ window.SCIENCE10_QUIZZES = {
           "To change chromosome number before the photograph is taken.",
           "To turn autosomes into sex chromosomes.",
           "To make chromosome patterns easier to see under a microscope.",
-          "To prove that all chromosomes are identical in size."
+          "To make homologous chromosomes identical in size."
         ],
         correctIndex: 2,
         explanation: "Staining improves visibility and can reveal patterns useful for matching chromosomes."
@@ -1524,7 +1524,7 @@ window.SCIENCE10_QUIZZES = {
         prompt: "How are chromosomes commonly arranged in a human karyotype?",
         choices: [
           "In homologous pairs, ordered from largest to smallest, with sex chromosomes placed last.",
-          "Only by whether each chromosome carries a dominant allele.",
+          "By whether each chromosome carries a dominant allele.",
           "As one long DNA molecule without pairs.",
           "By RNA sequence after proteins are made."
         ],
@@ -1536,7 +1536,7 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which features help match homologous chromosomes in a karyotype?",
         choices: [
           "The colour of the paper used in the classroom model.",
-          "Whether both chromosomes have exactly identical alleles.",
+          "Whether both chromosomes carry identical alleles.",
           "The order in which chromosomes happened to be photographed.",
           "Similar size, shape, and banding pattern."
         ],
@@ -1564,10 +1564,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-39-q1",
         prompt: "What type of evidence can a karyotype reveal?",
         choices: [
-          "The exact base sequence of every allele in the genome.",
+          "The detailed base sequence of alleles in the genome.",
           "The shelf life of a hybrid crop variety.",
           "An abnormal chromosome number or a large chromosome structure change.",
-          "The amino acid sequence of every protein in the cell."
+          "The amino acid sequence of proteins in the cell."
         ],
         correctIndex: 2,
         explanation: "Karyotypes are useful for spotting chromosome number and large structural abnormalities."
@@ -1588,9 +1588,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-39-q3",
         prompt: "Why can a karyotype miss some genetic disorders?",
         choices: [
-          "Karyotypes show only RNA molecules, not chromosomes.",
-          "Single genes are always larger than whole chromosomes.",
-          "Karyotypes are used only for plant seed storage.",
+          "Karyotypes show RNA molecules more clearly than chromosomes.",
+          "Single genes are usually visible as separate bands on a chromosome.",
+          "Karyotypes are mainly used for plant seed storage.",
           "Some disorders involve changes in a single gene that are too small to see in a chromosome photograph."
         ],
         correctIndex: 3,
@@ -1605,10 +1605,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-40-q1",
         prompt: "What does genetics study?",
         choices: [
-          "Only traits learned after birth and not inherited.",
+          "Traits learned after birth rather than inherited traits.",
           "Heredity, or how traits pass from parents to offspring.",
-          "Only how seeds are dried and stored for later planting.",
-          "Only chromosome photographs used in karyotypes."
+          "How seeds are dried and stored for later planting.",
+          "Chromosome photographs used in karyotypes."
         ],
         correctIndex: 1,
         explanation: "Genetics is the field of biology that studies heredity."
@@ -1631,7 +1631,7 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "Inherited traits are passed through genetic information, although the environment can also affect how traits appear.",
           "Heredity means offspring must be identical to their parents.",
-          "All traits are learned from the environment and none involve genes.",
+          "Traits are learned from the environment before genes can affect them.",
           "Genetics applies to crops and animals but not humans."
         ],
         correctIndex: 0,
