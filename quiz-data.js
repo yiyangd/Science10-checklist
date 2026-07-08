@@ -11076,12 +11076,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-271-q1",
         prompt: "Which pattern represents a metal replacing a metal ion?",
         choices: [
-          "\\(A + BX -> AX + B\\)",
           "\\(AB -> A + B\\)",
           "\\(A + B -> AB\\)",
+          "\\(A + BX -> AX + B\\)",
           "\\(AX + BY -> AY + BX\\)"
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "The free metal A becomes part of the compound while B becomes the free element."
       },
       {
@@ -11100,12 +11100,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-271-q3",
         prompt: "Why is an aqueous compound often involved in metal replacement reactions?",
         choices: [
-          "Dissolving separates ions so a free metal can interact with metal ions.",
           "Water destroys all metals instantly.",
           "Aqueous means no ions are present.",
-          "Only gases can undergo replacement."
+          "Only gases can undergo replacement.",
+          "Dissolving separates ions so a free metal can interact with metal ions."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Aqueous solutions allow ions to move and react."
       }
     ]
@@ -11117,24 +11117,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-272-q1",
         prompt: "Which pattern represents a non-metal replacing a non-metal ion?",
         choices: [
-          "\\(AX + Y -> AY + X\\)",
           "\\(A + B -> AB\\)",
+          "\\(AX + Y -> AY + X\\)",
           "\\(AB -> A + B\\)",
           "\\(AX + BY -> AY + BX\\)"
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "The free non-metal Y replaces X in the compound."
       },
       {
         id: "kp-272-q2",
         prompt: "In \\(Cl_2 + 2NaBr -> 2NaCl + Br_2\\), which element is produced as a free non-metal?",
         choices: [
-          "\\(Br_2\\)",
           "\\(Na\\)",
           "\\(NaCl\\)",
+          "\\(Br_2\\)",
           "\\(Cl^-\\)"
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Chlorine replaces bromide, so bromine is released as Br2."
       },
       {
@@ -11158,36 +11158,36 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-273-q1",
         prompt: "In some single replacement reactions with water, how can hydrogen behave?",
         choices: [
-          "Like a metal that can be replaced by a more reactive metal.",
           "Like a precipitate that never forms gas.",
           "Like a catalyst that is never part of products.",
-          "Like oxygen in hydrocarbon combustion only."
+          "Like oxygen in hydrocarbon combustion only.",
+          "Like a metal that can be replaced by a more reactive metal."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Hydrogen in water can be replaced, producing hydrogen gas."
       },
       {
         id: "kp-273-q2",
         prompt: "Which product would you expect when lithium reacts with water in a single replacement reaction?",
         choices: [
-          "Hydrogen gas",
           "Carbon dioxide gas",
+          "Hydrogen gas",
           "Sulfur dioxide gas",
           "Solid silver"
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Lithium replaces hydrogen in water, producing H2 gas."
       },
       {
         id: "kp-273-q3",
         prompt: "What evidence might show hydrogen gas is produced when a reactive metal is placed in water?",
         choices: [
-          "Bubbles form at the metal surface.",
           "The water label changes colour.",
           "A hydrocarbon appears from nowhere.",
+          "Bubbles form at the metal surface.",
           "All ions stop moving."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Gas production often appears as bubbling."
       }
     ]
@@ -11211,24 +11211,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-274-q2",
         prompt: "Which application involves producing bromine by single replacement?",
         choices: [
-          "Using chlorine to replace bromide ions in solution",
-          "Combining hydrogen and oxygen to make water",
-          "Breaking limestone into lime and carbon dioxide",
-          "Mixing two salts to make barium sulfate"
+          "Combining hydrogen and oxygen to make water.",
+          "Breaking limestone into lime and carbon dioxide.",
+          "Mixing two salts to make barium sulfate.",
+          "Using chlorine to replace bromide ions in solution."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Chlorine can replace bromide, producing bromine."
       },
       {
         id: "kp-274-q3",
         prompt: "What do welding railroad tracks and joining electrical conductors have in common in this topic?",
         choices: [
-          "They can use energy-releasing single replacement reactions to produce molten metal.",
           "They require no chemical reaction.",
+          "They can use energy-releasing single replacement reactions to produce molten metal.",
           "They are both examples of photosynthesis.",
           "They both depend on a positive luminol test."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Both applications use replacement reactions that generate useful heat and metal products."
       }
     ]
@@ -11240,12 +11240,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-275-q1",
         prompt: "What happens in a double replacement reaction?",
         choices: [
-          "Positive ions of two ionic compounds exchange partners to form two new compounds.",
           "One element replaces a metal ion in one compound.",
           "One compound breaks into elements.",
+          "Positive ions of two ionic compounds exchange partners to form two new compounds.",
           "A hydrocarbon burns in oxygen."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Double replacement involves ion exchange between two ionic compounds."
       },
       {
@@ -11264,12 +11264,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-275-q3",
         prompt: "Which equation is a double replacement reaction?",
         choices: [
-          "\\(BaCl_2 + Na_2SO_4 -> BaSO_4 + 2NaCl\\)",
           "\\(2H_2 + O_2 -> 2H_2O\\)",
           "\\(Zn + CuCl_2 -> ZnCl_2 + Cu\\)",
-          "\\(C_3H_8 + 5O_2 -> 3CO_2 + 4H_2O\\)"
+          "\\(C_3H_8 + 5O_2 -> 3CO_2 + 4H_2O\\)",
+          "\\(BaCl_2 + Na_2SO_4 -> BaSO_4 + 2NaCl\\)"
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Barium and sodium exchange ion partners, forming two new ionic compounds."
       }
     ]
@@ -11281,24 +11281,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-276-q1",
         prompt: "What is a precipitate?",
         choices: [
-          "A solid that forms from a reaction between solutions.",
           "A gas that escapes from any beaker.",
+          "A solid that forms from a reaction between solutions.",
           "A reactant that is always oxygen.",
           "A coefficient in front of a formula."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "A precipitate is an insoluble solid product."
       },
       {
         id: "kp-276-q2",
         prompt: "Two clear ionic solutions are mixed and a cloudy yellow solid appears. What type of evidence is this?",
         choices: [
-          "Precipitate formation, often linked to a double replacement reaction",
-          "Proof of hydrocarbon combustion",
-          "Evidence that no reaction happened",
-          "A sign that atoms were destroyed"
+          "Proof of hydrocarbon combustion.",
+          "Evidence that no reaction happened.",
+          "Precipitate formation, often linked to a double replacement reaction.",
+          "A sign that atoms were destroyed."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "A new solid can indicate ions exchanged partners and formed an insoluble product."
       },
       {
@@ -11322,36 +11322,36 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-277-q1",
         prompt: "What is a combustion reaction?",
         choices: [
-          "A reaction in which a substance reacts with oxygen and releases energy, often forming oxides.",
           "A reaction where one compound always absorbs light and breaks down.",
           "A reaction where ions exchange partners with no oxygen involved.",
-          "A reaction that cannot produce heat."
+          "A reaction that cannot produce heat.",
+          "A reaction in which a substance reacts with oxygen and releases energy, often forming oxides."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Combustion commonly involves oxygen and releases heat, often light."
       },
       {
         id: "kp-277-q2",
         prompt: "Which equation shows combustion of sulfur?",
         choices: [
-          "\\(S_8 + 8O_2 -> 8SO_2\\)",
           "\\(2Na + Cl_2 -> 2NaCl\\)",
+          "\\(S_8 + 8O_2 -> 8SO_2\\)",
           "\\(2HgO -> 2Hg + O_2\\)",
           "\\(AgNO_3 + NaCl -> AgCl + NaNO_3\\)"
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Sulfur reacts with oxygen to form sulfur dioxide, an oxide."
       },
       {
         id: "kp-277-q3",
         prompt: "Which clue most strongly suggests a reaction is combustion?",
         choices: [
-          "Oxygen is a reactant and heat or light is released.",
           "One compound splits into two products only.",
           "Two aqueous solutions form a solid.",
+          "Oxygen is a reactant and heat or light is released.",
           "A metal replaces another metal ion."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Combustion is associated with oxygen and energy release."
       }
     ]
@@ -11375,24 +11375,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-278-q2",
         prompt: "What are the products of complete hydrocarbon combustion?",
         choices: [
-          "Carbon dioxide and water",
-          "Hydrogen gas and oxygen gas",
-          "A metal and a salt",
-          "A precipitate and an aqueous nitrate"
+          "Hydrogen gas and oxygen gas.",
+          "A metal and a salt.",
+          "A precipitate and an aqueous nitrate.",
+          "Carbon dioxide and water."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Complete combustion of hydrocarbons produces CO2 and H2O."
       },
       {
         id: "kp-278-q3",
         prompt: "Which fuel example is a hydrocarbon in this topic?",
         choices: [
-          "Propane, \\(C_3H_8\\)",
           "Potassium chloride, \\(KCl\\)",
+          "Propane, \\(C_3H_8\\)",
           "Lead(II) iodide, \\(PbI_2\\)",
           "Barium sulfate, \\(BaSO_4\\)"
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Propane contains only carbon and hydrogen."
       }
     ]
@@ -11404,12 +11404,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-279-q1",
         prompt: "Which general pattern represents complete hydrocarbon combustion?",
         choices: [
-          "\\(C_xH_y + O_2 -> CO_2 + H_2O\\)",
           "\\(AB -> A + B\\)",
           "\\(AX + BY -> AY + BX\\)",
+          "\\(C_xH_y + O_2 -> CO_2 + H_2O\\)",
           "\\(A + BX -> AX + B\\)"
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Hydrocarbons react with oxygen to form carbon dioxide and water."
       },
       {
@@ -11428,12 +11428,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-279-q3",
         prompt: "For propane combustion, \\(C_3H_8 + 5O_2 -> 3CO_2 + 4H_2O\\), how many water molecules are produced per propane molecule?",
         choices: [
-          "4",
           "3",
           "5",
-          "8"
+          "8",
+          "4"
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "The coefficient 4 in front of H2O gives four water molecules."
       }
     ]
@@ -11445,24 +11445,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-280-q1",
         prompt: "Why is combustion usually described as exothermic?",
         choices: [
-          "It releases energy to the surroundings, often as heat and light.",
           "It absorbs all surrounding energy and never gives any off.",
+          "It releases energy to the surroundings, often as heat and light.",
           "It has no bond changes.",
           "It always produces a precipitate."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Most combustion reactions release useful heat and often light."
       },
       {
         id: "kp-280-q2",
         prompt: "Which observation is evidence that a propane torch reaction is exothermic?",
         choices: [
-          "A hot flame is produced.",
           "The reactant name contains carbon.",
           "The equation has coefficients.",
+          "A hot flame is produced.",
           "The fuel is stored in a tank."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "A flame and heat show energy being released to the surroundings."
       },
       {
