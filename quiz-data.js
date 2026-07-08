@@ -10340,7 +10340,7 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "The reaction is endothermic because the surroundings warmed.",
           "No energy transfer occurred because the reaction still has products.",
-          "The reaction destroyed temperature.",
+          "The mixture warmed because the thermometer supplied energy to the reaction.",
           "The reaction is exothermic because the surroundings warmed."
         ],
         correctIndex: 3,
@@ -10363,9 +10363,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why should temperature be recorded over time during an energy investigation?",
         choices: [
           "It balances the chemical equation automatically.",
-          "It proves every product identity without other evidence.",
+          "It identifies the products even if no other observations are recorded.",
           "It shows the direction and size of the temperature change as the reaction proceeds.",
-          "It prevents reactions from happening."
+          "It replaces the need to record colour, gas, or solid formation."
         ],
         correctIndex: 2,
         explanation: "Temperature-time data supports a claim about energy transfer."
@@ -10393,7 +10393,7 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "Temperature increased and heat was released.",
           "No temperature measurements were made.",
-          "The product name was longer than the reactant name.",
+          "The reactants felt cool before mixing, but no change was measured.",
           "Temperature decreased while the reaction system absorbed energy from surroundings."
         ],
         correctIndex: 3,
@@ -10403,10 +10403,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-254-q3",
         prompt: "Why is overall energy change called a net result?",
         choices: [
-          "It is based only on the colour of the reactants.",
+          "It is based mainly on the colour of the reactants.",
           "It compares energy absorbed in bond breaking with energy released in bond forming.",
-          "It ignores all bonds.",
-          "It counts atoms without considering energy."
+          "It describes bond breaking but leaves out energy released by new bonds.",
+          "It counts atoms conserved in the equation but does not compare bond energies."
         ],
         correctIndex: 1,
         explanation: "The overall change depends on the balance of absorbed and released energy."
@@ -10420,10 +10420,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-255-q1",
         prompt: "Which set of observations would best support that a chemical reaction occurred?",
         choices: [
-          "Only the shape of the lab bench.",
-          "Only the date written on the worksheet.",
+          "The solution was stirred in the same beaker as before.",
+          "The lab sheet had the date and reactant names recorded.",
           "Temperature change, gas production, colour change, or formation of a new solid.",
-          "Only the number of students in the group."
+          "The beaker was rinsed before the reactants were mixed."
         ],
         correctIndex: 2,
         explanation: "These observations can indicate new substances and energy transfer."
@@ -10433,9 +10433,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "In an aluminum and copper(II) chloride investigation, the solution colour changes and a solid forms. What is a reasonable interpretation?",
         choices: [
           "New substances likely formed as atoms and ions rearranged.",
-          "No reaction occurred because colour is irrelevant.",
-          "Atoms were destroyed.",
-          "The thermometer caused the products."
+          "The colour change is probably from the thermometer touching the solution.",
+          "The atoms changed size but kept the same bonding arrangement.",
+          "The solid was likely a piece of filter paper breaking apart."
         ],
         correctIndex: 0,
         explanation: "Colour change and solid formation can be evidence of chemical change."
@@ -10444,9 +10444,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-255-q3",
         prompt: "Why should observations be recorded during a reaction, not only at the end?",
         choices: [
-          "Only final observations can ever be useful.",
-          "Recording observations changes the products.",
-          "Evidence is unnecessary if the reaction has a name.",
+          "Final observations show products, but they do not show how quickly changes occurred.",
+          "Recording observations is useful mainly for drawing the apparatus later.",
+          "The reaction name can suggest what happened, but evidence is still needed.",
           "Changes over time help connect evidence to the process of the reaction."
         ],
         correctIndex: 3,
@@ -10461,10 +10461,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-256-q1",
         prompt: "What should a particle-level explanation of a chemical reaction include?",
         choices: [
-          "Only whether the solution looks interesting.",
+          "Whether the solution looked more interesting after mixing.",
           "Atoms, ions, bonds broken, bonds formed, and how particles rearrange.",
-          "Only the container brand.",
-          "Only the names of lab partners."
+          "The brand of glassware and the order of cleanup steps.",
+          "The colour changes, without describing particles or bonds."
         ],
         correctIndex: 1,
         explanation: "Particle-level explanations connect observations to atoms, ions, and bonds."
@@ -10474,9 +10474,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why is 'the test tube got warm' not a complete particle-level explanation?",
         choices: [
           "It proves no energy was transferred.",
-          "It explains every bond change fully.",
+          "It gives the final observation but leaves out which bonds changed.",
           "It describes evidence but not what happened to atoms, ions, and bonds.",
-          "It is never a useful observation."
+          "It is useful mainly because temperature observations are easier than particle models."
         ],
         correctIndex: 2,
         explanation: "Temperature is evidence; a deeper explanation describes particles and energy changes."
@@ -10486,9 +10486,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which statement is most particle-level?",
         choices: [
           "Aluminum atoms become ions while copper ions form copper atoms, so particles rearrange into new substances.",
-          "The beaker looked different.",
-          "The reaction was interesting.",
-          "The lab took 20 minutes."
+          "The solution changed colour and the beaker felt warmer.",
+          "The reaction made a visible solid after several minutes.",
+          "The mixture was filtered after the reaction slowed down."
         ],
         correctIndex: 0,
         explanation: "This explanation identifies particle changes instead of only visible observations."
@@ -10502,9 +10502,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-257-q1",
         prompt: "Why can dissolving an ionic compound in water be useful for a hand warmer investigation?",
         choices: [
-          "Dissolving always destroys matter.",
-          "Dissolving cannot involve energy transfer.",
-          "Water prevents all particle interactions.",
+          "Dissolving separates particles but does not affect surrounding temperature.",
+          "Dissolving is useful mainly when a gas is produced.",
+          "Water absorbs the compound without interacting with its ions.",
           "Some dissolving processes release energy and raise the temperature."
         ],
         correctIndex: 3,
@@ -10526,10 +10526,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-257-q3",
         prompt: "Which data would help decide whether a substance could work in a hand warmer?",
         choices: [
-          "Only the colour of the solid before testing.",
-          "Only the label font.",
+          "The colour and texture of the dry solid before water is added.",
+          "The label information without measuring any temperature change.",
           "Temperature change after dissolving a measured amount in water.",
-          "The number of letters in the compound name."
+          "The time it takes to open the packet before mixing begins."
         ],
         correctIndex: 2,
         explanation: "Temperature data shows whether dissolving releases enough useful heat."
@@ -10544,9 +10544,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why should the 'best' hand warmer not be chosen only by the highest temperature?",
         choices: [
           "It must also be safe, practical, affordable, and environmentally responsible.",
-          "Temperature is never relevant.",
-          "The hottest chemical is always safest.",
-          "Environmental impact cannot be considered in design."
+          "Temperature matters, but the hottest sample may heat too quickly or too much.",
+          "The hottest chemical is the best choice if it is sealed inside a packet.",
+          "Environmental impact can be checked after the product is sold."
         ],
         correctIndex: 0,
         explanation: "Good design balances performance with constraints and safety."
@@ -10555,9 +10555,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-258-q2",
         prompt: "Which criterion directly protects the user of a hand warmer?",
         choices: [
-          "Longest compound name.",
-          "Most expensive package.",
-          "Largest possible waste volume.",
+          "A compound name that is easy for users to pronounce.",
+          "A package that looks durable before temperature testing.",
+          "A large packet volume so the product feels substantial.",
           "Maximum temperature that will not harm skin."
         ],
         correctIndex: 3,
@@ -10568,9 +10568,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "A chemical warms water quickly but is expensive and difficult to dispose of safely. What should a design team do?",
         choices: [
           "Choose it automatically because it gets hot.",
-          "Compare it against all criteria before deciding whether it is suitable.",
-          "Ignore safety and disposal.",
-          "Assume cost and waste do not matter."
+          "Compare it against the full set of criteria before deciding whether it is suitable.",
+          "Use it if the first temperature reading is higher than room temperature.",
+          "Delay safety and disposal decisions until after packaging is designed."
         ],
         correctIndex: 1,
         explanation: "Design decisions should weigh multiple criteria, not just one measurement."
@@ -10585,9 +10585,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which safety factor should be included in designing a chemical hand warmer?",
         choices: [
           "Whether the package colour is the user's favourite.",
-          "Whether the chemical name is short.",
+          "Whether the chemical name looks familiar to users.",
           "Whether the reactants or products can irritate skin or harm the environment.",
-          "Whether the product avoids all testing."
+          "Whether the packet feels warm before any chemical testing."
         ],
         correctIndex: 2,
         explanation: "Chemical products must be evaluated for safe use, cleanup, and disposal."
@@ -10597,9 +10597,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why should cleanup and disposal instructions be part of a chemical product design?",
         choices: [
           "The materials still exist after use and may affect people or the environment.",
-          "Used chemicals disappear immediately.",
-          "Disposal has no connection to chemistry.",
-          "Instructions make the product hotter."
+          "Used chemicals are less important once the heat has been released.",
+          "Disposal is mainly a packaging issue, separate from chemical behaviour.",
+          "Instructions improve user confidence but do not affect safe handling."
         ],
         correctIndex: 0,
         explanation: "Conservation of matter and chemical risk both matter after the product is used."
@@ -10610,7 +10610,7 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "Letting users touch unknown powders directly.",
           "Choosing the most reactive chemical without testing.",
-          "Removing all safety labels to save space.",
+          "Using a smaller label and relying on users to infer the risks.",
           "Using a sealed packet, clear handling instructions, and tested disposal procedures."
         ],
         correctIndex: 3,
