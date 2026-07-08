@@ -10659,6 +10659,826 @@ window.SCIENCE10_QUIZZES = {
       }
     ]
   },
+  "kp-261": {
+    title: "KP2: Balanced equations and energy use",
+    questions: [
+      {
+        id: "kp-261-q1",
+        prompt: "Why should an energy-source investigation include a balanced chemical equation?",
+        choices: [
+          "It shows the atoms conserved and the reactant-product ratios involved in the energy-producing reaction.",
+          "It proves the fuel has no environmental impact.",
+          "It replaces all evidence about energy output.",
+          "It makes the reaction happen faster."
+        ],
+        correctIndex: 0,
+        explanation: "A balanced equation connects the reaction to atom rearrangement, bond changes, and fuel use."
+      },
+      {
+        id: "kp-261-q2",
+        prompt: "Which equation is balanced for hydrogen reacting with oxygen to produce water?",
+        choices: [
+          "\\(2H_2 + O_2 -> 2H_2O\\)",
+          "\\(H_2 + O_2 -> H_2O\\)",
+          "\\(H + O -> H_2O\\)",
+          "\\(2H_2 + 2O_2 -> H_2O\\)"
+        ],
+        correctIndex: 0,
+        explanation: "The balanced equation has 4 H atoms and 2 O atoms on both sides."
+      },
+      {
+        id: "kp-261-q3",
+        prompt: "How does bond information help explain useful energy from a fuel reaction?",
+        choices: [
+          "Energy is absorbed when bonds break and released when new bonds form, so the net change matters.",
+          "Bonds are unrelated to energy output.",
+          "Only coefficients store energy.",
+          "Energy appears because atoms are destroyed."
+        ],
+        correctIndex: 0,
+        explanation: "Useful energy depends on the overall balance of bond-breaking and bond-forming energy."
+      }
+    ]
+  },
+  "kp-262": {
+    title: "KP3: Advantages and disadvantages",
+    questions: [
+      {
+        id: "kp-262-q1",
+        prompt: "Which evaluation compares both advantages and disadvantages of gasoline as an energy source?",
+        choices: [
+          "It stores useful energy for transportation, but combustion products and extraction impacts must be considered.",
+          "It is useful, so it has no drawbacks.",
+          "It has emissions, so it can never provide useful energy.",
+          "Its chemical equation is balanced, so social impacts do not matter."
+        ],
+        correctIndex: 0,
+        explanation: "Energy sources should be evaluated using benefits and trade-offs."
+      },
+      {
+        id: "kp-262-q2",
+        prompt: "Which factor belongs in a broad evaluation of an energy source?",
+        choices: [
+          "Environmental, social, economic, and energy-use impacts",
+          "Only whether the reaction has an arrow",
+          "Only whether the fuel name is familiar",
+          "Only the colour of the flame"
+        ],
+        correctIndex: 0,
+        explanation: "A broad evaluation includes more than the chemistry alone."
+      },
+      {
+        id: "kp-262-q3",
+        prompt: "A hydrogen fuel cell produces useful energy and water as a product, but hydrogen production requires energy. What does this show?",
+        choices: [
+          "A complete evaluation must include how the fuel is made, used, and supplied.",
+          "Hydrogen fuel cells do not involve chemistry.",
+          "Only the final product matters.",
+          "Water as a product means no trade-offs exist."
+        ],
+        correctIndex: 0,
+        explanation: "Energy technologies should be assessed over the larger process, not just one reaction step."
+      }
+    ]
+  },
+  "kp-263": {
+    title: "KP1: Synthesis reaction",
+    questions: [
+      {
+        id: "kp-263-q1",
+        prompt: "Which description best matches a synthesis reaction?",
+        choices: [
+          "Two or more reactants combine to form one compound.",
+          "One compound breaks into several products.",
+          "Two ionic compounds exchange positive ions.",
+          "A fuel reacts with oxygen to form only carbon dioxide."
+        ],
+        correctIndex: 0,
+        explanation: "Synthesis reactions build a single product from simpler reactants."
+      },
+      {
+        id: "kp-263-q2",
+        prompt: "Which equation is a synthesis reaction?",
+        choices: [
+          "\\(2Mg + O_2 -> 2MgO\\)",
+          "\\(2H_2O -> 2H_2 + O_2\\)",
+          "\\(Zn + CuSO_4 -> ZnSO_4 + Cu\\)",
+          "\\(AgNO_3 + NaCl -> AgCl + NaNO_3\\)"
+        ],
+        correctIndex: 0,
+        explanation: "Magnesium and oxygen combine to form one compound, magnesium oxide."
+      },
+      {
+        id: "kp-263-q3",
+        prompt: "What feature should you look for when classifying a synthesis reaction?",
+        choices: [
+          "Several reactants forming a single product",
+          "One reactant forming several products",
+          "Two solutions switching ions",
+          "A solid forming from two aqueous reactants only"
+        ],
+        correctIndex: 0,
+        explanation: "The product side of a synthesis reaction typically has one compound."
+      }
+    ]
+  },
+  "kp-264": {
+    title: "KP2: General synthesis pattern",
+    questions: [
+      {
+        id: "kp-264-q1",
+        prompt: "Which pattern represents synthesis?",
+        choices: [
+          "\\(A + B -> AB\\)",
+          "\\(AB -> A + B\\)",
+          "\\(A + BX -> AX + B\\)",
+          "\\(AX + BY -> AY + BX\\)"
+        ],
+        correctIndex: 0,
+        explanation: "The synthesis pattern combines parts into one product."
+      },
+      {
+        id: "kp-264-q2",
+        prompt: "A metal and a non-metal combine to form an ionic compound. Which classification is most likely?",
+        choices: [
+          "Synthesis",
+          "Double replacement",
+          "Decomposition",
+          "Neutralization"
+        ],
+        correctIndex: 0,
+        explanation: "Combining simpler reactants into one compound matches synthesis."
+      },
+      {
+        id: "kp-264-q3",
+        prompt: "Which balanced equation fits the pattern \\(A + B -> AB\\)?",
+        choices: [
+          "\\(2K + Cl_2 -> 2KCl\\)",
+          "\\(CaCO_3 -> CaO + CO_2\\)",
+          "\\(Cl_2 + 2NaBr -> 2NaCl + Br_2\\)",
+          "\\(BaCl_2 + Na_2SO_4 -> BaSO_4 + 2NaCl\\)"
+        ],
+        correctIndex: 0,
+        explanation: "Potassium and chlorine combine to form potassium chloride."
+      }
+    ]
+  },
+  "kp-265": {
+    title: "KP3: Synthesis and energy release",
+    questions: [
+      {
+        id: "kp-265-q1",
+        prompt: "Why are many synthesis reactions exothermic?",
+        choices: [
+          "Forming new bonds in the product can release more energy than was needed to start the reaction.",
+          "Synthesis reactions always destroy energy.",
+          "No bonds form in synthesis reactions.",
+          "A single product cannot contain energy."
+        ],
+        correctIndex: 0,
+        explanation: "Many synthesis reactions release energy overall as stable products form."
+      },
+      {
+        id: "kp-265-q2",
+        prompt: "A metal reacts with chlorine gas and gives off bright light and heat while forming a salt. What does the energy evidence suggest?",
+        choices: [
+          "The synthesis reaction is exothermic.",
+          "The reaction must be endothermic.",
+          "No chemical reaction occurred.",
+          "The salt was destroyed."
+        ],
+        correctIndex: 0,
+        explanation: "Heat and light are evidence of energy released to the surroundings."
+      },
+      {
+        id: "kp-265-q3",
+        prompt: "Which observation best supports energy release during product formation?",
+        choices: [
+          "The reaction container becomes warmer as one compound forms.",
+          "The reactants are listed alphabetically.",
+          "The equation contains two plus signs.",
+          "The product has a longer name."
+        ],
+        correctIndex: 0,
+        explanation: "A temperature increase is evidence of exothermic energy transfer."
+      }
+    ]
+  },
+  "kp-266": {
+    title: "KP4: Synthesis in the environment and technology",
+    questions: [
+      {
+        id: "kp-266-q1",
+        prompt: "Which example from environmental chemistry can involve synthesis?",
+        choices: [
+          "Sulfur trioxide combining with water to form sulfuric acid",
+          "One compound breaking into two simpler substances",
+          "Two dissolved salts exchanging ions to make a precipitate",
+          "A metal replacing another metal ion"
+        ],
+        correctIndex: 0,
+        explanation: "SO3 and water combine into one acid compound, matching synthesis."
+      },
+      {
+        id: "kp-266-q2",
+        prompt: "How is rust formation related to synthesis reactions?",
+        choices: [
+          "Iron and oxygen combine through reactions that produce iron oxide.",
+          "Iron oxide breaks into iron and oxygen in ordinary rusting.",
+          "Rusting is only a physical colour change.",
+          "Rust formation requires no atoms to rearrange."
+        ],
+        correctIndex: 0,
+        explanation: "Rusting involves atoms combining into iron oxide products."
+      },
+      {
+        id: "kp-266-q3",
+        prompt: "Why can a hydrogen fuel cell reaction be viewed as synthesis?",
+        choices: [
+          "Hydrogen and oxygen combine to form water.",
+          "Water breaks apart into hydrogen and oxygen.",
+          "Two salts exchange ions.",
+          "Hydrogen replaces a metal ion."
+        ],
+        correctIndex: 0,
+        explanation: "The reaction combines two reactants into water as the chemical product."
+      }
+    ]
+  },
+  "kp-267": {
+    title: "KP5: Decomposition reaction",
+    questions: [
+      {
+        id: "kp-267-q1",
+        prompt: "What is a decomposition reaction?",
+        choices: [
+          "One compound breaks down into elements or simpler compounds.",
+          "Two elements combine to make one compound.",
+          "Two aqueous compounds exchange ions.",
+          "A hydrocarbon burns in oxygen."
+        ],
+        correctIndex: 0,
+        explanation: "Decomposition reactions start with one compound and produce simpler substances."
+      },
+      {
+        id: "kp-267-q2",
+        prompt: "Which equation is a decomposition reaction?",
+        choices: [
+          "\\(2HgO -> 2Hg + O_2\\)",
+          "\\(2Na + Cl_2 -> 2NaCl\\)",
+          "\\(Cu + 2AgNO_3 -> Cu(NO_3)_2 + 2Ag\\)",
+          "\\(CH_4 + 2O_2 -> CO_2 + 2H_2O\\)"
+        ],
+        correctIndex: 0,
+        explanation: "Mercury(II) oxide breaks into mercury and oxygen."
+      },
+      {
+        id: "kp-267-q3",
+        prompt: "What feature should you look for to identify decomposition?",
+        choices: [
+          "One reactant producing two or more products",
+          "Two reactants producing one product",
+          "Oxygen reacting with a fuel",
+          "Two positive ions switching places"
+        ],
+        correctIndex: 0,
+        explanation: "The reactant side usually has one compound in decomposition."
+      }
+    ]
+  },
+  "kp-268": {
+    title: "KP6: General decomposition pattern",
+    questions: [
+      {
+        id: "kp-268-q1",
+        prompt: "Which pattern represents decomposition?",
+        choices: [
+          "\\(AB -> A + B\\)",
+          "\\(A + B -> AB\\)",
+          "\\(A + BX -> AX + B\\)",
+          "\\(C_xH_y + O_2 -> CO_2 + H_2O\\)"
+        ],
+        correctIndex: 0,
+        explanation: "Decomposition breaks one compound into simpler products."
+      },
+      {
+        id: "kp-268-q2",
+        prompt: "Why is decomposition often described as the reverse of synthesis?",
+        choices: [
+          "Synthesis combines parts into one compound, while decomposition splits one compound apart.",
+          "Both always have identical reactants.",
+          "Decomposition always makes a single product.",
+          "Synthesis and decomposition never involve bonds."
+        ],
+        correctIndex: 0,
+        explanation: "Their general patterns point in opposite directions."
+      },
+      {
+        id: "kp-268-q3",
+        prompt: "Which reaction fits \\(AB -> A + B\\) most closely?",
+        choices: [
+          "\\(2H_2O -> 2H_2 + O_2\\)",
+          "\\(H_2 + Cl_2 -> 2HCl\\)",
+          "\\(Zn + 2HCl -> ZnCl_2 + H_2\\)",
+          "\\(AgNO_3 + KCl -> AgCl + KNO_3\\)"
+        ],
+        correctIndex: 0,
+        explanation: "Water is split into hydrogen and oxygen."
+      }
+    ]
+  },
+  "kp-269": {
+    title: "KP7: Decomposition and energy input",
+    questions: [
+      {
+        id: "kp-269-q1",
+        prompt: "Why do most decomposition reactions require energy input?",
+        choices: [
+          "Enough energy must be absorbed to break bonds in the reactant compound.",
+          "Energy must be destroyed before products can form.",
+          "The products always have no bonds.",
+          "Decomposition never changes bonds."
+        ],
+        correctIndex: 0,
+        explanation: "Breaking bonds requires energy, so decomposition often needs heat, electricity, or light."
+      },
+      {
+        id: "kp-269-q2",
+        prompt: "Heating calcium carbonate to produce calcium oxide and carbon dioxide is best classified as what?",
+        choices: [
+          "An endothermic decomposition reaction",
+          "An exothermic synthesis reaction",
+          "A double replacement reaction",
+          "A combustion reaction"
+        ],
+        correctIndex: 0,
+        explanation: "One compound breaks apart and heat is used to drive the reaction."
+      },
+      {
+        id: "kp-269-q3",
+        prompt: "Which energy source could start a decomposition reaction?",
+        choices: [
+          "Heat or electricity supplied to the reactant",
+          "Changing a coefficient only",
+          "Removing all reactants",
+          "Cooling the products after they form"
+        ],
+        correctIndex: 0,
+        explanation: "Energy input can provide the energy needed to break reactant bonds."
+      }
+    ]
+  },
+  "kp-270": {
+    title: "KP1: Single replacement reaction",
+    questions: [
+      {
+        id: "kp-270-q1",
+        prompt: "What happens in a single replacement reaction?",
+        choices: [
+          "An element takes the place of another element in a compound.",
+          "Two compounds exchange both ions at once.",
+          "One compound breaks into only elements.",
+          "A hydrocarbon reacts only with nitrogen."
+        ],
+        correctIndex: 0,
+        explanation: "Single replacement involves one free element replacing an element in a compound."
+      },
+      {
+        id: "kp-270-q2",
+        prompt: "Which equation is a single replacement reaction?",
+        choices: [
+          "\\(Fe + CuSO_4 -> FeSO_4 + Cu\\)",
+          "\\(2Na + Cl_2 -> 2NaCl\\)",
+          "\\(CaCO_3 -> CaO + CO_2\\)",
+          "\\(Pb(NO_3)_2 + 2KI -> PbI_2 + 2KNO_3\\)"
+        ],
+        correctIndex: 0,
+        explanation: "Iron replaces copper in the copper(II) sulfate compound."
+      },
+      {
+        id: "kp-270-q3",
+        prompt: "What reactant pattern is typical for single replacement?",
+        choices: [
+          "An element plus a compound",
+          "Two compounds only",
+          "One compound only",
+          "A hydrocarbon plus oxygen only"
+        ],
+        correctIndex: 0,
+        explanation: "Single replacement starts with a free element reacting with a compound."
+      }
+    ]
+  },
+  "kp-271": {
+    title: "KP2: Metal replacement pattern",
+    questions: [
+      {
+        id: "kp-271-q1",
+        prompt: "Which pattern represents a metal replacing a metal ion?",
+        choices: [
+          "\\(A + BX -> AX + B\\)",
+          "\\(AB -> A + B\\)",
+          "\\(A + B -> AB\\)",
+          "\\(AX + BY -> AY + BX\\)"
+        ],
+        correctIndex: 0,
+        explanation: "The free metal A becomes part of the compound while B becomes the free element."
+      },
+      {
+        id: "kp-271-q2",
+        prompt: "In \\(Cu + 2AgNO_3 -> Cu(NO_3)_2 + 2Ag\\), what is replaced?",
+        choices: [
+          "Silver ions are replaced by copper.",
+          "Copper is replaced by nitrate.",
+          "Oxygen is replaced by silver.",
+          "Nitrate is replaced by water."
+        ],
+        correctIndex: 0,
+        explanation: "Copper takes the place of silver in the nitrate compound."
+      },
+      {
+        id: "kp-271-q3",
+        prompt: "Why is an aqueous compound often involved in metal replacement reactions?",
+        choices: [
+          "Dissolving separates ions so a free metal can interact with metal ions.",
+          "Water destroys all metals instantly.",
+          "Aqueous means no ions are present.",
+          "Only gases can undergo replacement."
+        ],
+        correctIndex: 0,
+        explanation: "Aqueous solutions allow ions to move and react."
+      }
+    ]
+  },
+  "kp-272": {
+    title: "KP3: Non-metal replacement pattern",
+    questions: [
+      {
+        id: "kp-272-q1",
+        prompt: "Which pattern represents a non-metal replacing a non-metal ion?",
+        choices: [
+          "\\(AX + Y -> AY + X\\)",
+          "\\(A + B -> AB\\)",
+          "\\(AB -> A + B\\)",
+          "\\(AX + BY -> AY + BX\\)"
+        ],
+        correctIndex: 0,
+        explanation: "The free non-metal Y replaces X in the compound."
+      },
+      {
+        id: "kp-272-q2",
+        prompt: "In \\(Cl_2 + 2NaBr -> 2NaCl + Br_2\\), which element is produced as a free non-metal?",
+        choices: [
+          "\\(Br_2\\)",
+          "\\(Na\\)",
+          "\\(NaCl\\)",
+          "\\(Cl^-\\)"
+        ],
+        correctIndex: 0,
+        explanation: "Chlorine replaces bromide, so bromine is released as Br2."
+      },
+      {
+        id: "kp-272-q3",
+        prompt: "What observation could indicate bromine formed in a non-metal replacement reaction?",
+        choices: [
+          "A new brown colour appears in the solution.",
+          "The container label changes by itself.",
+          "The solution loses all matter.",
+          "No particles interact."
+        ],
+        correctIndex: 0,
+        explanation: "The textbook example connects bromine formation with a brown colour."
+      }
+    ]
+  },
+  "kp-273": {
+    title: "KP4: Hydrogen as a replaceable element",
+    questions: [
+      {
+        id: "kp-273-q1",
+        prompt: "In some single replacement reactions with water, how can hydrogen behave?",
+        choices: [
+          "Like a metal that can be replaced by a more reactive metal.",
+          "Like a precipitate that never forms gas.",
+          "Like a catalyst that is never part of products.",
+          "Like oxygen in hydrocarbon combustion only."
+        ],
+        correctIndex: 0,
+        explanation: "Hydrogen in water can be replaced, producing hydrogen gas."
+      },
+      {
+        id: "kp-273-q2",
+        prompt: "Which product would you expect when lithium reacts with water in a single replacement reaction?",
+        choices: [
+          "Hydrogen gas",
+          "Carbon dioxide gas",
+          "Sulfur dioxide gas",
+          "Solid silver"
+        ],
+        correctIndex: 0,
+        explanation: "Lithium replaces hydrogen in water, producing H2 gas."
+      },
+      {
+        id: "kp-273-q3",
+        prompt: "What evidence might show hydrogen gas is produced when a reactive metal is placed in water?",
+        choices: [
+          "Bubbles form at the metal surface.",
+          "The water label changes colour.",
+          "A hydrocarbon appears from nowhere.",
+          "All ions stop moving."
+        ],
+        correctIndex: 0,
+        explanation: "Gas production often appears as bubbling."
+      }
+    ]
+  },
+  "kp-274": {
+    title: "KP5: Applications of single replacement reactions",
+    questions: [
+      {
+        id: "kp-274-q1",
+        prompt: "Why can the reaction between aluminum powder and iron(III) oxide be useful for welding?",
+        choices: [
+          "It releases enough heat to melt the iron produced.",
+          "It absorbs all heat from the track.",
+          "It produces no metal.",
+          "It is a double replacement reaction that forms a precipitate."
+        ],
+        correctIndex: 0,
+        explanation: "Some single replacement reactions release a large amount of energy."
+      },
+      {
+        id: "kp-274-q2",
+        prompt: "Which application involves producing bromine by single replacement?",
+        choices: [
+          "Using chlorine to replace bromide ions in solution",
+          "Combining hydrogen and oxygen to make water",
+          "Breaking limestone into lime and carbon dioxide",
+          "Mixing two salts to make barium sulfate"
+        ],
+        correctIndex: 0,
+        explanation: "Chlorine can replace bromide, producing bromine."
+      },
+      {
+        id: "kp-274-q3",
+        prompt: "What do welding railroad tracks and joining electrical conductors have in common in this topic?",
+        choices: [
+          "They can use energy-releasing single replacement reactions to produce molten metal.",
+          "They require no chemical reaction.",
+          "They are both examples of photosynthesis.",
+          "They both depend on a positive luminol test."
+        ],
+        correctIndex: 0,
+        explanation: "Both applications use replacement reactions that generate useful heat and metal products."
+      }
+    ]
+  },
+  "kp-275": {
+    title: "KP6: Double replacement reaction",
+    questions: [
+      {
+        id: "kp-275-q1",
+        prompt: "What happens in a double replacement reaction?",
+        choices: [
+          "Positive ions of two ionic compounds exchange partners to form two new compounds.",
+          "One element replaces a metal ion in one compound.",
+          "One compound breaks into elements.",
+          "A hydrocarbon burns in oxygen."
+        ],
+        correctIndex: 0,
+        explanation: "Double replacement involves ion exchange between two ionic compounds."
+      },
+      {
+        id: "kp-275-q2",
+        prompt: "Which pattern represents double replacement?",
+        choices: [
+          "\\(AX + BY -> AY + BX\\)",
+          "\\(A + B -> AB\\)",
+          "\\(AB -> A + B\\)",
+          "\\(A + BX -> AX + B\\)"
+        ],
+        correctIndex: 0,
+        explanation: "The positive ions A and B exchange negative-ion partners."
+      },
+      {
+        id: "kp-275-q3",
+        prompt: "Which equation is a double replacement reaction?",
+        choices: [
+          "\\(BaCl_2 + Na_2SO_4 -> BaSO_4 + 2NaCl\\)",
+          "\\(2H_2 + O_2 -> 2H_2O\\)",
+          "\\(Zn + CuCl_2 -> ZnCl_2 + Cu\\)",
+          "\\(C_3H_8 + 5O_2 -> 3CO_2 + 4H_2O\\)"
+        ],
+        correctIndex: 0,
+        explanation: "Barium and sodium exchange ion partners, forming two new ionic compounds."
+      }
+    ]
+  },
+  "kp-276": {
+    title: "KP7: Precipitate formation",
+    questions: [
+      {
+        id: "kp-276-q1",
+        prompt: "What is a precipitate?",
+        choices: [
+          "A solid that forms from a reaction between solutions.",
+          "A gas that escapes from any beaker.",
+          "A reactant that is always oxygen.",
+          "A coefficient in front of a formula."
+        ],
+        correctIndex: 0,
+        explanation: "A precipitate is an insoluble solid product."
+      },
+      {
+        id: "kp-276-q2",
+        prompt: "Two clear ionic solutions are mixed and a cloudy yellow solid appears. What type of evidence is this?",
+        choices: [
+          "Precipitate formation, often linked to a double replacement reaction",
+          "Proof of hydrocarbon combustion",
+          "Evidence that no reaction happened",
+          "A sign that atoms were destroyed"
+        ],
+        correctIndex: 0,
+        explanation: "A new solid can indicate ions exchanged partners and formed an insoluble product."
+      },
+      {
+        id: "kp-276-q3",
+        prompt: "In \\(Pb(NO_3)_2(aq) + 2KI(aq) -> PbI_2(s) + 2KNO_3(aq)\\), which product is the precipitate?",
+        choices: [
+          "\\(PbI_2(s)\\)",
+          "\\(KNO_3(aq)\\)",
+          "\\(KI(aq)\\)",
+          "\\(Pb(NO_3)_2(aq)\\)"
+        ],
+        correctIndex: 0,
+        explanation: "The state symbol (s) identifies solid lead(II) iodide as the precipitate."
+      }
+    ]
+  },
+  "kp-277": {
+    title: "KP1: Combustion reaction",
+    questions: [
+      {
+        id: "kp-277-q1",
+        prompt: "What is a combustion reaction?",
+        choices: [
+          "A reaction in which a substance reacts with oxygen and releases energy, often forming oxides.",
+          "A reaction where one compound always absorbs light and breaks down.",
+          "A reaction where ions exchange partners with no oxygen involved.",
+          "A reaction that cannot produce heat."
+        ],
+        correctIndex: 0,
+        explanation: "Combustion commonly involves oxygen and releases heat, often light."
+      },
+      {
+        id: "kp-277-q2",
+        prompt: "Which equation shows combustion of sulfur?",
+        choices: [
+          "\\(S_8 + 8O_2 -> 8SO_2\\)",
+          "\\(2Na + Cl_2 -> 2NaCl\\)",
+          "\\(2HgO -> 2Hg + O_2\\)",
+          "\\(AgNO_3 + NaCl -> AgCl + NaNO_3\\)"
+        ],
+        correctIndex: 0,
+        explanation: "Sulfur reacts with oxygen to form sulfur dioxide, an oxide."
+      },
+      {
+        id: "kp-277-q3",
+        prompt: "Which clue most strongly suggests a reaction is combustion?",
+        choices: [
+          "Oxygen is a reactant and heat or light is released.",
+          "One compound splits into two products only.",
+          "Two aqueous solutions form a solid.",
+          "A metal replaces another metal ion."
+        ],
+        correctIndex: 0,
+        explanation: "Combustion is associated with oxygen and energy release."
+      }
+    ]
+  },
+  "kp-278": {
+    title: "KP2: Hydrocarbon combustion",
+    questions: [
+      {
+        id: "kp-278-q1",
+        prompt: "What elements are found in hydrocarbons?",
+        choices: [
+          "Carbon and hydrogen",
+          "Sodium and chlorine",
+          "Lead and iodine",
+          "Calcium and sulfur"
+        ],
+        correctIndex: 0,
+        explanation: "Hydrocarbons are compounds containing only carbon and hydrogen."
+      },
+      {
+        id: "kp-278-q2",
+        prompt: "What are the products of complete hydrocarbon combustion?",
+        choices: [
+          "Carbon dioxide and water",
+          "Hydrogen gas and oxygen gas",
+          "A metal and a salt",
+          "A precipitate and an aqueous nitrate"
+        ],
+        correctIndex: 0,
+        explanation: "Complete combustion of hydrocarbons produces CO2 and H2O."
+      },
+      {
+        id: "kp-278-q3",
+        prompt: "Which fuel example is a hydrocarbon in this topic?",
+        choices: [
+          "Propane, \\(C_3H_8\\)",
+          "Potassium chloride, \\(KCl\\)",
+          "Lead(II) iodide, \\(PbI_2\\)",
+          "Barium sulfate, \\(BaSO_4\\)"
+        ],
+        correctIndex: 0,
+        explanation: "Propane contains only carbon and hydrogen."
+      }
+    ]
+  },
+  "kp-279": {
+    title: "KP3: General hydrocarbon combustion pattern",
+    questions: [
+      {
+        id: "kp-279-q1",
+        prompt: "Which general pattern represents complete hydrocarbon combustion?",
+        choices: [
+          "\\(C_xH_y + O_2 -> CO_2 + H_2O\\)",
+          "\\(AB -> A + B\\)",
+          "\\(AX + BY -> AY + BX\\)",
+          "\\(A + BX -> AX + B\\)"
+        ],
+        correctIndex: 0,
+        explanation: "Hydrocarbons react with oxygen to form carbon dioxide and water."
+      },
+      {
+        id: "kp-279-q2",
+        prompt: "Which balanced equation matches complete methane combustion?",
+        choices: [
+          "\\(CH_4 + 2O_2 -> CO_2 + 2H_2O\\)",
+          "\\(CH_4 + O_2 -> CO_2 + H_2O\\)",
+          "\\(2CH_4 + O_2 -> CO_2 + H_2\\)",
+          "\\(CH_4 -> C + 2H_2\\)"
+        ],
+        correctIndex: 0,
+        explanation: "The balanced equation conserves 1 C, 4 H, and 4 O atoms."
+      },
+      {
+        id: "kp-279-q3",
+        prompt: "For propane combustion, \\(C_3H_8 + 5O_2 -> 3CO_2 + 4H_2O\\), how many water molecules are produced per propane molecule?",
+        choices: [
+          "4",
+          "3",
+          "5",
+          "8"
+        ],
+        correctIndex: 0,
+        explanation: "The coefficient 4 in front of H2O gives four water molecules."
+      }
+    ]
+  },
+  "kp-280": {
+    title: "KP4: Combustion as an exothermic process",
+    questions: [
+      {
+        id: "kp-280-q1",
+        prompt: "Why is combustion usually described as exothermic?",
+        choices: [
+          "It releases energy to the surroundings, often as heat and light.",
+          "It absorbs all surrounding energy and never gives any off.",
+          "It has no bond changes.",
+          "It always produces a precipitate."
+        ],
+        correctIndex: 0,
+        explanation: "Most combustion reactions release useful heat and often light."
+      },
+      {
+        id: "kp-280-q2",
+        prompt: "Which observation is evidence that a propane torch reaction is exothermic?",
+        choices: [
+          "A hot flame is produced.",
+          "The reactant name contains carbon.",
+          "The equation has coefficients.",
+          "The fuel is stored in a tank."
+        ],
+        correctIndex: 0,
+        explanation: "A flame and heat show energy being released to the surroundings."
+      },
+      {
+        id: "kp-280-q3",
+        prompt: "A camp stove burns methane and warms a pot of water. Where does the useful heating energy come from?",
+        choices: [
+          "Energy released during methane combustion is transferred to the surroundings, including the pot and water.",
+          "The pot creates energy from nothing.",
+          "The water decomposes into fuel.",
+          "Oxygen prevents energy transfer."
+        ],
+        correctIndex: 0,
+        explanation: "Combustion releases energy that can be transferred for cooking or heating."
+      }
+    ]
+  },
   "kp-306": {
     title: "KP1: Energy as an indirect concept",
     questions: [
