@@ -5870,9 +5870,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why are GMOs controversial even when they have useful applications?",
         choices: [
           "They can bring benefits but also raise environmental, health, social, and ethical questions.",
-          "They are controversial only because no one has found any useful application.",
-          "They always affect health in the same way, so no evidence is needed.",
-          "They are controversial only in laboratories and cannot affect farming or ecosystems."
+          "They are controversial mainly because approval reviews focus on cost rather than biological effects.",
+          "They should be judged by the intended benefit without looking closely at long-term evidence.",
+          "They are controversial mostly inside laboratories, while farming and ecosystems are separate issues."
         ],
         correctIndex: 0,
         explanation: "Responsible evaluation considers both potential benefits and possible risks or ethical concerns."
@@ -5882,7 +5882,7 @@ window.SCIENCE10_QUIZZES = {
         prompt: "A transgenic crop reduces insect damage but may affect non-target organisms. What is the best response?",
         choices: [
           "Approve it automatically because one benefit exists.",
-          "Reject all evidence because it is biotechnology.",
+          "Reject the crop based on the technology label before checking the data.",
           "Ignore environmental effects if the crop grows well.",
           "Evaluate both the farming benefit and the ecological risk using evidence."
         ],
@@ -5893,9 +5893,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-144-q3",
         prompt: "Which question best shows balanced GMO evaluation?",
         choices: [
-          "Can I decide based only on one opinion?",
+          "Can I decide after hearing one confident opinion?",
           "What are the benefits, risks, evidence quality, and who is affected?",
-          "Should all biotechnology be treated as identical?",
+          "Should different biotechnology products be treated as if they have the same risks?",
           "Can environmental concerns be ignored if profit increases?"
         ],
         correctIndex: 1,
@@ -5910,8 +5910,8 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-145-q1",
         prompt: "What is one environmental concern linked to herbicide-resistant crops?",
         choices: [
-          "They always remove the need for any chemicals.",
-          "They prevent all genes from moving between species.",
+          "They may reduce one pesticide use while changing how other chemicals are used.",
+          "They make gene movement less important than visible crop yield.",
           "They may encourage heavier herbicide use that could affect soil or water organisms.",
           "They cannot interact with ecosystems."
         ],
@@ -5923,9 +5923,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What do people mean by a possible 'superweed' concern?",
         choices: [
           "A resistance gene might move to a wild relative, making the weed harder to control.",
-          "A weed becomes larger only because it receives more sunlight, not because of gene flow.",
+          "A weed becomes harder to control because farmers choose the wrong harvest date.",
           "A crop stops having DNA after it is sprayed with herbicide.",
-          "All weeds become harmless once they receive a crop gene."
+          "A crop gene would make wild plants easier to remove with standard methods."
         ],
         correctIndex: 0,
         explanation: "Gene transfer to wild plants could create populations that are more difficult to manage."
@@ -5951,7 +5951,7 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-146-q1",
         prompt: "Which concern is often raised about genetically modified food or medicine?",
         choices: [
-          "All GM foods are proven to cause the same illness.",
+          "A food should be considered safe or unsafe based mainly on whether it is labelled GM.",
           "Long-term effects and possible allergic reactions may need more evidence.",
           "GM food contains no DNA, proteins, or other molecules.",
           "Labelling has no connection to consumer choice or regulation."
@@ -5976,8 +5976,8 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What is the strongest evidence-based way to address a GMO health concern?",
         choices: [
           "Use carefully designed studies and transparent safety review.",
-          "Rely only on rumours from advertisements.",
-          "Assume all products are identical.",
+          "Rely on product advertising if it sounds scientific.",
+          "Treat different products as if they have the same evidence.",
           "Ignore evidence if the product is popular."
         ],
         correctIndex: 0,
@@ -5992,7 +5992,7 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-147-q1",
         prompt: "Why can biotechnology decisions be social and economic, not only scientific?",
         choices: [
-          "They happen only inside one cell and never affect people.",
+          "They mainly affect lab technique, while ownership and access are separate from science.",
           "They have no cost and no ownership questions.",
           "They are unrelated to agriculture, medicine, or access to products.",
           "They can affect research funding, food markets, farmers, consumers, and access to benefits."
@@ -6007,7 +6007,7 @@ window.SCIENCE10_QUIZZES = {
           "Stem cells can differentiate into many cell types.",
           "Private enterprise may influence farming choices and food markets.",
           "Fertilization happens outside the body.",
-          "DNA profiles are used only in criminal cases."
+          "DNA profiling is the main factor controlling crop prices."
         ],
         correctIndex: 1,
         explanation: "Ownership and control of biotechnology products can create social and economic questions."
@@ -6017,7 +6017,7 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which evaluation question best fits this KP?",
         choices: [
           "Can this topic be judged without considering people?",
-          "Does biotechnology remove all economic concerns?",
+          "Does one health benefit settle the economic questions?",
           "Do the benefits justify the costs and who has access to those benefits?",
           "Can market effects be ignored if DNA is involved?"
         ],
@@ -6045,9 +6045,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-148-q2",
         prompt: "A transgenic goat produces a medicine in its milk. What should an ethical evaluation include?",
         choices: [
-          "Only the price of the medicine.",
-          "Only the colour of the goat.",
-          "Only whether the gene came from a plant.",
+          "The price of the medicine and the expected demand from patients.",
+          "The animal's appearance compared with non-transgenic animals.",
+          "The source of the inserted gene without considering animal welfare.",
           "Human benefit, animal welfare, risks, and whether alternatives exist."
         ],
         correctIndex: 3,
@@ -6074,10 +6074,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-149-q1",
         prompt: "Why has some gene therapy research been slowed or stopped in the past?",
         choices: [
-          "Gene therapy never showed any promise.",
+          "Early success in one treatment made safety testing less important.",
           "DNA cannot be inserted into cells under any conditions.",
           "Some treatments produced negative results, so safer procedures were needed.",
-          "All genetic disorders were already cured by one successful trial."
+          "A successful trial for one disorder showed the same method would work for most others."
         ],
         correctIndex: 2,
         explanation: "Safety concerns can lead researchers to pause or redesign experimental procedures."
@@ -6098,9 +6098,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-149-q3",
         prompt: "What should be considered before approving a gene therapy trial?",
         choices: [
-          "Only whether the treatment sounds exciting.",
-          "Only whether the gene has a short name.",
-          "Only whether the patient lives near a laboratory.",
+          "Whether the treatment sounds promising in a news headline.",
+          "Whether the target gene is easy to describe to the public.",
+          "Whether a nearby laboratory has used a similar vector before.",
           "Possible benefits, safety risks, informed consent, and regulation."
         ],
         correctIndex: 3,
@@ -6127,10 +6127,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-150-q2",
         prompt: "Why might stem cells help repair damaged tissue?",
         choices: [
-          "They erase all injuries instantly.",
+          "They replace damaged tissue without needing growth signals or testing.",
           "They work by changing a person's DNA profile.",
           "They may be guided to become replacement cells for damaged tissue.",
-          "They are useful only for identifying invasive species."
+          "They are mainly useful for identifying species rather than repairing tissue."
         ],
         correctIndex: 2,
         explanation: "The promise of stem cells comes from their ability to produce specialized cells that may replace damaged ones."
@@ -6157,7 +6157,7 @@ window.SCIENCE10_QUIZZES = {
         prompt: "How do embryonic stem cells differ from adult stem cells?",
         choices: [
           "Adult stem cells can become any cell type, while embryonic stem cells are limited to blood cells.",
-          "Both types have exactly the same developmental potential in every tissue.",
+          "Both types have similar potential once they are grown in a culture dish.",
           "Embryonic stem cells can become any cell type; adult stem cells are usually more limited.",
           "Neither type can divide or differentiate once removed from tissue."
         ],
@@ -6170,8 +6170,8 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "Adult stem cells are often limited to certain cell types.",
           "Adult stem cells contain no DNA once they are inside bone marrow.",
-          "Embryonic stem cells are always found only in adult bone marrow.",
-          "All stem cells can become any tissue equally easily."
+          "Embryonic stem cells are collected from specialized adult tissues such as bone marrow.",
+          "Stem cell location does not affect what cell types it can produce."
         ],
         correctIndex: 0,
         explanation: "Adult stem cells exist in specialized tissues and usually have a narrower range of possible cell types."
@@ -6183,7 +6183,7 @@ window.SCIENCE10_QUIZZES = {
           "Recognizing that stem cells can divide.",
           "Comparing adult and embryonic stem cells by potential.",
           "Connecting stem cells to tissue repair research.",
-          "Assuming every stem cell has the same ability to become any cell type."
+          "Assuming the source of a stem cell does not affect its developmental potential."
         ],
         correctIndex: 3,
         explanation: "Different stem cell types differ in how many cell types they can produce."
@@ -6200,7 +6200,7 @@ window.SCIENCE10_QUIZZES = {
           "Use them mainly to label foods that contain genetically modified ingredients.",
           "Grow and guide them to make specific cell types for repair.",
           "Use them to identify a suspect from DNA left at a scene.",
-          "Make them replace all organs instantly without testing safety."
+          "Use them for tissue repair before checking how they behave after transplant."
         ],
         correctIndex: 1,
         explanation: "Adult stem cell research investigates how to grow and direct cells toward useful specialized types."
@@ -6223,7 +6223,7 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "Cells must be grown, guided, delivered, and tested safely and effectively.",
           "Adult stem cells cannot ever divide once they are in the body.",
-          "All adult stem cell treatments already work perfectly for every injury.",
+          "Early success in one tissue means the same treatment is ready for most injuries.",
           "Stem cells are unrelated to tissue repair because they cannot specialize."
         ],
         correctIndex: 0,
@@ -6253,7 +6253,7 @@ window.SCIENCE10_QUIZZES = {
           "Whether the headline promises a miracle cure.",
           "Whether the evidence shows real improvement, safety, and limits of the treatment.",
           "Whether the treatment sounds futuristic.",
-          "Whether one patient story replaces all data."
+          "Whether a patient story is treated as stronger than broader data."
         ],
         correctIndex: 1,
         explanation: "Promising treatments still need careful evidence about benefits, risks, and limits."
@@ -6262,10 +6262,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-153-q3",
         prompt: "A treatment helps some patients regain sensation but not full movement. What is the best conclusion?",
         choices: [
-          "The treatment has no effect at all.",
-          "The treatment proves all paralysis is easily cured.",
+          "The treatment should be dismissed because the recovery was not complete.",
+          "The treatment should be described as a cure because some improvement occurred.",
           "The result may be promising but should not be described as a complete cure.",
-          "The treatment proves stem cells work identically in every patient."
+          "The result shows patient differences are less important than the procedure."
         ],
         correctIndex: 2,
         explanation: "Partial improvement can be meaningful, but scientific claims should match the evidence."
@@ -6291,8 +6291,8 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-154-q2",
         prompt: "Which career could use DNA and forest knowledge to improve tree health or growth?",
         choices: [
-          "DNA profile suspect only.",
-          "Artificial insemination technician only.",
+          "A forensic technician comparing crime-scene samples.",
+          "A livestock technician using reproductive records.",
           "Island travel agent.",
           "Tree breeder."
         ],
@@ -6303,10 +6303,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-154-q3",
         prompt: "Why does Unit 1 connect to many careers?",
         choices: [
-          "Biology careers never use evidence.",
+          "Biology careers are mostly separated from evidence once a person specializes.",
           "DNA, genetics, biodiversity, and biotechnology are used in health, agriculture, ecology, and communication.",
-          "Careers in biology all require the same daily tasks.",
-          "DNA knowledge applies only to one laboratory job."
+          "Careers in biology usually differ by workplace but use the same daily task list.",
+          "DNA knowledge is most useful in lab jobs and rarely connects to forests or health."
         ],
         correctIndex: 1,
         explanation: "The unit's concepts connect to many fields, from medicine and forests to data science and illustration."
@@ -6323,7 +6323,7 @@ window.SCIENCE10_QUIZZES = {
           "Ignoring evidence from DNA sequences.",
           "Drawing conclusions without datasets.",
           "Analyzing biological data with computational tools.",
-          "Avoiding all communication with scientists."
+          "Sharing results without explaining methods to other scientists."
         ],
         correctIndex: 2,
         explanation: "Bioinformatics combines biology with data analysis and computing."
@@ -6333,8 +6333,8 @@ window.SCIENCE10_QUIZZES = {
         prompt: "A medical illustrator creates textbook diagrams of anatomy. Which mix of skills is most useful?",
         choices: [
           "Scientific understanding plus clear visual communication.",
-          "Only memorizing company slogans without checking anatomy.",
-          "Only guessing at body structures from memory.",
+          "Memorizing product slogans while checking anatomy later.",
+          "Relying on memory for body structures before reviewing evidence.",
           "Avoiding communication because images do not need accuracy."
         ],
         correctIndex: 0,
@@ -6345,7 +6345,7 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why might a plant pathologist need both fieldwork and lab skills?",
         choices: [
           "Plant disease cannot be studied outside a computer game.",
-          "Field observations replace all need for evidence.",
+          "Field observations can stand in for lab evidence when symptoms look familiar.",
           "Lab tests are unrelated to agriculture.",
           "Plant diseases may be observed in crops and investigated with biological tests."
         ],
@@ -6363,8 +6363,8 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "It contains no personal information.",
           "It can reveal personal and family health-related information.",
-          "It can be safely shared with everyone without consent.",
-          "It is always identical for all people."
+          "It can be shared broadly once a test result is stored by a company.",
+          "It is similar enough among people that privacy is a minor issue."
         ],
         correctIndex: 1,
         explanation: "Genetic information can reveal sensitive information about a person and sometimes relatives."
@@ -6386,8 +6386,8 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why might regulation be needed for personal genetic data?",
         choices: [
           "To help protect consent, privacy, storage, and responsible sharing.",
-          "To stop all medical research forever.",
-          "To make all DNA profiles public.",
+          "To limit research without creating clear consent options.",
+          "To make genetic data easier to share before permission is checked.",
           "To prevent people from learning any biology."
         ],
         correctIndex: 0,
@@ -6426,10 +6426,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-157-q3",
         prompt: "Why can genetic information about one person affect relatives?",
         choices: [
-          "Relatives always have identical DNA profiles.",
-          "Genetic data never runs in families.",
+          "Relatives share complete DNA profiles whenever they have the same parents.",
+          "Genetic data is personal, so it cannot imply anything about family members.",
           "Relatives may share alleles and inherited risks.",
-          "Only unrelated people can share genes."
+          "Shared genes are mainly useful for comparing unrelated people."
         ],
         correctIndex: 2,
         explanation: "Because relatives share inherited DNA, one person's result may imply information about family members."
@@ -6444,7 +6444,7 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why can laws struggle to keep up with genetics technology?",
         choices: [
           "Scientific tools can change faster than policies are written and updated.",
-          "Genetic technology never changes.",
+          "Genetic technology changes slowly enough that old privacy rules usually fit.",
           "Laws automatically update whenever DNA changes.",
           "Policies are unnecessary for personal information."
         ],
@@ -6456,7 +6456,7 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which policy would support responsible genetic information use?",
         choices: [
           "Allow anyone to sell a person's DNA data without permission.",
-          "Ban all discussion of privacy.",
+          "Focus on research access while leaving privacy questions for later.",
           "Make genetic information public by default.",
           "Require informed consent before sharing identifiable genetic test results."
         ],
@@ -6470,7 +6470,7 @@ window.SCIENCE10_QUIZZES = {
           "No record of who can access the samples.",
           "Clear rules for consent, storage, access, and whether data can be reused.",
           "Automatic sharing with employers.",
-          "Destroy all information before any study can begin."
+          "Remove access rules once the samples are useful for research."
         ],
         correctIndex: 1,
         explanation: "Biobanks can be useful, but they need policies to protect participants and guide responsible research."
@@ -6484,7 +6484,7 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-159-q1",
         prompt: "Why might scientists develop a GMO crop?",
         choices: [
-          "To remove all need for evidence about food safety.",
+          "To assume safety evidence is unnecessary once a benefit is identified.",
           "To make plants stop containing DNA.",
           "To improve a trait such as pest resistance, nutrition, shelf life, or disease resistance.",
           "To prevent regulators from comparing benefits and risks."
@@ -6498,7 +6498,7 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "Reducing crop damage from that pest.",
           "Making the crop impossible to regulate.",
-          "Increasing all non-target effects on purpose.",
+          "Increasing effects on non-target insects as the main design goal.",
           "Turning the crop into an animal."
         ],
         correctIndex: 0,
@@ -6508,9 +6508,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-159-q3",
         prompt: "What should you identify when researching a specific GMO?",
         choices: [
-          "Only whether the name sounds scientific.",
-          "Only the company logo.",
-          "Only one opinion with no source.",
+          "Whether the name sounds scientific to consumers.",
+          "Whether the company logo suggests modern technology.",
+          "Whether one strong opinion agrees with your first impression.",
           "Why it was developed, what advantage it provides, and what evidence supports claims."
         ],
         correctIndex: 3,
@@ -6528,7 +6528,7 @@ window.SCIENCE10_QUIZZES = {
           "Whether it changes the spelling of DNA.",
           "Whether it affects non-target organisms in the ecosystem.",
           "Whether it can be used for IVF.",
-          "Whether it makes all organisms identical."
+          "Whether organisms near the crop look similar during one visit."
         ],
         correctIndex: 1,
         explanation: "Environmental assessment asks how GMOs affect organisms beyond the intended pest or crop."
@@ -6538,7 +6538,7 @@ window.SCIENCE10_QUIZZES = {
         prompt: "A GMO reduces pesticide spraying but may affect insect biodiversity. What is the best evaluation?",
         choices: [
           "Accept the GMO without checking any ecosystem data.",
-          "Reject all possible benefits because one risk exists.",
+          "Reject the benefits before comparing them with the risk evidence.",
           "Compare both the reduced chemical use and possible biodiversity effects using evidence.",
           "Ignore non-target organisms."
         ],
@@ -6551,7 +6551,7 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "Ecosystem effects can be complex and may appear over time.",
           "No GMO can ever affect an ecosystem.",
-          "All environmental effects are obvious after one day.",
+          "A short observation after planting usually captures the important effects.",
           "Evidence quality does not matter."
         ],
         correctIndex: 0,
@@ -6580,8 +6580,8 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "A controlled field study that measures insect populations and explains methods.",
           "An anonymous comment with no data.",
-          "A product advertisement that lists only benefits.",
-          "A rumour that says all GMOs have the same effect."
+          "A product advertisement that lists benefits without methods or data.",
+          "A rumour that treats different GMOs as having the same effect."
         ],
         correctIndex: 0,
         explanation: "Clear methods, relevant data, and reviewable evidence make a report more credible."
@@ -6591,8 +6591,8 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why might scientists say more data are needed before deciding whether a GMO is safe for an ecosystem?",
         choices: [
           "Science cannot study ecosystems.",
-          "One opinion is always enough.",
-          "All GMOs have identical environmental effects.",
+          "One opinion is enough when it matches a popular viewpoint.",
+          "Different GMOs can be grouped together without checking their traits.",
           "Ecosystems are complex, and effects may vary by species, location, and time."
         ],
         correctIndex: 3,
