@@ -416,36 +416,36 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-11-q1",
         prompt: "What part of DNA stores instructions for cells?",
         choices: [
-          "The order of bases along the DNA molecule.",
-          "The colour of the chromosome under a microscope.",
-          "The number of cell membranes around the nucleus.",
-          "The amount of water in the cytoplasm."
+          "The total amount of sugar and phosphate in a chromosome.",
+          "The number of chromosomes in a nucleus, no matter how bases are arranged.",
+          "The order of A, T, C, and G bases along a DNA strand.",
+          "The shape of the nucleus around the chromosomes."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Genetic information is connected to the sequence, or order, of bases in DNA."
       },
       {
         id: "kp-11-q2",
         prompt: "A cell uses a gene when it needs to build a certain protein. Which connection is most accurate?",
         choices: [
-          "A DNA base sequence provides information used to make the protein.",
-          "The protein randomly chooses a DNA sequence after it is made.",
-          "Only the sugar-phosphate backbone determines the protein.",
-          "Proteins are made without using genetic information."
+          "DNA is changed directly into a finished protein without any intermediate steps.",
+          "A gene's base sequence is used to make an RNA copy, which helps assemble amino acids in order.",
+          "A protein chooses which DNA sequence the cell will inherit after the protein is made.",
+          "Only the phosphate groups decide the amino acid sequence of a protein."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "The base sequence in DNA carries instructions that help determine which protein is made."
       },
       {
         id: "kp-11-q3",
         prompt: "Which statement corrects a common misconception about DNA instructions?",
         choices: [
-          "The same four bases can store different instructions when their order changes.",
-          "Only the number of bases matters; their order does not matter.",
-          "A single base type is enough to store all genetic instructions.",
-          "DNA instructions are stored mainly in phosphate groups, not bases."
+          "Two DNA segments with the same numbers of each base must always carry the same message.",
+          "DNA instructions depend mainly on how tightly chromatin is coiled.",
+          "A shorter DNA sequence always stores simpler information than a longer one.",
+          "The same four bases can store different instructions when their order changes."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "DNA uses base sequences; changing the order can change the information carried."
       }
     ]
@@ -458,9 +458,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why are proteins important to organism function?",
         choices: [
           "They help form cell and tissue structures and help control cell activities.",
-          "They replace DNA as the molecule that stores inherited information.",
-          "They are used only as waterproof coverings outside organisms.",
-          "They prevent cells from needing energy."
+          "They are mainly containers that store chromosomes during interphase.",
+          "They replace DNA during cell division so chromosomes are not needed.",
+          "They determine traits without being connected to DNA instructions."
         ],
         correctIndex: 0,
         explanation: "Proteins are linked to both structures in organisms and many cell functions."
@@ -469,24 +469,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-12-q2",
         prompt: "A mutation changes instructions in a gene used by skin cells. Which result is most scientifically reasonable?",
         choices: [
+          "The change would affect only chromosome size, not any molecule made from the gene.",
+          "Every protein in the organism would become identical to that gene.",
           "The protein made from that information might change, affecting how those cells work.",
-          "The organism's DNA would instantly leave every cell.",
-          "Only non-living parts of the environment could be affected.",
-          "The change could not affect proteins because DNA and proteins are unrelated."
+          "The mutation would remove the whole genome from cells that use the gene."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "DNA instructions influence proteins, and proteins can affect how cells form and function."
       },
       {
         id: "kp-12-q3",
         prompt: "Which misconception about proteins is best corrected?",
         choices: [
+          "Proteins only matter in muscles, while other cells do not use them.",
           "Proteins do more than build muscles; many proteins help control cell processes.",
-          "Proteins are always identical in every organism.",
-          "Proteins are never made inside cells.",
-          "Proteins store all inherited information instead of DNA."
+          "Proteins are inherited unchanged from parents instead of being made using instructions.",
+          "Proteins are the same as genes because both are sections of DNA."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Proteins have many roles, including structural roles and control of cell activities."
       }
     ]
@@ -498,12 +498,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-13-q1",
         prompt: "What is an organism's genome?",
         choices: [
-          "The complete DNA sequence in the cells of that organism.",
-          "Only the proteins made during one day.",
-          "A single base pair chosen from one chromosome.",
-          "The cell membrane and cytoplasm together."
+          "One gene that controls the organism's most visible trait.",
+          "All of the proteins a cell happens to make during one day.",
+          "Only the chromosomes visible in a karyotype photo.",
+          "The complete DNA sequence in the cells of that organism."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "A genome refers to the complete DNA sequence of an organism."
       },
       {
@@ -511,9 +511,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which statement best connects the human genome to chromosomes?",
         choices: [
           "The genome is distributed across the chromosomes in human body cells.",
-          "The genome is stored outside cells in the bloodstream.",
-          "Each chromosome contains no DNA, only protein.",
-          "Only one chromosome contains the whole genome and the others are empty."
+          "The genome is stored only in blood plasma, while chromosomes are empty supports.",
+          "Each cell keeps only one gene from the genome and discards the rest.",
+          "Only chromosome 1 carries DNA; the other chromosomes contain only protein."
         ],
         correctIndex: 0,
         explanation: "In humans, DNA is organized into chromosomes rather than existing as one loose sequence."
@@ -522,12 +522,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-13-q3",
         prompt: "A student says a genome is just one gene. What is the best correction?",
         choices: [
+          "A genome is the protein made from one gene.",
+          "A genome is one chromosome pair selected from a karyotype.",
           "A genome includes all of an organism's DNA sequence, not just one gene.",
-          "A genome is smaller than a single DNA base.",
-          "A genome is another name for a protein molecule.",
-          "A genome exists only in bacteria, not in humans."
+          "A genome is a base pair that appears only in bacteria."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "A gene is one section of DNA, while a genome refers to the complete DNA sequence."
       }
     ]
@@ -539,24 +539,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-14-q1",
         prompt: "Which sequence best describes how long DNA is organized in a dividing cell?",
         choices: [
+          "Chromosomes are broken into loose bases, which then become chromatin.",
           "DNA is packaged as chromatin, which can condense into chromosomes.",
-          "Chromosomes dissolve into bases, which condense into sugars.",
-          "Proteins turn directly into DNA, then into chromosomes.",
-          "DNA leaves the nucleus and becomes cell membrane."
+          "Genes turn into amino acids first, and the amino acids coil into chromosomes.",
+          "DNA leaves the nucleus and becomes part of the cell membrane."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "DNA is associated with chromatin, and chromatin can condense into visible chromosomes during cell division."
       },
       {
         id: "kp-14-q2",
         prompt: "Why is packaging DNA into chromatin and chromosomes useful?",
         choices: [
-          "It helps a very long DNA molecule fit and organize inside a small nucleus.",
-          "It removes all genetic information before division.",
-          "It changes every DNA base into an amino acid.",
-          "It keeps chromosomes permanently invisible in every cell stage."
+          "It changes the DNA code into RNA before every cell division.",
+          "It removes base sequences that are not needed in body cells.",
+          "It changes genes into alleles by rearranging every chromosome.",
+          "It helps a very long DNA molecule fit and organize inside a small nucleus."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "DNA must be compactly organized to fit in the nucleus and to be handled during division."
       },
       {
@@ -564,9 +564,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which statement avoids a common mix-up?",
         choices: [
           "Chromosomes are condensed structures made of DNA-containing chromatin.",
-          "DNA and chromosomes are completely unrelated materials.",
-          "Chromatin is a type of sugar found only in RNA.",
-          "Chromosomes are made only after all DNA has been destroyed."
+          "Chromosomes and DNA are separate materials that never occur together.",
+          "Chromatin is the same thing as a single nucleotide base.",
+          "Chromosomes are proteins that carry DNA outside the nucleus."
         ],
         correctIndex: 0,
         explanation: "Chromosomes are an organized, condensed form of DNA-containing material."
@@ -580,36 +580,36 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-15-q1",
         prompt: "What is the usual chromosome arrangement in a human somatic cell?",
         choices: [
-          "46 chromosomes arranged as 23 pairs.",
           "23 chromosomes arranged as 46 pairs.",
-          "46 chromosomes with no pairing pattern.",
-          "One chromosome pair containing all human DNA."
+          "46 pairs, because each chromosome pair is counted as two pairs.",
+          "46 chromosomes arranged as 23 pairs.",
+          "22 chromosomes plus the X and Y chromosomes in every person."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Human body cells usually contain 46 chromosomes organized into 23 pairs."
       },
       {
         id: "kp-15-q2",
         prompt: "A microscope image of a typical human body cell shows chromosome pairs. What should you expect for the total number?",
         choices: [
+          "23 chromosomes total, because each pair is counted as one chromosome.",
           "46 chromosomes total.",
-          "12 chromosomes total.",
-          "92 chromosome pairs.",
-          "Only 2 chromosomes total."
+          "46 pairs, for a total of 92 chromosomes.",
+          "24 chromosomes total, because sex chromosomes are separate from autosomes."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "A typical human somatic cell has 46 chromosomes, arranged as pairs."
       },
       {
         id: "kp-15-q3",
         prompt: "Which correction is most accurate?",
         choices: [
-          "The number of chromosome pairs is not the same as the total number of chromosomes.",
-          "A pair means four identical chromosomes.",
-          "Human body cells normally have no chromosomes.",
-          "Chromosome number can be found only by reading a protein sequence."
+          "A chromosome pair means four identical chromosomes copied from one parent.",
+          "Human body cells normally have 23 chromosomes, not 23 pairs.",
+          "Chromosome number can be determined only by reading every DNA base.",
+          "The number of chromosome pairs is not the same as the total number of chromosomes."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "In humans, 23 pairs means 46 chromosomes total, because each pair contains two chromosomes."
       }
     ]
@@ -621,12 +621,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-16-q1",
         prompt: "Which description correctly separates autosomes from sex chromosomes in humans?",
         choices: [
+          "All chromosome pairs are autosomes unless a cell is involved in reproduction.",
           "Most pairs are autosomes, and one pair is the sex chromosomes.",
-          "All chromosome pairs are sex chromosomes.",
-          "Autosomes are found only outside the nucleus.",
-          "Sex chromosomes contain no DNA."
+          "Autosomes are chromosome copies made after DNA replication.",
+          "Sex chromosomes contain proteins but no DNA base sequence."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Humans have 22 pairs of autosomes and one pair of sex chromosomes."
       },
       {
@@ -634,9 +634,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "A karyotype shows sex chromosomes labelled \\(XX\\). What can be inferred from that pair?",
         choices: [
           "The sex chromosome pair contains two X chromosomes.",
-          "The autosomes are missing.",
-          "The cell has no genetic information.",
-          "Every chromosome in the set is an X chromosome."
+          "All 23 chromosome pairs are X-shaped sex chromosomes.",
+          "The autosomes must be missing from the karyotype.",
+          "The cell has no homologous chromosome pairs."
         ],
         correctIndex: 0,
         explanation: "XX describes the sex chromosome pair; it does not describe all chromosome pairs."
@@ -645,13 +645,13 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-16-q3",
         prompt: "Which misconception should be rejected?",
         choices: [
-          "Sex chromosomes are counted as one pair even when the two chromosomes are not the same size or shape.",
-          "Autosomes are the same thing as alleles.",
-          "Only sex chromosomes carry genes.",
-          "A chromosome set cannot include both autosomes and sex chromosomes."
+          "Autosomes and sex chromosomes can both be part of the same human chromosome set.",
+          "The X and Y chromosomes are counted as the sex chromosome pair.",
+          "Only sex chromosomes carry genes, while autosomes do not.",
+          "The remaining 22 pairs in a human karyotype are autosomes."
         ],
-        correctIndex: 0,
-        explanation: "The sex chromosomes are counted as a pair, while the remaining chromosome pairs are autosomes."
+        correctIndex: 2,
+        explanation: "Autosomes also carry many genes; sex chromosomes are only one pair in the full chromosome set."
       }
     ]
   },
@@ -662,12 +662,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-17-q1",
         prompt: "What makes two chromosomes homologous?",
         choices: [
-          "They have the same sequence of gene locations, though they may carry different alleles.",
-          "They are always exact copies with identical alleles.",
+          "They are sister chromatids made by copying one chromosome during replication.",
+          "They have the same length only; gene locations do not matter.",
           "They are made from RNA instead of DNA.",
-          "They have no genes in common."
+          "They have the same sequence of gene locations, though they may carry different alleles."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Homologous chromosomes carry genes for the same traits at corresponding locations but are not necessarily identical."
       },
       {
@@ -675,9 +675,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "When matching homologous chromosomes in a karyotype, which feature would be useful?",
         choices: [
           "Similar length, centromere location, and banding pattern.",
-          "Whether the chromosome is closest to the edge of the photo.",
-          "The colour chosen by a student in a drawing.",
-          "The order in which the cell was collected."
+          "Exactly the same allele at every gene location.",
+          "Whether both chromosomes were inherited from the same parent.",
+          "The amino acid sequence of a protein made somewhere else in the cell."
         ],
         correctIndex: 0,
         explanation: "Homologous chromosomes can be compared using physical features such as length, centromere position, and banding pattern."
@@ -686,12 +686,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-17-q3",
         prompt: "Why are homologous chromosomes not always identical?",
         choices: [
+          "One chromosome in each homologous pair contains genes, while the other contains no DNA.",
+          "Homologous chromosomes must always have identical alleles to be paired.",
           "They can carry different versions of the same genes.",
-          "One chromosome in each pair contains no DNA.",
-          "Only one chromosome in a pair is inherited.",
-          "They always code for completely different traits."
+          "Homologous chromosomes are only the X and Y chromosomes."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "A homologous pair can contain the same genes but different alleles."
       }
     ]
@@ -703,24 +703,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-18-q1",
         prompt: "Which statement best distinguishes a gene from an allele?",
         choices: [
+          "A gene is a whole chromosome pair; an allele is the nucleus that stores it.",
           "A gene is a DNA section for a trait; an allele is a version of that gene.",
-          "A gene is a protein, and an allele is a sugar.",
-          "An allele is a whole chromosome pair, while a gene is the nucleus.",
-          "Genes occur only in plants, while alleles occur only in animals."
+          "A gene is a protein product; an allele is the RNA copy of that product.",
+          "Genes occur only on autosomes, while alleles occur only on sex chromosomes."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "A gene is a section of DNA connected to a trait, and alleles are different forms of the same gene."
       },
       {
         id: "kp-18-q2",
         prompt: "Two homologous chromosomes carry information for hair type at the same location, but one version is linked with straight hair and the other with curly hair. What are these versions called?",
         choices: [
-          "Alleles.",
-          "Nucleotides.",
           "Autosomes.",
-          "Karyotypes."
+          "Karyotypes.",
+          "Chromatids.",
+          "Alleles."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Different forms of the same gene are called alleles."
       },
       {
@@ -728,9 +728,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which misconception about alleles is best corrected?",
         choices: [
           "Alleles are not different genes for unrelated traits; they are different forms of the same gene.",
-          "Alleles are always larger than whole chromosomes.",
-          "Alleles are found only in non-living things.",
-          "Alleles are the same as sugar-phosphate backbones."
+          "Alleles are chromosome pairs arranged from longest to shortest.",
+          "Alleles are proteins that replace genes during cell division.",
+          "Alleles are sugar-phosphate backbones with no base sequence."
         ],
         correctIndex: 0,
         explanation: "Alleles refer to alternate forms of a gene at a corresponding gene location."
@@ -744,12 +744,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-19-q1",
         prompt: "What is a karyotype used to show?",
         choices: [
+          "The RNA copy made from one active gene.",
+          "The exact base sequence of every chromosome.",
           "A photographed and arranged set of homologous chromosome pairs.",
-          "The exact amino acid sequence of every protein.",
-          "Only the bases floating outside the nucleus.",
-          "A list of abiotic factors in an ecosystem."
+          "The folded shape of one protein molecule."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "A karyotype displays chromosomes arranged in pairs so chromosome number and type can be examined."
       },
       {
@@ -757,9 +757,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "A student studies a human karyotype to identify whether the sex chromosomes are \\(XX\\) or \\(XY\\). Which part should they examine?",
         choices: [
           "The sex chromosome pair placed apart from the numbered autosomes.",
-          "Only the longest autosome pair.",
-          "The cytoplasm surrounding the chromosomes.",
-          "The sequence of bases in one RNA molecule."
+          "Only the longest autosome pair, because it determines genetic sex.",
+          "The cytoplasm around the photographed chromosomes.",
+          "The sequence of bases in a copied RNA strand."
         ],
         correctIndex: 0,
         explanation: "Human karyotypes arrange autosomes in numbered pairs and label the sex chromosomes separately."
@@ -768,12 +768,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-19-q3",
         prompt: "Which statement about karyotypes is most accurate?",
         choices: [
+          "They show all alleles in base-by-base detail.",
           "They help examine chromosome number, pairs, and sex chromosomes, but they do not show every base sequence.",
-          "They show the exact order of every DNA base in the genome.",
-          "They replace the need to understand homologous chromosomes.",
-          "They show proteins but not chromosomes."
+          "They show proteins after DNA has been translated.",
+          "They show chromosomes only if the cell has no autosomes."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Karyotypes are useful for viewing chromosome organization, not for reading every nucleotide."
       }
     ]
@@ -785,36 +785,36 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-20-q1",
         prompt: "What is DNA replication?",
         choices: [
-          "The process of making an exact copy of a DNA molecule.",
-          "The process of turning chromosomes into cell membranes.",
-          "The process of removing all bases from DNA.",
-          "The process of changing every protein into RNA."
+          "The process of translating an RNA sequence into an amino acid chain.",
+          "The process of condensing chromatin into visible chromosomes.",
+          "The process of pairing homologous chromosomes in a karyotype.",
+          "The process of making an exact copy of a DNA molecule."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Replication copies DNA so genetic information can be passed to new cells."
       },
       {
         id: "kp-20-q2",
         prompt: "Why must a cell replicate its DNA before cell division?",
         choices: [
+          "So each chromosome can lose one strand before the cell divides.",
+          "So proteins can replace chromosomes in the daughter cells.",
           "So each new cell can receive a complete set of genetic information.",
-          "So the cell can permanently lose its genome.",
-          "So proteins can replace all chromosomes.",
-          "So base-pairing rules no longer matter."
+          "So the cell can copy only the genes it used most recently."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Before division, DNA must be copied so daughter cells can inherit genetic information."
       },
       {
         id: "kp-20-q3",
         prompt: "Which feature of DNA helps replication produce matching new strands?",
         choices: [
+          "Random pairing of bases whenever the molecule unzips.",
           "Complementary base pairing.",
-          "Random pairing of any bases.",
-          "The absence of nitrogenous bases.",
-          "Chromosomes having no genes."
+          "The absence of nitrogenous bases from DNA.",
+          "Genes being located only on one chromosome in each pair."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Base-pairing rules allow each original strand to guide formation of a complementary new strand."
       }
     ]
