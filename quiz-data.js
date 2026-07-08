@@ -10256,12 +10256,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-251-q1",
         prompt: "How can a fire protection engineer use chemistry?",
         choices: [
-          "By understanding combustion, suppression chemicals, building risks, and emergency planning.",
           "By ignoring how fires start and spread.",
-          "By avoiding all knowledge of materials.",
-          "By replacing safety systems with guesses."
+          "By choosing safety systems only by appearance.",
+          "By understanding combustion, suppression chemicals, material risks, and emergency planning.",
+          "By assuming all building materials burn in exactly the same way."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Fire protection involves chemical processes, materials, design, and safety."
       },
       {
@@ -10280,12 +10280,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-251-q3",
         prompt: "Why do environmental assessors need chemistry knowledge?",
         choices: [
-          "They may evaluate how substances affect soil, water, air, and living systems.",
           "They only need to memorize street names.",
-          "They prove that pollutants disappear.",
-          "They avoid studying materials."
+          "They prove that pollutants disappear after being diluted.",
+          "They avoid studying material properties.",
+          "They may evaluate how substances move through and affect soil, water, air, and living systems."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Environmental protection often requires understanding chemical behaviour and risk."
       }
     ]
@@ -10297,24 +10297,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-252-q1",
         prompt: "What might a fuel researcher compare when studying fuels?",
         choices: [
-          "Energy output, emissions, renewability, and environmental impacts",
-          "Only the colour of fuel containers",
-          "Only the spelling of fuel names",
-          "Whether fuels have no chemical reactions"
+          "Only the colour of fuel containers.",
+          "Energy output, emissions, renewability, and environmental impacts.",
+          "Only the spelling of fuel names.",
+          "Whether fuels can produce energy without chemical changes."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Fuel research connects chemistry to performance and sustainability."
       },
       {
         id: "kp-252-q2",
         prompt: "Why are alternative fuels part of a chemistry-and-sustainability discussion?",
         choices: [
-          "Different reactions and fuel sources can have different emissions and impacts.",
           "Alternative fuels do not involve matter.",
           "Fuel choices cannot affect climate or air quality.",
+          "Different reactions and fuel sources can have different emissions and impacts.",
           "All fuels have identical chemical reactions."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Energy decisions depend on chemical processes and their consequences."
       },
       {
@@ -10338,36 +10338,36 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-253-q1",
         prompt: "A reaction mixture changes from 19.8°C to 34.6°C. What does this temperature data suggest?",
         choices: [
-          "The reaction is exothermic because the surroundings warmed.",
           "The reaction is endothermic because the surroundings warmed.",
-          "No energy transfer occurred.",
-          "The reaction destroyed temperature."
+          "No energy transfer occurred because the reaction still has products.",
+          "The reaction destroyed temperature.",
+          "The reaction is exothermic because the surroundings warmed."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "A temperature increase in the reaction mixture suggests energy was released to the surroundings."
       },
       {
         id: "kp-253-q2",
         prompt: "A reaction mixture changes from 22.4°C to 16.9°C. What is the temperature change?",
         choices: [
-          "\\(-5.5^\\circ C\\)",
           "\\(+5.5^\\circ C\\)",
+          "\\(-5.5^\\circ C\\)",
           "\\(+39.3^\\circ C\\)",
           "\\(0^\\circ C\\)"
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Final minus initial is 16.9 - 22.4 = -5.5°C."
       },
       {
         id: "kp-253-q3",
         prompt: "Why should temperature be recorded over time during an energy investigation?",
         choices: [
-          "It shows the direction and size of the temperature change as the reaction proceeds.",
           "It balances the chemical equation automatically.",
           "It proves every product identity without other evidence.",
+          "It shows the direction and size of the temperature change as the reaction proceeds.",
           "It prevents reactions from happening."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Temperature-time data supports a claim about energy transfer."
       }
     ]
@@ -10391,24 +10391,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-254-q2",
         prompt: "Which data would best support a claim that a reaction was endothermic?",
         choices: [
-          "Temperature decreased while the reaction system absorbed energy from surroundings.",
           "Temperature increased and heat was released.",
           "No temperature measurements were made.",
-          "The product name was longer than the reactant name."
+          "The product name was longer than the reactant name.",
+          "Temperature decreased while the reaction system absorbed energy from surroundings."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Endothermic reactions absorb energy overall and often cool the surroundings."
       },
       {
         id: "kp-254-q3",
         prompt: "Why is overall energy change called a net result?",
         choices: [
-          "It compares energy absorbed in bond breaking with energy released in bond forming.",
           "It is based only on the colour of the reactants.",
+          "It compares energy absorbed in bond breaking with energy released in bond forming.",
           "It ignores all bonds.",
           "It counts atoms without considering energy."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "The overall change depends on the balance of absorbed and released energy."
       }
     ]
@@ -10420,12 +10420,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-255-q1",
         prompt: "Which set of observations would best support that a chemical reaction occurred?",
         choices: [
-          "Temperature change, gas production, colour change, or formation of a new solid",
-          "Only the shape of the lab bench",
-          "Only the date written on the worksheet",
-          "Only the number of students in the group"
+          "Only the shape of the lab bench.",
+          "Only the date written on the worksheet.",
+          "Temperature change, gas production, colour change, or formation of a new solid.",
+          "Only the number of students in the group."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "These observations can indicate new substances and energy transfer."
       },
       {
@@ -10444,12 +10444,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-255-q3",
         prompt: "Why should observations be recorded during a reaction, not only at the end?",
         choices: [
-          "Changes over time help connect evidence to the process of the reaction.",
           "Only final observations can ever be useful.",
           "Recording observations changes the products.",
-          "Evidence is unnecessary if the reaction has a name."
+          "Evidence is unnecessary if the reaction has a name.",
+          "Changes over time help connect evidence to the process of the reaction."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "The timing and sequence of observations can support explanations."
       }
     ]
@@ -10461,24 +10461,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-256-q1",
         prompt: "What should a particle-level explanation of a chemical reaction include?",
         choices: [
-          "Atoms, ions, bonds broken, bonds formed, and how particles rearrange",
-          "Only whether the solution looks pretty",
-          "Only the container brand",
-          "Only the names of lab partners"
+          "Only whether the solution looks interesting.",
+          "Atoms, ions, bonds broken, bonds formed, and how particles rearrange.",
+          "Only the container brand.",
+          "Only the names of lab partners."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Particle-level explanations connect observations to atoms, ions, and bonds."
       },
       {
         id: "kp-256-q2",
         prompt: "Why is 'the test tube got warm' not a complete particle-level explanation?",
         choices: [
-          "It describes evidence but not what happened to atoms, ions, and bonds.",
           "It proves no energy was transferred.",
           "It explains every bond change fully.",
+          "It describes evidence but not what happened to atoms, ions, and bonds.",
           "It is never a useful observation."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Temperature is evidence; a deeper explanation describes particles and energy changes."
       },
       {
@@ -10502,36 +10502,36 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-257-q1",
         prompt: "Why can dissolving an ionic compound in water be useful for a hand warmer investigation?",
         choices: [
-          "Some dissolving processes release energy and raise the temperature.",
           "Dissolving always destroys matter.",
           "Dissolving cannot involve energy transfer.",
-          "Water prevents all particle interactions."
+          "Water prevents all particle interactions.",
+          "Some dissolving processes release energy and raise the temperature."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Some ionic compounds dissolve exothermically, making them possible heat sources."
       },
       {
         id: "kp-257-q2",
         prompt: "A salt dissolves in water and the temperature drops from 20.0°C to 13.0°C. What type of energy change is suggested?",
         choices: [
-          "Endothermic dissolving",
           "Exothermic dissolving",
+          "Endothermic dissolving",
           "No energy transfer",
           "Combustion"
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "A temperature decrease suggests the dissolving process absorbed energy from surroundings."
       },
       {
         id: "kp-257-q3",
         prompt: "Which data would help decide whether a substance could work in a hand warmer?",
         choices: [
-          "Temperature change after dissolving a measured amount in water",
-          "Only the colour of the solid before testing",
-          "Only the label font",
-          "The number of letters in the compound name"
+          "Only the colour of the solid before testing.",
+          "Only the label font.",
+          "Temperature change after dissolving a measured amount in water.",
+          "The number of letters in the compound name."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Temperature data shows whether dissolving releases enough useful heat."
       }
     ]
@@ -10555,24 +10555,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-258-q2",
         prompt: "Which criterion directly protects the user of a hand warmer?",
         choices: [
-          "Maximum temperature that will not harm skin",
-          "Longest compound name",
-          "Most expensive package",
-          "Largest possible waste volume"
+          "Longest compound name.",
+          "Most expensive package.",
+          "Largest possible waste volume.",
+          "Maximum temperature that will not harm skin."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "A hand warmer must produce useful warmth without burning the user."
       },
       {
         id: "kp-258-q3",
         prompt: "A chemical warms water quickly but is expensive and difficult to dispose of safely. What should a design team do?",
         choices: [
-          "Compare it against all criteria before deciding whether it is suitable.",
           "Choose it automatically because it gets hot.",
+          "Compare it against all criteria before deciding whether it is suitable.",
           "Ignore safety and disposal.",
           "Assume cost and waste do not matter."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Design decisions should weigh multiple criteria, not just one measurement."
       }
     ]
@@ -10584,12 +10584,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-259-q1",
         prompt: "Which safety factor should be included in designing a chemical hand warmer?",
         choices: [
-          "Whether the reactants or products can irritate skin or harm the environment",
-          "Whether the package colour is the user's favourite",
-          "Whether the chemical name is short",
-          "Whether the product avoids all testing"
+          "Whether the package colour is the user's favourite.",
+          "Whether the chemical name is short.",
+          "Whether the reactants or products can irritate skin or harm the environment.",
+          "Whether the product avoids all testing."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Chemical products must be evaluated for safe use, cleanup, and disposal."
       },
       {
@@ -10608,12 +10608,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-259-q3",
         prompt: "Which design choice best reflects safe chemical design?",
         choices: [
-          "Using a sealed packet, clear handling instructions, and tested disposal procedures",
-          "Letting users touch unknown powders directly",
-          "Choosing the most reactive chemical without testing",
-          "Removing all safety labels to save space"
+          "Letting users touch unknown powders directly.",
+          "Choosing the most reactive chemical without testing.",
+          "Removing all safety labels to save space.",
+          "Using a sealed packet, clear handling instructions, and tested disposal procedures."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Safe design anticipates handling, containment, and end-of-use risks."
       }
     ]
@@ -10625,24 +10625,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-260-q1",
         prompt: "Which example uses a chemical reaction as an energy source?",
         choices: [
-          "Burning propane to heat food",
-          "Folding paper without any material change",
-          "Writing a title on a worksheet",
-          "Counting batteries in a drawer without using them"
+          "Folding paper without any material change.",
+          "Burning propane to heat food.",
+          "Writing a title on a worksheet.",
+          "Counting batteries in a drawer without using them."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Combustion of propane releases useful energy for heating and cooking."
       },
       {
         id: "kp-260-q2",
         prompt: "Why should an energy-source investigation include both pros and cons?",
         choices: [
-          "Useful energy output, emissions, cost, and environmental impacts all matter.",
           "Only the fuel's name matters.",
           "All energy sources have identical impacts.",
+          "Useful energy output, emissions, cost, and environmental impacts all matter.",
           "Balanced equations remove all social and environmental questions."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Energy choices involve chemical, environmental, and socio-economic trade-offs."
       },
       {
