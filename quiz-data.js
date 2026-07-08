@@ -11479,6 +11479,826 @@ window.SCIENCE10_QUIZZES = {
       }
     ]
   },
+  "kp-281": {
+    title: "KP5: Combustion and pollution",
+    questions: [
+      {
+        id: "kp-281-q1",
+        prompt: "How can combustion contribute to air pollution?",
+        choices: [
+          "Burning sulfur- or nitrogen-containing substances can produce gases such as sulfur dioxide or nitrogen dioxide.",
+          "Combustion always produces only pure water.",
+          "Combustion removes all gases from air.",
+          "Oxygen in combustion prevents any oxide from forming."
+        ],
+        correctIndex: 0,
+        explanation: "Some combustion products are pollutant oxides that can affect air and later form acids."
+      },
+      {
+        id: "kp-281-q2",
+        prompt: "Why are sulfur dioxide and nitrogen dioxide connected to acid precipitation?",
+        choices: [
+          "They can react in the atmosphere and contribute to acid-forming compounds.",
+          "They are neutral salts that cannot react with water.",
+          "They are produced only by photosynthesis.",
+          "They remove all hydrogen ions from rainwater."
+        ],
+        correctIndex: 0,
+        explanation: "These oxides can lead to sulfuric, nitric, or nitrous acids in precipitation."
+      },
+      {
+        id: "kp-281-q3",
+        prompt: "Which product would you expect from combustion of sulfur in oxygen?",
+        choices: [
+          "\\(SO_2\\)",
+          "\\(H_2O\\)",
+          "\\(NaCl\\)",
+          "\\(PbI_2\\)"
+        ],
+        correctIndex: 0,
+        explanation: "Sulfur reacts with oxygen to form sulfur dioxide."
+      }
+    ]
+  },
+  "kp-282": {
+    title: "KP6: Incomplete combustion",
+    questions: [
+      {
+        id: "kp-282-q1",
+        prompt: "When is incomplete combustion more likely to occur?",
+        choices: [
+          "When the oxygen supply is too low.",
+          "When there is unlimited oxygen.",
+          "When no fuel is present.",
+          "When a salt dissolves in water."
+        ],
+        correctIndex: 0,
+        explanation: "Too little oxygen can prevent complete combustion."
+      },
+      {
+        id: "kp-282-q2",
+        prompt: "Which products can form during incomplete combustion of a hydrocarbon?",
+        choices: [
+          "Carbon monoxide and soot, along with carbon dioxide and water",
+          "Only sodium chloride and water",
+          "Only hydrogen gas and oxygen gas",
+          "Only a metal precipitate"
+        ],
+        correctIndex: 0,
+        explanation: "Incomplete combustion can produce CO and carbon particles because fuel is not fully oxidized."
+      },
+      {
+        id: "kp-282-q3",
+        prompt: "Why can a yellow, smoky flame suggest incomplete combustion?",
+        choices: [
+          "Soot particles may be forming because not enough oxygen is available.",
+          "It proves no chemical reaction occurred.",
+          "It means the fuel contains no carbon.",
+          "It shows the reaction is neutralization."
+        ],
+        correctIndex: 0,
+        explanation: "Soot is a sign that carbon from the fuel was not fully converted to carbon dioxide."
+      }
+    ]
+  },
+  "kp-283": {
+    title: "KP7: Carbon monoxide hazard",
+    questions: [
+      {
+        id: "kp-283-q1",
+        prompt: "Why is carbon monoxide especially dangerous?",
+        choices: [
+          "It is colourless, odourless, and highly toxic.",
+          "It is bright green and easy to smell.",
+          "It is a harmless solid precipitate.",
+          "It can only form outdoors."
+        ],
+        correctIndex: 0,
+        explanation: "People may not detect carbon monoxide without a detector."
+      },
+      {
+        id: "kp-283-q2",
+        prompt: "Which situation creates a serious carbon monoxide risk?",
+        choices: [
+          "Running a gasoline engine inside a closed garage.",
+          "Measuring pure water in an open beaker.",
+          "Using litmus paper on vinegar.",
+          "Mixing two safe food colourings."
+        ],
+        correctIndex: 0,
+        explanation: "Poorly ventilated fuel combustion can produce and trap carbon monoxide."
+      },
+      {
+        id: "kp-283-q3",
+        prompt: "Why are carbon monoxide detectors important in homes with fuel-burning appliances?",
+        choices: [
+          "They can warn people about a toxic gas that cannot be seen or smelled.",
+          "They neutralize every acid in the house.",
+          "They balance combustion equations automatically.",
+          "They prevent all oxygen from entering rooms."
+        ],
+        correctIndex: 0,
+        explanation: "Detectors provide warning when human senses may not."
+      }
+    ]
+  },
+  "kp-284": {
+    title: "KP1: Acid",
+    questions: [
+      {
+        id: "kp-284-q1",
+        prompt: "What is an acid in aqueous solution?",
+        choices: [
+          "A compound that forms \\(H^+\\) ions when dissolved in water.",
+          "A compound that forms only \\(OH^-\\) ions.",
+          "A neutral ionic solid that cannot dissolve.",
+          "Any substance with pH greater than 7."
+        ],
+        correctIndex: 0,
+        explanation: "Acids increase hydrogen ion concentration in water."
+      },
+      {
+        id: "kp-284-q2",
+        prompt: "Which formula is most likely an acid from this topic?",
+        choices: [
+          "\\(HCl(aq)\\)",
+          "\\(NaOH(aq)\\)",
+          "\\(Ca(OH)_2(aq)\\)",
+          "\\(NaCl(aq)\\)"
+        ],
+        correctIndex: 0,
+        explanation: "HCl(aq) forms H+ and Cl- ions in water."
+      },
+      {
+        id: "kp-284-q3",
+        prompt: "Which property is commonly associated with acidic solutions?",
+        choices: [
+          "Blue litmus turns red.",
+          "Red litmus turns blue.",
+          "pH is always greater than 7.",
+          "They always contain hydroxide as the main ion."
+        ],
+        correctIndex: 0,
+        explanation: "Acids turn blue litmus red and have pH values below 7."
+      }
+    ]
+  },
+  "kp-285": {
+    title: "KP2: Base",
+    questions: [
+      {
+        id: "kp-285-q1",
+        prompt: "What is a base in aqueous solution?",
+        choices: [
+          "A compound that forms \\(OH^-\\) ions when dissolved in water.",
+          "A compound that forms only \\(H^+\\) ions.",
+          "A hydrocarbon that burns in oxygen.",
+          "A solid precipitate formed by two salts."
+        ],
+        correctIndex: 0,
+        explanation: "Bases increase hydroxide ion concentration in water."
+      },
+      {
+        id: "kp-285-q2",
+        prompt: "Which formula is most likely a base from this topic?",
+        choices: [
+          "\\(NaOH(aq)\\)",
+          "\\(HNO_3(aq)\\)",
+          "\\(HCl(aq)\\)",
+          "\\(CH_3COOH(aq)\\)"
+        ],
+        correctIndex: 0,
+        explanation: "Sodium hydroxide forms Na+ and OH- ions in water."
+      },
+      {
+        id: "kp-285-q3",
+        prompt: "Which observation is commonly associated with a basic solution?",
+        choices: [
+          "Red litmus turns blue.",
+          "Blue litmus turns red.",
+          "pH is below 7.",
+          "It always reacts with oxygen to form carbon dioxide."
+        ],
+        correctIndex: 0,
+        explanation: "Bases turn red litmus blue and have pH values above 7."
+      }
+    ]
+  },
+  "kp-286": {
+    title: "KP3: Acid-base indicators",
+    questions: [
+      {
+        id: "kp-286-q1",
+        prompt: "What does an acid-base indicator do?",
+        choices: [
+          "It changes colour depending on whether a solution is acidic or basic.",
+          "It balances chemical equations.",
+          "It removes all ions from a solution.",
+          "It produces carbon monoxide."
+        ],
+        correctIndex: 0,
+        explanation: "Indicators respond to hydrogen ion concentration or pH range."
+      },
+      {
+        id: "kp-286-q2",
+        prompt: "Blue litmus paper turns red in an unknown solution. What does this suggest?",
+        choices: [
+          "The solution is acidic.",
+          "The solution is basic.",
+          "The solution must be pure water.",
+          "The solution is a hydrocarbon."
+        ],
+        correctIndex: 0,
+        explanation: "Blue litmus turning red is evidence of acidity."
+      },
+      {
+        id: "kp-286-q3",
+        prompt: "Why might universal indicator or a pH meter give more useful information than simple litmus?",
+        choices: [
+          "They can estimate pH or pH range more precisely.",
+          "They make acids disappear.",
+          "They identify every product in a reaction automatically.",
+          "They are used only for combustion."
+        ],
+        correctIndex: 0,
+        explanation: "Litmus mostly classifies acid/base, while other tools can provide pH information."
+      }
+    ]
+  },
+  "kp-287": {
+    title: "KP4: pH scale",
+    questions: [
+      {
+        id: "kp-287-q1",
+        prompt: "Which pH value is acidic?",
+        choices: [
+          "pH 3",
+          "pH 7",
+          "pH 10",
+          "pH 14 only"
+        ],
+        correctIndex: 0,
+        explanation: "Acidic solutions have pH values below 7."
+      },
+      {
+        id: "kp-287-q2",
+        prompt: "Which pH value is basic?",
+        choices: [
+          "pH 11",
+          "pH 2",
+          "pH 6",
+          "pH 7"
+        ],
+        correctIndex: 0,
+        explanation: "Basic solutions have pH values above 7."
+      },
+      {
+        id: "kp-287-q3",
+        prompt: "What does pH 7 usually indicate for a solution such as pure water?",
+        choices: [
+          "Neutral",
+          "Strongly acidic",
+          "Strongly basic",
+          "Incomplete combustion"
+        ],
+        correctIndex: 0,
+        explanation: "Neutral solutions have pH equal to 7."
+      }
+    ]
+  },
+  "kp-288": {
+    title: "KP5: pH and ion concentration",
+    questions: [
+      {
+        id: "kp-288-q1",
+        prompt: "In an acidic solution, how do \\(H^+\\) and \\(OH^-\\) concentrations compare?",
+        choices: [
+          "\\(H^+\\) concentration is greater than \\(OH^-\\) concentration.",
+          "\\(OH^-\\) concentration is greater than \\(H^+\\) concentration.",
+          "They are always equal.",
+          "Neither ion can exist in water."
+        ],
+        correctIndex: 0,
+        explanation: "Acids have more hydrogen ions than hydroxide ions."
+      },
+      {
+        id: "kp-288-q2",
+        prompt: "A solution has pH 12. Which ion is more abundant?",
+        choices: [
+          "\\(OH^-\\)",
+          "\\(H^+\\)",
+          "\\(CO_2\\)",
+          "\\(O_2\\)"
+        ],
+        correctIndex: 0,
+        explanation: "pH greater than 7 indicates a basic solution with more hydroxide ions."
+      },
+      {
+        id: "kp-288-q3",
+        prompt: "A solution changes from pH 5 to pH 4. What happened to acidity?",
+        choices: [
+          "It became more acidic.",
+          "It became more basic.",
+          "It became neutral.",
+          "It stopped containing ions."
+        ],
+        correctIndex: 0,
+        explanation: "Lower pH means greater acidity and more hydrogen ions."
+      }
+    ]
+  },
+  "kp-289": {
+    title: "KP6: Neutralization reaction",
+    questions: [
+      {
+        id: "kp-289-q1",
+        prompt: "What are the usual products of a neutralization reaction?",
+        choices: [
+          "A salt and water",
+          "A hydrocarbon and oxygen",
+          "Only carbon monoxide",
+          "A metal and a non-metal gas only"
+        ],
+        correctIndex: 0,
+        explanation: "An acid and base react to form water and an ionic compound called a salt."
+      },
+      {
+        id: "kp-289-q2",
+        prompt: "Which situation is an everyday example of neutralization?",
+        choices: [
+          "A basic antacid helps reduce excess stomach acid.",
+          "Methane burns on a stove.",
+          "Sodium chloride dissolves in water with no acid-base reaction.",
+          "Copper wire is heated in a flame."
+        ],
+        correctIndex: 0,
+        explanation: "Antacids contain bases that react with acid."
+      },
+      {
+        id: "kp-289-q3",
+        prompt: "What happens to \\(H^+\\) and \\(OH^-\\) ions in neutralization?",
+        choices: [
+          "They combine to form water.",
+          "They both become carbon dioxide.",
+          "They turn into soot.",
+          "They stop being matter."
+        ],
+        correctIndex: 0,
+        explanation: "Hydrogen ions and hydroxide ions form water molecules."
+      }
+    ]
+  },
+  "kp-290": {
+    title: "KP7: General neutralization pattern",
+    questions: [
+      {
+        id: "kp-290-q1",
+        prompt: "Which general pattern describes neutralization?",
+        choices: [
+          "acid + base -> salt + water",
+          "hydrocarbon + oxygen -> metal + salt",
+          "compound -> element + element",
+          "metal + oxygen -> acid + base"
+        ],
+        correctIndex: 0,
+        explanation: "Neutralization is an acid-base reaction that forms salt and water."
+      },
+      {
+        id: "kp-290-q2",
+        prompt: "Why is neutralization a type of double replacement reaction?",
+        choices: [
+          "The ions switch partners, forming water and a salt.",
+          "One element replaces another element in a compound.",
+          "A single compound breaks apart.",
+          "Oxygen reacts with a hydrocarbon."
+        ],
+        correctIndex: 0,
+        explanation: "The acid's H+ and the base's OH- form water while the remaining ions form a salt."
+      },
+      {
+        id: "kp-290-q3",
+        prompt: "What are the products of \\(HCl + KOH\\)?",
+        choices: [
+          "\\(KCl + H_2O\\)",
+          "\\(KOH + H_2\\)",
+          "\\(CO_2 + H_2O\\)",
+          "\\(K + Cl_2 + O_2\\)"
+        ],
+        correctIndex: 0,
+        explanation: "Hydrochloric acid and potassium hydroxide form potassium chloride and water."
+      }
+    ]
+  },
+  "kp-291": {
+    title: "KP1: Fossil fuels and carbon dioxide",
+    questions: [
+      {
+        id: "kp-291-q1",
+        prompt: "How does burning fossil fuels affect atmospheric carbon dioxide?",
+        choices: [
+          "It releases carbon dioxide into the atmosphere.",
+          "It removes all carbon dioxide from the atmosphere.",
+          "It turns carbon dioxide into sodium chloride.",
+          "It prevents combustion from occurring."
+        ],
+        correctIndex: 0,
+        explanation: "Combustion of carbon-containing fuels produces CO2."
+      },
+      {
+        id: "kp-291-q2",
+        prompt: "Why is carbon dioxide discussed in both climate and ocean chemistry?",
+        choices: [
+          "It is a greenhouse gas and can dissolve in ocean water.",
+          "It is a strong base with pH 14.",
+          "It is a solid precipitate in all oceans.",
+          "It cannot interact with water."
+        ],
+        correctIndex: 0,
+        explanation: "CO2 affects the atmosphere and can change ocean chemistry."
+      },
+      {
+        id: "kp-291-q3",
+        prompt: "Which reaction source is most directly linked to increased \\(CO_2\\) from fossil fuel use?",
+        choices: [
+          "Hydrocarbon combustion",
+          "Litmus paper testing",
+          "Precipitate filtration only",
+          "Freezing pure water"
+        ],
+        correctIndex: 0,
+        explanation: "Burning hydrocarbons produces carbon dioxide and water."
+      }
+    ]
+  },
+  "kp-292": {
+    title: "KP2: Carbon dioxide and ocean acidity",
+    questions: [
+      {
+        id: "kp-292-q1",
+        prompt: "What can happen when atmospheric \\(CO_2\\) dissolves in ocean water?",
+        choices: [
+          "It can form carbonic acid.",
+          "It always forms pure oxygen gas.",
+          "It becomes sodium hydroxide.",
+          "It prevents all acids from forming."
+        ],
+        correctIndex: 0,
+        explanation: "CO2 and water can form carbonic acid, changing ocean chemistry."
+      },
+      {
+        id: "kp-292-q2",
+        prompt: "How does more dissolved \\(CO_2\\) tend to affect ocean acidity?",
+        choices: [
+          "It increases \\(H^+\\) concentration and makes water more acidic.",
+          "It removes all \\(H^+\\) ions.",
+          "It always raises pH above 14.",
+          "It turns ocean water into a hydrocarbon fuel."
+        ],
+        correctIndex: 0,
+        explanation: "Carbonic acid formation increases hydrogen ion concentration."
+      },
+      {
+        id: "kp-292-q3",
+        prompt: "If ocean water becomes more acidic, what happens to pH?",
+        choices: [
+          "pH decreases.",
+          "pH increases above 14.",
+          "pH cannot change.",
+          "pH becomes a balanced equation."
+        ],
+        correctIndex: 0,
+        explanation: "More acidic means lower pH."
+      }
+    ]
+  },
+  "kp-293": {
+    title: "KP3: Ocean organisms and shells",
+    questions: [
+      {
+        id: "kp-293-q1",
+        prompt: "Why can ocean acidification affect organisms with shells?",
+        choices: [
+          "Lower carbonate ion availability can make it harder to build calcium carbonate shells.",
+          "Acidification gives every organism stronger shells.",
+          "Shells are made only of oxygen gas.",
+          "Carbonate ions are unrelated to shells."
+        ],
+        correctIndex: 0,
+        explanation: "Many shells and skeletons depend on carbonate materials."
+      },
+      {
+        id: "kp-293-q2",
+        prompt: "Which organism group could be affected if shell-building becomes harder?",
+        choices: [
+          "Clams, oysters, plankton, or corals",
+          "Only land mammals with no ocean connection",
+          "Only metals in a lab",
+          "Only combustion fuels"
+        ],
+        correctIndex: 0,
+        explanation: "The textbook describes shelled organisms, plankton, and coral reefs as vulnerable."
+      },
+      {
+        id: "kp-293-q3",
+        prompt: "Why can harm to shell-building plankton affect food webs?",
+        choices: [
+          "Plankton can form the base of many ocean food chains.",
+          "Plankton are never eaten.",
+          "Food webs do not include microscopic organisms.",
+          "Ocean acidity affects only rocks."
+        ],
+        correctIndex: 0,
+        explanation: "Changes to organisms near the base of food chains can affect many other organisms."
+      }
+    ]
+  },
+  "kp-294": {
+    title: "KP4: Chemistry and global consequences",
+    questions: [
+      {
+        id: "kp-294-q1",
+        prompt: "Why is ocean acidification both a chemistry issue and a social issue?",
+        choices: [
+          "Chemical changes can affect ecosystems, food supply, and people's livelihoods.",
+          "Chemistry issues never affect people.",
+          "Ocean pH is unrelated to living organisms.",
+          "Social issues cannot involve evidence."
+        ],
+        correctIndex: 0,
+        explanation: "Chemical changes can have ecological and human consequences."
+      },
+      {
+        id: "kp-294-q2",
+        prompt: "Which question connects chemistry to global consequences?",
+        choices: [
+          "How might lower ocean pH affect shellfish harvests and coastal communities?",
+          "What colour is the worksheet title?",
+          "Can pH be ignored in water systems?",
+          "How many letters are in carbon dioxide?"
+        ],
+        correctIndex: 0,
+        explanation: "This question links pH chemistry to ecosystems and human communities."
+      },
+      {
+        id: "kp-294-q3",
+        prompt: "Which response best reflects scientific evaluation of ocean acidity?",
+        choices: [
+          "Use chemical evidence, ecosystem data, and community impacts together.",
+          "Use only guesses about ocean colour.",
+          "Ignore pH because it is microscopic.",
+          "Assume all organisms respond the same way."
+        ],
+        correctIndex: 0,
+        explanation: "Strong evaluation combines chemistry evidence with broader impacts."
+      }
+    ]
+  },
+  "kp-295": {
+    title: "KP1: Properties of acids and bases",
+    questions: [
+      {
+        id: "kp-295-q1",
+        prompt: "Which set of results best identifies an acid?",
+        choices: [
+          "pH below 7 and blue litmus turns red",
+          "pH above 7 and red litmus turns blue",
+          "pH exactly 7 and no litmus change",
+          "A yellow flame and soot"
+        ],
+        correctIndex: 0,
+        explanation: "Acids have pH below 7 and turn blue litmus red."
+      },
+      {
+        id: "kp-295-q2",
+        prompt: "Which set of results best identifies a base?",
+        choices: [
+          "pH above 7 and red litmus turns blue",
+          "pH below 7 and blue litmus turns red",
+          "pH exactly 7 only",
+          "Carbon monoxide production"
+        ],
+        correctIndex: 0,
+        explanation: "Bases have pH above 7 and turn red litmus blue."
+      },
+      {
+        id: "kp-295-q3",
+        prompt: "Why should more than one property sometimes be tested?",
+        choices: [
+          "Multiple pieces of evidence make the identification more reliable.",
+          "One test always identifies every chemical exactly.",
+          "Extra tests remove the need for safety.",
+          "Indicators cannot provide any evidence."
+        ],
+        correctIndex: 0,
+        explanation: "Using several tests can support a stronger acid-base classification."
+      }
+    ]
+  },
+  "kp-296": {
+    title: "KP2: Testing unknown solutions",
+    questions: [
+      {
+        id: "kp-296-q1",
+        prompt: "What is the safest first step when planning to test unknown solutions?",
+        choices: [
+          "Wear appropriate PPE and design a procedure before handling samples.",
+          "Taste each solution to see if it is sour.",
+          "Mix all unknowns together immediately.",
+          "Heat every unknown strongly without approval."
+        ],
+        correctIndex: 0,
+        explanation: "Unknown solutions require careful planning, PPE, and teacher-approved procedures."
+      },
+      {
+        id: "kp-296-q2",
+        prompt: "Why should each unknown sample be carefully labelled during testing?",
+        choices: [
+          "So observations can be matched to the correct solution.",
+          "So the solution becomes neutral.",
+          "So the indicator changes colour faster.",
+          "So no data table is needed."
+        ],
+        correctIndex: 0,
+        explanation: "Good lab organization prevents mixing up evidence."
+      },
+      {
+        id: "kp-296-q3",
+        prompt: "Which test could help identify whether an unknown is acidic, basic, or neutral?",
+        choices: [
+          "Testing with litmus, pH paper, or another acid-base indicator",
+          "Counting the bubbles in a candle flame",
+          "Balancing a random combustion equation only",
+          "Measuring the length of the test tube"
+        ],
+        correctIndex: 0,
+        explanation: "Indicators and pH tests provide acid-base evidence."
+      }
+    ]
+  },
+  "kp-297": {
+    title: "KP3: Evidence-based identification",
+    questions: [
+      {
+        id: "kp-297-q1",
+        prompt: "An unknown turns blue litmus red and methyl orange red. What claim is best supported?",
+        choices: [
+          "The unknown is acidic.",
+          "The unknown is strongly basic.",
+          "The unknown is pure water.",
+          "The unknown is a hydrocarbon fuel."
+        ],
+        correctIndex: 0,
+        explanation: "Both observations support an acidic classification."
+      },
+      {
+        id: "kp-297-q2",
+        prompt: "Why should observations be organized in a data table during unknown testing?",
+        choices: [
+          "It makes it easier to compare results across tests and support a claim.",
+          "It changes the pH of each solution.",
+          "It neutralizes acids automatically.",
+          "It replaces the need for evidence."
+        ],
+        correctIndex: 0,
+        explanation: "Organized evidence helps justify the final identification."
+      },
+      {
+        id: "kp-297-q3",
+        prompt: "Which explanation is evidence-based?",
+        choices: [
+          "Unknown B is basic because it had pH 10 and turned red litmus blue.",
+          "Unknown B is basic because I liked its label.",
+          "Unknown B is basic because all unknowns must be basic.",
+          "Unknown B is basic because it was tested last."
+        ],
+        correctIndex: 0,
+        explanation: "The correct explanation uses recorded test results."
+      }
+    ]
+  },
+  "kp-298": {
+    title: "KP1: Reaction classification",
+    questions: [
+      {
+        id: "kp-298-q1",
+        prompt: "Which reaction type has the pattern \\(AB -> A + B\\)?",
+        choices: [
+          "Decomposition",
+          "Synthesis",
+          "Double replacement",
+          "Neutralization"
+        ],
+        correctIndex: 0,
+        explanation: "A compound breaking apart is decomposition."
+      },
+      {
+        id: "kp-298-q2",
+        prompt: "Which reaction type has the pattern \\(AX + BY -> AY + BX\\)?",
+        choices: [
+          "Double replacement",
+          "Combustion",
+          "Synthesis",
+          "Decomposition"
+        ],
+        correctIndex: 0,
+        explanation: "Two ionic compounds exchange partners in double replacement."
+      },
+      {
+        id: "kp-298-q3",
+        prompt: "Which reaction is combustion?",
+        choices: [
+          "\\(C_2H_6 + O_2 -> CO_2 + H_2O\\)",
+          "\\(2Na + Cl_2 -> 2NaCl\\)",
+          "\\(2H_2O_2 -> 2H_2O + O_2\\)",
+          "\\(AgNO_3 + KCl -> AgCl + KNO_3\\)"
+        ],
+        correctIndex: 0,
+        explanation: "A hydrocarbon reacting with oxygen to form carbon dioxide and water is combustion."
+      }
+    ]
+  },
+  "kp-299": {
+    title: "KP2: Predicting products",
+    questions: [
+      {
+        id: "kp-299-q1",
+        prompt: "Predict the products for complete combustion of \\(C_4H_{10}\\).",
+        choices: [
+          "\\(CO_2\\) and \\(H_2O\\)",
+          "\\(NaCl\\) and \\(H_2O\\)",
+          "\\(C\\) and \\(H_2\\) only",
+          "\\(AgCl\\) and \\(KNO_3\\)"
+        ],
+        correctIndex: 0,
+        explanation: "Complete hydrocarbon combustion produces carbon dioxide and water."
+      },
+      {
+        id: "kp-299-q2",
+        prompt: "Predict the product of \\(2Al + 3Cl_2\\).",
+        choices: [
+          "\\(2AlCl_3\\)",
+          "\\(Al_2Cl\\)",
+          "\\(Al + Cl\\)",
+          "\\(Al(OH)_3\\)"
+        ],
+        correctIndex: 0,
+        explanation: "Aluminum and chlorine combine in a synthesis reaction to form aluminum chloride."
+      },
+      {
+        id: "kp-299-q3",
+        prompt: "For \\(HNO_3 + NaOH\\), which products should be predicted?",
+        choices: [
+          "\\(NaNO_3 + H_2O\\)",
+          "\\(NaH + NO_3OH\\)",
+          "\\(CO_2 + H_2O\\)",
+          "\\(Na + HNO_3OH\\)"
+        ],
+        correctIndex: 0,
+        explanation: "Acid-base neutralization forms a salt, sodium nitrate, and water."
+      }
+    ]
+  },
+  "kp-300": {
+    title: "KP3: Balanced equations",
+    questions: [
+      {
+        id: "kp-300-q1",
+        prompt: "Which balanced equation represents sodium reacting with chlorine?",
+        choices: [
+          "\\(2Na + Cl_2 -> 2NaCl\\)",
+          "\\(Na + Cl_2 -> NaCl\\)",
+          "\\(Na_2 + Cl -> NaCl\\)",
+          "\\(2Na + Cl_2 -> Na_2Cl\\)"
+        ],
+        correctIndex: 0,
+        explanation: "The balanced equation has 2 sodium atoms and 2 chlorine atoms on both sides."
+      },
+      {
+        id: "kp-300-q2",
+        prompt: "Which balanced equation represents magnesium oxide decomposing?",
+        choices: [
+          "\\(2MgO -> 2Mg + O_2\\)",
+          "\\(MgO -> Mg + O_2\\)",
+          "\\(MgO_2 -> Mg + O_2\\)",
+          "\\(2Mg + O_2 -> 2MgO\\)"
+        ],
+        correctIndex: 0,
+        explanation: "Two MgO formula units are needed to produce one O2 molecule and conserve atoms."
+      },
+      {
+        id: "kp-300-q3",
+        prompt: "After predicting products, what must still be done before an equation is complete?",
+        choices: [
+          "Balance the equation using coefficients so atoms are conserved.",
+          "Change subscripts until the equation looks shorter.",
+          "Remove products that are hard to balance.",
+          "Ignore state symbols and atom counts."
+        ],
+        correctIndex: 0,
+        explanation: "Conservation of mass requires balanced atom counts."
+      }
+    ]
+  },
   "kp-306": {
     title: "KP1: Energy as an indirect concept",
     questions: [
