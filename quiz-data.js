@@ -11445,10 +11445,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-280-q1",
         prompt: "Why is combustion usually described as exothermic?",
         choices: [
-          "It absorbs all surrounding energy and never gives any off.",
+          "It uses oxygen, so the main energy transfer is into the reaction.",
           "It releases energy to the surroundings, often as heat and light.",
           "It has no bond changes.",
-          "It always produces a precipitate."
+          "It is classified by the number of products rather than energy transfer."
         ],
         correctIndex: 1,
         explanation: "Most combustion reactions release useful heat and often light."
@@ -11470,7 +11470,7 @@ window.SCIENCE10_QUIZZES = {
         prompt: "A camp stove burns methane and warms a pot of water. Where does the useful heating energy come from?",
         choices: [
           "Energy released during methane combustion is transferred to the surroundings, including the pot and water.",
-          "The pot creates energy from nothing.",
+          "The pot stores energy first and then sends it into the flame.",
           "The water decomposes into fuel.",
           "Oxygen prevents energy transfer."
         ],
@@ -11486,10 +11486,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-281-q1",
         prompt: "A fuel contains a small amount of sulfur. Which outcome best explains why burning it can contribute to air pollution?",
         choices: [
-          "The sulfur atoms are destroyed, leaving only harmless water vapour.",
-          "The fuel cannot burn because sulfur blocks oxygen from reacting.",
+          "The sulfur atoms become trapped in the ash, so gas products are not important.",
+          "The fuel burns normally, but sulfur remains separate from oxygen.",
           "Sulfur can react with oxygen to form sulfur dioxide, an oxide pollutant.",
-          "Sulfur turns directly into solid carbon, making only soot."
+          "Sulfur changes the flame colour but does not affect the combustion products."
         ],
         correctIndex: 2,
         explanation: "Elements or compounds containing sulfur can form sulfur dioxide during combustion."
@@ -11500,8 +11500,8 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "They can react in the atmosphere and help form acidic compounds.",
           "They are already neutral salts, so they simply make rainwater neutral.",
-          "They remove oxygen from clouds, causing only pure water to fall.",
-          "They convert all carbon dioxide in air into solid carbon."
+          "They make clouds warmer, which changes rain without making acids.",
+          "They settle out before reacting with water in the atmosphere."
         ],
         correctIndex: 0,
         explanation: "These oxide pollutants can participate in reactions that produce acids in precipitation."
@@ -11527,9 +11527,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-282-q1",
         prompt: "A Bunsen burner flame becomes yellow and smoky after the air intake is partly closed. What is the best explanation?",
         choices: [
-          "The fuel has stopped reacting and is only melting.",
+          "The fuel is reacting more slowly because the flame temperature dropped.",
           "There is too little oxygen, so incomplete combustion is more likely.",
-          "The burner is producing only carbon dioxide and water.",
+          "The burner is producing mostly carbon dioxide and water vapour.",
           "The flame is neutralizing an acid in the air."
         ],
         correctIndex: 1,
@@ -11539,7 +11539,7 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-282-q2",
         prompt: "Which set of products is most consistent with incomplete combustion of a hydrocarbon?",
         choices: [
-          "Only carbon dioxide and water, because all carbon becomes fully oxidized.",
+          "Mostly carbon dioxide and water, because the oxygen supply is enough.",
           "Hydrogen gas and oxygen gas, because the hydrocarbon separates into elements.",
           "Carbon monoxide and carbon particles, along with some carbon dioxide and water.",
           "A salt and water, because the hydrocarbon acts like an acid."
@@ -11552,7 +11552,7 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why is soot evidence that combustion has not gone fully to completion?",
         choices: [
           "Some carbon from the fuel remains as solid particles instead of becoming carbon dioxide.",
-          "Soot forms only when there is more oxygen than the flame can use.",
+          "Soot forms when extra oxygen turns carbon dioxide back into carbon.",
           "Soot proves the fuel contained no carbon atoms.",
           "Soot is the salt produced by acid-base neutralization."
         ],
@@ -11592,7 +11592,7 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-283-q3",
         prompt: "A home has a gas furnace and a fireplace. What is the main role of a carbon monoxide detector?",
         choices: [
-          "It adds oxygen to every flame so incomplete combustion cannot occur.",
+          "It adds oxygen to the room so flames burn more completely.",
           "It turns carbon monoxide into carbon dioxide inside the room.",
           "It warns people when a hard-to-detect toxic gas may be present.",
           "It identifies the pH of gases from the furnace."
@@ -11633,10 +11633,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-284-q3",
         prompt: "An unknown colourless solution turns blue litmus red. Which conclusion is best supported?",
         choices: [
-          "The solution must be neutral water.",
+          "The solution is probably neutral because it has no visible colour.",
           "The solution is acidic.",
           "The solution is basic because it changed an indicator.",
-          "The solution must be a salt with pH 7."
+          "The solution is a salt solution because litmus changed colour."
         ],
         correctIndex: 1,
         explanation: "Acids turn blue litmus red and have pH values below 7."
@@ -11653,7 +11653,7 @@ window.SCIENCE10_QUIZZES = {
           "It releases \\(H^+\\) ions into water.",
           "It is any compound that contains hydrogen.",
           "It forms \\(OH^-\\) ions when dissolved in water.",
-          "It is any solution with pH exactly 7."
+          "It is any solution that feels slippery before testing."
         ],
         correctIndex: 2,
         explanation: "Bases increase hydroxide ion concentration in water."
@@ -11675,7 +11675,7 @@ window.SCIENCE10_QUIZZES = {
         prompt: "A cleaner has pH 11 and turns red litmus blue. What does this indicate?",
         choices: [
           "It is acidic because any pH number above 10 is very acidic.",
-          "It is neutral because cleaners always have pH 7.",
+          "It is neutral because cleaners can be diluted with water.",
           "It is a combustion product rather than a solution.",
           "It is basic because pH is above 7 and red litmus turns blue."
         ],
@@ -11691,9 +11691,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-286-q1",
         prompt: "What information does an acid-base indicator provide?",
         choices: [
-          "It identifies every ion in the solution by name.",
+          "It identifies the exact formula of the dissolved compound.",
           "It changes colour in response to acidic or basic conditions.",
-          "It turns any acidic solution into pure water.",
+          "It changes the solution by reacting with the acid or base.",
           "It proves that a combustion reaction has occurred."
         ],
         correctIndex: 1,
@@ -11715,10 +11715,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-286-q3",
         prompt: "Why might a pH meter or universal indicator be chosen instead of simple litmus paper?",
         choices: [
-          "They can give a pH value or narrower pH range rather than only acid/base evidence.",
+          "They can give a pH value or narrower pH range rather than broad acid/base evidence.",
           "They remove the hydrogen ions from the solution during testing.",
           "They automatically balance the acid-base equation.",
-          "They work only on gases from incomplete combustion."
+          "They work best on gases from incomplete combustion."
         ],
         correctIndex: 0,
         explanation: "Litmus mostly classifies acid/base, while other tools can provide pH information."
@@ -11756,7 +11756,7 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-287-q3",
         prompt: "What does pH 7 usually indicate for pure water?",
         choices: [
-          "It has no particles or ions at all.",
+          "It has so few dissolved substances that pH is not useful.",
           "It is strongly basic because 7 is a large number.",
           "It is neutral, with acidity and basicity balanced.",
           "It is acidic because it contains hydrogen atoms."
@@ -11775,8 +11775,8 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "\\(H^+\\) concentration is greater than \\(OH^-\\) concentration.",
           "\\(OH^-\\) concentration is greater than \\(H^+\\) concentration.",
-          "The two ions are always equal in any solution.",
-          "Aqueous acids contain no ions."
+          "The two ions are equal whenever the solution has water.",
+          "Aqueous acids contain hydroxide ions but not hydrogen ions."
         ],
         correctIndex: 0,
         explanation: "Acids have more hydrogen ions than hydroxide ions."
@@ -11786,7 +11786,7 @@ window.SCIENCE10_QUIZZES = {
         prompt: "A solution changes from pH 5 to pH 4. What happens to the hydrogen ion concentration?",
         choices: [
           "It decreases because the pH number got smaller.",
-          "It stays exactly the same because both values are acidic.",
+          "It stays nearly the same because both values are acidic.",
           "It becomes half as large.",
           "It increases by about 10 times."
         ],
@@ -11797,7 +11797,7 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-288-q3",
         prompt: "A solution has pH 12. Which statement best describes its ion balance?",
         choices: [
-          "\\(H^+\\) and \\(OH^-\\) are equal because pH values always balance.",
+          "\\(H^+\\) and \\(OH^-\\) are equal because pH values near the middle balance.",
           "\\(OH^-\\) is more abundant than \\(H^+\\).",
           "\\(H^+\\) is more abundant than \\(OH^-\\).",
           "Neither \\(H^+\\) nor \\(OH^-\\) can exist above pH 7."
@@ -11815,7 +11815,7 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What are the usual products when an acid reacts with a base in a neutralization reaction?",
         choices: [
           "A hydrocarbon and oxygen",
-          "Only carbon dioxide and heat",
+          "Carbon dioxide and heat",
           "A salt and water",
           "A metal and a separate non-metal"
         ],
@@ -11838,9 +11838,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-289-q3",
         prompt: "During neutralization, why does the pH often move closer to 7?",
         choices: [
-          "\\(H^+\\) ions turn into carbon atoms, lowering the pH to zero.",
-          "\\(OH^-\\) ions become oxygen gas, making the solution burn.",
-          "The salt removes all water from the solution.",
+          "\\(H^+\\) ions are stored in the salt while \\(OH^-\\) ions remain unchanged.",
+          "\\(OH^-\\) ions become oxygen gas before the solution can become neutral.",
+          "The salt controls pH by absorbing water from the solution.",
           "\\(H^+\\) and \\(OH^-\\) combine to form water."
         ],
         correctIndex: 3,
