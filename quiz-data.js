@@ -2876,12 +2876,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-71-q1",
         prompt: "How can comparing a patient's DNA sequence with a reference population support healthcare decisions?",
         choices: [
+          "It shows that the most common sequence in a database is always the healthiest sequence.",
+          "It proves that any difference from a reference sequence causes the condition.",
           "It can help identify sequence differences that may be connected to a genetic condition.",
-          "It immediately cures any inherited disease.",
-          "It proves that every sequence difference is harmful.",
-          "It replaces the need for patient consent."
+          "It removes the need to consider family history, symptoms, or consent."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Genomics can highlight DNA differences for further study, but interpretation still requires evidence, context, and ethical care."
       },
       {
@@ -2889,9 +2889,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "A doctor compares a DNA region from a patient with many DNA sequences from people without the condition. What is the strongest reason for using a large comparison group?",
         choices: [
           "It helps distinguish unusual disease-linked patterns from common harmless variation.",
-          "It makes every patient genetically identical.",
-          "It removes the need to understand inheritance.",
-          "It guarantees that the condition is caused by one dominant allele."
+          "It makes every rare DNA difference disappear from the patient.",
+          "It proves the patient's condition is caused by a single gene every time.",
+          "It replaces the need to ask whether the data represent the patient's community."
         ],
         correctIndex: 0,
         explanation: "A background population helps researchers judge whether a sequence difference is rare, common, or worth investigating."
@@ -2900,12 +2900,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-71-q3",
         prompt: "Why is the 'spellcheck' analogy for genomics useful but limited?",
         choices: [
-          "It suggests finding differences in a sequence, but DNA differences are not automatically errors.",
-          "It shows that DNA contains no useful information.",
-          "It means a computer can fix a person's genome like a typed word.",
-          "It proves that all genetic conditions are caused by spelling mistakes in one gene."
+          "It means every DNA difference should be corrected as if it were a typo.",
+          "It shows that a reference population is unnecessary for sequence comparison.",
+          "It proves that genetic conditions always have one simple DNA cause.",
+          "It suggests finding differences in a sequence, but DNA differences are not automatically errors."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "The analogy is helpful for comparison, but biological meaning is more complex than simply marking an error."
       }
     ]
@@ -2917,24 +2917,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-72-q1",
         prompt: "Why can underrepresentation in genomic databases create a healthcare problem?",
         choices: [
+          "It improves accuracy because smaller databases are always easier to interpret.",
           "Genetic comparisons may be less accurate or less useful for groups missing from the reference data.",
-          "It means DNA cannot be studied in any population.",
-          "It makes all genetic diseases disappear from those groups.",
-          "It proves that environment never matters in health."
+          "It proves that people outside the database do not have genetic variation.",
+          "It means healthcare decisions should ignore genomic evidence completely."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "If a group is missing from comparison data, researchers may have less context for interpreting sequence differences in that group."
       },
       {
         id: "kp-72-q2",
         prompt: "Which approach best matches ethical community participation in genomics research?",
         choices: [
-          "Researchers work with communities so data use, benefits, and consent are clear.",
           "Researchers collect DNA samples without explaining the project.",
           "Researchers assume one population can represent every other population.",
-          "Researchers hide results from the people most affected."
+          "Researchers work with communities so data use, benefits, and consent are clear.",
+          "Researchers focus only on collecting more data and avoid discussing how it will be used."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Equity in genomics includes informed consent, respect, community involvement, and attention to how results are used."
       },
       {
@@ -2942,9 +2942,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What misconception should be avoided when discussing representation in genomics?",
         choices: [
           "More inclusive genomic data can improve interpretation, but it must be collected and used responsibly.",
-          "Representation matters only in non-medical research.",
-          "Consent is unnecessary if the goal is scientific.",
-          "A single DNA database automatically works equally well for every community."
+          "A large database automatically works equally well for every community.",
+          "Consent is unnecessary if the project has a medical goal.",
+          "Representation matters only for social topics, not for health interpretation."
         ],
         correctIndex: 0,
         explanation: "The goal is not just more data; it is responsible data guided by consent, context, and community priorities."
@@ -2958,36 +2958,36 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-73-q1",
         prompt: "In inheritance, what does probability describe?",
         choices: [
-          "The chance that a particular genotype or phenotype will occur.",
-          "A guarantee that every small family will match a predicted ratio exactly.",
+          "The exact sequence in which children with each trait must be born.",
+          "A way to make chance events match the expected ratio in every small sample.",
           "The number of chromosomes in every body cell.",
-          "A method for changing recessive alleles into dominant alleles."
+          "The chance that a particular genotype or phenotype will occur."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Probability describes expected chances, not guaranteed outcomes in every small sample."
       },
       {
         id: "kp-73-q2",
         prompt: "A Punnett square predicts a 1 in 4 chance of a recessive phenotype. In a family of four children, why might the actual result not be exactly one child with that phenotype?",
         choices: [
+          "The probability changes after each child so the final child must balance the ratio.",
           "Each fertilization is a chance event, so small samples can differ from expected ratios.",
-          "Punnett squares never apply to humans.",
           "The probability changes to 100% after the first child is born.",
-          "Recessive phenotypes cannot appear in real offspring."
+          "The recessive phenotype can appear only in large families."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Predicted ratios are most reliable when many offspring or trials are considered."
       },
       {
         id: "kp-73-q3",
         prompt: "A class observes 18 heads and 22 tails in 40 coin flips. What is the approximate percentage of heads?",
         choices: [
-          "45%.",
           "18%.",
           "55%.",
+          "45%.",
           "90%."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "18 out of 40 is 18/40 = 0.45, so heads occurred about 45% of the time."
       }
     ]
@@ -3000,9 +3000,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why can a coin flip be a useful model for allele separation during meiosis?",
         choices: [
           "It models a random choice between two possible outcomes.",
-          "It shows that alleles are made of metal.",
-          "It proves that every offspring receives identical alleles.",
-          "It models DNA copying in exact molecular detail."
+          "It models every molecular step of meiosis in exact detail.",
+          "It proves that a 1:1 result must happen after every two flips.",
+          "It shows that allele separation is controlled by which trait is dominant."
         ],
         correctIndex: 0,
         explanation: "A coin flip can represent chance, such as which allele enters a gamete, but it is only a simplified model."
@@ -3011,24 +3011,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-74-q2",
         prompt: "Which is a limitation of using coin flips to model inheritance?",
         choices: [
-          "A coin has only two simple outcomes and does not include all biological details of meiosis and fertilization.",
-          "A coin flip is never random.",
-          "A coin flip always produces a 3:1 phenotype ratio.",
-          "A coin model can show DNA sequence changes directly."
+          "A coin flip can model chance only if both outcomes are dominant.",
+          "A coin model is useful only when studying sex-linked traits.",
+          "A coin flip always produces exactly half heads in any set of flips.",
+          "A coin has only two simple outcomes and does not include all biological details of meiosis and fertilization."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Models help focus on one idea, such as chance, while leaving out many details of real cells."
       },
       {
         id: "kp-74-q3",
         prompt: "In 12 coin flips, a group gets 8 heads and 4 tails. What should they conclude?",
         choices: [
-          "The result can happen by chance, and more trials may move the ratio closer to 1:1.",
           "The coin model has proven that heads is genetically dominant.",
+          "The result can happen by chance, and more trials may move the ratio closer to 1:1.",
           "The expected 1:1 ratio is impossible.",
           "All future flips must be tails to fix the result."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Small samples often differ from the expected ratio; larger datasets usually give more reliable comparisons."
       }
     ]
@@ -3040,12 +3040,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-75-q1",
         prompt: "In a corn genetics investigation, why can each kernel be treated as a separate offspring?",
         choices: [
+          "All kernels on an ear always have exactly the same genotype.",
+          "Each kernel colour is determined only by its position on the cob.",
           "Each kernel forms from its own egg and pollen grain combination.",
-          "All kernels are one single organism with one genotype.",
-          "Kernel colour is never inherited.",
-          "Each kernel is produced by mitosis from the same parent cell only."
+          "A kernel is counted as an offspring only if it shows the dominant phenotype."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Each kernel results from a separate fertilization event, so an ear of corn can show many offspring at once."
       },
       {
@@ -3053,9 +3053,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why is an ear of corn useful for observing inheritance patterns?",
         choices: [
           "It provides many visible offspring that can be counted and compared.",
-          "It shows only one offspring, making ratios exact.",
-          "It prevents recessive traits from appearing.",
-          "It removes the need to record data."
+          "It makes every observed count exactly match the theoretical ratio.",
+          "It prevents recessive traits from appearing in the F2 generation.",
+          "It lets students infer inheritance without counting any phenotypes."
         ],
         correctIndex: 0,
         explanation: "Many kernels give a larger sample for comparing observed counts with predicted ratios."
@@ -3064,12 +3064,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-75-q3",
         prompt: "A student counts only the first 10 kernels they see on an ear of corn. What is the main problem with using that as the whole dataset?",
         choices: [
-          "The sample is small and may not represent the full ear well.",
-          "A small sample always matches the theoretical ratio exactly.",
-          "Counting visible traits is never useful in genetics.",
-          "Corn kernels cannot have phenotypes."
+          "Counting 10 kernels always overestimates the recessive phenotype.",
+          "The theoretical ratio cannot be compared with observed data.",
+          "Each kernel has the same genotype, so counting more is unnecessary.",
+          "The sample is small and may not represent the full ear well."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "A small sample can be strongly affected by chance, so a larger count is more reliable."
       }
     ]
@@ -3081,24 +3081,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-76-q1",
         prompt: "If purple corn kernels are dominant to yellow kernels, what F2 phenotypic ratio is commonly predicted from two heterozygous parents?",
         choices: [
-          "3 purple : 1 yellow.",
           "1 purple : 3 yellow.",
+          "3 purple : 1 yellow.",
           "1 purple : 1 yellow.",
           "4 yellow : 0 purple."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "A heterozygote by heterozygote monohybrid cross with complete dominance predicts a 3:1 phenotypic ratio."
       },
       {
         id: "kp-76-q2",
         prompt: "An ear of corn has 150 purple kernels and 50 yellow kernels. Which predicted ratio does this most closely match?",
         choices: [
-          "3:1.",
           "1:1.",
-          "1:2:1.",
+          "1:2.",
+          "3:1.",
           "1:3."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "150:50 simplifies to 3:1, matching the expected dominant-to-recessive F2 phenotype ratio."
       },
       {
@@ -3106,9 +3106,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why might the observed F2 ratio on one ear of corn differ slightly from the theoretical ratio?",
         choices: [
           "Fertilization events are chance events, and real samples may not match predictions exactly.",
-          "The theoretical ratio is never based on allele combinations.",
-          "Dominant alleles stop meiosis from happening.",
-          "All yellow kernels must have been counted incorrectly."
+          "The theoretical ratio applies only if no recessive alleles are present.",
+          "Dominant alleles stop meiosis from happening in some kernels.",
+          "Any difference from 3:1 proves the dominant allele was absent."
         ],
         correctIndex: 0,
         explanation: "Predicted ratios are expectations; observed data can vary because each kernel comes from a chance fertilization event."
@@ -3122,36 +3122,36 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-77-q1",
         prompt: "In a monohybrid-cross model using two colours of paper clips, what should each single paper clip represent?",
         choices: [
-          "One allele.",
-          "One whole population.",
-          "One completed pedigree.",
-          "One environmental factor only."
+          "One offspring phenotype ratio.",
+          "One parent organism with both alleles.",
+          "One gamete after fertilization is complete.",
+          "One allele."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "The model uses physical objects to stand for allele forms that can combine during fertilization."
       },
       {
         id: "kp-77-q2",
         prompt: "What does a pair of paper clips represent after two partners each contribute one paper clip?",
         choices: [
-          "The offspring's genotype for the modelled trait.",
           "The exact DNA sequence of both parents.",
-          "A guaranteed phenotype ratio for the whole class.",
-          "A mutation caused by the lab materials."
+          "The offspring's genotype for the modelled trait.",
+          "A guaranteed 3:1 phenotype ratio for that one offspring.",
+          "The environmental pressure acting on the population."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "One allele from each parent combines to form the offspring genotype for that trait."
       },
       {
         id: "kp-77-q3",
         prompt: "Why should students choose one allele from each parent without looking?",
         choices: [
-          "It helps model the random separation and combination of alleles.",
           "It ensures every offspring is homozygous dominant.",
           "It changes recessive alleles into dominant alleles.",
-          "It makes sample size irrelevant."
+          "It helps model the random separation and combination of alleles.",
+          "It prevents chance variation in small samples."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Random choice is the part of the model that represents chance in gamete formation and fertilization."
       }
     ]
@@ -3175,24 +3175,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-78-q2",
         prompt: "If two F1 heterozygotes \\((Aa \\times Aa)\\) are crossed, which genotypic ratio is predicted?",
         choices: [
-          "1 \\(AA\\) : 2 \\(Aa\\) : 1 \\(aa\\).",
           "3 \\(AA\\) : 1 \\(aa\\).",
           "4 \\(Aa\\) : 0 \\(AA\\) : 0 \\(aa\\).",
-          "1 \\(AA\\) : 1 \\(aa\\) only."
+          "1 \\(AA\\) : 1 \\(aa\\) only.",
+          "1 \\(AA\\) : 2 \\(Aa\\) : 1 \\(aa\\)."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "The Punnett square gives AA, Aa, Aa, and aa, which is a 1:2:1 genotypic ratio."
       },
       {
         id: "kp-78-q3",
         prompt: "Why are F2 results useful when studying a dominant and recessive trait?",
         choices: [
-          "Recessive phenotypes can reappear in F2, revealing the hidden allele from F1 heterozygotes.",
           "F2 offspring never show recessive phenotypes.",
+          "Recessive phenotypes can reappear in F2, revealing the hidden allele from F1 heterozygotes.",
           "F2 crosses remove chance from inheritance.",
           "F2 offspring have no connection to F1 genotypes."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "F1 heterozygotes can carry recessive alleles that become visible again in some F2 offspring."
       }
     ]
@@ -3204,12 +3204,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-79-q1",
         prompt: "Why are class results often closer to expected inheritance ratios than one group's results?",
         choices: [
-          "Class results usually include more trials, so random variation has less effect.",
+          "Class results change the expected ratio to match the observed data.",
           "Class results make chance disappear completely.",
-          "One group's data is never useful for science.",
-          "Expected ratios change when more students participate."
+          "Class results usually include more trials, so random variation has less effect.",
+          "One group's data is always invalid if it is not exactly 3:1."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Larger samples tend to be more reliable because unusual chance outcomes have less influence on the overall ratio."
       },
       {
@@ -3219,7 +3219,7 @@ window.SCIENCE10_QUIZZES = {
           "Group B, because the larger sample is less likely to be distorted by chance.",
           "Group A, because fewer trials always give more accurate ratios.",
           "Neither, because trial number has no effect on reliability.",
-          "Group A, because small samples must match theory exactly."
+          "Group A, because small samples are required to match theory exactly."
         ],
         correctIndex: 0,
         explanation: "More trials usually produce observed ratios that are closer to theoretical probabilities."
@@ -3228,12 +3228,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-79-q3",
         prompt: "A student says, 'Our 10 model crosses did not make a perfect 3:1 ratio, so Mendel's pattern is wrong.' What is the best response?",
         choices: [
-          "Small samples can differ from expected ratios, so more trials or class data should be checked.",
           "Any result that differs from 3:1 proves the model is impossible.",
           "A 3:1 ratio applies only when no alleles are inherited.",
-          "The student should ignore all observed data."
+          "The student should ignore all observed data.",
+          "Small samples can differ from expected ratios, so more trials or class data should be checked."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Observed data should be evaluated, but a small sample is not enough to reject a probability-based prediction."
       }
     ]
@@ -3245,24 +3245,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-80-q1",
         prompt: "What is a mutation?",
         choices: [
+          "A temporary change in phenotype caused by weather only.",
           "A permanent change in an organism's DNA.",
-          "A temporary change in eye colour caused only by lighting.",
           "A prediction made in a Punnett square.",
-          "A type of pedigree symbol."
+          "A change in allele frequency caused by selection, with no DNA change."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "A mutation is a lasting change in genetic material and can create new allele forms."
       },
       {
         id: "kp-80-q2",
         prompt: "How can a mutation create genetic variation in a population?",
         choices: [
-          "It can produce a new allele that may be inherited by offspring if it occurs in a gamete-forming cell.",
           "It makes all members of a population genetically identical.",
-          "It prevents DNA from being passed to offspring.",
-          "It changes only the environment and never DNA."
+          "It changes only the environment and never DNA.",
+          "It can produce a new allele that may be inherited by offspring if it occurs in a gamete-forming cell.",
+          "It guarantees the new allele will become common in the next generation."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Inherited mutations can introduce new alleles, which are a source of variation in populations."
       },
       {
@@ -3270,9 +3270,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which statement avoids a common misconception about mutations?",
         choices: [
           "Mutations can be harmful, neutral, or sometimes beneficial.",
-          "All mutations immediately kill the organism.",
-          "All mutations are useful adaptations.",
-          "Mutations happen only when scientists cause them."
+          "All mutations immediately create useful adaptations.",
+          "Mutations in body cells are always passed to offspring.",
+          "Mutations happen only when environmental agents cause them."
         ],
         correctIndex: 0,
         explanation: "The effect of a mutation depends on what changes in the DNA and the context in which the organism lives."
