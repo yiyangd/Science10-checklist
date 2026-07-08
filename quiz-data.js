@@ -11484,39 +11484,39 @@ window.SCIENCE10_QUIZZES = {
     questions: [
       {
         id: "kp-281-q1",
-        prompt: "How can combustion contribute to air pollution?",
+        prompt: "A fuel contains a small amount of sulfur. Which outcome best explains why burning it can contribute to air pollution?",
         choices: [
-          "Burning sulfur- or nitrogen-containing substances can produce gases such as sulfur dioxide or nitrogen dioxide.",
-          "Combustion always produces only pure water.",
-          "Combustion removes all gases from air.",
-          "Oxygen in combustion prevents any oxide from forming."
+          "The sulfur atoms are destroyed, leaving only harmless water vapour.",
+          "The fuel cannot burn because sulfur blocks oxygen from reacting.",
+          "Sulfur can react with oxygen to form sulfur dioxide, an oxide pollutant.",
+          "Sulfur turns directly into solid carbon, making only soot."
         ],
-        correctIndex: 0,
-        explanation: "Some combustion products are pollutant oxides that can affect air and later form acids."
+        correctIndex: 2,
+        explanation: "Elements or compounds containing sulfur can form sulfur dioxide during combustion."
       },
       {
         id: "kp-281-q2",
-        prompt: "Why are sulfur dioxide and nitrogen dioxide connected to acid precipitation?",
+        prompt: "Why can gases such as sulfur dioxide and nitrogen dioxide be linked to acid precipitation?",
         choices: [
-          "They can react in the atmosphere and contribute to acid-forming compounds.",
-          "They are neutral salts that cannot react with water.",
-          "They are produced only by photosynthesis.",
-          "They remove all hydrogen ions from rainwater."
+          "They can react in the atmosphere and help form acidic compounds.",
+          "They are already neutral salts, so they simply make rainwater neutral.",
+          "They remove oxygen from clouds, causing only pure water to fall.",
+          "They convert all carbon dioxide in air into solid carbon."
         ],
         correctIndex: 0,
-        explanation: "These oxides can lead to sulfuric, nitric, or nitrous acids in precipitation."
+        explanation: "These oxide pollutants can participate in reactions that produce acids in precipitation."
       },
       {
         id: "kp-281-q3",
-        prompt: "Which product would you expect from combustion of sulfur in oxygen?",
+        prompt: "Which formula best represents the oxide commonly formed when sulfur burns in oxygen?",
         choices: [
-          "\\(SO_2\\)",
-          "\\(H_2O\\)",
-          "\\(NaCl\\)",
-          "\\(PbI_2\\)"
+          "\\(S_8O\\)",
+          "\\(H_2S\\)",
+          "\\(SO_4\\)",
+          "\\(SO_2\\)"
         ],
-        correctIndex: 0,
-        explanation: "Sulfur reacts with oxygen to form sulfur dioxide."
+        correctIndex: 3,
+        explanation: "Sulfur dioxide, \\(SO_2\\), is a sulfur oxide formed in this combustion reaction."
       }
     ]
   },
@@ -11525,36 +11525,36 @@ window.SCIENCE10_QUIZZES = {
     questions: [
       {
         id: "kp-282-q1",
-        prompt: "When is incomplete combustion more likely to occur?",
+        prompt: "A Bunsen burner flame becomes yellow and smoky after the air intake is partly closed. What is the best explanation?",
         choices: [
-          "When the oxygen supply is too low.",
-          "When there is unlimited oxygen.",
-          "When no fuel is present.",
-          "When a salt dissolves in water."
+          "The fuel has stopped reacting and is only melting.",
+          "There is too little oxygen, so incomplete combustion is more likely.",
+          "The burner is producing only carbon dioxide and water.",
+          "The flame is neutralizing an acid in the air."
         ],
-        correctIndex: 0,
-        explanation: "Too little oxygen can prevent complete combustion."
+        correctIndex: 1,
+        explanation: "Limited oxygen can keep the fuel from burning completely."
       },
       {
         id: "kp-282-q2",
-        prompt: "Which products can form during incomplete combustion of a hydrocarbon?",
+        prompt: "Which set of products is most consistent with incomplete combustion of a hydrocarbon?",
         choices: [
-          "Carbon monoxide and soot, along with carbon dioxide and water",
-          "Only sodium chloride and water",
-          "Only hydrogen gas and oxygen gas",
-          "Only a metal precipitate"
+          "Only carbon dioxide and water, because all carbon becomes fully oxidized.",
+          "Hydrogen gas and oxygen gas, because the hydrocarbon separates into elements.",
+          "Carbon monoxide and carbon particles, along with some carbon dioxide and water.",
+          "A salt and water, because the hydrocarbon acts like an acid."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Incomplete combustion can produce CO and carbon particles because fuel is not fully oxidized."
       },
       {
         id: "kp-282-q3",
-        prompt: "Why can a yellow, smoky flame suggest incomplete combustion?",
+        prompt: "Why is soot evidence that combustion has not gone fully to completion?",
         choices: [
-          "Soot particles may be forming because not enough oxygen is available.",
-          "It proves no chemical reaction occurred.",
-          "It means the fuel contains no carbon.",
-          "It shows the reaction is neutralization."
+          "Some carbon from the fuel remains as solid particles instead of becoming carbon dioxide.",
+          "Soot forms only when there is more oxygen than the flame can use.",
+          "Soot proves the fuel contained no carbon atoms.",
+          "Soot is the salt produced by acid-base neutralization."
         ],
         correctIndex: 0,
         explanation: "Soot is a sign that carbon from the fuel was not fully converted to carbon dioxide."
@@ -11566,38 +11566,38 @@ window.SCIENCE10_QUIZZES = {
     questions: [
       {
         id: "kp-283-q1",
-        prompt: "Why is carbon monoxide especially dangerous?",
+        prompt: "Why can carbon monoxide build-up be dangerous before people notice a problem?",
         choices: [
-          "It is colourless, odourless, and highly toxic.",
-          "It is bright green and easy to smell.",
-          "It is a harmless solid precipitate.",
-          "It can only form outdoors."
+          "It is a visible black solid that settles on the floor.",
+          "It has a strong sour smell that people often ignore.",
+          "It is safe unless it reacts with litmus paper.",
+          "It is colourless, odourless, and toxic."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "People may not detect carbon monoxide without a detector."
       },
       {
         id: "kp-283-q2",
-        prompt: "Which situation creates a serious carbon monoxide risk?",
+        prompt: "Which situation has the greatest carbon monoxide risk?",
         choices: [
-          "Running a gasoline engine inside a closed garage.",
-          "Measuring pure water in an open beaker.",
-          "Using litmus paper on vinegar.",
-          "Mixing two safe food colourings."
+          "Testing lemon juice with litmus in an open classroom.",
+          "Running a fuel-burning engine in a closed garage.",
+          "Letting salt water evaporate on a sunny window ledge.",
+          "Adding universal indicator to distilled water."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Poorly ventilated fuel combustion can produce and trap carbon monoxide."
       },
       {
         id: "kp-283-q3",
-        prompt: "Why are carbon monoxide detectors important in homes with fuel-burning appliances?",
+        prompt: "A home has a gas furnace and a fireplace. What is the main role of a carbon monoxide detector?",
         choices: [
-          "They can warn people about a toxic gas that cannot be seen or smelled.",
-          "They neutralize every acid in the house.",
-          "They balance combustion equations automatically.",
-          "They prevent all oxygen from entering rooms."
+          "It adds oxygen to every flame so incomplete combustion cannot occur.",
+          "It turns carbon monoxide into carbon dioxide inside the room.",
+          "It warns people when a hard-to-detect toxic gas may be present.",
+          "It identifies the pH of gases from the furnace."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Detectors provide warning when human senses may not."
       }
     ]
@@ -11607,38 +11607,38 @@ window.SCIENCE10_QUIZZES = {
     questions: [
       {
         id: "kp-284-q1",
-        prompt: "What is an acid in aqueous solution?",
+        prompt: "In this chemistry unit, what makes a dissolved substance an acid?",
         choices: [
-          "A compound that forms \\(H^+\\) ions when dissolved in water.",
-          "A compound that forms only \\(OH^-\\) ions.",
-          "A neutral ionic solid that cannot dissolve.",
-          "Any substance with pH greater than 7."
+          "It releases \\(H^+\\) ions into the aqueous solution.",
+          "It releases \\(OH^-\\) ions as the main ion in solution.",
+          "It must contain a metal and a carbonate ion.",
+          "It must have a pH value greater than 7."
         ],
         correctIndex: 0,
         explanation: "Acids increase hydrogen ion concentration in water."
       },
       {
         id: "kp-284-q2",
-        prompt: "Which formula is most likely an acid from this topic?",
+        prompt: "Which formula is most likely to represent an acid in water?",
         choices: [
-          "\\(HCl(aq)\\)",
           "\\(NaOH(aq)\\)",
-          "\\(Ca(OH)_2(aq)\\)",
-          "\\(NaCl(aq)\\)"
+          "\\(KOH(aq)\\)",
+          "\\(NaCl(aq)\\)",
+          "\\(HNO_3(aq)\\)"
         ],
-        correctIndex: 0,
-        explanation: "HCl(aq) forms H+ and Cl- ions in water."
+        correctIndex: 3,
+        explanation: "\\(HNO_3(aq)\\) is an acid because it can produce hydrogen ions in solution."
       },
       {
         id: "kp-284-q3",
-        prompt: "Which property is commonly associated with acidic solutions?",
+        prompt: "An unknown colourless solution turns blue litmus red. Which conclusion is best supported?",
         choices: [
-          "Blue litmus turns red.",
-          "Red litmus turns blue.",
-          "pH is always greater than 7.",
-          "They always contain hydroxide as the main ion."
+          "The solution must be neutral water.",
+          "The solution is acidic.",
+          "The solution is basic because it changed an indicator.",
+          "The solution must be a salt with pH 7."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Acids turn blue litmus red and have pH values below 7."
       }
     ]
@@ -11648,38 +11648,38 @@ window.SCIENCE10_QUIZZES = {
     questions: [
       {
         id: "kp-285-q1",
-        prompt: "What is a base in aqueous solution?",
+        prompt: "What defines a base in aqueous solution?",
         choices: [
-          "A compound that forms \\(OH^-\\) ions when dissolved in water.",
-          "A compound that forms only \\(H^+\\) ions.",
-          "A hydrocarbon that burns in oxygen.",
-          "A solid precipitate formed by two salts."
+          "It releases \\(H^+\\) ions into water.",
+          "It is any compound that contains hydrogen.",
+          "It forms \\(OH^-\\) ions when dissolved in water.",
+          "It is any solution with pH exactly 7."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Bases increase hydroxide ion concentration in water."
       },
       {
         id: "kp-285-q2",
-        prompt: "Which formula is most likely a base from this topic?",
+        prompt: "Which formula is most likely to represent a base in water?",
         choices: [
-          "\\(NaOH(aq)\\)",
+          "\\(Ca(OH)_2(aq)\\)",
           "\\(HNO_3(aq)\\)",
           "\\(HCl(aq)\\)",
           "\\(CH_3COOH(aq)\\)"
         ],
         correctIndex: 0,
-        explanation: "Sodium hydroxide forms Na+ and OH- ions in water."
+        explanation: "\\(Ca(OH)_2\\) contains hydroxide ions and can form a basic solution."
       },
       {
         id: "kp-285-q3",
-        prompt: "Which observation is commonly associated with a basic solution?",
+        prompt: "A cleaner has pH 11 and turns red litmus blue. What does this indicate?",
         choices: [
-          "Red litmus turns blue.",
-          "Blue litmus turns red.",
-          "pH is below 7.",
-          "It always reacts with oxygen to form carbon dioxide."
+          "It is acidic because any pH number above 10 is very acidic.",
+          "It is neutral because cleaners always have pH 7.",
+          "It is a combustion product rather than a solution.",
+          "It is basic because pH is above 7 and red litmus turns blue."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Bases turn red litmus blue and have pH values above 7."
       }
     ]
@@ -11689,36 +11689,36 @@ window.SCIENCE10_QUIZZES = {
     questions: [
       {
         id: "kp-286-q1",
-        prompt: "What does an acid-base indicator do?",
+        prompt: "What information does an acid-base indicator provide?",
         choices: [
-          "It changes colour depending on whether a solution is acidic or basic.",
-          "It balances chemical equations.",
-          "It removes all ions from a solution.",
-          "It produces carbon monoxide."
+          "It identifies every ion in the solution by name.",
+          "It changes colour in response to acidic or basic conditions.",
+          "It turns any acidic solution into pure water.",
+          "It proves that a combustion reaction has occurred."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Indicators respond to hydrogen ion concentration or pH range."
       },
       {
         id: "kp-286-q2",
-        prompt: "Blue litmus paper turns red in an unknown solution. What does this suggest?",
+        prompt: "Blue litmus paper turns red in an unknown solution. What is the best interpretation?",
         choices: [
-          "The solution is acidic.",
-          "The solution is basic.",
-          "The solution must be pure water.",
-          "The solution is a hydrocarbon."
+          "The solution is basic because red means high pH.",
+          "The solution is neutral because litmus changed colour.",
+          "The solution is acidic because acids turn blue litmus red.",
+          "The solution must contain carbon monoxide."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Blue litmus turning red is evidence of acidity."
       },
       {
         id: "kp-286-q3",
-        prompt: "Why might universal indicator or a pH meter give more useful information than simple litmus?",
+        prompt: "Why might a pH meter or universal indicator be chosen instead of simple litmus paper?",
         choices: [
-          "They can estimate pH or pH range more precisely.",
-          "They make acids disappear.",
-          "They identify every product in a reaction automatically.",
-          "They are used only for combustion."
+          "They can give a pH value or narrower pH range rather than only acid/base evidence.",
+          "They remove the hydrogen ions from the solution during testing.",
+          "They automatically balance the acid-base equation.",
+          "They work only on gases from incomplete combustion."
         ],
         correctIndex: 0,
         explanation: "Litmus mostly classifies acid/base, while other tools can provide pH information."
@@ -11730,38 +11730,38 @@ window.SCIENCE10_QUIZZES = {
     questions: [
       {
         id: "kp-287-q1",
-        prompt: "Which pH value is acidic?",
+        prompt: "Two samples have pH 3 and pH 5. Which statement is correct?",
         choices: [
-          "pH 3",
-          "pH 7",
-          "pH 10",
-          "pH 14 only"
+          "pH 5 is more acidic because it is closer to 7.",
+          "Both samples are basic because their pH values are positive.",
+          "They are equally acidic because both are below 7.",
+          "pH 3 is more acidic because lower pH means stronger acidity."
         ],
-        correctIndex: 0,
-        explanation: "Acidic solutions have pH values below 7."
+        correctIndex: 3,
+        explanation: "Acidic solutions have pH values below 7, and lower pH means more acidic."
       },
       {
         id: "kp-287-q2",
-        prompt: "Which pH value is basic?",
+        prompt: "Which pH value would be classified as basic?",
         choices: [
-          "pH 11",
-          "pH 2",
           "pH 6",
-          "pH 7"
+          "pH 11",
+          "pH 7",
+          "pH 3"
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Basic solutions have pH values above 7."
       },
       {
         id: "kp-287-q3",
-        prompt: "What does pH 7 usually indicate for a solution such as pure water?",
+        prompt: "What does pH 7 usually indicate for pure water?",
         choices: [
-          "Neutral",
-          "Strongly acidic",
-          "Strongly basic",
-          "Incomplete combustion"
+          "It has no particles or ions at all.",
+          "It is strongly basic because 7 is a large number.",
+          "It is neutral, with acidity and basicity balanced.",
+          "It is acidic because it contains hydrogen atoms."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Neutral solutions have pH equal to 7."
       }
     ]
@@ -11771,39 +11771,39 @@ window.SCIENCE10_QUIZZES = {
     questions: [
       {
         id: "kp-288-q1",
-        prompt: "In an acidic solution, how do \\(H^+\\) and \\(OH^-\\) concentrations compare?",
+        prompt: "In an acidic aqueous solution, how do \\(H^+\\) and \\(OH^-\\) compare?",
         choices: [
           "\\(H^+\\) concentration is greater than \\(OH^-\\) concentration.",
           "\\(OH^-\\) concentration is greater than \\(H^+\\) concentration.",
-          "They are always equal.",
-          "Neither ion can exist in water."
+          "The two ions are always equal in any solution.",
+          "Aqueous acids contain no ions."
         ],
         correctIndex: 0,
         explanation: "Acids have more hydrogen ions than hydroxide ions."
       },
       {
         id: "kp-288-q2",
-        prompt: "A solution has pH 12. Which ion is more abundant?",
+        prompt: "A solution changes from pH 5 to pH 4. What happens to the hydrogen ion concentration?",
         choices: [
-          "\\(OH^-\\)",
-          "\\(H^+\\)",
-          "\\(CO_2\\)",
-          "\\(O_2\\)"
+          "It decreases because the pH number got smaller.",
+          "It stays exactly the same because both values are acidic.",
+          "It becomes half as large.",
+          "It increases by about 10 times."
         ],
-        correctIndex: 0,
-        explanation: "pH greater than 7 indicates a basic solution with more hydroxide ions."
+        correctIndex: 3,
+        explanation: "Each one-unit drop in pH means about 10 times more hydrogen ions."
       },
       {
         id: "kp-288-q3",
-        prompt: "A solution changes from pH 5 to pH 4. What happened to acidity?",
+        prompt: "A solution has pH 12. Which statement best describes its ion balance?",
         choices: [
-          "It became more acidic.",
-          "It became more basic.",
-          "It became neutral.",
-          "It stopped containing ions."
+          "\\(H^+\\) and \\(OH^-\\) are equal because pH values always balance.",
+          "\\(OH^-\\) is more abundant than \\(H^+\\).",
+          "\\(H^+\\) is more abundant than \\(OH^-\\).",
+          "Neither \\(H^+\\) nor \\(OH^-\\) can exist above pH 7."
         ],
-        correctIndex: 0,
-        explanation: "Lower pH means greater acidity and more hydrogen ions."
+        correctIndex: 1,
+        explanation: "pH greater than 7 indicates a basic solution with more hydroxide ions."
       }
     ]
   },
@@ -11812,38 +11812,38 @@ window.SCIENCE10_QUIZZES = {
     questions: [
       {
         id: "kp-289-q1",
-        prompt: "What are the usual products of a neutralization reaction?",
+        prompt: "What are the usual products when an acid reacts with a base in a neutralization reaction?",
         choices: [
-          "A salt and water",
           "A hydrocarbon and oxygen",
-          "Only carbon monoxide",
-          "A metal and a non-metal gas only"
+          "Only carbon dioxide and heat",
+          "A salt and water",
+          "A metal and a separate non-metal"
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "An acid and base react to form water and an ionic compound called a salt."
       },
       {
         id: "kp-289-q2",
-        prompt: "Which situation is an everyday example of neutralization?",
+        prompt: "Which situation best represents neutralization in everyday life?",
         choices: [
-          "A basic antacid helps reduce excess stomach acid.",
-          "Methane burns on a stove.",
-          "Sodium chloride dissolves in water with no acid-base reaction.",
-          "Copper wire is heated in a flame."
+          "A basic antacid reacts with excess stomach acid.",
+          "A candle wick burns in oxygen and releases heat.",
+          "Salt crystals dissolve in water without reacting with an acid.",
+          "Iron combines with oxygen to form an oxide."
         ],
         correctIndex: 0,
         explanation: "Antacids contain bases that react with acid."
       },
       {
         id: "kp-289-q3",
-        prompt: "What happens to \\(H^+\\) and \\(OH^-\\) ions in neutralization?",
+        prompt: "During neutralization, why does the pH often move closer to 7?",
         choices: [
-          "They combine to form water.",
-          "They both become carbon dioxide.",
-          "They turn into soot.",
-          "They stop being matter."
+          "\\(H^+\\) ions turn into carbon atoms, lowering the pH to zero.",
+          "\\(OH^-\\) ions become oxygen gas, making the solution burn.",
+          "The salt removes all water from the solution.",
+          "\\(H^+\\) and \\(OH^-\\) combine to form water."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Hydrogen ions and hydroxide ions form water molecules."
       }
     ]
@@ -11853,39 +11853,39 @@ window.SCIENCE10_QUIZZES = {
     questions: [
       {
         id: "kp-290-q1",
-        prompt: "Which general pattern describes neutralization?",
+        prompt: "Which symbolic pattern best represents a neutralization reaction?",
         choices: [
-          "acid + base -> salt + water",
-          "hydrocarbon + oxygen -> metal + salt",
-          "compound -> element + element",
-          "metal + oxygen -> acid + base"
+          "\\(AB + C \\rightarrow CB + A\\)",
+          "\\(HA + BOH \\rightarrow BA + HOH\\)",
+          "\\(C_xH_y + O_2 \\rightarrow CO_2 + H_2O\\)",
+          "\\(AB \\rightarrow A + B\\)"
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Neutralization is an acid-base reaction that forms salt and water."
       },
       {
         id: "kp-290-q2",
-        prompt: "Why is neutralization a type of double replacement reaction?",
+        prompt: "What are the products of \\(HCl + KOH\\) in a neutralization reaction?",
         choices: [
-          "The ions switch partners, forming water and a salt.",
-          "One element replaces another element in a compound.",
-          "A single compound breaks apart.",
-          "Oxygen reacts with a hydrocarbon."
+          "\\(KOH + H_2\\)",
+          "\\(HCl + KOH\\) with no products because acids and bases do not react",
+          "\\(KCl + H_2O\\)",
+          "\\(CO_2 + H_2O\\)"
         ],
-        correctIndex: 0,
-        explanation: "The acid's H+ and the base's OH- form water while the remaining ions form a salt."
+        correctIndex: 2,
+        explanation: "The hydrogen ion and hydroxide ion form water, while potassium and chloride form potassium chloride."
       },
       {
         id: "kp-290-q3",
-        prompt: "What are the products of \\(HCl + KOH\\)?",
+        prompt: "Why is neutralization classified as a double replacement reaction?",
         choices: [
-          "\\(KCl + H_2O\\)",
-          "\\(KOH + H_2\\)",
-          "\\(CO_2 + H_2O\\)",
-          "\\(K + Cl_2 + O_2\\)"
+          "The ions exchange partners: \\(H^+\\) joins \\(OH^-\\), and the remaining ions form a salt.",
+          "A single compound breaks into its elements.",
+          "One metal atom replaces hydrogen in an acid.",
+          "A hydrocarbon reacts with oxygen to form oxides."
         ],
         correctIndex: 0,
-        explanation: "Hydrochloric acid and potassium hydroxide form potassium chloride and water."
+        explanation: "Neutralization follows the double replacement pattern because ions switch partners to form water and a salt."
       }
     ]
   },
