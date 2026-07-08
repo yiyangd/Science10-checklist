@@ -6976,12 +6976,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-171-q1",
         prompt: "Which action is appropriate before starting a chemical investigation?",
         choices: [
+          "Put on goggles only after the first chemical is poured.",
+          "Keep long hair loose so it does not touch the goggles.",
           "Wear required eye protection and secure loose hair or clothing.",
-          "Eat snacks at the lab bench.",
-          "Smell chemicals directly from the container.",
-          "Remove goggles once the chemical is opened."
+          "Rely on careful handling instead of protective equipment."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Protective equipment and careful behaviour reduce the chance of injury."
       },
       {
@@ -6989,9 +6989,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why should food and drink stay out of a chemistry workspace?",
         choices: [
           "They could become contaminated or lead to accidental ingestion of chemicals.",
-          "Food changes all chemicals into water.",
-          "Eating improves chemical safety.",
-          "It is safe if the food is in a closed package."
+          "Food packages act like WHMIS labels for nearby chemicals.",
+          "Eating is safe as long as the chemical has no smell.",
+          "Food and drink are allowed if only familiar household chemicals are used."
         ],
         correctIndex: 0,
         explanation: "No eating or drinking in the lab reduces exposure and contamination risks."
@@ -7000,12 +7000,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-171-q3",
         prompt: "Which behaviour best matches safe classroom chemistry?",
         choices: [
-          "Follow teacher instructions and keep containers away from your face.",
           "Mix unknown chemicals to see what happens.",
           "Wear sandals while handling glassware.",
-          "Ignore safety equipment locations."
+          "Ignore safety equipment locations unless an accident occurs.",
+          "Follow teacher instructions and keep containers away from your face."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Responsible behaviour is part of chemical safety, not just wearing equipment."
       }
     ]
@@ -7017,24 +7017,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-172-q1",
         prompt: "What should you know before an investigation begins?",
         choices: [
-          "Where emergency exits, eyewash stations, and other safety equipment are located.",
           "Only where backpacks are stored.",
+          "Where emergency exits, eyewash stations, and other safety equipment are located.",
           "How to hide spills from the teacher.",
           "How to leave flames unattended."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Knowing emergency equipment and exits helps you respond quickly if something goes wrong."
       },
       {
         id: "kp-172-q2",
         prompt: "If a liquid chemical splashes on skin, what is the safest immediate response in a classroom setting?",
         choices: [
-          "Rinse the area with water and notify the teacher.",
           "Rub it into the skin to make it disappear.",
           "Ignore it unless it hurts later.",
+          "Rinse the area with water and notify the teacher.",
           "Cover it with paper and continue the experiment."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Water rinsing and immediate reporting are standard first responses for many classroom spills."
       },
       {
@@ -7058,36 +7058,36 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-173-q1",
         prompt: "Why should a heated test tube be pointed away from people?",
         choices: [
-          "Hot liquid or vapour could suddenly escape and cause injury.",
           "It makes the reaction happen faster.",
           "It improves the colour of the flame.",
-          "It lets you smell fumes directly."
+          "It lets you smell fumes directly.",
+          "Hot liquid or vapour could suddenly escape and cause injury."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Heating can cause splashing or boiling, so the open end should not face anyone."
       },
       {
         id: "kp-173-q2",
         prompt: "What is the safe way to smell a substance if instructed to do so?",
         choices: [
-          "Waft fumes gently toward your nose.",
           "Place your nose directly over the container.",
+          "Waft fumes gently toward your nose.",
           "Drink a small amount first.",
           "Heat it until the smell becomes stronger."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Wafting reduces direct exposure to concentrated fumes."
       },
       {
         id: "kp-173-q3",
         prompt: "Which action is unsafe when using a flame?",
         choices: [
-          "Leaving an open flame unattended.",
           "Knowing how to light and use the burner properly.",
           "Keeping hair tied back.",
+          "Leaving an open flame unattended.",
           "Handling hot objects with care."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Open flames require attention because they can start fires or heat materials unexpectedly."
       }
     ]
@@ -7100,9 +7100,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which plan best minimizes both personal and environmental risk?",
         choices: [
           "Use correct PPE, smallest practical amounts, safe storage, and approved disposal.",
-          "Pour leftover chemicals into the nearest drain without checking.",
-          "Use more chemical than needed because it looks impressive.",
-          "Skip labels if the container is familiar."
+          "Use more chemical than needed if it makes results easier to see.",
+          "Focus only on personal PPE and ignore waste disposal.",
+          "Skip labels if the container is familiar from home."
         ],
         correctIndex: 0,
         explanation: "Risk reduction includes protecting people and preventing harmful releases to the environment."
@@ -7111,24 +7111,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-174-q2",
         prompt: "Why should disposal be part of a chemical safety plan?",
         choices: [
-          "Improper disposal can harm people, plumbing, wastewater systems, or ecosystems.",
           "Disposal is never connected to environmental safety.",
           "All chemicals can be safely thrown in regular garbage.",
-          "Disposal matters only for solid objects."
+          "Disposal matters only for solid objects.",
+          "Improper disposal can harm people, plumbing, wastewater systems, or ecosystems."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Safe chemical work continues after the investigation, including storage and disposal."
       },
       {
         id: "kp-174-q3",
         prompt: "A painter uses solvents at work. Which risk-reduction strategy is most complete?",
         choices: [
-          "Use ventilation and PPE, avoid spills, and dispose of waste properly.",
           "Wear gloves but pour waste outside.",
+          "Use ventilation and PPE, avoid spills, and dispose of waste properly.",
           "Open containers near flames to save time.",
           "Ignore SDS information if the solvent is common."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Personal and environmental safety require multiple controls, not just one precaution."
       }
     ]
@@ -7140,12 +7140,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-175-q1",
         prompt: "Why is water often called a universal solvent?",
         choices: [
-          "Many different substances can dissolve in it.",
           "It dissolves every substance equally well.",
           "It is always chemically pure in nature.",
-          "It cannot carry pollutants."
+          "Many different substances can dissolve in it.",
+          "It cannot carry pollutants once it enters the ground."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Water dissolves many substances, though not all substances and not always completely."
       },
       {
@@ -7164,12 +7164,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-175-q3",
         prompt: "How does water's solvent ability relate to pollution?",
         choices: [
-          "It can carry harmful dissolved or suspended substances through water systems.",
           "It prevents all pollution from moving.",
           "It makes every pollutant harmless.",
-          "It affects only oceans, not rivers or groundwater."
+          "It affects only oceans, not rivers or groundwater.",
+          "It can carry harmful dissolved or suspended substances through water systems."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Because water can carry substances, pollutants can travel into local ecosystems and drinking water sources."
       }
     ]
@@ -7181,24 +7181,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-176-q1",
         prompt: "Which is an example of a human source of water pollution?",
         choices: [
-          "Pharmaceuticals or personal care products poured down drains.",
           "Dissolved minerals naturally picked up from rocks.",
+          "Pharmaceuticals or personal care products poured down drains.",
           "Clouds forming in the sky.",
           "Water evaporating from a lake."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Human waste, industrial waste, mining waste, plastics, and pharmaceuticals can pollute water."
       },
       {
         id: "kp-176-q2",
         prompt: "Why can household habits affect water quality?",
         choices: [
-          "Substances poured down toilets, sinks, or storm drains can enter water systems.",
           "Household products cannot dissolve or move in water.",
           "Only factories can pollute water.",
+          "Substances poured down toilets, sinks, or storm drains can enter water systems.",
           "Water treatment removes every possible chemical."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Everyday disposal choices can add pollutants to wastewater or stormwater."
       },
       {
@@ -7222,36 +7222,36 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-177-q1",
         prompt: "What is a key difference between wastewater and stormwater in many communities?",
         choices: [
-          "Wastewater often goes to treatment, while stormwater may flow directly into local waterways.",
           "Stormwater is always treated more than wastewater.",
           "Wastewater never contains pollutants.",
-          "Stormwater cannot pick up substances from streets."
+          "Stormwater cannot pick up substances from streets.",
+          "Wastewater often goes to treatment, while stormwater may flow directly into local waterways."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Storm drains can carry runoff directly to rivers or lakes without treatment."
       },
       {
         id: "kp-177-q2",
         prompt: "Why can even treated wastewater still affect ecosystems?",
         choices: [
-          "Treatment can reduce pollutants but may not remove every dissolved or suspended chemical.",
           "Treatment adds all pollutants on purpose.",
+          "Treatment can reduce pollutants but may not remove every dissolved or suspended chemical.",
           "Treatment means the water becomes chemically pure.",
           "Treated water never returns to the environment."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Treatment systems vary and cannot always remove all chemicals."
       },
       {
         id: "kp-177-q3",
         prompt: "A person dumps oily liquid into a storm drain. What is the likely concern?",
         choices: [
-          "It may be carried untreated into a local lake or river.",
           "It will always be fully removed at a treatment plant.",
           "It will become pure water instantly.",
+          "It may be carried untreated into a local lake or river.",
           "It cannot move because drains are sealed."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Storm drains often connect directly to local waterways, making dumping especially harmful."
       }
     ]
@@ -7275,24 +7275,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-178-q2",
         prompt: "Which action could support cleaner water systems?",
         choices: [
-          "Raise awareness and reduce pollutants entering drains and waterways.",
           "Ignore contamination unless it is visible.",
           "Pour more chemicals into storm drains.",
-          "Assume boiling water solves every possible contamination issue."
+          "Assume boiling water solves every possible contamination issue.",
+          "Raise awareness and reduce pollutants entering drains and waterways."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Community action can reduce pollution and support better water quality."
       },
       {
         id: "kp-178-q3",
         prompt: "Why should water-quality plans consider different communities' needs?",
         choices: [
-          "Some communities face greater barriers to safe drinking water and need appropriate support.",
           "All communities have the same water infrastructure.",
+          "Some communities face greater barriers to safe drinking water and need appropriate support.",
           "Water quality affects only large cities.",
           "Unsafe drinking water is never a public health concern."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "The textbook notes that safe drinking water issues affect communities differently, including some First Nations communities."
       }
     ]
@@ -7304,12 +7304,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-179-q1",
         prompt: "Why are there different classes of fire extinguishers?",
         choices: [
-          "Different fuel sources require different chemicals or methods to extinguish safely.",
-          "All fires are identical.",
+          "All fires are identical once oxygen is present.",
           "The letters only show extinguisher size.",
+          "Different fuel sources require different chemicals or methods to extinguish safely.",
           "Fire extinguishers are chosen by colour preference."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Extinguishers are matched to fuel sources such as ordinary combustibles, flammable liquids, electrical equipment, metals, or cooking oils."
       },
       {
@@ -7328,12 +7328,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-179-q3",
         prompt: "Which fire class is associated with cooking oils and fats?",
         choices: [
-          "Class K.",
           "Class C.",
           "Class D.",
-          "Class A only."
+          "Class A only.",
+          "Class K."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Class K fires involve cooking media such as vegetable or animal oils and fats."
       }
     ]
@@ -7345,24 +7345,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-180-q1",
         prompt: "Why should water not be used on a live electrical fire?",
         choices: [
-          "Water can conduct electricity and create a life-threatening shock hazard.",
           "Water makes electricity disappear safely in every situation.",
+          "Water can conduct electricity and create a life-threatening shock hazard.",
           "Electrical fires are always Class A fires.",
           "Water is the only correct choice for all fires."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Using water on live electrical equipment can cause electrocution."
       },
       {
         id: "kp-180-q2",
         prompt: "Why can water be dangerous on a cooking oil fire?",
         choices: [
-          "It can spread burning oil and cause splattering.",
           "It always cools oil safely with no risk.",
           "It changes oil into harmless steam instantly.",
+          "It can spread burning oil and cause splattering.",
           "It is required for all Class K fires."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Water can spread oil-based fires and increase burn risk."
       },
       {
