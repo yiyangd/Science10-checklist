@@ -12291,8 +12291,8 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "Balance the equation using coefficients so atoms are conserved.",
           "Change subscripts until the equation looks shorter.",
-          "Remove products that are hard to balance.",
-          "Ignore state symbols and atom counts."
+          "Choose products with smaller formulas if balancing is difficult.",
+          "Check the reaction type but leave atom counts for later."
         ],
         correctIndex: 0,
         explanation: "Conservation of mass requires balanced atom counts."
@@ -12307,7 +12307,7 @@ window.SCIENCE10_QUIZZES = {
         prompt: "A student mixes two clear solutions and a cloudy solid appears while the temperature stays nearly the same. Which observation is most useful for classifying the reaction?",
         choices: [
           "The lack of temperature change proves no chemical reaction occurred.",
-          "A cloudy solid always means combustion occurred.",
+          "A cloudy solid suggests a gas from combustion was trapped.",
           "The formation of a precipitate suggests a double replacement reaction may have occurred.",
           "The reaction must be neutralization because both reactants were liquids."
         ],
@@ -12330,9 +12330,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-301-q3",
         prompt: "Why should observations be connected to reactants and products before deciding a reaction type?",
         choices: [
-          "Visible evidence is never useful in chemistry.",
-          "Reaction type depends only on whether a thermometer was used.",
-          "Equations are needed only for reactions that produce light.",
+          "Visible evidence is useful, but it identifies the reaction type by itself.",
+          "Reaction type depends mainly on whether the temperature changed.",
+          "Equations are most useful for reactions that produce light.",
           "Different reaction types can share visible signs, so the chemical pattern must also be considered."
         ],
         correctIndex: 3,
@@ -12347,10 +12347,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-302-q1",
         prompt: "Why can an antacid reduce the effect of excess stomach acid?",
         choices: [
-          "It makes the stomach acid disappear without forming products.",
+          "It dilutes stomach acid without changing the acid chemically.",
           "It contains a basic substance that reacts with acid to form less acidic products.",
-          "It turns every acid into oxygen gas.",
-          "It works only by cooling the stomach acid."
+          "It turns stomach acid into a fuel-like gas.",
+          "It works mainly by cooling the stomach acid."
         ],
         correctIndex: 1,
         explanation: "Antacids are bases or basic compounds that neutralize acid, producing products such as a salt and water, and sometimes carbon dioxide."
@@ -12372,7 +12372,7 @@ window.SCIENCE10_QUIZZES = {
         prompt: "A student says, \"The best antacid is the one that makes the solution basic.\" What is the best correction?",
         choices: [
           "An antacid should neutralize excess acid, not necessarily make the final solution strongly basic.",
-          "A strong base is always safest to swallow.",
+          "A strong base is safest if it changes pH quickly.",
           "Neutralization means the solution must become pH 14.",
           "Antacids work by adding more acid."
         ],
@@ -12402,7 +12402,7 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "Use a different acid concentration for each brand to save time.",
           "Use the same acid volume and concentration, same tablet mass, and same endpoint method for each antacid.",
-          "Crush one tablet but leave the others whole, then compare speed only.",
+          "Crush one tablet but leave the others whole, then compare how quickly each trial changes pH.",
           "Stop each trial whenever the solution looks interesting."
         ],
         correctIndex: 1,
@@ -12430,8 +12430,8 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Two antacids both neutralize the same amount of acid. Antacid A costs less per dose, but Antacid B needs a smaller mass. What is the best conclusion?",
         choices: [
           "The recommendation depends on which effectiveness criteria are most important.",
-          "Antacid A must be best because cost is the only scientific factor.",
-          "Antacid B must be best because mass is the only possible factor.",
+          "Antacid A is best if cost is listed before the chemistry results.",
+          "Antacid B is best if a smaller mass seems easier to swallow.",
           "Neither antacid worked because the results were not identical."
         ],
         correctIndex: 0,
@@ -12453,10 +12453,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-304-q3",
         prompt: "Why can choosing an antacid from only one measurement be misleading?",
         choices: [
-          "Scientific decisions should never use measurements.",
+          "Scientific decisions should use descriptions instead of measurements.",
           "One measurement may ignore other important criteria such as cost, dose, safety, or side effects.",
-          "A single measurement always proves a product is safe.",
-          "Neutralization cannot be measured in a lab."
+          "A single measurement proves safety if the pH changes.",
+          "Neutralization is easier to judge from package claims than from lab data."
         ],
         correctIndex: 1,
         explanation: "The textbook-style investigation asks students to decide which properties matter, so the conclusion should be based on those criteria together."
@@ -12495,9 +12495,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "When writing a balanced neutralization equation for an antacid, what should be checked last?",
         choices: [
           "That subscripts have been changed until the equation looks balanced.",
-          "That the acid is always written as the only product.",
+          "That the acid formula is copied unchanged onto the product side.",
           "That water is removed if it makes balancing harder.",
-          "That every element has the same number of atoms on both sides of the equation."
+          "That each element has the same number of atoms on both sides of the equation."
         ],
         correctIndex: 3,
         explanation: "Balancing uses coefficients to conserve atoms; changing subscripts would change the substances."
