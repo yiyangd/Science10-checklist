@@ -4106,12 +4106,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-101-q1",
         prompt: "What makes X-rays and ultraviolet radiation examples of physical mutagens?",
         choices: [
-          "They can physically damage or change the structure of DNA.",
           "They are molecules that must enter the nucleus and react chemically with DNA.",
-          "They are inherited traits chosen by breeders.",
-          "They are harmless substances that prevent all mutations."
+          "They are inherited traits that humans choose during breeding.",
+          "They can physically damage or change the structure of DNA.",
+          "They are selective pressures but cannot affect DNA structure."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Physical mutagens affect DNA structure through physical energy such as X-rays or UV radiation."
       },
       {
@@ -4119,9 +4119,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "A student spends many hours in intense sunlight without protection. Which type of mutagen exposure is most relevant?",
         choices: [
           "Physical mutagen exposure from ultraviolet radiation.",
-          "Artificial selection by humans.",
-          "Geographic isolation.",
-          "A chemical mutagen from nitrites only."
+          "Chemical mutagen exposure from nitrites in preserved food.",
+          "Artificial selection for sun-tolerant skin cells.",
+          "Geographic isolation caused by sunlight."
         ],
         correctIndex: 0,
         explanation: "Sunlight includes ultraviolet radiation, which is a physical mutagen that can damage DNA."
@@ -4130,12 +4130,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-101-q3",
         prompt: "Which statement best avoids a misconception about physical mutagens?",
         choices: [
-          "Physical mutagens can increase mutation risk, but not every exposure causes cancer or an inherited mutation.",
           "Physical mutagens always create beneficial mutations.",
           "Physical mutagens change only proteins and never DNA.",
-          "Physical mutagens are the same thing as artificial selection."
+          "Physical mutagens are the same thing as artificial selection.",
+          "Physical mutagens can increase mutation risk, but not every exposure causes cancer or an inherited mutation."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Mutagens increase mutation rate or risk; the outcome depends on the dose, cells affected, and DNA change."
       }
     ]
@@ -4147,24 +4147,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-102-q1",
         prompt: "What is a chemical mutagen?",
         choices: [
+          "A form of radiation that changes DNA only through physical energy.",
           "A molecule that can enter a cell nucleus and react with DNA.",
-          "A physical barrier that splits a population.",
-          "A trait chosen by the environment instead of humans.",
-          "A chart that predicts offspring genotypes."
+          "A selected trait that breeders choose in crops.",
+          "A geographic barrier that separates gene pools."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Chemical mutagens are chemicals that can interact with DNA and increase mutation rate."
       },
       {
         id: "kp-102-q2",
         prompt: "Which item is an example of a chemical mutagen mentioned in the textbook section?",
         choices: [
-          "Nitrites used in food preservation.",
           "A glacier dividing two populations.",
           "A low-light forest floor.",
-          "An island habitat with many finches."
+          "Nitrites used in food preservation.",
+          "Ultraviolet radiation from sunlight."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Nitrites are listed as chemical mutagens because they can chemically react with DNA."
       },
       {
@@ -4173,8 +4173,8 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "Physical mutagens include radiation; chemical mutagens include molecules that react with DNA.",
           "Physical mutagens are inherited alleles; chemical mutagens are always adaptations.",
-          "Physical mutagens never affect DNA; chemical mutagens always repair DNA.",
-          "Both terms mean the same thing as selective breeding."
+          "Physical mutagens always repair DNA; chemical mutagens always prevent mutation.",
+          "Both terms mean human-directed selective breeding."
         ],
         correctIndex: 0,
         explanation: "The textbook distinguishes physical mutagens such as UV radiation from chemical mutagens such as nitrites or gasoline fumes."
@@ -4188,36 +4188,36 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-103-q1",
         prompt: "What is a carcinogen?",
         choices: [
-          "A substance or agent that causes cancer.",
-          "A trait that always helps reproduction.",
+          "A mutagen that always affects only gametes.",
+          "A trait that improves survival in every environment.",
           "A species formed by adaptive radiation.",
-          "A harmless molecule that prevents mutation."
+          "A substance or agent that causes cancer."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "A carcinogen is an agent that increases cancer risk by causing or contributing to harmful cell changes."
       },
       {
         id: "kp-103-q2",
         prompt: "Which situation best connects a carcinogen to cancer risk?",
         choices: [
-          "Repeated exposure to cigarette smoke compounds can increase lung cancer risk.",
           "A finch population becomes isolated on an island.",
+          "Repeated exposure to cigarette smoke compounds can increase lung cancer risk.",
           "A crop is selected for larger edible parts.",
-          "A pedigree traces a trait through a family."
+          "A pedigree traces a recessive trait through a family."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Compounds in cigarette smoke are described as carcinogens linked with increased lung cancer risk."
       },
       {
         id: "kp-103-q3",
         prompt: "Why can sunscreen reduce one kind of cancer risk?",
         choices: [
-          "It can reduce exposure to ultraviolet radiation, a mutagen associated with skin cancer risk.",
           "It changes harmful alleles into helpful alleles.",
           "It prevents all mutations in every cell of the body.",
+          "It can reduce exposure to ultraviolet radiation, a mutagen associated with skin cancer risk.",
           "It causes artificial selection in skin cells."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Reducing UV exposure lowers exposure to a physical mutagen that can damage DNA in skin cells."
       }
     ]
@@ -4232,7 +4232,7 @@ window.SCIENCE10_QUIZZES = {
           "It can change gene instructions, which may alter the protein made from that gene.",
           "It always stops every protein in the body from being made.",
           "It affects only the organism's habitat, not its cells.",
-          "It changes only pedigree symbols."
+          "It changes only the species name used in a pedigree."
         ],
         correctIndex: 0,
         explanation: "Genes carry instructions for proteins, so DNA changes can affect protein structure or production."
@@ -4241,24 +4241,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-104-q2",
         prompt: "A mutation changes the instructions in a gene used by a cell. Which result is possible?",
         choices: [
-          "The cell may produce a protein that works differently or not at all.",
           "The cell must become a new species immediately.",
           "The mutation cannot affect cell function.",
-          "The mutation can only change the cell's colour in a photograph."
+          "The mutation can only change the cell's colour in a photograph.",
+          "The cell may produce a protein that works differently or not at all."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "If a protein is altered, cell function and organism health may be affected."
       },
       {
         id: "kp-104-q3",
         prompt: "Which statement best avoids a misconception about mutations and proteins?",
         choices: [
-          "A DNA change may affect a specific protein, but the effect depends on where and how the gene changes.",
           "Every mutation affects every protein equally.",
+          "A DNA change may affect a specific protein, but the effect depends on where and how the gene changes.",
           "Proteins make genes, so DNA cannot affect protein production.",
           "Mutations only matter if they are visible from outside the organism."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "The impact of a mutation depends on the gene involved and whether the protein's instructions are changed."
       }
     ]
@@ -4270,12 +4270,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-105-q1",
         prompt: "What is artificial selection?",
         choices: [
-          "Human-directed selective pressure used to increase or modify desired traits.",
+          "Environmental selection with no human role.",
           "A random mutation that always produces cancer.",
+          "Human-directed selective pressure used to increase or modify desired traits.",
           "The formation of species without any selection.",
-          "A process where environments choose traits without human involvement."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Artificial selection, or selective breeding, occurs when humans choose which organisms reproduce for particular traits."
       },
       {
@@ -4294,12 +4294,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-105-q3",
         prompt: "Why can artificial selection change a population over generations?",
         choices: [
-          "Chosen parents pass alleles for desired traits to offspring more often.",
           "Individual organisms change their genes because humans ask them to.",
           "Breeders eliminate inheritance from the process.",
-          "Artificial selection prevents reproduction."
+          "Artificial selection prevents all reproduction.",
+          "Chosen parents pass alleles for desired traits to offspring more often."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "As selected organisms reproduce, alleles linked to desired traits can become more common."
       }
     ]
@@ -4311,24 +4311,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-106-q1",
         prompt: "What is the key difference between natural selection and artificial selection?",
         choices: [
-          "Natural selection is driven by environmental conditions; artificial selection is directed by humans.",
           "Natural selection uses genes, but artificial selection never involves genes.",
+          "Natural selection is driven by environmental conditions; artificial selection is directed by humans.",
           "Artificial selection happens only in wild ecosystems.",
           "Natural selection changes individuals instantly, but artificial selection changes populations."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "In both processes, traits can become more common, but the selecting pressure differs."
       },
       {
         id: "kp-106-q2",
         prompt: "A farmer keeps seeds only from plants that produced well in dry conditions. Which kind of selection is this?",
         choices: [
-          "Artificial selection, because a human chooses which plants reproduce.",
           "Natural selection only, because humans are not involved.",
           "Geographic isolation, because seeds are small.",
+          "Artificial selection, because a human chooses which plants reproduce.",
           "Mass extinction, because some seeds are not planted."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "The farmer is deliberately selecting parents for a desired trait, so this is artificial selection."
       },
       {
@@ -4352,36 +4352,36 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-107-q1",
         prompt: "Which animal trait could humans select for through artificial selection?",
         choices: [
-          "Higher milk production in dairy cattle.",
           "A volcano forming a new island.",
           "An asteroid blocking sunlight.",
-          "A lake separating two wild populations."
+          "A lake separating two wild populations.",
+          "Higher milk production in dairy cattle."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Milk production is a trait that humans can select by choosing breeding parents."
       },
       {
         id: "kp-107-q2",
         prompt: "How do breeders change animal populations over generations?",
         choices: [
-          "They choose parents with desired heritable traits, increasing the chance those traits are passed on.",
           "They make each animal rewrite its DNA during its life.",
+          "They choose parents with desired heritable traits, increasing the chance those traits are passed on.",
           "They prevent all offspring from inheriting alleles.",
           "They remove variation by stopping reproduction completely."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Artificial selection depends on choosing which individuals reproduce based on inherited traits."
       },
       {
         id: "kp-107-q3",
         prompt: "Why can breeding for appearance in companion animals have risks?",
         choices: [
-          "Selecting strongly for one visible trait may also increase health problems linked with that breeding pattern.",
           "Appearance traits cannot be inherited.",
           "Artificial selection always improves every trait at once.",
+          "Selecting strongly for one visible trait may also increase health problems linked with that breeding pattern.",
           "Breeding for appearance prevents any offspring from being fertile."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "The textbook notes that selected traits can have negative consequences, such as breathing or joint problems in some breeds."
       }
     ]
@@ -4395,8 +4395,8 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "Different plant parts were selected over generations, producing crops such as broccoli, cabbage, and kale.",
           "It shows that all crop plants must be different species with no shared ancestry.",
-          "It proves that human selection cannot affect plant traits.",
-          "It shows that crops form only after an asteroid impact."
+          "It proves that human selection cannot affect inherited plant traits.",
+          "It shows that crops form only after geographic isolation."
         ],
         correctIndex: 0,
         explanation: "Many Brassica crops came from selective breeding of different traits in the same ancestral species."
@@ -4405,24 +4405,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-108-q2",
         prompt: "If breeders repeatedly choose plants with larger flower buds, which crop-like trait are they selecting for?",
         choices: [
-          "More developed flower buds.",
           "Less inherited variation in every unrelated species.",
           "A stronger Y chromosome.",
-          "Resistance to all mutagens."
+          "Resistance to all mutagens.",
+          "More developed flower buds."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Artificial selection can emphasize specific plant parts, such as buds, stems, leaves, or flowers."
       },
       {
         id: "kp-108-q3",
         prompt: "Why can two crop varieties look very different yet still belong to the same species?",
         choices: [
-          "Selective breeding can emphasize different traits while the varieties can still interbreed and produce fertile offspring.",
           "Appearance always proves species identity without other evidence.",
+          "Selective breeding can emphasize different traits while the varieties can still interbreed and produce fertile offspring.",
           "Artificial selection removes all shared genes.",
           "Different-looking crops cannot have any common ancestor."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "The textbook notes that selected varieties of wild mustard differ greatly but remain the same species."
       }
     ]
@@ -4434,12 +4434,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-109-q1",
         prompt: "What is one possible limit of breeding crops mainly for fast growth?",
         choices: [
-          "They may become less tolerant of poor soil or other environmental stresses.",
           "They automatically become resistant to every disease.",
-          "They stop having DNA.",
-          "They become unable to pass traits to offspring."
+          "They keep maximum genetic diversity in every generation.",
+          "They may become less tolerant of poor soil or other environmental stresses.",
+          "They become unable to pass any traits to offspring."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Selecting strongly for one trait can reduce performance under other conditions."
       },
       {
@@ -4458,12 +4458,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-109-q3",
         prompt: "Which statement best avoids a misconception about selective breeding?",
         choices: [
-          "Breeding for one desired trait can have trade-offs in other traits.",
           "Artificial selection always improves every trait at once.",
           "A selected trait can never reduce environmental tolerance.",
-          "Selective breeding removes the need for genetic diversity."
+          "Selective breeding removes the need for genetic diversity.",
+          "Breeding for one desired trait can have trade-offs in other traits."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Artificial selection can be useful, but desired traits may come with costs."
       }
     ]
@@ -4475,24 +4475,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-110-q1",
         prompt: "Which is a possible positive consequence of artificial selection?",
         choices: [
-          "Food crops can be bred for traits such as larger edible parts or higher yield.",
           "All genetic diversity is always preserved.",
+          "Food crops can be bred for traits such as larger edible parts or higher yield.",
           "Every selected organism becomes healthier in every way.",
           "Cancer risk is removed from all organisms."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Artificial selection has helped produce useful crop and animal traits that support human needs."
       },
       {
         id: "kp-110-q2",
         prompt: "Which is a possible negative consequence of artificial selection?",
         choices: [
-          "Reduced genetic diversity can make a population more vulnerable to disease or environmental change.",
           "All offspring become unrelated to their parents.",
           "Artificial selection prevents any inherited trait from passing on.",
+          "Reduced genetic diversity can make a population more vulnerable to disease or environmental change.",
           "Selected traits can never affect health."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Selecting for similarity can reduce diversity, increasing risk when conditions change."
       },
       {
@@ -4502,7 +4502,7 @@ window.SCIENCE10_QUIZZES = {
           "Artificial selection can have unintended health consequences.",
           "Artificial selection cannot affect animal bodies.",
           "Only natural selection can change populations.",
-          "Health problems mean the trait was not inherited."
+          "Health problems mean the selected body shape was not inherited."
         ],
         correctIndex: 0,
         explanation: "Selection for desired traits can also increase linked problems or harmful consequences."
