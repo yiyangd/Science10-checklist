@@ -20588,34 +20588,34 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-503-q1",
         prompt: "Why can a space telescope collect information that many ground telescopes cannot?",
         choices: [
+          "It is close enough to stars for distance to be the main advantage.",
+          "It avoids clouds but receives the same wavelengths as a ground telescope.",
           "It can observe some radiation before Earth's atmosphere absorbs or blocks it.",
-          "It changes invisible radiation into planets.",
-          "It works only because there is no gravity in space.",
-          "It avoids all electromagnetic radiation."
+          "It makes visible-light images useful while non-visible radiation is ignored."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "A telescope above the atmosphere can detect wavelengths that may not reach Earth's surface."
       },
       {
         id: "kp-503-q2",
         prompt: "Which pairing best matches a space telescope with the kind of radiation it is designed to study?",
         choices: [
-          "Chandra: X-rays; Spitzer: infrared; Hubble: visible and ultraviolet.",
-          "Chandra: sound waves; Spitzer: ocean waves; Hubble: earthquakes.",
-          "Chandra: only radio; Spitzer: only gamma rays; Hubble: no light.",
-          "Chandra, Spitzer, and Hubble: all observe only unaided-eye visible light."
+          "Chandra: infrared; Spitzer: visible light; Hubble: radio waves.",
+          "Chandra: X-rays; Spitzer: infrared; Hubble: visible, infrared, and ultraviolet.",
+          "Chandra, Spitzer, and Hubble: each mainly improves unaided-eye viewing.",
+          "Chandra: radio waves; Spitzer: X-rays; Hubble: sound waves."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Different space telescopes specialize in different parts of the electromagnetic spectrum."
       },
       {
         id: "kp-503-q3",
         prompt: "A student says, 'A telescope in orbit is useful only because it is closer to stars.' What is the best correction?",
         choices: [
-          "The important advantage is usually avoiding atmospheric absorption, not being much closer to stars.",
-          "Orbiting telescopes cannot collect radiation.",
-          "Space telescopes are close enough to touch most stars.",
-          "Ground telescopes and space telescopes always collect exactly the same data."
+          "Orbit helps because the telescope can avoid atmospheric absorption of some wavelengths.",
+          "The distance advantage is large enough to make nearby stars appear much bigger.",
+          "Orbit helps mainly because mirrors work differently without air pressure.",
+          "Ground telescopes can detect the same wavelengths if their mirrors are large enough."
         ],
         correctIndex: 0,
         explanation: "Compared with stellar distances, orbit height is tiny; access to blocked wavelengths is the key benefit."
@@ -20629,36 +20629,36 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-504-q1",
         prompt: "Why do astronomers observe the same object using several wavelengths?",
         choices: [
-          "Different wavelengths can reveal different physical features of the same object.",
-          "Only one wavelength can ever carry information.",
-          "Changing wavelength changes the object itself.",
-          "Infrared and ultraviolet images are always identical to visible-light images."
+          "Different wavelengths are used mainly to make the final image look colourful.",
+          "Visible light is used for real features, while other wavelengths are artistic overlays.",
+          "Changing wavelength changes the object before astronomers observe it.",
+          "Different wavelengths can reveal different physical features of the same object."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Multi-wavelength observations add information that one view alone may miss."
       },
       {
         id: "kp-504-q2",
         prompt: "If Saturn looks different in visible, ultraviolet, infrared, and radio observations, what should you conclude?",
         choices: [
+          "The visible-light image is the real one, while the others are mainly mistakes.",
           "Each wavelength is highlighting different kinds of information about Saturn and its surroundings.",
-          "Only one image can be real.",
-          "The planet changed shape each time the image was taken.",
-          "Radio observations are not part of astronomy."
+          "Saturn's shape changes quickly enough that each telescope saw a different planet.",
+          "Radio observations are useful for distant galaxies but not planets."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Different wavelengths interact with matter in different ways, so they can emphasize different features."
       },
       {
         id: "kp-504-q3",
         prompt: "Which statement is a common misconception about multi-wavelength astronomy?",
         choices: [
-          "If an object is visible to human eyes, visible light tells the whole story.",
           "Infrared radiation can provide useful astronomical information.",
           "Radio waves from space can be detected by technology.",
+          "If an object is visible to human eyes, visible light tells the whole story.",
           "Ultraviolet observations can show features not obvious in visible light."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Visible light is valuable, but it is only one part of the electromagnetic spectrum."
       }
     ]
@@ -20670,36 +20670,36 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-505-q1",
         prompt: "Which description best defines a galaxy?",
         choices: [
+          "A solar system with planets but no gas or dust between stars.",
+          "A constellation pattern that appears grouped from Earth's viewpoint.",
           "A huge collection of stars, gas, and dust held together by gravity.",
-          "A single bright star with no other matter around it.",
-          "A planet system with no stars.",
-          "A cloud in Earth's atmosphere."
+          "A star cluster that is too small to be held by gravity."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "A galaxy contains many stars along with gas and dust, all bound by gravity."
       },
       {
         id: "kp-505-q2",
         prompt: "Where is the Sun located?",
         choices: [
-          "Inside the Milky Way galaxy.",
-          "Outside all galaxies.",
           "At the centre of the Local Group.",
-          "Inside the Andromeda galaxy."
+          "Inside the Milky Way galaxy.",
+          "Inside the Andromeda galaxy.",
+          "Between galaxies in the Virgo Supercluster."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "The Sun and the stars we see individually at night are part of the Milky Way."
       },
       {
         id: "kp-505-q3",
         prompt: "A clear dark sky shows a hazy band stretching overhead. What is that band mainly showing?",
         choices: [
+          "Dust in Earth's atmosphere lit by the Moon.",
           "Many stars in the disk of the Milky Way.",
-          "Clouds in Earth's lower atmosphere.",
           "The edge of the Solar System.",
-          "Only one nearby planet."
+          "The Local Group seen as one smooth cloud."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "The Milky Way appears hazy because many distant stars blend together to our eyes."
       }
     ]
@@ -20711,36 +20711,36 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-506-q1",
         prompt: "How did telescopes change understanding of the Milky Way's hazy band?",
         choices: [
-          "They helped show that the band is made of many individual stars.",
-          "They proved the band is a single cloud in Earth's sky.",
-          "They showed the Milky Way contains no stars.",
-          "They made the Milky Way appear for the first time."
+          "They showed the band is a nearby cloud reflecting sunlight.",
+          "They made the band visible for the first time in human history.",
+          "They proved that the band surrounds Earth as a solid ring.",
+          "They helped show that the band is made of many individual stars."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Telescopic observations resolved the hazy band into stars."
       },
       {
         id: "kp-506-q2",
         prompt: "Which contribution best fits Galileo's role in this topic?",
         choices: [
-          "Using a telescope to see that the Milky Way band contains individual stars.",
-          "Measuring the exact age of the universe.",
           "Building a radio telescope to map hydrogen clouds.",
-          "Discovering every galaxy in the Local Group."
+          "Using a telescope to see that the Milky Way band contains individual stars.",
+          "Proving that the Sun is far from the centre of the Milky Way.",
+          "Classifying galaxies into spiral, elliptical, and irregular types."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Galileo's telescope helped reveal that the Milky Way was not just a smooth glow."
       },
       {
         id: "kp-506-q3",
         prompt: "Why were William and Caroline Herschel important to changing ideas about the Milky Way?",
         choices: [
+          "Their observations showed the Milky Way is a cloud inside Earth's atmosphere.",
+          "They used galaxy collisions to measure the age of the universe.",
           "Their telescope work helped develop the idea of the Milky Way as a giant system of stars.",
-          "They showed that Earth is the centre of the Milky Way.",
-          "They proved stars are only tiny planets.",
-          "They discovered that gravity does not affect galaxies."
+          "They showed that the Sun is exactly at the Milky Way's centre."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "The Herschels' observations and instruments contributed to a more accurate model of our galaxy."
       }
     ]
@@ -20752,36 +20752,36 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-507-q1",
         prompt: "What force is central to the formation and structure of a galaxy?",
         choices: [
-          "Gravity.",
-          "Friction with Earth's air.",
-          "Sound waves.",
-          "Ocean tides only."
+          "Friction with Earth's atmosphere.",
+          "Visible light pressure from nearby planets.",
+          "The same force that makes constellations appear as patterns.",
+          "Gravity."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Gravity pulls gas, dust, and stars together and helps hold a galaxy together."
       },
       {
         id: "kp-507-q2",
         prompt: "Which scenario best models one part of galaxy formation?",
         choices: [
+          "A constellation pattern becomes a galaxy when cultures give it a name.",
           "A large, slowly spinning cloud of gas, dust, and stars contracts under gravity.",
-          "A planet suddenly becomes a galaxy without gaining matter.",
-          "A star map draws stars into a new shape.",
-          "Clouds in Earth's atmosphere freeze into stars."
+          "A solar system spreads outward until planets turn into stars.",
+          "A galaxy forms when radio waves gather dust into a visible band."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "The checklist emphasizes contraction of a rotating cloud under gravity."
       },
       {
         id: "kp-507-q3",
         prompt: "What is wrong with saying that galaxy shapes are caused only by random arrangement?",
         choices: [
+          "Random arrangement explains spiral arms but not elliptical galaxies.",
+          "Galaxy shape depends mainly on the observer's star map.",
           "Gravity and rotation help organize matter into large-scale structures.",
-          "Gravity has no effect outside Earth.",
-          "Galaxies do not contain matter.",
-          "All galaxies have exactly the same shape."
+          "Gas and dust make galaxies visible but do not affect their structure."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Galaxy structure is shaped by physical processes, especially gravity."
       }
     ]
@@ -20793,36 +20793,36 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-508-q1",
         prompt: "Which set lists common galaxy shape categories?",
         choices: [
-          "Elliptical, spiral, barred spiral, and irregular.",
-          "Zodiac, polar, seasonal, and circumpolar.",
           "Radio, infrared, visible, and X-ray.",
-          "Comet, asteroid, moon, and planet."
+          "Elliptical, spiral, barred spiral, and irregular.",
+          "Zodiac, circumpolar, seasonal, and ecliptic.",
+          "Open cluster, globular cluster, planet, and comet."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Galaxies are often classified by shape into these major categories."
       },
       {
         id: "kp-508-q2",
         prompt: "A galaxy has a central bulge, a flattened disk, and spiral arms with gas, dust, and young stars. Which type best fits?",
         choices: [
-          "Spiral galaxy.",
           "Elliptical galaxy.",
+          "Spiral galaxy.",
           "Irregular galaxy with no structure.",
           "Single star cluster."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Spiral galaxies have disks, central bulges, and spiral arms."
       },
       {
         id: "kp-508-q3",
         prompt: "Which clue would most strongly suggest an irregular galaxy?",
         choices: [
-          "It has no definite overall shape.",
           "It has two clear spiral arms and a central bulge.",
           "It is a smooth oval with few young stars.",
-          "It is a single planet orbiting the Sun."
+          "It is a single planet orbiting the Sun.",
+          "It has no definite overall shape."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Irregular galaxies do not fit the usual spiral or elliptical shapes."
       }
     ]
@@ -20834,12 +20834,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-509-q1",
         prompt: "Why can galaxy classification be difficult?",
         choices: [
+          "Classification is simple if the galaxy appears bright enough.",
           "Gas, dust, other objects, or viewing angle can hide or distort features.",
-          "Galaxies never emit any radiation.",
-          "All galaxies are too close to classify.",
-          "Classification depends only on the observer's favourite colour."
+          "The same galaxy type has the same appearance from each direction.",
+          "Galaxy shape is decided by colour rather than structure."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Astronomers may not see a galaxy's full structure clearly from Earth."
       },
       {
@@ -20847,9 +20847,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "A spiral galaxy is viewed nearly edge-on. What problem might this cause?",
         choices: [
           "Its spiral arms may be hard to distinguish.",
-          "It will become an elliptical galaxy immediately.",
-          "It will stop being held by gravity.",
-          "It will no longer contain stars."
+          "Its stars become older because the viewing angle changes.",
+          "It should be classified by its brightness instead of its shape.",
+          "It becomes an irregular galaxy because the observer sees less detail."
         ],
         correctIndex: 0,
         explanation: "Viewing angle can make a galaxy's true shape harder to identify."
@@ -20859,9 +20859,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which statement best corrects the misconception 'A galaxy image always shows the true shape clearly'?",
         choices: [
           "Images are affected by dust, blocking objects, instrument limits, and angle of view.",
-          "Images are useless for studying galaxies.",
-          "A single visible-light image shows every wavelength at once.",
-          "The same galaxy cannot look different in different observations."
+          "Images are useful for colour but not for shape.",
+          "A visible-light image gives the full classification without needing context.",
+          "Different views matter mainly for planets, not galaxies."
         ],
         correctIndex: 0,
         explanation: "Classification requires caution because observations can be incomplete or misleading."
@@ -20875,12 +20875,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-510-q1",
         prompt: "What is a star cluster?",
         choices: [
+          "A constellation pattern that appears grouped from Earth.",
+          "A group of planets orbiting one star in a solar system.",
           "A group of stars held together by gravity.",
-          "A group of planets held together by magnetism only.",
-          "A single star split into pieces.",
-          "A pattern drawn on a planisphere with no real stars."
+          "A galaxy type that has no gas, dust, or young stars."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Star clusters are real groups of stars bound by gravity."
       },
       {
@@ -20888,9 +20888,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "How did globular cluster observations help Harlow Shapley reason about the Sun's location?",
         choices: [
           "Their uneven apparent distribution suggested the Sun is not at the centre of the Milky Way.",
-          "They proved the Sun is outside the Milky Way.",
-          "They showed that globular clusters orbit Earth.",
-          "They showed that the Milky Way has no centre."
+          "Their even spacing around Earth showed Earth is near the galaxy's centre.",
+          "Their position along the ecliptic showed the Milky Way is a solar system.",
+          "Their motion through the zodiac showed the Sun is outside the galaxy."
         ],
         correctIndex: 0,
         explanation: "Shapley used the distribution of globular clusters to infer that we are away from the galaxy's centre."
@@ -20900,9 +20900,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why were radio observations useful for mapping the Milky Way?",
         choices: [
           "Radio waves can travel through gas and dust that block some visible light.",
-          "Radio waves are the same as sound waves in air.",
-          "Radio waves make the Milky Way smaller.",
-          "Radio telescopes detect only nearby planets."
+          "Radio waves show the Milky Way in ordinary visible colours.",
+          "Radio maps work by ignoring gas and dust instead of detecting signals.",
+          "Radio telescopes are useful mainly for finding planets near the Sun."
         ],
         correctIndex: 0,
         explanation: "Radio mapping helped reveal the disk-like structure of the Milky Way."
@@ -20916,24 +20916,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-511-q1",
         prompt: "What is the Local Group?",
         choices: [
+          "A star cluster inside one spiral arm of the Milky Way.",
+          "The set of zodiac constellations visible from Canada.",
           "A group of galaxies that includes the Milky Way and Andromeda.",
-          "A cluster of planets inside the Solar System.",
-          "A list of nearby zodiac constellations.",
-          "A single star cluster inside Earth."
+          "A group of planets orbiting the Sun."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "The Milky Way is part of a larger group of galaxies called the Local Group."
       },
       {
         id: "kp-511-q2",
         prompt: "Which sequence correctly places the Milky Way in a larger structure?",
         choices: [
-          "Milky Way -> Local Group -> Virgo Supercluster.",
-          "Milky Way -> Earth -> Moon.",
-          "Milky Way -> zodiac -> planisphere.",
-          "Milky Way -> single star -> atom."
+          "Milky Way -> Solar System -> Local Group.",
+          "Milky Way -> zodiac constellations -> Virgo Supercluster.",
+          "Milky Way -> star cluster -> single star.",
+          "Milky Way -> Local Group -> Virgo Supercluster."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "The Local Group belongs to the still larger Virgo Supercluster."
       },
       {
@@ -20941,9 +20941,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why is Andromeda useful when discussing the Local Group?",
         choices: [
           "It is a major neighbouring galaxy in the same group as the Milky Way.",
-          "It is the closest planet to Earth.",
-          "It is the centre of the Solar System.",
-          "It is a kind of radio telescope."
+          "It is a star cluster that helped Shapley map the Milky Way.",
+          "It is the bright band of stars seen within the Milky Way.",
+          "It is a zodiac constellation used to locate planets."
         ],
         correctIndex: 0,
         explanation: "Andromeda and the Milky Way are two large galaxies in the Local Group."
@@ -20957,36 +20957,36 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-512-q1",
         prompt: "What does \\(1\\,AU\\) represent?",
         choices: [
-          "The average distance between Earth and the Sun, about \\(150\\,000\\,000\\,km\\).",
           "The distance light travels in one year.",
+          "The average distance between Earth and the Sun, about \\(150\\,000\\,000\\,km\\).",
           "The diameter of the Milky Way.",
-          "The distance between Earth and the Moon."
+          "The distance from the Sun to the nearest star."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "One astronomical unit is based on the Earth-Sun distance."
       },
       {
         id: "kp-512-q2",
         prompt: "A planet is about \\(4\\,AU\\) from the Sun. About how far is that in kilometres if \\(1\\,AU \\approx 150\\,000\\,000\\,km\\)?",
         choices: [
-          "\\(600\\,000\\,000\\,km\\)",
           "\\(154\\,000\\,000\\,km\\)",
           "\\(37\\,500\\,000\\,km\\)",
+          "\\(600\\,000\\,000\\,km\\)",
           "\\(4\\,000\\,000\\,km\\)"
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Multiply \\(4 \\times 150\\,000\\,000\\,km = 600\\,000\\,000\\,km\\)."
       },
       {
         id: "kp-512-q3",
         prompt: "When is the astronomical unit most useful?",
         choices: [
-          "When describing distances within the Solar System.",
           "When measuring the distance between distant galaxies.",
           "When naming types of galaxies.",
-          "When classifying visible star colours."
+          "When classifying visible star colours.",
+          "When describing distances within the Solar System."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "AU is convenient for Solar System distances, while light-years are better for stars and galaxies."
       }
     ]
