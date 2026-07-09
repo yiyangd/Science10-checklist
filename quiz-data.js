@@ -23049,9 +23049,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which topic is Stephen Hawking especially connected with in this checklist section?",
         choices: [
           "Ideas about black holes, matter, time, and space.",
-          "The invention of the planisphere.",
-          "The naming of zodiac constellations.",
-          "The discovery of Earth's Moon."
+          "The construction of the first optical telescope used by Galileo.",
+          "The measurement of galaxy rotation curves that led to dark matter.",
+          "The classification of main sequence stars by spectral type."
         ],
         correctIndex: 0,
         explanation: "The extension connects Hawking with major ideas about black holes and the nature of the universe."
@@ -23060,12 +23060,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-563-q2",
         prompt: "Why is Hawking's work relevant to Unit 4?",
         choices: [
+          "It focused on replacing evidence-based astronomy with personal opinion.",
           "It contributed to changing scientific ideas about extreme objects and the universe.",
-          "It explained only local weather.",
-          "It showed that astronomy does not use mathematics.",
-          "It replaced all telescope observations with myths."
+          "It mainly explained planet formation inside our Solar System.",
+          "It showed that black holes are ordinary main sequence stars."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "His work is part of the broader development of ideas about space, time, and black holes."
       },
       {
@@ -23073,9 +23073,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which statement best connects individual scientists to scientific knowledge?",
         choices: [
           "Individual insights can influence how scientific communities interpret evidence and build models.",
-          "One person can prove everything without evidence.",
-          "Scientific ideas never change after one person proposes them.",
-          "Scientists do not communicate ideas."
+          "A scientist's reputation is stronger evidence than observations or models.",
+          "A single idea becomes final once the first scientist communicates it.",
+          "Individual work matters mainly when it avoids discussion with the wider community."
         ],
         correctIndex: 0,
         explanation: "Science develops through evidence, models, communication, and contributions from individuals and communities."
@@ -23089,12 +23089,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-564-q1",
         prompt: "What scientific attitude does Hawking's story highlight?",
         choices: [
+          "Choosing simple questions so scientific ideas rarely need revision.",
           "Persistence and curiosity despite major challenges.",
-          "Avoiding difficult questions.",
-          "Refusing to communicate ideas.",
-          "Ignoring evidence when it is inconvenient."
+          "Treating communication as separate from scientific understanding.",
+          "Avoiding theoretical models when direct observation is difficult."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "The extension presents persistence and curiosity as important qualities in science."
       },
       {
@@ -23102,9 +23102,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why can perseverance matter in science?",
         choices: [
           "Difficult questions may require long-term thinking, revision, and effort.",
-          "It removes the need for testing ideas.",
-          "It means scientists never change their minds.",
-          "It makes instruments unnecessary."
+          "It allows scientists to keep an explanation unchanged after new evidence appears.",
+          "It matters mainly when evidence is too weak to discuss openly.",
+          "It replaces the need for collaboration, instruments, and review."
         ],
         correctIndex: 0,
         explanation: "Scientific work often involves sustained effort through uncertainty and obstacles."
@@ -23114,9 +23114,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which response best reflects scientific perseverance?",
         choices: [
           "Continue refining ideas and methods when a problem is hard.",
-          "Quit as soon as a question is difficult.",
-          "Accept the first explanation without checking it.",
-          "Hide data that does not fit."
+          "Keep using the first model even when evidence points elsewhere.",
+          "Focus on confidence in the answer rather than on testing it.",
+          "Avoid sharing uncertain results because revision is part of science."
         ],
         correctIndex: 0,
         explanation: "Perseverance supports careful inquiry rather than giving up or ignoring evidence."
@@ -23130,12 +23130,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-565-q1",
         prompt: "Why is communicating complex science important?",
         choices: [
-          "It helps more people understand and think about scientific ideas.",
-          "It makes evidence unnecessary.",
-          "It changes the laws of physics.",
-          "It prevents new questions from being asked."
+          "It turns an uncertain model into a proven fact for the public.",
+          "It matters mainly after scientific evidence has stopped changing.",
+          "It simplifies science by removing the need to discuss limits.",
+          "It helps more people understand and think about scientific ideas."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Public communication can make difficult ideas more accessible and inspire curiosity."
       },
       {
@@ -23143,9 +23143,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which example best shows communication of complex ideas?",
         choices: [
           "Explaining black holes and the universe in language non-specialists can engage with.",
-          "Keeping scientific ideas secret from everyone.",
-          "Using only unexplained symbols with no context.",
-          "Avoiding questions about the universe."
+          "Presenting equations without context so the audience has difficulty questioning them.",
+          "Reducing a scientific idea until its evidence and limits disappear.",
+          "Separating public interest from the scientific model being explained."
         ],
         correctIndex: 0,
         explanation: "Good communication connects complex concepts to clear explanations."
@@ -23155,9 +23155,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which misconception should be avoided?",
         choices: [
           "Communicating science is part of science culture, not a separate activity with no value.",
-          "Only specialists should ever hear about scientific ideas.",
-          "Public interest cannot be inspired by astronomy.",
-          "Clear explanations always make science less accurate."
+          "Science communication is valuable mainly when it avoids difficult concepts.",
+          "Public interest in astronomy is separate from how scientific ideas spread.",
+          "Clear explanations reduce accuracy when they use everyday language."
         ],
         correctIndex: 0,
         explanation: "Science communication can preserve accuracy while widening understanding."
@@ -23171,12 +23171,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-566-q1",
         prompt: "What relationship is used in the age-of-the-universe investigation?",
         choices: [
+          "A star's spectral class directly gives the age of the universe.",
           "A galaxy's redshift is related to its distance from Earth.",
-          "A planet's colour is related to its name.",
-          "A star's constellation determines Earth's weather.",
-          "A galaxy's mass is measured by counting zodiac signs."
+          "A galaxy's apparent brightness replaces the need for redshift data.",
+          "A planet's orbital period gives the Hubble constant."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "The investigation uses redshift and distance data to explore cosmic expansion."
       },
       {
@@ -23184,9 +23184,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "How can redshifted spectral lines be used in this investigation?",
         choices: [
           "They help estimate a galaxy's velocity away from Earth.",
-          "They give the galaxy's exact number of planets.",
-          "They measure Earth's ocean depth.",
-          "They show the galaxy has no motion."
+          "They show the galaxy's distance directly without using a graph.",
+          "They identify the galaxy's shape but not its motion.",
+          "They replace the need to compare the shifted lines with reference positions."
         ],
         correctIndex: 0,
         explanation: "The amount of redshift can be connected to recession velocity."
@@ -23196,9 +23196,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "A galaxy has a larger redshift than another galaxy in the same data set. What does that usually suggest?",
         choices: [
           "It is moving away faster.",
-          "It is definitely inside the Solar System.",
-          "It is moving toward us faster.",
-          "It has no spectral lines."
+          "It is closer but has cooler stars.",
+          "It is moving toward us with a stronger blueshift.",
+          "It has the same velocity but a different chemical composition."
         ],
         correctIndex: 0,
         explanation: "Greater redshift generally corresponds to greater recession velocity."
@@ -23212,24 +23212,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-567-q1",
         prompt: "On a graph of galaxy velocity versus galaxy distance, what gives the Hubble constant \\(H\\)?",
         choices: [
+          "The average of the galaxy names used in the table.",
+          "The y-intercept without considering the data trend.",
           "The slope of the line of best fit.",
-          "The colour of the graph paper.",
-          "The number of galaxies with names.",
-          "The lowest distance value only."
+          "The largest distance value divided by the smallest velocity value."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "The Hubble constant is found from the slope of velocity versus distance."
       },
       {
         id: "kp-567-q2",
         prompt: "A line rises from \\(3000\\,km/s\\) to \\(9000\\,km/s\\) while distance increases from \\(50\\,Mpc\\) to \\(150\\,Mpc\\). What is the slope?",
         choices: [
-          "\\(60\\,km/s/Mpc\\)",
           "\\(100\\,km/s/Mpc\\)",
+          "\\(60\\,km/s/Mpc\\)",
           "\\(6000\\,km/s/Mpc\\)",
           "\\(20\\,km/s/Mpc\\)"
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Slope = rise/run = \\((9000-3000)/(150-50)=6000/100=60\\,km/s/Mpc\\)."
       },
       {
@@ -23237,9 +23237,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why is a line of best fit useful when estimating \\(H\\)?",
         choices: [
           "It summarizes the overall trend in data that may not fall perfectly on one line.",
-          "It removes all measurement uncertainty forever.",
-          "It changes the galaxy velocities.",
-          "It makes distance units unnecessary."
+          "It turns scattered data into exact values without uncertainty.",
+          "It changes the measured galaxy velocities to match the expected answer.",
+          "It makes units such as \\(km/s/Mpc\\) unnecessary."
         ],
         correctIndex: 0,
         explanation: "Real data vary, so a best-fit line helps estimate the overall relationship."
@@ -23253,24 +23253,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-568-q1",
         prompt: "Which formula is used in the checklist to estimate the age of the universe from \\(H\\)?",
         choices: [
-          "\\(\\frac{10^{12}}{H}\\)",
           "\\(H \\times 10^{12}\\)",
+          "\\(\\frac{10^{12}}{H}\\)",
           "\\(H + 10^{12}\\)",
           "\\(\\frac{H}{10^{12}}\\)"
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "The investigation uses \\(10^{12}/H\\) as an estimate of cosmic age in years."
       },
       {
         id: "kp-568-q2",
         prompt: "If \\(H=50\\), what age estimate does \\(\\frac{10^{12}}{H}\\) give?",
         choices: [
-          "\\(20\\,000\\,000\\,000\\) years.",
           "\\(50\\,000\\,000\\,000\\) years.",
           "\\(2\\,000\\,000\\) years.",
-          "\\(500\\,000\\,000\\) years."
+          "\\(500\\,000\\,000\\) years.",
+          "\\(20\\,000\\,000\\,000\\) years."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "\\(10^{12}/50 = 2 \\times 10^{10}\\), or 20 billion years."
       },
       {
@@ -23278,9 +23278,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why is this age calculation called an estimate?",
         choices: [
           "It depends on measured data, a best-fit line, and a simplified relationship.",
-          "It does not use any evidence.",
-          "It gives the exact age to the second.",
-          "It measures only Earth's age."
+          "It is an estimate because it avoids using measured galaxy data.",
+          "It gives a value for Earth's age rather than the universe's age.",
+          "It becomes exact once one galaxy's velocity is known."
         ],
         correctIndex: 0,
         explanation: "The method is useful but depends on assumptions and measurement uncertainty."
@@ -23295,9 +23295,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why do astronomers use megaparsecs in Hubble-law graphs?",
         choices: [
           "They are convenient units for extremely large galaxy distances.",
-          "They measure the mass of planets.",
-          "They measure temperature only.",
-          "They are smaller than centimetres."
+          "They measure recession velocity instead of distance.",
+          "They are used because light-years are too large to compare with galaxies.",
+          "They describe the temperature change caused by redshift."
         ],
         correctIndex: 0,
         explanation: "Megaparsecs are useful for very large distances between galaxies."
@@ -23307,9 +23307,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What does the unit \\(km/s/Mpc\\) describe for the Hubble constant?",
         choices: [
           "Velocity increase per megaparsec of distance.",
-          "Temperature per star colour.",
-          "Mass per planet orbit.",
-          "Brightness per constellation."
+          "Distance travelled by light in one megaparsec per second.",
+          "Mass of dark matter per galaxy cluster.",
+          "Brightness change per spectral class."
         ],
         correctIndex: 0,
         explanation: "The Hubble constant compares recession velocity with distance."
@@ -23319,9 +23319,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why is velocity used instead of speed alone in the redshift investigation?",
         choices: [
           "Galaxy motion has direction: toward Earth or away from Earth.",
-          "Velocity means the same thing as colour.",
-          "Speed cannot be measured in space.",
-          "Direction is never important in astronomy."
+          "Velocity describes apparent brightness rather than motion.",
+          "Speed is used for planets, while velocity is used for stars by convention.",
+          "Direction is less useful than colour when interpreting redshift."
         ],
         correctIndex: 0,
         explanation: "Velocity includes direction, which matters for redshift and blueshift."
@@ -23336,9 +23336,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What is terraforming?",
         choices: [
           "A proposed process of transforming a lifeless world into a life-sustaining ecosystem.",
-          "A method for measuring redshift.",
-          "A type of galaxy classification.",
-          "A telescope used only for radio waves."
+          "A method for measuring how fast a galaxy is moving away.",
+          "A process for classifying exoplanets by their star's spectral type.",
+          "A way to map dark matter halos around nearby galaxies."
         ],
         correctIndex: 0,
         explanation: "Terraforming is a proposed form of planetary engineering."
@@ -23347,12 +23347,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-570-q2",
         prompt: "Why does terraforming connect science with future colonization questions?",
         choices: [
+          "It treats colonization as a solved problem once a planet is discovered.",
           "It asks whether technology could make another world more suitable for life.",
-          "It proves colonization is already simple.",
-          "It is unrelated to space science.",
-          "It only describes ancient star myths."
+          "It focuses on naming exoplanets rather than changing planetary environments.",
+          "It avoids scientific questions by treating off-world habitats as guaranteed."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Terraforming is about using scientific and technological ideas to change planetary environments."
       },
       {
@@ -23360,9 +23360,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which factor would matter most when evaluating a terraforming proposal?",
         choices: [
           "Whether the required environmental changes are scientifically and technologically plausible.",
-          "Whether the planet has a short name.",
-          "Whether the proposal ignores all ecosystems.",
-          "Whether it avoids evidence."
+          "Whether the proposed world is easier to describe than Earth.",
+          "Whether the project sounds optimistic without checking environmental effects.",
+          "Whether technical possibility can be separated from ethical responsibility."
         ],
         correctIndex: 0,
         explanation: "A responsible proposal must consider feasibility and environmental consequences."
@@ -23377,9 +23377,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What is an exoplanet?",
         choices: [
           "A planet outside our Solar System.",
-          "A moon inside Earth's atmosphere.",
-          "A type of neutron star.",
-          "A map of the Milky Way."
+          "A moon orbiting a planet in our Solar System.",
+          "A planet that has already been terraformed by humans.",
+          "A small star that has not begun nuclear fusion."
         ],
         correctIndex: 0,
         explanation: "Exoplanets orbit stars beyond our own Solar System."
@@ -23388,12 +23388,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-571-q2",
         prompt: "How do exoplanets expand discussions about future habitats?",
         choices: [
+          "They show that any planet around another star can support humans without engineering.",
+          "They make solar-system colonization unnecessary because distance is not a concern.",
           "They show that planets exist beyond the Solar System, though reaching or changing them would be extremely challenging.",
-          "They prove humans can move anywhere easily.",
-          "They are all identical to Earth.",
-          "They remove the need to care for Earth."
+          "They turn terraforming into a simple extension of ordinary space travel."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Exoplanets broaden possibilities but do not remove scientific, technological, or ethical limits."
       },
       {
@@ -23401,9 +23401,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which comparison is most reasonable?",
         choices: [
           "Solar-system colonization is closer than exoplanet settlement, but both raise major challenges.",
-          "Exoplanet settlement is already routine.",
-          "There are no planets beyond the Solar System.",
-          "Off-world habitats do not require science."
+          "Exoplanet settlement is easier because planets outside the Solar System are more common.",
+          "Solar-system colonization and exoplanet settlement require the same travel times.",
+          "Off-world habitats require ethics but not scientific or engineering evidence."
         ],
         correctIndex: 0,
         explanation: "Distance and technology make exoplanet possibilities much harder than nearer options."
@@ -23417,12 +23417,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-572-q1",
         prompt: "What ethical question does terraforming raise?",
         choices: [
-          "Should humans act as developers or caretakers of other worlds?",
-          "Which galaxy is brightest from Earth?",
-          "What is the speed of light?",
-          "How many constellations are zodiac constellations?"
+          "Which exoplanet has the shortest scientific name?",
+          "How can terraforming be judged without considering environmental effects?",
+          "Which telescope is best for measuring redshift in distant galaxies?",
+          "Should humans act as developers or caretakers of other worlds?"
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Terraforming is not only technical; it raises responsibility questions."
       },
       {
@@ -23430,9 +23430,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which argument should be considered when evaluating terraforming?",
         choices: [
           "Whether solving problems on Earth may be more responsible than trying to alter another world.",
-          "Whether evidence should be ignored if the idea sounds exciting.",
-          "Whether ecosystems have no value.",
-          "Whether technology automatically makes every action ethical."
+          "Whether a project sounds inspiring enough to skip environmental review.",
+          "Whether technical success would remove the need to discuss responsibility.",
+          "Whether another world has value mainly after humans can live there."
         ],
         correctIndex: 0,
         explanation: "Ethical evaluation should include alternatives and environmental responsibility."
@@ -23442,9 +23442,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which response is the strongest ethical evaluation?",
         choices: [
           "Compare benefits, risks, feasibility, environmental effects, and responsibilities before deciding.",
-          "Support terraforming only because it sounds futuristic.",
-          "Reject all questions about consequences.",
-          "Assume humans have no responsibility for any environment."
+          "Support terraforming because future technology may solve problems later.",
+          "Reject terraforming without examining possible benefits or alternatives.",
+          "Treat human survival as the main factor in the decision."
         ],
         correctIndex: 0,
         explanation: "A strong evaluation weighs multiple scientific and ethical factors."
