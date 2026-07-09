@@ -5336,10 +5336,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-131-q1",
         prompt: "Which description best matches biotechnology?",
         choices: [
-          "Using traditional breeding without applying DNA-based tools.",
-          "Studying inherited traits without trying to apply the knowledge.",
+          "Selecting organisms for useful traits through breeding over many generations.",
+          "Studying how traits are inherited without designing a useful product or process.",
           "Using technology and organisms or biological systems to produce useful products.",
-          "Classifying organisms by visible body structures for identification."
+          "Comparing body structures to classify organisms into related groups."
         ],
         correctIndex: 2,
         explanation: "Biotechnology combines technology with organisms or biological systems to produce useful products."
@@ -5349,9 +5349,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why is gene manipulation considered both science and technology?",
         choices: [
           "It uses DNA knowledge together with tools and procedures that copy, modify, or move genes.",
-          "It studies genetic disorders but does not use any tools or procedures.",
-          "It changes traits through selective breeding without directly working with DNA.",
-          "It compares DNA profiles but does not apply genetic material in a useful process."
+          "It studies inheritance patterns and then relies on ordinary breeding to shift traits.",
+          "It changes a population by selecting parents rather than directly handling DNA.",
+          "It compares DNA samples to identify people but does not alter or copy genes."
         ],
         correctIndex: 0,
         explanation: "Gene manipulation applies DNA science through technologies such as cloning, vectors, and genetic engineering."
@@ -5360,10 +5360,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-131-q3",
         prompt: "Which example is most clearly an application of biotechnology?",
         choices: [
-          "Choosing the largest seeds each year through traditional selection.",
-          "Drawing a food web to show feeding relationships.",
+          "Choosing the largest seeds each year to increase crop size through breeding.",
+          "Using ecosystem data to map how energy moves through a food web.",
           "Using bacteria carrying a human gene to produce a useful protein.",
-          "Measuring hand width to make a variation histogram."
+          "Measuring variation in a class and graphing the trait distribution."
         ],
         correctIndex: 2,
         explanation: "Using engineered organisms to make a protein is a biotechnology application."
@@ -5379,7 +5379,7 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "Producing identical copies of genes, cells, or organisms.",
           "Combining alleles by fertilization to make genetically different offspring.",
-          "Changing a DNA sequence so the copies become different from the original.",
+          "Editing a DNA sequence before it is copied into a new version.",
           "Identifying a person by comparing variable DNA regions."
         ],
         correctIndex: 0,
@@ -5389,9 +5389,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-132-q2",
         prompt: "Why is gene cloning not the same as cloning a whole animal?",
         choices: [
-          "Gene cloning produces offspring through fertilization, while organism cloning copies DNA segments.",
-          "Gene cloning copies a whole chromosome set, while organism cloning copies a short DNA segment.",
-          "Both processes have the same goal but differ in the equipment used.",
+          "Gene cloning assists reproduction, while organism cloning is mainly used to study a DNA sample.",
+          "Gene cloning copies an entire chromosome set, while organism cloning copies a selected gene.",
+          "Both processes make genetic copies, but the copied target is different.",
           "Gene cloning copies a DNA segment in host cells, while whole-organism cloning aims to copy an organism."
         ],
         correctIndex: 3,
@@ -5401,8 +5401,8 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-132-q3",
         prompt: "A lab makes many identical copies of a DNA segment for study. Which type of cloning is this closest to?",
         choices: [
-          "Artificial insemination.",
-          "Whole-organism cloning.",
+          "Assisted reproduction.",
+          "Reproductive cloning of an animal.",
           "Gene cloning.",
           "DNA profiling."
         ],
@@ -5418,10 +5418,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-133-q1",
         prompt: "What is the main goal of gene cloning?",
         choices: [
-          "To make a complete adult organism from a copied gene segment.",
+          "To produce a copied organism from a selected DNA segment.",
           "To produce many copies of a selected gene or DNA segment in host cells.",
-          "To predict a phenotypic ratio without using DNA.",
-          "To make a DNA profile by comparing several people."
+          "To predict inheritance patterns from parent genotypes.",
+          "To identify individuals by comparing variable DNA regions."
         ],
         correctIndex: 1,
         explanation: "Gene cloning uses foreign cells, such as bacteria, to copy a selected gene or DNA segment."
@@ -5431,9 +5431,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why can cloned genes be useful in medicine?",
         choices: [
           "They can help cells produce useful proteins, such as human insulin, in large amounts.",
-          "They repair the patient's mutation whenever the protein is injected.",
-          "They replace the need for vectors because copied genes enter cells by themselves.",
-          "They are useful mainly when the copied gene is not used to make a protein."
+          "They can be injected as proteins and then permanently correct the patient's DNA.",
+          "They can be copied outside cells and then used without a vector or host cell.",
+          "They are most useful when the copied gene has no connection to a protein product."
         ],
         correctIndex: 0,
         explanation: "If a cloned gene codes for a useful protein, cells can be used to make that protein."
@@ -5442,10 +5442,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-133-q3",
         prompt: "A researcher wants bacteria to make a human protein. What must the researcher first provide to the bacteria?",
         choices: [
-          "A sample of the finished protein without any DNA instructions.",
+          "A purified sample of the protein for the bacteria to copy directly.",
           "A DNA sequence carrying instructions for that protein.",
-          "A full human chromosome set in the bacterial culture.",
-          "A DNA profile that identifies the protein donor but lacks the gene."
+          "A complete human chromosome set so the bacteria can choose the needed gene.",
+          "A DNA profile from the donor that shows identity but not protein instructions."
         ],
         correctIndex: 1,
         explanation: "Cells make proteins from genetic instructions, so the relevant gene must be introduced and copied."
@@ -5459,10 +5459,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-134-q1",
         prompt: "What is the role of a vector in gene cloning?",
         choices: [
-          "It is the protein made after the cloned gene is expressed.",
-          "It is the enzyme that permanently destroys unwanted DNA.",
+          "It is the protein product made after the inserted gene is expressed.",
+          "It is the enzyme used to cut DNA before the pieces are joined.",
           "It carries the DNA to be cloned into a host cell.",
-          "It is the visible trait produced by the inserted gene."
+          "It is the visible trait that results after the gene affects the organism."
         ],
         correctIndex: 2,
         explanation: "A vector acts as a carrier that moves the DNA segment into a host cell."
@@ -5472,9 +5472,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why are plasmids useful vectors in bacteria?",
         choices: [
           "They are small circular DNA molecules that can carry inserted DNA separately from the bacterial chromosome.",
-          "They are bacterial proteins that help translate an inserted gene.",
-          "They are the same as human chromosomes, so bacteria accept them without changes.",
-          "They are empty cell membranes used to surround the copied protein."
+          "They are bacterial molecules that help translate the inserted gene into protein.",
+          "They resemble chromosomes closely enough to replace the bacterial chromosome.",
+          "They surround the protein product so it can leave the bacterial cell."
         ],
         correctIndex: 0,
         explanation: "Plasmids are small circular DNA pieces often used to carry genes into bacterial cells."
@@ -5483,8 +5483,8 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-134-q3",
         prompt: "In a cloning diagram, a gene of interest is inserted into a plasmid before the plasmid enters bacteria. What is the plasmid functioning as?",
         choices: [
-          "A whole cloned organism.",
-          "A recombinant protein.",
+          "A host bacterial chromosome.",
+          "A protein product.",
           "A DNA profile.",
           "A vector."
         ],
@@ -5500,7 +5500,7 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-135-q1",
         prompt: "What is recombinant DNA?",
         choices: [
-          "A copied gene kept separate from carrier DNA.",
+          "A copied gene that has not been joined to another DNA molecule.",
           "A protein produced after a cloned gene has been expressed.",
           "A complete organism produced by reproductive cloning.",
           "A molecule of DNA that contains genetic material from different sources."
@@ -5512,10 +5512,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-135-q2",
         prompt: "A bacterial plasmid now contains a human gene. Why is this plasmid recombinant DNA?",
         choices: [
-          "It is no longer DNA because genes from two species cancel each other out.",
+          "It contains a copied human protein attached to bacterial DNA.",
           "It is recombinant because it combines bacterial plasmid DNA with inserted human DNA.",
-          "It becomes recombinant after the bacterial cell makes the human protein.",
-          "It is simply a normal bacterial chromosome with no added sequence."
+          "It becomes recombinant after the inserted gene is expressed as a protein.",
+          "It is a bacterial chromosome that has been selected for a useful trait."
         ],
         correctIndex: 1,
         explanation: "The molecule includes DNA from different sources: the plasmid and the inserted human gene."
@@ -5524,10 +5524,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-135-q3",
         prompt: "What do enzymes help do during the formation of recombinant DNA?",
         choices: [
-          "Move embryos into the uterus after fertilization.",
-          "Compare DNA regions from different individuals.",
+          "Move sperm or embryos during assisted reproduction procedures.",
+          "Separate DNA samples into a profile for individual identification.",
           "Cut DNA and help join DNA pieces together.",
-          "Make bacterial cells develop into cloned animals."
+          "Make bacterial cells express a protein before any DNA is inserted."
         ],
         correctIndex: 2,
         explanation: "Gene cloning uses enzymes to cut DNA at useful places and join DNA pieces into a recombinant molecule."
@@ -5541,10 +5541,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-136-q1",
         prompt: "What happens during transformation in gene cloning?",
         choices: [
-          "A vector is prepared but kept outside the host cells.",
+          "A recombinant vector is copied outside cells before it is stored.",
           "A host cell takes in recombinant DNA.",
-          "A protein is purified before any gene enters a cell.",
-          "An embryo is placed in the uterus after IVF."
+          "A host cell expresses genes from its original chromosome without taking in the vector.",
+          "An embryo is transferred into the uterus after laboratory fertilization."
         ],
         correctIndex: 1,
         explanation: "Transformation occurs when host cells, such as bacteria, take in the recombinant DNA."
@@ -5553,10 +5553,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-136-q2",
         prompt: "Why is transformation important after a recombinant plasmid has been made?",
         choices: [
-          "The plasmid must stay outside cells so enzymes can copy it in the air.",
+          "The plasmid must be copied in a tube before any cell can use its gene.",
           "The plasmid must enter host cells so the cloned gene can be copied as cells divide.",
-          "Transformation changes the inserted gene into a DNA profile.",
-          "Transformation is the step where sperm are concentrated for reproduction."
+          "Transformation changes the inserted gene into a DNA profile for comparison.",
+          "Transformation is the assisted-reproduction step that prepares sperm."
         ],
         correctIndex: 1,
         explanation: "Once inside a host cell, the recombinant DNA can be copied as the cell grows and divides."
@@ -5566,9 +5566,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which sequence best summarizes a simple gene cloning process?",
         choices: [
           "Choose a gene and vector, make recombinant DNA, transform host cells, then copy the gene.",
-          "Transform host cells first, then choose a vector after the protein has been made.",
-          "Fertilize eggs outside the body, then compare DNA profiles from suspects.",
-          "Use a plasmid as the protein product, then insert the protein into DNA."
+          "Choose a gene, transform cells, then make a vector after the gene is copied.",
+          "Fertilize eggs outside the body, then use embryos to copy a DNA segment.",
+          "Use a plasmid as the final protein product after the inserted gene is expressed."
         ],
         correctIndex: 0,
         explanation: "This sequence follows the main cloning steps described for introducing recombinant DNA into host cells."
@@ -5582,10 +5582,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-137-q1",
         prompt: "What makes an organism transgenic?",
         choices: [
-          "It has been bred for a trait without any DNA being added directly.",
-          "It has a DNA profile that matches another individual.",
+          "It has been selected for a trait through breeding without direct gene insertion.",
+          "It has a DNA profile used to compare it with another individual.",
           "It contains foreign DNA introduced into its genome through genetic engineering.",
-          "It was produced by IVF but has no inserted foreign gene."
+          "It was produced with reproductive technology but has no inserted foreign gene."
         ],
         correctIndex: 2,
         explanation: "A transgenic organism contains DNA from another source as part of its genome."
@@ -5594,7 +5594,7 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-137-q2",
         prompt: "Which example best fits a transgenic plant?",
         choices: [
-          "A plant that grows taller because it received more sunlight.",
+          "A plant that grows taller after being raised in better light and soil.",
           "A crop plant engineered with a gene that helps it resist an insect pest.",
           "A plant selected from a naturally variable population but not genetically engineered.",
           "A plant identified by a DNA profile without changing its genome."
@@ -5607,9 +5607,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why are transgenic animals sometimes used in medical research or production?",
         choices: [
           "They can be engineered to produce useful human proteins or model disease processes.",
-          "They are used because inserted genes affect the animal's appearance but not its cells.",
-          "They are the same as DNA profiles, so no living organism is changed.",
-          "They are produced through assisted reproduction without changing a genome."
+          "They are used because a DNA profile can show which protein the animal will secrete.",
+          "They provide DNA profiles that replace the need to study living tissues.",
+          "They are produced mainly to assist reproduction rather than alter a genome."
         ],
         correctIndex: 0,
         explanation: "The textbook discusses animals engineered for research and for producing medical protein products."
@@ -5626,7 +5626,7 @@ window.SCIENCE10_QUIZZES = {
           "Inserted genes carried by plasmids.",
           "Visible traits such as height, hair colour, and scars.",
           "Specific DNA regions that can differ among individuals.",
-          "The complete set of proteins made by a transgenic plant."
+          "Protein products made after a cloned gene is expressed."
         ],
         correctIndex: 2,
         explanation: "DNA profiles use DNA regions that are highly useful for distinguishing individuals."
@@ -5636,9 +5636,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "How can DNA profiles help in law enforcement?",
         choices: [
           "They can compare DNA from a sample with DNA from possible individuals.",
-          "They prove guilt by themselves without careful interpretation or other evidence.",
-          "They change a suspect's DNA so it matches evidence from a scene.",
-          "They identify people by making unrelated DNA samples identical."
+          "They can identify a person by comparing visible traits from a scene.",
+          "They can change a suspect's DNA sample into the same pattern as evidence.",
+          "They can show whether two samples match, so other evidence is usually unnecessary."
         ],
         correctIndex: 0,
         explanation: "DNA profiles can help match or exclude people, but evidence still needs careful handling and interpretation."
@@ -5650,7 +5650,7 @@ window.SCIENCE10_QUIZZES = {
           "Matching a sample found at a scene to a suspect.",
           "Comparing DNA patterns from evidence.",
           "Eliminating someone whose DNA does not match a sample.",
-          "Testing whether two people are biologically related."
+          "Testing whether two people share a biological relationship."
         ],
         correctIndex: 3,
         explanation: "DNA profiles can also be used in relationship testing, not only law enforcement."
@@ -5666,8 +5666,8 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "Eggs are fertilized in laboratory glassware before embryos are transferred.",
           "Sperm are collected, concentrated, and placed in the female's uterus.",
-          "A healthy gene is carried into affected tissue cells.",
-          "A plasmid containing foreign DNA is taken up by bacteria."
+          "A healthy gene is delivered into affected tissue cells.",
+          "A recombinant plasmid is taken up by bacterial host cells."
         ],
         correctIndex: 1,
         explanation: "Artificial insemination places prepared sperm in the uterus; fertilization still occurs inside the body."
@@ -5688,10 +5688,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-139-q3",
         prompt: "Which statement correctly distinguishes artificial insemination from gene cloning?",
         choices: [
-          "Artificial insemination creates recombinant plasmids, while gene cloning places sperm in the uterus.",
-          "Both procedures have the same goal because both make identical whole organisms.",
+          "Artificial insemination copies a DNA segment, while gene cloning assists fertilization.",
+          "Both procedures use biotechnology, but one assists conception and the other copies DNA.",
           "Artificial insemination assists reproduction, while gene cloning copies a DNA segment in host cells.",
-          "Gene cloning fertilizes eggs outside the body, while artificial insemination compares DNA profiles."
+          "Gene cloning fertilizes eggs outside the body, while artificial insemination uses host cells."
         ],
         correctIndex: 2,
         explanation: "The two technologies have different goals: reproduction assistance versus copying DNA."
@@ -5707,7 +5707,7 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "Sperm are placed directly in the uterus and fertilization is expected inside the body.",
           "A vector carries a copied gene into a bacterial cell.",
-          "A DNA profile is compared with biological evidence.",
+          "Sperm are concentrated before being placed into the reproductive tract.",
           "Eggs are fertilized with sperm outside the body before embryos are placed in the uterus."
         ],
         correctIndex: 3,
@@ -5717,9 +5717,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-140-q2",
         prompt: "Why might IVF help when blocked fallopian tubes prevent sperm and egg from meeting?",
         choices: [
-          "IVF changes the DNA profile so the blockage no longer exists.",
-          "IVF removes the need for sperm because the embryo is cloned from one cell.",
-          "IVF inserts a healthy gene into the fallopian tube cells.",
+          "IVF compares DNA profiles before fertilization to choose an embryo.",
+          "IVF makes fertilization possible by copying an embryo from one body cell.",
+          "IVF treats the tube by inserting a healthy gene into affected cells.",
           "Fertilization can occur outside the body, bypassing the blocked path."
         ],
         correctIndex: 3,
@@ -5731,8 +5731,8 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "Artificial insemination places sperm in the uterus; IVF fertilizes eggs outside the body first.",
           "Both procedures require recombinant DNA plasmids before fertilization.",
-          "IVF places concentrated sperm in the uterus and waits for fertilization.",
-          "Artificial insemination transfers embryos after laboratory fertilization."
+          "IVF places prepared sperm in the uterus and leaves fertilization inside the body.",
+          "Artificial insemination transfers embryos after eggs are fertilized in glassware."
         ],
         correctIndex: 0,
         explanation: "The main difference is where fertilization is intended to occur."
