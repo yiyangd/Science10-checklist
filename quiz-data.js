@@ -17842,9 +17842,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why is hydrogen production important when evaluating hydrogen fuel cells?",
         choices: [
           "Fuel cells may emit no pollutants during use, but producing hydrogen can release carbon dioxide.",
-          "Hydrogen production never uses energy.",
-          "Hydrogen cannot be used in fuel cells.",
-          "Fuel cells work only by burning coal directly."
+          "Hydrogen production matters mainly for cost, not for climate impact.",
+          "The use stage is enough to judge impact because the fuel is already made.",
+          "Fuel cells are lower impact mainly because hydrogen is produced from methane."
         ],
         correctIndex: 0,
         explanation: "The full impact depends on how the hydrogen fuel is produced."
@@ -17854,9 +17854,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "How does methane cracking compare with steam methane reforming in the textbook?",
         choices: [
           "Methane cracking can produce hydrogen with much lower carbon dioxide emissions.",
-          "Methane cracking releases more carbon dioxide than every gas vehicle.",
-          "Methane cracking cannot produce hydrogen.",
-          "Both methods have exactly zero emissions in all situations."
+          "Methane cracking reduces tailpipe emissions but raises hydrogen-production emissions.",
+          "Steam methane reforming is lower impact because it releases carbon dioxide slowly.",
+          "Both methods should be judged by fuel-cell emissions during driving."
         ],
         correctIndex: 0,
         explanation: "The chapter presents methane cracking as a lower-emission approach to hydrogen production."
@@ -17865,12 +17865,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-436-q3",
         prompt: "Which question best evaluates whether a hydrogen vehicle is truly lower impact?",
         choices: [
+          "Does the vehicle release pollutants while it is being driven?",
           "How was the hydrogen produced, and what emissions came from that process?",
-          "What colour is the vehicle?",
-          "Does the driver like science?",
-          "Can the vehicle avoid all energy transformations?"
+          "Does the vehicle use hydrogen rather than a battery?",
+          "Is hydrogen production hidden from the driver?"
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Use-stage emissions are not the whole story; fuel production matters too."
       }
     ]
@@ -17883,9 +17883,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why is cement production an important target for reducing greenhouse gas emissions?",
         choices: [
           "Cement is produced in huge quantities and its chemical production can release carbon dioxide.",
-          "Cement is never used by humans.",
-          "Cement production absorbs all carbon dioxide already.",
-          "Cement has no connection to chemical reactions."
+          "Cement matters mainly because it is transported by vehicles, not because of production.",
+          "Cement has low climate impact because it is used in buildings for a long time.",
+          "Cement production is less important when each project uses a small amount."
         ],
         correctIndex: 0,
         explanation: "Because cement is widely used, even reducing emissions per unit can matter greatly."
@@ -17894,24 +17894,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-437-q2",
         prompt: "A new cement process reduces emissions by 70 percent. If an old process released 100 units of CO2, about how many units would the new process release?",
         choices: [
-          "30 units.",
           "70 units.",
+          "30 units.",
           "100 units.",
           "170 units."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "A 70 percent reduction leaves 30 percent of the original emissions: 30 units."
       },
       {
         id: "kp-437-q3",
         prompt: "Which new cement idea could reduce net carbon dioxide impact?",
         choices: [
+          "Cement that releases carbon dioxide earlier in the building process.",
+          "Cement that reduces emissions during production but requires more total cement.",
           "Cement that absorbs carbon dioxide as it hardens.",
-          "Cement that releases extra carbon dioxide for no benefit.",
-          "Cement that cannot harden.",
-          "Cement made only from ocean noise."
+          "Cement that shifts emissions from production to disposal without reducing them."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "The textbook mentions research into cement that absorbs CO2 during hardening."
       }
     ]
@@ -17924,9 +17924,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "How can societies reduce harm from energy technologies after a failure?",
         choices: [
           "Use new knowledge and changed perspectives to improve future decisions.",
-          "Repeat the same design without inspection.",
-          "Ignore evidence from the failure.",
-          "Assume accidents teach nothing."
+          "Treat the failure as unusual, so the technology design needs little review.",
+          "Focus on cleanup while leaving future design decisions unchanged.",
+          "Use the same system again if the original benefits were important."
         ],
         correctIndex: 0,
         explanation: "The concept emphasizes learning from mistakes and applying new understanding."
@@ -17936,9 +17936,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which action best shows learning from a past energy-related harm?",
         choices: [
           "Inspecting systems after an accident and redesigning weak parts.",
-          "Removing all safety planning.",
-          "Hiding all accident data.",
-          "Making future systems less tested."
+          "Making communication faster while leaving safety systems unchanged.",
+          "Studying the event mainly to assign blame rather than reduce risk.",
+          "Keeping the old design because the accident has already happened."
         ],
         correctIndex: 0,
         explanation: "Using accident evidence to improve safety is a key way to reduce future harm."
@@ -17948,9 +17948,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What does a changed perspective help people do?",
         choices: [
           "Look back at decisions and identify what should be done differently.",
-          "Prove that no decision has consequences.",
-          "Avoid considering other people's experiences.",
-          "Erase the need for safety design."
+          "Explain past harm as unavoidable so future plans can stay the same.",
+          "Focus on technical facts while setting aside community experience.",
+          "Treat new evidence as less useful than the original plan."
         ],
         correctIndex: 0,
         explanation: "New perspectives can reveal risks or harms that were not considered before."
@@ -17965,9 +17965,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which chain of events best matches the Fukushima Daiichi accident summary?",
         choices: [
           "Earthquake and tsunami -> flooding and power loss -> cooling failure -> meltdowns and radioactive release.",
-          "Solar eclipse -> photosynthesis -> battery recycling -> coral bleaching.",
-          "Noise pollution -> sea breeze -> cement hardening -> no damage.",
-          "Urban farming -> less transport -> instant reactor repair."
+          "Power loss -> more cooling -> lower reactor temperature -> no radioactive release.",
+          "Tsunami -> stronger backup generators -> safer cooling -> routine shutdown.",
+          "Earthquake -> fuel-cell reaction -> hydrogen production -> lower radiation risk."
         ],
         correctIndex: 0,
         explanation: "The accident involved natural hazards disabling power and cooling systems, leading to reactor damage and releases."
@@ -17976,12 +17976,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-439-q2",
         prompt: "Why did disabled backup generators matter during the Fukushima accident?",
         choices: [
+          "They mattered because backup power mainly controls public communication.",
+          "They were important because cooling depends on lighting rather than electricity.",
           "They were needed to run cooling systems after the power outage.",
-          "They were used only to make classroom graphs.",
-          "They controlled ocean tides.",
-          "They produced greenhouse gases for coral reefs."
+          "They increased risk by cooling the reactor cores too quickly."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Without emergency power, cooling mechanisms could not operate properly."
       },
       {
@@ -17989,9 +17989,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What systems lesson can be drawn from the accident?",
         choices: [
           "Multiple failures can interact and make an energy disaster worse.",
-          "Backup systems are never important.",
-          "Natural hazards cannot affect technology.",
-          "Radioactive materials cannot escape damaged systems."
+          "A natural hazard is separate from energy technology once a plant is built.",
+          "Backup systems matter less when the main system is carefully designed.",
+          "A system failure is easier to manage when several parts fail together."
         ],
         correctIndex: 0,
         explanation: "The accident shows how connected system failures can multiply risk."
@@ -18006,9 +18006,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why can cleanup after a nuclear accident be dangerous?",
         choices: [
           "People and environments may be exposed to harmful radioactive materials.",
-          "Radiation exposure is always harmless during cleanup.",
-          "Cleanup removes the need for protective planning.",
-          "Radioactive materials cannot enter water or air."
+          "Cleanup is safer when workers enter quickly before mapping contamination.",
+          "Radiation exposure is mainly a public-relations issue after the accident ends.",
+          "Radioactive materials are less important once they leave the reactor building."
         ],
         correctIndex: 0,
         explanation: "The textbook notes that radioactive materials escaped and cleanup workers were exposed to radiation."
@@ -18017,22 +18017,22 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-440-q2",
         prompt: "Which safety priority best follows from radiation risk?",
         choices: [
-          "Limit exposure, monitor contamination, and plan cleanup carefully.",
-          "Send people in without information or protection.",
-          "Spread radioactive material farther.",
-          "Ignore air and water pathways."
+          "Focus on visible damage because invisible radiation is harder to measure.",
+          "Move contaminated material quickly before deciding where it should go.",
+          "Reduce public concern by releasing less information about risk.",
+          "Limit exposure, monitor contamination, and plan cleanup carefully."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Radiation risk requires protective planning and careful management of contaminated areas."
       },
       {
         id: "kp-440-q3",
         prompt: "A cleanup team measures radiation before entering an area. What is the purpose of this step?",
         choices: [
-          "To assess risk and decide how to protect people during cleanup.",
-          "To make the radiation stronger.",
-          "To prove that radioactive materials are useful food.",
-          "To avoid collecting evidence."
+          "To decide whether protective equipment and exposure limits are needed.",
+          "To make radiation levels lower by observing them carefully.",
+          "To measure public trust instead of environmental contamination.",
+          "To show that cleanup is complete before workers begin."
         ],
         correctIndex: 0,
         explanation: "Measurement helps guide safe decisions for workers and nearby communities."
@@ -18047,9 +18047,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What is one way governments and engineers can reduce future risk after an energy accident?",
         choices: [
           "Inspect existing systems and redesign weak technologies.",
-          "Ignore the accident once cleanup begins.",
-          "Remove all backup systems.",
-          "Stop collecting evidence about failures."
+          "Focus on public reassurance before checking technical systems.",
+          "Keep older systems unchanged if the failure was triggered by nature.",
+          "Improve efficiency first and review safety after expansion."
         ],
         correctIndex: 0,
         explanation: "The Fukushima example shows how inspections and design improvements can follow an accident."
@@ -18059,9 +18059,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why was reassessing older reactor designs important after Fukushima?",
         choices: [
           "Older designs may have safety weaknesses that become clear after a major failure.",
-          "Older designs are always safer because they are older.",
-          "Reactors cannot be inspected after construction.",
-          "Design details do not affect accident risk."
+          "Older designs should be kept because their risks are already familiar.",
+          "A design flaw matters mainly when the reactor is new.",
+          "Reassessment is useful mainly if the accident happened in the same country."
         ],
         correctIndex: 0,
         explanation: "Learning from failure can reveal design flaws that need to be corrected."
@@ -18071,9 +18071,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which redesign goal best follows from a cooling-system failure?",
         choices: [
           "Make emergency cooling more reliable during power loss or flooding.",
-          "Make cooling depend on fewer backup options.",
-          "Prevent operators from knowing reactor temperature.",
-          "Move backup generators into places most likely to flood."
+          "Place backup systems where the same hazard can disable them together.",
+          "Reduce monitoring so operators are not distracted during emergencies.",
+          "Keep cooling systems dependent on the original power source."
         ],
         correctIndex: 0,
         explanation: "A safer design would reduce the chance that one event disables critical cooling."
@@ -18088,9 +18088,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why might different countries respond differently to the same nuclear accident?",
         choices: [
           "They may weigh safety, reliability, climate impact, costs, and public trust differently.",
-          "All countries must make identical energy decisions.",
-          "Public opinion never affects energy policy.",
-          "Nuclear accidents have no connection to national decisions."
+          "A technical accident leads to the same policy choice in each country.",
+          "Countries with similar reactors will have matching public attitudes.",
+          "Public trust matters less when the energy source is dependable."
         ],
         correctIndex: 0,
         explanation: "Energy policy depends on technical evidence, values, risk tolerance, and public trust."
@@ -18100,9 +18100,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which response is an example of turning away from nuclear power after an accident?",
         choices: [
           "Reducing nuclear power use because public trust and safety concerns changed.",
-          "Building reactors without safety inspections.",
-          "Ignoring radioactive waste concerns.",
-          "Using the accident as proof that safety planning is unnecessary."
+          "Continuing the same nuclear plan while improving inspection procedures.",
+          "Expanding nuclear power because the accident happened elsewhere.",
+          "Treating waste concerns as separate from nuclear policy."
         ],
         correctIndex: 0,
         explanation: "Some nations may decide the risks and trust issues outweigh the benefits."
@@ -18111,12 +18111,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-442-q3",
         prompt: "Which response is an example of continuing nuclear power while learning from an accident?",
         choices: [
+          "Reducing nuclear power because public trust is difficult to rebuild quickly.",
           "Developing safer technology and improving inspections.",
-          "Keeping every design unchanged.",
-          "Removing all emergency systems.",
-          "Stopping all public communication."
+          "Keeping the same design while adding more public debate.",
+          "Continuing nuclear power while treating waste as a future issue."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Some countries continue using nuclear energy while trying to reduce future risk."
       }
     ]
@@ -18129,9 +18129,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why must used nuclear fuel be carefully managed?",
         choices: [
           "It can remain hazardous and must be stored so it does not harm life or land.",
-          "It becomes ordinary soil immediately after use.",
-          "It contains no radioactive material.",
-          "It is safe to scatter anywhere."
+          "It becomes a short-term issue once the electricity has been generated.",
+          "It is mainly a storage issue because it takes up space, not because of radiation.",
+          "It is easier to manage when placed where people have less information."
         ],
         correctIndex: 0,
         explanation: "Used nuclear fuel requires long-term management because radioactive materials can harm living things and environments."
@@ -18141,9 +18141,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which question should be included in a nuclear energy decision?",
         choices: [
           "How will used fuel be isolated and monitored over time?",
-          "Can waste be ignored after electricity is generated?",
-          "Can used fuel be stored in any random location?",
-          "Can all communities be excluded from the decision?"
+          "How can waste planning be delayed until after the plant closes?",
+          "Which storage site is most convenient for industry regardless of local concerns?",
+          "How quickly can used fuel be moved before its long-term risk is studied?"
         ],
         correctIndex: 0,
         explanation: "Long-term waste management is part of evaluating nuclear energy."
@@ -18153,9 +18153,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why is nuclear waste management a community issue, not only a technical issue?",
         choices: [
           "Storage locations can affect local land, people, and future generations.",
-          "Communities are never affected by storage decisions.",
-          "Technical containment removes all ethical questions.",
-          "Used fuel has no long-term effects."
+          "Community questions matter mainly after engineers choose the site.",
+          "Technical containment removes the need to consider land relationships.",
+          "Waste decisions are local during construction, but less important over time."
         ],
         correctIndex: 0,
         explanation: "Decisions about storage involve safety, land, trust, and long-term responsibility."
@@ -18170,9 +18170,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why should nuclear waste planning include Indigenous knowledge and Western science?",
         choices: [
           "Both can contribute evidence, values, and place-based understanding for safer decisions.",
-          "Only one knowledge system can ever be useful.",
-          "Local communities should be excluded from storage decisions.",
-          "Scientific planning works best without any perspectives."
+          "Western science can answer technical questions, while local knowledge is unrelated to storage.",
+          "Indigenous knowledge matters mainly for communication after a decision is made.",
+          "Combining knowledge systems is useful mainly when communities already agree."
         ],
         correctIndex: 0,
         explanation: "The textbook describes collaboration that includes Indigenous perspectives in storage-site decisions."
@@ -18182,9 +18182,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which group should be meaningfully consulted when a storage site may affect their territory?",
         choices: [
           "Local communities and First Nations, Inuit, and Metis representatives.",
-          "Only distant companies with no local connection.",
-          "No one outside the engineering team.",
-          "Only people who will never live near the site."
+          "Distant experts first, with local voices added after site approval.",
+          "Communities that support the plan, while concerns are handled later.",
+          "People near transport routes, but not people near the storage location."
         ],
         correctIndex: 0,
         explanation: "Nuclear waste decisions can affect local lands and communities, so those voices matter."
@@ -18193,12 +18193,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-444-q3",
         prompt: "What misconception should be avoided in nuclear waste planning?",
         choices: [
-          "That technical safety alone settles every social, cultural, and ethical concern.",
-          "That evidence is important.",
+          "That evidence is important for storage-site decisions.",
           "That local knowledge can help identify concerns.",
+          "That technical safety alone settles social, cultural, and ethical concerns.",
           "That long-term storage requires careful planning."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Storage decisions involve science, safety, community trust, land relationships, and long-term responsibility."
       }
     ]
@@ -18211,9 +18211,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which two concerns strongly influence public opinion against nuclear power?",
         choices: [
           "Accident risk and nuclear waste risk.",
-          "Photosynthesis and transpiration.",
-          "Sea breezes and land breezes only.",
-          "Urban farming and recycling only."
+          "Electricity reliability and lower climate emissions.",
+          "Fuel-cell emissions and cement production.",
+          "Urban farming and recycling programs."
         ],
         correctIndex: 0,
         explanation: "The nuclear power debate often focuses on accident danger and waste management."
@@ -18222,12 +18222,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-445-q2",
         prompt: "Why can nuclear waste be a major argument against nuclear power?",
         choices: [
+          "It is a concern mainly because it is expensive to transport.",
+          "It is less important if the reactor produces dependable electricity.",
           "It requires safe long-term storage and can remain hazardous.",
-          "It disappears instantly after electricity is generated.",
-          "It is always useful fertilizer.",
-          "It contains no radioactive isotopes."
+          "It affects public opinion but not long-term energy planning."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Waste risk is a central concern because radioactive materials can persist."
       },
       {
@@ -18235,9 +18235,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why can accident risk affect public opinion even if accidents are rare?",
         choices: [
           "A rare accident can have serious effects on people, ecosystems, and trust.",
-          "Rare events never matter.",
-          "Accidents improve trust in institutions automatically.",
-          "Accident risk is unrelated to safety."
+          "A rare event is usually ignored when the energy source is dependable.",
+          "Accidents affect public opinion mainly when electricity costs increase.",
+          "Accident risk matters less when a country needs energy independence."
         ],
         correctIndex: 0,
         explanation: "Low probability does not mean low consequence, so public concern can remain high."
