@@ -16611,24 +16611,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-406-q1",
         prompt: "Why can some nuclear waste remain hazardous for a long time?",
         choices: [
+          "Its thermal energy keeps increasing after it has been disposed of.",
           "It contains radioactive isotopes that release harmful radiation as they decay over time.",
-          "It stops all nuclear decay immediately.",
-          "It is made only of ordinary water.",
-          "It becomes harmless whenever it is placed outside."
+          "Its main hazard is that it absorbs visible light from nearby ecosystems.",
+          "It remains hazardous because containment makes atoms more radioactive."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Radioactive isotopes can continue releasing radiation until they decay to safer levels."
       },
       {
         id: "kp-406-q2",
         prompt: "What does radioactive decay mean in the context of nuclear waste?",
         choices: [
+          "Radiation is filtered out when waste is placed in a concrete room.",
+          "Waste releases heat by ordinary combustion and then becomes ash.",
           "Unstable isotopes change over time and release radiation.",
-          "Waste cools because sunlight reflects from it.",
-          "A stable atom becomes a living cell.",
-          "All waste turns into soil nutrients instantly."
+          "Radioactive material becomes safer because it mixes with soil particles."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Nuclear waste hazards are tied to radioactive isotopes undergoing nuclear decay."
       },
       {
@@ -16636,9 +16636,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which storage concern follows from long-lasting radioactive decay?",
         choices: [
           "Waste may need containment and isolation for long periods.",
-          "Waste should always be scattered in soil.",
-          "Waste needs no monitoring after one day.",
-          "Waste becomes safer when mixed into drinking water."
+          "Waste should be stored where runoff can spread it into a larger area.",
+          "Waste management mainly needs to reduce odour from the material.",
+          "Waste becomes safer when stored near organisms that can absorb radiation."
         ],
         correctIndex: 0,
         explanation: "Long-lived radioactivity means storage must prevent exposure and environmental contamination over time."
@@ -16653,9 +16653,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why is nuclear waste classified into levels?",
         choices: [
           "Different waste types require different amounts of containment and isolation.",
-          "All nuclear waste has exactly the same hazard level.",
-          "Classification is based only on colour.",
-          "Classification removes the need for safe storage."
+          "Classification is mainly a way to group waste by the building where it was produced.",
+          "Classification depends on whether the waste is solid or liquid, not on hazard.",
+          "Classifying waste changes its radioactive isotopes into stable atoms."
         ],
         correctIndex: 0,
         explanation: "Waste classification helps match storage and containment to the level of hazard."
@@ -16664,24 +16664,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-407-q2",
         prompt: "Which waste type generally requires the strongest long-term isolation?",
         choices: [
+          "Low-level waste after its radioactivity has decayed to acceptable levels.",
+          "Intermediate waste stored at a production site for short-term handling.",
           "High-level waste such as used nuclear fuel.",
-          "A clean paper towel.",
-          "Low-risk office recycling.",
-          "Rainwater runoff from a roof."
+          "Non-radioactive protective packaging from a storage facility."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "High-level waste can remain radioactive and thermally hot, so it needs strong containment."
       },
       {
         id: "kp-407-q3",
         prompt: "What misconception about nuclear waste classification should be corrected?",
         choices: [
-          "That all nuclear waste can be handled by the same disposal method.",
-          "That storage decisions depend on risk.",
-          "That some wastes require more isolation than others.",
-          "That radioactivity can decrease over time."
+          "That waste with lower radioactivity may still need careful handling.",
+          "That storage decisions depend on radioactivity, heat, and containment needs.",
+          "That used fuel may require a different plan from lower-level waste.",
+          "That one disposal method is appropriate for every kind of nuclear waste."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Different wastes have different hazards, so they cannot all be stored or disposed of in one simple way."
       }
     ]
@@ -16693,12 +16693,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-408-q1",
         prompt: "Why is used nuclear fuel often cooled under water before later storage?",
         choices: [
+          "Water shields and cools the fuel by stopping the decay process itself.",
           "It gives off radiation and thermal energy that must be managed safely.",
-          "Water makes the fuel immediately non-radioactive.",
-          "Water changes nuclear waste into food.",
-          "Water prevents all energy transfer forever."
+          "Water changes used fuel into low-level waste by dissolving it.",
+          "Water is used mainly to make the fuel easier to see during transport."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "High-level waste can release heat and radiation, so cooling and shielding are both important."
       },
       {
@@ -16706,9 +16706,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "If used fuel is stored underwater for several years before transfer to concrete containers, what storage strategy is being shown?",
         choices: [
           "A staged approach that first manages heat, then continues long-term containment.",
-          "A method that ignores radiation after one week.",
-          "A way to release waste directly into ecosystems.",
-          "A process that turns fuel into greenhouse gas."
+          "A temporary delay so the waste can later be released without monitoring.",
+          "A process for using ocean water to speed up radioactive decay.",
+          "A method that treats thermal energy as the main hazard."
         ],
         correctIndex: 0,
         explanation: "The textbook describes cooling used fuel first, then moving it to containers for further decay."
@@ -16718,9 +16718,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What two hazards must high-level nuclear waste storage manage?",
         choices: [
           "Radiation and thermal energy.",
-          "Visible light and plant growth.",
-          "Wind speed and ocean tides only.",
-          "Photosynthesis and transpiration only."
+          "Acidity and photosynthesis.",
+          "Specific heat capacity and evaporation.",
+          "Salinity and ocean currents."
         ],
         correctIndex: 0,
         explanation: "High-level waste can release radiation and a lot of thermal energy, so storage must handle both."
@@ -16735,9 +16735,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What is underwater noise pollution in the Salish Sea example?",
         choices: [
           "Excess sound energy from marine vessels in busy shipping routes.",
-          "Extra infrared radiation from coral reefs.",
-          "Radioactive decay in ocean sediments only.",
-          "The natural silence produced by all ships."
+          "Thermal energy released when ocean water evaporates from shipping lanes.",
+          "Chemical contamination from fuel that has already been cleaned up.",
+          "Changes in water temperature caused by tides near Vancouver."
         ],
         correctIndex: 0,
         explanation: "Tankers and freighters can add sound energy to the underwater environment."
@@ -16746,12 +16746,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-409-q2",
         prompt: "Which source is most connected to the noise pollution discussed in the textbook extension?",
         choices: [
+          "Wave energy from normal tides along rocky shores.",
+          "Heat stored in ocean water during summer.",
           "Engine and propeller noise from tankers and freighters.",
-          "Cloud formation above mountains.",
-          "Evaporation from inland lakes.",
-          "Heat stored in ocean water."
+          "Condensation of water vapour above coastal mountains."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "The Salish Sea example focuses on vessel noise from engines and propellers."
       },
       {
@@ -16759,9 +16759,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why is noise pollution an energy issue?",
         choices: [
           "Sound is a form of energy that can travel through water and affect organisms.",
-          "Sound has no energy and cannot move through water.",
-          "Sound energy is the same as nuclear waste.",
-          "Sound energy only exists in air, never in water."
+          "Sound energy becomes harmless in water because it changes into chemical energy.",
+          "Sound is mainly a matter pollutant rather than an energy transfer.",
+          "Sound affects ships but not animals that use underwater signals."
         ],
         correctIndex: 0,
         explanation: "Sound energy travels through the marine environment and can become a stressor for animals."
@@ -16776,9 +16776,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "How can underwater vessel noise affect orcas?",
         choices: [
           "It can interfere with communication and finding food.",
-          "It improves every orca's ability to hunt.",
-          "It removes the need for orcas to communicate.",
-          "It changes orcas into algae."
+          "It mainly helps orcas locate prey by adding more signals.",
+          "It affects human listeners but not marine mammals using sound.",
+          "It reduces chronic stress by masking other underwater sounds."
         ],
         correctIndex: 0,
         explanation: "The textbook extension explains that noise pollution can interfere with orca communication and food-finding."
@@ -16788,9 +16788,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why can chronic underwater noise be an ecosystem problem rather than just an annoyance?",
         choices: [
           "It can increase stress and disrupt behaviours needed for survival.",
-          "It only affects human listeners on shore.",
-          "It makes all marine animals immune to stress.",
-          "It has no effect once it enters water."
+          "It matters mainly because it changes salt water into fresh water.",
+          "It is important mainly when people on shore can hear the sound.",
+          "It changes the food web by adding nutrients to plankton."
         ],
         correctIndex: 0,
         explanation: "Persistent noise can affect animal behaviour, stress, and feeding success."
@@ -16799,12 +16799,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-410-q3",
         prompt: "A proposed shipping expansion would increase vessel traffic in a habitat used by orcas. Which question best applies the chapter concept?",
         choices: [
+          "Will the shipping route change the specific heat capacity of seawater?",
           "How much additional underwater sound energy would be produced, and how might it affect orca survival behaviours?",
-          "Will the ships reduce all greenhouse gases instantly?",
-          "Can orcas survive without communication or food?",
-          "Will more ships stop all ocean currents?"
+          "Will vessel traffic make radioactive isotopes decay more quickly?",
+          "How much fuel can be transported before coral bleaching begins?"
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "The key issue is whether added sound energy disrupts communication, food-finding, and stress levels."
       }
     ]
@@ -16817,9 +16817,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which action would most directly reduce underwater noise impacts from shipping?",
         choices: [
           "Designing quieter engines and propellers or regulating vessel noise.",
-          "Increasing vessel noise so animals get used to it instantly.",
-          "Adding more greenhouse gases above the ocean.",
-          "Removing all water from shipping routes."
+          "Moving ships faster through the habitat without changing their sound output.",
+          "Measuring air temperature above the route instead of underwater sound.",
+          "Using louder signals so marine animals can identify ships sooner."
         ],
         correctIndex: 0,
         explanation: "The textbook notes that engine and propeller noise can be reduced, making design and regulation relevant solutions."
@@ -16828,22 +16828,22 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-411-q2",
         prompt: "Why might noise pollution be considered for regulation in endangered marine habitats?",
         choices: [
-          "Because sound energy can interfere with survival behaviours such as communication and hunting.",
-          "Because sound energy cannot travel through water.",
-          "Because regulation makes ships louder.",
-          "Because endangered animals are unaffected by stress."
+          "Because regulation changes sound energy into thermal energy useful for organisms.",
+          "Because marine habitats are affected by sound but not by vessel traffic patterns.",
+          "Because quieter vessels would remove the need for habitat protection.",
+          "Because sound energy can interfere with survival behaviours such as communication and hunting."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "If underwater noise affects communication, food-finding, and stress, managing it can help protect endangered animals."
       },
       {
         id: "kp-411-q3",
         prompt: "A student says, 'Noise is not pollution because it is not a chemical.' What is the best response?",
         choices: [
-          "Pollution can include harmful sound energy, not only harmful substances.",
-          "Only liquids can be pollution.",
-          "Sound energy cannot affect living things.",
-          "All noise helps ecosystems."
+          "Pollution can include harmful sound energy, not just harmful substances.",
+          "Pollution refers to chemicals, while energy changes belong outside ecosystem studies.",
+          "Noise becomes pollution after it changes into radioactive material.",
+          "Sound in water is a natural signal, so vessel sound is not an environmental issue."
         ],
         correctIndex: 0,
         explanation: "Noise pollution is harmful sound energy in an environment, so it can be an ecosystem concern."
@@ -16858,9 +16858,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why is fast oil-spill response important for marine ecosystems?",
         choices: [
           "Contaminants such as diesel fuel can spread and harm organisms and habitats.",
-          "Oil spills always improve habitat quality.",
-          "Diesel fuel becomes harmless as soon as it touches seawater.",
-          "Marine ecosystems contain no living organisms."
+          "Fuel spreads more slowly when response teams wait for it to evaporate.",
+          "Marine contaminants mainly affect boats, not shoreline organisms.",
+          "Diesel fuel becomes part of the food web as a useful nutrient."
         ],
         correctIndex: 0,
         explanation: "The extension connects diesel fuel release to harm in coastal and marine ecosystems."
@@ -16869,12 +16869,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-412-q2",
         prompt: "A tug releases fuel near an important shellfish habitat. Which response goal is most directly connected to ecosystem protection?",
         choices: [
+          "Document the spill but delay cleanup until tides distribute it naturally.",
           "Contain and clean the spill quickly to reduce exposure of organisms and shorelines.",
-          "Wait until the fuel spreads evenly everywhere.",
-          "Increase vessel noise to hide the spill.",
-          "Add more fuel so the concentration is easier to see."
+          "Focus on ship repair while leaving habitat response for later seasons.",
+          "Mix the fuel deeper into the water so the surface looks cleaner."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Rapid containment and cleanup can reduce the area and time that ecosystems are exposed to contaminants."
       },
       {
@@ -16882,9 +16882,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What does oil-spill planning have to do with energy transformation impacts?",
         choices: [
           "It reduces harm from technologies and fuels connected to human energy use and transport.",
-          "It prevents solar radiation from reaching Earth.",
-          "It replaces all ecosystem monitoring.",
-          "It has no connection to environmental protection."
+          "It changes diesel fuel into thermal energy before it reaches shore.",
+          "It is mostly about navigation, while ecosystem protection is separate.",
+          "It prevents the need to evaluate local habitat sensitivity."
         ],
         correctIndex: 0,
         explanation: "Transporting fuels and using energy technologies can create risks, so response planning helps reduce harm."
@@ -16899,9 +16899,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why can First Peoples be important first responders to coastal emergencies in B.C.?",
         choices: [
           "They may be close to the affected territories and have detailed local knowledge.",
-          "They are never located near marine ecosystems.",
-          "They can stop all spills before they happen worldwide.",
-          "Local knowledge is unrelated to emergency response."
+          "They mainly respond after distant agencies have completed habitat decisions.",
+          "Their role is limited to reporting weather after cleanup is finished.",
+          "Local knowledge is useful for culture but not for emergency planning."
         ],
         correctIndex: 0,
         explanation: "The extension emphasizes local response capacity and First Peoples knowledge in coastal territories."
@@ -16910,24 +16910,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-413-q2",
         prompt: "Which example best shows why local knowledge matters during a marine emergency?",
         choices: [
+          "Using a general ocean map without checking local shoreline conditions.",
           "Knowing sensitive habitats, currents, shore access points, and community priorities.",
-          "Ignoring where the spill is located.",
-          "Using only distant maps and no local observations.",
-          "Delaying action until all contaminants disappear."
+          "Choosing a response route based mainly on the shortest highway distance.",
+          "Assuming one response plan fits many different coastal territories."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Local and Indigenous knowledge can guide faster, more appropriate response decisions."
       },
       {
         id: "kp-413-q3",
         prompt: "What misconception should be avoided when discussing emergency response?",
         choices: [
-          "That only outside experts can contribute useful science and response knowledge.",
           "That communities can help protect local ecosystems.",
           "That local observations can support response planning.",
-          "That emergency plans can reduce harm."
+          "That emergency plans can reduce harm.",
+          "That useful response knowledge comes mainly from outside the affected territory."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "The textbook example values both community capacity and knowledge rooted in place."
       }
     ]
@@ -16940,9 +16940,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What is a main goal of an Indigenous Marine Response Centre?",
         choices: [
           "To improve response time and combine Western science with First Peoples knowledge during marine emergencies.",
-          "To increase the amount of diesel released into coastal water.",
-          "To replace all community participation with remote decisions.",
-          "To make marine emergencies impossible everywhere."
+          "To move emergency response farther from affected coastal communities.",
+          "To focus on cleanup technology while setting local knowledge aside.",
+          "To make response plans less specific to particular territories."
         ],
         correctIndex: 0,
         explanation: "The extension describes a response centre that would build local capacity and use multiple knowledge systems."
@@ -16951,12 +16951,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-414-q2",
         prompt: "If a response centre can reach a spill in 5 hours instead of 20 hours, what is the likely benefit?",
         choices: [
+          "The spill becomes easier to ignore because it is addressed locally.",
+          "The faster response changes diesel into a harmless material.",
           "There is less time for contaminants to spread before action begins.",
-          "The spill becomes larger because response is faster.",
-          "The fuel becomes more toxic only because responders arrive.",
-          "Response time has no effect on emergency outcomes."
+          "Shorter travel time matters for people but not for habitat exposure."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Faster response can reduce contaminant spread and limit ecosystem exposure."
       },
       {
@@ -16964,9 +16964,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which evaluation question best fits this response-centre proposal?",
         choices: [
           "How would local capacity, response time, and knowledge sharing reduce ecosystem harm?",
-          "How can spills be ignored most easily?",
-          "How can communities be excluded from decisions?",
-          "How can response planning avoid all evidence?"
+          "How can response planning focus on equipment while avoiding community roles?",
+          "How can a single plan be used without adapting to local ecosystems?",
+          "How can scientific monitoring replace first-hand knowledge of place?"
         ],
         correctIndex: 0,
         explanation: "The proposal is about improving emergency response through capacity, knowledge, and quicker action."
@@ -16981,9 +16981,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "In a lamp investigation, equal samples of water and soil are heated for the same time. What result would support water having a higher specific heat capacity?",
         choices: [
           "Water's temperature increases less than soil's temperature.",
-          "Water's temperature increases much more than soil's temperature.",
-          "Neither sample changes temperature at all.",
-          "Soil disappears during heating."
+          "Water's temperature increases more because it absorbs less energy.",
+          "Soil and water must show the same temperature change if the lamp is the same.",
+          "Soil warms less because lower specific heat capacity means slower temperature change."
         ],
         correctIndex: 0,
         explanation: "A higher specific heat capacity means more energy is needed for the same temperature change."
@@ -16992,24 +16992,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-415-q2",
         prompt: "Why should the water and soil samples receive similar radiant energy in a fair comparison?",
         choices: [
-          "So differences in temperature change are more likely due to material properties.",
-          "So the experiment has no variables.",
-          "So water and soil become the same material.",
-          "So the lamps do not give off energy."
+          "So the independent variable changes at the same time as the dependent variable.",
+          "So heat transfer by radiation is removed from the investigation.",
+          "So the samples reach the same temperature before data are recorded.",
+          "So differences in temperature change are more likely due to material properties."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Controlled conditions help compare how the two materials absorb and respond to energy."
       },
       {
         id: "kp-415-q3",
         prompt: "Which data pattern best matches the textbook idea that land warms faster than water?",
         choices: [
-          "Soil changes from 20 C to 34 C while water changes from 20 C to 24 C in the same time.",
-          "Water changes from 20 C to 50 C while soil stays at 20 C.",
-          "Both stay exactly at 20 C after heating.",
-          "Soil cools to -10 C while under a heat lamp."
+          "Water changes from 20 C to 31 C while soil changes from 20 C to 23 C.",
+          "Soil changes from 20 C to 34 C while water changes from 20 C to 24 C.",
+          "Water and soil both change from 20 C to 26 C under the lamp.",
+          "Soil changes from 20 C to 21 C while water changes from 20 C to 35 C."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "The larger temperature increase in soil suggests it warms faster than water under similar heating."
       }
     ]
