@@ -7000,9 +7000,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-171-q3",
         prompt: "Which behaviour best matches safe classroom chemistry?",
         choices: [
-          "Mix unknown chemicals to see what happens.",
-          "Wear sandals while handling glassware.",
-          "Ignore safety equipment locations unless an accident occurs.",
+          "Mix chemicals after checking that the amounts are small.",
+          "Wear open shoes if the investigation does not involve heating.",
+          "Find safety equipment locations after the procedure begins.",
           "Follow teacher instructions and keep containers away from your face."
         ],
         correctIndex: 3,
@@ -7017,10 +7017,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-172-q1",
         prompt: "What should you know before an investigation begins?",
         choices: [
-          "Where backpacks are stored so walkways stay clear.",
+          "Where personal items are stored, but not where emergency equipment is located.",
           "Where emergency exits, eyewash stations, and other safety equipment are located.",
-          "How to hide spills from the teacher.",
-          "How to leave flames unattended."
+          "How to clean a spill before deciding whether to notify the teacher.",
+          "How to finish the data table before responding to a hazard."
         ],
         correctIndex: 1,
         explanation: "Knowing emergency equipment and exits helps you respond quickly if something goes wrong."
@@ -7029,10 +7029,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-172-q2",
         prompt: "If a liquid chemical splashes on skin, what is the safest immediate response in a classroom setting?",
         choices: [
-          "Rub it into the skin to make it disappear.",
-          "Ignore it unless it hurts later.",
+          "Wipe it quickly and decide later whether the skin feels irritated.",
+          "Wait to see whether it hurts before interrupting the investigation.",
           "Rinse the area with water and notify the teacher.",
-          "Cover it with paper and continue the experiment."
+          "Cover the area and continue if the amount seems small."
         ],
         correctIndex: 2,
         explanation: "Water rinsing and immediate reporting are standard first responses for many classroom spills."
@@ -7042,9 +7042,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "If something gets in a student's eye, why is an eyewash station important?",
         choices: [
           "It allows rapid rinsing while the teacher is notified.",
-          "It stores extra chemicals for experiments.",
-          "It replaces the need for goggles.",
-          "It should be used after finishing the written observations."
+          "It provides water for cleaning glassware after the investigation.",
+          "It reduces risk enough that goggles are less important.",
+          "It should be used after checking the SDS for first-aid details."
         ],
         correctIndex: 0,
         explanation: "Eye exposures require immediate rinsing and adult help."
@@ -7058,9 +7058,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-173-q1",
         prompt: "Why should a heated test tube be pointed away from people?",
         choices: [
-          "It makes the reaction happen faster.",
-          "It improves the colour of the flame.",
-          "It lets you smell fumes directly.",
+          "It helps heat spread evenly through the liquid.",
+          "It lets the observer see the colour change more clearly.",
+          "It makes fumes easier to waft from the tube.",
           "Hot liquid or vapour could suddenly escape and cause injury."
         ],
         correctIndex: 3,
@@ -7070,10 +7070,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-173-q2",
         prompt: "What is the safe way to smell a substance if instructed to do so?",
         choices: [
-          "Place your nose directly over the container.",
+          "Hold the container close and breathe in briefly.",
           "Waft fumes gently toward your nose.",
-          "Drink a small amount first.",
-          "Heat it until the smell becomes stronger."
+          "Smell directly after checking that the container is small.",
+          "Warm the substance slightly so a smaller breath is needed."
         ],
         correctIndex: 1,
         explanation: "Wafting reduces direct exposure to concentrated fumes."
@@ -7100,9 +7100,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which plan best minimizes both personal and environmental risk?",
         choices: [
           "Use correct PPE, smallest practical amounts, safe storage, and approved disposal.",
-          "Use more chemical than needed if it makes results easier to see.",
-          "Focus on personal PPE and leave waste decisions until cleanup.",
-          "Skip labels if the container is familiar from home."
+          "Use extra chemical if the larger amount makes observations easier.",
+          "Focus on personal PPE first and decide disposal during cleanup.",
+          "Use familiar containers first and check labels if a problem appears."
         ],
         correctIndex: 0,
         explanation: "Risk reduction includes protecting people and preventing harmful releases to the environment."
@@ -7112,7 +7112,7 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why should disposal be part of a chemical safety plan?",
         choices: [
           "Disposal is mainly a classroom-cleanup issue rather than an environmental issue.",
-          "Small amounts of lab chemicals usually belong in regular garbage.",
+          "Small amounts of lab chemicals can be handled like household waste if diluted.",
           "Disposal matters more for solids than for dissolved substances.",
           "Improper disposal can harm people, plumbing, wastewater systems, or ecosystems."
         ],
@@ -7123,10 +7123,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-174-q3",
         prompt: "A painter uses solvents at work. Which risk-reduction strategy is most complete?",
         choices: [
-          "Wear gloves but pour waste outside.",
+          "Wear gloves and decide where to pour waste after finishing the job.",
           "Use ventilation and PPE, avoid spills, and dispose of waste properly.",
-          "Open containers near flames to save time.",
-          "Ignore SDS information if the solvent is common."
+          "Open containers near a heat source if the work area is well ventilated.",
+          "Rely on experience with the solvent instead of checking SDS information."
         ],
         correctIndex: 1,
         explanation: "Personal and environmental safety require multiple controls, not just one precaution."
@@ -7143,7 +7143,7 @@ window.SCIENCE10_QUIZZES = {
           "It dissolves most substances at the same rate and amount.",
           "It is usually chemically pure unless people add pollutants.",
           "Many different substances can dissolve in it.",
-          "It carries substances in rivers but not through soil or groundwater."
+          "It carries substances in rivers more easily than through soil or groundwater."
         ],
         correctIndex: 2,
         explanation: "Water dissolves many substances, though not all substances and not always completely."
@@ -7154,8 +7154,8 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "Water can dissolve natural substances such as ions and minerals as it moves through the environment.",
           "Water changes dissolved substances into harmless materials right away.",
-          "Natural water contains no particles or ions.",
-          "Human-made substances dissolve more easily than naturally occurring substances."
+          "Natural water usually contains particles but not dissolved ions.",
+          "Human-made pollutants dissolve, while naturally occurring substances usually do not."
         ],
         correctIndex: 0,
         explanation: "Natural water often contains dissolved substances from soil, rocks, organisms, and human activity."
@@ -7183,8 +7183,8 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "Dissolved minerals naturally picked up from rocks.",
           "Pharmaceuticals or personal care products poured down drains.",
-          "Clouds forming in the sky.",
-          "Water evaporating from a lake."
+          "Minerals entering groundwater as water moves through soil.",
+          "Water vapour leaving a lake during evaporation."
         ],
         correctIndex: 1,
         explanation: "Human waste, industrial waste, mining waste, plastics, and pharmaceuticals can pollute water."
@@ -7193,8 +7193,8 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-176-q2",
         prompt: "Why can household habits affect water quality?",
         choices: [
-          "Household products cannot dissolve or move in water.",
-          "Factories are the main source to consider, so household sources are minor.",
+          "Household products may be diluted enough that treatment is simple.",
+          "Factories are usually the main source, so household sources can be considered later.",
           "Substances poured down toilets, sinks, or storm drains can enter water systems.",
           "Water treatment can be assumed to remove chemicals from household products."
         ],
@@ -7207,7 +7207,7 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "Dispose of medicines and chemicals through approved collection programs.",
           "Flush unused products to make them disappear.",
-          "Pour paint thinner into a street drain.",
+          "Pour small amounts of solvents into a street drain during heavy rain.",
           "Assume small amounts are too diluted to affect water quality."
         ],
         correctIndex: 0,
@@ -7224,7 +7224,7 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "Stormwater usually receives the same treatment as wastewater.",
           "Wastewater is less likely to contain pollutants because it comes from buildings.",
-          "Stormwater cannot pick up substances from streets.",
+          "Stormwater mostly carries rainwater, so street pollutants are a minor concern.",
           "Wastewater often goes to treatment, while stormwater may flow directly into local waterways."
         ],
         correctIndex: 3,
@@ -7246,10 +7246,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-177-q3",
         prompt: "A person dumps oily liquid into a storm drain. What is the likely concern?",
         choices: [
-          "It will probably be removed before reaching a nearby waterway.",
+          "It may enter the wastewater plant before reaching a nearby waterway.",
           "It will dilute right away and become chemically pure.",
           "It may be carried untreated into a local lake or river.",
-          "It cannot move because drains are sealed."
+          "It will stay in the drain until maintenance workers remove it."
         ],
         correctIndex: 2,
         explanation: "Storm drains often connect directly to local waterways, making dumping especially harmful."
@@ -7264,9 +7264,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why is safe drinking water a community responsibility?",
         choices: [
           "Water quality depends on infrastructure, pollution choices, monitoring, and public action.",
-          "Individual taste is the main way to judge whether water is safe.",
-          "Most communities can use the same water plan without local changes.",
-          "Water treatment systems work well without funding or maintenance."
+          "Individual taste can help decide whether water needs testing.",
+          "Most communities can use the same plan if the water source is similar.",
+          "Water treatment systems work best when public action is kept separate."
         ],
         correctIndex: 0,
         explanation: "Safe water depends on systems and shared decisions, not only individual behaviour."
@@ -7275,9 +7275,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-178-q2",
         prompt: "Which action could support cleaner water systems?",
         choices: [
-          "Ignore contamination unless it is visible.",
-          "Pour more chemicals into storm drains.",
-          "Assume boiling water solves contamination without identifying the problem.",
+          "Test water mainly when contamination is visible.",
+          "Use storm drains for disposal if the material is diluted first.",
+          "Assume boiling water solves the problem before identifying the contaminant.",
           "Raise awareness and reduce pollutants entering drains and waterways."
         ],
         correctIndex: 3,
@@ -7290,7 +7290,7 @@ window.SCIENCE10_QUIZZES = {
           "Most communities have similar water infrastructure and maintenance needs.",
           "Some communities face greater barriers to safe drinking water and need appropriate support.",
           "Water quality problems are mainly an issue for large cities.",
-          "Unsafe drinking water is mostly an inconvenience rather than a health concern."
+          "Unsafe drinking water is mainly a short-term inconvenience if bottled water is available."
         ],
         correctIndex: 1,
         explanation: "The textbook notes that safe drinking water issues affect communities differently, including some First Nations communities."
@@ -7305,9 +7305,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why are there different classes of fire extinguishers?",
         choices: [
           "Fires can be grouped mainly by flame size once oxygen is present.",
-          "The letters mostly show how large the extinguisher is.",
+          "The letters mostly show how much extinguishing chemical is inside.",
           "Different fuel sources require different chemicals or methods to extinguish safely.",
-          "Fire extinguishers are chosen by colour preference."
+          "Fire extinguishers are chosen mainly by how close they are to the fire."
         ],
         correctIndex: 2,
         explanation: "Extinguishers are matched to fuel sources such as ordinary combustibles, flammable liquids, electrical equipment, metals, or cooking oils."
