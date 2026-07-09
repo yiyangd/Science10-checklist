@@ -11896,8 +11896,8 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-291-q1",
         prompt: "Why does burning a fossil fuel usually add \\(CO_2\\) to the atmosphere?",
         choices: [
-          "The oxygen in air changes into carbon without reacting with the fuel.",
-          "The fuel absorbs \\(CO_2\\) from nearby water and stores it as soot.",
+          "The oxygen in air supplies the carbon atoms found in \\(CO_2\\).",
+          "The fuel absorbs \\(CO_2\\) during burning and releases it afterward.",
           "Carbon atoms in the fuel combine with oxygen during combustion.",
           "The reaction changes carbon products into neutral salt crystals."
         ],
@@ -11910,8 +11910,8 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "It is a greenhouse gas and can dissolve in ocean water.",
           "It is a strong base with pH 14.",
-          "It forms a solid precipitate in seawater before affecting pH.",
-          "It remains in the atmosphere and does not dissolve at the ocean surface."
+          "It forms carbon monoxide before affecting ocean chemistry.",
+          "It affects climate, but ocean water keeps it from dissolving."
         ],
         correctIndex: 0,
         explanation: "CO2 affects the atmosphere and can change ocean chemistry."
@@ -11920,9 +11920,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-291-q3",
         prompt: "Which process is most directly linked to fossil-fuel \\(CO_2\\) emissions?",
         choices: [
-          "Sorting indicators by colour range",
-          "Dissolving table salt in water",
-          "Filtering a precipitate from a beaker",
+          "Neutralizing a basic cleaner with lemon juice",
+          "Dissolving table salt in ocean water",
+          "Filtering a precipitate from an ionic solution",
           "Combustion of carbon-containing fuels"
         ],
         correctIndex: 3,
@@ -11937,10 +11937,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-292-q1",
         prompt: "What can happen after atmospheric \\(CO_2\\) dissolves in ocean water?",
         choices: [
-          "It immediately forms sodium hydroxide and raises pH to 14.",
+          "It immediately forms hydroxide ions and raises ocean pH.",
           "It can form carbonic acid, which can increase \\(H^+\\) in the water.",
-          "It reacts with dissolved salts to make oxygen gas.",
-          "It removes carbonate chemistry from the ocean water."
+          "It reacts with dissolved salts to make oxygen gas and neutral water.",
+          "It removes acids from seawater by changing them into carbonate ions."
         ],
         correctIndex: 1,
         explanation: "CO2 and water can form carbonic acid, changing ocean chemistry."
@@ -11950,7 +11950,7 @@ window.SCIENCE10_QUIZZES = {
         prompt: "If more dissolved \\(CO_2\\) leads to more \\(H^+\\) in seawater, what happens to pH?",
         choices: [
           "pH rises because more \\(H^+\\) means the water is becoming more basic.",
-          "pH stays fixed at 7 because oceans are too large to change.",
+          "pH stays fixed at 7 because seawater contains many dissolved substances.",
           "pH decreases because the water becomes more acidic.",
           "pH becomes a coefficient in the reaction equation."
         ],
@@ -11962,8 +11962,8 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why can extra dissolved \\(CO_2\\) reduce carbonate ion availability?",
         choices: [
           "Some \\(H^+\\) combines with \\(CO_3^{2-}\\), forming bicarbonate ions.",
-          "Carbonate ions change into pure oxygen gas at pH 7.",
-          "Carbonate ions become calcium atoms when water is acidic.",
+          "Carbonate ions change into carbon dioxide gas without using hydrogen ions.",
+          "Carbonate ions become calcium ions when water becomes more acidic.",
           "\\(CO_2\\) prevents hydrogen ions from existing in seawater."
         ],
         correctIndex: 0,
@@ -11978,9 +11978,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-293-q1",
         prompt: "Why can ocean acidification make shell-building harder for some organisms?",
         choices: [
-          "It increases carbonate ions so quickly that shells grow too thick.",
-          "It turns calcium carbonate shells into hydrocarbon fuel.",
-          "It makes shell material stronger but slower to form.",
+          "It increases carbonate ions, so organisms spend energy removing extras.",
+          "It changes calcium carbonate shells into carbon dioxide fuel.",
+          "It makes shell material form more slowly because calcium becomes unavailable.",
           "It can reduce carbonate ions needed to make calcium carbonate shells."
         ],
         correctIndex: 3,
@@ -11990,10 +11990,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-293-q2",
         prompt: "Which group is most directly connected to carbonate-based shells or skeletons?",
         choices: [
-          "Gasoline and propane molecules",
+          "Combustion fuels such as gasoline and propane",
           "Clams, oysters, some plankton, and corals",
-          "Land plants and freshwater insects far from seawater",
-          "Pure copper wire in a flame test"
+          "Land plants whose stems contain cellulose",
+          "Copper wire heated in a combustion test"
         ],
         correctIndex: 1,
         explanation: "The textbook describes shelled organisms, plankton, and coral reefs as vulnerable."
@@ -12002,8 +12002,8 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-293-q3",
         prompt: "Why can a decrease in shell-building plankton affect larger ocean food webs?",
         choices: [
-          "Plankton changes stay local because larger organisms use different habitats.",
-          "Food webs are affected mainly by large predators, not by microscopic organisms.",
+          "Plankton changes stay local because larger organisms do not depend on them.",
+          "Food webs are affected mainly by predators, so plankton are less important.",
           "Some plankton form the base of food chains that support other organisms.",
           "Acidic water mostly changes rock colour before affecting organisms."
         ],
@@ -12020,9 +12020,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why is ocean acidification both a chemistry issue and a social issue?",
         choices: [
           "Chemical changes can affect ecosystems, food supply, and people's livelihoods.",
-          "Chemistry issues stop matter from affecting living things.",
+          "Chemistry issues are mainly about equations, while social effects come from politics.",
           "Ocean pH changes are useful for chemistry but separate from food supply.",
-          "Social issues are evaluated best without chemical or ecological evidence."
+          "Social impacts can be evaluated without chemical or ecological evidence."
         ],
         correctIndex: 0,
         explanation: "Chemical changes can have ecological and human consequences."
@@ -12031,9 +12031,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-294-q2",
         prompt: "Which evidence would best support an evaluation of ocean acidification?",
         choices: [
-          "The colour of a poster about oceans",
+          "A map showing ocean regions without chemistry or organism data",
           "A guess about whether seawater would taste sour",
-          "The number of letters in the formula \\(CO_2\\)",
+          "The number of carbon and oxygen atoms in one \\(CO_2\\) molecule",
           "pH data, carbonate chemistry, organism health, and effects on communities"
         ],
         correctIndex: 3,
@@ -12043,7 +12043,7 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-294-q3",
         prompt: "Which question best connects ocean chemistry to human consequences?",
         choices: [
-          "How many pages are in the chapter?",
+          "How many chemical symbols appear in the ocean-acidification equation?",
           "How might lower carbonate availability affect shellfish harvests?",
           "Should pH data be ignored because ions are too small to see?",
           "Do ocean organisms respond in similar ways regardless of shell material?"
@@ -12085,8 +12085,8 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why might a student use more than one acid-base test on an unknown?",
         choices: [
           "Extra tests remove the need for goggles and careful disposal.",
-          "One indicator gives enough evidence to identify the exact compound.",
-          "Indicators provide colour, but the colour is unrelated to pH.",
+          "One indicator gives enough evidence to identify the exact compound formula.",
+          "Indicators provide colour, but the colour should not be connected to pH.",
           "Several observations can narrow the pH range and make the claim stronger."
         ],
         correctIndex: 3,
@@ -12101,7 +12101,7 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-296-q1",
         prompt: "What is the safest first step before testing several unknown acid-base solutions?",
         choices: [
-          "Taste a tiny drop so the procedure can be shorter.",
+          "Smell each sample closely so the procedure can be shorter.",
           "Plan a teacher-approved procedure and put on required PPE.",
           "Mix the unknowns together after recording their labels.",
           "Heat each sample before deciding which tests are needed."
@@ -12113,8 +12113,8 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-296-q2",
         prompt: "Why should each spot plate well or test tube be labelled during unknown-solution testing?",
         choices: [
-          "Labels change the pH so indicators work more quickly.",
-          "Labels neutralize acid spills before they happen.",
+          "Labels change the pH so indicators can be compared fairly.",
+          "Labels reduce chemical hazards by neutralizing spills.",
           "Labels let observations be matched to the correct sample.",
           "Labels replace the need to record observations."
         ],
@@ -12126,8 +12126,8 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which planned test could help classify an unknown as acidic, basic, or neutral?",
         choices: [
           "Testing with litmus, pH paper, or another acid-base indicator",
-          "Counting bubbles from a candle flame across the room",
-          "Balancing an unrelated combustion equation",
+          "Checking whether the sample container feels warm from handling",
+          "Balancing a combustion equation for a different substance",
           "Measuring the outside length of the test tube"
         ],
         correctIndex: 0,
@@ -12142,7 +12142,7 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-297-q1",
         prompt: "An unknown turns blue litmus red and has a pH near 3. What claim is best supported?",
         choices: [
-          "The unknown is neutral because it has a pH number.",
+          "The unknown is neutral because pH values are measured on the same scale.",
           "The unknown is basic because an indicator changed colour.",
           "The unknown is a hydrocarbon fuel.",
           "The unknown is acidic."
@@ -12156,7 +12156,7 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "A pH range means the student forgot to record observations.",
           "Some indicators change colour over a range rather than at one exact pH.",
-          "A pH range proves the unknown contains no ions.",
+          "A pH range suggests the unknown contains no ions.",
           "Indicators give precise pH values when the colour is recorded carefully."
         ],
         correctIndex: 1,
@@ -12166,7 +12166,7 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-297-q3",
         prompt: "Which explanation is evidence-based?",
         choices: [
-          "Unknown B is basic because I liked its label.",
+          "Unknown B is basic because its label looked like a household cleaner.",
           "Unknown B is basic because it looked similar to another sample.",
           "Unknown B is basic because it had pH 10 and turned red litmus blue.",
           "Unknown B is basic because it was tested last."
@@ -12225,9 +12225,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Predict the products for complete combustion of \\(C_4H_{10}\\).",
         choices: [
           "\\(C\\) and \\(H_2\\)",
-          "\\(NaCl\\) and \\(H_2O\\)",
+          "\\(CO\\) and \\(H_2O\\)",
           "\\(CO_2\\) and \\(H_2O\\)",
-          "\\(AgCl\\) and \\(KNO_3\\)"
+          "\\(C_4H_{10}O\\) and \\(O_2\\)"
         ],
         correctIndex: 2,
         explanation: "Complete hydrocarbon combustion produces carbon dioxide and water."
@@ -12238,8 +12238,8 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "\\(MgCl_2\\)",
           "\\(Mg_2Cl\\)",
-          "\\(MgOH\\)",
-          "\\(Mg + Cl\\)"
+          "\\(MgCl\\)",
+          "\\(Mg + Cl_2\\)"
         ],
         correctIndex: 0,
         explanation: "A metal and non-metal combine to form an ionic compound, magnesium chloride."
@@ -12291,8 +12291,8 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "Balance the equation using coefficients so atoms are conserved.",
           "Change subscripts until the equation looks shorter.",
-          "Choose products with smaller formulas if balancing is difficult.",
-          "Check the reaction type but leave atom counts for later."
+          "Choose products with smaller formulas if coefficients become large.",
+          "Check the reaction type but leave atom counts for the final report."
         ],
         correctIndex: 0,
         explanation: "Conservation of mass requires balanced atom counts."
