@@ -14972,9 +14972,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why are tools such as radar, magnetometers, and radiation protection systems connected to energy concepts?",
         choices: [
           "They depend on detecting, transferring, or transforming energy to gather information or improve safety.",
-          "They work only if energy is destroyed.",
-          "They use no physical principles.",
-          "They are useful only because they are large."
+          "They work by avoiding energy interactions during measurements.",
+          "They are useful mainly because larger devices collect more data.",
+          "They replace physical principles with computer predictions."
         ],
         correctIndex: 0,
         explanation: "Many scientific tools use energy interactions to investigate, measure, protect, or predict."
@@ -14983,24 +14983,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-366-q2",
         prompt: "Which example best shows an energy tool supporting investigation?",
         choices: [
+          "A thermometer prevents thermal energy transfer while measuring temperature.",
           "Ground-penetrating radar helps archaeologists investigate hidden structures.",
-          "A blank notebook turns sunlight into nuclear fuel.",
-          "A thermometer prevents all heat transfer.",
-          "A ruler destroys sound energy."
+          "A notebook stores radar waves before an investigation begins.",
+          "A ruler transforms sound energy into chemical potential energy."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "The textbook lists tools such as radar and magnetometers as energy-related methods for studying the past."
       },
       {
         id: "kp-366-q3",
         prompt: "What is a good reason to study the energy transformations behind a technology?",
         choices: [
+          "It shows that the technology will work without evidence from testing.",
           "It helps explain what the technology measures, predicts, powers, or protects against.",
-          "It guarantees the technology has no limits.",
-          "It removes the need for evidence.",
-          "It proves all technologies work the same way."
+          "It suggests that different technologies use the same energy pathway.",
+          "It replaces safety planning with a list of device parts."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Understanding the energy pathway helps explain both the use and limitations of a technology."
       }
     ]
@@ -15012,12 +15012,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-367-q1",
         prompt: "Why can solar-energy technologies be valuable in remote or underserved areas?",
         choices: [
+          "They work best where sunlight is unavailable for long periods.",
           "They can help provide electricity, clean water, or emergency support where supply systems are limited.",
-          "They always require large fossil-fuel power plants nearby.",
-          "They work only at night.",
-          "They prevent any energy transformation from happening."
+          "They remove the need to match a design to local conditions.",
+          "They provide energy without transforming sunlight."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "The textbook describes solar-energy projects aimed at practical needs such as electricity and clean water access."
       },
       {
@@ -15025,9 +15025,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which need is most directly connected to the solar-energy projects in the Take Action section?",
         choices: [
           "Reliable energy and clean water access for communities with limited infrastructure.",
-          "Making all radiation harmless.",
-          "Increasing fossil-fuel dependence in transportation.",
-          "Stopping sunlight from reaching Earth."
+          "Increasing dependence on fuel delivery to rural communities.",
+          "Reducing energy access until a large power grid is built.",
+          "Changing sunlight into a source of ionizing radiation."
         ],
         correctIndex: 0,
         explanation: "The projects use solar energy to address everyday needs in rural, remote, or disaster-affected areas."
@@ -15036,12 +15036,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-367-q3",
         prompt: "Which statement is a realistic limitation to consider for solar-energy access?",
         choices: [
+          "Solar energy creates electricity without needing a device or storage plan.",
+          "Solar technology works the same way in each community regardless of need.",
           "Sunlight availability, storage, and local needs affect how useful a solar technology will be.",
-          "Solar energy creates electricity without any device or transformation.",
-          "Solar energy works identically in every community.",
-          "Solar technologies can only produce sound energy."
+          "Solar systems mainly transform sunlight into sound energy for communication."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "A useful design must match available sunlight, storage needs, and the community's practical goals."
       }
     ]
@@ -15054,9 +15054,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What is the main energy transformation in an Energy Hub charging battery packs?",
         choices: [
           "Solar energy is transformed into electrical energy stored for later use.",
-          "Sound energy is transformed into nuclear energy.",
-          "Gravitational potential energy is transformed directly into gasoline.",
-          "Thermal energy is destroyed by the batteries."
+          "Gravitational potential energy in water bottles becomes gasoline.",
+          "Thermal energy in the battery is removed from the energy pathway.",
+          "Solar energy is reflected away to keep battery packs cool."
         ],
         correctIndex: 0,
         explanation: "The Energy Hub uses solar energy to charge portable battery packs."
@@ -15066,9 +15066,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "How does the SunSaluter combine energy ideas with water access?",
         choices: [
           "It uses sunlight for energy and gravity-driven motion while water is filtered during the day.",
-          "It uses uranium fission to boil water.",
-          "It blocks all sunlight so water stays cold.",
-          "It turns salt directly into electrical wires."
+          "It uses fission energy to boil water before filtration.",
+          "It blocks direct sunlight so the solar panel does not move.",
+          "It changes filtered water into electrical wires for the panel."
         ],
         correctIndex: 0,
         explanation: "The textbook describes the SunSaluter as using solar tracking and water filtration to provide energy and clean water benefits."
@@ -15077,12 +15077,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-368-q3",
         prompt: "Which comparison between the Energy Hub and SunSaluter is best?",
         choices: [
+          "Both use fossil fuel combustion but for different community needs.",
+          "The Energy Hub uses gamma radiation, while the SunSaluter uses alpha particles.",
           "Both use solar energy for community benefit, but the SunSaluter also supports water filtration.",
-          "Both rely only on fossil fuel combustion.",
-          "The Energy Hub uses gamma radiation, while the SunSaluter uses alpha radiation.",
-          "Neither involves energy transformation."
+          "The SunSaluter stores sunlight as nuclear energy, while the Energy Hub stores water."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Both are solar-related technologies, but their designs solve different practical problems."
       }
     ]
@@ -15094,36 +15094,36 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-369-q1",
         prompt: "Why can solarships be useful for remote-area delivery?",
         choices: [
-          "Their compact aircraft design, buoyant lift, and solar panels can help deliver supplies where runways or roads are limited.",
-          "They require only underground coal mines to operate.",
+          "They require a long paved runway before the solar panels can work.",
+          "They use buoyant lift, compact design, and solar panels to help deliver supplies where roads or runways are limited.",
           "They work by absorbing gamma rays from medical isotopes.",
-          "They can land only at large international airports."
+          "They depend on coal combustion as their main energy source."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "The textbook describes solarships as hybrid aircraft designed for remote supply delivery."
       },
       {
         id: "kp-369-q2",
         prompt: "Which feature helps a solarship reduce reliance on fossil fuels?",
         choices: [
+          "A design that shades its upper surface during flight.",
           "A large surface area for solar panels.",
-          "A design that blocks sunlight.",
-          "A fuel system that burns only coal.",
-          "A requirement for long paved runways."
+          "A fuel system that burns coal during takeoff.",
+          "A requirement for large airports near remote communities."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Solar panels allow sunlight to be transformed into useful energy for the aircraft system."
       },
       {
         id: "kp-369-q3",
         prompt: "Which evaluation question best fits solarship technology?",
         choices: [
+          "Can the aircraft avoid transforming energy during a delivery mission?",
           "Does solar energy reduce fuel use while still meeting delivery needs safely and reliably?",
-          "Can solarships avoid all energy transformations?",
-          "Can solarships make sunlight at night without storage?",
-          "Does buoyant lift prove gravity is absent?"
+          "Can the aircraft create sunlight at night without storage?",
+          "Does buoyant lift remove gravity from the system?"
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "A good evaluation balances sustainability, mission requirements, reliability, and safety."
       }
     ]
@@ -15135,36 +15135,36 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-370-q1",
         prompt: "Why does large-scale solar power need an energy-storage method?",
         choices: [
+          "Solar energy is not useful until it becomes nuclear energy.",
+          "Mirrors remove energy from sunlight when they reflect it.",
           "Solar-to-electrical energy transformation is reduced at night and during cloudy conditions.",
-          "Solar energy is not a real form of energy.",
-          "Mirrors destroy energy whenever they reflect sunlight.",
-          "Electricity can only be generated while salt is frozen."
+          "Electricity is generated best when the storage material stays frozen."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "The textbook notes that solar generation is limited when sunlight is unavailable or reduced, so storage helps supply energy later."
       },
       {
         id: "kp-370-q2",
         prompt: "What problem does molten-salt storage try to solve at a solar power plant?",
         choices: [
+          "How to make sunlight unnecessary for collecting solar energy.",
           "How to keep useful energy available when sunlight is not currently strong enough.",
-          "How to make sunlight unnecessary for any solar technology.",
-          "How to prevent all thermal energy from existing.",
-          "How to turn salt into radioactive fuel."
+          "How to stop thermal energy from forming in the system.",
+          "How to turn salt into radioactive fuel for a reactor."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Molten salt can store thermal energy collected during sunny periods so electricity can be generated later."
       },
       {
         id: "kp-370-q3",
         prompt: "Which statement explains why cloud cover matters for solar-to-electrical systems?",
         choices: [
-          "Less incoming sunlight means less energy is available to transform into electricity or stored thermal energy.",
-          "Clouds create nuclear fission in solar panels.",
-          "Clouds make storage unnecessary.",
-          "Clouds increase sunlight reaching every mirror."
+          "Clouds create fission reactions in photovoltaic cells.",
+          "Clouds make energy storage less useful because sunlight is stronger.",
+          "Clouds increase the sunlight reaching each mirror in a solar tower.",
+          "Less incoming sunlight means less energy is available to transform into electricity or stored thermal energy."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "The amount of incoming solar energy affects how much useful energy the system can transform or store."
       }
     ]
@@ -15176,12 +15176,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-371-q1",
         prompt: "What is the main role of molten salt in a solar tower power system?",
         choices: [
-          "It absorbs solar energy transformed into thermal energy and stores it for later use.",
-          "It reflects all sunlight back into space without warming.",
-          "It turns directly into electrical wires.",
-          "It prevents steam from forming in the power plant."
+          "It reflects sunlight away from the tower so the plant stays cool.",
+          "It turns into electrical wires after being heated.",
+          "It prevents water from becoming steam in the plant.",
+          "It absorbs solar energy transformed into thermal energy and stores it for later use."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Mirrors focus sunlight onto the tower, where molten salt absorbs energy and stores it as thermal energy."
       },
       {
@@ -15189,9 +15189,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which energy pathway best describes the first part of molten-salt storage?",
         choices: [
           "Solar energy -> reflected and concentrated light -> thermal energy in molten salt.",
-          "Sound energy -> nuclear energy -> molten salt.",
           "Chemical potential energy -> visible light -> frozen salt.",
-          "Electrical energy -> gravitational potential energy -> sunlight."
+          "Electrical energy -> gravitational potential energy -> sunlight.",
+          "Sound energy -> nuclear energy -> molten salt."
         ],
         correctIndex: 0,
         explanation: "The mirrors concentrate incoming solar radiation so the salt becomes hot and stores thermal energy."
@@ -15201,9 +15201,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why is molten salt useful for storage compared with using sunlight directly at the moment it arrives?",
         choices: [
           "The stored thermal energy can be held and used when sunlight is not available.",
-          "It creates solar energy at night from nothing.",
-          "It eliminates all need for turbines.",
-          "It changes radiation into alpha particles."
+          "It creates new solar energy at night inside the tank.",
+          "It removes the need for turbines during electricity generation.",
+          "It changes incoming radiation into alpha particles."
         ],
         correctIndex: 0,
         explanation: "Storage separates the time energy is collected from the time it is used to generate electricity."
@@ -15217,36 +15217,36 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-372-q1",
         prompt: "How can stored thermal energy in molten salt eventually become electrical energy?",
         choices: [
+          "It freezes into crystals that release electric current.",
+          "It reflects moonlight into a battery without using a generator.",
           "It heats water into steam, the steam turns a turbine, and a generator produces electricity.",
-          "It freezes into crystals that emit electrical current.",
-          "It reflects moonlight into a battery without a generator.",
-          "It changes directly into gasoline for turbines."
+          "It changes directly into gasoline for the turbine."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "The stored thermal energy is transferred to water, producing steam that drives turbines connected to generators."
       },
       {
         id: "kp-372-q2",
         prompt: "A solar plant stores enough thermal energy to keep generating electricity for 5 hours after sunset. What problem is this solving?",
         choices: [
-          "Solar input drops after sunset, but stored thermal energy can continue the electricity-generation process.",
-          "Sunlight becomes stronger at night.",
-          "Steam cannot move turbines during the day.",
-          "Thermal energy cannot be transferred to water."
+          "Sunlight becomes stronger at night near a solar tower.",
+          "Steam moves turbines during the day but stops moving after sunset.",
+          "Thermal energy is unable to transfer from salt to water.",
+          "Solar input drops after sunset, but stored thermal energy can continue the electricity-generation process."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Stored heat allows electricity generation to continue when incoming solar radiation is low or absent."
       },
       {
         id: "kp-372-q3",
         prompt: "Which statement best distinguishes energy storage from energy generation in the molten-salt system?",
         choices: [
+          "Storage turns sunlight into salt atoms; generation turns salt atoms into electricity.",
           "Storage keeps energy as thermal energy; generation uses that thermal energy to make steam and electricity.",
-          "Storage destroys thermal energy; generation creates it again.",
           "Storage uses fission, while generation uses photosynthesis.",
-          "Storage and generation are exactly the same step."
+          "Storage and generation are similar words for the same step."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "The system first stores thermal energy, then later transfers and transforms it to generate electrical energy."
       }
     ]
@@ -15258,36 +15258,36 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-373-q1",
         prompt: "What is the main design goal of a solar cooker in Investigation 3-D?",
         choices: [
+          "Block most incoming sunlight so the water heats slowly.",
+          "Use nuclear fusion to boil water without sunlight.",
           "Concentrate and absorb solar energy safely to heat water or food.",
-          "Block all sunlight from reaching the water.",
-          "Use nuclear fusion to boil water.",
           "Keep the container cooler than the surrounding air."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "The investigation asks students to design an apparatus that uses solar energy to boil water."
       },
       {
         id: "kp-373-q2",
         prompt: "Which design feature would most likely improve a solar cooker's heating ability?",
         choices: [
+          "A transparent container kept in shade during the trial.",
           "A reflective shape that directs sunlight toward a dark water container.",
-          "A transparent container hidden completely in shade.",
-          "A flat black surface pointed away from the Sun.",
-          "A design that lets the water spill out before testing."
+          "A flat dark surface pointed away from the Sun.",
+          "A design that lets water move away from the focus point."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Reflecting and concentrating sunlight toward an absorbing container increases energy transfer to the water."
       },
       {
         id: "kp-373-q3",
         prompt: "Why should safety precautions be included in a solar cooker design?",
         choices: [
-          "The setup may concentrate sunlight and generate high temperatures.",
-          "Solar cookers prevent all heating.",
-          "Sunlight is not a form of energy.",
-          "Water cannot absorb thermal energy."
+          "Solar cookers prevent heating when they are aimed correctly.",
+          "Sunlight is treated as non-energy during the investigation.",
+          "Water is unable to absorb thermal energy from the container.",
+          "The setup may concentrate sunlight and generate high temperatures."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "The investigation notes that materials can generate heat, so careful handling and safe design matter."
       }
     ]
@@ -15311,24 +15311,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-374-q2",
         prompt: "How can cooker shape affect heating?",
         choices: [
-          "Shape can change how much sunlight is directed toward the container.",
-          "Shape changes the Sun's energy output.",
-          "Shape prevents absorption from happening.",
-          "Shape turns water into a radioactive isotope."
+          "Shape changes the Sun's energy output before light reaches Earth.",
+          "Shape prevents absorption in dark materials.",
+          "Shape turns water into a radioactive isotope.",
+          "Shape controls how much sunlight is directed toward the container."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "A good shape can concentrate more incoming solar energy on the target."
       },
       {
         id: "kp-374-q3",
         prompt: "Which change would most likely reduce heat transfer to the water?",
         choices: [
-          "Pointing the reflective surface away from the Sun.",
           "Orienting the cooker to capture direct sunlight.",
           "Using a container that absorbs light effectively.",
-          "Keeping the water stable at the focus point."
+          "Keeping the water stable at the focus point.",
+          "Pointing the reflective surface away from the Sun."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "If the cooker is not aimed at the Sun, less solar energy reaches and heats the water."
       }
     ]
@@ -15341,9 +15341,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which measurement would be useful evidence for comparing solar cooker designs?",
         choices: [
           "Time needed to reach a target water temperature.",
-          "The number of vowels in the team name.",
-          "The colour of the worksheet only.",
-          "Whether the design was sketched in pencil."
+          "Whether the design sketch used pencil or pen.",
+          "The number of labels on the materials list.",
+          "The colour of the worksheet used for planning."
         ],
         correctIndex: 0,
         explanation: "Boiling time or temperature change provides evidence for evaluating cooker performance."
@@ -15352,24 +15352,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-375-q2",
         prompt: "A team's cooker heats water from 20°C to 58°C in 15 minutes. After changing the reflector angle, it reaches 72°C in 15 minutes. What does this suggest?",
         choices: [
-          "The new angle likely improved the transfer of solar energy to the water.",
+          "The temperature rose because the water created energy during the second trial.",
           "The design became worse because the temperature rose.",
-          "Energy was destroyed by the reflector.",
-          "No conclusion can ever be drawn from temperature data."
+          "The new angle likely improved the transfer of solar energy to the water.",
+          "The reflector angle changed the Sun's total energy output."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "A larger temperature increase over the same time suggests the design transferred more energy to the water."
       },
       {
         id: "kp-375-q3",
         prompt: "Why compare results across different solar cooker designs?",
         choices: [
+          "Comparing results replaces the need to measure temperature.",
+          "The first design is usually the fairest design to keep.",
           "Design features from better-performing cookers can guide improvements.",
-          "Comparing results removes the need for evidence.",
-          "Only the first design should ever be tested.",
-          "All cookers must perform identically."
+          "Cookers with different shapes should produce matching results."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Engineering design improves through testing, comparison, and modifying variables."
       }
     ]
