@@ -12511,22 +12511,22 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-306-q1",
         prompt: "Why do scientists often study energy indirectly?",
         choices: [
+          "Energy is identified mainly by naming the material that contains it.",
+          "Energy can be measured best by ignoring changes while the system is active.",
           "Energy cannot usually be seen directly, so scientists observe the changes it causes.",
-          "Energy exists only in diagrams and not in real systems.",
-          "Energy can be measured only by counting atoms.",
-          "Energy disappears whenever an object stops moving."
+          "Energy is easiest to confirm when a system gives off light."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "The textbook presents energy as something investigated through effects such as motion, temperature change, sound, light, or position changes."
       },
       {
         id: "kp-306-q2",
         prompt: "A dropper popper launches upward after being inverted and released. What is the best evidence that energy was involved?",
         choices: [
-          "The popper's colour stayed the same.",
+          "The popper's shape changed before release but its motion did not change afterward.",
           "The system changed motion and position.",
-          "The table had a flat surface.",
-          "The word energy was written in the instructions."
+          "The system was named before the trial began.",
+          "The popper returned to its original colour after the trial."
         ],
         correctIndex: 1,
         explanation: "A visible change in motion or position is indirect evidence that energy has affected the system."
@@ -12538,7 +12538,7 @@ window.SCIENCE10_QUIZZES = {
           "A ball speeds up as it rolls downhill.",
           "A lamp gives off light and warms nearby air.",
           "A stretched elastic band snaps back.",
-          "A label on a beaker lists the owner's name."
+          "A stationary object is described without any observed change."
         ],
         correctIndex: 3,
         explanation: "A name label does not show a change caused by energy, while motion, light, thermal change, and elastic action do."
@@ -12552,34 +12552,34 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-307-q1",
         prompt: "Which statement best connects energy and change in a system?",
         choices: [
+          "Energy is useful for explaining a system after the changes are ignored.",
           "Energy can cause changes such as motion, heating, sound, light, or shape change.",
-          "Energy prevents all changes from happening.",
-          "Energy can be seen directly only when an object is blue.",
-          "Energy matters only outside the system."
+          "Energy is the same thing as the material that makes up a system.",
+          "Energy matters mainly when matter leaves the system boundary."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "The chapter frames energy through the changes it produces in a defined system."
       },
       {
         id: "kp-307-q2",
         prompt: "A bungee jumper and cord move from a greater height to a lower height. Which change helps show energy is involved?",
         choices: [
+          "The bridge remains attached to the ground.",
+          "The cord is part of the scene being studied.",
           "The system changes position and motion.",
-          "The river has a name.",
-          "The bridge is made of a material.",
-          "The photo is taken outdoors."
+          "The surroundings include objects outside the system."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "A change in height and motion is a useful observation for analyzing energy."
       },
       {
         id: "kp-307-q3",
         prompt: "Which student statement is most scientifically useful?",
         choices: [
-          "I know energy is present because I can observe the system changing.",
-          "Energy is present only if it makes a loud sound.",
-          "Energy is present only if matter leaves the system.",
-          "Energy is present only if it is visible as a substance."
+          "Energy is present when I can identify a change and connect it to the system.",
+          "Energy is present when the system has a label naming an energy form.",
+          "Energy is present when matter leaves the system boundary.",
+          "Energy is present when it is visible as a substance."
         ],
         correctIndex: 0,
         explanation: "Energy is not usually observed as a substance; its effects are observed through changes."
@@ -12593,12 +12593,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-308-q1",
         prompt: "In an investigation of a skateboarder rolling down a ramp, what could be a useful system?",
         choices: [
+          "The air and ramp, while excluding the moving skateboarder.",
           "The skateboarder and skateboard being studied.",
-          "Everything in the universe except the skateboarder.",
-          "Only the air above the ramp.",
-          "Only the measuring tape."
+          "Everything outside the skateboarder and skateboard.",
+          "The measuring tape because it defines the system boundary."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "A system is the object, group, or process chosen for observation."
       },
       {
@@ -12606,9 +12606,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why must a scientist define the system before analyzing energy?",
         choices: [
           "It clarifies what is being studied and what counts as surroundings.",
-          "It makes energy stop transferring.",
-          "It removes all friction from the investigation.",
-          "It guarantees the system is isolated."
+          "It makes the chosen objects stop interacting with their surroundings.",
+          "It removes friction and air resistance from the investigation.",
+          "It turns the chosen boundary into a barrier that blocks energy transfer."
         ],
         correctIndex: 0,
         explanation: "Defining the system sets the boundary for tracking energy changes and exchanges."
@@ -12617,12 +12617,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-308-q3",
         prompt: "Two students study the same bungee jump. One defines the system as the jumper and cord; another includes the bridge. Which statement is correct?",
         choices: [
+          "The larger system is automatically more scientific than the smaller one.",
+          "The system should include the bridge because the bridge is the largest object.",
           "Both definitions can be valid if each student states the boundary clearly.",
-          "Only one system definition is ever allowed.",
-          "The surroundings must always be empty.",
-          "A system must always be a single object."
+          "The surroundings are not needed if the system has more than one object."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "The textbook emphasizes that people define systems to suit the question being studied."
       }
     ]
@@ -12634,10 +12634,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-309-q1",
         prompt: "If the system is a person and a bungee cord, what are the surroundings?",
         choices: [
-          "Everything not included in the person-and-cord system.",
-          "Only the person.",
-          "Only the cord.",
-          "Nothing, because surroundings do not exist in science."
+          "The bridge, air, Earth, and anything else outside the chosen system.",
+          "The person alone, because motion is easiest to see there.",
+          "The cord alone, because it stretches and stores energy.",
+          "The parts of the system that are moving fastest."
         ],
         correctIndex: 0,
         explanation: "The surroundings are everything outside the defined system."
@@ -12646,24 +12646,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-309-q2",
         prompt: "Which statement best matches the idea universe = system + surroundings?",
         choices: [
-          "Once the system is chosen, everything outside it belongs to the surroundings.",
-          "The system and surroundings are always the same thing.",
-          "The surroundings include only living things.",
-          "The universe excludes the system being studied."
+          "The surroundings are chosen first, and the system is whatever remains.",
+          "The system and surroundings together account for everything being considered.",
+          "The surroundings include mainly objects that touch the system.",
+          "The universe excludes the system once the boundary is drawn."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "The relationship helps separate what is under observation from everything outside it."
       },
       {
         id: "kp-309-q3",
         prompt: "Air resistance slows a falling jumper. In a jumper-and-cord system, where does some mechanical energy go?",
         choices: [
-          "It is transferred or transformed into the surroundings, including air.",
-          "It is destroyed by the surroundings.",
-          "It becomes mass inside the cord.",
-          "It leaves science because air is invisible."
+          "It is stored as extra mass in the bungee cord.",
+          "It becomes chemical potential energy in the bridge.",
+          "It is removed from the energy analysis because the jumper slows down.",
+          "It is transferred or transformed into the surroundings, including air."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Interactions with surroundings can transfer or transform energy; energy is not destroyed."
       }
     ]
@@ -12676,9 +12676,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which list best summarizes key properties of energy from Chapter 3.1?",
         choices: [
           "Energy causes change, has different forms, can transfer or transform, and depends on physical quantities.",
-          "Energy has only one form and cannot move between objects.",
-          "Energy is created whenever a system is named.",
-          "Energy is always useful for the intended task."
+          "Energy has many names, but it does not transfer between objects.",
+          "Energy is created when a system boundary is drawn.",
+          "Energy is useful mainly when little of it becomes thermal energy."
         ],
         correctIndex: 0,
         explanation: "These are the organizing properties introduced at the start of Chapter 3.1."
@@ -12687,10 +12687,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-310-q2",
         prompt: "Which observation uses more than one property of energy?",
         choices: [
-          "A battery-powered bulb changes chemical energy to electrical energy, then to light and thermal energy.",
-          "A notebook has 120 pages.",
-          "A desk is rectangular.",
-          "A pencil has a printed barcode."
+          "A bulb connected to a battery gives light while also warming slightly.",
+          "A notebook has pages that can be counted.",
+          "A desk has a rectangular top and four legs.",
+          "A pencil has graphite inside a wooden case."
         ],
         correctIndex: 0,
         explanation: "The bulb example involves energy forms, transformation, transfer, and useful plus less useful outputs."
@@ -12699,12 +12699,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-310-q3",
         prompt: "Why are physical quantities important when studying energy?",
         choices: [
+          "Quantities replace observations because energy is not connected to change.",
           "Quantities such as mass, speed, height, and gravity can affect the amount of certain forms of energy.",
-          "Quantities replace the need to define a system.",
-          "Quantities prove that energy is visible.",
-          "Quantities matter only in biology."
+          "Quantities prove that energy is a visible substance.",
+          "Quantities matter mainly after energy has stopped transferring."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Chapter 3.1 later connects mass, velocity, gravitational field strength, and height to mechanical energy."
       }
     ]
@@ -12716,12 +12716,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-311-q1",
         prompt: "Which system clearly has kinetic energy?",
         choices: [
-          "A cyclist moving down a trail.",
-          "A book sitting still on a shelf.",
           "A stretched elastic band held motionless.",
-          "A battery not connected to a circuit."
+          "A cyclist moving down a trail.",
+          "A battery not connected to a circuit.",
+          "A book sitting still on a shelf."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Kinetic energy is the energy of motion."
       },
       {
@@ -12729,9 +12729,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which statement shows that kinetic energy can occur at different scales?",
         choices: [
           "It can involve moving bicycles, moving particles, moving electrons, or vibrating matter.",
-          "It only occurs in objects larger than planets.",
-          "It only occurs when an object is above the ground.",
-          "It cannot occur in sound."
+          "It is limited to large visible objects moving from one place to another.",
+          "It is stored when an object is above a reference point.",
+          "It is the same as chemical potential energy in bonds."
         ],
         correctIndex: 0,
         explanation: "The textbook connects kinetic energy to motion of objects, particles, electrons, and vibrations."
@@ -12757,24 +12757,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-312-q1",
         prompt: "Which example best shows potential energy?",
         choices: [
-          "A stretched bowstring before release.",
           "A ball rolling quickly across the floor.",
+          "A stretched bowstring before release.",
           "Sound travelling through air.",
           "Electrons moving through a wire."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Potential energy is stored energy due to position or condition; a stretched bowstring stores elastic potential energy."
       },
       {
         id: "kp-312-q2",
         prompt: "A mountain biker pauses at the top of a hill. Which stored energy is most directly connected to position?",
         choices: [
-          "Gravitational potential energy.",
+          "Mechanical kinetic energy.",
           "Electrical kinetic energy.",
-          "Sound energy.",
-          "Thermal energy only."
+          "Gravitational potential energy.",
+          "Sound energy."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Height above a reference point gives the biker and bike gravitational potential energy."
       },
       {
@@ -12798,36 +12798,36 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-313-q1",
         prompt: "Which example has mechanical kinetic energy?",
         choices: [
+          "Particles moving randomly in hot soup.",
           "A soccer ball rolling across a field.",
           "Electrons flowing through a wire.",
-          "Particles moving randomly in hot soup.",
           "A chemical fuel stored in a tank."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Mechanical kinetic energy is motion energy of objects larger than atoms and molecules."
       },
       {
         id: "kp-313-q2",
         prompt: "Why is a moving car classified differently from moving electrons in a wire?",
         choices: [
+          "The car has no kinetic energy because it is much larger than atoms.",
+          "Moving electrons are classified as thermal energy because they are small.",
           "The car has mechanical kinetic energy, while moving electrons have electrical kinetic energy.",
-          "The car has no kinetic energy because it is large.",
-          "Moving electrons are gravitational potential energy.",
-          "Both are chemical potential energy only."
+          "Both are chemical potential energy because both can do work."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "The type of kinetic energy depends on what is moving."
       },
       {
         id: "kp-313-q3",
         prompt: "Which observation would most directly show an increase in mechanical kinetic energy?",
         choices: [
-          "A cart of the same mass moves faster down a ramp.",
           "A stopped cart is painted a new colour.",
           "A stationary spring is compressed and held.",
-          "A battery is stored in a drawer."
+          "A cart of the same mass moves faster down a ramp.",
+          "A battery is connected to a circuit."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "For the same object, greater speed means greater mechanical kinetic energy."
       }
     ]
@@ -12839,24 +12839,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-314-q1",
         prompt: "What is thermal energy?",
         choices: [
+          "The energy of visible light travelling through space.",
           "The energy of random particle motion in a substance.",
-          "The energy stored only in atomic nuclei.",
-          "The energy of visible light only.",
-          "The energy of an object's height above the ground."
+          "The energy stored in an object's position above the ground.",
+          "The energy of electrons moving through a conductor."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Thermal energy is related to the random motion of particles in matter."
       },
       {
         id: "kp-314-q2",
         prompt: "In scientific language, what is heat?",
         choices: [
+          "Any thermal energy contained inside an object at one moment.",
           "Thermal energy transferred from one object to another.",
-          "Any thermal energy inside an object, whether it moves or not.",
           "Energy stored in chemical bonds.",
           "Light energy travelling from the Sun."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "The textbook distinguishes thermal energy from heat: heat is thermal energy in transfer."
       },
       {
@@ -12864,9 +12864,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "A warm metal spoon is placed in cooler water. Which statement uses the terms correctly?",
         choices: [
           "Heat transfers from the spoon to the water because of the temperature difference.",
-          "Cold heat transfers from the water into the spoon.",
-          "Thermal energy is destroyed by the water.",
-          "Heat is stored forever inside the spoon and never transfers."
+          "Thermal energy transfers from the water to the spoon because water is a liquid.",
+          "Cold transfers into the spoon until both objects have no thermal energy.",
+          "The spoon stores heat permanently because it started warmer."
         ],
         correctIndex: 0,
         explanation: "Thermal energy transfers from warmer matter to cooler matter; that transferred thermal energy is heat."
@@ -12880,36 +12880,36 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-315-q1",
         prompt: "Which example is radiant energy?",
         choices: [
-          "Visible light from a lamp travelling as electromagnetic waves.",
           "A marble rolling across a table.",
+          "Visible light from a lamp travelling as electromagnetic waves.",
           "A spring held in a compressed position.",
           "A battery stored in a drawer."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Radiant energy is energy carried by electromagnetic waves, including visible light and infrared radiation."
       },
       {
         id: "kp-315-q2",
         prompt: "What is electrical kinetic energy?",
         choices: [
+          "Energy stored by separated charges in a battery before a circuit is complete.",
           "Energy of moving electrons in a conductor.",
-          "Energy stored only in stretched rubber.",
           "Energy of an object because it is above a reference point.",
-          "Energy released only in nuclear decay."
+          "Energy stored in stretched or compressed materials."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Electrical kinetic energy involves moving electrons, such as current in a wire."
       },
       {
         id: "kp-315-q3",
         prompt: "Why is sound energy classified as kinetic energy?",
         choices: [
+          "It is stored in chemical bonds until an object makes noise.",
+          "It is a type of radiant energy because it can be heard at a distance.",
           "It involves vibrations and disturbances of particles in matter.",
-          "It exists only in chemical bonds.",
-          "It requires no motion at all.",
-          "It is always stored by gravity."
+          "It is gravitational potential energy when the sound source is above the listener."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Sound travels as vibrating particles pass a pressure disturbance through matter."
       }
     ]
