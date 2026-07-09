@@ -18252,9 +18252,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which is a common argument in favour of nuclear power?",
         choices: [
           "It can provide dependable electrical energy with lower climate emissions than fossil fuels.",
-          "It produces no waste of any kind.",
-          "It has no safety concerns.",
-          "It cannot generate electricity."
+          "It is dependable mainly because accident planning is less important than output.",
+          "It reduces climate impact by producing no waste that requires management.",
+          "It is favoured because it avoids public concerns about safety and trust."
         ],
         correctIndex: 0,
         explanation: "Supporters often point to reliability, lower greenhouse gas emissions, and energy security."
@@ -18263,12 +18263,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-446-q2",
         prompt: "How can nuclear power reduce dependence on energy imports?",
         choices: [
+          "It reduces imports because nuclear waste can be stored outside the country.",
+          "It affects imports mainly by replacing electricity with medical isotopes.",
           "A country with nuclear generation may produce more of its own electricity domestically.",
-          "It requires importing all electricity from elsewhere.",
-          "It prevents electricity from being generated locally.",
-          "It works only when fossil fuels are imported."
+          "It makes energy imports less visible while keeping the same supply source."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Domestic electricity generation can reduce reliance on imported energy sources."
       },
       {
@@ -18276,9 +18276,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which statement is the most balanced pro-nuclear argument?",
         choices: [
           "Nuclear power has risks, but it can be dependable and contribute less to climate change than fossil fuels.",
-          "Nuclear power has no risks or waste.",
-          "Nuclear power is identical to burning coal.",
-          "Nuclear power cannot be compared with other energy sources."
+          "Nuclear power is best supported by discussing reliability while setting waste aside.",
+          "Nuclear power is lower impact because public trust is a social issue, not an energy issue.",
+          "Nuclear power should be favoured mainly because renewable sources vary with weather."
         ],
         correctIndex: 0,
         explanation: "A strong argument acknowledges risks while explaining benefits."
@@ -18293,9 +18293,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "How did Fukushima affect public trust in nuclear power?",
         choices: [
           "It raised concerns about accident management, communication, and institutional trust.",
-          "It made everyone trust nuclear institutions more automatically.",
-          "It had no effect on public perception anywhere.",
-          "It proved that information release speed never matters."
+          "It mainly changed public opinion by proving nuclear power is less dependable than solar.",
+          "It affected trust mainly in countries that already opposed nuclear power.",
+          "It showed that technical reliability matters while communication has little influence."
         ],
         correctIndex: 0,
         explanation: "The textbook notes concerns about slow or contradictory information and trust in accident management."
@@ -18304,12 +18304,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-447-q2",
         prompt: "Why does communication during an energy disaster matter?",
         choices: [
-          "Clear and timely information helps people judge risk and trust response decisions.",
-          "Communication has no effect on safety or trust.",
-          "Contradictory information always improves public confidence.",
-          "The public never needs information during emergencies."
+          "Communication is useful mainly after technical experts finish making decisions.",
+          "Slow information can help avoid confusion by reducing public attention.",
+          "Contradictory information matters less if the energy source is dependable.",
+          "Clear and timely information helps people judge risk and trust response decisions."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Public confidence depends partly on reliable, transparent communication."
       },
       {
@@ -18317,9 +18317,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which factor can shape nuclear policy in addition to technical evidence?",
         choices: [
           "Public confidence and cultural attitudes toward risk.",
-          "Only the colour of reactor buildings.",
-          "Only the number of pages in a report.",
-          "Whether people ignore all accidents."
+          "The size of a report, because longer reports settle trust questions.",
+          "The age of a reactor, because older technology tends to gain trust.",
+          "The number of countries using nuclear power, regardless of public concerns."
         ],
         correctIndex: 0,
         explanation: "Energy decisions involve evidence, emotions, culture, and trust."
@@ -18333,24 +18333,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-448-q1",
         prompt: "Which set of factors should be weighed in an evidence-based position on nuclear power?",
         choices: [
+          "Reliability and cost, while safety and waste are public-opinion issues.",
           "Safety, cost, waste, reliability, and climate change.",
-          "Only personal preference with no evidence.",
-          "Only the newest headline.",
-          "Only whether the word nuclear sounds alarming."
+          "Climate change benefits, with accident risks handled after a decision.",
+          "Personal concern first, then evidence that supports that concern."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "The textbook debate prompt asks students to consider multiple evidence-based factors."
       },
       {
         id: "kp-448-q2",
         prompt: "Which claim would need stronger evidence before being used in a debate?",
         choices: [
-          "Nuclear power is always perfect and has no costs or risks.",
           "Nuclear power can produce electricity.",
           "Nuclear waste must be managed.",
+          "Nuclear power is perfect and has no costs or risks.",
           "Safety is relevant to public opinion."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Extreme claims require strong evidence and should be checked for bias or missing information."
       },
       {
@@ -18358,9 +18358,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What makes an argument about nuclear power stronger?",
         choices: [
           "Using evidence and acknowledging trade-offs.",
-          "Ignoring all opposing evidence.",
-          "Using only emotional language.",
-          "Avoiding safety, waste, cost, and climate questions."
+          "Selecting evidence from one side so the argument is easier to follow.",
+          "Using emotional language to replace uncertain data.",
+          "Discussing climate benefits without comparing them to safety and waste concerns."
         ],
         correctIndex: 0,
         explanation: "A reasoned argument weighs evidence from multiple sides."
@@ -18375,9 +18375,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What is the central question of the energy transformation debate?",
         choices: [
           "Do technology-based energy transformations benefit society more than they harm it?",
-          "Can energy be created from nothing in a debate?",
-          "Should all evidence be avoided?",
-          "Are all technologies identical?"
+          "Which technology sounds most advanced when described in a debate?",
+          "Can one benefit prove that an energy transformation is worth using?",
+          "Should harms be evaluated after a technology becomes common?"
         ],
         correctIndex: 0,
         explanation: "The investigation asks students to debate the balance of benefit and harm."
@@ -18386,12 +18386,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-449-q2",
         prompt: "Which topic would fit the debate investigation?",
         choices: [
+          "A description of how a technology works without considering impacts.",
+          "A debate about which energy source is popular with no evidence.",
           "Benefits and drawbacks of energy transformations in transportation or electricity generation.",
-          "A list of favourite colours with no science connection.",
-          "A debate with no research question.",
-          "A topic that avoids all benefits and harms."
+          "A topic that lists benefits but treats harms as background details."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "The investigation suggests topics such as transportation, electricity, agriculture, manufacturing, medicine, and food systems."
       },
       {
@@ -18399,9 +18399,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why is this debate not answered by a simple yes or no?",
         choices: [
           "Different technologies have different benefits, harms, evidence, and stakeholder impacts.",
-          "No energy technology affects society.",
-          "All harms and benefits are exactly equal in every case.",
-          "Evidence cannot be used in debate."
+          "The answer depends mainly on which side speaks first.",
+          "The debate is difficult because benefits are scientific and harms are opinions.",
+          "Evidence is less useful when several stakeholders are affected."
         ],
         correctIndex: 0,
         explanation: "The balance of benefit and harm depends on the technology and evidence considered."
@@ -18415,12 +18415,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-450-q1",
         prompt: "What should a debate research plan include?",
         choices: [
-          "Clear questions, reliable resources, roles, organized findings, and citations.",
-          "Only guesses and no sources.",
-          "Only one unsupported opinion.",
-          "No plan until after the debate."
+          "A conclusion first, with sources chosen later to match it.",
+          "A list of technologies without deciding what evidence is needed.",
+          "Roles for group members, but no plan for checking source reliability.",
+          "Clear questions, reliable resources, roles, organized findings, and citations."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "The investigation asks teams to plan questions, resources, roles, records, and citations."
       },
       {
@@ -18428,9 +18428,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why should sources be cited during an energy transformation debate?",
         choices: [
           "So evidence can be checked and claims can be traced to reliable information.",
-          "So the argument becomes longer without being stronger.",
-          "So teams can avoid evidence.",
-          "So emotional appeals replace facts."
+          "So the speaker can use fewer facts while appearing organized.",
+          "So the audience knows which side the team supports before hearing evidence.",
+          "So emotional claims can be presented as if they were measured data."
         ],
         correctIndex: 0,
         explanation: "Citations allow others to evaluate the quality and reliability of evidence."
@@ -18440,9 +18440,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which research question is strongest for a debate about electric vehicles?",
         choices: [
           "How do electric vehicles compare with gasoline vehicles in emissions, battery waste, cost, and reliability?",
-          "Are electric vehicles good, yes or no, without evidence?",
-          "What colour vehicle looks best?",
-          "Can we ignore electricity generation?"
+          "Are electric vehicles good if the team already supports them?",
+          "Which electric vehicle feature sounds most futuristic?",
+          "Can electricity generation be left out if the vehicle has no exhaust pipe?"
         ],
         correctIndex: 0,
         explanation: "A strong research question points to evidence that can compare benefits and harms."
@@ -18456,12 +18456,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-451-q1",
         prompt: "Which question helps identify possible bias in a source about energy technology?",
         choices: [
+          "Does the source include a clear opinion that agrees with my side?",
           "Who might benefit from this message, and who paid for it?",
-          "How many letters are in the title?",
-          "Is the source printed in colour?",
-          "Does the source avoid all evidence?"
+          "Is the source easy to read and visually polished?",
+          "Does the source mention a technology that sounds familiar?"
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "The investigation asks students to consider special interests, funding, and who stands to gain."
       },
       {
@@ -18469,9 +18469,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which source feature most improves reliability for an energy debate?",
         choices: [
           "Facts and statistics are cited so readers can check the evidence.",
-          "The source uses only emotional language.",
-          "The source hides all data.",
-          "The source presents one extreme view with no support."
+          "The source uses confident wording even when evidence is not cited.",
+          "The source presents one side clearly and leaves out complications.",
+          "The source avoids statistics so the argument feels easier to understand."
         ],
         correctIndex: 0,
         explanation: "Citations and checkable evidence help a reader evaluate reliability."
@@ -18481,9 +18481,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "A website about fuel cells is funded by a company that sells hydrogen equipment. What should a student do?",
         choices: [
           "Use the information cautiously and compare it with independent sources.",
-          "Assume every claim is false without reading it.",
-          "Assume every claim is true because it supports one side.",
-          "Ignore who funded the source."
+          "Reject the source before checking whether its evidence is cited.",
+          "Use the source as the main evidence because industry knows the product well.",
+          "Treat funding as a minor detail if the source includes statistics."
         ],
         correctIndex: 0,
         explanation: "Funding does not automatically make a source useless, but it is a reason to check for bias and compare evidence."
@@ -18498,9 +18498,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What makes communication in an energy transformation debate evidence-based?",
         choices: [
           "It uses facts, logic, citations, and clear reasoning.",
-          "It uses only unsupported opinions.",
-          "It avoids all alternate views.",
-          "It replaces evidence with louder speaking."
+          "It uses confident opinions and adds citations after the conclusion.",
+          "It focuses on the strongest benefit while leaving harms for the other side.",
+          "It relies on emotional examples because technical evidence is harder to explain."
         ],
         correctIndex: 0,
         explanation: "Strong scientific communication supports claims with reliable evidence and reasoning."
@@ -18510,9 +18510,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which statement would be strongest in a debate about technology-based energy transformations?",
         choices: [
           "This technology has these benefits and harms, supported by these cited data.",
-          "This technology is good because I say so.",
-          "The other side is wrong, but I have no evidence.",
-          "Facts are unnecessary if the claim sounds confident."
+          "This technology should be accepted because its benefits are easier to explain.",
+          "The opposing view has concerns, but my side has a stronger slogan.",
+          "The technology is useful, so detailed evidence about harms can come later."
         ],
         correctIndex: 0,
         explanation: "Balanced, cited evidence is stronger than unsupported opinion."
@@ -18521,12 +18521,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-452-q3",
         prompt: "After hearing both sides of a debate, how should the better-supported side be evaluated?",
         choices: [
+          "By which side presented fewer uncertainties.",
           "By the quality, reliability, balance, and logic of its evidence.",
-          "By which side used more dramatic wording.",
-          "By which side ignored more sources.",
-          "By which side finished speaking first."
+          "By which side made its conclusion sound simpler.",
+          "By which side used the most examples from one viewpoint."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Evaluation should focus on evidence quality and reasoning, not presentation tricks alone."
       }
     ]
