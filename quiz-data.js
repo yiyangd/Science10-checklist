@@ -18538,22 +18538,22 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-453-q1",
         prompt: "Which definition best matches the textbook meaning of the universe?",
         choices: [
+          "The planets, stars, and galaxies that current technology can observe.",
           "All that exists everywhere, including matter, energy, stars, galaxies, and space.",
-          "Only Earth and its atmosphere.",
-          "Only the Milky Way galaxy.",
-          "Only objects humans have visited."
+          "The region of space that contains Earth and the Solar System.",
+          "The part of the sky that appears above a person's local horizon."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "The textbook defines the universe as all that exists everywhere, including matter, energy, and space."
       },
       {
         id: "kp-453-q2",
         prompt: "When a scientist calls the universe the largest physical system being considered, what does that mean?",
         choices: [
-          "It includes every physical object and region being discussed.",
-          "It includes only one planet.",
-          "It excludes energy and space.",
-          "It means only nearby stars are counted."
+          "It includes every physical object, energy transfer, and region being discussed.",
+          "It means the system is limited to objects that produce visible light.",
+          "It describes a system larger than Earth but smaller than the Milky Way.",
+          "It excludes space itself because space is where systems are located."
         ],
         correctIndex: 0,
         explanation: "The universe is the broadest physical system in this context because it includes all matter, energy, and space."
@@ -18562,12 +18562,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-453-q3",
         prompt: "Which statement is a common misconception about the universe?",
         choices: [
-          "The universe is just the Solar System.",
-          "The universe includes galaxies.",
-          "The universe includes matter and energy.",
-          "The universe includes space."
+          "The universe includes matter and energy as well as space.",
+          "The universe can be discussed as the largest physical system.",
+          "The universe includes galaxies beyond the Milky Way.",
+          "The universe is the Solar System plus nearby stars."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "The Solar System is only a tiny part of the universe."
       }
     ]
@@ -18580,9 +18580,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why does the textbook compare scientific explanations of the universe to stories?",
         choices: [
           "They organize observations, evidence, hypotheses, and theories into an explanation.",
-          "They are imaginary and do not use evidence.",
-          "They avoid questions about the sky.",
-          "They cannot change when new evidence appears."
+          "They are stories because scientists choose endings before collecting evidence.",
+          "They are stories because sky observations are personal rather than testable.",
+          "They stay useful mainly because they do not change as evidence changes."
         ],
         correctIndex: 0,
         explanation: "A scientific story is evidence-based and helps people make sense of observations."
@@ -18591,24 +18591,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-454-q2",
         prompt: "Which item would best support a scientific story about the universe?",
         choices: [
+          "A traditional image of the sky with no link to observation or interpretation.",
           "Careful observations of galaxies and light from space.",
-          "A claim with no observations.",
-          "A guess that cannot be compared with evidence.",
-          "A rule that questions are not allowed."
+          "A conclusion chosen before telescope data are examined.",
+          "A question that avoids comparing ideas with evidence."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Scientific explanations are built from evidence such as observations of light, galaxies, and cosmic patterns."
       },
       {
         id: "kp-454-q3",
         prompt: "How can scientific and cultural stories about the universe both be meaningful?",
         choices: [
-          "They can help people make sense of the sky, their place, and their experiences in different ways.",
-          "Only scientific stories can ever have meaning.",
-          "Only cultural stories can involve observation.",
-          "All stories about the universe must be identical."
+          "They are meaningful when they make the same claims in the same language.",
+          "Cultural stories matter for values, while scientific stories avoid interpretation.",
+          "Scientific stories explain evidence, while cultural stories can connect sky observations with identity and place.",
+          "Scientific stories replace cultural stories because observation belongs to science alone."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "The chapter invites students to consider scientific explanations along with cultural ways of understanding the universe."
       }
     ]
@@ -18620,24 +18620,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-455-q1",
         prompt: "About how long ago does the scientific story of the universe begin?",
         choices: [
-          "About 13.8 billion years ago.",
-          "About 13.8 thousand years ago.",
           "About 138 years ago.",
-          "About 13.8 days ago."
+          "About 13.8 million years ago.",
+          "About 13.8 billion years ago.",
+          "About 13.8 thousand years ago."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "The textbook gives the beginning of the scientific story of the universe as approximately 13.8 billion years ago."
       },
       {
         id: "kp-455-q2",
         prompt: "Why is 13.8 billion years difficult for people to imagine?",
         choices: [
-          "It is far beyond ordinary human time scales and everyday experience.",
-          "It is shorter than a school year.",
-          "It is the same as one human lifetime.",
-          "It is a number people use for daily shopping."
+          "It is difficult because billion-year time scales are measured in kilometres.",
+          "It is hard mainly because the number describes distance rather than time.",
+          "It is challenging because the first galaxies were exactly that old.",
+          "It is far beyond ordinary human time scales and everyday experience."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Cosmic time scales are so large that analogies and models can help make them more understandable."
       },
       {
@@ -18645,9 +18645,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "A student says, '13.8 billion means 13.8 million.' What is the best correction?",
         choices: [
           "A billion is 1000 million, so 13.8 billion is much larger than 13.8 million.",
-          "Billion and million are always the same.",
-          "13.8 billion is smaller than 13.8 million.",
-          "The words do not matter in science."
+          "The two numbers are close enough for cosmic timelines.",
+          "Million is the larger unit, so the student has overestimated the age.",
+          "The correction matters for arithmetic but not for understanding scale."
         ],
         correctIndex: 0,
         explanation: "Keeping large-number units straight is important for understanding cosmic time scales."
@@ -18662,9 +18662,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why are scale models or analogies useful when studying the universe?",
         choices: [
           "They make extremely large distances, ages, and numbers easier to compare.",
-          "They make the universe smaller in reality.",
-          "They remove the need for evidence.",
-          "They prove galaxies are close together."
+          "They shrink the real universe so it can be observed directly.",
+          "They replace measurements with imagination when numbers are too large.",
+          "They show that galaxy distances are similar to distances inside the Solar System."
         ],
         correctIndex: 0,
         explanation: "Scale thinking helps people reason about numbers far beyond daily experience."
@@ -18673,10 +18673,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-456-q2",
         prompt: "A tiny patch of sky contains many galaxies in a deep telescope image. What does this suggest about cosmic scale?",
         choices: [
-          "The universe contains enormous numbers of galaxies across vast distances.",
-          "Only one galaxy exists.",
-          "A small sky area cannot contain distant objects.",
-          "Stars and galaxies are the same size."
+          "A small sky area may contain many distant galaxies, showing how vast the universe is.",
+          "Distant galaxies must be physically packed into a small nearby space.",
+          "A telescope image of a tiny sky patch tells us little about cosmic scale.",
+          "Galaxies in the image are young because they appear small."
         ],
         correctIndex: 0,
         explanation: "Deep-field images show that even small areas of sky can contain many distant galaxies."
@@ -18685,12 +18685,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-456-q3",
         prompt: "Which comparison best uses scale thinking?",
         choices: [
+          "Saying very large numbers feel similar, so the exact scale matters less.",
+          "Describing galaxies by brightness without considering distance or age.",
           "Comparing 13.8 billion years to a timeline so early events and recent events can be placed proportionally.",
-          "Saying all large numbers are basically equal.",
-          "Ignoring units when comparing distances.",
-          "Describing galaxies without considering distance or age."
+          "Using kilometres, years, and galaxy counts interchangeably."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Scale thinking keeps relative size, time, and distance in mind."
       }
     ]
@@ -18703,9 +18703,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "How has scientific understanding of the Milky Way changed?",
         choices: [
           "It was once thought to be the whole universe, but is now known as one galaxy among billions.",
-          "It was once known to be one galaxy, but is now known as the whole universe.",
-          "It has never been studied.",
-          "It is now known to be a planet."
+          "It was once known as one galaxy, but current evidence shows it contains the universe.",
+          "It changed from being a star system to being classified as a planet.",
+          "Its role changed because the Milky Way moved outside the universe."
         ],
         correctIndex: 0,
         explanation: "Improved evidence and interpretation changed how scientists understand the Milky Way's place in the universe."
@@ -18715,9 +18715,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What does this change in understanding show about science?",
         choices: [
           "Scientific explanations can change when new evidence and better interpretations become available.",
-          "Science never changes.",
-          "Old explanations are always better than new ones.",
-          "Evidence is not important in science."
+          "Science changes mainly when scientists decide older ideas feel outdated.",
+          "Evidence matters less once a theory becomes familiar.",
+          "A changed explanation means earlier observations had no value."
         ],
         correctIndex: 0,
         explanation: "Science is evidence-based and can revise explanations as knowledge improves."
@@ -18726,12 +18726,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-457-q3",
         prompt: "Which example is most similar to the Milky Way misunderstanding?",
         choices: [
+          "Using a telescope to collect more evidence about a familiar object.",
+          "Knowing Earth is one planet in the Solar System.",
           "Thinking a single room is all that exists before discovering the wider world outside.",
-          "Measuring a book with a ruler.",
-          "Knowing that Earth is one planet in the Solar System.",
-          "Using a telescope to collect more evidence."
+          "Measuring a local object carefully and getting the same result twice."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "The textbook uses a limited-room analogy to show how new perspective can expand what 'all that exists' means."
       }
     ]
@@ -18744,9 +18744,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why can the phrase 'all that exists' be relative?",
         choices: [
           "People's understanding of all that exists depends on their knowledge, place, and time.",
-          "It always means only what one person can touch.",
-          "It has no connection to evidence.",
-          "It cannot change with new observations."
+          "It means the universe changes size as a person learns something.",
+          "It is relative because physical objects exist mainly when people observe them.",
+          "It means scientific definitions are personal opinions rather than evidence-based."
         ],
         correctIndex: 0,
         explanation: "The chapter explains that what people mean by 'all' depends on their context and knowledge."
@@ -18755,12 +18755,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-458-q2",
         prompt: "A society with no telescopes sees only nearby sky patterns. How might this affect its meaning of universe?",
         choices: [
+          "Its sky knowledge would be less meaningful because it lacks modern instruments.",
           "Its understanding may be shaped by what can be observed and experienced locally.",
-          "It would automatically know every distant galaxy.",
-          "It could not develop any sky knowledge.",
-          "Its understanding would be identical to modern astronomy in every detail."
+          "Its meaning of universe would match modern astronomy if people observed carefully.",
+          "Its observations would prevent cultural stories from forming."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Available observations and experiences shape how people define and explain the universe."
       },
       {
@@ -18768,9 +18768,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which statement best avoids a misconception about older understandings of the universe?",
         choices: [
           "They should be understood in the context of available knowledge and experience.",
-          "They were all careless because modern technology was unavailable.",
-          "They never involved observation.",
-          "They were exactly the same as current scientific models."
+          "They should be judged mainly by how closely they match current diagrams.",
+          "They were limited because observation was not part of earlier sky knowledge.",
+          "They were useful mainly when they predicted modern galaxy counts."
         ],
         correctIndex: 0,
         explanation: "Understanding changes with context, evidence, and tools."
@@ -18785,9 +18785,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What does the Ngorongoro Crater example help illustrate?",
         choices: [
           "A person's sense of place can shape what they understand as their world.",
-          "Craters prevent all learning.",
-          "Everyone defines the universe in exactly the same way.",
-          "Place has no effect on perspective."
+          "Physical boundaries matter mainly when people have no cultural stories.",
+          "A crater is useful because it separates scientific thinking from place.",
+          "Living in a bounded place makes perspective less important."
         ],
         correctIndex: 0,
         explanation: "Living within a bounded place can shape how someone understands their world and what lies beyond it."
@@ -18797,9 +18797,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "If someone who grew up inside a walled crater first sees the wider landscape beyond it, what might change?",
         choices: [
           "Their understanding of their world and place in it may expand.",
-          "They would lose all ability to observe.",
-          "The crater would become the entire universe in reality.",
-          "Their previous experiences would have no relevance."
+          "Their earlier knowledge would become meaningless rather than contextual.",
+          "The wider landscape would change the crater physically into the universe.",
+          "Their view would change mainly if a telescope were involved."
         ],
         correctIndex: 0,
         explanation: "New perspective can shift a person's sense of what exists beyond familiar boundaries."
@@ -18808,12 +18808,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-459-q3",
         prompt: "Which factor is most connected to place and perspective?",
         choices: [
+          "A definition copied from a dictionary without personal context.",
           "The environment and boundaries a person experiences in daily life.",
-          "A random number with no context.",
-          "The mass of a distant star only.",
-          "A word copied without meaning."
+          "A distant measurement that has no connection to experience.",
+          "A sky object named without observing or interpreting it."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Place-based experience can influence how people interpret the world around them."
       }
     ]
@@ -18825,12 +18825,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-460-q1",
         prompt: "Which factors can shape a person's understanding of the universe?",
         choices: [
-          "Identity, time period, place, knowledge, and experience.",
-          "Only shoe size.",
-          "Only the current weather.",
-          "Only whether a person has memorized one definition."
+          "Definitions and instruments, but not place or culture.",
+          "The current time period, as long as personal experience is ignored.",
+          "Scientific facts alone, separated from how people learn them.",
+          "Identity, time period, place, knowledge, and experience."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "The chapter emphasizes that understanding is shaped by who we are, when we are, where we are, and what we know."
       },
       {
@@ -18838,9 +18838,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why might people from different historical periods interpret the universe differently?",
         choices: [
           "They have different tools, experiences, observations, and cultural contexts.",
-          "They all have exactly the same evidence.",
-          "Historical period has no effect on knowledge.",
-          "People in the past never observed the sky."
+          "They observe different skies because the universe changes to match each culture.",
+          "They differ mainly because people in the past lacked curiosity.",
+          "They would interpret the universe the same way if they used the same word."
         ],
         correctIndex: 0,
         explanation: "Context influences what people can observe, communicate, and explain."
@@ -18850,9 +18850,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which answer best reflects the chapter's view of understanding?",
         choices: [
           "Understanding can change as context and knowledge change.",
-          "Understanding is fixed forever at birth.",
-          "Understanding never depends on experience.",
-          "Understanding is unrelated to culture or place."
+          "Understanding changes mainly when a person memorizes a new definition.",
+          "Understanding is accurate mainly when it matches current textbook wording.",
+          "Understanding depends on culture, so evidence has no role."
         ],
         correctIndex: 0,
         explanation: "The chapter repeatedly asks students to reflect on how context shapes meaning."
@@ -18867,9 +18867,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "How can communication technology affect worldview?",
         choices: [
           "It changes how people share information, observe events, and understand daily life.",
-          "It prevents all learning.",
-          "It makes every time period identical.",
-          "It has no effect on how people communicate."
+          "It affects communication speed but not what people think is normal.",
+          "It mainly changes entertainment while leaving knowledge systems unchanged.",
+          "It replaces culture because new devices make background experience irrelevant."
         ],
         correctIndex: 0,
         explanation: "The textbook compares communication technologies from different eras to show how tools shape experience."
@@ -18879,9 +18879,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "A student from 1910 suddenly enters a classroom with smartphones and video calls. What concept does this best illustrate?",
         choices: [
           "Technology can make another time period's world feel unfamiliar and difficult to interpret.",
-          "Technology never changes daily life.",
-          "All communication tools are understood instantly by everyone.",
-          "Time period does not affect worldview."
+          "Technology differences are confusing mainly when people lack experience with the tools.",
+          "A new device is understood quickly if people know the word communication.",
+          "Time period affects tools but not assumptions about daily life."
         ],
         correctIndex: 0,
         explanation: "Different technologies can strongly affect what feels normal, knowable, or confusing."
@@ -18890,12 +18890,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-461-q3",
         prompt: "Which comparison best shows technology shaping knowledge?",
         choices: [
+          "People without telescopes have no meaningful sky observations.",
           "People with telescopes can observe objects that unaided eyes cannot see.",
-          "People without tools know every galaxy automatically.",
-          "Technology removes all need for observation.",
-          "Communication devices have no connection to shared knowledge."
+          "Technology matters because it replaces interpretation with automatic knowledge.",
+          "Communication tools change messages but not how knowledge is shared."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Tools can extend observation and communication, changing what people know and how they share it."
       }
     ]
@@ -18907,12 +18907,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-462-q1",
         prompt: "What is culture shock?",
         choices: [
+          "A disagreement between two scientific measurements of galaxy distance.",
+          "A sudden discovery that changes the physical size of the universe.",
           "Anxiety or disorientation caused by entering a dramatically new social or cultural situation.",
-          "A type of telescope.",
-          "A galaxy outside the Milky Way.",
-          "A measurement of cosmic distance."
+          "A tool that lets people observe unfamiliar cultural objects."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "The textbook defines culture shock as disorientation in a dramatically new social or cultural setting."
       },
       {
@@ -18920,9 +18920,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "How could culture shock affect someone from another time period entering today's classroom?",
         choices: [
           "They might misunderstand modern tools, assumptions, and social behaviours.",
-          "They would automatically understand every modern device.",
-          "They would not notice any difference.",
-          "They would know more about every current technology than students today."
+          "They would be confused mainly by devices, not by social expectations.",
+          "They would interpret modern life accurately once the tools were named.",
+          "They would see a new culture but keep the same assumptions about knowledge."
         ],
         correctIndex: 0,
         explanation: "Different time periods can have different technologies, norms, and knowledge systems."
@@ -18932,9 +18932,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which response best reduces misunderstanding caused by culture shock?",
         choices: [
           "Recognize that people may be using different assumptions, experiences, and background knowledge.",
-          "Assume anyone confused is not intelligent.",
-          "Ignore the role of time, place, and culture.",
-          "Refuse to explain unfamiliar tools or ideas."
+          "Assume confusion means the other person has not observed carefully.",
+          "Treat unfamiliar tools as simple once their purpose is explained.",
+          "Focus on the correct definition while setting aside the person's context."
         ],
         correctIndex: 0,
         explanation: "Understanding context helps explain why people from different settings may interpret things differently."
