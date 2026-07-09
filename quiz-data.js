@@ -2059,7 +2059,7 @@ window.SCIENCE10_QUIZZES = {
           "The predicted allele combinations among offspring.",
           "The alleles that one parent can place along the top of a Punnett square.",
           "The predicted visible traits among offspring.",
-          "The exact order in which offspring with each trait must be born."
+          "The birth order expected for offspring with each trait."
         ],
         correctIndex: 2,
         explanation: "A phenotypic ratio compares predicted expressed traits, not just allele combinations."
@@ -2069,8 +2069,8 @@ window.SCIENCE10_QUIZZES = {
         prompt: "A Punnett square predicts 3 black-haired offspring for every 1 red-haired offspring. How should this be interpreted?",
         choices: [
           "As a probability pattern expected over many offspring, not a guarantee for every group of four.",
-          "As a rule that any four offspring must include exactly three black-haired offspring.",
-          "As proof that the recessive phenotype cannot appear in the first offspring.",
+          "As a rule that a small group of four should match the ratio closely.",
+          "As proof that the recessive phenotype is less likely in early offspring.",
           "As the genotype ratio, even if two different genotypes produce black hair."
         ],
         correctIndex: 0,
@@ -2099,8 +2099,8 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "The heterozygote shows a blended phenotype halfway between both homozygotes.",
           "Both alleles for a trait are fully expressed in a heterozygote.",
-          "Only the allele written first in the genotype is expressed.",
-          "The recessive allele is present but never affects the heterozygote."
+          "The allele written first in the genotype is expressed more strongly.",
+          "The recessive allele is present but has little effect in the heterozygote."
         ],
         correctIndex: 1,
         explanation: "In codominance, both alleles are expressed rather than one hiding the other."
@@ -2109,10 +2109,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-52-q2",
         prompt: "Which example best suggests codominance?",
         choices: [
-          "A red flower and white flower produce only pink offspring.",
-          "A recessive trait appears only when both alleles are recessive.",
+          "A red flower and white flower produce pink offspring.",
+          "A recessive trait appears when both alleles are recessive.",
           "An animal shows both red hairs and white hairs in its coat.",
-          "A heterozygote looks exactly like one homozygous parent."
+          "A heterozygote looks like one homozygous parent."
         ],
         correctIndex: 2,
         explanation: "Seeing both traits together is a hallmark of codominance."
@@ -2121,9 +2121,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-52-q3",
         prompt: "Which statement best distinguishes codominance from simple dominant-recessive inheritance?",
         choices: [
-          "In codominance, the heterozygote expresses both alleles instead of only the dominant one.",
-          "In codominance, the heterozygote must always look intermediate between both homozygotes.",
-          "In codominance, only homozygous individuals can show the trait.",
+          "In codominance, the heterozygote expresses both alleles instead of a single dominant effect.",
+          "In codominance, the heterozygote looks intermediate between both homozygotes.",
+          "In codominance, homozygous individuals show the trait more clearly than heterozygotes.",
           "In codominance, the phenotype depends on chromosome number instead of alleles."
         ],
         correctIndex: 0,
@@ -2152,8 +2152,8 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "\\(H^R h\\), because white should be written as a lowercase recessive allele.",
           "\\(H^R H^W\\).",
-          "\\(H^R H^R\\) only.",
-          "\\(H^W H^W\\) only."
+          "\\(H^R H^R\\), because red hair is one visible part of roan.",
+          "\\(H^W H^W\\), because white hair is one visible part of roan."
         ],
         correctIndex: 1,
         explanation: "A roan animal has one red allele and one white allele, so both superscripts appear."
@@ -2182,7 +2182,7 @@ window.SCIENCE10_QUIZZES = {
           "Its coat can show both base-colour hairs and white hairs.",
           "Its coat colour is a single blended shade with no separate hair colours.",
           "Its coat colour can be explained by a recessive allele being hidden.",
-          "Its coat colour is determined only by whether the animal is male or female."
+          "Its coat colour is determined mainly by whether the animal is male or female."
         ],
         correctIndex: 0,
         explanation: "A roan coat visibly expresses both allele effects."
@@ -2203,10 +2203,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-54-q3",
         prompt: "What would you expect if you looked closely at individual hairs on a roan coat?",
         choices: [
-          "Every hair must be exactly halfway between red and white.",
+          "Each hair should look halfway between red and white.",
           "Some hairs show one colour and some hairs show white.",
-          "Only the colour from the allele written first in the genotype appears.",
-          "White hairs appear only if the animal is homozygous white."
+          "The colour from the allele written first appears more strongly.",
+          "White hairs appear when the animal has no red-colour allele."
         ],
         correctIndex: 1,
         explanation: "Roan coat colour is not simply blended; both colour types can be present."
@@ -2223,7 +2223,7 @@ window.SCIENCE10_QUIZZES = {
           "A coat-colour protein that controls whether hair is red or white.",
           "An enzyme that copies chromosomes before meiosis.",
           "Hemoglobin, a protein in red blood cells that carries oxygen.",
-          "A membrane protein found only in gametes."
+          "A membrane protein found mainly in gametes."
         ],
         correctIndex: 2,
         explanation: "Sickle cell anemia is linked to a hemoglobin allele that affects red blood cells."
@@ -2233,9 +2233,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "How can the sickle cell allele affect body function?",
         choices: [
           "It can produce hemoglobin that changes red blood cell shape and reduces oxygen transport.",
-          "It changes only the colour of red blood cells, with no effect on shape or flow.",
-          "It affects oxygen transport only because it removes all hemoglobin from the body.",
-          "It is expressed only in white blood cells, so red blood cells are not involved."
+          "It changes the colour of red blood cells more than their shape or flow.",
+          "It affects oxygen transport mainly by changing blood plasma rather than red blood cell hemoglobin.",
+          "It is expressed mainly in white blood cells, so red blood cells are less involved."
         ],
         correctIndex: 0,
         explanation: "Sickled cells can pass poorly through small vessels and transport oxygen less effectively."
@@ -2261,9 +2261,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-56-q1",
         prompt: "What genotype represents sickle cell trait in this section?",
         choices: [
-          "\\(Hb^S Hb^S\\) only.",
+          "\\(Hb^S Hb^S\\), because the sickle allele is present twice.",
           "\\(Hb^A Hb^S\\).",
-          "\\(Hb^A Hb^A\\) only.",
+          "\\(Hb^A Hb^A\\), because normal hemoglobin can still be present.",
           "\\(H^R H^W\\), because both examples use superscripts."
         ],
         correctIndex: 1,
@@ -2273,8 +2273,8 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-56-q2",
         prompt: "What red blood cells may a person with genotype \\(Hb^A Hb^S\\) have?",
         choices: [
-          "Only sickled red blood cells, the same as \\(Hb^S Hb^S\\).",
-          "Only normal red blood cells, because \\(Hb^A\\) always completely hides \\(Hb^S\\).",
+          "Mostly sickled red blood cells, the same as \\(Hb^S Hb^S\\).",
+          "Normal red blood cells because \\(Hb^A\\) hides most effects of \\(Hb^S\\).",
           "Both normal and some sickled red blood cells.",
           "Red blood cells with no hemoglobin alleles expressed."
         ],
@@ -2287,7 +2287,7 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "Sickle cell trait is heterozygous; sickle cell anemia occurs in homozygous \\(Hb^S Hb^S\\) individuals.",
           "Sickle cell trait and sickle cell anemia use the same genotype but different environments.",
-          "Sickle cell trait occurs only when both hemoglobin alleles are \\(Hb^A\\).",
+          "Sickle cell trait occurs when both hemoglobin alleles make normal hemoglobin.",
           "Sickle cell anemia is the heterozygous form with one normal allele."
         ],
         correctIndex: 0,
@@ -2303,8 +2303,8 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What is the advantage sometimes associated with sickle cell trait?",
         choices: [
           "Protection from inheriting the \\(Hb^S\\) allele from either parent.",
-          "More oxygen carried than any other hemoglobin genotype in every environment.",
-          "A guarantee that offspring cannot have sickle cell anemia.",
+          "Red blood cells that carry extra oxygen during malaria infection.",
+          "A guarantee that offspring are unlikely to have sickle cell anemia.",
           "Resistance to malaria in environments where malaria is common."
         ],
         correctIndex: 3,
@@ -2316,8 +2316,8 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "Malaria changes \\(Hb^A\\) alleles into \\(Hb^S\\) alleles during a person's life.",
           "An allele that has harmful effects in one genotype can persist if heterozygotes gain an advantage where malaria is common.",
-          "A survival advantage means the allele is harmless in every genotype.",
-          "The same allele must have the same survival effect in every environment."
+          "A survival advantage in one genotype means the allele is harmless in homozygotes.",
+          "The same allele has similar survival effects across environments."
         ],
         correctIndex: 1,
         explanation: "The effect of an allele on survival can depend on environmental pressures such as malaria."
@@ -2326,10 +2326,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-57-q3",
         prompt: "Which statement best explains why the sickle cell allele can remain common in some populations?",
         choices: [
-          "All people with the allele have exactly the same severe disease.",
-          "The allele is created by mosquito bites in every generation.",
+          "People with the allele usually have the same severe disease.",
+          "The allele is produced by mosquito exposure in each generation.",
           "Heterozygotes may be more likely to survive malaria and pass on the allele.",
-          "The allele disappears whenever it is paired with \\(Hb^A\\)."
+          "The allele disappears when it is paired with \\(Hb^A\\)."
         ],
         correctIndex: 2,
         explanation: "If heterozygotes have a survival advantage, the allele can be maintained in the gene pool."
@@ -2345,7 +2345,7 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "Neither allele completely hides the other in the heterozygote.",
           "Both alleles are fully expressed as separate visible parts of the phenotype.",
-          "One allele is fully dominant but only in the F2 generation.",
+          "One allele becomes dominant in the F2 generation.",
           "The heterozygote has the same phenotype as one homozygous parent."
         ],
         correctIndex: 0,
@@ -2356,8 +2356,8 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which example best fits incomplete dominance?",
         choices: [
           "A coat has separate red and white hairs visible together.",
-          "A recessive trait appears only in \\(bb\\) offspring.",
-          "A heterozygote looks exactly like the red-flowered homozygote.",
+          "A recessive trait appears in \\(bb\\) offspring.",
+          "A heterozygote looks like the red-flowered homozygote.",
           "Red flowers crossed with white flowers produce pink heterozygous flowers."
         ],
         correctIndex: 3,
@@ -2367,10 +2367,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-58-q3",
         prompt: "How is incomplete dominance different from codominance?",
         choices: [
-          "Incomplete dominance and codominance differ only in the symbols used, not in phenotype.",
+          "Incomplete dominance and codominance differ mainly in the symbols used.",
           "Incomplete dominance has an intermediate heterozygote; codominance shows both allele effects together.",
           "Incomplete dominance means both alleles disappear in the heterozygote.",
-          "Codominance always follows a 3:1 phenotypic ratio."
+          "Codominance usually follows a simple dominant-recessive ratio."
         ],
         correctIndex: 1,
         explanation: "The heterozygote pattern differs: intermediate in incomplete dominance, both expressed in codominance."
@@ -2385,9 +2385,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What is an intermediate phenotype?",
         choices: [
           "A phenotype where both traits appear side by side without blending.",
-          "A phenotype that matches the homozygous dominant parent exactly.",
+          "A phenotype that matches the homozygous dominant parent.",
           "A heterozygous phenotype between the two homozygous phenotypes.",
-          "A phenotype that can be predicted only by counting chromosomes."
+          "A phenotype that is predicted mainly by counting chromosomes."
         ],
         correctIndex: 2,
         explanation: "In incomplete dominance, the heterozygote is intermediate between the two homozygotes."
@@ -2398,7 +2398,7 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "The intermediate phenotype.",
           "A phenotype where the white allele is completely hidden.",
-          "A codominant phenotype with separate red and white patches only.",
+          "A codominant phenotype with separate red and white patches.",
           "A phenotype caused by having an extra chromosome."
         ],
         correctIndex: 0,
@@ -2408,9 +2408,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-59-q3",
         prompt: "Which observation would make you suspect incomplete dominance rather than simple dominance?",
         choices: [
-          "The heterozygote looks exactly like the homozygous dominant individual.",
-          "Only recessive homozygotes show any trait.",
-          "The phenotype depends only on chromosome number.",
+          "The heterozygote looks like the homozygous dominant individual.",
+          "Recessive homozygotes are the main group that show a trait.",
+          "The phenotype depends mainly on chromosome number.",
           "The heterozygote looks different from both homozygotes and falls between them."
         ],
         correctIndex: 3,
@@ -2437,8 +2437,8 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-60-q2",
         prompt: "Why can the phenotypic ratio match the genotypic ratio in incomplete dominance?",
         choices: [
-          "The heterozygote is always hidden by a dominant allele.",
-          "Only recessive homozygotes survive.",
+          "The heterozygote is hidden by a dominant allele.",
+          "Recessive homozygotes are the main surviving genotype.",
           "Each genotype has its own distinct phenotype.",
           "The phenotype ratio is counted from gametes, not offspring."
         ],
@@ -2452,7 +2452,7 @@ window.SCIENCE10_QUIZZES = {
           "\\(\\frac{1}{2}\\).",
           "\\(\\frac{1}{4}\\).",
           "\\(\\frac{3}{4}\\).",
-          "1, because all offspring have at least one colour allele."
+          "1, because offspring in this cross have at least one colour allele."
         ],
         correctIndex: 0,
         explanation: "Two of four boxes are heterozygous, so 2/4 = 1/2 are predicted to be pink."
