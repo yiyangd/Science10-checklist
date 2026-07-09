@@ -3368,7 +3368,7 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-83-q1",
         prompt: "Which statement best describes the possible effects of mutations?",
         choices: [
-          "A mutation is harmful whenever it changes a DNA base.",
+          "A mutation is usually harmful when it changes a DNA base.",
           "A mutation may be harmful, neutral, or beneficial depending on what changes and the environment.",
           "A mutation becomes useful as soon as an organism needs a new trait.",
           "A mutation in DNA changes habitat conditions rather than cell instructions."
@@ -3394,7 +3394,7 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "It is neutral because the antibiotic affects the environment, not inheritance.",
           "It is harmful because resistance uses energy that could be used for growth.",
-          "It is impossible because bacteria cannot have mutations.",
+          "It is unlikely because bacteria in one population are genetically identical.",
           "It is beneficial for those bacteria under antibiotic exposure."
         ],
         correctIndex: 3,
@@ -3434,7 +3434,7 @@ window.SCIENCE10_QUIZZES = {
         prompt: "A skin cell develops a DNA mutation after too much ultraviolet exposure. Which conclusion is most reasonable?",
         choices: [
           "The mutation is most likely passed on if the organism later has offspring.",
-          "The mutation cannot affect any cell because it is not in a gamete.",
+          "The mutation affects the population gene pool as soon as nearby skin cells divide.",
           "The mutation may affect that body cell lineage but is unlikely to be inherited by offspring.",
           "The mutation automatically becomes common in the population."
         ],
@@ -3465,7 +3465,7 @@ window.SCIENCE10_QUIZZES = {
           "The offspring may carry the new allele in its cells.",
           "The mutation must stay in the parent's skin cells.",
           "The mutation can be inherited if natural selection has already favoured it.",
-          "The mutation cannot become part of population variation."
+          "The mutation becomes part of population variation when natural selection first favours it."
         ],
         correctIndex: 0,
         explanation: "When a gamete with a mutation contributes to a zygote, the offspring may inherit that new allele."
@@ -3629,7 +3629,7 @@ window.SCIENCE10_QUIZZES = {
           "Population A.",
           "Population B, because similarity makes selection act more quickly.",
           "Neither, because environmental change affects habitats but not survival.",
-          "Both must respond in exactly the same way because the environment changed."
+          "Both are likely to respond in similar ways because the environmental change is the same."
         ],
         correctIndex: 0,
         explanation: "More genetic diversity can mean more possible traits that might help some individuals survive the new conditions."
@@ -3681,7 +3681,7 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "Trees with inherited shade-tolerant traits were more likely to survive and reproduce, so the population changed over generations.",
           "The individual tree intentionally rewrote its DNA to match the shade.",
-          "Shade tolerance cannot be inherited or selected for.",
+          "Shade tolerance is mostly learned after the tree grows in low light.",
           "Natural selection improved the tree before it passed on the trait."
         ],
         correctIndex: 0,
