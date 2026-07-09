@@ -19359,9 +19359,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which star observations can be made with unaided eyes on a clear, dark night?",
         choices: [
           "Differences in brightness, colour, location, and apparent motion.",
-          "The exact mass of every star.",
-          "Detailed surfaces of distant stars.",
-          "The chemical formula of each star's atmosphere by sight alone."
+          "Distances between stars measured accurately from their apparent spacing.",
+          "Surface details that explain why some stars are brighter than others.",
+          "Chemical composition found by comparing star patterns with constellations."
         ],
         correctIndex: 0,
         explanation: "Unaided observers can notice patterns such as brightness, colour, position, and apparent motion."
@@ -19370,24 +19370,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-473-q2",
         prompt: "Why do stars seem to move across the night sky?",
         choices: [
-          "Earth rotates, making stars appear to move.",
-          "All stars orbit Earth once each night.",
-          "Stars are attached to clouds.",
-          "The Moon pushes stars westward."
+          "Nearby stars drift faster because they are closer to Earth.",
+          "The atmosphere slowly carries the star patterns westward.",
+          "Stars change position mainly because Earth revolves once per day.",
+          "Their apparent motion is caused by Earth rotating."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "The apparent daily motion of stars is caused by Earth's rotation."
       },
       {
         id: "kp-473-q3",
         prompt: "What is special about the star near the northern sky that seems almost fixed?",
         choices: [
+          "It appears fixed because it is much closer than other stars.",
+          "It is a planet-like object that marks the centre of the solar system.",
           "It is close to the North Celestial Pole and can help indicate north.",
-          "It is the closest star to Earth.",
-          "It is the brightest object in daytime.",
-          "It changes phase like the Moon."
+          "It changes brightness in a monthly cycle that matches the Moon."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Polaris appears nearly fixed and is useful for direction in the northern hemisphere."
       }
     ]
@@ -19399,12 +19399,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-474-q1",
         prompt: "Which planets can be seen without a telescope under suitable conditions?",
         choices: [
+          "Mars, Jupiter, Saturn, Uranus, and Neptune.",
           "Mercury, Venus, Mars, Jupiter, and Saturn.",
-          "Uranus, Neptune, Pluto, and every exoplanet.",
-          "Only Earth.",
-          "Only the Moon and the Sun."
+          "Venus, Earth, Mars, Jupiter, and the Moon.",
+          "Mercury, Venus, the Sun, the Moon, and Polaris."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "The five classical visible planets can be observed with unaided eyes."
       },
       {
@@ -19412,9 +19412,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "How can planets be distinguished from stars over weeks or months?",
         choices: [
           "Planets shift position against the background star patterns.",
-          "Planets never move at all.",
-          "Planets always flash on and off like aircraft.",
-          "Planets are visible only during solar eclipses."
+          "Planets stay in one constellation while stars drift past them.",
+          "Planets keep the same spacing from Polaris through the year.",
+          "Planets form fixed patterns that repeat the shape of constellations."
         ],
         correctIndex: 0,
         explanation: "The word planet comes from the idea of wandering because planets move relative to background stars."
@@ -19423,12 +19423,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-474-q3",
         prompt: "A bright object appears near the same path followed by the Sun and changes position compared with nearby stars over several nights. What is it most likely?",
         choices: [
+          "A bright star in a constellation that is rising earlier each night.",
+          "A comet tail that is fixed to the same background stars.",
           "A visible planet.",
-          "A fixed star in a constellation.",
-          "A mountain peak.",
-          "A cloud."
+          "Polaris viewed from a different latitude."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Planets often appear near the ecliptic and move against background stars."
       }
     ]
@@ -19441,9 +19441,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which object or event can sometimes be visible without a telescope?",
         choices: [
           "A comet, meteor, nova, supernova, or the Milky Way.",
-          "A microscopic dust mite.",
-          "A radio signal from a galaxy.",
-          "A detailed exoplanet surface."
+          "A planet's surface features seen as clearly as the Moon.",
+          "A radio source identified by eye from its wavelength.",
+          "A distant exoplanet separated visually from its star."
         ],
         correctIndex: 0,
         explanation: "The textbook lists several other unaided-eye sky objects and events beyond the Sun, Moon, stars, and planets."
@@ -19452,22 +19452,22 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-475-q2",
         prompt: "Which visible sky event is usually temporary or unusual rather than part of a daily pattern?",
         choices: [
+          "Stars appearing to move from east to west overnight.",
+          "The Moon showing a different phase over many nights.",
           "A bright meteor streaking across the sky.",
-          "The Sun rising each day.",
-          "The Moon changing phase gradually.",
-          "Stars appearing to move overnight."
+          "The Sun following a daytime path across the sky."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Meteors are brief events, unlike regular daily or monthly patterns."
       },
       {
         id: "kp-475-q3",
         prompt: "Why would ancient records of comets or guest stars be scientifically valuable?",
         choices: [
-          "They provide evidence that people observed and recorded unusual sky events.",
-          "They prove no one watched the sky carefully.",
-          "They show that all sky events repeat every day.",
-          "They replace the need for modern observations."
+          "They help connect modern observations with unusual events seen long ago.",
+          "They are useful mainly because written records are more reliable than sky measurements.",
+          "They show that temporary events follow the same schedule as Moon phases.",
+          "They prove that ancient observers understood the physical cause of each event."
         ],
         correctIndex: 0,
         explanation: "Historical records can preserve observations of rare or temporary sky events."
@@ -19481,12 +19481,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-476-q1",
         prompt: "Why might observers in two different places see different sky objects?",
         choices: [
-          "Place, elevation, horizon, season, weather, and light conditions can affect visibility.",
-          "The universe changes shape for each person.",
-          "Stars exist above only one city.",
-          "Observation location never matters."
+          "Nearby landmarks change the actual positions of stars in space.",
+          "Observers in different places use different names, so the objects become different.",
+          "Different places mainly affect comfort rather than visible sky patterns.",
+          "Place, elevation, horizon, season, weather, and light conditions can affect visibility."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Local conditions and position on Earth affect what can be seen in the sky."
       },
       {
@@ -19494,9 +19494,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which observing site would usually show more stars?",
         choices: [
           "A dark, high, open site with a clear horizon.",
-          "A brightly lit downtown street.",
-          "A basement room with no windows.",
-          "A foggy parking lot under streetlights."
+          "A city rooftop with bright safety lights nearby.",
+          "A valley floor on a foggy night with a narrow horizon.",
+          "A coastal parking lot where streetlights make walking safer."
         ],
         correctIndex: 0,
         explanation: "Darkness, openness, elevation, and clear weather can improve sky visibility."
@@ -19505,12 +19505,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-476-q3",
         prompt: "A constellation never rises above the Canadian horizon but is visible south of the equator. What explains this?",
         choices: [
+          "Northern observers look through brighter air than southern observers.",
           "Different latitudes reveal different parts of the celestial sphere.",
-          "The constellation stopped existing over Canada.",
-          "Canada has no night sky.",
-          "Stars move only for southern observers."
+          "The constellation is visible from Canada during daytime and therefore belongs to the Sun.",
+          "Southern observers see it because their constellations are closer to Earth."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Latitude affects which parts of the celestial sphere are above the horizon."
       }
     ]
@@ -19523,9 +19523,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What is a constellation?",
         choices: [
           "A group of stars that forms a pattern in the sky.",
-          "A planet that changes phase.",
-          "A telescope lens.",
-          "A cloud that blocks starlight."
+          "A cluster of nearby stars proven to be the same distance from Earth.",
+          "A path followed by planets as they wander among the stars.",
+          "A region where stars brighten because they are near Polaris."
         ],
         correctIndex: 0,
         explanation: "A constellation is a recognized pattern of stars in the sky."
@@ -19534,24 +19534,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-477-q2",
         prompt: "Why can the same stars be connected into different shapes by different cultures?",
         choices: [
+          "The stars have different distances, so each culture sees a different arrangement.",
+          "Cultures choose different shapes because the stars move to match local stories.",
           "People interpret patterns through different stories, lands, and cultural experiences.",
-          "The stars physically rearrange for each culture.",
-          "Only one culture can see the stars.",
-          "Constellations cannot have stories."
+          "Constellations are scientific diagrams, so cultural stories are separate from them."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "The textbook gives examples of the same star group being interpreted as different figures."
       },
       {
         id: "kp-477-q3",
         prompt: "What misconception about constellations should be avoided?",
         choices: [
-          "That stars in a constellation must all be close together in space.",
-          "That people identify patterns in stars.",
-          "That constellations can have cultural meanings.",
-          "That Orion is a constellation."
+          "That constellations can be useful for navigation and seasonal stories.",
+          "That different cultures may connect the same stars differently.",
+          "That Orion is one recognized pattern among the 88 constellations.",
+          "That stars in a constellation must be close together in space."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Stars can look close together from Earth while actually being separated by large distances."
       }
     ]
@@ -19563,12 +19563,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-478-q1",
         prompt: "What is an asterism?",
         choices: [
+          "A formal constellation name approved for a full sky region.",
+          "A planet's temporary backward motion against background stars.",
           "A smaller star pattern within or across constellations.",
-          "A planet's orbit around Earth.",
-          "A type of artificial light pollution.",
-          "A measurement of altitude."
+          "A coordinate used to measure height above the horizon."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "An asterism is a recognizable star pattern that may be part of a constellation."
       },
       {
@@ -19576,9 +19576,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why are the two end stars of the Big Dipper's bowl called pointer stars?",
         choices: [
           "They point toward Polaris, the North Star.",
-          "They point toward the South Pole from Canada.",
-          "They point to every planet at once.",
-          "They mark the ecliptic exactly."
+          "They mark where the Sun will rise on the next solstice.",
+          "They show the direction planets move during retrograde motion.",
+          "They identify the celestial equator from any observing site."
         ],
         correctIndex: 0,
         explanation: "The Big Dipper's pointer stars can be used to locate Polaris."
@@ -19587,12 +19587,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-478-q3",
         prompt: "Which statement correctly compares the Big Dipper and Ursa Major?",
         choices: [
-          "The Big Dipper is an asterism that is part of the larger Ursa Major region.",
-          "The Big Dipper is a planet.",
-          "Ursa Major is one star only.",
-          "The Big Dipper can be seen only with a radio telescope."
+          "Ursa Major is the asterism, and the Big Dipper is the full constellation.",
+          "The Big Dipper and Ursa Major are separate star patterns in opposite hemispheres.",
+          "The Big Dipper is used for planets, while Ursa Major is used for fixed stars.",
+          "The Big Dipper is an asterism that is part of the larger Ursa Major region."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "The Big Dipper is a famous asterism within Ursa Major."
       }
     ]
@@ -19605,9 +19605,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why is Polaris useful for navigation in the northern hemisphere?",
         choices: [
           "It appears nearly fixed near the North Celestial Pole and indicates north.",
-          "It is always directly overhead everywhere on Earth.",
-          "It moves faster than all other stars.",
-          "It is visible only in the southern hemisphere."
+          "It marks east because stars rise near it in the evening.",
+          "It gives the date because it changes phase through a monthly cycle.",
+          "It is useful because planets pass directly beside it each night."
         ],
         correctIndex: 0,
         explanation: "Polaris is close to the point around which northern stars appear to rotate."
@@ -19616,12 +19616,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-479-q2",
         prompt: "A person is lost at night in the northern hemisphere. How could the Big Dipper help?",
         choices: [
+          "Its bowl shape can help locate the Moon's phase and therefore direction.",
           "Its pointer stars can help locate Polaris and therefore north.",
-          "It shows the exact distance to every city.",
-          "It points to south at all times.",
-          "It changes into the Moon before sunrise."
+          "Its handle points along the ecliptic, showing where planets will rise.",
+          "Its changing shape from night to night can be used like a compass."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Finding Polaris gives a direction reference."
       },
       {
@@ -19629,9 +19629,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why does Polaris seem to move less than other northern stars during the night?",
         choices: [
           "It lies close to the direction of Earth's rotation axis projected into space.",
-          "It is attached to Earth's atmosphere.",
-          "It is the closest object to Earth.",
-          "It stops Earth from rotating."
+          "It is farther away, so Earth's rotation affects it less.",
+          "It sits on the celestial equator where motion is smallest.",
+          "It moves with the Sun rather than with the background stars."
         ],
         correctIndex: 0,
         explanation: "Polaris is near the North Celestial Pole, so its apparent circular path is very small."
@@ -19645,10 +19645,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-480-q1",
         prompt: "What is the celestial sphere?",
         choices: [
-          "An imaginary sphere on which visible sky objects appear to lie.",
-          "A solid shell that stars are physically attached to.",
-          "Earth's actual atmosphere.",
-          "A planet visible only through telescopes."
+          "A model that places visible sky objects on an imaginary sphere around Earth.",
+          "A physical shell that explains why stars keep fixed distances from Earth.",
+          "The layer of atmosphere where planets and stars actually move.",
+          "A map of Earth's surface projected upward onto the clouds."
         ],
         correctIndex: 0,
         explanation: "Today the celestial sphere is used as a model for describing apparent sky positions and motions."
@@ -19657,24 +19657,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-480-q2",
         prompt: "Why is the celestial sphere model useful even though the sky is not a solid sphere?",
         choices: [
+          "It shows that stars in the same pattern are physically grouped together.",
           "It helps describe where objects appear and how they seem to move from Earth's viewpoint.",
-          "It proves Earth does not rotate.",
-          "It shows stars are all the same distance from Earth.",
-          "It replaces all observations with guesses."
+          "It works because the sky behaves like a solid surface during one night.",
+          "It explains apparent motion without needing a position on Earth."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "A model can be useful for appearance and motion even if it simplifies reality."
       },
       {
         id: "kp-480-q3",
         prompt: "What causes the apparent rotation of the celestial sphere each day?",
         choices: [
+          "Earth's yearly orbit changing the season.",
+          "The Sun pulling constellations westward at night.",
           "Earth's rotation.",
-          "The stars orbiting Earth once per day.",
-          "The Moon pushing the sky.",
-          "Light pollution."
+          "Planets moving against the background stars."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Earth rotates, so sky objects appear to move around us."
       }
     ]
@@ -19686,12 +19686,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-481-q1",
         prompt: "What is the celestial equator?",
         choices: [
+          "The Sun's yearly path through the constellations.",
+          "A local horizon line that changes as an observer turns around.",
           "Earth's equator projected outward onto the celestial sphere.",
-          "The path of one comet.",
-          "The horizon line at any beach.",
-          "A ring around Saturn."
+          "A circle drawn through Polaris and the Big Dipper."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "The celestial equator is an imaginary extension of Earth's equator into the sky model."
       },
       {
@@ -19699,9 +19699,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What are the celestial poles?",
         choices: [
           "The points where Earth's rotation axis extends onto the celestial sphere.",
-          "The two brightest planets.",
-          "The east and west points on the horizon.",
-          "The places where stars become planets."
+          "The points where the ecliptic meets the horizon at sunrise.",
+          "The brightest stars used to divide constellations into regions.",
+          "The locations where planets appear to reverse direction."
         ],
         correctIndex: 0,
         explanation: "The celestial poles are sky positions aligned with Earth's rotational axis."
@@ -19711,9 +19711,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why can some constellations visible from Canada never set?",
         choices: [
           "They are close enough to the North Celestial Pole to remain above the horizon as Earth rotates.",
-          "They are closer to Earth than the Moon.",
-          "They stop Earth from rotating.",
-          "They lie on the ground north of Canada."
+          "They are on the ecliptic, so the Sun carries them through the sky.",
+          "They are brighter, so they remain visible after they pass below the horizon.",
+          "They are part of the southern sky but appear higher because Canada is north."
         ],
         correctIndex: 0,
         explanation: "Circumpolar constellations stay above the horizon for observers at certain northern latitudes."
@@ -19728,9 +19728,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What is the ecliptic?",
         choices: [
           "The Sun's apparent path across the celestial sphere.",
-          "The path of Polaris around the horizon.",
-          "The line from north to south on a compass.",
-          "A constellation made of seven stars only."
+          "The line connecting Polaris to the north point on the horizon.",
+          "The daily circular path followed by circumpolar constellations.",
+          "The boundary between constellations and smaller asterisms."
         ],
         correctIndex: 0,
         explanation: "The ecliptic is the apparent path of the Sun caused by Earth's orbit around the Sun."
@@ -19739,12 +19739,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-482-q2",
         prompt: "Why are the Sun, Moon, and planets often found near the same apparent sky path?",
         choices: [
-          "Their motions are seen near the ecliptic from Earth's viewpoint.",
-          "They are all fixed stars.",
-          "They all orbit Earth on the same solid sphere.",
-          "They are all located at Polaris."
+          "They share a path because they are the same distance from Earth.",
+          "They line up near Polaris when viewed from the northern hemisphere.",
+          "They follow the celestial equator because it is Earth's equator in space.",
+          "Their motions are seen near the ecliptic from Earth's viewpoint."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "The ecliptic is a useful reference pathway for locating the Sun, Moon, and planets."
       },
       {
@@ -19752,9 +19752,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why do different constellations appear in the night sky during different seasons?",
         choices: [
           "Earth's revolution changes which direction faces away from the Sun at night.",
-          "Constellations disappear permanently each season.",
-          "The stars orbit Earth once per month.",
-          "The Moon blocks the same constellation all year."
+          "Earth's rotation changes the season by turning toward new stars each week.",
+          "The ecliptic moves through the stars while Earth stays in the same place.",
+          "The Sun makes nearby constellations brighter and distant ones harder to see."
         ],
         correctIndex: 0,
         explanation: "As Earth orbits the Sun, the nighttime side points toward different parts of space."
