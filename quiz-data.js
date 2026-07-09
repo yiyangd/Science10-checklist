@@ -9846,8 +9846,8 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-241-q1",
         prompt: "What happens to an electron in luminol when it becomes excited?",
         choices: [
-          "It turns into a proton.",
-          "It leaves the atom forever and destroys the molecule.",
+          "It releases light first and then moves to a higher energy level.",
+          "It gains energy but stays at the same energy level.",
           "It absorbs energy and moves to a higher energy level.",
           "It gives up energy before moving to a higher level."
         ],
@@ -9859,8 +9859,8 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why does the luminol reaction produce visible light?",
         choices: [
           "Excited electrons release energy as light when they return to lower energy levels.",
-          "Luminol creates new electrons from darkness.",
-          "Iron atoms become tiny light bulbs without an energy change.",
+          "Luminol reflects light from the room more strongly after it is sprayed.",
+          "Iron atoms make luminol glow without an electron energy change.",
           "The solution reflects room light after the investigator darkens the room."
         ],
         correctIndex: 0,
@@ -9870,9 +9870,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-241-q3",
         prompt: "Which sequence best describes the light-producing energy change?",
         choices: [
-          "Light emitted -> electrons disappear -> energy absorbed by the floor",
-          "Atoms destroyed -> mass lost -> light produced",
-          "Lower energy level -> no energy absorbed -> no reaction possible",
+          "Electron returns to a lower level -> energy absorbed -> light stored",
+          "Energy absorbed -> electron higher level -> energy released mainly as heat",
+          "Lower energy level -> electron absorbs light -> no emission possible",
           "Energy absorbed by electrons -> higher energy level -> return to lower level -> light emitted"
         ],
         correctIndex: 3,
@@ -9887,10 +9887,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-242-q1",
         prompt: "Why should investigators not treat a positive luminol test as final proof of blood?",
         choices: [
-          "Luminol reacts with blood so strongly that other tests become less important.",
+          "A strong glow means the stain has already been identified as blood.",
           "Some non-blood substances can also make luminol glow.",
-          "A glow proves whose blood it is.",
-          "Chemical tests are useful for colour changes but not for forensic evidence."
+          "The test is less useful when the stain is not visible before spraying.",
+          "The glow shows the stain is recent enough to identify a person."
         ],
         correctIndex: 1,
         explanation: "Luminol is useful for screening, but it can have false positives."
@@ -9899,10 +9899,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-242-q2",
         prompt: "After a luminol glow appears on fabric, what is a reasonable next step?",
         choices: [
-          "Immediately identify a suspect from the glow alone.",
+          "Identify the source from the colour of the glow alone.",
           "Ignore the result because a screening test is not final proof.",
           "Use further tests, such as blood confirmation or DNA analysis, before drawing a strong conclusion.",
-          "Treat bleach, blood, and metal as equivalent evidence if they glow."
+          "Repeat the luminol spray until the glow confirms the exact material."
         ],
         correctIndex: 2,
         explanation: "Further testing can distinguish possible blood evidence from other luminol-reactive materials."
@@ -9912,9 +9912,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which statement best describes the strength of luminol evidence?",
         choices: [
           "It can point investigators toward possible evidence, but it needs confirmation.",
-          "It is conclusive DNA evidence by itself.",
-          "It proves a chemical reaction did not occur.",
-          "It is most useful after the stain is already visible."
+          "It is strong enough to replace blood confirmation tests.",
+          "It identifies the source of a stain if the glow is bright enough.",
+          "It is most reliable when investigators skip later DNA testing."
         ],
         correctIndex: 0,
         explanation: "Luminol is sensitive and useful, but positive results have limits."
@@ -9928,9 +9928,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-243-q1",
         prompt: "What does reaction rate describe?",
         choices: [
-          "The total number of protons in a product.",
-          "The colour of the container used.",
-          "Whether a reaction is written as a word equation.",
+          "The total energy change between reactants and products.",
+          "The temperature at which products become stable.",
+          "Whether reactants are written before products in an equation.",
           "How quickly reactants are changed into products under specific conditions."
         ],
         correctIndex: 3,
@@ -9940,9 +9940,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-243-q2",
         prompt: "Why might it be useful for a reaction such as rusting to occur slowly rather than quickly?",
         choices: [
-          "Slow reactions do not involve atoms.",
+          "Slow reactions are easier to reverse because fewer bonds change.",
           "A slower rate can make damage easier to manage or prevent over time.",
-          "Slow reactions produce fewer products because atoms are partly conserved.",
+          "Slow reactions produce different atoms than fast reactions of the same materials.",
           "Slow reactions are usually physical changes rather than chemical changes."
         ],
         correctIndex: 1,
@@ -9952,10 +9952,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-243-q3",
         prompt: "Which situation most clearly depends on controlling reaction rate?",
         choices: [
-          "Choosing the font size for a lab report.",
-          "Counting chairs in a classroom.",
+          "Choosing a larger beaker so reactants have more space.",
+          "Writing the product names before the reactant names.",
           "Preventing an industrial reaction from heating up too quickly.",
-          "Naming a compound without doing a reaction."
+          "Deciding whether a reaction is open or closed after it finishes."
         ],
         correctIndex: 2,
         explanation: "Industrial safety often depends on keeping reaction rates under control."
@@ -9971,8 +9971,8 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "Increasing temperature",
           "Lowering reactant concentration so particles collide less often",
-          "Removing a reactant to make the mixture simpler",
-          "Keeping particles completely separated"
+          "Using larger pieces so less surface is exposed",
+          "Reducing particle motion by cooling the mixture"
         ],
         correctIndex: 0,
         explanation: "Higher temperature often increases collision frequency and collision energy."
@@ -9981,9 +9981,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-244-q2",
         prompt: "Why can powdered magnesium react faster than a solid strip of the same mass?",
         choices: [
-          "Powdered magnesium has no atoms.",
-          "The strip contains a different element.",
-          "Surface area matters less than the colour of the metal.",
+          "Powdered magnesium has less mass in each small piece, so atoms react differently.",
+          "The strip contains the same element but fewer exposed collision sites.",
+          "Surface area matters mainly because it changes the colour of the metal.",
           "The powder has more exposed surface area for collisions."
         ],
         correctIndex: 3,
@@ -9993,10 +9993,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-244-q3",
         prompt: "Which list contains factors that can affect reaction rate?",
         choices: [
-          "Colour, container shape, and label size.",
+          "Colour, container shape, and the order of product names.",
           "Temperature, surface area, reactant concentration or amount, and catalysts.",
-          "Alphabetic order of reactant names and product names.",
-          "Whether the product is written first in the equation."
+          "Mass conservation, product colour, and the balance brand.",
+          "Whether the reaction is written as a word equation or a formula equation."
         ],
         correctIndex: 1,
         explanation: "These factors can change the number or success of reactant collisions."
@@ -10010,10 +10010,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-245-q1",
         prompt: "What is a catalyst?",
         choices: [
-          "A reactant that must be completely consumed.",
-          "A product that slows collisions after it forms.",
+          "A reactant that is added in small amounts and used up first.",
+          "A substance that changes the products but does not affect rate.",
           "A substance that speeds up a reaction without being used up overall.",
-          "A label that replaces a chemical equation."
+          "A material that stores heat so collisions are no longer needed."
         ],
         correctIndex: 2,
         explanation: "Catalysts increase reaction rate and are not consumed overall."
@@ -10023,9 +10023,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "How does a catalytic converter connect to reaction rate?",
         choices: [
           "It uses catalyst materials to speed reactions that convert harmful exhaust gases into less harmful substances.",
-          "It slows exhaust reactions so gases leave the vehicle unchanged.",
-          "It creates fuel from nothing.",
-          "It prevents gases from reacting with any surface."
+          "It slows exhaust reactions so gases have more time to cool before leaving the vehicle.",
+          "It adds fuel vapour so exhaust gases can finish burning in the converter.",
+          "It traps exhaust gases without changing their chemical composition."
         ],
         correctIndex: 0,
         explanation: "Catalytic converters are real applications of catalysts."
@@ -10034,9 +10034,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-245-q3",
         prompt: "Why are enzymes described as catalysts in body cells?",
         choices: [
-          "They are consumed each time they help a reaction.",
-          "They make reactions require higher temperatures than usual.",
-          "They change products into the enzyme's material.",
+          "They are changed into products each time they help a reaction.",
+          "They make useful reactions occur mainly by raising body temperature.",
+          "They supply extra reactant atoms for the products being formed.",
           "They help important reactions occur fast enough without being used up in each reaction."
         ],
         correctIndex: 3,
@@ -10051,10 +10051,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-246-q1",
         prompt: "What can cause a runaway reaction in a large industrial vessel?",
         choices: [
-          "The reaction cools and slows before operators can measure it.",
+          "The reaction releases heat that is removed faster than reactants can collide.",
           "Heat released by an exothermic reaction increases reaction rate, releasing even more heat.",
-          "The container removes products faster than reactants can collide.",
-          "Products have no energy."
+          "The container absorbs the products, so the reaction rate is measured incorrectly.",
+          "Products form with less energy, so the reaction stops transferring heat."
         ],
         correctIndex: 1,
         explanation: "Heat can make a reaction self-accelerate if it is not removed safely."
@@ -10063,10 +10063,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-246-q2",
         prompt: "Why is scaling up a lab reaction to industry risky?",
         choices: [
-          "Large reactions behave like physical changes once the vessel is big enough.",
-          "Industrial containers do not contain atoms.",
+          "Large vessels make reactant collisions rare, so the reaction type changes.",
+          "Industrial containers make exothermic reactions absorb energy overall.",
           "Large amounts of reacting material can release heat faster than it is removed.",
-          "Exothermic reactions become harmless when scaled up."
+          "Scaling up reduces the need to monitor temperature if the same chemicals are used."
         ],
         correctIndex: 2,
         explanation: "Heat management becomes more important at larger scale."
@@ -10076,9 +10076,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which safety control directly addresses the risk of runaway reactions?",
         choices: [
           "Designing systems to remove excess heat and monitor temperature",
-          "Ignoring temperature changes.",
-          "Adding reactants as fast as possible without measurement.",
-          "Sealing pressure relief systems so heat stays contained."
+          "Adding reactants faster so the reaction finishes before heat builds up.",
+          "Sealing heat inside the vessel so the surroundings stay protected.",
+          "Choosing a larger vessel without changing heat-removal design."
         ],
         correctIndex: 0,
         explanation: "Monitoring and heat removal help keep reaction rate under control."
@@ -10092,9 +10092,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-247-q1",
         prompt: "In shape-shifting paper, what happens when thermoplastic polymers absorb energy in an oven?",
         choices: [
-          "The polymer chains become more rigid and resist changing shape.",
+          "The polymer chains cool and lock into the stretched shape.",
           "The paper dries out, so ordinary folds hold their position.",
-          "The polymer absorbs heat but its molecules keep the same motion.",
+          "The polymer absorbs heat but the cuts in the paper do most of the shrinking.",
           "Molecular motion increases and the polymer can shrink from its stretched shape."
         ],
         correctIndex: 3,
@@ -10104,10 +10104,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-247-q2",
         prompt: "How does polymer shrinkage help the paper fold?",
         choices: [
-          "Shrinking makes the entire sheet expand as one flat layer.",
+          "Shrinking makes the whole sheet expand evenly while staying flat.",
           "Shrinking in selected places lifts and bends the paper into a three-dimensional form.",
-          "The polymer reacts away so gaps pull the paper inward.",
-          "Heating weakens the paper fibres until gravity forms the final shape."
+          "The polymer dissolves from the paper and leaves gaps that pull it inward.",
+          "Heating weakens the paper fibres, so gravity determines the final shape."
         ],
         correctIndex: 1,
         explanation: "Placed polymer strips can pull parts of the paper as they shrink."
@@ -10116,8 +10116,8 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-247-q3",
         prompt: "Which idea connects this material to energy transfer?",
         choices: [
-          "Energy transfer matters mainly because it changes the paper's colour.",
-          "The oven supplies matter that becomes part of the polymer.",
+          "Energy transfer matters mainly because it changes the printed fold pattern.",
+          "The oven supplies heat, which becomes extra matter in the polymer.",
           "Energy absorbed by the polymer changes molecular motion and material shape.",
           "The polymer stores heat without changing its molecular arrangement."
         ],
@@ -10134,9 +10134,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why is shape-shifting paper an example of chemistry supporting material design?",
         choices: [
           "The chemical and physical properties of polymers are used to create useful structures.",
-          "The design relies mostly on cutting patterns, while polymer behaviour is incidental.",
+          "The design relies on cutting patterns, while polymer behaviour mainly changes appearance.",
           "The paper folds because heating changes the external air pressure around it.",
-          "The polymer is chosen because it stays unchanged under the oven conditions."
+          "The polymer is chosen because it resists molecular motion in the oven."
         ],
         correctIndex: 0,
         explanation: "Material design can use molecular behaviour to produce large-scale structure."
@@ -10145,7 +10145,7 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-248-q2",
         prompt: "Which design goal could be supported by lightweight shape-shifting materials?",
         choices: [
-          "Making packaging thicker so it needs more raw material to be strong.",
+          "Making packaging thicker so strength comes mostly from extra mass.",
           "Choosing materials that soften but do not hold a useful shape.",
           "Using a drawing to plan folds without considering material response.",
           "Creating packaging that forms a strong structure with less material."
@@ -10157,9 +10157,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-248-q3",
         prompt: "A designer chooses a polymer because it shrinks predictably when heated. What chemistry idea are they using?",
         choices: [
-          "Chemical symbols can be rearranged to make a material fold.",
+          "A polymer formula can be rearranged on paper to make the sheet fold.",
           "Material properties can be matched to a desired function.",
-          "A catalyst is needed whenever a material changes shape.",
+          "A catalyst is needed because this shape change is treated as a chemical reaction.",
           "Heating changes the design drawing rather than the material."
         ],
         correctIndex: 1,
@@ -10174,8 +10174,8 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-249-q1",
         prompt: "What does the shape-shifting paper example show about science and creativity?",
         choices: [
-          "Design ideas are creative, but chemistry is mainly useful after the product is finished.",
-          "Creative ideas are strongest when they avoid measurement and testing.",
+          "Design ideas are creative, but chemistry mainly matters after a product is finished.",
+          "Creative ideas are strongest when testing is replaced by appearance.",
           "Ideas from chemistry, art, design, and engineering can combine to create new technologies.",
           "Engineering uses shape and structure, while chemistry mostly supplies names for materials."
         ],
@@ -10187,8 +10187,8 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which project best connects a personal interest with science?",
         choices: [
           "Using polymer behaviour to design an origami-inspired package",
-          "Choosing an origami pattern first and testing material behaviour afterward",
-          "Making a toy attractive before checking how the material responds to heat",
+          "Choosing an origami pattern first and assuming the material will respond as planned",
+          "Making a toy attractive before checking whether heat changes the material safely",
           "Selecting a bright material because appearance is easier to evaluate than performance"
         ],
         correctIndex: 0,
@@ -10198,9 +10198,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-249-q3",
         prompt: "Why should creative science designs still be evaluated?",
         choices: [
-          "Evaluation is mainly for advertising, because creative designs already show they work.",
+          "Evaluation is mainly for advertising, because a creative design has already shown its purpose.",
           "Safety checks matter less when a material is lightweight.",
-          "A design that folds correctly once will work in the same way in any condition.",
+          "A design that folds correctly once should perform similarly in different conditions.",
           "They must be checked for function, safety, cost, and environmental impact."
         ],
         correctIndex: 3,
@@ -10215,10 +10215,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-250-q1",
         prompt: "Which career task clearly uses chemistry knowledge?",
         choices: [
-          "A technician sorts sample labels before sending them to another lab.",
+          "A technician sorts sample labels but does not interpret the materials.",
           "A forensic scientist analyzes chemical evidence from a scene.",
-          "A worker records the location of equipment without testing materials.",
-          "A planner schedules staff for a lab but does not interpret the samples."
+          "A worker records equipment locations before samples are tested.",
+          "A planner schedules lab staff without interpreting chemical results."
         ],
         correctIndex: 1,
         explanation: "Forensic science can depend on chemical tests and evidence interpretation."
@@ -10227,10 +10227,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-250-q2",
         prompt: "Why might a mudlogger need chemistry and geology knowledge?",
         choices: [
-          "They mainly use chemistry to choose drilling equipment colours.",
-          "They identify underground samples by depth but do not interpret their composition.",
+          "They mainly use chemistry to choose which drilling tools are easiest to label.",
+          "They record underground sample depth but leave composition unexplained.",
           "They analyze underground rock samples and information related to oil and gas deposits.",
-          "They focus on surface weather because rock samples give little chemical information."
+          "They focus on surface conditions because rock chemistry is unrelated to deposits."
         ],
         correctIndex: 2,
         explanation: "The textbook connects mudlogging to chemistry, geology, and underground samples."
@@ -10240,9 +10240,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which pair of careers from this section both connect to chemical processes or materials?",
         choices: [
           "Food scientist and materials technician",
-          "Architectural drafter and delivery scheduler",
-          "Graphic designer and office receptionist",
-          "Tour guide and event photographer"
+          "Architectural drafter and lab schedule coordinator",
+          "Graphic designer and equipment inventory clerk",
+          "Tour guide and field-trip photographer"
         ],
         correctIndex: 0,
         explanation: "Food science and materials work can both require chemical knowledge."
