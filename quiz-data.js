@@ -16201,24 +16201,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-396-q1",
         prompt: "As rain falls from a cloud to the ground, which energy transformation is most directly involved?",
         choices: [
+          "Thermal energy in the air becomes chemical energy in raindrops.",
           "Gravitational potential energy transforms into kinetic energy.",
-          "Visible light transforms into DNA.",
-          "Thermal energy transforms into nuclear fuel.",
-          "Sound energy transforms into cloud mass."
+          "Kinetic energy in falling water becomes stored solar radiation.",
+          "Chemical energy in water molecules turns into electrical energy."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Falling precipitation loses height and gains motion, so gravitational potential energy changes into kinetic energy."
       },
       {
         id: "kp-396-q2",
         prompt: "Snow melts on a mountain and flows downhill as runoff. What energy idea helps explain the downhill movement?",
         choices: [
+          "Runoff moves mainly because melted snow has absorbed thermal energy.",
+          "Runoff moves because condensation gives water molecules extra mass.",
           "Water at higher elevation has gravitational potential energy that can transform as it moves downward.",
-          "Water must move uphill because it is colder.",
-          "Runoff happens without gravity.",
-          "Only greenhouse gases can move water downhill."
+          "Water flows downhill because liquid water has lower specific heat capacity than ice."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Gravitational energy helps move water from higher to lower elevations."
       },
       {
@@ -16226,9 +16226,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "A student says, 'Precipitation is only part of the water cycle, not an energy process.' What is the best correction?",
         choices: [
           "Precipitation also involves gravitational energy transformations as water falls and flows.",
-          "Precipitation has no mass.",
-          "Precipitation is caused only by nuclear decay.",
-          "Precipitation cannot move between spheres."
+          "Precipitation is mainly energy transfer by photosynthesis in the atmosphere.",
+          "Precipitation stores energy by raising water from low elevations to clouds.",
+          "Precipitation changes solar radiation directly into greenhouse gases."
         ],
         correctIndex: 0,
         explanation: "The water cycle transports water and energy; precipitation involves gravitational energy changing as water moves."
@@ -16242,24 +16242,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-397-q1",
         prompt: "What does specific heat capacity describe?",
         choices: [
+          "The energy released when water vapour condenses around dust.",
+          "The temperature a substance reaches after absorbing sunlight.",
           "The energy needed to change the temperature of 1 g of a substance by 1 C.",
-          "The mass of one litre of ocean water.",
-          "The speed at which sunlight travels.",
-          "The amount of gravity acting on a cloud."
+          "The rate at which a material transfers heat by convection."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Specific heat capacity compares how much energy different substances need for the same temperature change."
       },
       {
         id: "kp-397-q2",
         prompt: "Substance A needs 2 J to warm 1 g by 1 C. Substance B needs 5 J to warm 1 g by 1 C. Which has the higher specific heat capacity?",
         choices: [
-          "Substance B.",
           "Substance A.",
-          "They are equal.",
-          "Neither, because specific heat cannot be compared."
+          "They are equal because the mass and temperature change match.",
+          "Substance B.",
+          "The substance with the lower starting temperature."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "The substance requiring more energy for the same mass and temperature change has the higher specific heat capacity."
       },
       {
@@ -16267,9 +16267,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "A material with low specific heat capacity is heated with the same energy as an equal mass of water. What is likely?",
         choices: [
           "Its temperature changes more quickly than water's temperature.",
-          "Its temperature cannot change.",
-          "It must become radioactive.",
-          "It reflects all thermal energy."
+          "It stores more thermal energy with a smaller temperature change.",
+          "It warms at the same rate because the masses are equal.",
+          "It cools the water by forcing evaporation to stop."
         ],
         correctIndex: 0,
         explanation: "Lower specific heat capacity means less energy is needed for a temperature change."
@@ -16283,10 +16283,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-398-q1",
         prompt: "Why do oceans help moderate Earth's temperature?",
         choices: [
-          "Water has a high specific heat capacity, so oceans store lots of thermal energy with small temperature changes.",
-          "Water has no thermal energy.",
-          "Oceans reflect all sunlight and never absorb energy.",
-          "Ocean water changes temperature faster than land in every case."
+          "Ocean water stores thermal energy with relatively small temperature changes.",
+          "Ocean water gains temperature faster than land when both absorb heat.",
+          "Ocean currents prevent thermal energy from moving into the air.",
+          "Ocean surfaces cool climates mainly by stopping evaporation."
         ],
         correctIndex: 0,
         explanation: "Because water has high specific heat capacity, oceans warm and cool slowly while storing energy."
@@ -16295,24 +16295,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-398-q2",
         prompt: "A coastal city and an inland city receive similar summer sunlight. Why might the coastal city have cooler summers?",
         choices: [
+          "Sea breezes block solar radiation before it reaches the land.",
           "Nearby ocean water absorbs and stores thermal energy without warming as quickly as land.",
-          "Ocean water releases no energy in winter or summer.",
-          "The ocean removes all solar radiation from the atmosphere.",
-          "Coasts have no greenhouse gases."
+          "Coastal land has a higher specific heat capacity than the ocean.",
+          "The ocean changes thermal energy into gravitational potential energy."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Water changes temperature more slowly than land, which helps moderate coastal climates."
       },
       {
         id: "kp-398-q3",
         prompt: "Which comparison best matches the textbook's explanation of coastal climate?",
         choices: [
+          "Land stores more thermal energy than water, so it protects coasts from seasonal change.",
           "Water acts somewhat like a seasonal air conditioner and heater because it stores and releases energy slowly.",
-          "Water makes summers hotter and winters colder than inland areas every time.",
-          "Land has much higher specific heat capacity than water.",
-          "Ocean water cannot transfer energy to its surroundings."
+          "Ocean water makes coastal temperatures match inland temperatures.",
+          "Water moderates climate mainly by increasing nuclear decay in seawater."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Oceans can cool nearby regions in summer and warm them in winter by storing and releasing thermal energy slowly."
       }
     ]
@@ -16325,9 +16325,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which statement best summarizes Concept 4?",
         choices: [
           "Energy transformations can harm ecosystems through both natural events and human activities.",
-          "Energy transformations are always harmless.",
-          "Only laboratory energy transformations affect ecosystems.",
-          "Natural events never involve energy transformation."
+          "Energy transformations affect ecosystems mainly when humans measure them.",
+          "Natural events involve energy, while human activities mainly involve matter.",
+          "Ecosystem harm is best explained without considering energy transfer."
         ],
         correctIndex: 0,
         explanation: "The textbook introduces both natural events, such as fires or volcanic activity, and human-caused impacts."
@@ -16336,12 +16336,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-399-q2",
         prompt: "Which pair compares a natural and a human-caused ecosystem impact?",
         choices: [
+          "Photosynthesis in forests and condensation in clouds.",
           "Volcanic activity and increased greenhouse gas emissions from industry.",
-          "Photosynthesis and condensation only.",
-          "A tide and the Moon's orbit only.",
-          "Reflection and absorption of sunlight by clean snow only."
+          "Evaporation from oceans and transpiration from plants.",
+          "A sea breeze and the daily rotation of Earth."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Volcanic activity is a natural event, while added greenhouse gases from human activities can contribute to climate change."
       },
       {
@@ -16349,9 +16349,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why should ecosystem harm be discussed in terms of energy transfer and transformation?",
         choices: [
           "Changes in thermal energy, radiation, or other energy flows can affect organisms and habitats.",
-          "Ecosystems do not respond to temperature or radiation.",
-          "Only living things contain energy, so habitats cannot be affected.",
-          "Energy transfer always improves ecosystem health."
+          "Energy transfer matters mainly when it increases the number of organisms.",
+          "Radiation and temperature changes are separate from ecosystem conditions.",
+          "Habitats respond to matter movement, while organisms respond to energy movement."
         ],
         correctIndex: 0,
         explanation: "Ecosystems can be harmed when energy changes alter temperature, radiation exposure, or other environmental conditions."
@@ -16366,9 +16366,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What is the human-induced greenhouse effect?",
         choices: [
           "Warming linked to added greenhouse gases from human activities.",
-          "Cooling caused by removing all greenhouse gases from the atmosphere.",
-          "A natural tide cycle caused by the Moon.",
-          "A method for storing nuclear waste underwater."
+          "Warming caused by sunlight being changed directly into nuclear radiation.",
+          "Cooling caused by greenhouse gases reflecting infrared radiation from Earth.",
+          "A climate pattern caused mainly by tides moving heat through the ocean."
         ],
         correctIndex: 0,
         explanation: "Human activities can add greenhouse gases, increasing the warming influence of the greenhouse effect."
@@ -16377,12 +16377,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-400-q2",
         prompt: "Which activity is most directly connected to increased greenhouse gas emissions in this chapter?",
         choices: [
+          "Cloud droplets condensing around dust in the atmosphere.",
+          "Rain falling from a high cloud to lower elevation.",
           "Burning fuels to generate electricity, power vehicles, heat homes, or run industry.",
-          "Cloud droplets condensing around dust.",
-          "Rain falling from a high cloud.",
-          "Warm air rising during convection."
+          "Warm air rising as cool air sinks during convection."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "The chapter connects electricity generation, vehicles, home heating, and industrial processes to added greenhouse gases."
       },
       {
@@ -16390,9 +16390,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why is it incomplete to say, 'The greenhouse effect is bad'?",
         choices: [
           "The natural greenhouse effect supports life, but extra greenhouse gases from humans can increase warming.",
-          "The greenhouse effect has no connection to temperature.",
-          "Greenhouse gases cannot absorb infrared radiation.",
-          "All greenhouse gases come only from volcanoes."
+          "The greenhouse effect changes water into oxygen before it reaches plants.",
+          "Greenhouse gases cool Earth by removing thermal energy from the atmosphere.",
+          "Greenhouse gases matter for weather, while climate is controlled by gravity."
         ],
         correctIndex: 0,
         explanation: "The natural greenhouse effect is important, while human-caused increases in greenhouse gases can disrupt climate systems."
@@ -16407,9 +16407,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why can warming water disrupt aquatic ecosystems?",
         choices: [
           "Many aquatic organisms thrive within specific temperature ranges.",
-          "Aquatic organisms are never affected by temperature.",
-          "Warm water removes all food webs from the ocean instantly.",
-          "Temperature changes only affect rocks, not organisms."
+          "Aquatic organisms respond to salinity, while temperature affects mainly land species.",
+          "Warmer water improves feeding conditions for predator and prey species at the same rate.",
+          "Temperature change affects individual organisms more than feeding relationships."
         ],
         correctIndex: 0,
         explanation: "If water warms beyond a species' preferred range, organisms may move, struggle, or affect other species that depend on them."
@@ -16419,9 +16419,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "A small fish species moves north as local ocean water warms. What food-web effect could follow?",
         choices: [
           "Predators that rely on the fish may have less food in the original area.",
-          "Predators will automatically need no food.",
-          "The fish movement cannot affect any other organism.",
-          "Only rocks and sand are affected."
+          "Predators in the original area will shift immediately to the same prey abundance.",
+          "The fish movement affects migration routes but not survival of young predators.",
+          "The main effect is that the fish stop transferring energy through the food web."
         ],
         correctIndex: 0,
         explanation: "When prey move to cooler waters, predators may lose a reliable food source."
@@ -16430,10 +16430,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-401-q3",
         prompt: "Which statement best corrects the misconception that a 1 C average warming is too small to matter?",
         choices: [
-          "Even small average temperature changes can shift habitats and food-web relationships.",
-          "A 1 C change cannot affect water temperature anywhere.",
-          "Only land ecosystems respond to warming.",
-          "Food webs are separate from temperature."
+          "A 1 C average change can still shift habitats and food-web relationships.",
+          "Average temperature matters for climate but not for organism ranges.",
+          "Small average changes are balanced when organisms absorb extra thermal energy.",
+          "A 1 C average change mainly affects ocean depth rather than species location."
         ],
         correctIndex: 0,
         explanation: "Ecosystems can be sensitive to temperature ranges, so small average changes can have large biological effects."
@@ -16447,24 +16447,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-402-q1",
         prompt: "What happens during coral bleaching?",
         choices: [
-          "Warming can cause corals to expel algae that help provide food, leaving corals pale and stressed.",
-          "Corals become stronger because they absorb more algae.",
-          "Corals turn white because they gain extra soil nutrients.",
-          "Corals leave the reef and swim to cooler water."
+          "Corals convert algae into calcium carbonate, which makes the reef lighter in colour.",
+          "Corals expel algae that help provide food when warmer water stresses the relationship.",
+          "Corals increase photosynthesis by storing extra algae in their tissues.",
+          "Corals lose colour mainly because colder water slows runoff from land."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Corals live closely with algae; warming can disrupt this relationship and cause bleaching."
       },
       {
         id: "kp-402-q2",
         prompt: "Why does coral bleaching matter beyond the coral animals themselves?",
         choices: [
+          "Bleaching changes coral colour but leaves reef habitat relationships unchanged.",
           "Coral reefs provide habitat and nursery areas for many ocean organisms.",
-          "Coral reefs are never used by other organisms.",
-          "Bleaching increases every reef food source.",
-          "Bleaching affects only the colour of seawater."
+          "Bleached corals become new producers that replace algae in the food web.",
+          "Coral bleaching mainly affects freshwater species moving into the reef."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Damaged reefs can reduce habitat quality for many species that depend on reef ecosystems."
       },
       {
@@ -16472,9 +16472,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which cause-and-effect chain best matches the textbook idea?",
         choices: [
           "Ocean warming -> coral-algae relationship disrupted -> bleaching -> reef habitat damage.",
-          "Ocean cooling -> more algae always leave -> all reefs grow faster.",
-          "Noise pollution -> coral becomes radioactive -> bleaching.",
-          "Tides stop -> coral changes into algae -> reef habitat doubles."
+          "Ocean warming -> corals store more algae -> bleaching -> stronger reef habitat.",
+          "Ocean cooling -> corals release more thermal energy -> bleaching -> higher fish survival.",
+          "More runoff -> corals gain soil nutrients -> bleaching -> increased nursery habitat."
         ],
         correctIndex: 0,
         explanation: "The chapter links warming ocean temperatures to coral bleaching and reef ecosystem harm."
@@ -16488,10 +16488,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-403-q1",
         prompt: "How can warming ocean water affect predators such as seabirds?",
         choices: [
-          "Prey fish may move to cooler waters, making food harder for predators to find.",
-          "Predators stop needing food when water warms.",
-          "Warming water creates unlimited prey in every region.",
-          "Food webs are not affected by prey movement."
+          "Predators may need to follow prey that shift toward cooler water.",
+          "Predators gain energy directly from warmer water when prey move away.",
+          "Predators and prey usually move at the same time and distance.",
+          "Prey movement changes habitat temperature but not feeding success."
         ],
         correctIndex: 0,
         explanation: "If prey shift location, predators that rely on them may have lower feeding success."
@@ -16500,24 +16500,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-403-q2",
         prompt: "In a textbook-like puffin example, adult birds follow fish to cooler waters and leave chicks behind. What is the likely result?",
         choices: [
-          "Fewer young birds may survive to adulthood.",
-          "All chicks immediately become independent.",
-          "The food web becomes simpler with no consequences.",
-          "Ocean temperature no longer matters."
+          "The chicks receive more food because fish are farther from the nest.",
+          "Adults bring back warmer water instead of prey for the chicks.",
+          "The chicks become less dependent on the food web as temperature rises.",
+          "Fewer young birds may survive to adulthood."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "When adults must travel farther for food or abandon young, survival of young animals can decrease."
       },
       {
         id: "kp-403-q3",
         prompt: "What misconception about climate-related food-web disruption should be corrected?",
         choices: [
-          "That only the species directly experiencing warmer water can be affected.",
-          "That prey location can influence predators.",
-          "That food webs include feeding relationships.",
-          "That aquatic species can have temperature ranges."
+          "That a prey species shifting location can affect predators that depend on it.",
+          "That feeding relationships can connect temperature change to survival.",
+          "That aquatic species may have preferred temperature ranges.",
+          "That impacts stop with the species first responding to warmer water."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Effects can spread through food webs when one species changes location, abundance, or survival."
       }
     ]
@@ -16530,9 +16530,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why can radioactive materials be especially harmful in terrestrial ecosystems?",
         choices: [
           "They can accumulate in soil and expose organisms over time.",
-          "They always flush away instantly from soil.",
-          "They only affect ocean water and never land.",
-          "They remove all need for decomposition."
+          "They are diluted by soil faster than by moving water.",
+          "They affect plant growth but not animals or microorganisms.",
+          "They become harmless once absorbed by the first organism."
         ],
         correctIndex: 0,
         explanation: "The textbook contrasts soil accumulation on land with faster flushing in many aquatic systems."
@@ -16542,9 +16542,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which comparison best explains why radiation effects may persist longer on land than in water?",
         choices: [
           "Soil can hold radioactive material, while water systems may move some materials away more quickly.",
-          "Soil cannot contain any particles.",
-          "Aquatic systems always trap radioactive material forever.",
-          "Land organisms are made of no cells."
+          "Soil changes radioactive isotopes into nutrients faster than water does.",
+          "Water systems increase nuclear decay rates by adding thermal energy.",
+          "Land ecosystems have fewer organisms, so radiation spreads more slowly."
         ],
         correctIndex: 0,
         explanation: "Accumulation in soil can maintain exposure for organisms in terrestrial ecosystems."
@@ -16553,10 +16553,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-404-q3",
         prompt: "Which ecosystem process could be disrupted if radiation harms fungi, microorganisms, and insects?",
         choices: [
-          "Biological decay and nutrient recycling.",
-          "The Moon's orbit.",
-          "The speed of visible light.",
-          "The existence of ocean tides."
+          "The transfer of nutrients from dead matter back to living things.",
+          "The conversion of infrared radiation into visible light.",
+          "The movement of ocean water during evaporation.",
+          "The storage of gravitational potential energy in clouds."
         ],
         correctIndex: 0,
         explanation: "Decomposers recycle nutrients from dead matter; radiation damage can disrupt this process."
@@ -16571,9 +16571,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What kind of biological effect can radiation from a nuclear accident cause?",
         choices: [
           "Mutations and damage to organisms.",
-          "Immediate improvement in every ecosystem process.",
-          "Permanent removal of all greenhouse gases.",
-          "A complete stop to gravity."
+          "A faster rate of photosynthesis in exposed animal cells.",
+          "A change from radioactive material into stored chemical food.",
+          "A direct increase in specific heat capacity of nearby soil."
         ],
         correctIndex: 0,
         explanation: "The textbook examples connect radiation exposure to mutations and long-term ecosystem damage."
@@ -16582,10 +16582,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-405-q2",
         prompt: "Why are nuclear accidents described as infrequent but potentially devastating?",
         choices: [
-          "They do not happen often, but released radioactive materials can cause long-lasting harm.",
-          "They happen every day and never affect organisms.",
-          "They only produce harmless visible light.",
-          "They remove radioactive materials from ecosystems."
+          "Released radioactive materials can persist and affect organisms long after the accident.",
+          "Their main impact is short-term heating, which ends once the reactor cools.",
+          "They mostly change weather patterns without affecting living tissue.",
+          "Their effects are limited to the building where the accident begins."
         ],
         correctIndex: 0,
         explanation: "Radioactive contamination can persist and affect organisms, soil, and ecosystem processes for many years."
@@ -16595,9 +16595,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "A forest near a reactor accident shows slow tree growth and reduced decomposition years later. What is the best explanation?",
         choices: [
           "Radiation exposure can damage organisms involved in growth and nutrient cycling.",
-          "The forest has too much reflection from snow.",
-          "All forests naturally stop decomposing after a decade.",
-          "Noise pollution from ships is the only possible cause."
+          "The accident increased the forest's specific heat capacity enough to slow decay.",
+          "The trees stored too much gravitational potential energy after the accident.",
+          "Runoff carried extra coral algae into the forest soil."
         ],
         correctIndex: 0,
         explanation: "Radiation can affect plants, animals, and decomposers, leading to long-term ecosystem effects."
