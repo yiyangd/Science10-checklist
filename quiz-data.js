@@ -11486,8 +11486,8 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-281-q1",
         prompt: "A fuel contains a small amount of sulfur. Which outcome best explains why burning it can contribute to air pollution?",
         choices: [
-          "The sulfur atoms become trapped in the ash, so gas products are not important.",
-          "The fuel burns normally, but sulfur remains separate from oxygen.",
+          "The sulfur atoms mainly stay in the fuel residue, so oxide gases are minor.",
+          "The fuel still reacts with oxygen, but sulfur is treated as a spectator element.",
           "Sulfur can react with oxygen to form sulfur dioxide, an oxide pollutant.",
           "Sulfur changes the flame colour but does not affect the combustion products."
         ],
@@ -11499,8 +11499,8 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why can gases such as sulfur dioxide and nitrogen dioxide be linked to acid precipitation?",
         choices: [
           "They can react in the atmosphere and help form acidic compounds.",
-          "They are already neutral salts, so they simply make rainwater neutral.",
-          "They make clouds warmer, which changes rain without making acids.",
+          "They are already acids, so no further atmospheric reaction is involved.",
+          "They change cloud temperature, which lowers pH without forming acids.",
           "They settle out before reacting with water in the atmosphere."
         ],
         correctIndex: 0,
@@ -11527,10 +11527,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-282-q1",
         prompt: "A Bunsen burner flame becomes yellow and smoky after the air intake is partly closed. What is the best explanation?",
         choices: [
-          "The fuel is reacting more slowly because the flame temperature dropped.",
+          "The fuel is reacting with extra oxygen, so more soot forms.",
           "There is too little oxygen, so incomplete combustion is more likely.",
           "The burner is producing mostly carbon dioxide and water vapour.",
-          "The flame is neutralizing an acid in the air."
+          "The flame is producing a neutralization reaction instead of combustion."
         ],
         correctIndex: 1,
         explanation: "Limited oxygen can keep the fuel from burning completely."
@@ -11553,7 +11553,7 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "Some carbon from the fuel remains as solid particles instead of becoming carbon dioxide.",
           "Soot forms when extra oxygen turns carbon dioxide back into carbon.",
-          "Soot proves the fuel contained no carbon atoms.",
+          "Soot indicates the fuel's carbon was converted completely into carbon dioxide.",
           "Soot is the salt produced by acid-base neutralization."
         ],
         correctIndex: 0,
@@ -11568,9 +11568,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-283-q1",
         prompt: "Why can carbon monoxide build-up be dangerous before people notice a problem?",
         choices: [
-          "It is a visible black solid that settles on the floor.",
-          "It has a strong sour smell that people often ignore.",
-          "It is safe unless it reacts with litmus paper.",
+          "It is sometimes assumed to be visible when soot is present.",
+          "It has a smell similar to smoke, so people may confuse it with ordinary exhaust.",
+          "It is mainly a pH hazard rather than a breathing hazard.",
           "It is colourless, odourless, and toxic."
         ],
         correctIndex: 3,
@@ -11580,10 +11580,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-283-q2",
         prompt: "Which situation has the greatest carbon monoxide risk?",
         choices: [
-          "Testing lemon juice with litmus in an open classroom.",
+          "Lighting a candle briefly in a well-ventilated room.",
           "Running a fuel-burning engine in a closed garage.",
-          "Letting salt water evaporate on a sunny window ledge.",
-          "Adding universal indicator to distilled water."
+          "Testing a neutral salt solution with universal indicator.",
+          "Letting carbonated water sit open on a lab bench."
         ],
         correctIndex: 1,
         explanation: "Poorly ventilated fuel combustion can produce and trap carbon monoxide."
@@ -11592,10 +11592,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-283-q3",
         prompt: "A home has a gas furnace and a fireplace. What is the main role of a carbon monoxide detector?",
         choices: [
-          "It adds oxygen to the room so flames burn more completely.",
-          "It turns carbon monoxide into carbon dioxide inside the room.",
+          "It adds oxygen to nearby flames so incomplete combustion stops.",
+          "It converts carbon monoxide into carbon dioxide before people breathe it.",
           "It warns people when a hard-to-detect toxic gas may be present.",
-          "It identifies the pH of gases from the furnace."
+          "It measures pH changes caused by furnace gases."
         ],
         correctIndex: 2,
         explanation: "Detectors provide warning when human senses may not."
@@ -11611,7 +11611,7 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "It releases \\(H^+\\) ions into the aqueous solution.",
           "It releases \\(OH^-\\) ions as the main ion in solution.",
-          "It must contain a metal and a carbonate ion.",
+          "It contains hydrogen in its formula, even if it does not ionize in water.",
           "It must have a pH value greater than 7."
         ],
         correctIndex: 0,
@@ -11635,8 +11635,8 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "The solution is probably neutral because it has no visible colour.",
           "The solution is acidic.",
-          "The solution is basic because it changed an indicator.",
-          "The solution is a salt solution because litmus changed colour."
+          "The solution is basic because litmus changed colour.",
+          "The solution is neutral because indicators react with any colourless liquid."
         ],
         correctIndex: 1,
         explanation: "Acids turn blue litmus red and have pH values below 7."
@@ -11651,7 +11651,7 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What defines a base in aqueous solution?",
         choices: [
           "It releases \\(H^+\\) ions into water.",
-          "It is any compound that contains hydrogen.",
+          "It contains hydrogen and oxygen somewhere in the formula.",
           "It forms \\(OH^-\\) ions when dissolved in water.",
           "It is any solution that feels slippery before testing."
         ],
@@ -11675,8 +11675,8 @@ window.SCIENCE10_QUIZZES = {
         prompt: "A cleaner has pH 11 and turns red litmus blue. What does this indicate?",
         choices: [
           "It is acidic because any pH number above 10 is very acidic.",
-          "It is neutral because cleaners can be diluted with water.",
-          "It is a combustion product rather than a solution.",
+          "It is neutral because cleaners are usually diluted with water.",
+          "It is acidic because it changes litmus colour strongly.",
           "It is basic because pH is above 7 and red litmus turns blue."
         ],
         correctIndex: 3,
@@ -11694,7 +11694,7 @@ window.SCIENCE10_QUIZZES = {
           "It identifies the exact formula of the dissolved compound.",
           "It changes colour in response to acidic or basic conditions.",
           "It changes the solution by reacting with the acid or base.",
-          "It proves that a combustion reaction has occurred."
+          "It measures the mass of \\(H^+\\) ions directly."
         ],
         correctIndex: 1,
         explanation: "Indicators respond to hydrogen ion concentration or pH range."
@@ -11706,7 +11706,7 @@ window.SCIENCE10_QUIZZES = {
           "The solution is basic because red means high pH.",
           "The solution is neutral because litmus changed colour.",
           "The solution is acidic because acids turn blue litmus red.",
-          "The solution must contain carbon monoxide."
+          "The solution is acidic because bases turn blue litmus red."
         ],
         correctIndex: 2,
         explanation: "Blue litmus turning red is evidence of acidity."
@@ -11718,7 +11718,7 @@ window.SCIENCE10_QUIZZES = {
           "They can give a pH value or narrower pH range rather than broad acid/base evidence.",
           "They remove the hydrogen ions from the solution during testing.",
           "They automatically balance the acid-base equation.",
-          "They work best on gases from incomplete combustion."
+          "They identify the salt that will form during neutralization."
         ],
         correctIndex: 0,
         explanation: "Litmus mostly classifies acid/base, while other tools can provide pH information."
@@ -11732,9 +11732,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-287-q1",
         prompt: "Two samples have pH 3 and pH 5. Which statement is correct?",
         choices: [
-          "pH 5 is more acidic because it is closer to 7.",
-          "Both samples are basic because their pH values are positive.",
-          "They are equally acidic because both are below 7.",
+          "pH 5 is more acidic because it is closer to neutral.",
+          "Both samples have the same acidity because they are both below 7.",
+          "pH 5 has more \\(H^+\\) because the pH number is larger.",
           "pH 3 is more acidic because lower pH means stronger acidity."
         ],
         correctIndex: 3,
@@ -11756,8 +11756,8 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-287-q3",
         prompt: "What does pH 7 usually indicate for pure water?",
         choices: [
-          "It has so few dissolved substances that pH is not useful.",
-          "It is strongly basic because 7 is a large number.",
+          "It is weakly acidic because water contains hydrogen atoms.",
+          "It is weakly basic because 7 is greater than most acidic values.",
           "It is neutral, with acidity and basicity balanced.",
           "It is acidic because it contains hydrogen atoms."
         ],
@@ -11775,7 +11775,7 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "\\(H^+\\) concentration is greater than \\(OH^-\\) concentration.",
           "\\(OH^-\\) concentration is greater than \\(H^+\\) concentration.",
-          "The two ions are equal whenever the solution has water.",
+          "The two ions are equal because acidic solutions still contain water.",
           "Aqueous acids contain hydroxide ions but not hydrogen ions."
         ],
         correctIndex: 0,
@@ -11785,7 +11785,7 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-288-q2",
         prompt: "A solution changes from pH 5 to pH 4. What happens to the hydrogen ion concentration?",
         choices: [
-          "It decreases because the pH number got smaller.",
+          "It decreases because a smaller pH number means fewer ions.",
           "It stays nearly the same because both values are acidic.",
           "It becomes half as large.",
           "It increases by about 10 times."
@@ -11800,7 +11800,7 @@ window.SCIENCE10_QUIZZES = {
           "\\(H^+\\) and \\(OH^-\\) are equal because pH values near the middle balance.",
           "\\(OH^-\\) is more abundant than \\(H^+\\).",
           "\\(H^+\\) is more abundant than \\(OH^-\\).",
-          "Neither \\(H^+\\) nor \\(OH^-\\) can exist above pH 7."
+          "The pH value describes indicator colour rather than ion balance."
         ],
         correctIndex: 1,
         explanation: "pH greater than 7 indicates a basic solution with more hydroxide ions."
@@ -11815,7 +11815,7 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What are the usual products when an acid reacts with a base in a neutralization reaction?",
         choices: [
           "A hydrocarbon and oxygen",
-          "Carbon dioxide and heat",
+          "Carbon dioxide and water, as in combustion",
           "A salt and water",
           "A metal and a separate non-metal"
         ],
@@ -11827,7 +11827,7 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which situation best represents neutralization in everyday life?",
         choices: [
           "A basic antacid reacts with excess stomach acid.",
-          "A candle wick burns in oxygen and releases heat.",
+          "A fuel burns in oxygen and releases heat.",
           "Salt crystals dissolve in water without reacting with an acid.",
           "Iron combines with oxygen to form an oxide."
         ],
@@ -11838,9 +11838,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-289-q3",
         prompt: "During neutralization, why does the pH often move closer to 7?",
         choices: [
-          "\\(H^+\\) ions are stored in the salt while \\(OH^-\\) ions remain unchanged.",
-          "\\(OH^-\\) ions become oxygen gas before the solution can become neutral.",
-          "The salt controls pH by absorbing water from the solution.",
+          "\\(H^+\\) ions move into the salt while \\(OH^-\\) ions stay dissolved.",
+          "\\(OH^-\\) ions become oxygen gas before the solution can approach neutral.",
+          "The salt controls pH by absorbing the indicator from the solution.",
           "\\(H^+\\) and \\(OH^-\\) combine to form water."
         ],
         correctIndex: 3,
