@@ -8206,10 +8206,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-201-q1",
         prompt: "A sealed flask contains 42.0 g of reactants before a reaction. After the reaction is complete, what total mass should be in the flask?",
         choices: [
-          "Less than 42.0 g because products are new substances",
-          "More than 42.0 g because atoms are made during reactions",
+          "Less than 42.0 g if a gas forms inside the sealed flask",
+          "More than 42.0 g if the products are denser than the reactants",
           "42.0 g",
-          "0 g because the reactants were used up"
+          "A different mass if the reaction gives off heat"
         ],
         correctIndex: 2,
         explanation: "In a chemical reaction, mass is conserved when matter cannot leave or enter the system."
@@ -8219,9 +8219,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which statement best describes the law of conservation of mass?",
         choices: [
           "The total mass of substances used equals the total mass of substances produced.",
-          "Reactants often have more measured mass when gases escape.",
-          "Products can have more measured mass if heat is released.",
-          "Mass is conserved in reactions that are easy to observe."
+          "Reactants and products have equal mass when gases are not produced.",
+          "Products can have more measured mass if heat is released in a closed system.",
+          "Mass is conserved when the reaction is balanced by changing formulas."
         ],
         correctIndex: 0,
         explanation: "Chemical reactions rearrange atoms; they do not create or destroy matter."
@@ -8230,9 +8230,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-201-q3",
         prompt: "Why is atom rearrangement important for explaining conservation of mass?",
         choices: [
-          "Atoms disappear when bonds break.",
-          "Energy conservation replaces the need to track matter.",
-          "Each product atom is newly created from heat.",
+          "Atoms leave the equation when reactant bonds break.",
+          "Energy conservation explains mass without tracking atoms.",
+          "Product atoms are supplied by heat released during the reaction.",
           "The same atoms are present before and after the reaction, just connected differently."
         ],
         correctIndex: 3,
@@ -8247,10 +8247,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-202-q1",
         prompt: "Which setup is best for testing whether mass is conserved during a reaction that produces a gas?",
         choices: [
-          "An open beaker so the gas can escape easily.",
+          "An open beaker so gas can leave without changing pressure.",
           "A sealed container on a balance before and after mixing the reactants.",
-          "A paper cup weighed after the reaction because the gas has finished escaping.",
-          "A container with one reactant added after the final mass is measured."
+          "A paper cup weighed after bubbling stops because the reaction is complete.",
+          "A container opened briefly after the reaction so the final products can settle."
         ],
         correctIndex: 1,
         explanation: "A closed system prevents matter, including gases, from leaving or entering."
@@ -8260,9 +8260,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "In a closed system, what can enter or leave while matter cannot?",
         choices: [
           "Atoms",
-          "Liquid products",
+          "Gas products",
           "Energy",
-          "Gas molecules produced by the reaction"
+          "Solid precipitates"
         ],
         correctIndex: 2,
         explanation: "Closed systems can exchange energy with the surroundings, but not matter."
@@ -8272,9 +8272,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "A student seals a flask, mixes two solutions inside it, and finds the mass is unchanged. What does this result support?",
         choices: [
           "The reaction conserved mass because no matter left the system.",
-          "No reaction could have happened.",
-          "The products must be identical to the reactants.",
-          "The balance ignored gas particles."
+          "No gas could have formed during the reaction.",
+          "The products must have the same properties as the reactants.",
+          "The balance measured energy instead of matter."
         ],
         correctIndex: 0,
         explanation: "Mass can remain constant even when new substances form, if the system is closed."
@@ -8288,9 +8288,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-203-q1",
         prompt: "An effervescent tablet reacts in an open beaker of water and the measured mass decreases. What is the best explanation?",
         choices: [
-          "Atoms were destroyed during bubbling.",
-          "The water stopped being matter.",
-          "The balance reads lower because the reaction uses up mass.",
+          "Gas formed but stayed dissolved, so the system lost mass by becoming less dense.",
+          "The water absorbed the missing mass as heat.",
+          "The balance reads lower because the product is less dense.",
           "Gas particles escaped into the air, so the beaker system lost matter."
         ],
         correctIndex: 3,
@@ -8302,8 +8302,8 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "Matter stays inside while energy exchange is the main change.",
           "Matter and energy can both enter or leave.",
-          "Atoms can enter, but molecules are too large to leave.",
-          "Nothing can enter or leave."
+          "Energy can enter, but gas products are expected to stay inside.",
+          "Matter can leave, but energy is trapped inside."
         ],
         correctIndex: 1,
         explanation: "Open systems allow exchange of both matter and energy with surroundings."
@@ -8312,10 +8312,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-203-q3",
         prompt: "Why can an open-system reaction seem to violate conservation of mass?",
         choices: [
-          "Chemical reactions sometimes destroy atoms in open containers.",
-          "Open containers stop products from forming.",
+          "Chemical reactions in open containers seem conserved when no bubbles are visible.",
+          "Open containers prevent accurate product formation when gases are involved.",
           "Matter may move out of the measured system even though total matter is still conserved.",
-          "Energy leaving the system has mass equal to the missing product."
+          "Energy leaving the system is usually measured as missing product mass."
         ],
         correctIndex: 2,
         explanation: "The apparent change comes from the boundary of what is measured, not from matter being destroyed."
@@ -8330,9 +8330,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why were careful mass measurements important in Lavoisier-style experiments?",
         choices: [
           "They showed that the mass of reactants matched the mass of products in closed systems.",
-          "They proved that gases have no mass.",
-          "They showed that products become heavier when a solid is heated.",
-          "They replaced the need to observe chemical changes."
+          "They showed that gases could be ignored if the solid was weighed carefully.",
+          "They showed that heating a solid usually increases its mass by adding energy.",
+          "They replaced the need to track whether matter entered or left the system."
         ],
         correctIndex: 0,
         explanation: "Repeated measurements helped establish the law of conservation of mass."
@@ -8342,8 +8342,8 @@ window.SCIENCE10_QUIZZES = {
         prompt: "A scientist heats a solid in sealed glassware and measures all contents before and after. What makes this evidence strong?",
         choices: [
           "Heating adds mass to the chemicals being tested.",
-          "Glassware cancels measurement errors automatically.",
-          "The colour of a product is enough to prove conservation.",
+          "Glassware makes the colour change easier to compare with mass change.",
+          "The colour of a product can stand in for measuring the substances.",
           "The system prevents products such as gases from escaping during measurement."
         ],
         correctIndex: 3,
@@ -8353,10 +8353,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-204-q3",
         prompt: "Which conclusion best connects experimental evidence to a scientific law?",
         choices: [
-          "One dramatic reaction is enough if the colour change is clear.",
+          "One dramatic reaction is enough if the mass change is easy to see.",
           "Repeated closed-system reactions with equal before-and-after mass support a general conservation rule.",
-          "If a reaction gives off light, the energy change replaces mass measurements.",
-          "A law is based on preference rather than evidence."
+          "If a reaction gives off light, the energy evidence is more useful than mass evidence.",
+          "A law is based on a useful explanation before repeated measurement is needed."
         ],
         correctIndex: 1,
         explanation: "Scientific laws are supported by repeated patterns in evidence."
@@ -8395,8 +8395,8 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What should you count to check whether an equation obeys conservation of mass?",
         choices: [
           "The number of plus signs on each side.",
-          "The number of chemical formulas on the product side.",
-          "The number of letters in each compound name.",
+          "The number of reactant formulas compared with product formulas.",
+          "The number of compound names on each side.",
           "Atoms of each element on both sides of the arrow."
         ],
         correctIndex: 3,
@@ -8411,10 +8411,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-206-q1",
         prompt: "What does a chemical equation represent?",
         choices: [
-          "The visible colour and texture of a product.",
+          "The visible signs of a reaction without showing reactants.",
           "A chemical reaction using words, formulas, or both.",
-          "A list of unrelated elements.",
-          "The temperature of a room during an experiment."
+          "A list of substances before atom counts are considered.",
+          "A measurement table for temperature during an experiment."
         ],
         correctIndex: 1,
         explanation: "Chemical equations summarize reactants changing into products."
@@ -8423,10 +8423,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-206-q2",
         prompt: "In a chemical equation, what does the arrow usually mean?",
         choices: [
-          "Is less important than",
-          "Must be cooled before",
+          "Has more mass than",
+          "Must be balanced before",
           "Produces or yields",
-          "Has the same name as"
+          "Has the same formula as"
         ],
         correctIndex: 2,
         explanation: "The arrow points from reactants toward the products formed."
@@ -8436,9 +8436,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "In \\(zinc + hydrochloric\\ acid -> zinc\\ chloride + hydrogen\\), what does the plus sign on the left mean?",
         choices: [
           "Zinc reacts with hydrochloric acid.",
-          "Zinc is the same substance as hydrochloric acid.",
-          "Hydrochloric acid is a product.",
-          "No chemical change is described."
+          "Zinc is added after hydrochloric acid forms.",
+          "Hydrochloric acid is listed as a product.",
+          "Zinc and hydrochloric acid have already become one substance."
         ],
         correctIndex: 0,
         explanation: "On the reactant side, the plus sign means the substances react with each other."
@@ -8466,8 +8466,8 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "Substances shown after the arrow in the equation.",
           "Substances that undergo chemical change during a reaction.",
-          "Symbols that show physical states.",
-          "Numbers placed before formulas to balance atoms."
+          "Substances formed when the arrow points to the right.",
+          "Numbers placed before formulas to show reaction ratios."
         ],
         correctIndex: 1,
         explanation: "Reactants start on the left side and are changed into products."
@@ -8476,8 +8476,8 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-207-q3",
         prompt: "A student writes calcium carbonate -> calcium oxide + carbon dioxide. Which statement is correct?",
         choices: [
-          "The substances after the arrow react after calcium carbonate is gone.",
-          "Carbon dioxide is the reactant because it is named last.",
+          "The substances after the arrow are reactants in the second step.",
+          "Carbon dioxide is the reactant because gases are usually written last.",
           "Calcium carbonate is the reactant; calcium oxide and carbon dioxide are products.",
           "The arrow points from products to reactants."
         ],
@@ -8496,7 +8496,7 @@ window.SCIENCE10_QUIZZES = {
           "iron + sulfur -> iron sulfide",
           "\\(Fe + S -> FeS\\)",
           "\\(2Fe + 3Cl_2 -> 2FeCl_3\\)",
-          "iron sulfide -> iron + sulfur + oxygen"
+          "iron sulfide + energy -> iron + sulfur"
         ],
         correctIndex: 0,
         explanation: "A word equation uses substance names instead of chemical formulas."
@@ -8505,9 +8505,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-208-q2",
         prompt: "Why can a word equation be useful before writing formulas?",
         choices: [
-          "It proves the equation is balanced if the reaction names are correct.",
-          "It gives atom counts without needing subscripts.",
-          "It can replace formulas when balancing is required.",
+          "It shows the reaction is balanced once the substance names are in the right order.",
+          "It gives atom counts before chemical formulas are written.",
+          "It replaces the need to write formulas when coefficients are required.",
           "It identifies the reactants and products in words first."
         ],
         correctIndex: 3,
@@ -8535,7 +8535,7 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What makes \\(Mg + O_2 -> MgO\\) a skeleton equation rather than a balanced equation?",
         choices: [
           "It uses substance names instead of formulas.",
-          "It has no products.",
+          "It has formulas and products, but not the correct atom ratios.",
           "It uses formulas but does not show equal oxygen atom counts on both sides.",
           "It contains state symbols."
         ],
@@ -8549,7 +8549,7 @@ window.SCIENCE10_QUIZZES = {
           "They may need coefficients added to obey conservation of mass.",
           "They are balanced once the formulas are correct.",
           "They change formulas by altering subscripts.",
-          "They use formulas but not real reactants or products."
+          "They use formulas and state symbols but not reaction arrows."
         ],
         correctIndex: 0,
         explanation: "Skeleton equations are starting points for balancing."
@@ -8559,8 +8559,8 @@ window.SCIENCE10_QUIZZES = {
         prompt: "A skeleton equation has correct formulas but unequal atom counts. What should be changed?",
         choices: [
           "Subscripts inside formulas",
-          "Element symbols into different elements",
-          "Reactants into unrelated substances",
+          "Element symbols so atom counts match faster",
+          "Reactants into substances with simpler formulas",
           "Coefficients in front of formulas"
         ],
         correctIndex: 3,
@@ -8588,7 +8588,7 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What must be true in a balanced chemical equation?",
         choices: [
           "The products must have fewer atoms than the reactants.",
-          "The coefficients must match the subscripts.",
+          "The coefficients must be the same as the subscripts.",
           "Each element has the same number of atoms on both sides.",
           "The reactants and products must have the same physical state."
         ],
@@ -8600,9 +8600,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which final check best confirms that \\(N_2 + 3H_2 -> 2NH_3\\) is balanced?",
         choices: [
           "Count 2 N atoms and 6 H atoms on both sides.",
-          "Count one formula on the left and one formula on the right.",
-          "Check that nitrogen is written before hydrogen.",
-          "Make sure no state symbols are included."
+          "Count two formulas on the left and one formula on the right.",
+          "Check that nitrogen is written before hydrogen on both sides.",
+          "Make sure state symbols do not affect the coefficients."
         ],
         correctIndex: 0,
         explanation: "The atom counts for every element must match."
