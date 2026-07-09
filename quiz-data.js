@@ -7879,7 +7879,7 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What is a covalent bond?",
         choices: [
           "An attraction between cations and anions after electron transfer.",
-          "A reaction that destroys atoms.",
+          "A shared pair of electrons between two non-metal atoms.",
           "A formula unit in a crystal lattice.",
           "A strong attraction formed when atoms share valence electrons."
         ],
@@ -7892,8 +7892,8 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "Two formula units in an ionic lattice.",
           "Two shared pairs of electrons between atoms.",
-          "Two cations repelling each other.",
-          "Two fire classes on one label."
+          "Two ions attracted in a crystal lattice.",
+          "Two atoms sharing one pair of electrons twice as strongly."
         ],
         correctIndex: 1,
         explanation: "A double bond means the atoms share two pairs of electrons."
@@ -7902,10 +7902,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-193-q3",
         prompt: "In a Lewis diagram, what does a single line between two atoms usually represent?",
         choices: [
-          "One transferred proton.",
-          "One separate molecule of sodium chloride.",
+          "One transferred electron from a metal atom.",
+          "One formula unit in an ionic lattice.",
           "One shared pair of electrons.",
-          "One unit of mass lost in the reaction."
+          "One atom that is no longer counted in the formula."
         ],
         correctIndex: 2,
         explanation: "A line in a Lewis diagram represents a bonding pair of electrons."
@@ -7922,7 +7922,7 @@ window.SCIENCE10_QUIZZES = {
           "A particle made of two or more atoms bonded by covalent bonds.",
           "A crystal lattice of positive and negative ions.",
           "A charged ion that represents the smallest part of an ionic compound.",
-          "A fire class label."
+          "A formula unit that repeats through an ionic crystal."
         ],
         correctIndex: 0,
         explanation: "Molecules are covalently bonded groups of atoms."
@@ -7946,7 +7946,7 @@ window.SCIENCE10_QUIZZES = {
           "It is a continuous ionic lattice.",
           "It exists as independent H2O molecules held together by covalent bonds within each molecule.",
           "It contains a repeated ion ratio like sodium chloride.",
-          "It has no chemical bonds."
+          "It is described by a formula unit rather than independent particles."
         ],
         correctIndex: 1,
         explanation: "Water is a covalent compound whose smallest independent units are molecules."
@@ -7963,7 +7963,7 @@ window.SCIENCE10_QUIZZES = {
           "It has no ions.",
           "It is made of shared electron pairs between sodium and chlorine.",
           "It forms a continuous ionic lattice instead of separate NaCl molecules.",
-          "It contains sodium atoms but chlorine is present as separate molecules."
+          "It forms small NaCl molecules that pack tightly into a crystal."
         ],
         correctIndex: 2,
         explanation: "Ionic compounds are represented by the smallest ratio of ions, called a formula unit."
@@ -8001,10 +8001,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-196-q1",
         prompt: "What happens to atoms during a chemical reaction?",
         choices: [
-          "They are created from nothing.",
+          "They keep the same bonding arrangements but are renamed as products.",
           "They are rearranged into new substances.",
-          "They vanish when products form.",
-          "They stop being matter."
+          "They change into different elements when products form.",
+          "They are replaced by product atoms after bonds break."
         ],
         correctIndex: 1,
         explanation: "Chemical reactions rearrange existing atoms into products."
@@ -8013,10 +8013,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-196-q2",
         prompt: "Methane reacts with oxygen to form carbon dioxide and water. What should be tracked to understand the reaction?",
         choices: [
-          "The colour and temperature of the flame, but not individual atoms.",
-          "The container shape, because it controls where products form.",
+          "The colour and temperature of the flame before considering formulas.",
+          "The container shape, because it controls which atoms are produced.",
           "Where each carbon, hydrogen, and oxygen atom goes in the products.",
-          "The names of the reactants, because formulas are not needed."
+          "The names of the reactants, because formulas give less useful atom information."
         ],
         correctIndex: 2,
         explanation: "Tracking atoms shows how reactants are rearranged into products."
@@ -8026,9 +8026,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which statement is correct for a chemical reaction?",
         choices: [
           "Reactant atoms are conserved but bonded in new ways.",
-          "Product atoms appear from nowhere.",
-          "Reactant atoms are used up by turning into energy.",
-          "Atoms are not involved in reactions."
+          "Product atoms are added as reactant bonds release energy.",
+          "Reactant atoms become energy when old bonds break.",
+          "Atoms matter less than colour change when identifying products."
         ],
         correctIndex: 0,
         explanation: "Atoms are rearranged; later this connects to conservation of mass."
@@ -8042,9 +8042,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-197-q1",
         prompt: "Why must some chemical bonds be broken during a reaction?",
         choices: [
-          "Bonds must be broken so atoms can disappear.",
-          "New products form without changing bonds.",
-          "Bonds are unrelated to reactions.",
+          "Bonds must be broken so atoms can change into different elements.",
+          "New products form when old bonds stretch but stay connected.",
+          "Bonds matter mainly for naming, not for forming products.",
           "Atoms must separate from old arrangements before new arrangements can form."
         ],
         correctIndex: 3,
@@ -8056,8 +8056,8 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "Energy is released as soon as old bonds start to separate.",
           "Energy must be added.",
-          "No energy is involved.",
-          "A catalyst label is enough to separate bonded atoms."
+          "Energy is not needed if the reaction later releases heat.",
+          "A catalyst label can replace the energy needed to separate bonded atoms."
         ],
         correctIndex: 1,
         explanation: "Breaking the electrostatic attraction in a bond requires energy input."
@@ -8066,10 +8066,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-197-q3",
         prompt: "What does the amount of energy needed to break a bond depend on?",
         choices: [
-          "The colour of the textbook page.",
-          "The size of the classroom.",
+          "Whether the bond is shown in a large or small diagram.",
+          "The amount of product that will be collected later.",
           "The atoms or ions involved in the bond.",
-          "Whether the compound name is short."
+          "Whether the compound name is short or familiar."
         ],
         correctIndex: 2,
         explanation: "Different bonds have different strengths depending on the particles involved."
@@ -8084,9 +8084,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What happens after atoms are rearranged in a chemical reaction?",
         choices: [
           "New bonds form to create product substances.",
-          "Atoms remain completely unbonded forever.",
-          "Energy is used up so it is no longer involved.",
-          "Reactant bonds reform if the reaction gives off heat."
+          "Atoms remain separated until another reactant is added later.",
+          "Energy is no longer involved once the old bonds have broken.",
+          "Reactant bonds reform unless the products are gases."
         ],
         correctIndex: 0,
         explanation: "Products form when rearranged atoms bond in new combinations."
@@ -8097,7 +8097,7 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "Energy must be absorbed because atoms are moving closer together.",
           "No energy change occurs.",
-          "Mass is destroyed to make the bond.",
+          "Energy is stored by removing mass from the atoms.",
           "Energy is released."
         ],
         correctIndex: 3,
@@ -8110,7 +8110,7 @@ window.SCIENCE10_QUIZZES = {
           "The substances are simply moved to a new beaker.",
           "A new gas, solid, colour, or other property appears after reactants interact.",
           "A solid is crushed so it has a different shape.",
-          "A label is placed on the container."
+          "The same mixture is stirred until it looks more uniform."
         ],
         correctIndex: 1,
         explanation: "New properties can indicate that new substances and bonds have formed."
@@ -8125,7 +8125,7 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which statement about bond energy is correct?",
         choices: [
           "Breaking bonds releases energy because atoms move apart.",
-          "Both breaking and forming bonds destroy mass.",
+          "Both breaking and forming bonds require energy input.",
           "Breaking bonds requires energy, while forming bonds releases energy.",
           "Energy changes happen after products form, not during bonding."
         ],
@@ -8139,7 +8139,7 @@ window.SCIENCE10_QUIZZES = {
           "Energy is released overall.",
           "Energy is absorbed overall.",
           "No products can form.",
-          "Atoms are destroyed."
+          "The products must have the same bonds as the reactants."
         ],
         correctIndex: 0,
         explanation: "The net energy change depends on the balance between energy absorbed and released."
@@ -8167,8 +8167,8 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "Atoms bond to increase instability on purpose.",
           "Bonding can help atoms achieve more stable valence electron arrangements.",
-          "Atoms bond mainly to change the number of particles in their nuclei.",
-          "Bonding is unrelated to valence electrons."
+          "Atoms bond mainly to change the number of protons in their nuclei.",
+          "Bonding is related to atom size but not to valence electrons."
         ],
         correctIndex: 1,
         explanation: "Atoms often become more stable when valence shells are filled through transfer or sharing of electrons."
@@ -8177,8 +8177,8 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-200-q2",
         prompt: "How can a non-metal atom achieve a full valence shell in a covalent compound?",
         choices: [
-          "By losing protons until its charge becomes positive.",
-          "By becoming a fire extinguisher.",
+          "By losing protons until it has a full outer shell.",
+          "By transferring its valence electrons to a metal atom.",
           "By sharing valence electrons with another non-metal atom.",
           "By keeping its valence electrons separate from nearby atoms."
         ],
@@ -8191,8 +8191,8 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "By losing valence electrons to form a cation with a stable electron arrangement.",
           "By sharing electrons equally with another metal atom.",
-          "By gaining unlimited electrons until it has no charge.",
-          "By refusing to interact with non-metals."
+          "By gaining enough electrons to become a large anion.",
+          "By keeping its valence electrons while the non-metal changes charge."
         ],
         correctIndex: 0,
         explanation: "Metals often lose valence electrons, while non-metals gain them, forming stable ions."
