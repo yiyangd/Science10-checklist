@@ -15792,9 +15792,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What happens when Earth's surface absorbs incoming solar energy?",
         choices: [
           "Some solar energy is transformed into thermal energy in the surface.",
-          "All energy disappears permanently.",
-          "The surface can only reflect energy and never warm.",
-          "Solar energy becomes gravitational potential energy in clouds only."
+          "Most absorbed energy stays as visible light in the ground.",
+          "Absorption means the surface sends the energy back to space unchanged.",
+          "Solar energy becomes gravitational potential energy in clouds during absorption."
         ],
         correctIndex: 0,
         explanation: "Absorbed radiation can increase the thermal energy of land, water, or other matter."
@@ -15803,24 +15803,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-386-q2",
         prompt: "A light-coloured surface sends much of the incoming sunlight back upward. Which process is being described?",
         choices: [
-          "Reflection.",
           "Condensation.",
+          "Reflection.",
           "Radioactive decay.",
           "Cellular respiration."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Reflection transfers incoming radiation away from the surface instead of absorbing it."
       },
       {
         id: "kp-386-q3",
         prompt: "If 100 units of solar energy enter the atmosphere and 30 units are reflected before being absorbed, how many units are not reflected at that stage?",
         choices: [
-          "70 units.",
           "30 units.",
           "130 units.",
-          "3 units."
+          "3 units.",
+          "70 units."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Subtract the reflected amount from the incoming amount: 100 - 30 = 70 units."
       }
     ]
@@ -15832,34 +15832,34 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-387-q1",
         prompt: "After Earth's surface absorbs sunlight and warms, what kind of radiation can it emit back toward the atmosphere?",
         choices: [
-          "Infrared radiation.",
           "Sound radiation.",
-          "Only ultraviolet radiation from ice.",
-          "Nuclear radiation from every surface molecule."
+          "Infrared radiation.",
+          "Ultraviolet radiation as the main output from warm ground.",
+          "Nuclear radiation from ordinary surface molecules."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "A warmed surface can radiate energy as infrared radiation."
       },
       {
         id: "kp-387-q2",
         prompt: "Which sequence best traces energy from incoming sunlight to energy leaving a warm surface?",
         choices: [
-          "Solar radiation is absorbed, transformed into thermal energy, then radiated as infrared radiation.",
           "Solar radiation is absorbed, becomes sound, then becomes tides.",
-          "Infrared radiation becomes visible light before any surface warming occurs.",
-          "Thermal energy is destroyed and cannot leave the surface."
+          "Solar radiation is reflected, then changes into nuclear energy in the ground.",
+          "Solar radiation is absorbed, transformed into thermal energy, then radiated as infrared radiation.",
+          "Thermal energy remains in the surface and is not transferred later."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "This sequence matches the textbook pathway from absorbed solar energy to infrared radiation from Earth's surface."
       },
       {
         id: "kp-387-q3",
         prompt: "A student says, 'If sunlight is absorbed by the ground, the energy is trapped forever.' What is the best correction?",
         choices: [
-          "The warmed surface can transfer energy by radiation, conduction, and other processes.",
-          "The surface cannot warm from sunlight.",
-          "Absorbed energy instantly becomes mass only.",
-          "Radiation can move only from the Sun, never from Earth."
+          "The surface warms from sunlight but later transfers energy by radiation, conduction, and other processes.",
+          "The surface does not warm when sunlight is absorbed.",
+          "Absorbed energy becomes mass instead of being transferred.",
+          "Radiation from Earth is unrelated to surface temperature."
         ],
         correctIndex: 0,
         explanation: "Absorbed energy can be transformed and transferred away from Earth's surface, including as infrared radiation."
@@ -15874,9 +15874,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What property makes greenhouse gases important in warming Earth's atmosphere?",
         choices: [
           "They absorb infrared radiation emitted from Earth's surface.",
-          "They reflect all visible light before it reaches Earth.",
-          "They block gravity from acting on the ocean.",
-          "They turn all ultraviolet radiation into sound."
+          "They reflect most visible light before it reaches land and water.",
+          "They block gravity from moving ocean water.",
+          "They transform ultraviolet radiation mainly into sound."
         ],
         correctIndex: 0,
         explanation: "Greenhouse gases are effective at absorbing infrared radiation and re-radiating energy in different directions."
@@ -15885,19 +15885,19 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-388-q2",
         prompt: "Which set contains examples of greenhouse gases named in Chapter 3.3?",
         choices: [
+          "Oxygen, nitrogen, iron, and salt.",
           "Carbon dioxide, water vapour, nitrous oxide, and methane.",
-          "Oxygen, neon, iron, and salt.",
-          "Gold, silver, copper, and zinc.",
+          "Gold, copper, zinc, and silver.",
           "Sand, glass, ice, and granite."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "The chapter lists carbon dioxide, water vapour, nitrous oxide, and methane as greenhouse gases."
       },
       {
         id: "kp-388-q3",
         prompt: "Which misconception about greenhouse gases should be corrected?",
         choices: [
-          "That greenhouse gases are all harmful and have no natural role in Earth's temperature.",
+          "That naturally occurring greenhouse gases have no useful role in Earth's temperature.",
           "That greenhouse gases can absorb infrared radiation.",
           "That greenhouse gases are part of Earth's atmosphere.",
           "That water vapour can be a greenhouse gas."
@@ -15914,36 +15914,36 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-389-q1",
         prompt: "What is the greenhouse effect?",
         choices: [
+          "Cooling caused when oceans reflect incoming sunlight.",
+          "A process that prevents energy from leaving Earth at any time.",
           "Warming caused when greenhouse gases absorb and re-radiate infrared radiation.",
-          "Cooling caused when all sunlight is reflected by oceans.",
-          "A process that stops all energy from leaving Earth.",
-          "A nuclear reaction that happens only in clouds."
+          "A nuclear reaction that occurs in clouds."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "The greenhouse effect involves greenhouse gases absorbing infrared radiation and helping warm the atmosphere."
       },
       {
         id: "kp-389-q2",
         prompt: "The textbook compares Earth's average temperature with and without the natural greenhouse effect. What is the main idea of that comparison?",
         choices: [
+          "Greenhouse gases make Earth colder than it would be without an atmosphere.",
           "Natural greenhouse gases help keep Earth warm enough for many ecosystems.",
-          "Greenhouse gases make Earth colder than space.",
-          "Greenhouse gases prevent sunlight from reaching Earth at all.",
-          "The greenhouse effect only matters inside plant greenhouses."
+          "Greenhouse gases prevent sunlight from reaching Earth's surface.",
+          "The greenhouse effect is mainly a process inside plant greenhouses."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "The natural greenhouse effect helps moderate Earth's average temperature and supports life as we know it."
       },
       {
         id: "kp-389-q3",
         prompt: "If Earth's average temperature would be about -18 C without natural greenhouse gases and about 14 C with them, what is the approximate warming difference?",
         choices: [
-          "32 C.",
           "4 C.",
           "18 C.",
-          "46 C."
+          "46 C.",
+          "32 C."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "The difference is 14 - (-18) = 32 C, showing the importance of the natural greenhouse effect."
       }
     ]
@@ -15955,36 +15955,36 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-390-q1",
         prompt: "Which situation is the best example of conduction warming the lower atmosphere?",
         choices: [
-          "Warm ground transfers thermal energy to touching air molecules through collisions.",
           "Sunlight travels through space to Earth without matter touching.",
-          "Warm air rises and cooler air sinks in a circulation pattern.",
+          "Warm ground transfers thermal energy to nearby air molecules through collisions.",
+          "Warm air rises while cooler air sinks in a circulation pattern.",
           "Water vapour condenses into cloud droplets high in the sky."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Conduction transfers thermal energy between substances that are touching, such as warm ground and nearby air."
       },
       {
         id: "kp-390-q2",
         prompt: "Why does conduction mostly warm air close to Earth's surface first?",
         choices: [
-          "Air molecules must be near or touching the warm surface for collisions to transfer energy.",
-          "Conduction works fastest across empty space.",
-          "Conduction can only happen between planets.",
-          "Conduction requires infrared radiation to leave Earth."
+          "Conduction works best across the mostly empty space above the atmosphere.",
+          "Air molecules must be near the warm surface for collisions to transfer energy.",
+          "Conduction occurs mainly between planets rather than substances.",
+          "Conduction requires greenhouse gases to emit infrared radiation first."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Conduction depends on particle collisions, so it is strongest where air is in contact with the warmed surface."
       },
       {
         id: "kp-390-q3",
         prompt: "Which statement correctly distinguishes conduction from radiation?",
         choices: [
-          "Conduction requires contact between substances, while radiation can transfer energy without contact.",
-          "Conduction and radiation both require liquids only.",
+          "Conduction and radiation both require liquids to transfer energy.",
           "Radiation requires touching particles, while conduction travels through empty space.",
-          "Conduction is the same process as radioactive decay."
+          "Conduction requires contact between substances, while radiation can transfer energy without contact.",
+          "Conduction is the same process as nuclear decay."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Conduction happens through contact and collisions; radiation transfers energy by electromagnetic waves."
       }
     ]
@@ -15996,24 +15996,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-391-q1",
         prompt: "Which situation best represents convection in the atmosphere?",
         choices: [
-          "Warm, less-dense air rises while cooler, denser air sinks.",
           "Sunlight travels through space as electromagnetic radiation.",
           "Warm ground touches air molecules and transfers energy by collisions.",
-          "A mirror reflects visible light away from a surface."
+          "A mirror reflects visible light away from a surface.",
+          "Warm, less-dense air rises while cooler, denser air sinks."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Convection transfers thermal energy through the movement of heated fluids such as air."
       },
       {
         id: "kp-391-q2",
         prompt: "A container of fluid is heated from below. The warmed fluid expands and rises, then cooler fluid moves downward. What Earth process does this model most closely match?",
         choices: [
-          "Atmospheric convection.",
           "Radioactive decay.",
           "Reflection of solar radiation.",
-          "Greenhouse gas absorption only."
+          "Atmospheric convection.",
+          "Greenhouse gas absorption without fluid motion."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "The rising and sinking motion models convection, similar to warm and cool air movement in the atmosphere."
       },
       {
@@ -16021,7 +16021,7 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which statement correctly distinguishes convection from conduction?",
         choices: [
           "Convection involves movement of a fluid, while conduction transfers energy through contact.",
-          "Convection can happen only in solids, while conduction can happen only in space.",
+          "Convection occurs in solids without particle motion, while conduction occurs in empty space.",
           "Convection is the same as reflection.",
           "Convection does not transfer thermal energy."
         ],
@@ -16038,9 +16038,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why is the water cycle also an energy cycle?",
         choices: [
           "Water movement carries and transforms energy among the hydrosphere, geosphere, and atmosphere.",
-          "Water moves without any energy changes.",
-          "Only ocean water contains energy.",
-          "The water cycle stops all thermal energy transfer."
+          "Water movement happens after energy transfer has stopped.",
+          "Ocean water contains energy, but atmospheric water vapour does not.",
+          "The water cycle separates water movement from thermal energy."
         ],
         correctIndex: 0,
         explanation: "Evaporation, condensation, precipitation, and runoff all move water and transfer or transform energy."
@@ -16049,24 +16049,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-392-q2",
         prompt: "Which sequence includes water cycle processes that also move energy?",
         choices: [
+          "Reflection, fission, fusion, and gene copying.",
           "Evaporation, transpiration, condensation, and precipitation.",
-          "Printing, folding, stapling, and erasing.",
-          "Reflection, fission, fusion, and gene copying only.",
-          "Melting metal, charging phones, and sharpening pencils only."
+          "Melting metal, charging phones, and sharpening pencils.",
+          "Printing, folding, stapling, and erasing."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "The textbook describes these water cycle processes as moving energy between Earth's spheres."
       },
       {
         id: "kp-392-q3",
         prompt: "A student tracks water vapour rising, cloud formation, and rain falling. What else should they track to explain the system fully?",
         choices: [
+          "The colour of the clouds as the main energy evidence.",
+          "Nearby city names to identify the system boundary.",
           "Energy transfers and transformations during each step.",
-          "Only the colour of the clouds.",
-          "Only the names of nearby cities.",
-          "No energy, because water movement is separate from energy."
+          "Water movement alone, because energy is separate from the cycle."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "A complete explanation follows both water and energy through the water cycle."
       }
     ]
@@ -16078,36 +16078,36 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-393-q1",
         prompt: "During evaporation from a lake, what energy change occurs?",
         choices: [
-          "Solar energy is transformed into thermal energy as water molecules move faster and enter the air as vapour.",
           "Gravitational energy turns directly into nuclear energy.",
-          "Thermal energy disappears without moving.",
-          "Water molecules stop moving completely."
+          "Solar energy is transformed into thermal energy as water molecules move faster and enter the air as vapour.",
+          "Thermal energy remains in the lake while water vapour leaves without energy.",
+          "Water molecules slow to a stop before entering the air."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Evaporation uses energy to help water molecules leave the liquid and become vapour."
       },
       {
         id: "kp-393-q2",
         prompt: "Why can evaporation cool a surface?",
         choices: [
-          "Higher-energy water molecules leave the surface, carrying thermal energy away.",
           "Evaporation creates new sunlight below the surface.",
-          "Evaporation prevents all air movement.",
-          "Evaporation adds radioactive material to water."
+          "Evaporation keeps higher-energy molecules on the surface.",
+          "Higher-energy water molecules leave the surface, carrying thermal energy away.",
+          "Evaporation adds radioactive material to the remaining water."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Evaporation moves thermal energy away from a surface, similar to the cooling effect of sweating."
       },
       {
         id: "kp-393-q3",
         prompt: "A wet towel dries faster in moving air than in still air. Which explanation best fits the energy idea?",
         choices: [
-          "Moving air increases evaporation, which carries thermal energy away with water vapour.",
           "Moving air stops water molecules from leaving the towel.",
-          "Moving air changes water into rock.",
-          "The towel dries because energy is destroyed."
+          "Moving air changes water into a solid mineral.",
+          "Moving air increases evaporation, which carries thermal energy away with water vapour.",
+          "The towel dries because energy leaves the universe."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Moving air can increase evaporation, and evaporation transfers thermal energy away from the surface."
       }
     ]
@@ -16120,9 +16120,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What is transpiration?",
         choices: [
           "Plants release water vapour into the atmosphere, moving thermal energy with it.",
-          "Rocks release radioactive waste into soil.",
+          "Rocks release radioactive waste into soil as water vapour.",
           "Cloud droplets fall as rain or snow.",
-          "Oceans reflect all incoming sunlight."
+          "Oceans reflect incoming sunlight as plant vapour."
         ],
         correctIndex: 0,
         explanation: "Transpiration is the release of water vapour from plants, and it can move thermal energy into the atmosphere."
@@ -16132,9 +16132,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "A forest releases water vapour from leaves during a warm afternoon. Which Earth spheres are most directly connected in this process?",
         choices: [
           "Biosphere and atmosphere.",
-          "Only the geosphere.",
-          "Only outer space.",
-          "Only Earth's mantle."
+          "Geosphere and mantle.",
+          "Outer space and geosphere.",
+          "Mantle and hydrosphere, with no living system involved."
         ],
         correctIndex: 0,
         explanation: "Plants are living parts of the biosphere, and released water vapour enters the atmosphere."
@@ -16143,12 +16143,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-394-q3",
         prompt: "Which misconception about transpiration should be corrected?",
         choices: [
-          "That plants are not involved in moving water or energy through the atmosphere.",
           "That transpiration can release water vapour.",
           "That plant processes can be part of the water cycle.",
-          "That water vapour can carry thermal energy."
+          "That water vapour can carry thermal energy.",
+          "That plants are not involved in moving water or energy through the atmosphere."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Plants play an important role in the water cycle by releasing water vapour and transferring energy."
       }
     ]
@@ -16161,9 +16161,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What happens to energy when water vapour cools and condenses into cloud droplets?",
         choices: [
           "Thermal energy is released to the surrounding air.",
-          "All energy is destroyed.",
-          "Solar energy becomes radioactive waste.",
-          "The air loses all motion instantly."
+          "Thermal energy is removed from the system and no longer counted.",
+          "Solar energy becomes radioactive waste during cloud formation.",
+          "Air molecules stop moving once droplets form."
         ],
         correctIndex: 0,
         explanation: "Condensation releases thermal energy to nearby air molecules as water vapour changes to liquid droplets."
@@ -16172,12 +16172,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-395-q2",
         prompt: "Which sequence best describes cloud formation in energy terms?",
         choices: [
+          "Water vapour sinks, freezes sunlight, and absorbs gravity.",
           "Water vapour rises, cools, condenses, and releases thermal energy.",
-          "Water vapour sinks, freezes the Sun, and absorbs gravity.",
           "Water vapour becomes visible light without cooling.",
-          "Clouds form without matter or energy."
+          "Clouds form from matter but without energy transfer."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Rising water vapour cools and condenses around particles, releasing thermal energy during cloud formation."
       },
       {
@@ -16185,9 +16185,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why is condensation important in atmospheric energy transfer?",
         choices: [
           "It transfers thermal energy from water vapour to the atmosphere.",
-          "It prevents clouds from forming.",
+          "It prevents water droplets from forming clouds.",
           "It removes gravity from precipitation.",
-          "It reflects all infrared radiation into oceans."
+          "It reflects infrared radiation mainly into oceans."
         ],
         correctIndex: 0,
         explanation: "Condensation is not just a water change; it also releases energy to the air."
