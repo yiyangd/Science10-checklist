@@ -12921,36 +12921,36 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-316-q1",
         prompt: "Which pairing correctly matches a stored energy example to a form of potential energy?",
         choices: [
+          "A moving skateboard - elastic potential energy.",
           "A stretched tennis racquet string - elastic potential energy.",
-          "A moving skateboard - chemical potential energy.",
-          "A ringing bell - gravitational potential energy.",
-          "Moving electrons in a circuit - nuclear energy."
+          "A ringing bell - chemical potential energy.",
+          "Moving electrons in a circuit - electrical potential energy."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Elastic potential energy is stored in stretched or compressed objects."
       },
       {
         id: "kp-316-q2",
         prompt: "Which form of potential energy is stored in separated positive and negative charges, such as in a cell or battery?",
         choices: [
-          "Electrical potential energy.",
-          "Sound energy.",
-          "Mechanical kinetic energy.",
-          "Thermal energy."
+          "Thermal energy, because the cell may warm during use.",
+          "Electrical kinetic energy, because charges can later move in a circuit.",
+          "Electrical potential energy, because separated charges can do work when connected.",
+          "Radiant energy, because batteries are often used to power lamps."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Electrical potential energy is stored because charges are separated."
       },
       {
         id: "kp-316-q3",
         prompt: "Which statement correctly describes nuclear energy in Chapter 3.1?",
         choices: [
-          "It is energy stored within atomic nuclei.",
-          "It is the pressure wave that carries sound.",
-          "It is random particle motion in warm objects.",
-          "It is moving electrons in a conductor."
+          "It is the vibration pattern that carries sound through air.",
+          "It is the motion of electrons through a conductor.",
+          "It is the random particle motion measured as temperature.",
+          "It is energy stored within atomic nuclei."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Nuclear energy is a form of potential energy stored in the nucleus of an atom."
       }
     ]
@@ -12962,36 +12962,36 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-317-q1",
         prompt: "A mountain biker is moving along a trail high above the valley floor. Which statement is best?",
         choices: [
+          "The biker has gravitational potential energy, while motion energy is not relevant.",
+          "The biker has mechanical kinetic energy, while height does not affect the system.",
           "The biker has both mechanical kinetic energy and gravitational potential energy.",
-          "The biker has no energy because only one form can exist at a time.",
-          "The biker has only sound energy.",
-          "The biker has only nuclear energy."
+          "The biker has mainly sound energy because the bicycle makes noise."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "A moving object above a reference point can have both kinetic and potential energy."
       },
       {
         id: "kp-317-q2",
         prompt: "When does a coaster car likely have both gravitational potential energy and mechanical kinetic energy?",
         choices: [
-          "While moving partway down a hill above the reference point.",
-          "Only before it is built.",
-          "Only when it is at the lowest point and not moving.",
-          "Never, because energy forms cannot overlap."
+          "When it is parked at the bottom of the track and not moving.",
+          "When it is moving on level ground chosen as the reference point.",
+          "When it is lifted at the top and held completely at rest.",
+          "While moving partway down a hill above the reference point."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "At an intermediate height with motion, the car has height-related potential energy and motion-related kinetic energy."
       },
       {
         id: "kp-317-q3",
         prompt: "Which question best helps identify multiple forms of energy in a system?",
         choices: [
+          "Does the object have a clear label for the energy form?",
           "Is anything moving, and is anything stored because of position or condition?",
-          "What colour is the object?",
-          "What is the object's name?",
-          "Can the system be ignored?"
+          "Is the system easy to describe without measuring change?",
+          "Does the object have a colour associated with energy?"
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Motion points to kinetic energy, while position or condition can indicate potential energy."
       }
     ]
@@ -13003,36 +13003,36 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-318-q1",
         prompt: "Which statement best describes the law of conservation of energy?",
         choices: [
+          "Energy is counted after useful outputs, but less useful outputs are left out.",
+          "Energy is made by devices when they begin doing a useful task.",
           "Energy is not created or destroyed; it is transferred or transformed.",
-          "Energy disappears whenever it becomes thermal energy.",
-          "Energy is created when a battery is connected to a bulb.",
-          "Energy is conserved only in isolated diagrams."
+          "Energy conservation applies mainly when motion is easy to see."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "The total energy before a transfer or transformation equals the total energy afterward."
       },
       {
         id: "kp-318-q2",
         prompt: "A lamp changes electrical energy into light and thermal energy. How does conservation of energy apply?",
         choices: [
+          "The thermal energy is ignored because the lamp was designed to make light.",
           "The total energy is accounted for in useful light plus less useful thermal energy.",
-          "Only the light energy counts; thermal energy is destroyed.",
-          "Electrical energy creates new energy from nothing.",
-          "Conservation applies only to moving balls, not lamps."
+          "Electrical energy becomes conserved after the bulb finishes warming up.",
+          "The useful light energy should be greater than the input energy."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Even less useful outputs are still part of the total energy after transformation."
       },
       {
         id: "kp-318-q3",
         prompt: "A student says, \"The sled lost energy because it did not reach the same height.\" What is the best correction?",
         choices: [
-          "Some mechanical energy transformed into thermal and sound energy, so total energy was still conserved.",
-          "Energy was destroyed by snow.",
-          "The sled had no energy at the start.",
-          "Gravity stopped existing on the second hill."
+          "The sled's mass decreased enough to lower its gravitational potential energy.",
+          "The reference point moved, so the original height no longer matters.",
+          "The snow stored the sled's speed as chemical potential energy.",
+          "Some mechanical energy transformed into thermal and sound energy, so total energy was still conserved."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Apparent energy loss usually means energy has become less useful or moved to surroundings, not that it was destroyed."
       }
     ]
@@ -13044,36 +13044,36 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-319-q1",
         prompt: "What is an energy transformation?",
         choices: [
+          "Energy moving between objects while keeping the same form.",
           "Energy changing from one form to another.",
-          "Energy moving between objects while staying in the same form.",
-          "Matter entering or leaving a system.",
-          "A system being given a name."
+          "Matter crossing the boundary of an open system.",
+          "A system boundary being redrawn for a new investigation."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Transformation means the form of energy changes."
       },
       {
         id: "kp-319-q2",
         prompt: "Which sequence is an energy transformation in a battery-powered flashlight?",
         choices: [
+          "Radiant energy to electrical potential energy to sound energy.",
+          "Mechanical kinetic energy to gravitational potential energy inside the battery.",
           "Chemical potential energy to electrical energy to radiant and thermal energy.",
-          "Radiant energy to nuclear energy to mass.",
-          "Sound energy to gravitational potential energy only.",
-          "Mechanical kinetic energy to chemical potential energy without a system."
+          "Thermal energy to chemical potential energy without any current."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "The textbook's circuit examples connect stored chemical energy to electrical energy and then to light and thermal energy."
       },
       {
         id: "kp-319-q3",
         prompt: "Which example is mainly a transformation rather than only a transfer?",
         choices: [
-          "A bulb changes electrical energy into light and thermal energy.",
           "One pool ball gives mechanical kinetic energy to another pool ball.",
-          "A warm object passes thermal energy to a cooler object with no form change.",
-          "A student passes a marker across a table."
+          "A warm mug transfers thermal energy to cooler air.",
+          "A student slides a marker from one side of a desk to another.",
+          "A bulb changes electrical energy into light and thermal energy."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "The bulb changes energy from one form to other forms, so it is a transformation."
       }
     ]
@@ -13085,36 +13085,36 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-320-q1",
         prompt: "What is energy transfer?",
         choices: [
+          "Energy changing from chemical potential energy into radiant energy.",
           "Energy moving from one object or place to another while staying in the same form.",
-          "Energy changing from motion into light.",
-          "Energy being created by a system boundary.",
-          "Matter becoming energy in every collision."
+          "Matter crossing a boundary while energy stays inside the system.",
+          "A system becoming easier to draw because the boundary is simpler."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Transfer means the energy moves between objects or locations without necessarily changing form."
       },
       {
         id: "kp-320-q2",
         prompt: "One pool ball strikes another, and the second ball begins moving. Which energy transfer occurs?",
         choices: [
+          "Chemical potential energy transfers from the table surface to the balls.",
+          "Sound energy transfers from the first ball into stored elastic energy in the second.",
           "Mechanical kinetic energy transfers from the first ball to the second ball.",
-          "Chemical potential energy transfers from the table to both balls.",
-          "Nuclear energy transfers from the air to the cue.",
-          "Sound energy transfers into gravitational potential energy only."
+          "Radiant energy transfers from the cue into the second ball."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "The pool example in the textbook shows mechanical kinetic energy moving from one ball to another."
       },
       {
         id: "kp-320-q3",
         prompt: "Which observation shows transfer without requiring a form change?",
         choices: [
-          "Thermal energy moves from hot soup to a cooler spoon.",
-          "Electrical energy changes into light in a bulb.",
-          "Chemical energy changes into thermal energy in a flame.",
-          "Elastic potential energy changes into motion in a catapult."
+          "Electrical energy changes into radiant energy in a bulb.",
+          "Chemical potential energy changes into thermal energy in a flame.",
+          "Elastic potential energy changes into motion in a catapult.",
+          "Thermal energy moves from hot soup to a cooler spoon."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Thermal energy can transfer from one object to another as thermal energy."
       }
     ]
@@ -13127,9 +13127,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why is no energy transformation 100 percent efficient?",
         choices: [
           "Some energy becomes less useful for the intended task, often as thermal or sound energy.",
-          "Some energy is destroyed forever.",
-          "Useful energy cannot exist in real systems.",
-          "Systems cannot exchange energy with surroundings."
+          "The input energy becomes smaller because conservation stops during friction.",
+          "Useful energy appears when a system avoids interacting with its surroundings.",
+          "The output form must match the input form for a task to be useful."
         ],
         correctIndex: 0,
         explanation: "The textbook describes less useful energy outputs while still conserving total energy."
@@ -13138,24 +13138,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-321-q2",
         prompt: "A light bulb is intended to produce visible light but also warms up. What is the warm bulb evidence of?",
         choices: [
+          "The bulb stores the electrical energy as gravitational potential energy.",
           "Some input energy transformed into less useful thermal energy.",
-          "Energy conservation failed.",
-          "The bulb created extra energy from nothing.",
-          "Thermal energy is not real energy."
+          "The light energy left the system before the circuit was closed.",
+          "The bulb changes matter into energy as the filament glows."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Thermal energy is a common byproduct that may not be useful for the intended task."
       },
       {
         id: "kp-321-q3",
         prompt: "Which phrase is more scientifically careful than saying energy was lost?",
         choices: [
+          "Energy changed into mass that can no longer be measured.",
+          "Energy was removed from the calculation because it became sound.",
           "Energy was transformed into forms less useful for the task or transferred to surroundings.",
-          "Energy was destroyed by friction.",
-          "Energy stopped existing because it became sound.",
-          "Energy turned into nothing."
+          "Energy became more useful for the task after friction acted on the system."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Energy can become less useful or leave the chosen system, but it is not destroyed."
       }
     ]
@@ -13167,36 +13167,36 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-322-q1",
         prompt: "An uncovered pot of boiling water loses steam and receives energy from the stove. What type of system is it?",
         choices: [
-          "Open system.",
-          "Closed system.",
-          "Isolated system.",
-          "No system."
+          "Closed system, because the pot still has a clear boundary.",
+          "Open system, because both matter and energy cross the boundary.",
+          "Isolated system, because the stove is outside the pot.",
+          "Closed system, because energy enters but matter leaves."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "An open system can exchange both matter and energy with its surroundings."
       },
       {
         id: "kp-322-q2",
         prompt: "A sealed pressure cooker allows energy transfer but prevents matter from leaving as steam. What type of system does it model?",
         choices: [
-          "Closed system.",
-          "Open system.",
-          "Perfectly isolated system.",
-          "A system with no surroundings."
+          "Open system, because the cooker is being heated.",
+          "Isolated system, because the lid reduces matter transfer.",
+          "Closed system, because energy can transfer while matter is mostly contained.",
+          "Surroundings, because the stove is outside the cooker."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "A closed system exchanges energy but not matter with the surroundings."
       },
       {
         id: "kp-322-q3",
         prompt: "Why is a perfectly isolated cooking system unrealistic?",
         choices: [
-          "Cooking requires energy transfer into the food, but an isolated system exchanges neither energy nor matter.",
-          "Isolated systems must exchange matter only.",
-          "Isolated systems create energy from nothing.",
-          "Insulation always removes matter from the system."
+          "Insulation changes thermal energy into chemical potential energy in the food.",
+          "A system with food must be open because food contains matter.",
+          "A closed lid makes matter leave faster than energy enters.",
+          "Cooking requires energy transfer into the food, but an isolated system exchanges neither energy nor matter."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "A truly isolated system would prevent the energy exchange needed for cooking."
       }
     ]
@@ -13209,9 +13209,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "If a system releases energy, what happens to the surroundings?",
         choices: [
           "The surroundings absorb that energy.",
-          "The surroundings disappear.",
-          "The surroundings must lose the same matter.",
-          "The surroundings create new energy to replace it."
+          "The surroundings become part of the system boundary.",
+          "The surroundings must gain matter at the same time.",
+          "The surroundings change the released energy into mass."
         ],
         correctIndex: 0,
         explanation: "Energy exchange is tracked between the system and its surroundings."
@@ -13220,12 +13220,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-323-q2",
         prompt: "A hot mug cools on a desk. If the mug and liquid are the system, what is happening?",
         choices: [
+          "Energy transfers from the cooler surroundings into the warmer system.",
           "Energy transfers from the system to the cooler surroundings.",
-          "Energy is destroyed inside the mug.",
-          "The surroundings are not involved because they are outside the system.",
-          "Only matter can leave the mug."
+          "The boundary prevents energy from interacting with the desk and air.",
+          "Matter transfer is required before thermal energy can leave the mug."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "When a warmer system cools, energy is transferred to the surroundings."
       },
       {
@@ -13233,9 +13233,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "If a cold pack absorbs energy from a student's hand, which statement is correct?",
         choices: [
           "The hand, as part of the surroundings, releases energy to the cold pack system.",
-          "The cold pack destroys energy.",
-          "The system cannot absorb energy from surroundings.",
-          "Energy exchange requires the cold pack to be open."
+          "The cold pack must release matter before it can absorb energy.",
+          "The system boundary blocks energy because the hand is outside it.",
+          "The cold pack changes energy into matter as it feels colder."
         ],
         correctIndex: 0,
         explanation: "When a system absorbs energy, the surroundings release energy."
@@ -13250,9 +13250,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "In a pool-ball collision, what can happen at the same time?",
         choices: [
           "Mechanical kinetic energy transfers between balls and some energy transforms into sound and thermal energy.",
-          "Energy is created by the collision.",
-          "Only chemical energy is involved.",
-          "The energy must remain fully useful."
+          "Mechanical kinetic energy changes into chemical potential energy stored in the table.",
+          "The collision shows transfer but rules out thermal and sound byproducts.",
+          "The second ball gains energy because matter transfers from the first ball."
         ],
         correctIndex: 0,
         explanation: "The textbook uses pool balls to show transfer and transformation happening together."
@@ -13261,24 +13261,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-324-q2",
         prompt: "A catapult launches a small object and makes a snapping sound. Which analysis is best?",
         choices: [
+          "Mechanical kinetic energy changes into elastic potential energy after the object leaves.",
+          "The sound shows that mechanical kinetic energy was not involved in the launch.",
           "Elastic potential energy transforms into mechanical kinetic energy, and some energy also becomes sound and thermal energy.",
-          "The catapult destroys energy to launch the object.",
-          "Only energy transfer occurs because no form changes.",
-          "Only nuclear energy is involved."
+          "The catapult works as an isolated system because it uses stored energy."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Real devices often involve multiple transformations and transfers, including less useful byproducts."
       },
       {
         id: "kp-324-q3",
         prompt: "Which question helps separate transfer from transformation?",
         choices: [
+          "Did the system become open, and did matter cross the boundary?",
           "Did the energy move to another object, and did its form change?",
-          "What colour was the object?",
-          "How many letters are in the object's name?",
-          "Was the system easy to draw?"
+          "Did the object have more mass after the event?",
+          "Did the surroundings contain the largest object in the scene?"
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Transfer is about where energy moves; transformation is about whether the form changes."
       }
     ]
@@ -13290,34 +13290,34 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-325-q1",
         prompt: "Which physical quantities are most directly connected to mechanical kinetic energy?",
         choices: [
+          "Height and gravitational field strength.",
           "Mass and velocity.",
-          "Colour and texture.",
-          "Volume and smell.",
-          "Temperature and brand name only."
+          "Temperature and surface colour.",
+          "Volume and chemical formula."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Chapter 3.1 connects mechanical kinetic energy to mass and velocity."
       },
       {
         id: "kp-325-q2",
         prompt: "Which physical quantities affect gravitational potential energy near Earth?",
         choices: [
+          "Velocity, direction of motion, and surface texture.",
+          "Temperature, sound level, and colour.",
           "Mass, gravitational field strength, and change in height.",
-          "Colour, sound level, and shape only.",
-          "Velocity only.",
-          "Chemical formula only."
+          "Chemical formula, volume, and brightness."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Gravitational potential energy depends on mass, gravity, and height relative to a reference position."
       },
       {
         id: "kp-325-q3",
         prompt: "Why is the bowling-ball versus table-tennis-ball thought experiment useful?",
         choices: [
-          "It helps reason that mass affects how much mechanical kinetic energy a moving object has.",
-          "It proves that speed has no effect on energy.",
-          "It shows that all objects have the same gravitational field strength.",
-          "It proves that energy is visible."
+          "It compares objects with different mass so the effect on mechanical kinetic energy can be reasoned out.",
+          "It compares two heights so gravitational potential energy can be calculated directly.",
+          "It shows that velocity is the quantity used for gravitational potential energy.",
+          "It treats colour and shape as the main variables in a collision."
         ],
         correctIndex: 0,
         explanation: "The thought experiment uses everyday experience to identify variables that affect energy."
