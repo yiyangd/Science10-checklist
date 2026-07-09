@@ -21408,34 +21408,34 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-523-q1",
         prompt: "What is the main sequence on an H-R diagram?",
         choices: [
-          "A diagonal band where most visible stars are found.",
-          "A list of planets ordered by distance from the Sun.",
-          "A line showing only red supergiants.",
-          "A map of zodiac constellations."
+          "A region where cool but very luminous stars are grouped above the central band.",
+          "A diagonal band where many visible stars are arranged by temperature and luminosity.",
+          "A scale that ranks stars by apparent brightness as seen from Earth.",
+          "A pathway showing the order in which planets formed around a star."
         ],
-        correctIndex: 0,
-        explanation: "The main sequence is the diagonal band on the H-R diagram containing most stars visible from Earth."
+        correctIndex: 1,
+        explanation: "The main sequence is the central diagonal band on an H-R diagram and includes about 90% of stars visible from Earth."
       },
       {
         id: "kp-523-q2",
         prompt: "About what fraction of stars visible from Earth are on the main sequence?",
         choices: [
-          "About \\(90\\%\\).",
           "About \\(10\\%\\).",
-          "Exactly \\(50\\%\\).",
-          "Less than \\(1\\%\\)."
+          "About \\(90\\%\\).",
+          "About \\(50\\%\\), because the diagram is split into hot and cool halves.",
+          "About \\(25\\%\\), because the hottest stars dominate the upper-left of the diagram."
         ],
-        correctIndex: 0,
-        explanation: "The textbook-aligned checklist notes that about 90% of visible stars are main sequence stars."
+        correctIndex: 1,
+        explanation: "The textbook states that the main sequence accounts for about 90% of stars visible from Earth."
       },
       {
         id: "kp-523-q3",
         prompt: "Why are red giants and supergiants not simply ordinary main sequence stars?",
         choices: [
-          "They occupy different regions of the H-R diagram and represent different stellar stages.",
-          "They are not made of matter.",
-          "They are all planets.",
-          "They never emit light."
+          "They are plotted above the main sequence because they are cool but very luminous.",
+          "They sit on the lower right of the main sequence because they are dim red stars.",
+          "They are placed on the H-R diagram by apparent brightness rather than luminosity.",
+          "They belong to the main sequence if their surface temperature is red."
         ],
         correctIndex: 0,
         explanation: "Their position on the H-R diagram helps astronomers infer that stars can change over time."
@@ -21449,22 +21449,22 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-524-q1",
         prompt: "What mainly determines a star's life-cycle pathway?",
         choices: [
+          "Its surface colour after it has already become a red giant.",
           "Its initial mass on the main sequence.",
-          "The constellation name humans give it.",
-          "The season when it is first observed.",
-          "The number of planets in our Solar System."
+          "Its apparent magnitude as seen from Earth on one night.",
+          "Its distance from the nearest constellation boundary."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Initial mass strongly controls how fast a star uses fuel and what it becomes."
       },
       {
         id: "kp-524-q2",
         prompt: "Compared with lower-mass stars, high-mass stars generally use their fuel how?",
         choices: [
-          "More quickly, so their active lives are shorter.",
-          "More slowly, so they last forever.",
-          "At exactly the same rate as every other star.",
-          "Only after becoming planets."
+          "More quickly, because their cores reach conditions for rapid fusion.",
+          "More slowly, because greater mass spreads the fuel through a larger volume.",
+          "At a similar rate, but their greater brightness mostly reflects distance.",
+          "Mostly after the red supergiant stage, when fusion first begins."
         ],
         correctIndex: 0,
         explanation: "High-mass stars are very luminous and consume fuel rapidly."
@@ -21473,12 +21473,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-524-q3",
         prompt: "Which comparison best fits star life-cycle pathways?",
         choices: [
+          "Low-mass stars usually become supernovas, while high-mass stars fade directly into white dwarfs.",
+          "Intermediate-mass stars avoid red giant stages because their fuel lasts too long.",
           "Low- and intermediate-mass stars tend toward white dwarf endings, while very massive stars can lead to neutron stars or black holes.",
-          "Every star becomes a planet.",
-          "Every star ends as the Sun.",
-          "Only low-mass stars can explode as supernovas."
+          "High-mass and low-mass stars follow the same pathway but at different distances from Earth."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Different mass ranges follow different evolutionary routes."
       }
     ]
@@ -21490,36 +21490,36 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-525-q1",
         prompt: "Which list contains possible final stages or remnants of stars?",
         choices: [
+          "Nebula, main sequence star, and red giant.",
           "White dwarf, neutron star, and black hole.",
-          "Comet, asteroid, and moon.",
-          "Planisphere, telescope, and spectroscope.",
-          "Elliptical, spiral, and irregular."
+          "Spectral type, absolute magnitude, and luminosity.",
+          "Binary star, solar mass, and constellation."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "A star's mass and evolution can lead to these final remnants."
       },
       {
         id: "kp-525-q2",
         prompt: "What can happen to a star like the Sun after it becomes a red giant?",
         choices: [
-          "Its outer layers can drift away, leaving a white dwarf.",
-          "It must become a black hole immediately.",
-          "It turns into an asteroid belt.",
-          "It stops obeying gravity."
+          "Its red outer layers can collapse directly into a neutron star.",
+          "Its luminosity can rise enough to produce a high-mass supernova.",
+          "Its core can shrink while outer gas drifts away, leaving a white dwarf.",
+          "Its surface can cool until nuclear fusion begins for the first time."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Intermediate-mass stars can expand into red giants and later leave white dwarf cores."
       },
       {
         id: "kp-525-q3",
         prompt: "A very massive star explodes as a supernova. What kind of remnant could remain?",
         choices: [
-          "A neutron star or black hole.",
-          "A zodiac constellation.",
-          "A planisphere.",
-          "A low cloud in Earth's atmosphere."
+          "A white dwarf that slowly cools because the core was not compressed strongly.",
+          "A new main sequence star with the same initial mass as before.",
+          "A red giant that has not yet used up hydrogen in its core.",
+          "A neutron star or black hole, depending on the remaining core mass."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "The collapsed core after a massive-star supernova may become a neutron star or black hole."
       }
     ]
@@ -21531,24 +21531,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-526-q1",
         prompt: "Why are supernovas important for the chemical history of the universe?",
         choices: [
-          "They can eject heavy elements into space where later stars and planets can form.",
-          "They remove all elements from the universe.",
-          "They turn hydrogen into empty space only.",
-          "They prevent new stars from ever forming."
+          "They convert heavy elements back into hydrogen before new stars form.",
+          "They keep heavy elements trapped permanently inside a collapsed core.",
+          "They make heavy elements by cooling ordinary space between galaxies.",
+          "They can eject heavy elements into space where later stars and planets can form."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Supernovas spread elements made in massive stars into surrounding space."
       },
       {
         id: "kp-526-q2",
         prompt: "Which statement best explains how elements in planets and living things can be connected to older stars?",
         choices: [
+          "Elements in planets are unrelated to stars because planets form after stars finish evolving.",
           "Some heavier elements were formed in stars and scattered by supernovas before becoming part of new systems.",
-          "Planets create all elements from nothing after they form.",
-          "Living things make stars explode.",
-          "Elements in planets cannot come from space."
+          "Heavy elements form mainly when light from nearby stars reaches a young planet.",
+          "A planet's gravity changes hydrogen into carbon and oxygen after the planet cools."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Material from earlier generations of stars can be recycled into later stars, planets, and life."
       },
       {
@@ -21556,9 +21556,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What happens in a supernova?",
         choices: [
           "The outer portion of a massive star is blasted outward in an enormous explosion.",
-          "A small planet quietly freezes.",
-          "A galaxy becomes a single star.",
-          "A planisphere rotates around Polaris."
+          "A low-mass star slowly cools into a black dwarf that has been observed directly.",
+          "A nebula condenses into a main sequence star without a collapse event.",
+          "A red giant loses surface gas gently without a violent shock wave."
         ],
         correctIndex: 0,
         explanation: "A supernova is a powerful explosion in the late life of a massive star."
@@ -21572,12 +21572,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-527-q1",
         prompt: "What was MOST designed to study?",
         choices: [
+          "The spectra of galaxies to measure universal expansion.",
           "Small changes in the brightness of Sun-like stars.",
-          "The shapes of clouds over Vancouver.",
-          "The distance from Earth to the Moon by radar only.",
-          "The location of zodiac constellations on paper maps."
+          "The surface rocks of nearby planets using a landing probe.",
+          "The positions of constellations for navigation from Earth."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "MOST studied tiny brightness changes to learn about Sun-like stars and their life cycles."
       },
       {
@@ -21585,9 +21585,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why is MOST significant in Canadian space science?",
         choices: [
           "It was Canada's first space telescope.",
-          "It was the first planet discovered by Canada.",
-          "It replaced every ground telescope.",
-          "It was built to orbit the Moon with astronauts."
+          "It was the first Canadian satellite to carry astronauts to orbit.",
+          "It was Canada's first telescope to use a mirror larger than Hubble's.",
+          "It was a mission designed to photograph most bright stars in the Milky Way."
         ],
         correctIndex: 0,
         explanation: "MOST stands for Microvariability and Oscillation of Stars and was Canada's first space telescope."
@@ -21596,10 +21596,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-527-q3",
         prompt: "A student says a small telescope cannot make useful discoveries. How does MOST challenge that idea?",
         choices: [
-          "It made precise brightness observations despite being a compact satellite.",
-          "It was useful only because it was the largest telescope ever built.",
-          "It did not collect data.",
-          "It worked by changing stars instead of observing them."
+          "It succeeded because a focused instrument can make precise measurements over long observing times.",
+          "It showed that small telescopes are useful mainly when they avoid collecting numerical data.",
+          "It worked by replacing careful observation with computer predictions about stars.",
+          "It was effective because microsatellites have the same instruments and costs as large observatories."
         ],
         correctIndex: 0,
         explanation: "MOST shows that small, focused space technology can still provide valuable scientific data."
@@ -21614,9 +21614,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why are tiny changes in star brightness scientifically useful?",
         choices: [
           "They can reveal clues about a star's structure, activity, and life cycle.",
-          "They prove stars are not emitting light.",
-          "They measure the size of Earth directly.",
-          "They classify galaxies by shape."
+          "They replace the need to compare a star with any long-term data.",
+          "They mainly show that a star has moved closer to Earth during the observation.",
+          "They are most useful when the star's colour changes from blue to red."
         ],
         correctIndex: 0,
         explanation: "Careful brightness monitoring can reveal information that short or rough observations miss."
@@ -21625,12 +21625,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-528-q2",
         prompt: "Why is monitoring the same star for many days or weeks valuable?",
         choices: [
-          "It helps detect patterns and small changes over time.",
-          "It makes the star physically younger.",
-          "It stops the star from rotating.",
-          "It removes the need for data analysis."
+          "It allows astronomers to change the star's brightness in a controlled test.",
+          "It works because repeated observations make measurement uncertainty disappear.",
+          "It is mainly useful for converting apparent magnitude into spectral type.",
+          "It helps detect patterns and small changes over time."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Long-term data helps astronomers identify subtle variation."
       },
       {
@@ -21638,9 +21638,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which choice best describes a precision measurement in this context?",
         choices: [
           "Detecting a very small change in a star's brightness.",
-          "Guessing a star's colour without instruments.",
-          "Counting clouds near the horizon.",
-          "Choosing a constellation name from a myth."
+          "Estimating brightness from a single unaided-eye observation.",
+          "Grouping stars by constellation before comparing their light output.",
+          "Recording whether a star is visible above the horizon."
         ],
         correctIndex: 0,
         explanation: "MOST's value came from measuring extremely small brightness changes."
@@ -21655,9 +21655,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What is a major advantage of microsatellites compared with very large space telescopes?",
         choices: [
           "They can be smaller and less expensive to build and launch.",
-          "They never need engineering.",
-          "They always collect every wavelength better than any large telescope.",
-          "They work only inside classrooms."
+          "They usually avoid the need for a focused mission design.",
+          "They collect broader data because compact instruments cover many wavelengths.",
+          "They become more useful by staying on Earth's surface."
         ],
         correctIndex: 0,
         explanation: "Microsatellite design can lower cost and make specialized missions practical."
@@ -21666,12 +21666,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-529-q2",
         prompt: "Which comparison is most accurate?",
         choices: [
+          "MOST had a broader mission than Hubble because it was a microsatellite.",
           "MOST was much smaller and cheaper than Hubble, but it had a focused scientific purpose.",
-          "MOST and Hubble were identical in size and cost.",
-          "MOST was a ground observatory, while Hubble was a microscope.",
-          "Hubble could not observe space."
+          "MOST and Hubble measured the same targets in the same way for the same length of time.",
+          "MOST was less scientifically useful because useful observations require a school-bus-sized telescope."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "A smaller satellite can still be powerful when its mission is specific."
       },
       {
@@ -21679,9 +21679,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What is a possible tradeoff in microsatellite missions?",
         choices: [
           "They may be designed for narrower tasks than large multi-purpose observatories.",
-          "They cannot use any instruments.",
-          "They are always more expensive than large observatories.",
-          "They must stay on Earth's surface."
+          "They are usually selected when scientists do not need repeated measurements.",
+          "They improve precision mainly by having a larger mirror than major observatories.",
+          "They avoid tradeoffs because lower mass automatically improves several capabilities."
         ],
         correctIndex: 0,
         explanation: "Small missions often gain efficiency by focusing on particular measurements."
@@ -21696,9 +21696,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which groups contributed to the MOST project?",
         choices: [
           "Canadian researchers, engineers, agencies, universities, and companies.",
-          "Only ancient unaided-eye observers.",
-          "Only one person with no collaboration.",
-          "Only weather forecasters studying clouds."
+          "Astronomers working separately from engineers after launch was complete.",
+          "A single observatory team that collected data without satellite design work.",
+          "International telescope operators who used MOST but did not build or manage it."
         ],
         correctIndex: 0,
         explanation: "MOST was a collaborative Canadian space technology project."
@@ -21707,22 +21707,22 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-530-q2",
         prompt: "What broader lesson can MOST support?",
         choices: [
+          "A mission's scientific value depends mainly on being larger than previous telescopes.",
+          "Canadian space technology is most useful when it repeats the goals of larger missions.",
           "Smaller space technologies can still make important scientific contributions.",
-          "Only the largest missions can collect useful data.",
-          "Canadian technology has no role in space science.",
-          "Satellites cannot study stars."
+          "A satellite's cost is a better measure of success than the quality of its data."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "MOST is an example of focused, smaller-scale technology contributing to astronomy."
       },
       {
         id: "kp-530-q3",
         prompt: "Why is collaboration important in a mission like MOST?",
         choices: [
-          "Space missions combine science goals, engineering design, launch planning, and data use.",
-          "Collaboration removes the need for evidence.",
-          "One group can do every space mission without instruments.",
-          "Astronomy does not involve technology."
+          "Collaboration helps connect science goals, engineering design, launch planning, and data use.",
+          "Collaboration matters mainly after the mission ends, when scientific data are no longer needed.",
+          "Collaboration is useful because it replaces testing with agreement among researchers.",
+          "Collaboration makes a mission less specialized by removing engineering constraints."
         ],
         correctIndex: 0,
         explanation: "Space technology usually requires many kinds of expertise working together."
@@ -21736,10 +21736,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-531-q1",
         prompt: "Which career connection is directly related to astronomy and space science?",
         choices: [
-          "Astrophysicist analyzing data about stars and galaxies.",
-          "Chef measuring oven temperature for bread only.",
-          "Carpenter building a deck with no science data.",
-          "Cashier scanning grocery items only."
+          "Aerospace engineer designing systems that support satellites or space missions.",
+          "Laboratory technician testing soil samples for local garden nutrients.",
+          "Civil engineer planning a road without using space or atmospheric data.",
+          "Medical technologist calibrating equipment for blood analysis."
         ],
         correctIndex: 0,
         explanation: "Astronomy connects to careers in science, engineering, education, data, and technology."
@@ -21749,9 +21749,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why might a space educator need strong astronomy knowledge?",
         choices: [
           "They explain space science clearly to students or the public.",
-          "They launch every spacecraft alone.",
-          "They replace all astronomers.",
-          "They only memorize constellation stories without science."
+          "They mainly operate radio telescopes without interpreting observations.",
+          "They focus on public speaking while scientific accuracy is handled by the audience.",
+          "They need astronomy vocabulary mainly for naming constellations in stories."
         ],
         correctIndex: 0,
         explanation: "Communication careers still require accurate understanding of the science being taught."
@@ -21760,12 +21760,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-531-q3",
         prompt: "Which statement best avoids a misconception about astronomy careers?",
         choices: [
-          "Astronomy work includes engineering, communication, robotics, data analysis, and atmospheric science, not only telescope viewing.",
-          "Astronomy has only one possible job.",
-          "Astronomy careers never use technology.",
-          "Astronomy careers are unrelated to Earth systems."
+          "Astronomy careers are limited to nighttime observation through optical telescopes.",
+          "Astronomy work includes engineering, communication, robotics, data analysis, and atmospheric science, not just telescope viewing.",
+          "Astronomy-related jobs mostly avoid mathematics once observations have been collected.",
+          "Astronomy knowledge is useful in museums and planetariums but not in technology careers."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "The field connects with many kinds of work beyond observing through a telescope."
       }
     ]
@@ -21777,12 +21777,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-532-q1",
         prompt: "What is one reason atmospheric scientists monitor space weather?",
         choices: [
+          "Space weather mainly changes local air pressure in the same way as daily weather systems.",
           "Solar radiation storms can affect satellites, power grids, and radio communication.",
-          "Space weather controls ocean salinity directly.",
-          "Space weather makes galaxies change shape every hour.",
-          "Solar storms are the same as ordinary rainstorms."
+          "Solar storms are monitored to predict star life cycles in nearby galaxies.",
+          "Space weather alerts are used mostly to classify planets by surface temperature."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Space weather can disturb technology systems near Earth."
       },
       {
@@ -21790,9 +21790,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why can space weather alerts be useful?",
         choices: [
           "They give operators time to prepare for possible effects on technology and communication systems.",
-          "They stop the Sun from emitting radiation.",
-          "They remove the atmosphere.",
-          "They predict zodiac signs."
+          "They allow scientists to stop solar radiation before it reaches Earth.",
+          "They replace satellite monitoring because alerts already contain complete repair instructions.",
+          "They predict ordinary rain and wind conditions more accurately than weather stations."
         ],
         correctIndex: 0,
         explanation: "Alerts help people manage risks to satellites, radio links, and power systems."
@@ -21802,9 +21802,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which example is most connected to space weather?",
         choices: [
           "A solar radiation storm interferes with radio communication.",
-          "A local lake freezes overnight.",
-          "A plant grows toward a lamp.",
-          "A rock rolls down a hill."
+          "A local temperature drop changes how quickly water freezes.",
+          "A planet's axis tilt changes the length of daylight through a year.",
+          "A cloud layer blocks visible light from a ground telescope."
         ],
         correctIndex: 0,
         explanation: "Solar activity can affect Earth's upper atmosphere and human technology."
