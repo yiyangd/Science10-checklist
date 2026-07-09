@@ -22639,9 +22639,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "When did the earliest stars and first galaxies form in the big bang timeline?",
         choices: [
           "After the early universe cooled enough for matter to clump under gravity.",
-          "Before the universe began expanding.",
-          "Before any elementary particles existed.",
-          "Only after the modern Solar System formed."
+          "During the earliest hot stage, before particles and atoms could form.",
+          "After the Solar System formed and supplied the first heavy elements.",
+          "At the same time as the CMB, before matter could collect into larger structures."
         ],
         correctIndex: 0,
         explanation: "Stars and galaxies formed after earlier cooling and matter formation stages."
@@ -22650,24 +22650,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-553-q2",
         prompt: "Why does gravity matter in the formation of stars and galaxies?",
         choices: [
+          "It spreads matter evenly so clumps have difficulty becoming stars.",
           "It pulls matter together into larger structures.",
-          "It prevents all matter from clumping.",
-          "It changes light into sound.",
-          "It only works inside Earth's atmosphere."
+          "It changes microwave radiation into the first atoms.",
+          "It mainly affects planets after stars and galaxies are already complete."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Gravity helps gas and matter collect into stars, galaxies, and larger structures."
       },
       {
         id: "kp-553-q3",
         prompt: "Which sequence best places star and galaxy formation in cosmic history?",
         choices: [
+          "CMB -> Solar System -> elementary particles -> first galaxies.",
+          "Earliest stars -> big bang -> cooling -> first atoms.",
           "Big bang -> cooling and matter formation -> earliest stars and galaxies.",
-          "Solar System -> first galaxies -> big bang.",
-          "Earth forms -> photons travel freely -> universe begins.",
-          "Stars form before any matter exists."
+          "Modern galaxies -> first atoms -> expansion begins."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Stars and galaxies are later than the earliest hot, dense stages of the universe."
       }
     ]
@@ -22679,12 +22679,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-554-q1",
         prompt: "How does solar system formation fit into the universe's timeline?",
         choices: [
+          "The Solar System formed during the same early stage recorded by the CMB.",
           "The Sun and Solar System formed much later than the earliest stars and galaxies.",
-          "The Solar System formed before the big bang.",
-          "The Solar System was the first structure in the universe.",
-          "The Solar System formed before any atoms existed."
+          "The Solar System formed before earlier stars enriched space with heavier elements.",
+          "The Solar System was the first structure produced after expansion began."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "The Solar System is a relatively late part of cosmic history."
       },
       {
@@ -22692,9 +22692,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why is Earth considered a late part of cosmic history?",
         choices: [
           "Many stars and galaxies existed long before the Sun and planets formed.",
-          "Earth formed before the universe cooled.",
-          "Earth is older than the universe.",
-          "Earth formed from the CMB directly."
+          "Earth formed when photons first began travelling freely through space.",
+          "Earth formed before the first stars because planets are simpler structures.",
+          "Earth formed from CMB radiation without needing earlier stars or nebulae."
         ],
         correctIndex: 0,
         explanation: "The universe had already gone through many stages before the Solar System formed."
@@ -22703,12 +22703,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-554-q3",
         prompt: "Which misconception should be avoided?",
         choices: [
-          "The big bang was not the formation of Earth alone.",
-          "The Solar System formed after many earlier cosmic events.",
+          "The Solar System formed before the earliest stars because planets are smaller.",
           "Stars and galaxies existed before the Solar System.",
-          "Earth is part of a much larger universe."
+          "The Sun and planets formed after many earlier cosmic events.",
+          "The big bang was not simply the formation of Earth."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "The big bang theory describes the universe's history, not just Earth's beginning."
       }
     ]
@@ -22721,9 +22721,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "How do powerful telescopes help scientists study the early universe?",
         choices: [
           "They observe extremely distant galaxies whose light left long ago.",
-          "They travel back in time physically.",
-          "They turn galaxies into nearby planets.",
-          "They remove the need for evidence."
+          "They recreate early-universe temperatures inside the telescope mirror.",
+          "They make nearby galaxies appear older by increasing magnification.",
+          "They replace redshift and CMB evidence with direct travel to the past."
         ],
         correctIndex: 0,
         explanation: "Distant light lets astronomers study earlier stages of cosmic history."
@@ -22732,12 +22732,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-555-q2",
         prompt: "Why are particle accelerators useful for early-universe questions?",
         choices: [
+          "They observe distant galaxies by collecting visible light from space.",
+          "They slow cosmic expansion so early-universe conditions can be measured directly.",
           "They can create high-energy conditions that help scientists test ideas about very early matter.",
-          "They directly photograph every galaxy.",
-          "They are used only to name constellations.",
-          "They stop cosmic expansion."
+          "They classify galaxies by shape using particle tracks."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "High-energy experiments can model some conditions related to the early universe."
       },
       {
@@ -22745,9 +22745,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which pairing best fits this knowledge point?",
         choices: [
           "James Webb Space Telescope: early galaxies; CERN Large Hadron Collider: high-energy particle conditions.",
-          "James Webb Space Telescope: ocean tides; CERN: zodiac calendar.",
-          "James Webb Space Telescope: weather radar only; CERN: star maps only.",
-          "James Webb Space Telescope and CERN: no role in cosmology."
+          "James Webb Space Telescope: particle collisions; CERN: distant galaxy imaging.",
+          "James Webb Space Telescope: local weather; CERN: measuring galaxy redshift.",
+          "James Webb Space Telescope and CERN: unrelated to evidence about the early universe."
         ],
         correctIndex: 0,
         explanation: "Different technologies investigate different kinds of evidence about the early universe."
@@ -22761,12 +22761,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-556-q1",
         prompt: "Why do scientists still describe the universe as containing major mysteries?",
         choices: [
-          "New evidence has answered many questions, but dark matter, dark energy, size, age, and evolution still raise problems.",
-          "No observations have ever been made.",
-          "Science refuses to revise explanations.",
-          "Everything about the universe is already fully known."
+          "The big bang theory explains observations so completely that further evidence is unnecessary.",
+          "Modern telescopes detect visible matter, so unseen effects no longer need explanations.",
+          "Cosmology has stopped changing because the main questions were settled in the 1930s.",
+          "New evidence has answered many questions, but dark matter, dark energy, size, age, and evolution still raise problems."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Modern cosmology has strong evidence but also important unanswered questions."
       },
       {
@@ -22774,9 +22774,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What happens to scientific explanations when new evidence appears?",
         choices: [
           "They can be refined, expanded, or revised.",
-          "They must never change.",
-          "They become myths automatically.",
-          "They stop needing observations."
+          "They are kept unchanged if they are already written in a textbook.",
+          "They become less scientific if technology improves the data.",
+          "They are replaced by guesses before the new evidence is tested."
         ],
         correctIndex: 0,
         explanation: "Science changes as evidence and technology improve."
@@ -22786,9 +22786,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which attitude best fits this section?",
         choices: [
           "We know a lot, but continued observation and interpretation are still needed.",
-          "Mysteries mean science has failed completely.",
-          "Technology cannot change knowledge.",
-          "Only visible matter matters."
+          "Unanswered questions show that existing evidence should be ignored.",
+          "Better technology matters mainly for collecting prettier images.",
+          "Visible matter is enough to explain the motion and expansion evidence."
         ],
         correctIndex: 0,
         explanation: "The section emphasizes both progress and open questions."
@@ -22803,9 +22803,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What is dark matter?",
         choices: [
           "Matter inferred from gravitational effects even though it does not emit light we can detect directly.",
-          "Ordinary dust clouds visible in a telescope.",
-          "A type of visible red star.",
-          "Energy from the Sun's surface."
+          "Ordinary gas and dust that block visible light from background stars.",
+          "A form of starlight too dim for unaided-eye observation.",
+          "The unknown cause of the accelerating expansion of the universe."
         ],
         correctIndex: 0,
         explanation: "Dark matter is inferred from gravity, not directly seen by emitted light."
@@ -22814,12 +22814,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-557-q2",
         prompt: "Why do astronomers infer dark matter in galaxies?",
         choices: [
+          "Visible matter has no gravitational effect on stars in galaxies.",
           "Observed motions suggest more mass than visible matter alone can explain.",
-          "All galaxies are invisible.",
-          "Visible matter has no gravity.",
-          "Spectra cannot show motion."
+          "The colour of a galaxy directly shows how much dark matter it contains.",
+          "Dark matter is assumed when a galaxy is too far away to photograph clearly."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Galaxy rotation and cluster motion point to additional unseen mass."
       },
       {
@@ -22827,9 +22827,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which statement avoids a common misconception?",
         choices: [
           "Dark matter is not called dark because it is black-coloured visible matter; it is inferred because it does not emit detectable light.",
-          "Dark matter is just ordinary shadow.",
-          "Dark matter has no gravitational effect.",
-          "Dark matter has been fully identified in every detail."
+          "Dark matter is the same as a shadow cast by bright stars and galaxies.",
+          "Dark matter affects galaxy motion mainly by absorbing starlight rather than through gravity.",
+          "Dark matter has been identified in enough detail that its particles are fully known."
         ],
         correctIndex: 0,
         explanation: "The name refers to missing unseen mass, not simply colour."
@@ -22843,12 +22843,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-558-q1",
         prompt: "What unexpected observation in Andromeda supports the idea of missing mass?",
         choices: [
+          "Its visible light shows no evidence that stars orbit the galaxy's centre.",
+          "Its stars move more slowly than gravity predicts from visible matter.",
           "Its stars move faster than predicted from visible matter alone.",
-          "It has no stars.",
-          "It is inside Earth's atmosphere.",
-          "It stopped rotating completely."
+          "Its spectrum shows redshift but no information about star motion."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Faster-than-expected star motion suggests extra unseen mass."
       },
       {
@@ -22856,9 +22856,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why was visible light from Andromeda not enough to explain its motion?",
         choices: [
           "The visible matter estimated from light did not provide enough mass to match observed star speeds.",
-          "Visible light cannot come from galaxies.",
-          "Andromeda is not a galaxy.",
-          "Star speeds are unrelated to gravity."
+          "Visible light measures temperature, so it is separate from gravitational predictions.",
+          "The galaxy's visible stars were moving too slowly to require any unseen matter.",
+          "Andromeda's apparent brightness showed that mass was distributed evenly at each radius."
         ],
         correctIndex: 0,
         explanation: "The gravitational effects were larger than visible matter could account for."
@@ -22868,9 +22868,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which reasoning pattern matches this evidence?",
         choices: [
           "Prediction from visible mass -> observed speeds too high -> infer additional unseen mass.",
-          "Ignore the speeds -> assume no mass exists.",
-          "Measure star colour -> conclude Earth is older.",
-          "Count constellations -> calculate galaxy rotation."
+          "Observed speeds too high -> reject gravity -> stop comparing with mass.",
+          "Visible light faint -> assume the galaxy has no matter outside its centre.",
+          "Redshift detected -> conclude the galaxy is made mostly of dark energy."
         ],
         correctIndex: 0,
         explanation: "Dark matter is inferred by comparing predictions with observations."
@@ -22884,12 +22884,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-559-q1",
         prompt: "What is a dark matter halo?",
         choices: [
+          "A bright ring of ordinary stars that marks a galaxy's visible edge.",
           "A large region of inferred dark matter surrounding a galaxy.",
-          "A ring of visible stars around Earth.",
-          "A cloud in the lower atmosphere.",
-          "A telescope lens effect that never involves gravity."
+          "A cloud of dust that blocks a galaxy's centre from view.",
+          "A background glow from the CMB around nearby galaxies."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Dark matter is thought to extend in large halos around galaxies."
       },
       {
@@ -22897,9 +22897,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why do galaxy groups and clusters suggest dark matter halos?",
         choices: [
           "Their motions often require more gravitational mass than visible matter shows.",
-          "They contain no galaxies.",
-          "Their motions are unrelated to mass.",
-          "They are all inside the Solar System."
+          "Their visible stars are so bright that gravity becomes unimportant.",
+          "Their galaxy motions can be explained by apparent brightness without mass.",
+          "Their redshift shows that dark energy and dark matter are the same thing."
         ],
         correctIndex: 0,
         explanation: "Large-scale motions point to unseen gravitational mass around galaxies and clusters."
@@ -22909,9 +22909,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which observation would most support a halo of unseen matter?",
         choices: [
           "Objects orbit as if a galaxy has much more mass than its visible stars and gas.",
-          "A galaxy changes colour in a photograph.",
-          "A planet has seasons.",
-          "A constellation is hard to see through city lights."
+          "A galaxy appears redder because many of its stars are cool.",
+          "A star's spectral type places it on the main sequence.",
+          "A galaxy is difficult to see because of city light pollution."
         ],
         correctIndex: 0,
         explanation: "Orbital motion can reveal gravitational mass that is not directly visible."
@@ -22926,9 +22926,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What is dark energy?",
         choices: [
           "A name for the unknown cause of the accelerating expansion of the universe.",
-          "A kind of ordinary visible starlight.",
-          "A force that makes planets orbit the Sun.",
-          "A cloud of dust inside Earth."
+          "The invisible matter inferred from galaxy rotation speeds.",
+          "Energy released by stars during ordinary nuclear fusion.",
+          "Radiation left over from the early universe."
         ],
         correctIndex: 0,
         explanation: "Dark energy is used as a name for whatever is driving accelerated cosmic expansion."
@@ -22937,12 +22937,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-560-q2",
         prompt: "Why were Type Ia supernovae useful in inferring dark energy?",
         choices: [
-          "Their known brightness helped reveal they were farther away than expected from a slowing-expansion model.",
-          "They are all inside the Milky Way only.",
-          "They do not emit light.",
-          "They measure dark matter directly in a lab."
+          "They directly measured dark matter particles inside galaxy halos.",
+          "They showed that redshift is caused by ordinary star colour rather than expansion.",
+          "Their explosions happened near Earth, making cosmic expansion easier to ignore.",
+          "Their known brightness helped reveal they were farther away than expected from a slowing-expansion model."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Type Ia supernova observations provided evidence that expansion is accelerating."
       },
       {
@@ -22950,9 +22950,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which statement is most accurate?",
         choices: [
           "Dark energy is inferred from observations, but its true nature is still unknown.",
-          "Dark energy is fully understood in every detail.",
-          "Dark energy is the same as visible matter.",
-          "Dark energy is simply a redshifted star."
+          "Dark energy is the same material as dark matter, just farther away.",
+          "Dark energy is ordinary starlight that has been shifted into the microwave range.",
+          "Dark energy is a completed explanation with no remaining uncertainty."
         ],
         correctIndex: 0,
         explanation: "The evidence suggests an effect, but the cause remains mysterious."
@@ -22967,9 +22967,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What did astronomers originally expect gravity to do to cosmic expansion?",
         choices: [
           "Slow it down over time.",
-          "Speed it up forever with no other cause.",
-          "Stop light from travelling.",
-          "Turn galaxies into planets."
+          "Speed it up by pushing galaxies away from one another.",
+          "Make redshift disappear from distant galaxy spectra.",
+          "Keep distant galaxies at fixed distances from Earth."
         ],
         correctIndex: 0,
         explanation: "Gravity attracts matter, so scientists expected expansion to slow."
@@ -22979,9 +22979,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What surprising pattern did evidence from distant Type Ia supernovae suggest?",
         choices: [
           "The universe's expansion began accelerating billions of years ago.",
-          "The universe stopped expanding before stars formed.",
-          "Earth is the centre of all expansion.",
-          "All galaxies are moving toward the Milky Way."
+          "The universe's expansion was slowing exactly as gravity predicted.",
+          "The redshift-distance pattern applies mainly inside the Solar System.",
+          "Type Ia supernovae are too dim to compare with distance models."
         ],
         correctIndex: 0,
         explanation: "Supernova data suggested acceleration rather than continued slowing."
@@ -22991,9 +22991,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why did accelerating expansion require a new explanatory idea?",
         choices: [
           "It did not fit the expectation that gravity alone should slow expansion.",
-          "It proved gravity does not exist anywhere.",
-          "It showed that no galaxies have redshift.",
-          "It made the CMB disappear."
+          "It showed that gravity works mainly near planets and less near galaxies.",
+          "It removed the need for redshift evidence in cosmology.",
+          "It meant dark matter and visible matter were identical."
         ],
         correctIndex: 0,
         explanation: "The acceleration suggested that another effect, called dark energy, was involved."
@@ -23008,9 +23008,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "According to current estimates in the checklist, what makes up most of the universe?",
         choices: [
           "Dark energy and dark matter.",
-          "Only visible stars and planets.",
-          "Only Earth-like planets.",
-          "Only gas inside the Milky Way."
+          "Visible stars, planets, and glowing gas.",
+          "The matter inside the Milky Way galaxy.",
+          "CMB radiation and ordinary starlight."
         ],
         correctIndex: 0,
         explanation: "Visible matter is only a small fraction compared with dark matter and dark energy."
@@ -23020,9 +23020,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why is the visible universe not the same as everything that exists?",
         choices: [
           "Much of the universe is inferred from effects such as gravity and expansion rather than directly seen light.",
-          "Visible matter does not exist.",
-          "Dark matter emits more visible light than stars.",
-          "All unseen things are imaginary."
+          "Visible matter is an illusion caused by telescope limits.",
+          "Dark matter is brighter than stars but hidden by Earth's atmosphere.",
+          "Unseen components are included mainly because they make the model simpler."
         ],
         correctIndex: 0,
         explanation: "Observations show effects that visible matter alone cannot explain."
@@ -23031,12 +23031,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-562-q3",
         prompt: "If visible matter is only about \\(4\\%\\) of the universe in one estimate, which statement follows?",
         choices: [
+          "Visible stars and galaxies provide enough mass-energy to explain the universe.",
           "Most of the universe's mass-energy is not ordinary visible stars and galaxies.",
-          "Stars and galaxies make up all of the universe.",
-          "Dark matter and dark energy are unnecessary ideas.",
-          "Only the Solar System exists."
+          "Dark matter and dark energy are minor labels for ordinary planets.",
+          "The estimate means the rest of the universe is empty space with no effects."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "The estimate emphasizes how much remains unseen or not fully understood."
       }
     ]
