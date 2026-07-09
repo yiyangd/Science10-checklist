@@ -17431,12 +17431,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-426-q1",
         prompt: "What energy transformation occurs when wood burns in a fire?",
         choices: [
+          "Thermal energy in the air is stored as chemical potential energy in wood.",
           "Chemical potential energy transforms into thermal and radiant energy.",
-          "Thermal energy transforms into gravity only.",
-          "Radiant energy transforms into frozen water.",
-          "Nuclear energy transforms into photosynthesis."
+          "Radiant energy from flames changes directly into gravitational potential energy.",
+          "Mechanical energy in wood changes into electrical energy for cooking."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Burning wood releases stored chemical energy as heat and light."
       },
       {
@@ -17444,9 +17444,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which benefit of fire-starting technology is most directly linked to thermal energy?",
         choices: [
           "Cooking food and staying warm in colder climates.",
-          "Producing ocean tides.",
-          "Preventing all combustion.",
-          "Building calcium shells."
+          "Storing sunlight in plant tissue through photosynthesis.",
+          "Producing electrical energy without burning fuel.",
+          "Reducing the need for radiant energy at night by removing light."
         ],
         correctIndex: 0,
         explanation: "Thermal energy from fire helped people cook and survive in cold environments."
@@ -17455,10 +17455,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-426-q3",
         prompt: "Why is fire a good example of technology based on energy transformation?",
         choices: [
-          "People intentionally used a transformation to produce useful heat and light.",
-          "Fire has no energy changes.",
-          "Fire is useful only because it creates water.",
-          "Fire prevents chemical energy from changing."
+          "It shows how a useful technology can control the release of stored energy.",
+          "It works because matter changes while energy stays separate from the process.",
+          "It is useful mainly because wood stores thermal energy before it burns.",
+          "It changes radiant energy into chemical potential energy for later use."
         ],
         correctIndex: 0,
         explanation: "Fire-starting let humans control a useful energy transformation."
@@ -17473,9 +17473,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What energy transformation powered many steam engines?",
         choices: [
           "Chemical potential energy in coal -> thermal energy -> mechanical kinetic energy.",
-          "Nuclear energy -> ocean acidity -> shell growth.",
-          "Sound energy -> gravity -> photosynthesis.",
-          "Visible light -> no energy transfer -> stillness."
+          "Thermal energy in steam -> chemical potential energy in coal -> motion.",
+          "Mechanical kinetic energy in wheels -> coal formation -> electrical energy.",
+          "Radiant energy from the Sun -> ocean acidity -> vehicle motion."
         ],
         correctIndex: 0,
         explanation: "Coal combustion produced heat, which was used to create mechanical motion in steam engines."
@@ -17484,12 +17484,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-427-q2",
         prompt: "What harmful effect can large-scale combustion produce?",
         choices: [
+          "Cleaner air when smoke mixes with fog.",
           "Air pollution and health problems.",
-          "Instant removal of all smog.",
-          "No waste products of any kind.",
-          "Permanent cooling of every city."
+          "A lower risk of smog because combustion uses oxygen.",
+          "Less pollution if the fuel is burned at a larger scale."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "The textbook connects coal smoke, smog, and vehicle emissions to air pollution and health risks."
       },
       {
@@ -17497,9 +17497,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why is a gas engine an example of both benefit and harm?",
         choices: [
           "It can provide transportation but also contribute to smog and air pollution.",
-          "It has no useful energy transformation.",
-          "It produces food through photosynthesis.",
-          "It removes all pollutants from air."
+          "It is beneficial because combustion products stay inside the engine.",
+          "It is harmful mainly because it converts motion back into unused fuel.",
+          "It avoids trade-offs because mechanical motion is a useful output."
         ],
         correctIndex: 0,
         explanation: "Combustion engines helped transportation but also brought pollution-related problems."
@@ -17514,9 +17514,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why is cement production included as an energy-transformation trade-off?",
         choices: [
           "It provides useful building material but can release significant carbon dioxide.",
-          "It produces no emissions and no chemical changes.",
-          "It is used only in living cells.",
-          "It prevents all construction."
+          "It reduces climate impact because chemical reactions absorb carbon dioxide during production.",
+          "It is mainly a trade-off because cement stores little usable thermal energy.",
+          "It avoids environmental harm because it is not an electrical technology."
         ],
         correctIndex: 0,
         explanation: "Cement is useful, but its production can add greenhouse gas emissions."
@@ -17525,24 +17525,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-428-q2",
         prompt: "What energy transformation occurs in a battery when it powers a device?",
         choices: [
+          "Electrical energy is stored by changing it into gravitational potential energy.",
           "Chemical potential energy transforms into electrical energy.",
-          "Electrical energy transforms into ocean tides only.",
-          "Thermal energy transforms into carbonic acid only.",
-          "Gravity transforms into cement."
+          "Thermal energy from the device changes into unused cement.",
+          "Radiant energy from the screen changes into battery chemicals."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Batteries store chemical potential energy that can be transformed into electrical energy."
       },
       {
         id: "kp-428-q3",
         prompt: "What hidden harm can batteries create if they are not recycled properly?",
         choices: [
+          "They can reduce landfill problems by releasing their metals into soil.",
+          "They become safer when mixed with other waste because concentration decreases.",
           "Toxic chemicals can leach into landfills and harm health or ecosystems.",
-          "They become harmless food for organisms.",
-          "They remove all greenhouse gases.",
-          "They make cement absorb unlimited carbon dioxide."
+          "They create harm mainly by preventing devices from using electricity."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "The textbook notes that modern batteries can create toxic waste problems if not handled properly."
       }
     ]
@@ -17555,9 +17555,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What energy transformation is central to hydroelectric dams?",
         choices: [
           "Gravitational potential and kinetic energy of water are transformed into electrical energy.",
-          "Sound energy is transformed into DNA.",
-          "Carbon dioxide becomes sunlight.",
-          "Thermal energy becomes coral skeletons."
+          "Electrical energy in turbines is transformed into stored water behind the dam.",
+          "Thermal energy in decaying plants is transformed directly into moving water.",
+          "Chemical potential energy in concrete is transformed into electrical energy."
         ],
         correctIndex: 0,
         explanation: "Falling or flowing water drives turbines and generators to produce electricity."
@@ -17566,12 +17566,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-429-q2",
         prompt: "Which is a possible harm of building a large hydroelectric reservoir?",
         choices: [
-          "Flooding land, releasing methane from decaying plants, or displacing people.",
-          "Eliminating every greenhouse gas forever.",
-          "Preventing any electrical generation.",
-          "Turning water into nuclear fuel."
+          "Reducing habitat impact because water covers affected land evenly.",
+          "Creating electricity while avoiding social impacts on nearby communities.",
+          "Making methane less relevant because the energy source is renewable.",
+          "Flooding land, releasing methane from decaying plants, or displacing people."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Hydroelectricity provides useful power, but dam construction can flood land and affect communities and ecosystems."
       },
       {
@@ -17579,9 +17579,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which statement best evaluates hydroelectric power fairly?",
         choices: [
           "It can provide electrical energy, but its environmental and social impacts must be considered.",
-          "It has only benefits and no possible harms.",
-          "It has only harms and never produces electricity.",
-          "It does not involve energy transformation."
+          "It should be judged by electricity output without considering flooded land.",
+          "It is harmful mainly because it does not involve energy transformation.",
+          "It avoids trade-offs because water is part of a natural cycle."
         ],
         correctIndex: 0,
         explanation: "A balanced evaluation includes both the energy benefit and possible harms."
@@ -17596,9 +17596,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "How can a nuclear reactor produce electrical energy?",
         choices: [
           "Nuclear energy is transformed into thermal energy, steam motion, and then electrical energy.",
-          "Nuclear energy directly becomes ocean shells.",
-          "Sunlight becomes concrete inside the reactor.",
-          "Sound energy replaces all generators."
+          "Nuclear energy changes into electricity without heating water or moving a generator.",
+          "Thermal energy from steam is transformed back into nuclear fuel.",
+          "Electrical energy from the grid is transformed into medical isotopes."
         ],
         correctIndex: 0,
         explanation: "Reactors use nuclear energy to produce heat, which can make steam that drives generators."
@@ -17608,9 +17608,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why is nuclear technology considered both useful and risky?",
         choices: [
           "It can generate electricity and medical isotopes, but radiation can harm living things.",
-          "It has no medical or electrical uses.",
-          "Radiation is always harmless to life.",
-          "It produces only clean drinking water."
+          "It is useful mainly because radiation risk disappears inside reactors.",
+          "It is risky because nuclear energy is too indirect to produce electrical energy.",
+          "It is beneficial for medicine but unrelated to energy transformations."
         ],
         correctIndex: 0,
         explanation: "The textbook notes benefits from reactors and isotopes while emphasizing radiation risk."
@@ -17619,10 +17619,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-430-q3",
         prompt: "What hidden impact can hydrogen fuel cells have?",
         choices: [
-          "Producing the hydrogen may release carbon dioxide, depending on the method used.",
-          "Fuel cells always release more smog than coal engines.",
-          "Hydrogen cannot store or transfer energy.",
-          "Fuel cells have no connection to energy technology."
+          "Fuel cells may be emission-free during use, while hydrogen production can still release carbon dioxide.",
+          "Hydrogen production matters less because fuel cells produce no useful energy.",
+          "Fuel cells are hidden impacts mainly because they use nuclear waste.",
+          "Hydrogen fuel avoids trade-offs because it is the lightest element."
         ],
         correctIndex: 0,
         explanation: "Fuel cells may emit no pollutants during use, but hydrogen production can still have emissions."
@@ -17637,9 +17637,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What kind of action can reduce harmful impacts of technology-related energy transformations?",
         choices: [
           "Both personal choices and national or collective decisions.",
-          "Only choices made by one person in private.",
-          "Only ignoring energy use.",
-          "No action can ever reduce harm."
+          "Private choices matter, while infrastructure and policy are separate from energy impacts.",
+          "National decisions matter, while daily energy choices do not contribute.",
+          "Action is useful mainly after a technology has no environmental effects."
         ],
         correctIndex: 0,
         explanation: "The chapter describes both individual and collective action as important for reducing harm."
@@ -17648,12 +17648,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-431-q2",
         prompt: "Which action best matches the concept of reducing energy-related harm?",
         choices: [
+          "Replacing one energy technology with another without evaluating impacts.",
+          "Using more fuel now because future technology may reduce harm later.",
           "Choosing sustainable technologies and reducing unnecessary energy use.",
-          "Increasing pollution because technology will fix everything instantly.",
-          "Using more fuel whenever possible.",
-          "Throwing batteries into landfills."
+          "Reducing visible pollution while ignoring waste from the technology."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Reducing energy use and choosing better technologies can lessen harmful impacts."
       },
       {
@@ -17661,9 +17661,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why are national actions often needed in addition to personal actions?",
         choices: [
           "Some energy systems and technologies are too large for individuals to change alone.",
-          "Personal actions are illegal.",
-          "National action never affects energy systems.",
-          "Energy transformation happens only inside homes."
+          "Personal actions reduce harm mainly when national systems are not involved.",
+          "National action is mainly symbolic because energy infrastructure is local.",
+          "Large energy systems respond to consumer habits but not policy choices."
         ],
         correctIndex: 0,
         explanation: "Large-scale energy choices often require policy, infrastructure, and collective planning."
@@ -17678,9 +17678,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why can reducing energy-related harm require trade-offs?",
         choices: [
           "It may require commitment and sacrifices in comfort or convenience.",
-          "It always makes life easier with no changes.",
-          "It removes every benefit of energy use.",
-          "It can be done only by stopping all technology."
+          "It works best when benefits are considered but sacrifices are ignored.",
+          "It means choosing between comfort and environment with no middle ground.",
+          "It requires new technologies because personal choices have no role."
         ],
         correctIndex: 0,
         explanation: "The textbook notes that action can require sacrifices, even when the goal is worthwhile."
@@ -17690,9 +17690,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which example best shows a trade-off in reducing harm?",
         choices: [
           "Cycling instead of driving reduces combustion pollution but may take more effort or time.",
-          "Driving farther to reduce fuel use.",
-          "Recycling batteries by throwing them into regular garbage.",
-          "Using more electricity to reduce electricity use."
+          "Driving farther to reduce fuel use because the trip feels more efficient.",
+          "Recycling batteries by placing them with regular landfill waste.",
+          "Choosing convenience while assuming pollution changes automatically."
         ],
         correctIndex: 0,
         explanation: "Reducing emissions can involve giving up some convenience."
@@ -17701,12 +17701,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-432-q3",
         prompt: "What misconception about sustainability choices should be corrected?",
         choices: [
-          "That a useful action is worthless if it requires any sacrifice.",
           "That benefits and sacrifices can both be evaluated.",
           "That comfort can be part of decision-making.",
-          "That energy decisions can affect other people."
+          "That energy decisions can affect other people.",
+          "That a useful action loses value if it requires some sacrifice."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Responsible decisions often involve weighing benefits, costs, and sacrifices."
       }
     ]
@@ -17718,12 +17718,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-433-q1",
         prompt: "How can an urban farm program reduce harmful energy impacts?",
         choices: [
-          "It can reduce pollution from transporting food over long distances.",
-          "It increases all shipping distances.",
-          "It prevents plants from using solar energy.",
-          "It makes food production unrelated to energy."
+          "It reduces harm mainly by replacing photosynthesis with electricity.",
+          "It changes food production so transportation energy is no longer measurable.",
+          "It increases local energy use but removes the need to evaluate transport.",
+          "It can reduce pollution from transporting food over long distances."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Local food initiatives can reduce transportation-related energy use and pollution."
       },
       {
@@ -17731,9 +17731,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why can recycling programs reduce harmful impacts of energy transformation?",
         choices: [
           "They can reduce landfill waste and the need for manufacturing new materials.",
-          "They increase toxic waste by design.",
-          "They require no community participation.",
-          "They stop all matter from being reused."
+          "They work mainly by moving manufacturing impacts to another community.",
+          "They reduce harm because recycled materials no longer require transport.",
+          "They are helpful when recycling uses more new raw material."
         ],
         correctIndex: 0,
         explanation: "Recycling can reduce the impacts of manufacturing and disposal."
@@ -17743,9 +17743,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which student action most directly reduces combustion-related pollution?",
         choices: [
           "Cycling to school instead of travelling by car when practical.",
-          "Leaving car engines idling longer.",
-          "Throwing recyclables into landfill.",
-          "Growing food farther away from consumers."
+          "Leaving a car idling because the trip distance is shorter.",
+          "Recycling materials while increasing vehicle trips for the same route.",
+          "Choosing local food but transporting it farther before use."
         ],
         correctIndex: 0,
         explanation: "Cycling can reduce fuel combustion and related air pollution."
@@ -17760,9 +17760,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why does the textbook warn that technology is rarely a cure-all?",
         choices: [
           "New technologies can reduce one harm while creating other impacts.",
-          "All technologies are useless.",
-          "Every new technology has no side effects.",
-          "Technology never affects energy transformation."
+          "A new technology should be judged by its label rather than its full life cycle.",
+          "A technology that reduces emissions during use has solved the whole problem.",
+          "Technology is separate from social choices about energy use."
         ],
         correctIndex: 0,
         explanation: "Technologies should be evaluated across their full life cycle, not just their immediate benefits."
@@ -17771,10 +17771,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-434-q2",
         prompt: "Which evaluation of electric vehicles is most balanced?",
         choices: [
-          "They have no tailpipe emissions, but electricity generation and battery disposal still matter.",
-          "They have no environmental impacts of any kind.",
-          "They always use electricity made without emissions.",
-          "Their batteries contain no materials."
+          "They reduce tailpipe emissions, while electricity generation and battery disposal still matter.",
+          "They solve transportation pollution because the vehicle itself has no exhaust pipe.",
+          "They have hidden impacts mainly if the driver uses them for long trips.",
+          "They should be evaluated by battery disposal but not by electricity source."
         ],
         correctIndex: 0,
         explanation: "Electric vehicles can reduce some emissions, but upstream energy sources and battery waste must be considered."
@@ -17783,12 +17783,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-434-q3",
         prompt: "What is a common misconception about emerging technologies?",
         choices: [
-          "That a technology labelled clean has no hidden impacts.",
-          "That technologies can be compared.",
-          "That batteries can contain toxic materials.",
-          "That energy sources can affect emissions."
+          "That technologies can be compared by looking at benefits and harms.",
+          "That batteries can contain materials that need careful disposal.",
+          "That electricity sources can affect the impact of an electric vehicle.",
+          "That a technology labelled clean has no hidden impacts."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "A technology may reduce visible pollution while still having hidden production, disposal, or energy-source impacts."
       }
     ]
@@ -17801,9 +17801,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why is controlled nuclear fusion difficult to use for electricity generation?",
         choices: [
           "It requires extremely high temperatures that must be sustained and contained.",
-          "It works only at room temperature with no equipment.",
-          "It produces no energy when controlled.",
-          "It can be contained easily by ordinary plastic."
+          "It is difficult because the reaction needs to be cooled to near freezing.",
+          "It works best when the plasma transfers heat directly through the reactor walls.",
+          "It is difficult mainly because fusion produces no thermal energy."
         ],
         correctIndex: 0,
         explanation: "Fusion is promising, but sustaining and containing super-heated reactions is a major challenge."
@@ -17812,12 +17812,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-435-q2",
         prompt: "What is the role of magnetic fields in a tokamak reactor?",
         choices: [
-          "They help contain the super-heated fusion reaction away from reactor walls.",
           "They cool the reaction to freezing temperatures.",
-          "They turn fusion directly into cement.",
-          "They replace the need for any containment."
+          "They help contain the super-heated fusion reaction away from reactor walls.",
+          "They turn fusion energy directly into stored chemical energy.",
+          "They increase friction between plasma and reactor walls."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Magnetic confinement keeps the extremely hot plasma from touching material walls."
       },
       {
@@ -17825,9 +17825,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which statement best explains why fusion is still an emerging technology?",
         choices: [
           "Scientists can create extreme conditions, but reliable long-term containment remains hard.",
-          "Scientists have never produced temperatures hotter than the Sun.",
-          "Fusion is already the main source of electricity everywhere.",
-          "Fusion requires no research because it is simple."
+          "Fusion has been delayed because it releases too little energy in a reactor.",
+          "Fusion is mainly limited by the lack of magnetic field technology in classrooms.",
+          "Fusion is already ready for ordinary power grids once fuel cells improve."
         ],
         correctIndex: 0,
         explanation: "The difficulty is not only starting fusion, but sustaining and controlling it for useful electricity."
