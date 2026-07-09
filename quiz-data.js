@@ -10312,7 +10312,7 @@ window.SCIENCE10_QUIZZES = {
           "Alternative fuels are mainly a transportation issue, not a chemical one.",
           "Fuel choices matter mostly for cost, while emissions are separate from chemistry.",
           "Different reactions and fuel sources can have different emissions and impacts.",
-          "A renewable source guarantees that the fuel's reaction products are harmless."
+          "A renewable source makes reaction products less important to measure."
         ],
         correctIndex: 2,
         explanation: "Energy decisions depend on chemical processes and their consequences."
@@ -10444,7 +10444,7 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-255-q3",
         prompt: "Why should observations be recorded during a reaction, not only at the end?",
         choices: [
-          "Final observations show products, but they do not show how quickly changes occurred.",
+          "Final observations are enough because the products contain the whole reaction history.",
           "Recording observations is useful mainly for drawing the apparatus later.",
           "The reaction name can suggest what happened, but evidence is still needed.",
           "Changes over time help connect evidence to the process of the reaction."
@@ -10473,7 +10473,7 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-256-q2",
         prompt: "Why is 'the test tube got warm' not a complete particle-level explanation?",
         choices: [
-          "It proves no energy was transferred.",
+          "It gives an energy clue but not a particle model.",
           "It gives the final observation but leaves out which bonds changed.",
           "It describes evidence but not what happened to atoms, ions, and bonds.",
           "It is useful mainly because temperature observations are easier than particle models."
@@ -10544,7 +10544,7 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why should the 'best' hand warmer not be chosen only by the highest temperature?",
         choices: [
           "It must also be safe, practical, affordable, and environmentally responsible.",
-          "Temperature matters, but the hottest sample may heat too quickly or too much.",
+          "Temperature matters, but a single high reading does not describe the full design problem.",
           "The hottest chemical is the best choice if it is sealed inside a packet.",
           "Environmental impact can be checked after the product is sold."
         ],
