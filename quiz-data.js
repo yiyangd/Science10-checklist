@@ -14561,36 +14561,36 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-356-q1",
         prompt: "What happens to an electron when it absorbs enough light energy?",
         choices: [
+          "It changes into a neutron in the nucleus.",
+          "It releases its energy before interacting with matter.",
           "It can move to a higher energy level.",
-          "It becomes a neutron in the nucleus.",
-          "It turns into carbon dioxide.",
-          "It loses all energy and stops existing."
+          "It becomes carbon dioxide during photosynthesis."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Absorbed light energy can excite an electron, moving it to a higher energy level."
       },
       {
         id: "kp-356-q2",
         prompt: "Why are excited electrons important in light-energy transformations?",
         choices: [
-          "Their added energy can be passed into chemical changes, electrical current, or molecular changes.",
-          "They prove light has no energy.",
-          "They prevent matter from interacting with light.",
-          "They always make the atom split into two nuclei."
+          "They show that absorbed light was reflected from the material.",
+          "They prevent the molecule from changing after light is absorbed.",
+          "They change the nucleus into a different element.",
+          "Their added energy can be passed into chemical changes, electrical current, or molecular changes."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Excited electrons provide a way for absorbed light energy to be transformed into other useful forms."
       },
       {
         id: "kp-356-q3",
         prompt: "A student says, \"When light is absorbed, the electron disappears.\" What is the best correction?",
         choices: [
+          "The electron changes into a helium nucleus after absorbing light.",
           "The electron gains energy and may move to a higher energy level; it does not simply disappear.",
-          "The electron becomes a whole atom of helium.",
-          "The electron always leaves the atom as alpha radiation.",
-          "The electron changes into a photon with no interaction."
+          "The electron becomes carbon dioxide if the molecule is in a leaf.",
+          "The electron reflects the light and stays at a lower energy level."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Absorption changes the electron's energy state; it does not mean the electron vanishes."
       }
     ]
@@ -14602,36 +14602,36 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-357-q1",
         prompt: "How does chlorophyll help store energy during photosynthesis?",
         choices: [
+          "It breaks down glucose to release ATP before light is absorbed.",
           "It absorbs light energy that can be used to form high-energy chemical bonds.",
-          "It splits uranium nuclei in plant cells.",
-          "It reflects all light so no energy enters the plant.",
-          "It turns oxygen directly into sunlight."
+          "It stores oxygen as electrical kinetic energy in the chloroplast.",
+          "It reflects light energy away so the plant can avoid overheating."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Chlorophyll absorbs light, and that energy helps drive reactions that store chemical potential energy."
       },
       {
         id: "kp-357-q2",
         prompt: "Which statement best connects chlorophyll to glucose production?",
         choices: [
+          "Chlorophyll uses glucose to create light before photosynthesis begins.",
+          "Chlorophyll stores nuclear energy in high-energy bonds.",
           "Chlorophyll absorbs light energy that helps power reactions leading to chemical potential energy in glucose.",
-          "Chlorophyll uses glucose to create sunlight before photosynthesis begins.",
-          "Chlorophyll stores nuclear energy in uranium pellets.",
-          "Chlorophyll prevents electrons from ever becoming excited."
+          "Chlorophyll keeps electrons at low energy so glucose can form."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Light absorbed by chlorophyll supports the reaction sequence that produces glucose."
       },
       {
         id: "kp-357-q3",
         prompt: "Which misconception about chlorophyll should be corrected?",
         choices: [
-          "Chlorophyll is only a green colour and has no role in energy transformation.",
           "Chlorophyll absorbs light energy.",
           "Chlorophyll is found in chloroplasts.",
-          "Chlorophyll helps connect light energy to chemical potential energy."
+          "Chlorophyll helps connect light energy to chemical potential energy.",
+          "Chlorophyll is just a green colour and has no role in energy transformation."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Chlorophyll is not just a colour; it is involved in absorbing light energy for photosynthesis."
       }
     ]
@@ -14643,36 +14643,36 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-358-q1",
         prompt: "What energy transformation happens in a photovoltaic cell?",
         choices: [
-          "Light energy is transformed directly into electrical kinetic energy.",
           "Chemical potential energy is transformed into glucose.",
           "Nuclear energy is transformed into alpha particles.",
-          "Sound energy is transformed into thermal energy only."
+          "Light energy is transformed directly into electrical kinetic energy.",
+          "Sound energy is transformed into thermal energy in the silicon."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Photovoltaic cells use absorbed light to produce moving electrons, which is electrical kinetic energy."
       },
       {
         id: "kp-358-q2",
         prompt: "Why do electrons move in a photovoltaic cell after light is absorbed?",
         choices: [
+          "Light energy changes silicon into a chemical fuel.",
           "Light energy frees electrons so they can move through a circuit.",
-          "Light energy turns the silicon into coal.",
-          "The cell creates electrons from nothing.",
-          "The electrons are pushed by sound waves from the Sun."
+          "The cell uses sound waves to push electrons through metal.",
+          "The electrons become photons after crossing the junction."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Absorbed light energy can free electrons in the cell, allowing current to flow through conductors."
       },
       {
         id: "kp-358-q3",
         prompt: "Which device most directly uses the same principle as a photovoltaic cell?",
         choices: [
-          "A solar panel charging a small battery in daylight.",
           "A hand warmer releasing thermal energy from a chemical reaction.",
           "A mirror reflecting sunlight onto a wall.",
-          "A candle burning wax to produce light."
+          "A candle burning wax to produce light.",
+          "A solar panel charging a small battery in daylight."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Solar panels use photovoltaic cells to transform absorbed light into electrical energy."
       }
     ]
@@ -14684,36 +14684,36 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-359-q1",
         prompt: "What is the role of rhodopsin in vision?",
         choices: [
+          "It stores chemical potential energy from food directly in the retina.",
+          "It reflects light back out of rod and cone cells.",
           "It absorbs light energy and begins molecular changes that lead to an electrical signal.",
-          "It stores fossil fuel energy in eye cells.",
-          "It splits heavy nuclei in the retina.",
-          "It reflects all light away from rod and cone cells."
+          "It splits nuclei in retinal cells to create a nerve signal."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Rhodopsin absorbs light in retinal cells and helps start the signal pathway to the brain."
       },
       {
         id: "kp-359-q2",
         prompt: "Which sequence best traces a light-energy transformation in vision?",
         choices: [
+          "Light reflects from rhodopsin, then a signal forms without absorption.",
           "Light is absorbed by molecules in retina cells, molecular shape changes occur, and nerve signals are sent.",
-          "Light becomes coal, coal becomes oxygen, and oxygen becomes a nerve signal.",
-          "Light splits uranium, then neutrons travel to the brain.",
-          "Light reflects from rhodopsin and no signal can form."
+          "Light becomes glucose in the retina, then glucose travels through the optic nerve.",
+          "Light splits nuclei in rod cells, then neutrons carry the image."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Vision begins when light is absorbed by molecules in retina cells, causing changes that lead to electrical signals."
       },
       {
         id: "kp-359-q3",
         prompt: "A student says, \"Seeing is just light entering the eye; no energy transformation happens.\" What is the best correction?",
         choices: [
-          "Absorbed light energy causes molecular changes that help produce electrical signals to the brain.",
-          "Vision is a nuclear chain reaction in the retina.",
-          "The eye only reflects light and never absorbs it.",
-          "Rhodopsin changes glucose directly into sunlight."
+          "Vision begins when light reflects from the retina without interacting with molecules.",
+          "Rhodopsin changes glucose directly into sunlight.",
+          "A nuclear chain reaction in the retina produces the image.",
+          "Absorbed light energy causes molecular changes that help produce electrical signals to the brain."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Vision involves light absorption and transformation into signals that the nervous system can use."
       }
     ]
@@ -14726,9 +14726,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why can absorbed light energy lead to different outcomes in different systems?",
         choices: [
           "The result depends on the material's properties and where the absorbing molecule or material is located.",
-          "All absorbed light must become glucose.",
-          "All absorbed light must become an alpha particle.",
-          "The result depends only on whether the object is heavy."
+          "Absorbed light becomes glucose in any material that takes in light.",
+          "Absorbed light becomes electrical current in any living cell.",
+          "The result depends mainly on whether the object is heavy."
         ],
         correctIndex: 0,
         explanation: "Different systems use absorbed light differently because their materials and structures are different."
@@ -14737,24 +14737,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-360-q2",
         prompt: "Which comparison correctly matches a system to a light-energy transformation?",
         choices: [
-          "Chlorophyll: light to chemical potential energy; photovoltaic cell: light to electrical energy; eye: light to nerve signals.",
           "Chlorophyll: light to nuclear fission; photovoltaic cell: light to glucose; eye: light to coal.",
-          "Chlorophyll: light only reflected; photovoltaic cell: sound to current; eye: uranium to vision.",
-          "All three systems transform light energy into exactly the same product."
+          "Chlorophyll: reflected light; photovoltaic cell: sound to current; eye: uranium to vision.",
+          "The three systems transform light energy into the same final product.",
+          "Chlorophyll: light to chemical potential energy; photovoltaic cell: light to electrical energy; eye: light to nerve signals."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "The same starting form, light energy, can be transformed in different ways depending on the system."
       },
       {
         id: "kp-360-q3",
         prompt: "Which design question best applies the idea that light-energy use depends on the system?",
         choices: [
-          "What material should absorb light if the goal is to produce current rather than warm a surface?",
-          "How can a material avoid all energy interactions forever?",
           "How can alpha decay be used to make a green leaf?",
-          "Why do all molecules make the same signal after absorbing light?"
+          "What material should absorb light if the goal is to produce current rather than warm a surface?",
+          "Why do molecules in different systems give identical outputs after absorbing light?",
+          "How can a material reflect light while still using the absorbed energy?"
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Choosing the right material matters because absorbed light can be transformed into different useful outputs."
       }
     ]
@@ -14766,36 +14766,36 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-361-q1",
         prompt: "What makes radiation ionizing?",
         choices: [
+          "It warms water by ordinary thermal conduction.",
+          "It reflects from shiny surfaces without entering matter.",
           "It can remove electrons from atoms and break chemical bonds.",
-          "It can only warm water without changing atoms.",
-          "It can only reflect from shiny surfaces.",
-          "It can make atoms disappear without transferring energy."
+          "It changes atoms into sound waves after passing through tissue."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Ionizing radiation has enough energy to remove electrons from atoms, which can damage molecules and cells."
       },
       {
         id: "kp-361-q2",
         prompt: "Why can ionizing radiation harm living tissue?",
         choices: [
+          "It makes cells photosynthesize when they absorb radiation.",
           "It can change molecules by ionizing atoms and breaking bonds needed for normal cell function.",
-          "It always makes cells photosynthesize.",
-          "It only changes the colour of skin cells without affecting molecules.",
-          "It prevents all energy transfer from occurring."
+          "It changes skin colour without affecting cell molecules.",
+          "It prevents energy transfer inside tissue, so cells stop warming."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "When bonds in biological molecules are broken or rearranged, cells and tissues may no longer function normally."
       },
       {
         id: "kp-361-q3",
         prompt: "Which example best applies the idea of ionizing radiation?",
         choices: [
-          "High-energy radiation changes atoms in tissue by removing electrons.",
           "Visible light passes through clear glass without being absorbed.",
           "A warm spoon transfers thermal energy to cooler water.",
-          "A rolling ball transfers mechanical kinetic energy to another ball."
+          "A rolling ball transfers mechanical kinetic energy to another ball.",
+          "High-energy radiation changes atoms in tissue by removing electrons."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Ionizing radiation is specifically about radiation energetic enough to ionize atoms, not ordinary heat transfer or motion transfer."
       }
     ]
@@ -14807,36 +14807,36 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-362-q1",
         prompt: "Why is alpha radiation often less dangerous outside the body than inside the body?",
         choices: [
+          "Alpha particles pass deeply through the body before interacting.",
           "Alpha particles deposit energy near the surface they strike, so dead outer skin can block much external damage.",
-          "Alpha particles have no energy at all.",
-          "Alpha particles pass easily through the entire body without interacting.",
-          "Alpha particles are the same as visible light."
+          "Alpha particles are the same kind of radiation as visible light.",
+          "Alpha particles become harmless because they have no charge."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Alpha particles are massive and charged, so they do not penetrate far but can be very damaging if emitted inside tissue."
       },
       {
         id: "kp-362-q2",
         prompt: "Which situation creates the greatest alpha radiation risk?",
         choices: [
-          "A radioactive alpha emitter is inhaled or swallowed.",
           "An alpha source is outside the body and blocked by outer dead skin cells.",
           "A student hears a sound wave from across the room.",
-          "A mirror reflects sunlight onto a wall."
+          "A mirror reflects sunlight onto a wall.",
+          "A radioactive alpha emitter is inhaled or swallowed."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Inside the body, alpha particles can deposit energy directly into living tissue."
       },
       {
         id: "kp-362-q3",
         prompt: "Which property helps explain alpha particles' surface effect?",
         choices: [
-          "They have relatively high mass and charge compared with beta particles.",
           "They have no mass and no charge.",
-          "They are always harmless because they are slow.",
-          "They are water molecules."
+          "They have relatively high mass and charge compared with beta particles.",
+          "They move through tissue like gamma photons.",
+          "They are water molecules emitted by nuclei."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Their large mass and charge make alpha particles interact strongly over a short distance."
       }
     ]
@@ -14848,36 +14848,36 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-363-q1",
         prompt: "How does beta radiation differ from alpha radiation in tissue penetration?",
         choices: [
+          "Beta particles stay on dead outer skin more strongly than alpha particles.",
+          "Beta particles are identical to gamma rays because both have no mass.",
           "Beta particles can penetrate the skin surface into living tissue more than alpha particles can.",
-          "Beta particles cannot enter living tissue at all.",
-          "Beta particles are always stopped by air instantly.",
-          "Beta particles are identical to gamma rays."
+          "Beta particles become harmless after leaving the nucleus."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Beta particles can penetrate the surface and damage living tissue, though they do not penetrate as deeply as gamma radiation."
       },
       {
         id: "kp-363-q2",
         prompt: "Why is a beta-emitting material more dangerous if inhaled or ingested?",
         choices: [
+          "It changes beta particles into sound waves inside the body.",
           "It can expose internal tissues directly to ionizing particles.",
-          "It changes all beta particles into harmless sound waves.",
-          "It prevents radiation from interacting with cells.",
-          "It makes the material stop being radioactive."
+          "It prevents radiation from interacting with cells after swallowing.",
+          "It makes the isotope stop being radioactive."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Internal exposure brings the radiation source close to living tissues and organs."
       },
       {
         id: "kp-363-q3",
         prompt: "Which statement about beta radiation risk is most accurate?",
         choices: [
-          "Beta radiation can damage skin and is more concerning when the source gets inside the body.",
-          "Beta radiation is harmless because electrons cannot carry energy.",
-          "Beta radiation only affects dead outer skin cells.",
-          "Beta radiation is the same as thermal conduction."
+          "Beta radiation is low risk because electrons carry little energy.",
+          "Beta radiation mainly reflects from living tissue without entering.",
+          "Beta radiation is the same process as thermal conduction.",
+          "Beta radiation can damage skin and is more concerning when the source gets inside the body."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Beta particles are energetic electrons that can ionize atoms and damage living tissue."
       }
     ]
@@ -14889,36 +14889,36 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-364-q1",
         prompt: "Why can gamma radiation be dangerous deep inside the body?",
         choices: [
-          "Gamma rays have no mass or charge and can travel through dense matter before interacting.",
           "Gamma rays are heavy particles that stop at the surface of skin.",
-          "Gamma rays are harmless because they are not energy.",
-          "Gamma rays can only damage dead cells outside the body."
+          "Gamma rays are a kind of sound wave that vibrates tissue.",
+          "Gamma rays have no mass or charge and can travel through dense matter before interacting.",
+          "Gamma rays become harmless when they pass through air."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Gamma rays can penetrate deeply and ionize atoms or molecules wherever they interact."
       },
       {
         id: "kp-364-q2",
         prompt: "Which comparison best explains why gamma radiation requires serious shielding?",
         choices: [
-          "It penetrates much farther than alpha or beta radiation before interacting.",
           "It is stopped more easily than alpha radiation by a sheet of paper.",
-          "It cannot pass through any matter.",
-          "It is a form of mechanical kinetic energy."
+          "It penetrates much farther than alpha or beta radiation before interacting.",
+          "It behaves like mechanical kinetic energy in moving objects.",
+          "It changes into harmless visible light after entering tissue."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Gamma rays are highly penetrating electromagnetic radiation, so shielding must be dense and substantial."
       },
       {
         id: "kp-364-q3",
         prompt: "A gamma photon interacts with tissue and deposits its energy. What can happen?",
         choices: [
-          "It can ionize atoms and damage molecules in cells.",
-          "It becomes clean drinking water.",
+          "It becomes clean water after losing its energy.",
           "It turns into glucose without affecting tissue.",
-          "It proves radiation cannot transfer energy."
+          "It shows radiation transfers no energy to matter.",
+          "It can ionize atoms and damage molecules in cells."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Deposited gamma energy can ionize atoms, which can break or change chemical bonds in tissue."
       }
     ]
@@ -14930,36 +14930,36 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-365-q1",
         prompt: "Why would an audiologist need to understand energy transformation?",
         choices: [
+          "Audiologists use nuclear fission to make sound waves in the ear.",
+          "Sound energy has no connection to body systems.",
           "Hearing involves sound energy being transformed into mechanical motion and electrical nerve signals.",
-          "Audiologists use nuclear fission to make sound.",
-          "Sound energy has no connection to living systems.",
-          "Hearing works only by storing gravitational potential energy."
+          "Hearing works mainly by storing gravitational potential energy."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "The textbook links audiology to transformations of sound energy in the ear and nervous system."
       },
       {
         id: "kp-365-q2",
         prompt: "Which career connection best fits meteorology?",
         choices: [
+          "Designing chemical batteries for flashlights.",
           "Understanding thermal, mechanical kinetic, and electrical energy transformations in weather systems.",
-          "Designing only chemical batteries for flashlights.",
-          "Ignoring energy because weather is not a system.",
-          "Using photosynthesis to read ancient artifacts."
+          "Avoiding energy ideas because weather is outside the lab.",
+          "Using photosynthesis to date ancient artifacts."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Meteorology depends on energy transfers and transformations in the atmosphere."
       },
       {
         id: "kp-365-q3",
         prompt: "What do audiology, biomedical engineering, oceanography, and meteorology have in common in this section?",
         choices: [
-          "They all rely on understanding how energy changes form or moves through systems.",
-          "They all avoid physics concepts.",
-          "They all use only radiant energy from stars.",
-          "They all require the same single tool."
+          "They avoid physics concepts when solving practical problems.",
+          "They use radiant energy from stars as their main tool.",
+          "They require the same instrument to collect data.",
+          "They rely on understanding how energy changes form or moves through systems."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "The Science at Work section uses these careers to show energy concepts in real work."
       }
     ]
