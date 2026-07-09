@@ -4109,7 +4109,7 @@ window.SCIENCE10_QUIZZES = {
           "They are molecules that must enter the nucleus and react chemically with DNA.",
           "They are inherited traits that humans choose during breeding.",
           "They can physically damage or change the structure of DNA.",
-          "They are selective pressures but cannot affect DNA structure."
+          "They are selective pressures that mainly change survival rather than DNA structure."
         ],
         correctIndex: 2,
         explanation: "Physical mutagens affect DNA structure through physical energy such as X-rays or UV radiation."
@@ -4188,7 +4188,7 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-103-q1",
         prompt: "What is a carcinogen?",
         choices: [
-          "A mutagen that affects gamete cells but cannot affect body cells.",
+          "A mutagen that mainly affects gamete cells rather than body cells.",
           "A trait that improves survival under a selective pressure.",
           "A species formed by adaptive radiation.",
           "A substance or agent that causes cancer."
@@ -4242,7 +4242,7 @@ window.SCIENCE10_QUIZZES = {
         prompt: "A mutation changes the instructions in a gene used by a cell. Which result is possible?",
         choices: [
           "The cell must become a new species immediately.",
-          "The mutation cannot affect cell function.",
+          "The mutation affects inheritance patterns but not cell function.",
           "The mutation affects the population but not that cell's protein instructions.",
           "The cell may produce a protein that works differently or fails to function normally."
         ],
@@ -4255,7 +4255,7 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "A mutation in one gene affects many proteins in the same direct way.",
           "A DNA change may affect a specific protein, but the effect depends on where and how the gene changes.",
-          "Proteins make genes, so DNA cannot affect protein production.",
+          "Proteins guide genes, so DNA has little effect on protein production.",
           "Mutations matter mainly when the change is visible from outside the organism."
         ],
         correctIndex: 1,
@@ -4376,7 +4376,7 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-107-q3",
         prompt: "Why can breeding for appearance in companion animals have risks?",
         choices: [
-          "Appearance traits cannot be inherited.",
+          "Appearance traits are usually separate from inherited physiology.",
           "Appearance is separate from physiology, so health effects are unlikely.",
           "Selecting strongly for one visible trait may also increase health problems linked with that breeding pattern.",
           "Breeding for appearance prevents any offspring from being fertile."
@@ -4394,8 +4394,8 @@ window.SCIENCE10_QUIZZES = {
         prompt: "How does wild mustard illustrate artificial selection in crops?",
         choices: [
           "Different plant parts were selected over generations, producing crops such as broccoli, cabbage, and kale.",
-          "It shows that different crop forms cannot share ancestry if they look different.",
-          "It proves that human selection cannot affect inherited plant traits.",
+          "It suggests that different crop forms should be treated as unrelated if they look different.",
+          "It suggests that human selection mainly changes plant appearance without affecting inherited traits.",
           "It shows that crops form through geographic barriers rather than breeding choices."
         ],
         correctIndex: 0,
@@ -4420,7 +4420,7 @@ window.SCIENCE10_QUIZZES = {
           "Appearance is enough to separate crop varieties into different species.",
           "Selective breeding can emphasize different traits while the varieties can still interbreed and produce fertile offspring.",
           "Artificial selection removes shared ancestry from crop varieties.",
-          "Different-looking crops cannot have any common ancestor."
+          "Different-looking crops usually have separate wild ancestors."
         ],
         correctIndex: 1,
         explanation: "The textbook notes that selected varieties of wild mustard differ greatly but remain the same species."
@@ -4500,7 +4500,7 @@ window.SCIENCE10_QUIZZES = {
         prompt: "A breed is selected for a body shape that people prefer, but the shape causes breathing problems. What does this show?",
         choices: [
           "Artificial selection can have unintended health consequences.",
-          "Artificial selection cannot affect animal bodies.",
+          "Artificial selection affects appearance but has little connection to body function.",
           "Natural selection changes populations, while artificial selection affects individual bodies.",
           "Health problems mean breeders selected an environmental trait rather than an inherited trait."
         ],
