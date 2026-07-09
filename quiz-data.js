@@ -14151,12 +14151,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-346-q1",
         prompt: "What energy transformation happens during photosynthesis?",
         choices: [
-          "Chemical potential energy in glucose is transformed into ATP only.",
-          "Light energy is transformed into chemical potential energy stored in glucose.",
+          "Chemical potential energy in glucose is transformed into light energy.",
+          "Thermal energy from soil is transformed into oxygen gas.",
           "Nuclear energy is transformed into mechanical kinetic energy.",
-          "Sound energy is transformed into oxygen."
+          "Light energy is transformed into chemical potential energy stored in glucose."
         ],
-        correctIndex: 1,
+        correctIndex: 3,
         explanation: "Photosynthesis stores energy from light in the chemical bonds of glucose."
       },
       {
@@ -14165,8 +14165,8 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "glucose + oxygen -> carbon dioxide + water + energy",
           "carbon dioxide + water + light energy -> glucose + oxygen",
-          "hydrogen + oxygen -> water + electrical energy",
-          "carbon dioxide + oxygen -> glucose + nitrogen"
+          "glucose + oxygen -> carbon dioxide + ATP + water",
+          "carbon dioxide + oxygen + thermal energy -> glucose + water"
         ],
         correctIndex: 1,
         explanation: "Photosynthesis uses carbon dioxide, water, and light energy to produce glucose and oxygen."
@@ -14175,12 +14175,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-346-q3",
         prompt: "What role does chlorophyll play in photosynthesis?",
         choices: [
+          "It breaks down glucose during cellular respiration in plant cells.",
           "It absorbs light energy so the energy can be used in reactions that help build glucose.",
-          "It breaks down glucose in muscle cells.",
-          "It changes radioactive isotopes into stable atoms.",
-          "It releases oxygen by burning fossil fuels."
+          "It stores carbon dioxide as nuclear energy in the chloroplast.",
+          "It releases oxygen by reacting directly with fossil fuels."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Chlorophyll absorbs light energy; that energy helps drive reactions that store chemical potential energy in glucose."
       }
     ]
@@ -14193,9 +14193,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why can fossil fuels be described as storing ancient solar energy?",
         choices: [
           "Ancient organisms stored chemical potential energy originally made through photosynthesis.",
-          "Fossil fuels form directly from sunlight hitting rocks for one day.",
-          "Fossil fuels store only electrical kinetic energy.",
-          "Ancient sunlight changed protons into neutrons inside coal."
+          "Sunlight was trapped in rock layers as radiant energy that stayed unchanged.",
+          "Ancient organisms stored gravitational potential energy while buried.",
+          "Coal and oil formed when sunlight changed atomic nuclei in sediments."
         ],
         correctIndex: 0,
         explanation: "Photosynthesis stored solar energy as chemical potential energy in living things, and some remains became fossil fuels over long times."
@@ -14204,10 +14204,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-347-q2",
         prompt: "Which comparison between burning fossil fuels and using a hydrogen fuel cell is most accurate?",
         choices: [
-          "Both release the same pollutants in the same amounts.",
+          "Both transform chemical potential energy and produce carbon dioxide as a main product.",
           "Combustion often releases carbon dioxide and other pollutants, while a hydrogen fuel cell can produce water as its main product.",
           "Fuel cells transform nuclear energy, while fossil fuels transform radiant energy directly.",
-          "Fossil fuel combustion never involves chemical potential energy."
+          "Fossil fuel combustion transforms electrical energy, while fuel cells transform stored light."
         ],
         correctIndex: 1,
         explanation: "Fossil fuel combustion commonly releases carbon dioxide and pollutants; hydrogen fuel cells transform chemical energy with water as the main product when operating ideally."
@@ -14216,12 +14216,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-347-q3",
         prompt: "In a hydrogen fuel cell, why do electrons flowing through an external circuit matter?",
         choices: [
+          "They carry hydrogen ions through the membrane to the cathode.",
           "They are an electric current that can power a load such as a motor.",
-          "They turn hydrogen into coal.",
-          "They prove that no chemical reaction is happening.",
-          "They carry carbon dioxide away from gasoline."
+          "They combine with nitrogen to make fossil fuel.",
+          "They show that the fuel cell uses nuclear fission."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "The separated electron flow is electrical energy that can do useful work in a circuit."
       }
     ]
@@ -14233,12 +14233,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-348-q1",
         prompt: "What makes a nuclear reaction different from a chemical reaction?",
         choices: [
+          "A chemical reaction changes nuclei, while a nuclear reaction rearranges bonds.",
           "A nuclear reaction changes atomic nuclei, while a chemical reaction rearranges atoms and bonds.",
-          "A nuclear reaction only changes colour, while a chemical reaction changes protons.",
-          "A nuclear reaction never transforms energy.",
-          "A chemical reaction always changes one element into another."
+          "A nuclear reaction changes temperature but not the particles in an atom.",
+          "A chemical reaction changes element identity by changing proton numbers."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Chemical reactions rearrange atoms; nuclear reactions involve changes in the nuclei of atoms."
       },
       {
@@ -14258,9 +14258,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "A student says, \"Nuclear reactions are just very hot chemical reactions.\" What is the best correction?",
         choices: [
           "Nuclear reactions involve nuclei and can transform much more energy than chemical reactions.",
-          "Nuclear reactions are chemical reactions that happen only in flames.",
-          "Nuclear reactions never involve isotopes.",
-          "Nuclear reactions only rearrange electrons in bonds."
+          "Nuclear reactions are chemical reactions that happen in hotter containers.",
+          "Nuclear reactions involve bonds and electrons more than protons or neutrons.",
+          "Nuclear reactions are identified mainly by the presence of visible flame."
         ],
         correctIndex: 0,
         explanation: "The defining difference is the change in atomic nuclei, not simply temperature."
@@ -14274,12 +14274,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-349-q1",
         prompt: "Two atoms are isotopes of the same element. What must they have in common?",
         choices: [
-          "The same number of protons.",
           "The same number of neutrons.",
           "The same mass number.",
-          "The same amount of stored energy."
+          "The same amount of stored energy.",
+          "The same number of protons."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Isotopes of an element have the same number of protons but different numbers of neutrons."
       },
       {
@@ -14289,7 +14289,7 @@ window.SCIENCE10_QUIZZES = {
           "They have different numbers of protons but the same mass.",
           "They have the same number of protons but different numbers of neutrons.",
           "They are different elements because both contain carbon.",
-          "They have no neutrons, so they must be radioactive."
+          "They have different electron arrangements but identical nuclei."
         ],
         correctIndex: 1,
         explanation: "Same proton number means the same element; different neutron number makes them isotopes."
@@ -14299,11 +14299,11 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why can some isotopes be radioactive?",
         choices: [
           "Their nuclei are unstable and emit particles or radiation to become more stable.",
-          "They have no chemical bonds at all.",
-          "They always contain fewer protons than electrons.",
-          "They are cold enough to absorb all light."
+          "They have chemical bonds that release energy by changing colour.",
+          "They contain neutrons and protons in an unstable arrangement.",
+          "They become radioactive when electrons move between energy levels."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Radioactive isotopes have unstable nuclei that release energy or particles as they move toward a more stable state."
       }
     ]
@@ -14315,24 +14315,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-350-q1",
         prompt: "What is nuclear decay?",
         choices: [
-          "A change to an atom due to emission of particles or radiation from its nucleus.",
-          "A chemical reaction where atoms only trade electrons.",
-          "A process where molecules freeze into crystals.",
-          "A sound wave bouncing off a surface."
+          "A chemical reaction where atoms trade electrons in bonds.",
+          "A process where molecules freeze into a lower-energy crystal.",
+          "A transfer of sound energy from one material to another.",
+          "A change to an atom due to emission of particles or radiation from its nucleus."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Nuclear decay occurs when an unstable nucleus changes by emitting particles or radiation."
       },
       {
         id: "kp-350-q2",
         prompt: "How does radiation transfer energy in this nuclear context?",
         choices: [
+          "By moving thermal energy through liquid water pipes.",
           "As electromagnetic waves emitted by atoms or molecules.",
-          "Only by carrying liquid water through pipes.",
-          "Only by moving whole objects from place to place.",
-          "By creating matter from nothing."
+          "By carrying whole atoms from one place to another.",
+          "By rearranging chemical bonds without emitting waves."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Radiation can transfer energy as electromagnetic waves, including high-energy photons in some nuclear processes."
       },
       {
@@ -14341,8 +14341,8 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "An unstable nucleus may emit particles or radiation, carrying energy away from the nucleus.",
           "Radioactive decay means the atom has no nucleus.",
-          "Radiation is always the same thing as thermal conduction.",
-          "A radioactive isotope becomes stable by absorbing unlimited energy from the room."
+          "Radiation in decay is the same process as thermal conduction through metal.",
+          "A radioactive isotope becomes stable by absorbing room-temperature thermal energy."
         ],
         correctIndex: 0,
         explanation: "Particles or radiation emitted during decay carry energy, helping explain how unstable nuclei release energy."
@@ -14357,9 +14357,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which comparison of alpha, beta, and gamma decay is most accurate?",
         choices: [
           "Alpha emits a helium nucleus, beta emits a fast-moving electron, and gamma emits a high-energy photon.",
-          "Alpha emits only light, beta emits a helium nucleus, and gamma emits a neutron.",
-          "All three decays emit the same particle but at different speeds.",
-          "Gamma decay always changes the atom into a different element."
+          "Alpha emits a neutron, beta emits a photon, and gamma emits a helium nucleus.",
+          "Alpha and beta change particles in the nucleus, while gamma carries energy as a photon.",
+          "Gamma decay changes mass number by 4 and atomic number by 2."
         ],
         correctIndex: 0,
         explanation: "Alpha, beta, and gamma decay are distinguished by what is emitted: a helium nucleus, an electron, or a high-energy photon."
@@ -14383,7 +14383,7 @@ window.SCIENCE10_QUIZZES = {
           "Both decrease by 4 and 2.",
           "The atomic number increases by 1, but mass number stays the same.",
           "Neither mass number nor atomic number changes.",
-          "Both double because light energy is emitted."
+          "The mass number decreases because the photon has no charge."
         ],
         correctIndex: 2,
         explanation: "Gamma radiation is a photon, so it carries energy away without changing the number of protons or neutrons."
@@ -14411,7 +14411,7 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "It splits into smaller nuclei, releases energy, and may release more neutrons.",
           "It becomes a glucose molecule and releases oxygen.",
-          "It reflects the neutron without any change.",
+          "It forms a heavier stable nucleus without releasing particles.",
           "It absorbs light and releases an electron into a wire."
         ],
         correctIndex: 0,
@@ -14421,12 +14421,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-352-q3",
         prompt: "Which statement corrects a common misconception about fission?",
         choices: [
+          "Fission combines small nuclei, which is why it powers stars.",
           "Fission is not a normal chemical reaction; it involves changes in atomic nuclei.",
-          "Fission always combines hydrogen nuclei.",
-          "Fission releases energy by creating matter from nothing.",
-          "Fission only happens when light is reflected."
+          "Fission releases energy because uranium's chemical bonds rearrange.",
+          "Fission begins when light energy excites electrons in uranium."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Fission is nuclear because the nucleus changes; it is not just a rearrangement of chemical bonds."
       }
     ]
@@ -14439,9 +14439,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What makes a fission chain reaction possible?",
         choices: [
           "Neutrons released by one fission event can trigger more fission events nearby.",
-          "Light from one atom always reflects into another atom.",
+          "Light from one atom reflects into another atom and splits it.",
           "Products from photosynthesis immediately split uranium nuclei.",
-          "A single fission event absorbs all nearby neutrons permanently."
+          "A fission event uses up nearby neutrons before they can affect other nuclei."
         ],
         correctIndex: 0,
         explanation: "A chain reaction can continue when released neutrons cause additional nuclei to undergo fission."
@@ -14453,7 +14453,7 @@ window.SCIENCE10_QUIZZES = {
           "Nuclear energy -> thermal energy -> mechanical kinetic energy in turbines -> electrical energy.",
           "Light energy -> chemical potential energy -> glucose -> oxygen.",
           "Sound energy -> nuclear energy -> gravitational potential energy.",
-          "Electrical energy -> fossil fuel -> carbon dioxide only."
+          "Electrical energy -> fossil fuel -> carbon dioxide as the main output."
         ],
         correctIndex: 0,
         explanation: "Fission releases energy as thermal energy, which makes steam move turbines that generate electrical energy."
@@ -14462,12 +14462,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-353-q3",
         prompt: "Why must a reactor control a fission chain reaction?",
         choices: [
-          "To manage the rate of energy release so it can be used safely and steadily.",
-          "To prevent all atoms from having protons.",
-          "To turn uranium directly into sunlight.",
-          "To make chemical bonds disappear from water."
+          "To prevent atoms in the coolant from having protons.",
+          "To turn uranium directly into sunlight before steam forms.",
+          "To make chemical bonds in water disappear during boiling.",
+          "To manage the rate of energy release so it can be used safely and steadily."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "A reactor is designed to contain and control fission so the released energy can be transferred and used."
       }
     ]
@@ -14491,12 +14491,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-354-q2",
         prompt: "Why does fusion require extremely high temperatures to begin?",
         choices: [
+          "Cold nuclei fuse more easily because they move more slowly.",
+          "Fusion starts when molecules freeze into solid crystals.",
           "Small nuclei must collide with enough force to overcome repulsion and fuse.",
-          "Cold nuclei always fuse more easily than hot nuclei.",
-          "Fusion starts only when molecules freeze into solids.",
-          "High temperature changes chemical bonds into sunlight."
+          "High temperature changes chemical bonds into nuclear fuel."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Fusion needs very fast-moving particles so nuclei can collide strongly enough to combine."
       },
       {
@@ -14505,7 +14505,7 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "Fission splits heavy nuclei; fusion combines small nuclei.",
           "Fission and fusion are both ordinary chemical reactions.",
-          "Fusion always produces carbon dioxide as its main product.",
+          "Fusion produces carbon dioxide when hydrogen nuclei combine.",
           "Fission requires chlorophyll, while fusion requires glucose."
         ],
         correctIndex: 0,
@@ -14523,7 +14523,7 @@ window.SCIENCE10_QUIZZES = {
           "Energy is taken up by matter instead of being reflected or transmitted.",
           "Light bounces off a surface without entering the material.",
           "Light passes completely through a material unchanged.",
-          "Matter creates light energy from nothing."
+          "Matter changes light into mass before any energy transfer."
         ],
         correctIndex: 0,
         explanation: "Absorption occurs when matter takes up energy from incoming light."
@@ -14532,12 +14532,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-355-q2",
         prompt: "Which observation best suggests that a material is absorbing light energy?",
         choices: [
+          "It reflects most incoming light and shows no internal change.",
+          "It lets light pass through with little interaction.",
           "It takes in sunlight and becomes warmer or drives a change inside the material.",
-          "It reflects all incoming light like a perfect mirror.",
-          "It lets all light pass through without interaction.",
-          "It has no atoms that can interact with light."
+          "It remains unchanged while the light travels around it."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Absorbed light energy can be transformed into thermal energy or used to cause other changes."
       },
       {
@@ -14545,9 +14545,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why is absorption often the first step in light-energy transformations?",
         choices: [
           "The material must take in light energy before that energy can be transformed inside the system.",
-          "Reflected light always changes into chemical potential energy.",
-          "Transmitted light always becomes nuclear energy.",
-          "Light transformations happen only when matter avoids absorbing energy."
+          "Reflected light stores chemical potential energy in the reflecting surface.",
+          "Transmitted light becomes nuclear energy as it passes through matter.",
+          "Light transformations occur in matter that does not take in energy."
         ],
         correctIndex: 0,
         explanation: "For matter to use light energy, it first needs to absorb that energy."
