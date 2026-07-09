@@ -15381,36 +15381,36 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-376-q1",
         prompt: "Which comparison between fission and fusion is correct?",
         choices: [
-          "Fission splits heavy nuclei; fusion combines light nuclei.",
           "Fission combines light nuclei; fusion splits heavy nuclei.",
-          "Both are ordinary chemical reactions involving only electron sharing.",
-          "Both require chlorophyll to absorb light."
+          "Both are ordinary chemical reactions involving electron sharing.",
+          "Fission splits heavy nuclei; fusion combines light nuclei.",
+          "Fusion rearranges chemical bonds, while fission moves electrons between atoms."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "The investigation asks students to compare these nuclear processes by reaction type and conditions."
       },
       {
         id: "kp-376-q2",
         prompt: "Which factor belongs in a clear fission-versus-fusion comparison table?",
         choices: [
+          "The number of images used before the science is explained.",
           "Reaction type, conditions required, products, energy output, and waste.",
-          "Only the colour of diagrams used.",
-          "Only whether the presenter likes the topic.",
-          "Only the number of slides in the presentation."
+          "The presenter's opinion without reaction evidence.",
+          "The colour scheme chosen for the summary table."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "A useful comparison includes scientific features and practical consequences."
       },
       {
         id: "kp-376-q3",
         prompt: "Why is it misleading to say fission and fusion are basically the same?",
         choices: [
+          "They release similar kinds of energy, but one is a chemical process and one is biological.",
           "They both involve nuclei, but they differ in reaction process, conditions, products, and current use.",
-          "They never release energy.",
-          "They are both photosynthesis reactions.",
-          "They both happen only in batteries."
+          "They differ mainly because fission uses sunlight and fusion uses glucose.",
+          "They are identical once they are used to generate electricity."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "They are both nuclear processes, but their mechanisms and practical issues are different."
       }
     ]
@@ -15423,9 +15423,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why is fission currently used for electricity generation more than fusion?",
         choices: [
           "Fission chain reactions can be controlled in reactors, while controlled fusion remains technically difficult.",
-          "Fusion releases no energy.",
-          "Fission requires no safety systems or waste planning.",
-          "Fusion is just another name for burning coal."
+          "Fusion releases useful energy but is easier to control in ordinary power plants.",
+          "Fission avoids waste and safety planning because its products are stable.",
+          "Fusion and coal combustion use the same kind of fuel."
         ],
         correctIndex: 0,
         explanation: "Current nuclear power relies on controlled fission; fusion energy is still a major research challenge."
@@ -15435,9 +15435,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which question is important when deciding whether to support fusion research?",
         choices: [
           "Can the technology be controlled safely and reliably enough to generate useful electricity?",
-          "Can fusion avoid all physics?",
-          "Can fusion work without nuclei?",
-          "Can a presentation replace scientific evidence?"
+          "Can fusion work by rearranging chemical bonds instead of nuclei?",
+          "Can public interest replace testing and engineering evidence?",
+          "Can fusion produce electricity without transferring energy?"
         ],
         correctIndex: 0,
         explanation: "Nuclear energy decisions should consider control, safety, reliability, energy output, and byproducts."
@@ -15447,9 +15447,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which statement is balanced when comparing fission and fusion for future electricity?",
         choices: [
           "Fission is currently practical but has waste and risk issues; fusion has potential benefits but is hard to control.",
-          "Fusion is already the only electrical source used worldwide.",
-          "Fission has no risks, limitations, or waste products.",
-          "Neither process involves energy transformation."
+          "Fusion is already the main electrical source used in power grids.",
+          "Fission is practical because it has no waste-management concerns.",
+          "Both processes are useful because they avoid energy transformation."
         ],
         correctIndex: 0,
         explanation: "A balanced decision recognizes both current practicality and unresolved limitations."
@@ -15463,36 +15463,36 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-378-q1",
         prompt: "What makes a public explanation of fission and fusion effective?",
         choices: [
+          "It uses dramatic claims when the audience is unfamiliar with the topic.",
           "It is accurate, balanced, audience-appropriate, and supported by evidence.",
-          "It uses dramatic claims without explaining evidence.",
-          "It ignores risks so the topic seems simpler.",
-          "It copies technical terms without defining them."
+          "It emphasizes benefits while leaving limitations for experts.",
+          "It uses technical terms without defining them to sound precise."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "The investigation emphasizes communication to stakeholders, so clarity and balance matter."
       },
       {
         id: "kp-378-q2",
         prompt: "A presentation to possible funders explains only benefits of fusion and ignores technical limits. What is the weakness?",
         choices: [
+          "It is too scientific because it includes possible benefits.",
           "It is not balanced because it omits important limitations and uncertainty.",
-          "It is too scientific because it mentions benefits.",
-          "It is stronger because risks should never be discussed.",
-          "It proves fusion already works commercially."
+          "It is stronger because an optimistic presentation should avoid trade-offs.",
+          "It shows fusion already works commercially at large scale."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Scientific communication should compare benefits, risks, limitations, and future possibilities honestly."
       },
       {
         id: "kp-378-q3",
         prompt: "Which choice best adapts a nuclear-energy explanation for a community audience?",
         choices: [
-          "Use clear language, define fission and fusion, and connect benefits and risks to community concerns.",
-          "Use only equations and no explanation.",
-          "Avoid mentioning how the reactions differ.",
-          "Use the same technical script for every audience."
+          "Use equations first and leave unfamiliar terms undefined.",
+          "Avoid explaining how the reactions differ so the message stays short.",
+          "Use the same technical script that would be used with nuclear engineers.",
+          "Use clear language, define fission and fusion, and connect benefits and risks to community concerns."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Audience-appropriate communication makes the science understandable without removing accuracy."
       }
     ]
@@ -15505,9 +15505,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why can Earth be considered a system in science?",
         choices: [
           "Earth's connected processes can be observed and analyzed together.",
-          "Earth has no surroundings under any definition.",
-          "Earth contains no energy transformations.",
-          "Earth processes are too separate to study."
+          "Earth must be studied without defining any boundaries.",
+          "Earth processes can be studied without considering energy transformation.",
+          "Living and nonliving parts must be separated before Earth can be a system."
         ],
         correctIndex: 0,
         explanation: "A system is anything under observation, and Earth processes can be studied as interacting parts of one system."
@@ -15516,22 +15516,22 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-379-q2",
         prompt: "Which example best shows why defining the system matters?",
         choices: [
+          "Choosing a system makes energy stop crossing the boundary.",
           "Studying a watershed as the system helps track energy and water movement within that area.",
-          "Choosing a system makes energy stop moving.",
-          "The system must always be the entire universe.",
-          "A system cannot include living and nonliving parts together."
+          "The system must include the whole universe before energy can be tracked.",
+          "A system should exclude living things when studying Earth processes."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Defining the system sets boundaries for tracking processes and energy transformations."
       },
       {
         id: "kp-379-q3",
         prompt: "Which statement best describes Earth system thinking?",
         choices: [
-          "Processes such as weather, tides, volcanoes, and life can be analyzed through energy transformations.",
-          "Only living things on Earth use energy.",
-          "Earth's processes happen without energy input or transformation.",
-          "Energy transformations occur only in laboratories."
+          "Weather, tides, volcanoes, and life can be analyzed through energy transformations.",
+          "Living things use energy, while nonliving Earth processes do not.",
+          "Earth processes occur first, and energy transformations are added later in models.",
+          "Laboratory systems transform energy in clearer ways than global systems."
         ],
         correctIndex: 0,
         explanation: "Chapter 3.3 introduces Earth as a system shaped by many energy transformations."
@@ -15545,36 +15545,36 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-380-q1",
         prompt: "Which Earth process clearly depends on energy transformation?",
         choices: [
+          "A page number identifying a diagram of Earth.",
+          "A rock sample sitting in a labelled box.",
           "Wind forming as solar energy contributes to uneven heating and air movement.",
-          "A rock label sitting on a shelf.",
-          "A map being folded without any Earth process.",
-          "A page number printed in a textbook."
+          "A folded map stored before a field trip begins."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Wind and weather are visible Earth processes linked to energy transformations."
       },
       {
         id: "kp-380-q2",
         prompt: "Which set contains processes named in the textbook as relying on energy transformation?",
         choices: [
+          "Computer screens, pencil sharpening, and classroom lighting.",
+          "Chemical reactions in batteries, but not natural Earth processes.",
           "Wind, weather, tides, currents, volcanic activity, mountain building, and life processes.",
-          "Only computer screens and pencil sharpening.",
-          "Only chemical reactions inside batteries.",
-          "Only artificial lights in buildings."
+          "Artificial lights in buildings, because natural systems do not transform energy."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "These examples are introduced as Earth processes that depend on energy transformations."
       },
       {
         id: "kp-380-q3",
         prompt: "A volcano erupts and releases thermal energy from inside Earth. Which energy source is most connected to this process in Chapter 3.3?",
         choices: [
-          "Nuclear energy from radioactive decay transformed into thermal energy.",
+          "Solar energy stored in plant glucose near the volcano.",
           "Sound energy from ocean waves transformed into light.",
-          "Solar energy stored in a battery pack only.",
-          "Chemical energy from photosynthesis in leaves."
+          "Nuclear energy from radioactive decay transformed into thermal energy.",
+          "Gravitational potential energy from the Moon becoming fossil fuel."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "The textbook connects radioactive decay in Earth's crust and mantle to thermal energy that drives volcanic and tectonic processes."
       }
     ]
@@ -15586,36 +15586,36 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-381-q1",
         prompt: "Which statement best describes the role of solar energy in Earth's surface systems?",
         choices: [
+          "It mainly affects deep volcanic activity rather than surface processes.",
           "It drives water movement in the atmosphere, hydrosphere, and over land, and supports most life.",
-          "It only affects volcanoes deep inside Earth.",
-          "It has no role in moving water through the environment.",
-          "It is smaller than every other energy input to Earth's surface."
+          "It contributes to photosynthesis but not to water movement.",
+          "It is a minor input compared with sound and elastic energy."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Solar energy is the major input that powers many surface processes, including water movement and most living systems."
       },
       {
         id: "kp-381-q2",
         prompt: "A student says, 'Rain clouds and plant growth are unrelated because one is weather and one is biology.' Which response best corrects this?",
         choices: [
+          "Weather and biology are separate systems, so energy links between them are not useful.",
+          "Plant growth uses solar energy, while water movement is mainly unrelated to solar input.",
           "Both can be connected to solar energy transformations in Earth's system.",
-          "Neither process requires energy.",
-          "Only plant growth involves solar energy, and water movement never does.",
-          "Only rain clouds involve solar energy, and living things never do."
+          "Rain clouds use solar energy, while living things use no energy from sunlight."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Solar energy helps drive the water cycle and also supports photosynthesis, linking weather and life processes."
       },
       {
         id: "kp-381-q3",
         prompt: "When explaining large-scale surface processes such as evaporation, weather, and photosynthesis, which energy input should usually be considered first?",
         choices: [
+          "Sound energy from storm systems.",
           "Solar energy.",
-          "Sound energy from storms.",
-          "Elastic energy in rocks.",
-          "Chemical energy in plastic."
+          "Elastic energy stored in rocks.",
+          "Chemical potential energy in plastic."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "For many processes at Earth's surface, solar energy is the dominant energy input."
       }
     ]
@@ -15627,31 +15627,31 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-382-q1",
         prompt: "Which example best connects water movement to gravitational potential energy?",
         choices: [
+          "A flashlight shines on a puddle near the shore.",
           "Ocean tides change because of the Moon's gravitational influence.",
-          "A flashlight shines on a puddle.",
-          "A leaf absorbs carbon dioxide.",
-          "A thermometer measures room temperature."
+          "A leaf absorbs carbon dioxide during photosynthesis.",
+          "A thermometer measures room temperature near water."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "The Moon's gravity helps produce tides, connecting gravitational energy to water movement."
       },
       {
         id: "kp-382-q2",
         prompt: "Rainwater flows from a mountain stream toward a valley. Which energy change is most directly involved?",
         choices: [
+          "Thermal energy changes directly into visible light as water moves.",
           "Gravitational potential energy decreases as water gains motion downhill.",
-          "Thermal energy changes directly into visible light.",
-          "Nuclear energy turns into sound energy only.",
-          "Solar radiation becomes chemical energy in metal."
+          "Nuclear energy in the water changes into sound energy.",
+          "Solar radiation becomes chemical energy in metal rocks."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Water at higher elevation has gravitational potential energy that can transform into kinetic energy as it moves downward."
       },
       {
         id: "kp-382-q3",
         prompt: "What is a common misconception about tides?",
         choices: [
-          "That tides are caused only by wind pushing ocean water around.",
+          "That tides are caused mainly by wind pushing ocean water around.",
           "That tides involve ocean water moving.",
           "That tides are connected to gravity.",
           "That tides can be studied as part of Earth's system."
@@ -15668,36 +15668,36 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-383-q1",
         prompt: "How does nuclear energy contribute to some Earth processes?",
         choices: [
-          "Radioactive decay in Earth's crust and mantle transforms nuclear energy into thermal energy.",
-          "Sunlight splits all surface rocks into atoms every day.",
           "Tides create nuclear energy in ocean water.",
-          "Greenhouse gases directly create new uranium atoms."
+          "Greenhouse gases directly create uranium atoms in the atmosphere.",
+          "Radioactive decay in Earth's crust and mantle transforms nuclear energy into thermal energy.",
+          "Sunlight splits surface rocks into radioactive isotopes during the day."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "The textbook links radioactive decay inside Earth to thermal energy that helps drive internal processes."
       },
       {
         id: "kp-383-q2",
         prompt: "Which process is most directly connected to Earth's internal thermal energy from radioactive decay?",
         choices: [
-          "Volcanic activity and tectonic plate movement.",
           "The colour of a rainbow after rain.",
           "Reflection of sunlight from snow.",
+          "Volcanic activity and tectonic plate movement.",
           "Evaporation from a small puddle."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Internal thermal energy helps power volcanic activity, plate motion, hot springs, and geysers."
       },
       {
         id: "kp-383-q3",
         prompt: "A hot spring warms water from below ground. Which explanation best matches Chapter 3.3?",
         choices: [
+          "Visible light at the surface is the main source for most hot springs.",
           "Thermal energy from inside Earth can heat water as it moves through rock.",
-          "All hot springs are heated only by visible light at the surface.",
-          "Hot springs occur because water has no thermal energy.",
+          "Hot springs form because water loses its thermal energy underground.",
           "The Moon's gravity directly boils the water."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Hot springs are examples of Earth's internal thermal energy affecting surface water."
       }
     ]
@@ -15709,24 +15709,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-384-q1",
         prompt: "Which energy source has the greatest overall impact on Earth's surface system according to Chapter 3.3?",
         choices: [
-          "Solar energy.",
           "Nuclear energy from Earth's interior.",
+          "Solar energy.",
           "Elastic energy in stretched materials.",
           "Sound energy from ocean waves."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "The textbook emphasizes that solar energy transformation has the greatest impact on Earth's system."
       },
       {
         id: "kp-384-q2",
         prompt: "A class is explaining global weather, evaporation, and most food webs. Which energy source should be prioritized?",
         choices: [
-          "Solar energy, because it drives atmospheric and hydrosphere processes and supports most life.",
           "Nuclear energy, because it directly powers photosynthesis in leaves.",
-          "Gravitational energy, because it creates all sunlight.",
-          "Sound energy, because it stores most water cycle energy."
+          "Solar energy, because it drives atmospheric and hydrosphere processes and supports most life.",
+          "Gravitational energy, because it creates sunlight before it reaches Earth.",
+          "Sound energy, because storms store most water-cycle energy as sound."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Solar energy is central to weather, water movement, and most biological energy flow at Earth's surface."
       },
       {
@@ -15734,9 +15734,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why is it misleading to say that all three major Earth energy sources have equal impact?",
         choices: [
           "Solar energy adds far more energy to Earth's surface systems than the other sources discussed.",
-          "Gravitational and nuclear energy do not exist.",
-          "Solar energy has no effect on life.",
-          "Only nuclear energy can be transformed."
+          "Gravitational and nuclear energy are not part of Earth processes.",
+          "Solar energy affects weather but not life processes.",
+          "Nuclear energy is the source that drives most surface water movement."
         ],
         correctIndex: 0,
         explanation: "All three matter, but the textbook describes solar energy as having the greatest effect on Earth's system."
@@ -15750,36 +15750,36 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-385-q1",
         prompt: "Solar energy reaches Earth mainly as which kind of energy transfer?",
         choices: [
-          "Electromagnetic radiation.",
           "Conduction through empty space.",
           "Convection currents from the Sun to Earth.",
-          "Mechanical waves carried by air between Earth and the Sun."
+          "Mechanical waves carried by air between Earth and the Sun.",
+          "Electromagnetic radiation."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Solar energy travels through space as electromagnetic radiation, including visible, infrared, and ultraviolet radiation."
       },
       {
         id: "kp-385-q2",
         prompt: "Which list includes forms of solar radiation that reach Earth's atmosphere and surface?",
         choices: [
+          "Sound waves, heat conduction, and tides.",
+          "Gamma rays as the main incoming type, with little visible light.",
           "Visible light, infrared radiation, and ultraviolet radiation.",
-          "Only sound, only heat conduction, and only tides.",
-          "Gamma rays only, with no visible light.",
           "Mechanical waves, ocean currents, and plate motion."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Most solar energy reaching Earth includes visible light, infrared radiation, and ultraviolet radiation."
       },
       {
         id: "kp-385-q3",
         prompt: "Why is conduction not the main way energy travels from the Sun to Earth?",
         choices: [
-          "Conduction requires touching particles, and space between the Sun and Earth is mostly empty.",
-          "Conduction is faster than light in space.",
-          "Conduction only happens inside living cells.",
-          "Conduction creates ultraviolet radiation from nothing."
+          "Conduction is faster than radiation through space.",
+          "Conduction happens mainly through living cells, not rock or air.",
+          "Conduction creates ultraviolet radiation as it moves through a vacuum.",
+          "Conduction requires touching particles, and space between the Sun and Earth is mostly empty."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Radiation can travel through space, while conduction requires contact between substances."
       }
     ]
