@@ -4530,7 +4530,7 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "Low genetic diversity means many plants may be vulnerable in the same way.",
           "Plants with similar genetics may still vary enough to resist the same disease.",
-          "Disease cannot spread when fields are large.",
+          "Disease spreads less easily because large fields are easier to manage.",
           "Monoculture reduces selection pressure by simplifying the field."
         ],
         correctIndex: 0,
@@ -4584,7 +4584,7 @@ window.SCIENCE10_QUIZZES = {
           "Reverse speciation merges previously separate species, while adaptive radiation diversifies a common ancestor into different species.",
           "Reverse speciation increases diversity because a hybrid population remains.",
           "Adaptive radiation happens when human selection produces crop varieties.",
-          "Both terms mean exactly the same process."
+          "Both terms describe species changing after populations become separated."
         ],
         correctIndex: 0,
         explanation: "Adaptive radiation increases diversity from a common ancestor; reverse speciation can reduce distinct species."
@@ -4599,7 +4599,7 @@ window.SCIENCE10_QUIZZES = {
         prompt: "How can an introduced species create selection pressure?",
         choices: [
           "It leaves feeding and breeding patterns unchanged after entering an ecosystem.",
-          "It guarantees that biodiversity increases.",
+          "It may increase biodiversity because a new interaction is added.",
           "It keeps hybrid offspring from surviving in that ecosystem.",
           "It can change feeding, nesting, breeding, or survival conditions for existing species."
         ],
@@ -4847,7 +4847,7 @@ window.SCIENCE10_QUIZZES = {
           "It would involve no species loss.",
           "It is caused by ordinary seasonal population cycles.",
           "Human activities are a major driving force in current biodiversity loss.",
-          "It cannot be affected by conservation action."
+          "It is driven by natural cycles more than by conservation action."
         ],
         correctIndex: 2,
         explanation: "The textbook contrasts earlier natural events with current human-driven pressures."
