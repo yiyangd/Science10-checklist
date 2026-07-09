@@ -12306,8 +12306,8 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-301-q1",
         prompt: "A student mixes two clear solutions and a cloudy solid appears while the temperature stays nearly the same. Which observation is most useful for classifying the reaction?",
         choices: [
-          "The lack of temperature change proves no chemical reaction occurred.",
-          "A cloudy solid suggests a gas from combustion was trapped.",
+          "The lack of temperature change means energy evidence is weak, but other evidence still matters.",
+          "A cloudy solid suggests a precipitate rather than a trapped combustion gas.",
           "The formation of a precipitate suggests a double replacement reaction may have occurred.",
           "The reaction must be neutralization because both reactants were liquids."
         ],
@@ -12330,9 +12330,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-301-q3",
         prompt: "Why should observations be connected to reactants and products before deciding a reaction type?",
         choices: [
-          "Visible evidence is useful, but it identifies the reaction type by itself.",
+          "Visible evidence should be listed after the reaction type has already been chosen.",
           "Reaction type depends mainly on whether the temperature changed.",
-          "Equations are most useful for reactions that produce light.",
+          "Equations are most useful for reactions that produce light or gas.",
           "Different reaction types can share visible signs, so the chemical pattern must also be considered."
         ],
         correctIndex: 3,
@@ -12347,7 +12347,7 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-302-q1",
         prompt: "Why can an antacid reduce the effect of excess stomach acid?",
         choices: [
-          "It dilutes stomach acid without changing the acid chemically.",
+          "It dilutes stomach acid without changing the ions involved.",
           "It contains a basic substance that reacts with acid to form less acidic products.",
           "It turns stomach acid into a fuel-like gas.",
           "It works mainly by cooling the stomach acid."
@@ -12390,7 +12390,7 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "The final pH measurement.",
           "The volume and concentration of acid kept the same.",
-          "The safety goggles worn during the test.",
+          "The amount of acid controlled in each trial.",
           "The antacid brand being tested."
         ],
         correctIndex: 3,
@@ -12403,7 +12403,7 @@ window.SCIENCE10_QUIZZES = {
           "Use a different acid concentration for each brand to save time.",
           "Use the same acid volume and concentration, same tablet mass, and same endpoint method for each antacid.",
           "Crush one tablet but leave the others whole, then compare how quickly each trial changes pH.",
-          "Stop each trial whenever the solution looks interesting."
+          "Stop each trial at different pH values based on how quickly each brand reacts."
         ],
         correctIndex: 1,
         explanation: "Controlled conditions help ensure that differences in results are caused by the antacid, not by inconsistent testing."
@@ -12453,9 +12453,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-304-q3",
         prompt: "Why can choosing an antacid from only one measurement be misleading?",
         choices: [
-          "Scientific decisions should use descriptions instead of measurements.",
+          "Scientific decisions should use the easiest measurement and ignore harder criteria.",
           "One measurement may ignore other important criteria such as cost, dose, safety, or side effects.",
-          "A single measurement proves safety if the pH changes.",
+          "A single pH change is enough to prove cost, dose, and side-effect suitability.",
           "Neutralization is easier to judge from package claims than from lab data."
         ],
         correctIndex: 1,
@@ -12495,8 +12495,8 @@ window.SCIENCE10_QUIZZES = {
         prompt: "When writing a balanced neutralization equation for an antacid, what should be checked last?",
         choices: [
           "That subscripts have been changed until the equation looks balanced.",
-          "That the acid formula is copied unchanged onto the product side.",
-          "That water is removed if it makes balancing harder.",
+          "That the acid formula is copied unchanged before coefficients are added.",
+          "That water is treated as optional if it makes balancing harder.",
           "That each element has the same number of atoms on both sides of the equation."
         ],
         correctIndex: 3,
