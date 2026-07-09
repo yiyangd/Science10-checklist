@@ -17022,9 +17022,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why can air above soil warm differently from air above water?",
         choices: [
           "Soil and water absorb, store, and transfer thermal energy at different rates.",
-          "Air above water contains no molecules.",
-          "Soil blocks all energy transfer to air.",
-          "Water cannot affect local air temperature."
+          "Air above soil is measured by mass, while air above water is measured by volume.",
+          "Soil warms nearby air mainly when it has the same specific heat capacity as water.",
+          "Water affects air temperature mainly by stopping convection above the surface."
         ],
         correctIndex: 0,
         explanation: "Different surface heating changes the thermal energy transferred to nearby air."
@@ -17033,24 +17033,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-416-q2",
         prompt: "A thermometer above dry soil rises faster than one above water under the same lamp. What is the best explanation?",
         choices: [
+          "The water sample must have absorbed no radiant energy from the lamp.",
           "The soil surface warms faster and transfers more thermal energy to nearby air.",
-          "The thermometer above soil measures gravity instead of temperature.",
-          "The air above water has no temperature.",
-          "The water sample creates no energy interactions."
+          "The air above soil has a higher mass, so its temperature scale is different.",
+          "The soil thermometer is measuring chemical potential energy instead of temperature."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Warmer land can heat the air above it through conduction and convection."
       },
       {
         id: "kp-416-q3",
         prompt: "Which variable should be measured to connect surface heating to local air temperature?",
         choices: [
+          "The lamp brand used to heat the samples.",
+          "The colour of the graph symbols chosen by the group.",
           "Temperature above each surface over time.",
-          "The colour of the notebook used.",
-          "The number of students in the room only.",
-          "The brand name of the graph paper."
+          "The final mass of the thermometer supports."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Measuring air temperature above the surfaces shows how surface energy transfer affects the nearby atmosphere."
       }
     ]
@@ -17063,9 +17063,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "In the equation \\(Q = mc\\Delta T\\), what does \\(\\Delta T\\) represent?",
         choices: [
           "The change in temperature.",
-          "The total mass only.",
-          "The colour of the material.",
-          "The distance from the Sun."
+          "The final temperature before heating begins.",
+          "The specific heat capacity of the material.",
+          "The amount of heat absorbed or released."
         ],
         correctIndex: 0,
         explanation: "In Q = mc delta T, delta T is the temperature change."
@@ -17074,22 +17074,22 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-417-q2",
         prompt: "A 50 g sample with \\(c = 2\\,J/(g\\cdot C)\\) warms by 4 C. Using \\(Q = mc\\Delta T\\), how much heat is absorbed?",
         choices: [
-          "400 J.",
           "100 J.",
+          "400 J.",
           "25 J.",
           "56 J."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Q = 50 g x 2 J/(g C) x 4 C = 400 J."
       },
       {
         id: "kp-417-q3",
         prompt: "A student calculates \\(Q\\) but forgets to multiply by mass. What kind of error is this?",
         choices: [
-          "They ignore that a larger mass needs more energy for the same temperature change.",
-          "They correctly use the equation.",
-          "They prove that specific heat has no units.",
-          "They show temperature change does not matter."
+          "They use temperature change correctly but leave out how much material is heated.",
+          "They are calculating specific heat capacity instead of heat transfer.",
+          "They treat mass and specific heat capacity as the same quantity.",
+          "They assume the sample's final temperature equals the heat absorbed."
         ],
         correctIndex: 0,
         explanation: "The equation includes mass because heating more material requires more energy."
@@ -17103,12 +17103,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-418-q1",
         prompt: "Why can a daytime sea breeze form near a coast?",
         choices: [
+          "Water warms faster than land, so warm air sinks over the ocean.",
           "Land warms faster than water, warming nearby air so it rises and cooler air moves in from the sea.",
-          "Water always warms faster than land during the day.",
-          "Air cannot move near coastlines.",
-          "Sea breezes are caused only by radioactive decay."
+          "Sea breezes form because ocean water has lower specific heat capacity than soil.",
+          "The breeze is caused by evaporation without any difference in air temperature."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Different heating rates between land and water can create pressure and convection patterns that move air."
       },
       {
@@ -17117,8 +17117,8 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "A land breeze moving from land toward the water.",
           "A sea breeze moving from water to land for the same daytime reason.",
-          "No possible air movement.",
-          "A nuclear breeze from Earth's mantle."
+          "A breeze caused by land keeping more stored heat than water.",
+          "A wind pattern unrelated to different heating and cooling rates."
         ],
         correctIndex: 0,
         explanation: "At night, warmer air may be over the water, so cooler land air can move seaward."
@@ -17128,9 +17128,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which concept best explains why land and water create different local winds?",
         choices: [
           "Different specific heat capacities cause different heating and cooling rates.",
-          "Land and water have identical temperature changes always.",
-          "Winds form only because of ocean noise.",
-          "Specific heat capacity applies only to metals."
+          "Land and water have the same heat storage but different colours.",
+          "Local winds form because water blocks radiation from reaching land.",
+          "Specific heat capacity explains sample mass but not temperature change."
         ],
         correctIndex: 0,
         explanation: "Land and water do not warm and cool at the same rate, and that difference can drive local air movement."
@@ -17145,9 +17145,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why do scientists use physical models of Earth systems?",
         choices: [
           "Models can represent selected parts of complex systems so variables can be tested.",
-          "Models are exact copies of all Earth processes.",
-          "Models remove the need for evidence.",
-          "Models always include every detail of the real system."
+          "Models are useful because their results do not need measurements.",
+          "Models are strongest when many variables are changed at the same time.",
+          "Models work by replacing the real system rather than representing it."
         ],
         correctIndex: 0,
         explanation: "A model simplifies a complex system so key relationships can be investigated."
@@ -17156,22 +17156,22 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-419-q2",
         prompt: "A class builds two small greenhouse-effect models and changes only the covering material. What makes this a useful model test?",
         choices: [
+          "The model is useful because the outside temperature is ignored.",
+          "The covering material matters because it changes the mass of the thermometer.",
           "One variable is changed while temperature data can be compared.",
-          "Every possible variable changes at once.",
-          "No measurements are taken.",
-          "The model claims to be the actual atmosphere."
+          "The test is controlled because the model has no independent variable."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "A controlled model test allows students to connect a design variable to temperature results."
       },
       {
         id: "kp-419-q3",
         prompt: "What is an important limitation of a classroom greenhouse model?",
         choices: [
-          "It cannot include every process and scale of the real atmosphere.",
-          "It cannot produce any useful evidence.",
-          "It is larger than Earth.",
-          "It proves that greenhouse gases do not exist."
+          "It can show temperature patterns while simplifying the real atmosphere.",
+          "It becomes inaccurate mainly because it has measurable variables.",
+          "It should match the real atmosphere in size to produce data.",
+          "It is limited because classroom materials prevent energy transfer."
         ],
         correctIndex: 0,
         explanation: "Physical models are useful but simplified, so their limitations should be evaluated."
@@ -17185,12 +17185,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-420-q1",
         prompt: "Which feature should a greenhouse-effect model include?",
         choices: [
+          "Light is reflected before entering, while temperature rises because the system is closed.",
+          "The model should prevent energy transfer so temperature changes can be ignored.",
           "Light enters, energy is absorbed, thermal energy forms, and some infrared radiation is limited from leaving.",
-          "No light can enter the system.",
-          "All energy is destroyed inside the model.",
-          "Only sound energy is allowed in."
+          "The model should focus on sound energy because infrared radiation is not involved."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "The model should represent key energy pathways in the greenhouse effect."
       },
       {
@@ -17198,9 +17198,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "How could a model be adjusted to represent a stronger human-induced greenhouse effect?",
         choices: [
           "Change a variable so more infrared energy is retained, then compare temperature data.",
-          "Remove all measurements from the investigation.",
-          "Prevent light from entering either model.",
-          "Make both models identical and expect different results."
+          "Use the same setup twice but label one trial human-induced.",
+          "Remove the outside-temperature comparison to make the model stronger.",
+          "Increase the number of thermometers without changing the model conditions."
         ],
         correctIndex: 0,
         explanation: "The investigation asks students to adjust variables and compare temperature changes."
@@ -17209,12 +17209,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-420-q3",
         prompt: "Why should the outside temperature also be measured when testing a greenhouse model?",
         choices: [
-          "It provides a comparison for judging temperature change inside the model.",
-          "It replaces all inside temperature measurements.",
-          "It makes the model no longer controlled.",
-          "It proves that energy cannot enter the model."
+          "It is the dependent variable, while inside temperature is the controlled variable.",
+          "It shows whether the model blocks solar energy before it enters.",
+          "It lets students calculate pH changes in the atmosphere model.",
+          "It provides a comparison for judging temperature change inside the model."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Comparing inside and outside temperatures helps evaluate how the model changes energy retention."
       }
     ]
@@ -17226,12 +17226,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-421-q1",
         prompt: "What happens when oceans absorb carbon dioxide from the atmosphere?",
         choices: [
-          "Some \\(CO_2\\) reacts with water to form carbonic acid, increasing acidity.",
-          "All ocean water instantly becomes pure oxygen.",
-          "The ocean stops interacting with the atmosphere.",
-          "Carbon dioxide turns directly into sand with no chemical change."
+          "Carbon dioxide increases ocean pH by removing acids from seawater.",
+          "Carbon dioxide is stored in ocean water without affecting chemical conditions.",
+          "Dissolved \\(CO_2\\) mainly changes seawater temperature rather than acidity.",
+          "Some \\(CO_2\\) reacts with water to form carbonic acid, increasing acidity."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "The investigation explains that absorbed CO2 can react with water to form carbonic acid."
       },
       {
@@ -17239,9 +17239,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why can ocean carbon dioxide absorption be described as both helpful and harmful?",
         choices: [
           "It can moderate atmospheric warming, but increased acidity can harm marine organisms.",
-          "It removes all greenhouse gases permanently with no effects.",
-          "It makes ocean water unable to support any chemical reactions.",
-          "It only affects rocks on land."
+          "It helps by warming the ocean, but harms by lowering atmospheric temperature too much.",
+          "It helps marine shells grow by making seawater more acidic.",
+          "It is harmful mainly because carbon dioxide changes into table salt."
         ],
         correctIndex: 0,
         explanation: "Oceans absorb CO2, but more dissolved CO2 can lead to ocean acidification."
@@ -17251,9 +17251,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which equation-style description is most consistent with the checklist idea?",
         choices: [
           "\\(CO_2\\) + water -> carbonic acid, leading to increased ocean acidity.",
-          "\\(CO_2\\) + water -> table salt only.",
-          "\\(CO_2\\) + sunlight -> ocean gravity disappears.",
-          "\\(CO_2\\) + shells -> no chemical effect ever."
+          "\\(CO_2\\) + water -> oxygen gas, leading to less acidity.",
+          "\\(CO_2\\) + shell material -> thermal energy, leading to warmer eggshells.",
+          "\\(CO_2\\) + sunlight -> calcium carbonate, leading to stronger shells."
         ],
         correctIndex: 0,
         explanation: "The key relationship is that carbon dioxide can react with water to form carbonic acid."
@@ -17267,24 +17267,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-422-q1",
         prompt: "Why can increased ocean acidity harm animals such as clams, corals, and sea urchins?",
         choices: [
+          "It helps shells form by turning acid into extra calcium carbonate.",
           "It can make it harder for them to build calcium-containing shells or skeletons.",
-          "It makes shells grow instantly without energy or materials.",
-          "It removes all predators from the ocean.",
-          "It turns every shell into plastic."
+          "It mainly affects shell colour while leaving shell strength unchanged.",
+          "It affects shelled organisms by changing sound energy in seawater."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "The textbook connects acidic conditions to difficulty building shells and skeletons."
       },
       {
         id: "kp-422-q2",
         prompt: "In an eggshell model of ocean acidity, what does the eggshell represent?",
         choices: [
+          "A greenhouse gas molecule dissolved in the ocean.",
           "A calcium-containing shell or skeleton of a marine organism.",
-          "A ship engine.",
-          "A greenhouse gas molecule.",
-          "A layer of Earth's mantle."
+          "A model of ocean currents moving heat around Earth.",
+          "A container that measures the pH of seawater directly."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Eggshells can model calcium-containing structures affected by acidic water."
       },
       {
@@ -17292,9 +17292,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "A shell sample loses mass after sitting in a more acidic liquid. What conclusion best fits the model?",
         choices: [
           "Greater acidity can damage calcium-containing shell material.",
-          "Acidity has no possible effect on shells.",
-          "The shell gained thermal energy only.",
-          "The liquid became less acidic because the shell was heavier."
+          "The shell gained mass but the scale measured acidity instead.",
+          "A mass decrease shows the shell was protected from chemical change.",
+          "The liquid's pH changed because the shell became more like a greenhouse gas."
         ],
         correctIndex: 0,
         explanation: "A mass decrease or visible shell damage can model how acidity affects calcium shells."
@@ -17308,12 +17308,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-423-q1",
         prompt: "Why should students evaluate both strengths and limitations of an Earth-system model?",
         choices: [
+          "A model's value depends on hiding its assumptions from the investigation.",
+          "A model is strongest when its limits are treated as extra evidence.",
           "Models simplify real systems, so they can show patterns while leaving out details.",
-          "A model is always exactly the same as the real system.",
-          "Models should never be tested with data.",
-          "A model's limitations make all results useless."
+          "Models are useful because they avoid comparisons with real Earth systems."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Models are useful simplifications, but students should identify what they represent well and what they miss."
       },
       {
@@ -17321,9 +17321,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which is a limitation of using eggshells to model ocean acidification?",
         choices: [
           "Eggshells are not living marine organisms in a complete ocean ecosystem.",
-          "Eggshells contain no calcium-containing material.",
-          "Eggshells make the model larger than Earth.",
-          "Eggshells prevent all measurement."
+          "Eggshells represent acidity but not calcium-containing material.",
+          "Eggshells are useful when their mass measurement is left out.",
+          "Eggshells make the model stronger by removing chemical reactions."
         ],
         correctIndex: 0,
         explanation: "Eggshells can model shell material, but they do not include the full biology and ecology of real organisms."
@@ -17333,9 +17333,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which model result would be useful evidence but still need careful interpretation?",
         choices: [
           "Shell mass changes in liquids with different acidity levels.",
-          "A student's favourite colour.",
-          "The number of desks in the room.",
-          "A model that was never observed."
+          "A drawing of the setup made before any test was run.",
+          "A class vote about which liquid looks most like seawater.",
+          "A result from one container with no comparison liquid."
         ],
         correctIndex: 0,
         explanation: "Measured shell changes can support conclusions, but the model's limits should still be considered."
@@ -17349,12 +17349,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-424-q1",
         prompt: "What is the main message of Chapter 3.4 Concept 1?",
         choices: [
-          "Energy transformations provide benefits for humans but can also create risks or harm.",
-          "Humans never use energy transformations.",
-          "Every energy technology is completely risk-free.",
-          "Energy transformations affect only natural systems, not societies."
+          "Energy technologies are best evaluated by benefits without considering impacts.",
+          "Human societies use energy mainly in ways unrelated to transformation.",
+          "Energy transformation risks are limited to natural events such as volcanoes.",
+          "Energy transformations provide benefits for humans but can also create risks or harm."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "The chapter frames human energy use as a balance of benefits and possible negative effects."
       },
       {
@@ -17362,9 +17362,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which evaluation question best fits a new energy technology?",
         choices: [
           "What benefits does it provide, and what environmental or social harms might it cause?",
-          "Can we ignore all side effects if it works?",
-          "Does it avoid every energy transformation?",
-          "Can it be judged only by its invention date?"
+          "Does it produce useful energy while making trade-offs easier to ignore?",
+          "Can its risks be judged without considering who is affected?",
+          "Does it use a familiar energy source, regardless of its impacts?"
         ],
         correctIndex: 0,
         explanation: "Responsible evaluation considers both usefulness and risks."
@@ -17374,9 +17374,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "A technology provides cheap electricity but damages habitat. What does this example show?",
         choices: [
           "Energy technologies can involve trade-offs between benefits and harms.",
-          "Benefits always erase harms.",
-          "Habitat damage is not connected to energy decisions.",
-          "Electricity cannot come from energy transformations."
+          "Low cost is enough evidence that the technology has a positive impact.",
+          "Habitat damage should be evaluated separately from energy decisions.",
+          "Environmental harm occurs mainly when energy is not transformed usefully."
         ],
         correctIndex: 0,
         explanation: "Many energy decisions involve trade-offs that must be weighed carefully."
@@ -17390,36 +17390,36 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-425-q1",
         prompt: "How does photosynthesis support human survival in energy terms?",
         choices: [
+          "Plants release chemical energy by carrying out cellular respiration for humans.",
+          "Plants store thermal energy from the Sun directly as body movement.",
           "Plants transform solar energy into chemical potential energy in food.",
-          "Plants transform gravity into nuclear fuel.",
-          "Plants remove all energy from ecosystems.",
-          "Plants create energy from nothing."
+          "Plants transform sunlight into matter without storing chemical energy."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Photosynthesis stores energy in chemical form, which supports food webs including humans."
       },
       {
         id: "kp-425-q2",
         prompt: "What does cellular respiration do with chemical potential energy from food?",
         choices: [
+          "It stores solar energy in food before plants can use it.",
           "It transforms stored chemical energy into forms cells can use for life functions.",
-          "It turns food directly into sunlight.",
-          "It prevents cells from using energy.",
-          "It changes oxygen into concrete."
+          "It converts food energy into gravitational potential energy for ecosystems.",
+          "It is the process that builds food molecules from carbon dioxide and water."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Cellular respiration releases usable energy from food molecules."
       },
       {
         id: "kp-425-q3",
         prompt: "Which sequence best connects solar energy to human movement?",
         choices: [
-          "Sunlight -> photosynthesis in plants -> chemical energy in food -> cellular respiration -> movement.",
-          "Sunlight -> concrete -> gravity disappears -> movement.",
-          "Sunlight -> no transformation -> movement without energy.",
-          "Sunlight -> sound only -> nuclear waste -> movement."
+          "Sunlight -> body movement -> food energy -> cellular respiration -> photosynthesis.",
+          "Sunlight -> chemical energy in food without organisms -> movement without respiration.",
+          "Sunlight -> thermal energy in air -> shell formation -> human movement.",
+          "Sunlight -> photosynthesis in plants -> chemical energy in food -> cellular respiration -> movement."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Human activity ultimately depends on energy transformations in living systems."
       }
     ]
