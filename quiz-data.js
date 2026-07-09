@@ -20998,36 +20998,36 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-513-q1",
         prompt: "What is a light-year?",
         choices: [
-          "The distance light travels in one year.",
           "The time Earth takes to orbit the Sun once.",
-          "The brightness of a nearby star.",
-          "The distance from Earth to the Sun."
+          "The distance light travels in one year.",
+          "The age of light after it leaves a nearby star.",
+          "The average distance between Earth and the Sun."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "A light-year is a distance unit, not a time unit."
       },
       {
         id: "kp-513-q2",
         prompt: "Why are light-years more useful than kilometres for distances between stars?",
         choices: [
-          "Interstellar distances are so large that light-years keep the numbers more manageable.",
-          "Kilometres cannot measure any distance in space.",
-          "Light-years make stars physically closer.",
-          "Light-years measure only objects inside Earth's atmosphere."
+          "Kilometres are useful but would create extremely large numbers for interstellar distances.",
+          "Light-years are used because they make the stars physically closer together.",
+          "Kilometres apply within the Solar System, while light-years are used for star and galaxy distances.",
+          "Light-years are used mainly because light travels slower between stars."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "A light-year represents a very large distance, about \\(9.46 \\times 10^{12}\\,km\\)."
       },
       {
         id: "kp-513-q3",
         prompt: "A star is listed as 12 light-years away. What does that distance mean?",
         choices: [
-          "Light from the star takes about 12 years to reach Earth.",
           "The star is 12 years old.",
-          "The star travels around Earth every 12 years.",
-          "The star is 12 astronomical units from the Sun."
+          "The star is 12 astronomical units from the Sun.",
+          "Light from the star takes about 12 years to reach Earth.",
+          "Earth takes 12 years to orbit that star."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Distance in light-years also tells us how long the light has travelled."
       }
     ]
@@ -21039,34 +21039,34 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-514-q1",
         prompt: "About how fast does light travel through space?",
         choices: [
-          "\\(300\\,000\\,km/s\\)",
           "\\(300\\,000\\,km/h\\)",
           "\\(150\\,000\\,000\\,km/s\\)",
-          "\\(9.46\\,km/s\\)"
+          "\\(300\\,000\\,km/s\\)",
+          "\\(9.46 \\times 10^{12}\\,km/s\\)"
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "The speed of light in space is about \\(300\\,000\\,km/s\\)."
       },
       {
         id: "kp-514-q2",
         prompt: "If light travels for 3 seconds, about how far does it go in space?",
         choices: [
-          "\\(900\\,000\\,km\\)",
           "\\(300\\,003\\,km\\)",
           "\\(100\\,000\\,km\\)",
-          "\\(9\\,000\\,km\\)"
+          "\\(9\\,000\\,km\\)",
+          "\\(900\\,000\\,km\\)"
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Use distance = speed x time: \\(300\\,000\\,km/s \\times 3\\,s = 900\\,000\\,km\\)."
       },
       {
         id: "kp-514-q3",
         prompt: "What does the speed of light help explain about astronomy?",
         choices: [
-          "Even light takes a long time to cross stellar and galactic distances.",
-          "Light from every object reaches Earth instantly.",
-          "Stars are close because light is fast.",
-          "Only radio waves can travel through space."
+          "Light is fast, but space distances are large enough that travel time still matters.",
+          "Light speed makes nearby and distant objects equally current to observers.",
+          "Stars are close enough that light travel time is usually ignored beyond the Solar System.",
+          "Visible light travels through space, while other electromagnetic waves do not."
         ],
         correctIndex: 0,
         explanation: "Space is so large that travel time matters even for light."
@@ -21080,36 +21080,36 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-515-q1",
         prompt: "Why do astronomers say that looking at distant objects is looking back in time?",
         choices: [
+          "A telescope changes old light into present-day light.",
+          "Distant objects age more slowly because light travels through space.",
           "The light left the object in the past and took time to reach us.",
-          "Telescopes can rewind time.",
-          "Distant objects stop changing after they emit light.",
-          "Light-years measure the age of the observer."
+          "Light-years measure how old an object is rather than how far away it is."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "We see objects as they were when the light began travelling toward Earth."
       },
       {
         id: "kp-515-q2",
         prompt: "If a star is 40 light-years away, how old is the light we see from it?",
         choices: [
-          "About 40 years old.",
           "About 40 seconds old.",
           "About 4 years old.",
+          "About 40 years old.",
           "About 400 million years old."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "A distance of 40 light-years means the light travelled for about 40 years."
       },
       {
         id: "kp-515-q3",
         prompt: "Which statement best corrects 'We see the Sun exactly as it is right now'?",
         choices: [
-          "Sunlight takes several minutes to reach Earth, so we see the Sun slightly in the past.",
-          "Sunlight takes 25 years to reach Earth.",
-          "The Sun emits no light of its own.",
-          "The Sun is outside the Milky Way."
+          "The Sun is close enough that light travel time matters mainly beyond the Solar System.",
+          "The Sun's light reaches Earth quickly enough that telescope processing is the main delay.",
+          "The Sun is seen in real time because it is inside the Milky Way.",
+          "Sunlight takes about 8 minutes to reach Earth, so we see the Sun slightly in the past."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Even the Sun is not seen in real time because light has a finite speed."
       }
     ]
@@ -21121,36 +21121,36 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-516-q1",
         prompt: "What is parallax?",
         choices: [
+          "The change in a star's brightness after its light travels for many years.",
+          "The distance light travels in one year through empty space.",
           "The apparent shift of an object's position when viewed from two different lines of sight.",
-          "The colour change that makes blue stars hotter.",
-          "The total energy a star gives off each second.",
-          "The shape category of a galaxy."
+          "The shift in a planet's actual orbit caused by Earth's gravity."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Parallax is an apparent position shift caused by a change in viewpoint."
       },
       {
         id: "kp-516-q2",
         prompt: "In a classroom parallax model, your thumb seems to jump against a distant wall when you switch eyes. What is changing?",
         choices: [
-          "Your line of sight to the thumb.",
           "The actual location of the wall.",
-          "The mass of your thumb.",
-          "The speed of light."
+          "Your line of sight to the thumb.",
+          "The temperature of the background object.",
+          "The distance light travels in one year."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Switching eyes changes the viewing position, which creates the apparent shift."
       },
       {
         id: "kp-516-q3",
         prompt: "How does parallax generally change when the object is moved closer to the observer?",
         choices: [
+          "The apparent shift becomes smaller because nearby objects are easier to focus on.",
+          "The apparent shift stays the same if the background is distant.",
           "The apparent shift becomes larger.",
-          "The apparent shift becomes impossible in every case.",
-          "The object stops reflecting light.",
-          "The background moves closer too."
+          "The shift becomes a measure of luminosity instead of distance."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Nearby objects show a larger parallax shift than very distant objects."
       }
     ]
@@ -21162,36 +21162,36 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-517-q1",
         prompt: "How do astronomers use Earth's orbit in stellar parallax?",
         choices: [
-          "They observe a star from opposite sides of Earth's orbit to create a wide baseline.",
-          "They move the star to a new orbit.",
-          "They wait for the star to orbit Earth.",
-          "They use Earth's atmosphere as the star."
+          "They use Earth's atmosphere as a lens to move the star's apparent position.",
+          "They compare the star's position with the Moon's phase over one month.",
+          "They use Earth's orbit to make the star physically closer after six months.",
+          "They observe a star from opposite sides of Earth's orbit to create a wide baseline."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Earth's orbit provides two widely separated viewpoints for triangulation."
       },
       {
         id: "kp-517-q2",
         prompt: "Why does parallax become less useful for very distant stars?",
         choices: [
+          "Distant stars are too luminous for geometry to apply.",
           "The apparent shift becomes extremely small and difficult to measure accurately.",
-          "Distant stars do not emit light.",
-          "Earth stops moving around the Sun.",
-          "The stars become planets."
+          "The baseline of Earth's orbit becomes too large for triangulation.",
+          "The parallax shift becomes confused with the star's colour temperature."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "As distance increases, parallax angle decreases."
       },
       {
         id: "kp-517-q3",
         prompt: "Why do satellites such as HIPPARCOS and Gaia improve distance measurements?",
         choices: [
-          "They can measure tiny star positions and parallax shifts with high precision above much of Earth's interference.",
-          "They make all stars closer to Earth.",
-          "They use sound waves to measure distance.",
-          "They replace the need for geometry."
+          "They make stars closer by observing them from orbit instead of the ground.",
+          "They measure distance by recording sound waves from stars.",
+          "They replace triangulation with brightness estimates for large groups of stars.",
+          "They can measure tiny star positions and parallax shifts with high precision."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Precise instruments improve measurements of very small angular shifts."
       }
     ]
@@ -21203,36 +21203,36 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-518-q1",
         prompt: "Which list contains important properties used to compare stars?",
         choices: [
+          "Constellation name, zodiac sign, telescope type, and season.",
           "Colour, temperature, luminosity, mass, and brightness.",
-          "Continent, ocean, weather, soil, and rainfall.",
-          "Only name and constellation.",
-          "Only distance from Earth."
+          "Distance from Earth alone, because other properties depend on distance.",
+          "Apparent brightness, planet count, parallax angle, and galaxy shape."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Astronomers compare multiple properties to understand stars and their life cycles."
       },
       {
         id: "kp-518-q2",
         prompt: "Why are star properties useful to astronomers?",
         choices: [
-          "They help astronomers compare stars and infer stages of stellar development.",
-          "They prove all stars are identical.",
-          "They show that stars do not change over time.",
-          "They replace all telescope observations."
+          "They are useful mainly for naming stars in constellations.",
+          "They matter for nearby stars but not for distant stars in the Milky Way.",
+          "They describe what stars look like but not how they change over time.",
+          "They help astronomers compare stars and infer stages of stellar development."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Patterns in star properties help explain how stars form, change, and end."
       },
       {
         id: "kp-518-q3",
         prompt: "Which observation alone is least enough to fully compare two stars?",
         choices: [
-          "How bright they look from Earth.",
           "Their colour.",
           "Their temperature.",
+          "How bright they look from Earth.",
           "Their mass."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Apparent brightness depends on distance as well as actual energy output."
       }
     ]
@@ -21244,36 +21244,36 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-519-q1",
         prompt: "What does a star's colour tell astronomers?",
         choices: [
-          "It gives evidence about the star's surface temperature.",
-          "It gives the star's exact distance in AU.",
-          "It proves the star is a planet.",
-          "It shows the star's age in seconds."
+          "It gives the star's exact distance in astronomical units.",
+          "It directly gives the star's total mass without other data.",
+          "It identifies the star's galaxy type by shape.",
+          "It gives evidence about the star's surface temperature."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Star colour is related to surface temperature."
       },
       {
         id: "kp-519-q2",
         prompt: "Which star colour usually indicates the hottest surface temperature?",
         choices: [
-          "Blue or bluish-white.",
           "Red.",
           "Orange.",
-          "Dark brown."
+          "Blue or bluish-white.",
+          "Yellowish like the Sun."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Bluish stars are hotter than reddish stars."
       },
       {
         id: "kp-519-q3",
         prompt: "A student says, 'Red stars are hotter because red looks like fire.' What is the best correction?",
         choices: [
+          "Colour is related to temperature mainly after a star's distance is known.",
+          "Red and blue stars can be compared by brightness but not temperature.",
           "In stars, red generally indicates a cooler surface than blue.",
-          "Colour has no relationship to star temperature.",
-          "All red stars are the same temperature as Earth.",
-          "Blue stars are always cooler than red stars."
+          "Blue stars appear hotter because distance makes their colour look cooler."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "The everyday association of red with heat can be misleading for stellar colour."
       }
     ]
@@ -21285,36 +21285,36 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-520-q1",
         prompt: "What is luminosity?",
         choices: [
+          "How bright a star looks from Earth to an observer.",
           "The total amount of energy a star gives off each second.",
-          "How bright a star looks from Earth only.",
-          "The star's distance from the Sun.",
-          "The colour of a galaxy."
+          "The star's distance from Earth measured in light-years.",
+          "The apparent size of the star in a telescope image."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Luminosity describes a star's actual energy output."
       },
       {
         id: "kp-520-q2",
         prompt: "Two identical stars have the same luminosity, but Star A looks brighter from Earth than Star B. What is a likely reason?",
         choices: [
-          "Star A is closer to Earth.",
-          "Star A must be colder.",
-          "Star B has no light.",
-          "Star B is outside the universe."
+          "Star A must have a lower surface temperature.",
+          "Star B must be a red star while Star A must be blue.",
+          "Star B is less luminous even though the stars were described as identical.",
+          "Star A is closer to Earth."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Apparent brightness depends on distance as well as luminosity."
       },
       {
         id: "kp-520-q3",
         prompt: "Which statement avoids a common misconception?",
         choices: [
-          "The brightest-looking star is not always the most luminous star.",
-          "Apparent brightness and luminosity are always identical.",
-          "Distance never affects how bright a star looks.",
-          "Only red stars can be luminous."
+          "Apparent brightness and luminosity are the same if two stars have the same colour.",
+          "A nearby modest star can look brighter than a distant highly luminous star.",
+          "Distance affects parallax but not how bright a star appears.",
+          "The brightest-looking star in the sky must have the greatest energy output."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "A nearby modest star can look brighter than a distant highly luminous star."
       }
     ]
@@ -21326,36 +21326,36 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-521-q1",
         prompt: "What does one solar mass mean?",
         choices: [
-          "A mass equal to the mass of the Sun.",
           "The mass of Earth.",
+          "A mass equal to the mass of the Sun.",
           "The distance between Earth and the Sun.",
-          "The brightness of Sirius."
+          "The luminosity of the Sun compared with other stars."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Stellar masses are often compared with the Sun's mass."
       },
       {
         id: "kp-521-q2",
         prompt: "Why is stellar mass important in predicting a star's future?",
         choices: [
-          "Mass strongly affects how long a star remains active and what final stage it may reach.",
-          "Mass determines the star's constellation name only.",
-          "Mass has no effect on stellar life cycles.",
-          "Mass tells astronomers only whether the star is visible in daylight."
+          "Mass matters mainly because heavier stars tend to look closer from Earth.",
+          "Mass is useful for planets but not for star life cycles.",
+          "Mass determines apparent brightness without needing luminosity or distance.",
+          "Mass strongly affects how long a star remains active and what final stage it may reach."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Initial mass is one of the most important factors in stellar evolution."
       },
       {
         id: "kp-521-q3",
         prompt: "Which observation helped astronomers determine masses of many stars?",
         choices: [
+          "Measuring a single star's colour from one photograph.",
           "Studying binary stars that orbit each other.",
-          "Counting planets in the Solar System.",
-          "Measuring ocean tides.",
-          "Using a planisphere to trace zodiac signs."
+          "Using a planisphere to trace zodiac signs.",
+          "Comparing galaxy shape categories."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "The orbits of binary stars provide information that can be used to calculate stellar mass."
       }
     ]
@@ -21367,36 +21367,36 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-522-q1",
         prompt: "What does an H-R diagram compare?",
         choices: [
+          "Planet distances, moon phases, and zodiac dates.",
+          "Telescope wavelengths, prices, and mirror sizes.",
           "Star properties such as colour, temperature, luminosity, and absolute magnitude.",
-          "Planet distances and moon phases only.",
-          "Types of telescopes and their prices.",
-          "Constellation myths and zodiac dates."
+          "Galaxy shapes and the number of planets in each galaxy."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "An H-R diagram is a graph used to show relationships among star properties."
       },
       {
         id: "kp-522-q2",
         prompt: "Why was the H-R diagram useful to astronomers?",
         choices: [
+          "It proved that colour and temperature are unrelated.",
+          "It works by plotting a star's distance from Earth against its constellation name.",
           "It revealed patterns in star data that helped classify stars and study stellar evolution.",
-          "It showed that all stars have the same temperature.",
-          "It replaced the need for observing stars.",
-          "It measured the diameter of Earth."
+          "It is useful mainly because it lists stars in alphabetical order."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "The H-R diagram organizes star data so important patterns become visible."
       },
       {
         id: "kp-522-q3",
         prompt: "On a simplified H-R diagram, a very hot and very luminous star is usually found toward which region?",
         choices: [
-          "The upper-left region.",
           "The lower-right region.",
-          "Exactly in the centre of every diagram.",
-          "Outside the graph because hot stars cannot be plotted."
+          "The upper-left region.",
+          "The lower-left region with faint hot stars.",
+          "The upper-right region with cool luminous stars."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "H-R diagrams commonly place hotter stars toward the left and more luminous stars higher up."
       }
     ]
