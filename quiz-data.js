@@ -18948,22 +18948,22 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-463-q1",
         prompt: "How can the time period when a person lives affect their understanding of the universe?",
         choices: [
+          "It mainly changes the names people give to the same explanation.",
           "It affects the tools, knowledge, and explanations available to them.",
-          "It has no effect on what they can know.",
-          "It makes every person in history think exactly the same way.",
-          "It prevents people from observing the sky."
+          "It matters for technology but not for beliefs about the sky.",
+          "It changes the sky itself more than it changes people's interpretations."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "A person's historical context influences available technology, shared knowledge, and common explanations."
       },
       {
         id: "kp-463-q2",
         prompt: "Why might someone living in a mountain valley describe the visible sky differently from someone on a flat prairie?",
         choices: [
-          "Local horizon, weather, elevation, and landscape affect what can be seen.",
-          "The stars exist only above valleys.",
-          "Place cannot affect sky observations.",
-          "People in different places see no sky objects."
+          "A valley and a prairie create different horizons and viewing conditions.",
+          "A prairie view is more scientific because it has fewer nearby landmarks.",
+          "A valley view is less useful because mountains add cultural meaning.",
+          "Different places mainly change the stories, not what observers can see."
         ],
         correctIndex: 0,
         explanation: "Place affects observation conditions, so different locations can shape different sky knowledge."
@@ -18972,12 +18972,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-463-q3",
         prompt: "Which statement best connects time and place to explanations of the universe?",
         choices: [
+          "Reliable explanations come from setting aside local experience completely.",
+          "Older explanations are mainly guesses because observers lacked modern instruments.",
           "People explain the universe through the knowledge and experiences available in their own context.",
-          "All explanations are independent of experience.",
-          "Only modern people can ask questions about the sky.",
-          "Location and history never influence beliefs."
+          "Location affects daily life but has little connection to sky knowledge."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "The chapter asks students to reflect on how where and when people live shapes understanding."
       }
     ]
@@ -18990,9 +18990,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "How can assumptions affect ideas about the universe?",
         choices: [
           "They can make people interpret observations through a limited or familiar perspective.",
-          "They always make observations more accurate.",
-          "They replace all need for evidence.",
-          "They prevent anyone from having a culture."
+          "They are useful shortcuts, so evidence matters less once a pattern is familiar.",
+          "They mainly affect stories and traditions, while scientific observations stay separate.",
+          "They help people notice what confirms their view and treat that as enough support."
         ],
         correctIndex: 0,
         explanation: "Assumptions can shape what people notice, value, or believe an observation means."
@@ -19001,22 +19001,22 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-464-q2",
         prompt: "Which question helps check whether a view of the universe is evidence-based?",
         choices: [
+          "Does this view feel familiar to people in my community?",
+          "Would this view be easier to explain with a simple story?",
           "What observations or reliable evidence support this view?",
-          "Can I accept it without asking why?",
-          "Does it match only my first impression?",
-          "Can I ignore other perspectives?"
+          "Does this view agree with the first explanation I heard?"
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Evaluating evidence helps distinguish scientific reasoning from unsupported assumptions."
       },
       {
         id: "kp-464-q3",
         prompt: "A person assumes that what they can see from their town is all that exists. What is the main problem?",
         choices: [
-          "Their perspective is limited by local experience.",
-          "Their town must be the entire universe.",
-          "Observations from one place always show everything.",
-          "Evidence from other places can never matter."
+          "Their conclusion treats a local view as if it represented a much larger system.",
+          "Their conclusion is reasonable if the sky looks the same on several nights.",
+          "Their conclusion becomes stronger when many neighbours share the same view.",
+          "Their conclusion is mainly weak because towns have artificial light."
         ],
         correctIndex: 0,
         explanation: "A limited perspective can lead to incomplete conclusions about a much larger system."
@@ -19030,12 +19030,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-465-q1",
         prompt: "What does it mean to consider multiple ways of knowing when studying the universe?",
         choices: [
-          "Respectfully comparing scientific evidence with First Peoples perspectives, local knowledge, and other knowledge systems.",
-          "Rejecting every source of knowledge except one textbook.",
-          "Treating all claims as identical even when evidence differs.",
-          "Avoiding observation and reflection."
+          "Blending different perspectives until their differences disappear.",
+          "Using scientific evidence for measurements and local knowledge for cultural topics separately.",
+          "Ranking knowledge systems by how closely they match modern astronomy vocabulary.",
+          "Respectfully comparing scientific evidence, First Peoples perspectives, local knowledge, and other knowledge systems."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "The unit encourages students to consider scientific and cultural perspectives respectfully."
       },
       {
@@ -19043,9 +19043,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why might local knowledge be important in sky observation?",
         choices: [
           "It can connect sky patterns to seasons, places, navigation, stories, and survival.",
-          "It prevents people from observing the sky.",
-          "It has no relationship to place.",
-          "It always ignores patterns."
+          "It is mainly important when instruments are unavailable.",
+          "It explains sky patterns by replacing observations with stories.",
+          "It gives the same sky meanings in mountain, coast, and prairie settings."
         ],
         correctIndex: 0,
         explanation: "Sky knowledge is often place-based and connected to daily life, seasons, and cultural meaning."
@@ -19054,12 +19054,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-465-q3",
         prompt: "Which approach best respects multiple knowledge systems?",
         choices: [
+          "Use scientific terms first, then translate other perspectives into those terms.",
           "Ask what each perspective explains, what evidence or experience supports it, and how it should be understood in context.",
-          "Assume only one culture has ever observed the sky.",
-          "Mock explanations that are unfamiliar.",
-          "Ignore First Peoples perspectives because astronomy is only modern."
+          "Treat cultural meaning as background information after the scientific answer is finished.",
+          "Compare perspectives by choosing the one that sounds most familiar."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Respectful comparison asks careful questions about evidence, experience, meaning, and context."
       }
     ]
@@ -19071,36 +19071,36 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-466-q1",
         prompt: "What is light pollution?",
         choices: [
+          "Moonlight reflecting from clouds over a city.",
+          "A telescope collecting glare from a bright star.",
           "Artificial night lighting that brightens the sky and makes stars harder to see.",
-          "The Moon giving off its own sunlight.",
-          "A telescope collecting too much starlight.",
-          "A planet moving against background stars."
+          "The apparent fading of stars as sunrise approaches."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Light pollution from towns and cities can block views of stars and the Milky Way."
       },
       {
         id: "kp-466-q2",
         prompt: "Why are many urban residents unable to see the Milky Way clearly?",
         choices: [
+          "The Milky Way is visible mainly from places at high elevation.",
           "Artificial lighting brightens the night sky and reduces contrast with faint stars.",
-          "The Milky Way disappears above cities.",
-          "Stars stop producing light near buildings.",
-          "The Moon permanently blocks all urban skies."
+          "City buildings absorb starlight before it reaches an observer.",
+          "Urban observers look from lower latitudes than rural observers."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Bright urban lighting scatters in the atmosphere, making faint sky features difficult to see."
       },
       {
         id: "kp-466-q3",
         prompt: "Which observation would be evidence of light pollution?",
         choices: [
-          "Fewer stars are visible downtown than at a dark rural site on the same clear night.",
-          "The Sun is visible in daytime.",
-          "The Moon changes phase.",
-          "Planets move against background stars."
+          "The Moon appears in a different phase later in the month.",
+          "The Sun appears brighter near noon than near sunset.",
+          "Mars changes position compared with nearby stars over several weeks.",
+          "Fewer stars are visible downtown than at a dark rural site on the same clear night."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Comparing sky visibility between bright and dark sites can show the effect of artificial lighting."
       }
     ]
@@ -19113,9 +19113,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which is a benefit of night lighting mentioned in the textbook?",
         choices: [
           "It can improve safety and allow people to work, shop, or move after dark.",
-          "It helps every animal migrate more accurately.",
-          "It makes stars easier to see in cities.",
-          "It removes all need for the Sun."
+          "It helps wildlife avoid human activity in busy streets.",
+          "It makes faint stars stand out against the city sky.",
+          "It reduces the need to plan around sunrise and sunset."
         ],
         correctIndex: 0,
         explanation: "Night lighting has real human benefits, even though it also has costs."
@@ -19124,24 +19124,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-467-q2",
         prompt: "Why should light pollution decisions consider trade-offs?",
         choices: [
+          "Astronomers and wildlife are affected, while city safety can be handled separately.",
+          "Lighting decisions are mainly about cost because the science is already settled.",
           "Lighting can support human safety while also affecting astronomy and ecosystems.",
-          "Lighting has only benefits and no harms.",
-          "Lighting has only harms and no benefits.",
-          "Trade-offs are not part of environmental decisions."
+          "Environmental decisions become stronger when one affected group is prioritized."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "A balanced argument considers both the benefits of well-lit spaces and the harms of excess light."
       },
       {
         id: "kp-467-q3",
         prompt: "Which community plan is most balanced?",
         choices: [
-          "Use lighting where needed for safety, but shield and aim it to reduce unnecessary sky glow.",
-          "Turn on every light all night in every direction.",
-          "Remove every outdoor light without considering safety.",
-          "Ignore both safety and wildlife."
+          "Keep bright lighting near roads and beaches because safety is the shared concern.",
+          "Reduce lighting in parks while leaving business districts unchanged.",
+          "Use motion sensors near observation areas but keep the rest of the town unchanged.",
+          "Use lighting where needed for safety, but shield and aim it to reduce unnecessary sky glow."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Thoughtful lighting can preserve benefits while reducing negative impacts."
       }
     ]
@@ -19154,9 +19154,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which life processes can light pollution disrupt?",
         choices: [
           "Sleeping, feeding, migration, and breeding cycles.",
-          "Only the colour of rocks.",
-          "Only telescope construction.",
-          "Only the orbit of Earth."
+          "Food webs in daylight habitats but not night behaviours.",
+          "Navigation in birds but not reproduction or sleep cycles.",
+          "Astronomy observations, with little connection to living systems."
         ],
         correctIndex: 0,
         explanation: "Artificial light at night can disrupt cycles that many organisms depend on."
@@ -19165,24 +19165,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-468-q2",
         prompt: "How can artificial lights affect newly hatched sea turtles?",
         choices: [
+          "They may spend longer on the beach because artificial light cools the sand.",
           "They may move toward bright beach lights instead of toward moonlight or starlight over the water.",
-          "They use city lights to find deeper ocean water perfectly.",
-          "They cannot see any light.",
-          "Artificial lights cause them to become birds."
+          "They may use beach lights as a reliable sign of deeper water.",
+          "They may avoid the sea because reflected starlight hides the shoreline."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "The textbook explains that beach lights can mislead hatchlings away from the sea."
       },
       {
         id: "kp-468-q3",
         prompt: "How can birds be harmed by light pollution?",
         choices: [
+          "They may follow brighter city routes because those routes match natural star patterns.",
+          "They may migrate earlier because artificial lights act like a warmer season.",
           "They can become disoriented during night flight if stars are hidden or artificial lights confuse them.",
-          "They always fly better when stars are hidden.",
-          "They never use sky cues.",
-          "They stop needing migration routes."
+          "They may switch from sky cues to magnetic cues without risk."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Night lighting can interfere with natural navigation cues."
       }
     ]
@@ -19194,24 +19194,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-469-q1",
         prompt: "What should an evidence-based response to light pollution include?",
         choices: [
-          "Who is affected, possible solutions, and evidence of how well the solutions work.",
-          "Only a personal opinion with no examples.",
-          "Only the benefits of lighting and none of the harms.",
-          "Only the harms of lighting and none of the benefits."
+          "A statement of values first, with evidence added if people disagree.",
+          "A list of affected animals, because human needs are covered by city planning.",
+          "An estimate of lighting costs, since cost usually decides the best solution.",
+          "Who is affected, possible solutions, and evidence of how well the solutions work."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "The activity asks students to analyze affected groups, solutions, effectiveness, and arguments."
       },
       {
         id: "kp-469-q2",
         prompt: "Which claim would need evidence before a community accepts it?",
         choices: [
+          "The Moon can appear in the sky at night.",
+          "Stars are easier to see from darker locations.",
           "Shielded lights reduce sky glow while keeping sidewalks visible.",
-          "The Sun rises in daytime.",
-          "Stars can be visible at night.",
-          "The Moon can appear in the sky."
+          "The Sun is the main daytime sky object."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "A proposed solution should be supported by evidence about both effectiveness and safety."
       },
       {
@@ -19219,9 +19219,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which argument about light pollution is most balanced?",
         choices: [
           "Communities should protect safety while reducing unnecessary light that harms wildlife and sky viewing.",
-          "All lights should stay on everywhere because no harms exist.",
-          "All outdoor lighting should disappear instantly without planning.",
-          "Astronomers are the only affected group."
+          "Communities should focus on human safety first, then study wildlife effects later.",
+          "Communities should lower light levels near observatories but leave urban areas unchanged.",
+          "Communities should choose the plan with the fastest visible effect on the night sky."
         ],
         correctIndex: 0,
         explanation: "Balanced reasoning weighs human needs, ecological effects, and astronomy."
@@ -19236,9 +19236,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What does unaided-eye astronomy focus on?",
         choices: [
           "Sky objects and patterns visible without telescopes or modern instruments.",
-          "Only galaxies visible with space telescopes.",
-          "Only objects below Earth's surface.",
-          "Only particles seen through microscopes."
+          "Objects that people recognized before they understood their causes.",
+          "Sky patterns recorded before written calendars were developed.",
+          "Objects bright enough to be useful for navigation and stories."
         ],
         correctIndex: 0,
         explanation: "Before telescopes, people studied the sky using observations possible with the eyes alone."
@@ -19247,24 +19247,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-470-q2",
         prompt: "Which observation would have been possible for people 10 000 years ago without a telescope?",
         choices: [
+          "Detailed surfaces of planets that appear as points of light.",
           "The Sun's daily path, Moon phases, stars, and some planets.",
-          "Detailed craters on distant moons of Jupiter.",
-          "Galaxies too faint for human eyes.",
-          "Radio waves from deep space."
+          "Radio signals from objects beyond the Milky Way.",
+          "The exact distances between neighbouring stars."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Many visible sky patterns are available without modern technology."
       },
       {
         id: "kp-470-q3",
         prompt: "What is a common misconception about astronomy before telescopes?",
         choices: [
+          "That ancient skywatchers mainly studied the sky for entertainment.",
+          "That sky observations became useful after written science developed.",
           "That people could not make careful sky observations without modern instruments.",
-          "That people observed the Sun.",
-          "That the Moon changes appearance.",
-          "That some planets can be seen without telescopes."
+          "That careful observations required knowing Earth's place in the solar system."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "People long ago made careful observations and records of visible sky objects."
       }
     ]
@@ -19277,9 +19277,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why is the Sun described as the most obvious daytime sky object?",
         choices: [
           "It is bright and appears to move predictably across the daytime sky.",
-          "It is visible only at midnight.",
-          "It is dimmer than every star.",
-          "It can be seen only through a telescope."
+          "It is the daytime object people can compare directly with nearby stars.",
+          "It is the sky object whose changing shape is easiest to track.",
+          "It is useful mainly because it marks the start of a lunar cycle."
         ],
         correctIndex: 0,
         explanation: "The Sun dominates daytime sky observations and appears to follow a regular path."
@@ -19288,22 +19288,22 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-471-q2",
         prompt: "How can the Sun's apparent motion be useful?",
         choices: [
+          "It can show daily direction but gives little evidence for seasonal cycles.",
+          "It explains Moon phases because the Sun follows the Moon across the sky.",
           "It can help people track time, direction, and seasonal changes.",
-          "It proves the Sun orbits Earth once each hour.",
-          "It prevents calendars from being made.",
-          "It makes night sky observations unnecessary."
+          "It is useful mainly when other sky objects are hidden by clouds."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "People have used the Sun's patterns to organize time, seasons, and direction."
       },
       {
         id: "kp-471-q3",
         prompt: "Which question is a useful unaided-eye astronomy question about the Sun?",
         choices: [
-          "Does the Sun follow the same path and reach the same height in every season?",
-          "What does the Sun look like under an electron microscope?",
-          "How many galaxies are inside the Sun?",
-          "Can the Sun be heard from Earth as a sound wave?"
+          "How does the Sun's apparent path compare in different seasons?",
+          "What does the Sun's surface look like under classroom magnification?",
+          "Which chemical elements in the Sun can be named from a casual glance?",
+          "How many distant stars are hidden inside the daytime Sun?"
         ],
         correctIndex: 0,
         explanation: "The Sun's apparent path and seasonal changes can be investigated by direct observation."
@@ -19317,12 +19317,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-472-q1",
         prompt: "Why was the Moon important to early skywatchers?",
         choices: [
-          "Its changing appearance and movement create observable time cycles.",
-          "It is visible only with a telescope.",
-          "It never changes appearance.",
-          "It is the same object as the Sun."
+          "It rises in a steady pattern that is easier to use than the Sun's path.",
+          "It has visible surface markings that directly explain the seasons.",
+          "It appears near the same stars each night, making it a fixed landmark.",
+          "Its changing appearance and movement create observable time cycles."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Moon phases and motion are regular patterns visible without instruments."
       },
       {
@@ -19330,9 +19330,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "A cave record shows 29 marks connected to the Moon's changing appearance. What idea does this support?",
         choices: [
           "People observed and recorded lunar cycles long ago.",
-          "People could not observe the Moon before telescopes.",
-          "The Moon changes randomly with no pattern.",
-          "The Moon is a planet."
+          "People used marks mainly to count stars visible near the Moon.",
+          "The Moon was treated as a fixed marker for the same date each year.",
+          "The marks show that lunar observations replaced solar observations."
         ],
         correctIndex: 0,
         explanation: "The textbook describes ancient records of Moon-phase cycles."
@@ -19342,9 +19342,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which statement best compares the Moon and Sun as sky objects?",
         choices: [
           "Both show patterns of apparent motion, but the Moon also changes phase noticeably from night to night.",
-          "Both are visible only during daytime.",
-          "Neither has predictable patterns.",
-          "The Moon is a star like the Sun."
+          "Both mark time in the same way because their visible shapes change through a month.",
+          "The Sun is useful for direction, while the Moon is useful mainly as a bright object.",
+          "The Moon changes position because it is closer, while the Sun's position is fixed."
         ],
         correctIndex: 0,
         explanation: "The Sun and Moon both have observable motion patterns, while the Moon's phases make it especially useful for tracking cycles."
