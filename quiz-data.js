@@ -10666,10 +10666,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-261-q1",
         prompt: "Why should an energy-source investigation include a balanced chemical equation?",
         choices: [
-          "It shows that the fuel's environmental impact is already solved.",
-          "It estimates energy output without needing observations or other data.",
+          "It shows that a reaction has products, so the investigation does not need particle models.",
+          "It shows energy output directly from the size of the coefficients.",
           "It shows the atoms conserved and the reactant-product ratios involved in the energy-producing reaction.",
-          "It makes the reaction happen faster."
+          "It identifies the fuel source but not the rearrangement of atoms during the reaction."
         ],
         correctIndex: 2,
         explanation: "A balanced equation connects the reaction to atom rearrangement, bond changes, and fuel use."
@@ -10690,9 +10690,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-261-q3",
         prompt: "How does bond information help explain useful energy from a fuel reaction?",
         choices: [
-          "Bond changes matter less than the physical state of the fuel.",
-          "Coefficients show amounts, so they also show where energy is stored.",
-          "Energy output comes from atoms becoming smaller during the reaction.",
+          "Bond changes matter mainly when the fuel is a solid rather than a gas.",
+          "Coefficients show amounts, but they do not show bond energies by themselves.",
+          "Energy output comes from products having less mass than the reactants.",
           "Energy is absorbed when bonds break and released when new bonds form, so the net change matters."
         ],
         correctIndex: 3,
@@ -10707,9 +10707,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-262-q1",
         prompt: "Which evaluation compares both advantages and disadvantages of gasoline as an energy source?",
         choices: [
-          "It is useful for transportation, so the evaluation can focus on performance.",
+          "It is useful for transportation, so the evaluation should focus mainly on engine performance.",
           "It stores useful energy for transportation, but combustion products and extraction impacts must be considered.",
-          "Its emissions make the chemistry irrelevant to transportation use.",
+          "Its emissions make the chemistry less important than the social effects of transportation.",
           "Its chemical equation is balanced, so social impacts do not matter."
         ],
         correctIndex: 1,
@@ -10732,9 +10732,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "A hydrogen fuel cell produces useful energy and water as a product, but hydrogen production requires energy. What does this show?",
         choices: [
           "A complete evaluation must include how the fuel is made, used, and supplied.",
-          "Hydrogen fuel cells do not involve chemistry.",
-          "The final product is the main factor, so fuel production can be considered later.",
-          "Water as a product means no trade-offs exist."
+          "Hydrogen fuel cells can be evaluated from the product side without considering the fuel source.",
+          "The final product is the main factor, so production energy is a separate topic.",
+          "Water as a product makes hydrogen production impacts less relevant to the comparison."
         ],
         correctIndex: 0,
         explanation: "Energy technologies should be assessed over the larger process, not just one reaction step."
@@ -10748,9 +10748,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-263-q1",
         prompt: "Which description best matches a synthesis reaction?",
         choices: [
-          "One compound breaks into several products.",
-          "Two ionic compounds exchange positive ions.",
-          "A fuel reacts with oxygen and forms several combustion products.",
+          "One compound absorbs energy and separates into simpler substances.",
+          "Two aqueous compounds exchange ions and may form a precipitate.",
+          "A fuel reacts with oxygen to form oxides and release energy.",
           "Two or more reactants combine to form one compound."
         ],
         correctIndex: 3,
@@ -10772,8 +10772,8 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-263-q3",
         prompt: "What feature should you look for when classifying a synthesis reaction?",
         choices: [
-          "One reactant forming several products.",
-          "Two solutions switching ions.",
+          "One reactant separating into several simpler products.",
+          "Two compounds trading ions while staying in solution.",
           "Several reactants forming a single product.",
           "A solid forming after two dissolved compounds exchange ions."
         ],
@@ -10801,9 +10801,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-264-q2",
         prompt: "A metal and a non-metal combine to form an ionic compound. Which classification is most likely?",
         choices: [
-          "Double replacement",
-          "Decomposition",
-          "Neutralization",
+          "Double replacement, because ions are involved in the compound",
+          "Decomposition, because the product contains more than one element",
+          "Neutralization, because ionic compounds can dissolve in water",
           "Synthesis"
         ],
         correctIndex: 3,
@@ -10830,10 +10830,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-265-q1",
         prompt: "Why are many synthesis reactions exothermic?",
         choices: [
-          "Synthesis reactions release energy because reactants are written on the left.",
-          "Energy release happens before any new bonds form.",
+          "Synthesis reactions release energy because a single product has fewer formulas to write.",
+          "Energy release happens because reactant atoms disappear into the product.",
           "Forming new bonds in the product can release more energy than was needed to start the reaction.",
-          "A single product means there is less matter to hold energy."
+          "A single product means the total mass has less ability to store energy."
         ],
         correctIndex: 2,
         explanation: "Many synthesis reactions release energy overall as stable products form."
@@ -10843,9 +10843,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "A metal reacts with chlorine gas and gives off bright light and heat while forming a salt. What does the energy evidence suggest?",
         choices: [
           "The synthesis reaction is exothermic.",
-          "The reaction must be endothermic.",
-          "The light is evidence of a physical change rather than bond changes.",
-          "The salt absorbed the heat and prevented energy transfer."
+          "The reaction must be endothermic because a solid product formed.",
+          "The light is evidence that atoms changed state but did not rearrange.",
+          "The salt absorbed the heat, so energy was not transferred to the surroundings."
         ],
         correctIndex: 0,
         explanation: "Heat and light are evidence of energy released to the surroundings."
@@ -10854,9 +10854,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-265-q3",
         prompt: "Which observation best supports energy release during product formation?",
         choices: [
-          "The reactants are listed alphabetically.",
-          "The equation contains two plus signs.",
-          "The product name includes both reactant names.",
+          "The reactants are listed in the same order as the product formula.",
+          "The equation has more reactant formulas than product formulas.",
+          "The product name includes pieces of both reactant names.",
           "The reaction container becomes warmer as one compound forms."
         ],
         correctIndex: 3,
@@ -10871,10 +10871,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-266-q1",
         prompt: "Which example from environmental chemistry can involve synthesis?",
         choices: [
-          "One compound breaking into two simpler substances.",
+          "One compound separating into two simpler substances.",
           "Sulfur trioxide combining with water to form sulfuric acid.",
           "Two dissolved salts exchanging ions to make a precipitate.",
-          "A metal replacing another metal ion."
+          "A metal atom replacing another metal ion in solution."
         ],
         correctIndex: 1,
         explanation: "SO3 and water combine into one acid compound, matching synthesis."
@@ -10883,8 +10883,8 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-266-q2",
         prompt: "How is rust formation related to synthesis reactions?",
         choices: [
-          "Iron oxide breaks into iron and oxygen in ordinary rusting.",
-          "Rusting is mainly a surface colour change with the same substances present.",
+          "Iron oxide breaks into iron and oxygen during ordinary rusting.",
+          "Rusting is mainly a surface colour change rather than formation of a new compound.",
           "Iron and oxygen combine through reactions that produce iron oxide.",
           "Rust formation rearranges surface particles but does not form a new compound."
         ],
@@ -10896,9 +10896,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why can a hydrogen fuel cell reaction be viewed as synthesis?",
         choices: [
           "Hydrogen and oxygen combine to form water.",
-          "Water breaks apart into hydrogen and oxygen.",
-          "Two salts exchange ions.",
-          "Hydrogen replaces a metal ion."
+          "Water breaks apart into hydrogen and oxygen before electricity is produced.",
+          "Two dissolved compounds exchange ions to make water.",
+          "Hydrogen replaces oxygen in a compound during the reaction."
         ],
         correctIndex: 0,
         explanation: "The reaction combines two reactants into water as the chemical product."
@@ -10912,9 +10912,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-267-q1",
         prompt: "What is a decomposition reaction?",
         choices: [
-          "Two elements combine to make one compound.",
-          "Two aqueous compounds exchange ions.",
-          "A hydrocarbon burns in oxygen.",
+          "Two elements combine and release energy as one compound forms.",
+          "Two aqueous compounds exchange ions to form new compounds.",
+          "A compound reacts with oxygen to form oxides and release energy.",
           "One compound breaks down into elements or simpler compounds."
         ],
         correctIndex: 3,
@@ -10936,10 +10936,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-267-q3",
         prompt: "What feature should you look for to identify decomposition?",
         choices: [
-          "Two reactants producing one product.",
-          "Oxygen reacting with a fuel.",
+          "Two reactants combining to produce one compound.",
+          "Oxygen reacting with a fuel to produce oxides.",
           "One reactant producing two or more products.",
-          "Two positive ions switching places."
+          "An element taking the place of another element in a compound."
         ],
         correctIndex: 2,
         explanation: "The reactant side usually has one compound in decomposition."
@@ -10965,9 +10965,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-268-q2",
         prompt: "Why is decomposition often described as the reverse of synthesis?",
         choices: [
-          "Both use the same pattern, but decomposition is written with smaller coefficients.",
-          "Decomposition makes a single product when the reactant has two elements.",
-          "Synthesis changes bonds, while decomposition is mainly a change in particle spacing.",
+          "Both use the same atoms, but decomposition is written with fewer products.",
+          "Decomposition makes a single product when the reactant has several elements.",
+          "Synthesis changes bonds, while decomposition mainly changes particle spacing.",
           "Synthesis combines parts into one compound, while decomposition splits one compound apart."
         ],
         correctIndex: 3,
@@ -10994,8 +10994,8 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-269-q1",
         prompt: "Why do most decomposition reactions require energy input?",
         choices: [
-          "Energy input is needed because products are written on the right side.",
-          "The products usually have fewer names than the reactant.",
+          "Energy input is needed because product formulas are written after the arrow.",
+          "The products usually have simpler names than the reactant.",
           "Enough energy must be absorbed to break bonds in the reactant compound.",
           "Decomposition changes state but keeps the bonding pattern the same."
         ],
@@ -11018,9 +11018,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-269-q3",
         prompt: "Which energy source could start a decomposition reaction?",
         choices: [
-          "Changing a coefficient in the written equation.",
-          "Removing reactants so the product side is easier to form.",
-          "Cooling the products after they form.",
+          "Changing a coefficient so fewer atoms need to be rearranged.",
+          "Removing products so the compound separates more easily.",
+          "Cooling the reactant so its bonds become easier to break.",
           "Heat or electricity supplied to the reactant."
         ],
         correctIndex: 3,
@@ -11035,10 +11035,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-270-q1",
         prompt: "What happens in a single replacement reaction?",
         choices: [
-          "Two compounds exchange both ions at once.",
+          "Two compounds exchange ions and keep the same elements paired.",
           "An element takes the place of another element in a compound.",
           "One compound splits into simpler products after absorbing energy.",
-          "A hydrocarbon reacts with oxygen to form oxides."
+          "A fuel reacts with oxygen to form oxides and release energy."
         ],
         correctIndex: 1,
         explanation: "Single replacement involves one free element replacing an element in a compound."
@@ -11060,9 +11060,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What reactant pattern is typical for single replacement?",
         choices: [
           "An element plus a compound",
-          "Two dissolved ionic compounds",
-          "One compound that absorbs energy",
-          "A hydrocarbon and oxygen"
+          "Two dissolved ionic compounds that exchange ions",
+          "One compound that absorbs energy and breaks apart",
+          "A fuel and oxygen reacting to produce oxides"
         ],
         correctIndex: 0,
         explanation: "Single replacement starts with a free element reacting with a compound."
