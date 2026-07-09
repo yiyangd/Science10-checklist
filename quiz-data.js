@@ -8631,7 +8631,7 @@ window.SCIENCE10_QUIZZES = {
           "There are two formula units of magnesium oxide, so both Mg and O are doubled.",
           "The coefficient changes the oxygen count but leaves magnesium unchanged.",
           "The formula becomes \\(Mg_2O\\).",
-          "The coefficient shows that magnesium oxide is a gas."
+          "The coefficient changes the subscript on oxygen when atoms are counted."
         ],
         correctIndex: 0,
         explanation: "A coefficient applies to the entire formula after it; it changes the amount, not the formula itself."
@@ -8640,9 +8640,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-211-q3",
         prompt: "Why are coefficients used instead of changing formulas when balancing a chemical equation?",
         choices: [
-          "They let subscripts be ignored after the first atom count.",
-          "They show which reactant has the greatest mass.",
-          "They turn skeleton equations into word equations.",
+          "They let atom counts be adjusted without changing the chemical formula.",
+          "They show which reactant has the greatest number of atoms in one formula unit.",
+          "They turn an unbalanced formula equation back into a word equation.",
           "They adjust the number of particles while keeping each substance's identity the same."
         ],
         correctIndex: 3,
@@ -8659,8 +8659,8 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "The sulfur atoms are tripled, while oxygen is counted from the original group.",
           "The whole sulfate group is counted three times in one formula unit.",
-          "There are three separate aluminum sulfate molecules.",
-          "The compound has a +3 charge overall."
+          "There are three formula units of aluminum sulfate.",
+          "The subscript changes the coefficient needed to balance the equation."
         ],
         correctIndex: 1,
         explanation: "A subscript outside brackets multiplies every atom inside the bracketed group."
@@ -8700,7 +8700,7 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "\\((aq)\\) means the substance is a liquid element, while \\((l)\\) means it is dissolved.",
           "Both symbols mean liquid water is being produced.",
-          "\\((aq)\\) means the substance has not reacted yet, while \\((l)\\) means it is a product.",
+          "\\((aq)\\) means the substance is mixed with water, while \\((l)\\) means it is any wet substance.",
           "\\((aq)\\) means dissolved in water, while \\((l)\\) means the pure substance is liquid."
         ],
         correctIndex: 3,
@@ -8712,8 +8712,8 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "\\(Zn(aq) + HCl(s)\\)",
           "\\(Zn(s) + HCl(aq)\\)",
-          "\\(Zn(l) + HCl(g)\\)",
-          "\\(Zn(g) + HCl(l)\\)"
+          "\\(Zn(l) + HCl(aq)\\)",
+          "\\(Zn(s) + HCl(l)\\)"
         ],
         correctIndex: 1,
         explanation: "A metal sample is shown as solid, and an acid solution is aqueous."
@@ -8725,7 +8725,7 @@ window.SCIENCE10_QUIZZES = {
           "They prove that the equation is balanced without checking atoms.",
           "They replace coefficients when a solid forms.",
           "They show that dissolved reactants can form an insoluble solid product.",
-          "They show the exact temperature at which the reaction occurred."
+          "They show which side has more atoms after the solid appears."
         ],
         correctIndex: 2,
         explanation: "State symbols can show aqueous reactants and a solid precipitate, adding useful evidence about what changed."
@@ -8742,7 +8742,7 @@ window.SCIENCE10_QUIZZES = {
           "\\(Cl_2\\)",
           "\\(Cl\\)",
           "\\(Cl_3\\)",
-          "\\(ClO_2\\)"
+          "\\(2Cl\\)"
         ],
         correctIndex: 0,
         explanation: "Chlorine is one of the elements that naturally occurs as a diatomic molecule."
@@ -8751,9 +8751,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-214-q2",
         prompt: "Which pair correctly includes one diatomic elemental form and one polyatomic elemental form from this topic?",
         choices: [
-          "\\(Na_2\\) and \\(Mg_4\\)",
+          "\\(N_2\\) and \\(Mg_4\\)",
           "\\(CO_2\\) and \\(H_2O\\)",
-          "\\(Br\\) and \\(P\\)",
+          "\\(Br\\) and \\(P_4\\)",
           "\\(Br_2\\) and \\(S_8\\)"
         ],
         correctIndex: 3,
@@ -8763,7 +8763,7 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-214-q3",
         prompt: "In \\(N_2 + 3H_2 -> 2NH_3\\), why is nitrogen written as \\(N_2\\) instead of \\(N\\)?",
         choices: [
-          "The coefficient 3 forces nitrogen to become diatomic.",
+          "The coefficient 3 on hydrogen forces nitrogen to be written with a subscript.",
           "Elemental nitrogen naturally exists as two-atom molecules.",
           "A subscript is added because nitrogen is written before hydrogen.",
           "Nitrogen becomes a compound when it reacts with hydrogen."
@@ -8781,9 +8781,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "When beginning to balance a chemical equation, which move best matches the textbook strategy?",
         choices: [
           "Change the formula of the compound with the most atoms first.",
-          "Start with hydrogen and oxygen first whenever they appear in the equation.",
+          "Start with hydrogen and oxygen first because they are common in equations.",
           "Check that formulas are correct, then balance compounds and leave elements such as H and O until later when helpful.",
-          "Use decimal coefficients first and skip the final atom count."
+          "Use larger coefficients at the start and reduce them if the equation looks complicated."
         ],
         correctIndex: 2,
         explanation: "The textbook strategy emphasizes coefficients, compounds first, and a final atom check."
@@ -8805,7 +8805,7 @@ window.SCIENCE10_QUIZZES = {
         prompt: "In \\(Pb(NO_3)_2 + KI -> PbI_2 + KNO_3\\), why can nitrate be counted as a unit while balancing?",
         choices: [
           "Nitrate has no atoms that affect conservation of mass.",
-          "Any ion can be deleted if it appears in an aqueous solution.",
+          "Any aqueous ion can be ignored when balancing a reaction.",
           "The subscript on nitrate must be changed before coefficients are placed.",
           "The \\(NO_3\\) group appears unchanged on both sides, so tracking it as a group can simplify the count."
         ],
@@ -8824,7 +8824,7 @@ window.SCIENCE10_QUIZZES = {
           "The ash is the main matter left because gases spread out and are harder to collect.",
           "The original atoms are now distributed among ash and gases rather than disappearing.",
           "The mass law stops applying when a reaction happens outside a lab.",
-          "The missing mass has been converted entirely into heat."
+          "The missing solid mass has mostly become heat rather than matter."
         ],
         correctIndex: 1,
         explanation: "Waste can be transformed into other substances or spread into the surroundings, but its atoms are still conserved."
@@ -8833,8 +8833,8 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-216-q2",
         prompt: "In an open beaker, a fizzy tablet reaction seems to lose mass over time. What is the best interpretation?",
         choices: [
-          "The reaction destroyed some atoms because the beaker was open.",
-          "The balance is inaccurate whenever bubbles form.",
+          "Some atoms left the measured system as gas instead of disappearing.",
+          "The balance reading changes because bubbles push upward on the beaker.",
           "Gas likely escaped into the surroundings, so the measured system lost matter.",
           "The tablet stopped being matter after dissolving."
         ],
@@ -8847,7 +8847,7 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "Dilution lowers concentration, but the pollutant matter still exists and may move through the environment.",
           "Dilution increases the total amount of pollutant atoms by spreading them out.",
-          "Water changes pollutants into harmless materials once they are mixed thoroughly.",
+          "Water lowers concentration enough that the pollutant atoms can be ignored.",
           "Dissolved substances stop obeying conservation of mass."
         ],
         correctIndex: 0,
@@ -8874,7 +8874,7 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-217-q2",
         prompt: "Which statement best connects reducing waste to conservation of mass?",
         choices: [
-          "Reducing changes atoms into energy before waste can form.",
+          "Reducing matters after a product has already entered the waste stream.",
           "Reducing lowers how much material must later be collected, processed, or released.",
           "Reducing matters mainly for waste that is already classified as hazardous.",
           "Reducing is useful because recycled matter eventually disappears."
@@ -8886,8 +8886,8 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-217-q3",
         prompt: "A school is comparing a bottle-refill program with a larger recycling bin. Which evidence best evaluates the reducing option?",
         choices: [
-          "How colourful the refill station sign is.",
-          "Whether students can name the plastic recycling code.",
+          "How many students notice the refill station sign.",
+          "Whether students can name the plastic recycling code on bottles.",
           "How many single-use bottles are avoided before they become waste.",
           "Whether bottles in the recycling bin are sorted neatly."
         ],
@@ -8916,7 +8916,7 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What is a possible limitation of simply labelling waste by source, such as residential or industrial?",
         choices: [
           "The label gives a broad category but may not identify each chemical present.",
-          "The label tells whether the waste obeys conservation of mass.",
+          "The label usually gives enough detail to choose disposal without further evidence.",
           "The label can make different items from one source seem more similar than they are.",
           "The label may hide important differences in toxicity, concentration, or how the waste can spread."
         ],
@@ -8927,7 +8927,7 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-218-q3",
         prompt: "After a container is labelled hazardous waste, what question is still scientifically important?",
         choices: [
-          "Whether the label is printed in red or black.",
+          "Whether the label category was assigned before or after storage.",
           "What concentration, amount, reactivity, and exposure pathway are involved.",
           "Whether the container came from a home or a school.",
           "Whether the waste can be renamed as industrial waste instead."
@@ -8947,7 +8947,7 @@ window.SCIENCE10_QUIZZES = {
           "The hide becomes useful mainly after it has been cut to the right shape.",
           "Cutting the hide into a pattern is the main chemical change.",
           "Materials added during tanning change properties such as decay resistance, flexibility, and water response.",
-          "The process works because the atoms in the hide are destroyed."
+          "The process works mainly because water is physically squeezed out of the hide."
         ],
         correctIndex: 2,
         explanation: "Tanning changes the material's properties, so it involves more than a physical change in shape."
@@ -8957,9 +8957,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which property would be most useful evidence that raw hide has been successfully treated?",
         choices: [
           "It remains flexible and resists decay better than untreated hide.",
-          "It dissolves quickly when placed in water.",
-          "It becomes stiff because the fibres stop interacting with oils.",
-          "It changes into a gas during storage."
+          "It absorbs water quickly and returns to raw hide when soaked.",
+          "It becomes stiff because the fibres are no longer affected by oils.",
+          "It keeps the same properties as raw hide but has a different colour."
         ],
         correctIndex: 0,
         explanation: "Tanning helps preserve hide and make it useful as leather."
@@ -8969,8 +8969,8 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What is the strongest chemistry connection in traditional tanning knowledge?",
         choices: [
           "It depends mainly on the hide colour before treatment begins.",
-          "It is unrelated to chemical change because the materials are natural.",
-          "It uses smoke mostly to change the appearance after treatment.",
+          "It is less chemical because the treatment materials are natural.",
+          "It uses smoke mainly to make the final product darker.",
           "It applies substances and process conditions that change how hide fibres behave."
         ],
         correctIndex: 3,
@@ -8985,10 +8985,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-220-q1",
         prompt: "What role do fats and oils from the brain emulsion play in brain tanning?",
         choices: [
-          "They balance the chemical equation for the hide.",
+          "They coat the hide but do not change how the fibres behave.",
           "They help lubricate and alter hide fibres so the finished leather stays flexible.",
           "They remove the need for any scraping, stretching, or smoking.",
-          "They convert the hide into a new element."
+          "They replace water in the process but do not affect flexibility."
         ],
         correctIndex: 1,
         explanation: "Brain tissue can provide fats and oils that affect the hide's fibres."
@@ -8997,10 +8997,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-220-q2",
         prompt: "Which sequence best shows why brain tanning is a process rather than a single instant reaction?",
         choices: [
-          "Naming the animal, then storing the hide without treatment.",
-          "Adding water and assuming preservation follows from soaking.",
+          "Scraping the hide, then assuming preservation follows from soaking alone.",
+          "Adding water and skipping stretching because oils do the chemical work.",
           "Scraping and washing the hide, working in the emulsion, stretching it, and smoking it.",
-          "Changing the word hide to leather in a written description."
+          "Smoking the hide first, then deciding whether chemical treatment is needed."
         ],
         correctIndex: 2,
         explanation: "The method includes several physical preparation steps and chemical treatment steps."
@@ -9010,7 +9010,7 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which comparison is most reasonable when evaluating brain tanning and industrial tanning?",
         choices: [
           "Brain tanning can use natural materials, while some industrial methods use chemicals that require careful waste and safety management.",
-          "Natural materials automatically mean there are no environmental trade-offs at any scale.",
+          "Natural materials usually make scale and labour less important to sustainability.",
           "Industrial methods are less chemical if machines do most of the work.",
           "Both methods make waste matter disappear once the leather is finished."
         ],
