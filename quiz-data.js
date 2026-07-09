@@ -6156,10 +6156,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-151-q1",
         prompt: "How do embryonic stem cells differ from adult stem cells?",
         choices: [
-          "Adult stem cells can become any cell type, while embryonic stem cells are limited to blood cells.",
-          "Both types have similar potential once they are grown in a culture dish.",
+          "Adult stem cells usually have broader potential than embryonic stem cells.",
+          "Both types have the same developmental potential once they are grown in culture.",
           "Embryonic stem cells can become any cell type; adult stem cells are usually more limited.",
-          "Neither type can divide or differentiate once removed from tissue."
+          "Embryonic and adult stem cells differ mainly in where they are stored, not in potential."
         ],
         correctIndex: 2,
         explanation: "Embryonic stem cells have broader developmental potential than adult stem cells."
@@ -6169,9 +6169,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Bone marrow stem cells commonly produce blood-related cells. What does this show?",
         choices: [
           "Adult stem cells are often limited to certain cell types.",
-          "Adult stem cells contain no DNA once they are inside bone marrow.",
-          "Embryonic stem cells are collected from specialized adult tissues such as bone marrow.",
-          "Stem cell location does not affect what cell types it can produce."
+          "Adult stem cells usually have the same range as embryonic stem cells.",
+          "Embryonic stem cells are the specialized cells normally found inside bone marrow.",
+          "Stem cell source and tissue context have little effect on what cells can develop."
         ],
         correctIndex: 0,
         explanation: "Adult stem cells exist in specialized tissues and usually have a narrower range of possible cell types."
@@ -6180,9 +6180,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-151-q3",
         prompt: "What misconception should be avoided when comparing stem cells?",
         choices: [
-          "Recognizing that stem cells can divide.",
-          "Comparing adult and embryonic stem cells by potential.",
-          "Connecting stem cells to tissue repair research.",
+          "Recognizing that stem cells can divide and later specialize.",
+          "Comparing adult and embryonic stem cells by developmental potential.",
+          "Connecting some stem cell research to possible tissue repair.",
           "Assuming the source of a stem cell does not affect its developmental potential."
         ],
         correctIndex: 3,
@@ -6197,10 +6197,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-152-q1",
         prompt: "What are scientists trying to do with adult stem cells in treatments?",
         choices: [
-          "Use them mainly to label foods that contain genetically modified ingredients.",
+          "Use them mainly to identify whether a food contains GMO ingredients.",
           "Grow and guide them to make specific cell types for repair.",
-          "Use them to identify a suspect from DNA left at a scene.",
-          "Use them for tissue repair before checking how they behave after transplant."
+          "Use them to compare DNA profiles from a medical sample.",
+          "Use them for repair after assuming they will specialize correctly in any tissue."
         ],
         correctIndex: 1,
         explanation: "Adult stem cell research investigates how to grow and direct cells toward useful specialized types."
@@ -6209,10 +6209,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-152-q2",
         prompt: "Which condition could be connected to adult stem cell repair research?",
         choices: [
-          "A crop shipment tested for viruses.",
-          "A paternity DNA profile comparison.",
+          "A crop shipment screened for plant viruses.",
+          "A family relationship question answered with DNA profiles.",
           "Damaged cardiac tissue after a heart attack.",
-          "A transgenic corn plant resisting insects."
+          "A crop plant engineered to resist insect feeding."
         ],
         correctIndex: 2,
         explanation: "The textbook lists possible uses such as heart tissue repair, vision restoration, diabetes, and spinal injury repair."
@@ -6222,9 +6222,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why is adult stem cell treatment still an area of research rather than a simple guaranteed cure?",
         choices: [
           "Cells must be grown, guided, delivered, and tested safely and effectively.",
-          "Adult stem cells cannot ever divide once they are in the body.",
-          "Early success in one tissue means the same treatment is ready for most injuries.",
-          "Stem cells are unrelated to tissue repair because they cannot specialize."
+          "Adult stem cells divide in culture but are not relevant once transplanted.",
+          "Early success in one tissue suggests similar results but still needs testing.",
+          "Stem cells can specialize, but researchers do not need to control the cell type."
         ],
         correctIndex: 0,
         explanation: "Medical treatments require evidence that the cells work safely in the intended tissue."
@@ -6238,9 +6238,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-153-q1",
         prompt: "Why are stem cells being studied for spinal cord injuries?",
         choices: [
-          "They can identify a suspect at a crime scene.",
-          "They produce herbicide-resistant crops.",
-          "They make embryos form outside the body.",
+          "They can compare DNA patterns but do not repair damaged nerve tissue.",
+          "They are engineered into crops to reduce insect damage.",
+          "They assist fertilization by combining eggs and sperm in glassware.",
           "They may help replace or support damaged nerve cells."
         ],
         correctIndex: 3,
@@ -6250,10 +6250,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-153-q2",
         prompt: "In evaluating a report about stem cells and paralysis, which point is most important?",
         choices: [
-          "Whether the headline promises a miracle cure.",
+          "Whether the headline describes improvement without explaining the evidence.",
           "Whether the evidence shows real improvement, safety, and limits of the treatment.",
-          "Whether the treatment sounds futuristic.",
-          "Whether a patient story is treated as stronger than broader data."
+          "Whether the treatment sounds more advanced than existing medical options.",
+          "Whether one patient story is used in place of broader data."
         ],
         correctIndex: 1,
         explanation: "Promising treatments still need careful evidence about benefits, risks, and limits."
@@ -6262,10 +6262,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-153-q3",
         prompt: "A treatment helps some patients regain sensation but not full movement. What is the best conclusion?",
         choices: [
-          "The treatment should be dismissed because the recovery was not complete.",
-          "The treatment should be described as a cure because some improvement occurred.",
+          "The treatment should be judged as unsuccessful because recovery was partial.",
+          "The treatment should be called a cure because some improvement occurred.",
           "The result may be promising but should not be described as a complete cure.",
-          "The result shows patient differences are less important than the procedure."
+          "The result shows patient differences matter less than the procedure itself."
         ],
         correctIndex: 2,
         explanation: "Partial improvement can be meaningful, but scientific claims should match the evidence."
@@ -6293,7 +6293,7 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "A forensic technician comparing crime-scene samples.",
           "A livestock technician using reproductive records.",
-          "Island travel agent.",
+          "A medical illustrator preparing anatomy diagrams.",
           "Tree breeder."
         ],
         correctIndex: 3,
@@ -6303,10 +6303,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-154-q3",
         prompt: "Why does Unit 1 connect to many careers?",
         choices: [
-          "Biology careers are mostly separated from evidence once a person specializes.",
+          "Biology careers mostly use the same evidence once a person specializes.",
           "DNA, genetics, biodiversity, and biotechnology are used in health, agriculture, ecology, and communication.",
-          "Careers in biology usually differ by workplace but use the same daily task list.",
-          "DNA knowledge is most useful in lab jobs and rarely connects to forests or health."
+          "Careers in biology differ by workplace but usually avoid communication skills.",
+          "DNA knowledge is most useful in laboratory jobs and less relevant to forests or health."
         ],
         correctIndex: 1,
         explanation: "The unit's concepts connect to many fields, from medicine and forests to data science and illustration."
@@ -6320,10 +6320,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-155-q1",
         prompt: "Which skill would be especially important for a bioinformatics data scientist?",
         choices: [
-          "Ignoring evidence from DNA sequences.",
-          "Drawing conclusions without datasets.",
+          "Organizing sequence data while ignoring patterns in the dataset.",
+          "Drawing conclusions from datasets before checking how they were collected.",
           "Analyzing biological data with computational tools.",
-          "Sharing results without explaining methods to other scientists."
+          "Sharing results in a way that hides the methods used to analyze data."
         ],
         correctIndex: 2,
         explanation: "Bioinformatics combines biology with data analysis and computing."
@@ -6333,9 +6333,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "A medical illustrator creates textbook diagrams of anatomy. Which mix of skills is most useful?",
         choices: [
           "Scientific understanding plus clear visual communication.",
-          "Memorizing product slogans while checking anatomy later.",
-          "Relying on memory for body structures before reviewing evidence.",
-          "Avoiding communication because images do not need accuracy."
+          "Artistic skill with anatomy checked late in the diagram process.",
+          "Memorizing body structures without considering the audience for the image.",
+          "Clear visual style with scientific accuracy treated as a minor detail."
         ],
         correctIndex: 0,
         explanation: "Medical illustration requires accurate science and strong communication through images."
@@ -6344,9 +6344,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-155-q3",
         prompt: "Why might a plant pathologist need both fieldwork and lab skills?",
         choices: [
-          "Plant disease cannot be studied outside a computer game.",
-          "Field observations can stand in for lab evidence when symptoms look familiar.",
-          "Lab tests are unrelated to agriculture.",
+          "Field symptoms matter mainly for photographs, while lab tests answer unrelated questions.",
+          "Field observations can replace lab evidence when symptoms look familiar.",
+          "Lab tests matter for research but are less connected to crop decisions.",
           "Plant diseases may be observed in crops and investigated with biological tests."
         ],
         correctIndex: 3,
@@ -6361,10 +6361,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-156-q1",
         prompt: "Why is genetic information a privacy issue?",
         choices: [
-          "It contains no personal information.",
+          "It contains health-related information but is separate from family concerns.",
           "It can reveal personal and family health-related information.",
-          "It can be shared broadly once a test result is stored by a company.",
-          "It is similar enough among people that privacy is a minor issue."
+          "It can be shared for research once the sample is useful.",
+          "It is sensitive mainly when it is connected to a criminal case."
         ],
         correctIndex: 1,
         explanation: "Genetic information can reveal sensitive information about a person and sometimes relatives."
@@ -6373,10 +6373,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-156-q2",
         prompt: "Which question is most connected to ownership of genetic information?",
         choices: [
-          "How many seeds can be picked up in 30 seconds?",
-          "Which beak model works best for rice?",
+          "Which lab method can collect the most genetic data from a sample?",
+          "Which test result is easiest to summarize for the person tested?",
           "Who should control access to a person's DNA test results?",
-          "What colour is a transgenic crop?"
+          "What trait is most visible in the person who was tested?"
         ],
         correctIndex: 2,
         explanation: "Ownership and control ask who can access, use, store, or share genetic data."
@@ -6386,9 +6386,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why might regulation be needed for personal genetic data?",
         choices: [
           "To help protect consent, privacy, storage, and responsible sharing.",
-          "To limit research without creating clear consent options.",
-          "To make genetic data easier to share before permission is checked.",
-          "To prevent people from learning any biology."
+          "To support research access while handling consent after data are shared.",
+          "To make useful genetic data easier to share before permission is checked.",
+          "To decide which biology topics people should be allowed to study."
         ],
         correctIndex: 0,
         explanation: "Rules can help balance useful research and testing with protection of personal information."
@@ -6402,9 +6402,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-157-q1",
         prompt: "What is genetic discrimination?",
         choices: [
-          "Using DNA to detect a plant virus.",
-          "Making a histogram of hand widths.",
-          "Choosing a vector for gene cloning.",
+          "Using DNA to detect a plant virus before export.",
+          "Using trait data to compare variation in a class.",
+          "Choosing a vector to carry a gene into bacteria.",
           "Treating someone unfairly because of genetic information or predicted risk."
         ],
         correctIndex: 3,
@@ -6414,10 +6414,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-157-q2",
         prompt: "Which situation could raise a genetic discrimination concern?",
         choices: [
-          "A teacher asks students to graph seed masses anonymously.",
+          "A teacher asks students to graph anonymous class trait data.",
           "An insurer wants DNA test results before deciding coverage.",
-          "A biologist compares frog calls to identify species.",
-          "A farmer checks plants for visible disease symptoms."
+          "A biologist compares animal calls to identify related species.",
+          "A farmer checks plant symptoms before ordering a disease test."
         ],
         correctIndex: 1,
         explanation: "Insurance, employment, medical plans, and similar decisions can raise concerns if genetic risk is misused."
@@ -6426,10 +6426,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-157-q3",
         prompt: "Why can genetic information about one person affect relatives?",
         choices: [
-          "Relatives share complete DNA profiles whenever they have the same parents.",
-          "Genetic data is personal, so it cannot imply anything about family members.",
+          "Relatives may share many alleles, but a profile from one person identifies the whole family.",
+          "Genetic data is personal, so family implications can be ignored during consent.",
           "Relatives may share alleles and inherited risks.",
-          "Shared genes are mainly useful for comparing unrelated people."
+          "Shared genes matter for ancestry but not for inherited health risks."
         ],
         correctIndex: 2,
         explanation: "Because relatives share inherited DNA, one person's result may imply information about family members."
@@ -6445,7 +6445,7 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "Scientific tools can change faster than policies are written and updated.",
           "Genetic technology changes slowly enough that old privacy rules usually fit.",
-          "Laws automatically update whenever DNA changes.",
+          "Laws update as soon as a new genetic test becomes available.",
           "Policies are unnecessary for personal information."
         ],
         correctIndex: 0,
@@ -6455,9 +6455,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-158-q2",
         prompt: "Which policy would support responsible genetic information use?",
         choices: [
-          "Allow anyone to sell a person's DNA data without permission.",
-          "Focus on research access while leaving privacy questions for later.",
-          "Make genetic information public by default.",
+          "Allow sale of DNA data after removing names but without checking consent.",
+          "Focus on research access first and add privacy rules after data are shared.",
+          "Make genetic information open to employers if the data may reduce costs.",
           "Require informed consent before sharing identifiable genetic test results."
         ],
         correctIndex: 3,
@@ -6467,10 +6467,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-158-q3",
         prompt: "A research biobank stores DNA sequences for future studies. What rule would be most relevant?",
         choices: [
-          "No record of who can access the samples.",
+          "A general statement that research is useful, without access records.",
           "Clear rules for consent, storage, access, and whether data can be reused.",
-          "Automatic sharing with employers.",
-          "Remove access rules once the samples are useful for research."
+          "Sharing with employers when the stored data might affect workplace planning.",
+          "Removing access limits once the samples become useful for future research."
         ],
         correctIndex: 1,
         explanation: "Biobanks can be useful, but they need policies to protect participants and guide responsible research."
@@ -6484,10 +6484,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-159-q1",
         prompt: "Why might scientists develop a GMO crop?",
         choices: [
-          "To assume safety evidence is unnecessary once a benefit is identified.",
-          "To make plants stop containing DNA.",
+          "To focus on a desired trait before environmental evidence is reviewed.",
+          "To make a crop's DNA less relevant to its traits.",
           "To improve a trait such as pest resistance, nutrition, shelf life, or disease resistance.",
-          "To prevent regulators from comparing benefits and risks."
+          "To make regulation easier by considering the benefit before the risk."
         ],
         correctIndex: 2,
         explanation: "GMOs are often developed for specific purposes such as agriculture, nutrition, medicine, or environmental management."
@@ -6497,9 +6497,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "A crop is engineered to produce a protein that harms a major insect pest. What is the intended benefit?",
         choices: [
           "Reducing crop damage from that pest.",
-          "Making the crop impossible to regulate.",
-          "Increasing effects on non-target insects as the main design goal.",
-          "Turning the crop into an animal."
+          "Making the crop less connected to environmental assessment.",
+          "Increasing effects on non-target insects as a possible tradeoff.",
+          "Changing the crop into a different species used for animal feed."
         ],
         correctIndex: 0,
         explanation: "Pest-resistant crops are designed to reduce losses from organisms that damage the crop."
@@ -6508,9 +6508,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-159-q3",
         prompt: "What should you identify when researching a specific GMO?",
         choices: [
-          "Whether the name sounds scientific to consumers.",
-          "Whether the company logo suggests modern technology.",
-          "Whether one strong opinion agrees with your first impression.",
+          "Whether the name sounds scientific before reading the evidence.",
+          "Whether the company describes the product as modern technology.",
+          "Whether one strong opinion matches your first impression.",
           "Why it was developed, what advantage it provides, and what evidence supports claims."
         ],
         correctIndex: 3,
@@ -6525,10 +6525,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-160-q1",
         prompt: "Which environmental effect should be investigated for a pest-resistant GMO crop?",
         choices: [
-          "Whether it changes the spelling of DNA.",
+          "Whether the crop's intended pest dies after feeding on the plant.",
           "Whether it affects non-target organisms in the ecosystem.",
           "Whether it can be used for IVF.",
-          "Whether organisms near the crop look similar during one visit."
+          "Whether a single visit shows the crop plants look healthy."
         ],
         correctIndex: 1,
         explanation: "Environmental assessment asks how GMOs affect organisms beyond the intended pest or crop."
@@ -6537,10 +6537,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-160-q2",
         prompt: "A GMO reduces pesticide spraying but may affect insect biodiversity. What is the best evaluation?",
         choices: [
-          "Accept the GMO without checking any ecosystem data.",
-          "Reject the benefits before comparing them with the risk evidence.",
+          "Accept the GMO if reduced spraying is reported before checking ecosystem data.",
+          "Reject the benefit claim before comparing it with risk evidence.",
           "Compare both the reduced chemical use and possible biodiversity effects using evidence.",
-          "Ignore non-target organisms."
+          "Focus on the target pest first and study non-target organisms later."
         ],
         correctIndex: 2,
         explanation: "Environmental effects can be positive and negative, so evidence-based comparison is needed."
@@ -6550,9 +6550,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why might additional studies be needed before judging a GMO's environmental safety?",
         choices: [
           "Ecosystem effects can be complex and may appear over time.",
-          "No GMO can ever affect an ecosystem.",
-          "A short observation after planting usually captures the important effects.",
-          "Evidence quality does not matter."
+          "Environmental effects are usually visible immediately after planting.",
+          "A study of the crop alone is enough to judge the ecosystem.",
+          "Evidence quality matters less once the intended benefit is clear."
         ],
         correctIndex: 0,
         explanation: "Longer-term and broader studies can reveal impacts on biodiversity, non-target species, and ecosystem interactions."
