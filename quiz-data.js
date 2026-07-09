@@ -3763,7 +3763,7 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "Natural selection works toward greater complexity as its goal.",
           "Natural selection improves individuals during their own lifetimes.",
-          "Natural selection predicts exactly which mutation will happen next.",
+          "Natural selection makes the next helpful mutation more likely to appear.",
           "Natural selection has no will or purpose; it depends on how traits perform in a situation."
         ],
         correctIndex: 3,
@@ -3863,7 +3863,7 @@ window.SCIENCE10_QUIZZES = {
           "It makes separated groups experience the same gene flow as before.",
           "A barrier can split a population so separated groups follow different evolutionary paths.",
           "It prevents mutation from happening in either group.",
-          "It guarantees that no selection occurs."
+          "It reduces selection because separated groups face fewer environmental pressures."
         ],
         correctIndex: 1,
         explanation: "Separated populations can experience different mutations, environments, and selective pressures."
@@ -3916,7 +3916,7 @@ window.SCIENCE10_QUIZZES = {
           "Islands create habitats that keep gene pools connected in the same way.",
           "Islands can provide isolated habitats with different selective pressures and open ecological roles.",
           "Island habitats usually have matching food sources and predators.",
-          "Island organisms cannot reproduce, so species stay unchanged."
+          "Island organisms tend to keep the same traits because their habitats are separated."
         ],
         correctIndex: 1,
         explanation: "Isolation and varied environments can help populations diverge into differently adapted species."
@@ -4049,7 +4049,7 @@ window.SCIENCE10_QUIZZES = {
         prompt: "After a mass extinction, what happens to biodiversity at that time?",
         choices: [
           "It rebounds so quickly that the loss is not visible in the fossil record.",
-          "It becomes exactly the same as before after one generation.",
+          "It returns close to its previous level after one generation.",
           "It can no longer change after the event.",
           "It decreases sharply because many species are lost."
         ],
