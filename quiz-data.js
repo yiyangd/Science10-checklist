@@ -9436,10 +9436,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-231-q1",
         prompt: "When an ice cube melts in your hand, what energy transfer is occurring?",
         choices: [
-          "Energy is created inside the ice from nothing.",
-          "The ice releases energy to warm your hand.",
+          "Energy stored in the ice moves into your hand as the ice melts.",
+          "The ice releases energy to your hand because the ice feels cold.",
           "Energy moves from your warmer hand to the colder ice.",
-          "No energy transfer occurs because melting is physical."
+          "Melting happens mainly because pressure from your hand changes the ice."
         ],
         correctIndex: 2,
         explanation: "Physical changes such as melting still involve energy transfer."
@@ -9449,9 +9449,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why is melting ice not evidence by itself that a new substance formed?",
         choices: [
           "The substance remains water, but its physical state changes.",
-          "The water molecules become a different element.",
-          "The ice must have released carbon dioxide.",
-          "The atoms disappear and reform as liquid."
+          "The water molecules rearrange into a new compound as they melt.",
+          "The ice reacts with heat to make a gas dissolved in the liquid.",
+          "The atoms are regrouped into a different substance during melting."
         ],
         correctIndex: 0,
         explanation: "Melting changes state without changing chemical identity."
@@ -9460,9 +9460,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-231-q3",
         prompt: "Which observation would support that your hand loses energy while holding ice?",
         choices: [
-          "The ice becomes a new compound.",
-          "The ice gains mass from nowhere.",
-          "The room stops containing energy.",
+          "The ice changes state while your hand stays at the same temperature.",
+          "The ice becomes heavier because it absorbs energy from your hand.",
+          "The room supplies the energy, so your hand is not part of the transfer.",
           "Your hand feels colder as the ice melts."
         ],
         correctIndex: 3,
@@ -9477,10 +9477,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-232-q1",
         prompt: "Which statement best describes energy in chemical reactions?",
         choices: [
-          "Visible flames are the main sign that a reaction involves energy.",
+          "Visible flames are the best way to decide whether a reaction involves energy.",
           "Chemical reactions involve energy changes because bonds are broken and formed.",
-          "Chemical reactions keep energy inside the reacting materials.",
-          "Energy changes happen when matter is unchanged by the process."
+          "Chemical reactions keep energy inside the reacting materials unless light is produced.",
+          "Energy changes matter most in physical changes because chemicals have fixed energy."
         ],
         correctIndex: 1,
         explanation: "Bond breaking and bond forming mean chemical reactions involve energy changes."
@@ -9501,12 +9501,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-232-q3",
         prompt: "A reaction mixture cools down during a reaction. What does this show?",
         choices: [
+          "The reaction released heat too quickly for the thermometer to measure.",
+          "A colder mixture rules out bond changes in the reacting materials.",
           "Energy transfer occurred between the reaction system and surroundings.",
-          "No chemical reaction could have happened because cold rules out reactions.",
-          "Atoms were destroyed to make cold.",
-          "The system had no matter once the temperature changed."
+          "The products have lower temperature because they have less mass."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Temperature change is evidence that energy moved between system and surroundings."
       }
     ]
@@ -9542,10 +9542,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-233-q3",
         prompt: "Why is identifying the system and surroundings useful?",
         choices: [
-          "It proves mass is not conserved during chemical reactions.",
-          "It shows that containers are not involved in energy transfer.",
+          "It helps decide whether the reaction mixture or nearby materials are being tracked.",
+          "It shows that containers are separate from the reaction and do not exchange energy.",
           "It helps trace whether energy is entering or leaving the reacting materials.",
-          "It removes the need to collect temperature observations."
+          "It makes temperature observations less important than naming the reactants."
         ],
         correctIndex: 2,
         explanation: "Energy can leave or enter the system through the surroundings."
@@ -9560,9 +9560,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What does conservation of energy mean in a chemical reaction?",
         choices: [
           "Energy is transferred between system and surroundings, not created or destroyed.",
-          "Energy disappears when products form.",
-          "Energy is created whenever bonds break.",
-          "Matter moves between places, while energy stays in the system."
+          "Energy leaves the reaction system and is no longer part of the surroundings.",
+          "Bond breaking supplies new energy that was not present before the reaction.",
+          "Matter can move between places, but energy stays inside the system."
         ],
         correctIndex: 0,
         explanation: "The total energy remains constant, but it can move between system and surroundings."
@@ -9571,9 +9571,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-234-q2",
         prompt: "If an exothermic reaction releases 75 kJ to the surroundings, what happened to the system's energy overall?",
         choices: [
-          "The system created 75 kJ from nothing.",
+          "The system gained 75 kJ because the surroundings became warmer.",
           "The surroundings lost 75 kJ to the system.",
-          "The energy stopped existing.",
+          "The energy was used up when new bonds formed.",
           "The system lost 75 kJ of energy to the surroundings."
         ],
         correctIndex: 3,
@@ -9583,10 +9583,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-234-q3",
         prompt: "If a reaction absorbs energy from its surroundings, what should happen to the surroundings if no other energy source replaces it?",
         choices: [
-          "The surroundings must heat up because energy was created.",
+          "The surroundings should warm because absorption adds energy nearby.",
           "The surroundings lose energy and may cool down.",
-          "Energy is destroyed in the surroundings.",
-          "The system loses energy to the surroundings."
+          "The system and surroundings both gain energy during the same transfer.",
+          "The system loses energy to the surroundings as products form."
         ],
         correctIndex: 1,
         explanation: "Endothermic processes take energy from the surroundings."
@@ -9654,9 +9654,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "A beaker cools from 24.0°C to 18.5°C during a reaction. What does this suggest?",
         choices: [
           "The reaction is likely exothermic because it warmed the surroundings.",
-          "No energy transfer occurred because the beaker is cooler.",
+          "The temperature drop mainly shows that the thermometer absorbed the energy.",
           "The reaction is likely endothermic because it absorbed energy from the surroundings.",
-          "Mass was destroyed to make the temperature drop."
+          "The products have less thermal energy because fewer bonds formed."
         ],
         correctIndex: 2,
         explanation: "The surroundings cooled by 5.5°C, consistent with energy being absorbed by the reaction."
@@ -9666,7 +9666,7 @@ window.SCIENCE10_QUIZZES = {
         prompt: "For an endothermic reaction, what is true about the relative energy of products and reactants in an energy-level diagram?",
         choices: [
           "Products are at a higher energy level than reactants.",
-          "Products are lower in energy whenever the surroundings cool.",
+          "Products are lower in energy because heat left the reaction mixture.",
           "Reactants and products must have zero energy.",
           "Energy levels are shown by formula subscripts rather than diagram height."
         ],
@@ -9724,9 +9724,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why can temperature change be useful evidence during a reaction?",
         choices: [
           "It can show whether energy moved into or out of the surroundings.",
-          "It proves the exact products without any other observations.",
-          "It shows atoms were created.",
-          "It replaces the need to know the system."
+          "It identifies the products more directly than colour or gas observations.",
+          "It shows whether the reaction changed the number of atoms present.",
+          "It is useful even if the system and surroundings are not defined."
         ],
         correctIndex: 0,
         explanation: "Temperature change is a measurable sign of energy transfer."
@@ -9777,9 +9777,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What does the vertical difference between reactants and products represent in an energy-level diagram?",
         choices: [
           "The overall energy change of the reaction",
-          "The number of atoms destroyed.",
-          "The colour of the products.",
-          "The mass of the container."
+          "The amount of activation energy still stored in the container.",
+          "The relative mass difference between reactants and products.",
+          "The temperature reading that must be measured with a thermometer."
         ],
         correctIndex: 0,
         explanation: "Energy-level diagrams compare relative energies to show net absorption or release."
@@ -9805,10 +9805,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-240-q1",
         prompt: "Why can luminol help forensic investigators find possible blood evidence?",
         choices: [
-          "It stains fabric permanently so investigators can see old marks in daylight.",
+          "It makes possible blood traces visible by changing the fabric colour permanently.",
           "It can react with iron from hemoglobin and emit a blue-green glow in the dark.",
-          "It removes non-blood stains so the remaining stain is easier to test.",
-          "It identifies a person's DNA by itself."
+          "It separates blood from other stains so investigators can collect it directly.",
+          "It confirms the identity of the person before DNA testing is needed."
         ],
         correctIndex: 1,
         explanation: "The glow can reveal traces that may contain blood, but it is a screening test."
@@ -9817,10 +9817,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-240-q2",
         prompt: "Why is a positive luminol test not conclusive proof that blood is present?",
         choices: [
-          "Luminol reacts with blood but the glow is too dim to record.",
-          "The glow lasts long enough that timing does not matter.",
+          "Luminol tests for DNA rather than for a chemical reaction that produces light.",
+          "The glow means iron is present, so the source of the iron still matters.",
           "Other substances can also cause luminol to emit light.",
-          "A positive test means DNA has already been analyzed."
+          "A positive test shows a stain is biological but not which body fluid it is."
         ],
         correctIndex: 2,
         explanation: "Some materials containing certain metals or other chemicals can also trigger luminol."
@@ -9830,9 +9830,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What energy change causes the visible glow in a luminol reaction?",
         choices: [
           "Energy is released as light when excited electrons return to lower energy levels.",
-          "Atoms are converted completely into light.",
-          "Energy is destroyed by hemoglobin.",
-          "Electrons stop having energy after reacting."
+          "Energy is absorbed as light when electrons move back to higher energy levels.",
+          "Hemoglobin stores the blue-green colour until luminol releases it.",
+          "Electrons gain mass during the reaction and the added mass appears as light."
         ],
         correctIndex: 0,
         explanation: "The emitted light comes from electrons releasing energy as they drop back down."
