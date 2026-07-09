@@ -11089,9 +11089,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "In \\(Cu + 2AgNO_3 -> Cu(NO_3)_2 + 2Ag\\), what is replaced?",
         choices: [
           "Silver ions are replaced by copper.",
-          "Copper is replaced by nitrate.",
-          "Oxygen is replaced by silver.",
-          "Nitrate is replaced by water."
+          "Copper ions are replaced by silver atoms.",
+          "Nitrate ions are replaced by copper ions.",
+          "Silver atoms replace nitrate ions in the compound."
         ],
         correctIndex: 0,
         explanation: "Copper takes the place of silver in the nitrate compound."
@@ -11100,9 +11100,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-271-q3",
         prompt: "Why is an aqueous compound often involved in metal replacement reactions?",
         choices: [
-          "Water supplies the metal atoms that appear as products.",
-          "Aqueous compounds keep ions locked in fixed positions.",
-          "Gases replace metal ions more easily than solids do.",
+          "Water supplies the electrons needed to make a metal product.",
+          "Aqueous compounds let the compound split into atoms rather than ions.",
+          "Dissolving makes the metal ion disappear before the reaction begins.",
           "Dissolving separates ions so a free metal can interact with metal ions."
         ],
         correctIndex: 3,
@@ -11142,9 +11142,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What observation could indicate bromine formed in a non-metal replacement reaction?",
         choices: [
           "A new brown colour appears in the solution.",
-          "The container label changes by itself.",
-          "The solution becomes clearer because ions stop reacting.",
-          "The sodium ions change into chlorine atoms."
+          "The solution becomes colourless because bromide ions stay unchanged.",
+          "A grey metal coating appears on a wire in the solution.",
+          "The sodium ions become the main visible product."
         ],
         correctIndex: 0,
         explanation: "The textbook example connects bromine formation with a brown colour."
@@ -11158,8 +11158,8 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-273-q1",
         prompt: "In some single replacement reactions with water, how can hydrogen behave?",
         choices: [
-          "Like a precipitate that remains dissolved in water.",
-          "Like a spectator ion that stays paired with oxygen.",
+          "Like an ion that stays paired with hydroxide throughout the reaction.",
+          "Like a spectator ion that is not involved in the reaction.",
           "Like oxygen in combustion because it forms an oxide product.",
           "Like a metal that can be replaced by a more reactive metal."
         ],
@@ -11182,8 +11182,8 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-273-q3",
         prompt: "What evidence might show hydrogen gas is produced when a reactive metal is placed in water?",
         choices: [
-          "The water label changes colour.",
-          "A hydrocarbon forms because water contains hydrogen.",
+          "The water becomes cloudy because a precipitate of hydrogen forms.",
+          "A hydrocarbon forms because water contains hydrogen atoms.",
           "Bubbles form at the metal surface.",
           "The metal surface becomes smoother without producing gas."
         ],
@@ -11200,9 +11200,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why can the reaction between aluminum powder and iron(III) oxide be useful for welding?",
         choices: [
           "It releases enough heat to melt the iron produced.",
-          "It absorbs heat from the track so the metal can cool into place.",
-          "It produces iron oxide instead of iron metal.",
-          "It is a double replacement reaction that forms a precipitate."
+          "It absorbs heat from the track, causing iron to solidify between rails.",
+          "It produces aluminum metal, which replaces the need for molten iron.",
+          "It is a replacement reaction, but the energy release is too small to matter."
         ],
         correctIndex: 0,
         explanation: "Some single replacement reactions release a large amount of energy."
@@ -11211,9 +11211,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-274-q2",
         prompt: "Which application involves producing bromine by single replacement?",
         choices: [
-          "Combining hydrogen and oxygen to make water.",
-          "Breaking limestone into lime and carbon dioxide.",
-          "Mixing two salts to make barium sulfate.",
+          "Combining hydrogen and oxygen to make water in a fuel cell.",
+          "Heating limestone so calcium carbonate breaks apart.",
+          "Mixing two ionic solutions so a precipitate forms.",
           "Using chlorine to replace bromide ions in solution."
         ],
         correctIndex: 3,
@@ -11223,10 +11223,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-274-q3",
         prompt: "What do welding railroad tracks and joining electrical conductors have in common in this topic?",
         choices: [
-          "They mainly use pressure to force cold metals together.",
+          "They mainly use pressure to force solid metals together without melting.",
           "They can use energy-releasing single replacement reactions to produce molten metal.",
-          "They are both examples of photosynthesis.",
-          "They both depend on a positive luminol test."
+          "They both use double replacement reactions to make a solid precipitate.",
+          "They both use decomposition reactions to split metal oxides into gases."
         ],
         correctIndex: 1,
         explanation: "Both applications use replacement reactions that generate useful heat and metal products."
@@ -11241,9 +11241,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What happens in a double replacement reaction?",
         choices: [
           "One element replaces a metal ion in one compound.",
-          "One compound breaks into elements.",
+          "One compound absorbs energy and separates into simpler substances.",
           "Positive ions of two ionic compounds exchange partners to form two new compounds.",
-          "A hydrocarbon burns in oxygen."
+          "A hydrocarbon reacts with oxygen to form carbon dioxide and water."
         ],
         correctIndex: 2,
         explanation: "Double replacement involves ion exchange between two ionic compounds."
@@ -11281,10 +11281,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-276-q1",
         prompt: "What is a precipitate?",
         choices: [
-          "A gas that collects above an aqueous mixture.",
+          "A gas product that escapes from an aqueous mixture.",
           "A solid that forms from a reaction between solutions.",
-          "A reactant that dissolves before the solutions are mixed.",
-          "A coefficient in front of a formula."
+          "A dissolved ion that remains aqueous after mixing.",
+          "A product identified by a coefficient rather than a state symbol."
         ],
         correctIndex: 1,
         explanation: "A precipitate is an insoluble solid product."
@@ -11293,8 +11293,8 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-276-q2",
         prompt: "Two clear ionic solutions are mixed and a cloudy yellow solid appears. What type of evidence is this?",
         choices: [
-          "Proof of hydrocarbon combustion.",
-          "Evidence that no reaction happened.",
+          "Evidence that a gas-forming reaction occurred.",
+          "Evidence that the ions stayed dissolved without rearranging.",
           "Precipitate formation, often linked to a double replacement reaction.",
           "A sign that dissolved ions stopped moving before reacting."
         ],
@@ -11322,9 +11322,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-277-q1",
         prompt: "What is a combustion reaction?",
         choices: [
-          "A reaction where one compound absorbs light and breaks down.",
-          "A reaction where ions exchange partners with no oxygen involved.",
-          "A reaction where heat is usually a minor side observation.",
+          "A reaction where one compound absorbs energy and breaks into simpler products.",
+          "A reaction where ions exchange partners in aqueous solution.",
+          "A reaction where oxygen is produced as one of the products.",
           "A reaction in which a substance reacts with oxygen and releases energy, often forming oxides."
         ],
         correctIndex: 3,
@@ -11346,8 +11346,8 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-277-q3",
         prompt: "Which clue most strongly suggests a reaction is combustion?",
         choices: [
-          "One compound splits into simpler products after heating.",
-          "Two aqueous solutions form a solid.",
+          "One compound splits into simpler products after absorbing energy.",
+          "Two aqueous solutions form a solid precipitate.",
           "Oxygen is a reactant and heat or light is released.",
           "A metal replaces another metal ion."
         ],
@@ -11364,9 +11364,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What elements are found in hydrocarbons?",
         choices: [
           "Carbon and hydrogen",
-          "Sodium and chlorine",
-          "Lead and iodine",
-          "Calcium and sulfur"
+          "Carbon and oxygen",
+          "Hydrogen and oxygen",
+          "Carbon, hydrogen, and oxygen"
         ],
         correctIndex: 0,
         explanation: "Hydrocarbons are compounds containing carbon and hydrogen."
@@ -11375,9 +11375,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-278-q2",
         prompt: "What are the products of complete hydrocarbon combustion?",
         choices: [
+          "Carbon monoxide and soot.",
           "Hydrogen gas and oxygen gas.",
-          "A metal and a salt.",
-          "A precipitate and an aqueous nitrate.",
+          "A metal oxide and a salt.",
           "Carbon dioxide and water."
         ],
         correctIndex: 3,
@@ -11387,10 +11387,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-278-q3",
         prompt: "Which fuel example is a hydrocarbon in this topic?",
         choices: [
-          "Potassium chloride, \\(KCl\\)",
+          "Carbon dioxide, \\(CO_2\\)",
           "Propane, \\(C_3H_8\\)",
-          "Lead(II) iodide, \\(PbI_2\\)",
-          "Barium sulfate, \\(BaSO_4\\)"
+          "Water, \\(H_2O\\)",
+          "Sulfur dioxide, \\(SO_2\\)"
         ],
         correctIndex: 1,
         explanation: "Propane contains carbon and hydrogen."
@@ -11418,7 +11418,7 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "\\(CH_4 + 2O_2 -> CO_2 + 2H_2O\\)",
           "\\(CH_4 + O_2 -> CO_2 + H_2O\\)",
-          "\\(2CH_4 + O_2 -> CO_2 + H_2\\)",
+          "\\(CH_4 + 2O_2 -> CO + 2H_2O\\)",
           "\\(CH_4 -> C + 2H_2\\)"
         ],
         correctIndex: 0,
@@ -11445,10 +11445,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-280-q1",
         prompt: "Why is combustion usually described as exothermic?",
         choices: [
-          "It uses oxygen, so the main energy transfer is into the reaction.",
+          "It uses oxygen, so energy must be absorbed from the surroundings overall.",
           "It releases energy to the surroundings, often as heat and light.",
-          "It has no bond changes.",
-          "It is classified by the number of products rather than energy transfer."
+          "It forms oxides, so bond changes do not affect energy transfer.",
+          "It is classified by oxygen use, while energy transfer is a separate reaction type."
         ],
         correctIndex: 1,
         explanation: "Most combustion reactions release useful heat and often light."
@@ -11457,8 +11457,8 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-280-q2",
         prompt: "Which observation is evidence that a propane torch reaction is exothermic?",
         choices: [
-          "The reactant name contains carbon.",
-          "The equation has coefficients.",
+          "The products include water vapour.",
+          "The equation has oxygen as a reactant.",
           "A hot flame is produced.",
           "The fuel is stored in a tank."
         ],
@@ -11470,9 +11470,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "A camp stove burns methane and warms a pot of water. Where does the useful heating energy come from?",
         choices: [
           "Energy released during methane combustion is transferred to the surroundings, including the pot and water.",
-          "The pot stores energy first and then sends it into the flame.",
-          "The water decomposes into fuel.",
-          "Oxygen prevents energy transfer."
+          "The pot stores energy first and then transfers it into the flame.",
+          "The water decomposes into hydrogen fuel before the stove heats it.",
+          "Oxygen absorbs the energy so less reaches the pot."
         ],
         correctIndex: 0,
         explanation: "Combustion releases energy that can be transferred for cooking or heating."
