@@ -20178,36 +20178,36 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-493-q1",
         prompt: "What makes zodiac constellations useful on a star map?",
         choices: [
-          "They lie along the path where the Sun, Moon, and planets appear to move.",
-          "They are the only constellations visible from Earth.",
-          "They are all located around Polaris.",
-          "They can be seen only with radio telescopes."
+          "They are the circumpolar constellations used to locate Polaris.",
+          "They are the constellations that stay above Canada's horizon year-round.",
+          "They mark the brightest stars used to estimate altitude.",
+          "They lie along the path where the Sun, Moon, and planets appear to move."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Zodiac constellations are connected to the ecliptic, the apparent path followed by the Sun and planets."
       },
       {
         id: "kp-493-q2",
         prompt: "If a bright object is seen moving through Taurus over several nights, what is it most likely?",
         choices: [
-          "A planet moving along the ecliptic.",
           "A fixed star in the Big Dipper.",
-          "A cloud near the horizon.",
-          "A star map label."
+          "A planet moving along the ecliptic.",
+          "A circumpolar constellation rotating around Polaris.",
+          "A seasonal constellation becoming visible after sunset."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Planets can appear to move through zodiac constellations."
       },
       {
         id: "kp-493-q3",
         prompt: "Which list contains zodiac constellations named in the checklist?",
         choices: [
-          "Leo, Virgo, Scorpius, Taurus, Gemini, and Cancer.",
           "Big Dipper, Polaris, Cassiopeia, and Little Dipper.",
-          "Ursa Major, Ursa Minor, and the Summer Triangle only.",
-          "Milky Way, Hubble, Chandra, and Spitzer."
+          "Ursa Major, Ursa Minor, and the Summer Triangle.",
+          "Leo, Virgo, Scorpius, Taurus, Gemini, and Cancer.",
+          "Cygnus, Lyra, Polaris, and the North Celestial Pole."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Those constellations are examples of zodiac constellations."
       }
     ]
@@ -20219,36 +20219,36 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-494-q1",
         prompt: "What is a planisphere used for?",
         choices: [
+          "Measuring the physical distance to each star on a printed star map.",
           "Predicting which constellations are visible at a certain location, date, and time.",
-          "Measuring the temperature of stars directly.",
-          "Changing the orbit of planets.",
-          "Collecting radio waves from space."
+          "Tracking the planets because they are printed in fixed positions on the wheel.",
+          "Showing the same night sky accurately from any latitude on Earth."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "A planisphere is a rotating star-map device for predicting visible constellations."
       },
       {
         id: "kp-494-q2",
         prompt: "Why does a planisphere rotate around Polaris in the investigation model?",
         choices: [
+          "Polaris is the point where the ecliptic crosses the northern horizon.",
           "Northern sky objects appear to rotate around the region near Polaris.",
-          "Polaris is the centre of the Solar System.",
-          "All planets orbit Polaris.",
-          "Polaris causes Earth to stop moving."
+          "Planets follow Polaris as they move through the zodiac constellations.",
+          "Polaris is used because it changes position the most during the night."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "The model represents apparent star motion around the North Celestial Pole near Polaris."
       },
       {
         id: "kp-494-q3",
         prompt: "What information must be set on a planisphere before using it?",
         choices: [
-          "Date and time.",
-          "The mass of the observer.",
-          "The chemical formula of stars.",
-          "The distance to every galaxy."
+          "The colour of the brightest star in each constellation.",
+          "The telescope type used to collect the observation.",
+          "The exact distance from Earth to Polaris.",
+          "Date and time."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "A planisphere works by matching date and time to the visible part of the sky."
       }
     ]
@@ -20260,36 +20260,36 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-495-q1",
         prompt: "Why do constellations appear to rotate around Polaris during the night?",
         choices: [
+          "Earth's yearly revolution makes the stars circle once each night.",
+          "Polaris marks the apparent centre of the rotating sky in the north.",
           "Earth rotates on its axis.",
-          "Polaris pulls the stars in a circle.",
-          "The constellations orbit Earth every hour.",
-          "The Moon pushes them around the sky."
+          "The stars rotate because the planisphere wheel turns around Polaris."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Earth's rotation causes the apparent daily motion of the sky."
       },
       {
         id: "kp-495-q2",
         prompt: "Why do the constellations visible at 8 P.M. change between April and October?",
         choices: [
-          "Earth revolves around the Sun, changing the nighttime view.",
-          "Stars disappear for half the year.",
-          "Polaris changes into a planet.",
-          "A planisphere changes the real sky."
+          "Earth rotates more slowly in October than in April.",
+          "The stars near the ecliptic move closer to Earth in autumn.",
+          "A planisphere changes the sky by moving constellations on the map.",
+          "Earth revolves around the Sun, changing the nighttime view."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Seasonal changes in the sky are caused by Earth's revolution around the Sun."
       },
       {
         id: "kp-495-q3",
         prompt: "Which pair of motions explains most apparent star-pattern changes in a planisphere model?",
         choices: [
+          "Moon phases and the changing brightness of stars.",
           "Earth's rotation and Earth's revolution.",
-          "The Moon's phases and ocean tides only.",
-          "Light pollution and clouds only.",
-          "Radio waves and gamma rays only."
+          "Retrograde motion and atmospheric absorption.",
+          "Radio waves and visible light from distant stars."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Rotation explains nightly motion; revolution explains seasonal changes."
       }
     ]
@@ -20301,36 +20301,36 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-496-q1",
         prompt: "Why can scientists model and predict positions of celestial objects?",
         choices: [
+          "Star maps make predictions reliable by changing the actual sky.",
           "Careful observations reveal regular patterns in apparent motion.",
-          "Sky objects move randomly with no patterns.",
-          "Prediction does not require observation.",
-          "The stars are controlled by star maps."
+          "Predictions work best when observations from different nights are ignored.",
+          "The positions are predictable because nearby stars keep the same altitude."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Repeated observations make it possible to create models and predictions."
       },
       {
         id: "kp-496-q2",
         prompt: "A planisphere predicts which constellations are visible tonight at 10 P.M. What is being applied?",
         choices: [
-          "A model based on predictable sky patterns.",
-          "A random guess with no data.",
-          "A measurement of ocean acidity.",
-          "A telescope that detects X-rays."
+          "A direct measurement of each star's distance from Earth.",
+          "A radio telescope observation converted into a printed map.",
+          "A weather prediction about cloud cover and moonlight.",
+          "A model based on predictable sky patterns."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Planispheres use predictable relationships between date, time, and sky view."
       },
       {
         id: "kp-496-q3",
         prompt: "Which observation would help test a sky model?",
         choices: [
+          "Use the model for a different hemisphere and accept the result.",
           "Compare predicted visible constellations with what is actually seen outside.",
-          "Ignore the sky and only read the label.",
-          "Use a map for the wrong hemisphere without checking.",
-          "Assume predictions are always perfect."
+          "Choose a prediction that matches the easiest constellation to draw.",
+          "Evaluate the model by counting how many stars are printed on it."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Models should be compared with observations."
       }
     ]
@@ -20342,36 +20342,36 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-497-q1",
         prompt: "Why does a planisphere have limitations?",
         choices: [
+          "It becomes less useful because stars do not follow predictable patterns.",
           "It simplifies the sky and is designed for particular locations and latitude ranges.",
-          "It shows every object in the universe perfectly.",
-          "It works equally well from every planet.",
-          "It removes the need to know date or time."
+          "It includes fixed planets, so their positions become outdated.",
+          "It is a model of visible constellations rather than a complete map of space."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "A planisphere is a useful model, but it is not a complete or universal representation."
       },
       {
         id: "kp-497-q2",
         prompt: "When might a planisphere be inaccurate?",
         choices: [
-          "When used far outside the latitude range it was designed for.",
           "When used to identify constellations in its intended region.",
           "When date and time are matched carefully.",
-          "When compared with the actual sky."
+          "When compared with the actual sky.",
+          "When used far outside the latitude range it was designed for."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "The visible sky changes with latitude, so the tool must match location."
       },
       {
         id: "kp-497-q3",
         prompt: "What is a good way to evaluate a planisphere model?",
         choices: [
+          "Treat it as exact if it matches the sky on one night.",
           "Identify what it predicts well and what details it leaves out.",
-          "Assume it is perfect because it rotates.",
-          "Reject it because all models are useless.",
-          "Use it without checking date, time, or location."
+          "Use it mainly to decide whether planets are visible through clouds.",
+          "Evaluate it by whether it includes objects beyond the Milky Way."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Evaluating a model means recognizing both usefulness and limits."
       }
     ]
@@ -20383,36 +20383,36 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-498-q1",
         prompt: "Why do humans need technology to study much of the universe?",
         choices: [
-          "Human eyes detect only visible light and cannot collect much faint radiation.",
-          "Human eyes detect every wavelength equally.",
-          "There is no radiation from space.",
-          "Technology makes visible light disappear."
+          "Human eyes detect radio waves well but need help with visible light.",
+          "Unaided eyes can collect enough light; technology mainly labels objects.",
+          "Technology is needed because space objects stop emitting visible light.",
+          "Human eyes detect visible light but miss many wavelengths and faint signals."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Technology extends and enhances sight by collecting more light and detecting non-visible radiation."
       },
       {
         id: "kp-498-q2",
         prompt: "Which information would unaided eyes miss?",
         choices: [
-          "Radio waves, infrared radiation, ultraviolet radiation, X-rays, and gamma rays from space.",
           "The brightness of the Sun.",
+          "Radio waves, infrared radiation, ultraviolet radiation, X-rays, and gamma rays from space.",
           "The Moon's changing appearance.",
           "Some visible stars on a clear dark night."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Unaided eyes are limited to visible light."
       },
       {
         id: "kp-498-q3",
         prompt: "What is a common misconception about astronomical observation?",
         choices: [
-          "That visible-light observations provide all possible information from space.",
-          "That telescopes can collect light.",
-          "That human eyes can see visible light.",
-          "That technology can extend observation."
+          "That telescopes can collect more light than eyes.",
+          "That visible-light observations provide the full range of information from space.",
+          "That technology can detect wavelengths human eyes do not see.",
+          "That different wavelengths can reveal different features."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Different wavelengths carry different information, so visible light is only part of the picture."
       }
     ]
@@ -20424,22 +20424,22 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-499-q1",
         prompt: "What does an optical telescope do?",
         choices: [
+          "Detects radio waves while blocking visible light from space.",
           "Collects visible light over a large area and concentrates it into a brighter image.",
-          "Detects only sound waves from space.",
-          "Blocks all visible light.",
-          "Measures ocean acidity."
+          "Measures X-rays after they pass through the atmosphere.",
+          "Shows planets clearly because it changes their actual distance."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Optical telescopes extend vision by collecting and focusing visible light."
       },
       {
         id: "kp-499-q2",
         prompt: "Why did Galileo's telescope change understanding of the sky?",
         choices: [
-          "It allowed observations such as moons around Jupiter and Saturn's ring system that unaided eyes could not show clearly.",
-          "It proved there are no moons except Earth's Moon.",
-          "It detected only radio waves.",
-          "It stopped people from observing planets."
+          "It made visible-light details easier to observe than with eyes alone.",
+          "It showed that planets emit sound waves across space.",
+          "It worked by detecting X-rays blocked by Earth's atmosphere.",
+          "It replaced sky observation with mathematical predictions."
         ],
         correctIndex: 0,
         explanation: "Improved optical observations revealed details not visible to unaided eyes."
@@ -20448,12 +20448,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-499-q3",
         prompt: "Why does a larger light-collecting area help a telescope?",
         choices: [
+          "It makes the object physically closer to Earth.",
           "It can gather more light from faint objects.",
-          "It makes every object closer in reality.",
-          "It changes radio waves into planets.",
-          "It makes the atmosphere disappear."
+          "It changes infrared radiation into visible planets.",
+          "It removes the need to focus the collected light."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "More collected light can make faint objects or details easier to see."
       }
     ]
@@ -20465,24 +20465,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-500-q1",
         prompt: "Which statement best describes electromagnetic radiation from space?",
         choices: [
-          "Visible light is only one form; objects also emit radio, infrared, ultraviolet, X-ray, and gamma radiation.",
-          "Only visible light exists in space.",
-          "Electromagnetic radiation is the same as sound.",
-          "Stars give off no radiation."
+          "Electromagnetic radiation from space is mainly sound travelling through empty space.",
+          "Radio waves and X-rays are separate from astronomy because eyes do not detect them.",
+          "Visible light is one form; objects also emit radio, infrared, ultraviolet, X-ray, and gamma radiation.",
+          "Visible light and infrared radiation are useful, but radio waves come from Earth."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Many wavelengths can carry information about space."
       },
       {
         id: "kp-500-q2",
         prompt: "Why do astronomers observe objects in different wavelengths?",
         choices: [
-          "Different wavelengths can reveal different physical features.",
-          "All wavelengths show exactly the same information.",
-          "Non-visible radiation cannot be detected.",
-          "Visible light is never useful."
+          "Different wavelengths are used mainly to make images more colourful.",
+          "Non-visible radiation is checked after visible light has already answered the question.",
+          "Each wavelength shows the same object at the same depth and temperature.",
+          "Different wavelengths can reveal different physical features."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Multi-wavelength astronomy expands what can be learned about an object."
       },
       {
@@ -20490,9 +20490,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which pair correctly matches wavelength type with astronomy?",
         choices: [
           "Radio waves and X-rays can both carry information from space.",
-          "Sound waves and ocean waves are the only signals from stars.",
-          "Infrared radiation exists only inside Earth.",
-          "Gamma rays are a type of visible green light."
+          "Sound waves and ocean waves are the main signals from stars.",
+          "Infrared radiation is useful for weather but not astronomy.",
+          "Gamma rays are a high-energy colour within ordinary visible light."
         ],
         correctIndex: 0,
         explanation: "Radio waves, X-rays, and other electromagnetic radiation can be used in astronomy."
@@ -20506,12 +20506,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-501-q1",
         prompt: "What do radio telescopes detect?",
         choices: [
+          "Visible light focused by glass lenses.",
           "Radio waves from space.",
-          "Only visible light.",
-          "Only sound waves in air.",
-          "Only moon phases."
+          "Sound waves travelling through empty space.",
+          "Ultraviolet images made by ordinary cameras."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Radio telescopes are designed to detect radio-frequency electromagnetic radiation."
       },
       {
@@ -20519,9 +20519,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why can radio telescopes be useful on cloudy days?",
         choices: [
           "Long-wavelength radio waves can pass through clouds.",
-          "Clouds create all radio waves.",
-          "Radio telescopes do not need any signal.",
-          "Clouds make visible light brighter."
+          "Clouds amplify visible light before it reaches the telescope.",
+          "Radio telescopes measure sound, so cloud cover is unrelated.",
+          "Cloudy weather blocks starlight but turns it into radio waves."
         ],
         correctIndex: 0,
         explanation: "Some radio waves penetrate clouds, unlike visible light observations blocked by weather."
@@ -20530,10 +20530,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-501-q3",
         prompt: "Which advantage does a radio telescope have over a simple optical telescope?",
         choices: [
-          "It can collect information at wavelengths human eyes cannot see.",
-          "It makes planets physically larger.",
-          "It works only when the Sun is up.",
-          "It sees through all solid rock."
+          "It can collect information at wavelengths human eyes do not see.",
+          "It gives higher-quality visible-light images than any optical telescope.",
+          "It shows the same information as an optical telescope without weather limits.",
+          "It removes atmospheric absorption across the whole spectrum."
         ],
         correctIndex: 0,
         explanation: "Radio telescopes extend observation beyond visible light."
@@ -20547,24 +20547,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-502-q1",
         prompt: "Why does Earth's atmosphere limit some astronomical observations from the ground?",
         choices: [
+          "It blocks visible light but lets the rest of the spectrum pass freely.",
           "It absorbs much of the radiation coming from space before that radiation reaches the surface.",
-          "It reflects all visible light from stars.",
-          "It creates every galaxy.",
-          "It makes radio waves impossible everywhere."
+          "It changes incoming radiation into sound before telescopes can detect it.",
+          "It mainly affects planets and has little effect on radiation from stars."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "The atmosphere blocks or absorbs many wavelengths, so some observations must be made above it."
       },
       {
         id: "kp-502-q2",
         prompt: "Why are some telescopes placed in orbit above Earth?",
         choices: [
-          "To detect radiation that is partly or fully blocked by the atmosphere.",
-          "To avoid collecting any radiation.",
-          "To make stars closer in reality.",
-          "To stop Earth from rotating."
+          "To make the telescope closer to the stars in a way that changes their brightness.",
+          "To avoid the need for mirrors, lenses, or detectors.",
+          "To observe visible light because it is fully blocked at the surface.",
+          "To detect radiation that is partly or fully blocked by the atmosphere."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Space telescopes can access wavelengths that ground telescopes cannot."
       },
       {
@@ -20572,9 +20572,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which statement is the best correction to 'The atmosphere is always helpful for astronomy'?",
         choices: [
           "The atmosphere protects life, but it also blocks some useful radiation from space.",
-          "The atmosphere has no effect on radiation.",
-          "The atmosphere lets every wavelength reach the ground equally.",
-          "The atmosphere is outside the universe."
+          "The atmosphere helps optical telescopes by focusing radiation from space.",
+          "The atmosphere improves radio, infrared, X-ray, and gamma-ray observations equally.",
+          "The atmosphere is useful for astronomy because it removes unwanted wavelengths."
         ],
         correctIndex: 0,
         explanation: "Atmospheric absorption is a limitation for some types of astronomy."
