@@ -7427,10 +7427,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-182-q1",
         prompt: "Why can fire-suppression chemicals involve trade-offs?",
         choices: [
-          "They are useful mainly for storage but not for active emergencies.",
+          "They are useful for some fire classes but may leave cleanup or disposal problems.",
           "They may put out fires effectively but still have health, cleanup, or environmental risks.",
           "Their effectiveness means health and environmental effects are usually minor.",
-          "They are unrelated to chemistry."
+          "Their chemistry matters most during use, while disposal can be considered later."
         ],
         correctIndex: 1,
         explanation: "A chemical can be useful for fire safety while also requiring careful handling or disposal."
@@ -7439,8 +7439,8 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-182-q2",
         prompt: "Why might a country phase out a fire-suppression chemical such as a halon?",
         choices: [
-          "Its fire-fighting effect is too weak to compare with alternatives.",
-          "It is too easy to label.",
+          "Its fire-fighting effect is useful, but labels make it harder to store.",
+          "It works for one fire class, so alternatives are not worth comparing.",
           "Its environmental or health risks may outweigh its benefits when safer alternatives exist.",
           "It makes water safer to use on electrical fires."
         ],
@@ -7452,9 +7452,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which question best evaluates a fire-suppression chemical?",
         choices: [
           "Does it work for the fire class, and what risks does it create during use and disposal?",
-          "Is it the newest chemical?",
-          "Can it be used without reading any label?",
-          "Does it simplify cleanup enough to skip a risk review?"
+          "Is it newer than the extinguisher chemical it replaces?",
+          "Can it be used on many fire classes even if the label is unclear?",
+          "Does it simplify cleanup enough that disposal risks can be reviewed later?"
         ],
         correctIndex: 0,
         explanation: "Good evaluation considers effectiveness, safety, environmental effects, and disposal."
@@ -7468,9 +7468,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-183-q1",
         prompt: "What is included in a product's life cycle?",
         choices: [
-          "The moment the product is purchased and used.",
-          "The product's colour, price, and popularity.",
-          "The disposal step after the product is no longer useful.",
+          "The product's use by consumers and the final disposal stage.",
+          "The product's price, popularity, and how often people replace it.",
+          "The manufacturing and disposal stages, but not distribution or use.",
           "Raw material extraction, processing, manufacture, distribution, use, recycling, and disposal."
         ],
         correctIndex: 3,
@@ -7482,8 +7482,8 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "It shows whether a synthetic product should be rejected before comparing benefits.",
           "It reveals impacts that may occur before use and after disposal, not just during use.",
-          "It ignores manufacturing and waste.",
-          "It replaces evidence with opinions."
+          "It focuses on the product's use because manufacturing and waste are separate issues.",
+          "It uses opinions about convenience before gathering environmental evidence."
         ],
         correctIndex: 1,
         explanation: "Environmental and social impacts can occur at many stages of a product's life."
@@ -7492,10 +7492,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-183-q3",
         prompt: "Which life cycle question fits a smartphone investigation?",
         choices: [
-          "What is the owner's favourite ringtone?",
-          "How many apps are installed today?",
+          "Which feature is most popular with the phone's current owner?",
+          "How many apps are installed compared with a previous phone?",
           "What materials are extracted, how is it manufactured, and what happens when it is discarded?",
-          "What colour case is most popular?"
+          "What colour case reduces the chance that the phone will be replaced?"
         ],
         correctIndex: 2,
         explanation: "Life cycle analysis asks about materials, manufacturing, use, recycling, and disposal."
@@ -7512,7 +7512,7 @@ window.SCIENCE10_QUIZZES = {
           "They can be useful and durable, but may also create waste, pollution, or toxicity concerns.",
           "Their usefulness usually outweighs environmental questions without further evidence.",
           "Their human-made design means safety concerns have already been solved.",
-          "They have no environmental impact after disposal."
+          "Their environmental impact is mainly limited to the time when people use them."
         ],
         correctIndex: 0,
         explanation: "Synthetic products often involve both benefits and unintended consequences."
@@ -7521,9 +7521,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-184-q2",
         prompt: "A plastic bottle is lightweight and convenient but may persist as waste. What kind of analysis is this?",
         choices: [
-          "Classifying an ionic bond.",
-          "Reading a hazard symbol without considering the product's life cycle.",
-          "Balancing a chemical equation.",
+          "Classifying the bottle's material without considering disposal.",
+          "Reading a recycling symbol without comparing benefits and waste.",
+          "Balancing the chemical equation for making the plastic.",
           "Comparing positive and negative product impacts."
         ],
         correctIndex: 3,
@@ -7535,8 +7535,8 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "A product slogan that describes the intended benefit.",
           "Data about usefulness, lifetime, resource use, waste, toxicity, and alternatives.",
-          "One person's experience using the product.",
-          "The product's shelf location and packaging style."
+          "One person's experience with the product's convenience.",
+          "The product's packaging style and whether it looks durable."
         ],
         correctIndex: 1,
         explanation: "A fair evaluation needs evidence about benefits, costs, and consequences."
@@ -7550,10 +7550,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-185-q1",
         prompt: "How can recycling reduce a product's negative impacts?",
         choices: [
-          "It makes products biodegradable once they enter a recycling bin.",
-          "It removes environmental impacts from the manufacturing stage.",
+          "It makes products easier to dispose of, even if collection systems are limited.",
+          "It reduces manufacturing impacts enough that raw materials matter less.",
           "It can keep useful materials in use and reduce the need for new raw materials.",
-          "It works without collection or processing systems."
+          "It works best when consumers separate materials, even without processing systems."
         ],
         correctIndex: 2,
         explanation: "Recycling can reduce some impacts, but it still requires systems and energy."
@@ -7563,9 +7563,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What is a green alternative?",
         choices: [
           "A product or process designed to reduce environmental harm compared with another option.",
-          "Any product that is coloured green.",
-          "A product whose name suggests nature or sustainability.",
-          "A product that cannot be evaluated with evidence."
+          "A product with natural-looking packaging and a sustainability claim.",
+          "A product whose name suggests nature more clearly than its ingredients do.",
+          "A product that should be accepted before checking its full life cycle."
         ],
         correctIndex: 0,
         explanation: "Green alternatives aim to reduce harm, but they still need life cycle evaluation."
@@ -7575,8 +7575,8 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why should a 'green' claim still be checked?",
         choices: [
           "Green claims may focus on one benefit while leaving out other impacts.",
-          "Green claims are usually enough if the packaging looks environmentally friendly.",
-          "Life cycle evidence is unnecessary for alternatives.",
+          "Green claims are usually enough when the product replaces a less efficient option.",
+          "Life cycle evidence matters less for alternatives than for the original product.",
           "The alternative may reduce one impact but create another impact elsewhere in its life cycle."
         ],
         correctIndex: 3,
@@ -7591,10 +7591,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-186-q1",
         prompt: "Why is emergency preparedness important for chemical accidents?",
         choices: [
-          "Accidents can be handled by deciding roles after the event starts.",
+          "Accidents can be handled if roles are assigned as soon as the event starts.",
           "Planning can reduce harm to people and the environment before an accident occurs.",
-          "Planning makes hazards disappear completely.",
-          "Preparedness matters most after cleanup is finished."
+          "Planning removes the need for cleanup if people evacuate quickly.",
+          "Preparedness matters most for large communities, not smaller workplaces."
         ],
         correctIndex: 1,
         explanation: "Preparedness helps people respond quickly and safely during emergencies."
@@ -7603,10 +7603,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-186-q2",
         prompt: "Which scenario belongs in a chemical emergency plan?",
         choices: [
-          "Choosing a new school mascot.",
-          "Graphing hand width variation.",
+          "Choosing a new meeting location for a regular club activity.",
+          "Graphing class trait variation for a genetics activity.",
           "A transportation accident causing a hazardous chemical spill.",
-          "Naming a covalent molecule for a worksheet."
+          "Naming a compound during a chemistry worksheet."
         ],
         correctIndex: 2,
         explanation: "Chemical spills, gas leaks, fires, and evacuation needs are relevant emergency scenarios."
@@ -7632,9 +7632,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-187-q1",
         prompt: "Which item should be part of an emergency response plan?",
         choices: [
-          "A title page and the date the plan was written.",
-          "A list of chemicals without roles or procedures.",
-          "The name of the person who can leave the building fastest.",
+          "A list of materials involved without response roles or routes.",
+          "A list of hazards with cleanup decisions left until after evacuation.",
+          "The names of people on site without assigned responsibilities.",
           "Evacuation routes, communication steps, cleanup methods, and disposal procedures."
         ],
         correctIndex: 3,
@@ -7644,10 +7644,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-187-q2",
         prompt: "Why should a plan state who is responsible for each action?",
         choices: [
-          "Roles make the plan harder to follow.",
+          "Roles are useful mainly after first responders arrive.",
           "Clear roles reduce confusion during an emergency.",
-          "No one needs responsibility in emergencies.",
-          "First responders need details, while people on site can wait for instructions."
+          "People on site can choose roles during the event if the plan is clear.",
+          "First responders need details, while people on site mainly need the alarm."
         ],
         correctIndex: 1,
         explanation: "People need to know what actions to take and who coordinates them."
@@ -7656,10 +7656,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-187-q3",
         prompt: "A plan includes evacuation but says nothing about spilled chemical cleanup. What is missing?",
         choices: [
-          "A decorative title.",
-          "A product life cycle diagram.",
+          "A communication method for telling people to leave.",
+          "A diagram showing the building's normal classroom layout.",
           "A way to manage contamination and dispose of affected material safely.",
-          "A list of diatomic elements."
+          "A list of who will present the plan to the class."
         ],
         correctIndex: 2,
         explanation: "Chemical emergencies may require safe cleanup and disposal to protect people and the environment."
@@ -7675,8 +7675,8 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "Students, workers, families, and first responders may need different formats and details.",
           "A single technical version is usually clearer for any audience.",
-          "Audience does not affect communication.",
-          "Plans should be written mainly for people with science training."
+          "Audience matters less than including a long technical explanation.",
+          "Plans should be written mainly for the people designing the response."
         ],
         correctIndex: 0,
         explanation: "Emergency information must be understandable and useful for the people who need to follow it."
@@ -7685,9 +7685,9 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-188-q2",
         prompt: "Which format could help communicate evacuation routes in a school?",
         choices: [
-          "A paragraph with no locations.",
-          "A chemical formula without directions or locations.",
-          "A product advertisement.",
+          "A paragraph describing exits without showing the building layout.",
+          "A list of room numbers without routes or meeting areas.",
+          "A poster focused on the chemical hazard but not evacuation.",
           "A clear map showing exits, routes, and meeting areas."
         ],
         correctIndex: 3,
@@ -7697,10 +7697,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-188-q3",
         prompt: "What should communication during an emergency be?",
         choices: [
-          "Vague and delayed.",
+          "Detailed enough that messages are sent after each person chooses a route.",
           "Clear, accurate, and directed through known lines of communication.",
-          "Customized separately for each person without a shared procedure.",
-          "Hidden until after the emergency ends."
+          "Customized separately for each person, even if the shared procedure becomes unclear.",
+          "Delayed until the person in charge has gathered more background details."
         ],
         correctIndex: 1,
         explanation: "Clear communication helps people respond safely and consistently."
@@ -7740,7 +7740,7 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "It changes the mass of the atoms.",
           "It lets you ignore chemical formulas.",
-          "It proves no bonds are involved.",
+          "It shows that formulas are less important than visible properties.",
           "It helps track which atoms are rearranged into products."
         ],
         correctIndex: 3,
@@ -7758,7 +7758,7 @@ window.SCIENCE10_QUIZZES = {
           "Neutral atoms arranged side by side without forming ions.",
           "Positive cations and negative anions.",
           "Separate molecules made by shared electron pairs.",
-          "Positive nuclei held together without electrons."
+          "Neutral atoms sharing electrons in small independent units."
         ],
         correctIndex: 1,
         explanation: "Ionic compounds consist of oppositely charged ions."
@@ -7781,8 +7781,8 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "The compound as a whole is electrically neutral.",
           "Ionic compounds need more positive ions than negative ions to hold together.",
-          "Anions disappear when the compound forms.",
-          "Charge balance is less important once a crystal lattice forms."
+          "Anions become neutral atoms after the lattice forms.",
+          "Charge balance matters mainly for naming, not for the compound structure."
         ],
         correctIndex: 0,
         explanation: "Formula units show the smallest whole-number ratio of ions that gives overall neutrality."
