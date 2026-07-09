@@ -4992,7 +4992,7 @@ window.SCIENCE10_QUIZZES = {
         prompt: "A student measures only three seeds and concludes that all seeds of that species have almost the same mass. What is the main problem?",
         choices: [
           "The sample is too small to represent variation in the population well.",
-          "Seed mass cannot be measured with a balance.",
+          "Seed mass is better estimated by eye than measured with a balance.",
           "Inherited traits are identical within a species.",
           "Variation is better studied through DNA sequences than measurements."
         ],
@@ -5020,10 +5020,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-123-q2",
         prompt: "A continuous trait forms a bell-shaped distribution. What does this usually mean?",
         choices: [
-          "Most individuals have exactly the same measurement.",
+          "Most individuals cluster in one middle range with no variation.",
           "Most individuals are near the middle range, with fewer at the extremes.",
           "Extreme values are more important than middle ranges.",
-          "The trait cannot be influenced by inheritance."
+          "The trait is shaped by measurement choices rather than inherited differences."
         ],
         correctIndex: 1,
         explanation: "Many continuous traits have many individuals near average values and fewer individuals at very high or low values."
@@ -5052,7 +5052,7 @@ window.SCIENCE10_QUIZZES = {
           "Different beak structures that may collect different foods with different success.",
           "Different species with similar feeding success across foods.",
           "Different weather events that do not affect food supply.",
-          "Different alleles that cannot influence survival."
+          "Different alleles that influence appearance but not feeding success."
         ],
         correctIndex: 0,
         explanation: "The tools model beak structures, and their success can be compared with different food types."
@@ -5093,7 +5093,7 @@ window.SCIENCE10_QUIZZES = {
           "Pressure favouring birds specialized for the now-rare small seeds.",
           "Pressure making each bird's beak change as soon as food changes.",
           "Pressure favouring birds with beaks that can handle tough, large seeds.",
-          "No pressure, because food supply cannot affect survival."
+          "Little pressure, because food supply affects behaviour more than survival."
         ],
         correctIndex: 2,
         explanation: "When available food changes, traits that help individuals use the available food may be favoured."
@@ -5115,7 +5115,7 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which prediction best uses natural selection reasoning?",
         choices: [
           "If the food changes, individuals grow matching beaks during their lifetime.",
-          "A rare food type favours the largest population even if individuals cannot eat it well.",
+          "A rare food type favours the population with the most individuals, even if feeding success is low.",
           "Environmental change affects behaviour but not survival or reproduction.",
           "If a food type stays common for many generations, traits that help use that food may become more common."
         ],
@@ -5134,7 +5134,7 @@ window.SCIENCE10_QUIZZES = {
           "The model is too simple to reveal useful patterns.",
           "The model leaves out many real factors such as predators, competition, behaviour, and reproduction.",
           "The model includes enough ecosystem detail to replace field studies.",
-          "The model proves that birds are the same as tools."
+          "The model treats tools and birds as if they share the same limits."
         ],
         correctIndex: 1,
         explanation: "Models can show useful patterns, but they simplify complex ecosystems."
@@ -5145,7 +5145,7 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "Some structures may collect certain food types more efficiently.",
           "Food availability can change which structure performs best.",
-          "This tool won one food-collection trial, so one real bird species will definitely evolve in exactly the same way.",
+          "This tool won one food-collection trial, so one real bird population would likely change the same way.",
           "Repeating trials can make the model data more reliable."
         ],
         correctIndex: 2,
@@ -5199,7 +5199,7 @@ window.SCIENCE10_QUIZZES = {
           "Species identification should rely on body colour before mating signals.",
           "If organisms look similar, their mating signals must be identical.",
           "They may have different calls and other differences that limit interbreeding.",
-          "Frogs cannot be separated into more than one species."
+          "Frogs that look similar are usually grouped as one species."
         ],
         correctIndex: 2,
         explanation: "Appearance alone may miss behavioural and biological differences between related species."
@@ -5214,8 +5214,8 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why does it matter if leopard frogs are eight related species rather than one widespread species?",
         choices: [
           "A decline in one species could be hidden if different frogs are counted as a single group.",
-          "It means amphibian populations cannot decline.",
-          "It proves conservation monitoring is unnecessary.",
+          "It means amphibian declines are easier to detect without species-level names.",
+          "It suggests conservation monitoring can focus on total frog numbers.",
           "It means calls are not useful for identifying species."
         ],
         correctIndex: 0,
@@ -5320,7 +5320,7 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why might a migrant rat fail to change the future population even if it reaches a new island?",
         choices: [
           "It may be poorly adapted to the new island and fail to survive or reproduce.",
-          "Arrival guarantees many offspring.",
+          "Arrival makes reproduction likely if the island has available habitat.",
           "Gene pools change without reproduction.",
           "Migration removes existing variation as new alleles arrive."
         ],
