@@ -13332,9 +13332,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Two balls roll at the same velocity. One has twice the mass of the other. Which ball has more mechanical kinetic energy?",
         choices: [
           "The ball with twice the mass.",
-          "The lighter ball.",
-          "They must have the same energy because velocity is the same.",
-          "Neither has kinetic energy because both are rolling."
+          "The lighter ball, because it is easier to start moving.",
+          "They have the same mechanical kinetic energy because velocity matches.",
+          "The ball with the larger volume, regardless of its mass."
         ],
         correctIndex: 0,
         explanation: "Mechanical kinetic energy increases when mass increases, if velocity stays the same."
@@ -13343,12 +13343,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-326-q2",
         prompt: "Two identical carts roll toward a target. One rolls faster. What should you predict?",
         choices: [
+          "The slower cart has more mechanical kinetic energy because it stays in contact longer.",
+          "Both carts have the same mechanical kinetic energy because their masses match.",
           "The faster cart has more mechanical kinetic energy.",
-          "The slower cart has more mechanical kinetic energy.",
-          "Velocity does not affect kinetic energy.",
-          "Both carts have only potential energy."
+          "The cart with less sound has more mechanical kinetic energy."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Velocity affects mechanical kinetic energy; faster motion means more kinetic energy for the same mass."
       },
       {
@@ -13356,9 +13356,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which design choice would most increase a cart's mechanical kinetic energy at the bottom of a ramp?",
         choices: [
           "Increase the cart's speed while keeping mass the same.",
-          "Change only the cart's colour.",
-          "Label the ramp with a new name.",
-          "Stop the cart before it moves."
+          "Use a reference height that is farther from the ramp.",
+          "Choose a smoother colour for the cart body.",
+          "Measure the cart after it has stopped at the bottom."
         ],
         correctIndex: 0,
         explanation: "Speed is a major variable in mechanical kinetic energy."
@@ -13372,12 +13372,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-327-q1",
         prompt: "Which equation gives mechanical kinetic energy?",
         choices: [
-          "Ek = 1/2mv^2",
           "Eg = mg delta h",
-          "E = mass + colour",
-          "Ek = mv"
+          "Ek = mv",
+          "Ek = 1/2mv^2",
+          "Eg = 1/2gv^2"
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Mechanical kinetic energy is calculated using Ek = 1/2mv^2."
       },
       {
@@ -13396,12 +13396,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-327-q3",
         prompt: "If an object's velocity doubles while its mass stays the same, what happens to its mechanical kinetic energy?",
         choices: [
-          "It becomes 4 times as large.",
           "It becomes 2 times as large.",
-          "It stays the same.",
-          "It becomes half as large."
+          "It stays the same because mass did not change.",
+          "It becomes half as large because velocity is shared across the motion.",
+          "It becomes 4 times as large."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Velocity is squared in Ek = 1/2mv^2, so doubling velocity multiplies Ek by 4."
       }
     ]
@@ -13413,36 +13413,36 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-328-q1",
         prompt: "Which variables affect gravitational potential energy?",
         choices: [
+          "Velocity, direction of motion, and contact surface.",
           "Mass, gravitational field strength, and change in height.",
-          "Velocity, sound level, and colour.",
-          "Only speed.",
-          "Only the type of surface."
+          "Mass, velocity, and sound level.",
+          "Height, colour, and shape."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "The textbook connects gravitational potential energy to m, g, and change in height."
       },
       {
         id: "kp-328-q2",
         prompt: "Two identical rocks are held above the same ground reference point. One is higher. Which rock has more gravitational potential energy?",
         choices: [
-          "The higher rock.",
           "The lower rock.",
-          "Both have zero because they are not moving.",
-          "The rock with the darker colour."
+          "The rock with greater speed before being released.",
+          "The higher rock.",
+          "The rock that would make less sound when dropped."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "For the same mass and g, greater height means greater gravitational potential energy."
       },
       {
         id: "kp-328-q3",
         prompt: "A ball is lifted 1 m above Earth and 1 m above the Moon. Why is the gravitational potential energy different?",
         choices: [
+          "The ball's mass is lower when it is above the Moon.",
+          "The reference height becomes zero above the Moon.",
           "The gravitational field strength is different.",
-          "The ball has no mass on the Moon.",
-          "Height does not affect energy.",
-          "Potential energy cannot exist away from Earth."
+          "The ball changes from potential energy into sound energy."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "The value of g is part of the gravitational potential energy relationship."
       }
     ]
@@ -13454,12 +13454,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-329-q1",
         prompt: "Which equation gives gravitational potential energy near Earth?",
         choices: [
-          "Eg = mg delta h",
           "Ek = 1/2mv^2",
-          "Eg = speed x time",
-          "Eg = mass / height"
+          "Eg = mg delta h",
+          "Eg = 1/2mv^2",
+          "Eg = m divided by delta h"
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Gravitational potential energy is calculated with Eg = mg delta h."
       },
       {
@@ -13478,12 +13478,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-329-q3",
         prompt: "If mass and g stay the same but the change in height doubles, what happens to Eg?",
         choices: [
-          "It doubles.",
+          "It stays the same because mass and g did not change.",
           "It becomes four times as large.",
-          "It becomes zero.",
-          "It is unaffected by height."
+          "It becomes half as large.",
+          "It doubles."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Eg is directly proportional to change in height in Eg = mg delta h."
       }
     ]
@@ -13495,36 +13495,36 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-330-q1",
         prompt: "Why can the same object have different gravitational potential energy values?",
         choices: [
+          "The object's mass changes when a lower reference point is chosen.",
+          "The value of g changes when a student redraws the diagram.",
           "Gravitational potential energy is measured relative to a chosen reference position.",
-          "The object's mass changes whenever you choose a reference point.",
-          "Gravity disappears when the reference point changes.",
-          "Energy values are random."
+          "Mechanical kinetic energy is included in the height measurement."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "The height change depends on the reference position selected for the analysis."
       },
       {
         id: "kp-330-q2",
         prompt: "A sled is at the bottom of a hill. If the bottom is chosen as the reference position, what is its gravitational potential energy there?",
         choices: [
+          "Maximum because the sled is closest to the ground.",
           "Zero relative to that reference position.",
-          "Maximum because it is at the bottom.",
-          "Negative infinity.",
-          "Always 9.8 J."
+          "The same as its mechanical kinetic energy.",
+          "9.8 J for each kilogram of sled mass."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "At the chosen reference position, delta h is zero, so Eg is zero relative to that position."
       },
       {
         id: "kp-330-q3",
         prompt: "Which choice would be a practical reference position for analyzing a skier descending a hill?",
         choices: [
+          "The skier's speed halfway down the hill.",
+          "The sound made by the skis during a turn.",
           "The bottom of the hill.",
-          "A random star far away.",
-          "The skier's favourite colour.",
-          "The sound made by the skis."
+          "The mass of the skier and equipment."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "A useful reference position is often the surface or level toward which the object can fall."
       }
     ]
@@ -13536,24 +13536,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-331-q1",
         prompt: "Why does a sled usually not reach the same height on the next hill?",
         choices: [
+          "The sled's mass decreases as it slides over snow.",
           "Friction transforms some mechanical energy into thermal and sound energy.",
-          "Energy is destroyed by the snow.",
-          "Gravitational potential energy cannot transform into kinetic energy.",
-          "The sled's mass becomes zero."
+          "The reference position rises with the sled as it moves.",
+          "Gravitational potential energy changes into chemical energy in the air."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Friction makes some energy less useful for climbing by transforming it into thermal and sound energy."
       },
       {
         id: "kp-331-q2",
         prompt: "What happens at the contact surfaces as a sled slides over snow?",
         choices: [
+          "The sled gains gravitational potential energy at the contact surface.",
           "Attractive forces between surface atoms are continually broken and reformed, producing thermal and sound energy.",
-          "Atoms disappear from both surfaces.",
-          "Gravity stops acting on the sled.",
-          "All energy changes into chemical potential energy in the air."
+          "The snow changes the sled's mass into mechanical kinetic energy.",
+          "The reference point absorbs the sled's remaining height."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "The textbook links friction to interactions at surfaces that produce thermal and sound energy."
       },
       {
@@ -13561,9 +13561,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which statement is most consistent with conservation of energy?",
         choices: [
           "The sled has less useful mechanical energy, but total energy is still accounted for.",
-          "The sled destroyed part of its energy.",
-          "Friction proves conservation of energy is false.",
-          "Only moving objects can have any energy."
+          "The sled's energy is missing because it became too spread out to measure.",
+          "Friction means conservation applies before the sled starts moving.",
+          "The sled's gravitational potential energy becomes mass in the snow."
         ],
         correctIndex: 0,
         explanation: "Energy is conserved even when some becomes less useful or transfers to surroundings."
@@ -13578,9 +13578,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What is the energy idea behind a Rube Goldberg machine?",
         choices: [
           "A sequence of energy transfers and transformations completes a simple task.",
-          "No energy changes are allowed.",
-          "Only one object can move.",
-          "The machine must use nuclear fusion."
+          "A machine performs a task by keeping energy in the same object.",
+          "A task is completed by avoiding collisions between parts.",
+          "A machine works when its energy pathway is hidden from observation."
         ],
         correctIndex: 0,
         explanation: "The investigation describes a machine that uses many transfers and transformations to perform a task."
@@ -13589,24 +13589,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-332-q2",
         prompt: "A marble rolls down a ramp, hits a lever, and the lever drops a ball into a cup. What should be identified?",
         choices: [
+          "The final task without describing how earlier parts caused it.",
           "Each transfer or transformation that triggers the next step.",
-          "Only the final cup.",
-          "Only the colour of the ramp.",
-          "Only whether the machine looks complicated."
+          "The number of materials, because material count is the energy pathway.",
+          "The fastest part, while leaving slower parts outside the system."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "A chain of energy changes explains how one event leads to the next."
       },
       {
         id: "kp-332-q3",
         prompt: "Which observation best shows a chain of energy changes?",
         choices: [
+          "A sketch lists materials before testing begins.",
+          "A machine sits ready with stored elastic energy but is not released.",
           "One moving part causes another part to move, which triggers a later step.",
-          "A machine sits untouched on a table.",
-          "A sketch lists materials but no motion occurs.",
-          "A task is completed without any interaction."
+          "A final task happens after the starting step is removed."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "A chain requires connected events where energy changes or moves from one part to another."
       }
     ]
@@ -13618,34 +13618,34 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-333-q1",
         prompt: "A Rube Goldberg machine works only sometimes. Which design change most directly improves energy transfer reliability?",
         choices: [
+          "Add rougher surfaces where the marble needs to keep rolling.",
           "Align the ramp and lever so the marble hits the same spot each trial.",
-          "Make the instructions longer without changing the machine.",
-          "Use parts that scrape more strongly at every joint.",
-          "Remove the step that starts the machine."
+          "Increase the number of steps without testing their timing.",
+          "Place the trigger farther away from the part it must move."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Design affects whether energy is transferred reliably from one part to the next."
       },
       {
         id: "kp-333-q2",
         prompt: "Which design change most likely reduces unwanted energy loss?",
         choices: [
+          "Add rough tape to sliding surfaces so motion slows more predictably.",
+          "Make moving parts collide off-centre to spread energy through the frame.",
           "Use smoother contact surfaces where sliding causes too much friction.",
-          "Add rough tape to every moving surface.",
-          "Make moving parts collide off-centre on purpose.",
-          "Let parts wobble freely without supports."
+          "Let supports wobble so the machine can adjust during each trial."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Reducing friction can keep more mechanical energy available for the intended task."
       },
       {
         id: "kp-333-q3",
         prompt: "Why is testing and modifying part of the Rube Goldberg investigation?",
         choices: [
-          "Evidence from trials shows where energy transfers or transformations are not working as planned.",
-          "Testing proves energy can be ignored.",
-          "Modifying a machine destroys all stored energy.",
-          "A design is perfect as soon as it is sketched."
+          "A sketch can show the intended task, but trials reveal whether energy changes happen reliably.",
+          "Testing makes the machine isolated from its surroundings.",
+          "Modifying a machine changes the law of conservation for that design.",
+          "Trials are mainly for making the machine look more complicated."
         ],
         correctIndex: 0,
         explanation: "Testing helps evaluate and improve the design's energy pathway."
@@ -13660,9 +13660,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which observation is useful evidence of energy transfer or transformation in a Rube Goldberg machine?",
         choices: [
           "A collision, a sound, a height change, or a moving part.",
-          "Only the title of the investigation.",
-          "Only the colour of the worksheet.",
-          "Only the number of team members."
+          "The list of materials before the machine is released.",
+          "The colour pattern chosen for the machine parts.",
+          "The number of students observing the trial."
         ],
         correctIndex: 0,
         explanation: "Visible and audible changes can provide evidence for tracing energy."
@@ -13671,22 +13671,22 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-334-q2",
         prompt: "A ball hits a cup, the cup dents slightly, and a sound is heard. What should the student record?",
         choices: [
+          "The cup's brand, because material labels identify energy form.",
+          "The cup's colour before the trial, because colour is the main energy evidence.",
           "Collision, deformation, motion, and sound as evidence of energy changes.",
-          "Only the brand of cup.",
-          "Nothing, because sound cannot be evidence.",
-          "Only whether the ball is colourful."
+          "The final location of the ball without describing the impact."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Motion, sound, and deformation are all clues for explaining energy transfer or transformation."
       },
       {
         id: "kp-334-q3",
         prompt: "Which statement avoids overclaiming from evidence?",
         choices: [
-          "The observations support an energy explanation, but the system and surroundings must be defined.",
-          "Any sound proves energy was created.",
-          "A collision proves there was no energy transfer.",
-          "A height change means matter disappeared."
+          "A sound supports an energy explanation, but the system and surroundings should be defined.",
+          "A collision means the energy pathway is complete even without later observations.",
+          "A height change shows matter crossed the boundary of the system.",
+          "A dent shows the energy form did not change during the trial."
         ],
         correctIndex: 0,
         explanation: "Observations should be connected carefully to a defined system and the energy pathway."
@@ -13700,24 +13700,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-335-q1",
         prompt: "In Investigation 3-B, what kind of evidence would help describe an energy transformation?",
         choices: [
+          "The name of the procedure without observations from the test.",
           "A change in form, motion, height, temperature, light, or sound in the system.",
-          "Only the name of the group.",
-          "Only the size of the classroom.",
-          "Only the date written on the page."
+          "The size of the classroom where the trial took place.",
+          "The date written above the data table."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "The investigation asks students to use observations to describe energy transfer or transformation."
       },
       {
         id: "kp-335-q2",
         prompt: "A falling container hits sand and leaves a deeper mark when dropped from higher up. Which energy idea is being investigated?",
         choices: [
+          "The sand creates mechanical kinetic energy at the moment of impact.",
           "Stored gravitational potential energy transforms into mechanical kinetic energy and then affects the sand.",
-          "Energy is created by the sand.",
-          "Only sound energy exists in the falling container.",
-          "The container has no energy because it is not alive."
+          "The container's energy depends mainly on the colour of the lid.",
+          "The impact mark forms because gravitational field strength becomes zero."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "The motion and impact help reveal transformations from height-related stored energy to motion and other effects."
       },
       {
@@ -13725,9 +13725,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why should students choose variables and keep other factors constant in an energy investigation?",
         choices: [
           "So changes in observations can be linked more clearly to the variable being tested.",
-          "So energy can be destroyed safely.",
-          "So no data table is needed.",
-          "So the system has no surroundings."
+          "So the system becomes isolated from energy transfer during the test.",
+          "So the data table can be replaced with a description of materials.",
+          "So the dependent variable changes before the independent variable is chosen."
         ],
         correctIndex: 0,
         explanation: "A controlled experiment helps connect observed energy changes to the factor under investigation."
