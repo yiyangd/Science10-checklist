@@ -21818,36 +21818,36 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-533-q1",
         prompt: "Which set best represents technologies used in space exploration and astronomy?",
         choices: [
+          "Ground telescopes, classroom models, and unaided-eye sketches without data links.",
           "Satellites, robotic arms, observatories, and communication systems.",
-          "Only paper star charts and candles.",
-          "Only ocean buoys and rain gauges.",
-          "Only kitchen scales and thermometers."
+          "Weather stations, ocean sensors, and seismographs used mainly for Earth-surface monitoring.",
+          "Spectral labels, star names, and magnitude scales without physical instruments."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Modern space science depends on many connected tools and systems."
       },
       {
         id: "kp-533-q2",
         prompt: "How can robotics connect to astronomy and space missions?",
         choices: [
-          "Robotic systems can help move, build, repair, or operate equipment in space.",
-          "Robotics is unrelated to space technology.",
-          "Robots can replace the need for all data.",
-          "Robots make stars change colour."
+          "Robotic systems are mainly useful for naming objects after observations are complete.",
+          "Robotics replaces scientific instruments by deciding conclusions before data are collected.",
+          "Robotics affects astronomy mostly by changing the colour classification of stars.",
+          "Robotic systems can help move, build, repair, or operate equipment in space."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Robotic arms and automated systems are part of space mission technology."
       },
       {
         id: "kp-533-q3",
         prompt: "Why are communication systems important in space exploration?",
         choices: [
+          "They convert radio signals directly into spacecraft fuel during long missions.",
           "They allow spacecraft, satellites, and ground stations to exchange data and commands.",
-          "They stop gravity from acting.",
-          "They turn galaxies into planets.",
-          "They only provide entertainment for astronauts."
+          "They remove the need for onboard instruments because ground stations make the measurements.",
+          "They are used mainly after a mission, when data no longer need to be transmitted."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Without communication systems, mission data could not be reliably sent back or controlled."
       }
     ]
@@ -21859,36 +21859,36 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-534-q1",
         prompt: "What two variables are commonly graphed in the H-R diagram investigation?",
         choices: [
+          "Apparent magnitude and constellation name.",
           "Spectral type and absolute magnitude.",
-          "Planet radius and moon phase.",
-          "Galaxy distance and ocean depth.",
-          "Constellation myth and calendar month."
+          "Surface temperature and the number of planets in orbit.",
+          "Galaxy distance and redshift from the big bang unit."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "The investigation builds an H-R diagram from spectral type and absolute magnitude data."
       },
       {
         id: "kp-534-q2",
         prompt: "Why is plotting star data on a graph more useful than only reading a table?",
         choices: [
+          "A graph changes the stars' actual luminosities so the main sequence becomes visible.",
           "A graph can reveal patterns such as the main sequence more clearly.",
-          "A graph changes the stars' actual properties.",
-          "A graph removes the need for evidence.",
-          "A graph can only show one star at a time."
+          "A graph is mainly useful when the table has no measured values.",
+          "A graph makes spectral type unnecessary because the axes contain no labels."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Visual patterns are often easier to identify on a graph."
       },
       {
         id: "kp-534-q3",
         prompt: "A student plots spectral type on one axis and absolute magnitude on the other. What pattern should they look for?",
         choices: [
-          "A main sequence trend through many of the plotted stars.",
-          "A map of Earth's continents.",
-          "A random list with no possible pattern.",
-          "A diagram of planet orbits only."
+          "A curve showing that apparent brightness increases with distance.",
+          "A cluster showing that spectral types have the same absolute magnitude.",
+          "A trend showing planets and stars on the same magnitude scale.",
+          "A main sequence trend through many of the plotted stars."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "The main sequence is a key pattern revealed by H-R diagrams."
       }
     ]
@@ -21900,34 +21900,34 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-535-q1",
         prompt: "Which list gives the standard order of the main spectral type letters used in this investigation?",
         choices: [
-          "\\(O, B, A, F, G, K, M\\)",
-          "\\(A, E, I, O, U\\)",
-          "\\(X, Y, Z\\) only",
-          "\\(AU, ly, km, s\\)"
+          "\\(A, B, F, G, K, M, O\\), arranged alphabetically.",
+          "\\(O, B, A, F, G, K, M\\), arranged by spectral class.",
+          "\\(G, K, M, O, B, A, F\\), arranged from Sun-like to hottest.",
+          "\\(O, B, A, C, D, E, F\\), arranged as a simple letter sequence."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Main sequence stars are often grouped using the spectral sequence O, B, A, F, G, K, M."
       },
       {
         id: "kp-535-q2",
         prompt: "What does a label such as \\(G2\\) or \\(B5\\) represent in the H-R investigation?",
         choices: [
+          "A star's distance from Earth in light-years and parsecs.",
+          "A galaxy group label used to classify redshift measurements.",
           "A spectral type with a letter category and number subdivision.",
-          "A galaxy's street address.",
-          "The number of moons around a star.",
-          "The age of the universe in seconds."
+          "A ranking of apparent brightness without temperature information."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "The letter gives the spectral class, while the number provides a subdivision within that class."
       },
       {
         id: "kp-535-q3",
         prompt: "Why are spectral types useful when building an H-R diagram?",
         choices: [
-          "They help place stars along the temperature/colour-related axis.",
-          "They measure only the star's distance from Earth.",
-          "They classify planets by mass.",
-          "They replace all observations of brightness."
+          "They are used to place stars along a temperature- and colour-related axis.",
+          "They are used to calculate a star's distance without any brightness data.",
+          "They group stars by age rather than by light patterns.",
+          "They replace absolute magnitude because one axis is enough to make the diagram."
         ],
         correctIndex: 0,
         explanation: "Spectral type is linked to star colour and temperature patterns."
@@ -21941,36 +21941,36 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-536-q1",
         prompt: "How can a pattern on an H-R diagram help with prediction?",
         choices: [
-          "It can be used to estimate absolute magnitude for a main sequence star from its spectral type.",
-          "It predicts the weather on Earth.",
-          "It turns an unknown star into a planet.",
-          "It gives every star the same absolute magnitude."
+          "It lets astronomers ignore whether the star belongs to the main sequence.",
+          "It predicts apparent brightness directly without considering distance.",
+          "It assigns the same absolute magnitude to stars with nearby spectral types.",
+          "It can be used to estimate absolute magnitude for a main sequence star from its spectral type."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Once a trend is established, unknown or selected values can be estimated from the pattern."
       },
       {
         id: "kp-536-q2",
         prompt: "If a main sequence star's spectral type falls between two plotted values, what is a reasonable graph-based method?",
         choices: [
+          "Use the apparent magnitude of the nearest bright star as the answer.",
           "Estimate its absolute magnitude by interpolating along the main sequence trend.",
-          "Ignore the graph and choose a random value.",
-          "Use the distance to the Moon.",
-          "Assume it has no luminosity."
+          "Average the labels of two constellations near the star's position.",
+          "Treat the star as a red giant because graph predictions work better off the main sequence."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Interpolation uses nearby plotted points to make a reasonable estimate."
       },
       {
         id: "kp-536-q3",
         prompt: "Which prediction task matches the H-R investigation most closely?",
         choices: [
+          "Predict a galaxy's redshift from the name of a spectral class.",
           "Estimate the absolute magnitude of a main sequence star such as a \\(B5\\) star.",
-          "Predict tomorrow's tide height from a constellation.",
-          "Find the mass of Earth from a galaxy shape.",
-          "Calculate the age of a student from star colour."
+          "Find a star's apparent brightness from a chart without knowing its distance.",
+          "Use the graph to decide whether a planet has moons."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "The investigation uses spectral type and a graph pattern to estimate absolute magnitude."
       }
     ]
@@ -21982,24 +21982,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-537-q1",
         prompt: "Why are graphs important in astronomy?",
         choices: [
+          "They remove measurement uncertainty when the pattern looks smooth.",
           "They can reveal relationships that are difficult to see in a list of numbers.",
-          "They remove uncertainty from every measurement.",
-          "They replace telescopes completely.",
-          "They make all stars identical."
+          "They are useful mainly because they turn categories into exact causes.",
+          "They make unusual data points irrelevant to the scientific conclusion."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Graphing data helps scientists notice trends, clusters, and exceptions."
       },
       {
         id: "kp-537-q2",
         prompt: "A set of star data forms a diagonal band on an H-R diagram. What claim could that support?",
         choices: [
+          "The graph shows distance rather than luminosity because diagonal bands mean motion.",
           "Many stars follow a main sequence pattern relating spectral type and brightness.",
-          "Star data has no pattern at all.",
-          "Every galaxy is spiral.",
-          "The Solar System contains no planets."
+          "The stars in the band have identical masses and life-cycle stages.",
+          "The pattern is caused by plotting apparent brightness instead of absolute magnitude."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "The main sequence is a graph-based pattern in star properties."
       },
       {
@@ -22007,9 +22007,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which is the strongest graph-based reasoning habit?",
         choices: [
           "Use the plotted pattern as evidence and describe limits or uncertainty.",
-          "Pick the answer that looks nicest.",
-          "Ignore outliers and labels in every case.",
-          "Assume a graph proves causation automatically."
+          "Choose the trend that best matches the expected answer before reading the axes.",
+          "Treat outliers as errors when they do not match the main sequence.",
+          "Assume a graph shows cause and effect when two variables line up."
         ],
         correctIndex: 0,
         explanation: "Good reasoning uses evidence while recognizing what the graph can and cannot show."
@@ -22024,9 +22024,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What was the neutron star hypothesis before neutron stars were observed?",
         choices: [
           "A proposed idea that some supernovas could leave behind extremely dense neutron stars.",
-          "A claim that stars are made only of liquid water.",
-          "A rule that all stars become white dwarfs.",
-          "A method for naming zodiac constellations."
+          "A claim that supernovas leave behind ordinary white dwarfs with no special density.",
+          "A model that treated neutron stars as bright main sequence stars with unusual spectra.",
+          "A naming system for compact objects before radio telescopes collected data."
         ],
         correctIndex: 0,
         explanation: "The idea of neutron stars was proposed before strong observational evidence was found."
@@ -22035,12 +22035,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-538-q2",
         prompt: "Why is the neutron star story a good example of scientific prediction?",
         choices: [
+          "The model was accepted because it sounded unusual before evidence was available.",
           "A theoretical idea later gained support from observations of pulsars and supernova remnants.",
-          "Scientists guessed once and never checked evidence.",
-          "The idea required no observations at any stage.",
-          "The prediction was about weather, not stars."
+          "The prediction became scientific after researchers stopped looking for related observations.",
+          "The hypothesis was useful because it avoided connections to supernovas."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Scientific ideas become stronger when independent evidence supports them."
       },
       {
@@ -22048,9 +22048,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which object is most closely connected to the neutron star hypothesis in this section?",
         choices: [
           "A supernova remnant with a compact dense object.",
-          "A low cloud over Earth.",
-          "A planisphere used in a classroom.",
-          "An ordinary asteroid."
+          "A red giant whose outer layers have not yet expanded.",
+          "A binary system used mainly to measure solar mass.",
+          "A main sequence star with a surface temperature similar to the Sun."
         ],
         correctIndex: 0,
         explanation: "Neutron stars are connected to the collapsed remnants of some supernovas."
@@ -22065,9 +22065,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What role did radio telescope data play in Jocelyn Bell's discovery?",
         choices: [
           "Careful analysis of recorded radio signals revealed an unexpected repeating pattern.",
-          "It showed that radio telescopes cannot detect space objects.",
-          "It replaced the need for interpretation.",
-          "It only measured visible light colours."
+          "The data were useful mainly because they matched the expected pattern immediately.",
+          "The radio records gave direct photographs of neutron stars in visible light.",
+          "The telescope data mattered because interpretation was unnecessary after recording."
         ],
         correctIndex: 0,
         explanation: "The discovery depended on noticing a small pattern in a large amount of data."
@@ -22077,9 +22077,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why can a small unusual signal in a large data set matter?",
         choices: [
           "It may reveal a real phenomenon that does not fit current expectations.",
-          "It should always be erased immediately.",
-          "It proves all other data are wrong.",
-          "It means the instrument is useless in every case."
+          "It is usually best treated as an error if it appears in a small part of the record.",
+          "It matters mainly because unusual signals are stronger than expected signals.",
+          "It can replace follow-up checks if its timing pattern looks regular."
         ],
         correctIndex: 0,
         explanation: "Unexpected patterns can lead to new questions and discoveries if checked carefully."
@@ -22089,9 +22089,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which scientific practice is highlighted by Bell's chart-paper analysis?",
         choices: [
           "Patient observation and careful pattern recognition.",
-          "Ignoring repeated signals.",
-          "Changing data to match a favourite idea.",
-          "Avoiding all collaboration."
+          "Reducing a data set before checking whether small patterns repeat.",
+          "Changing the recorded signal after deciding what it should show.",
+          "Treating instrument records as complete explanations without discussion."
         ],
         correctIndex: 0,
         explanation: "The discovery required persistence and close attention to data."
@@ -22106,9 +22106,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What is a pulsar?",
         choices: [
           "A source that emits regular pulses of radiation, later linked to neutron stars.",
-          "A planet that reflects sunlight once per year.",
-          "A galaxy with no stars.",
-          "A type of paper star map."
+          "A red giant whose brightness changes because it moves along the main sequence.",
+          "A white dwarf that appears to pulse because its distance from Earth changes.",
+          "A radio telescope pattern produced when chart paper moves at a steady speed."
         ],
         correctIndex: 0,
         explanation: "Pulsars were identified through repeated radio signals and connected to neutron stars."
@@ -22118,9 +22118,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why did the regularity of early pulsar signals seem surprising?",
         choices: [
           "Such steady repeating signals were not expected from known celestial objects at the time.",
-          "Radio signals from space had always been fully understood.",
-          "The signals were ordinary visible colours.",
-          "They came from Earth's oceans."
+          "The regular pattern matched the predicted behaviour of ordinary main sequence stars.",
+          "The signal was surprising because radio telescopes usually measure visible colours.",
+          "The pattern mattered because it showed the star had stopped rotating."
         ],
         correctIndex: 0,
         explanation: "The repeating pattern made scientists consider and test possible explanations."
@@ -22130,9 +22130,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What evidence helped connect pulsars with neutron stars?",
         choices: [
           "Pulsars were found in contexts linked with supernova remnants, where neutron stars were expected.",
-          "Pulsars were found only inside planets.",
-          "Pulsars never emit radiation.",
-          "Pulsars were shown to be paper labels."
+          "Pulsars were identified as ordinary white dwarfs because their densities were low.",
+          "Pulsars were connected to neutron stars because they lacked repeating signals.",
+          "Pulsars were explained as redshifted galaxies moving away from Earth."
         ],
         correctIndex: 0,
         explanation: "The connection grew from multiple observations, including pulsars associated with supernova remnants."
@@ -22147,9 +22147,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why does Jocelyn Bell's role raise questions about recognition in science?",
         choices: [
           "Her careful work was central to the discovery, but major public recognition did not fully reflect that contribution.",
-          "She did not participate in the research.",
-          "The discovery involved no evidence.",
-          "Recognition is never connected to collaboration."
+          "Her role is debated because the discovery was made without recorded evidence.",
+          "The case matters because scientific discoveries are usually made without teams.",
+          "The issue is mainly about whether radio astronomy should count as astronomy."
         ],
         correctIndex: 0,
         explanation: "The case invites evaluation of how credit is assigned in scientific work."
@@ -22159,9 +22159,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which statement best describes discovery in science?",
         choices: [
           "Discovery often depends on observation, interpretation, instruments, collaboration, and fair credit.",
-          "Discovery always happens without data.",
-          "Only one person ever contributes to a discovery.",
-          "Scientific recognition has never changed over time."
+          "Discovery depends on the final publication more than on the observations that led to it.",
+          "Discovery is usually complete as soon as an unexpected signal appears in data.",
+          "Discovery becomes scientific when social questions about credit are ignored."
         ],
         correctIndex: 0,
         explanation: "Scientific achievements usually involve both evidence and human systems of collaboration and recognition."
@@ -22171,9 +22171,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What is a fair question to ask when evaluating a scientific discovery story?",
         choices: [
           "Who collected, interpreted, supported, and communicated the evidence?",
-          "Which person had the shortest name?",
-          "How can the evidence be ignored?",
-          "How can collaboration be hidden?"
+          "Which person held the highest position before the evidence was found?",
+          "Which part of the evidence can be left out to make the story simpler?",
+          "How can collaboration be described as a single person's work?"
         ],
         correctIndex: 0,
         explanation: "Fair evaluation looks at the real contributions that made the discovery possible."
@@ -22188,9 +22188,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What does the big bang theory try to explain?",
         choices: [
           "The origin of the universe and how it has changed over time.",
-          "The daily weather in one city.",
-          "The order of planets in a classroom poster only.",
-          "The names of zodiac constellations."
+          "The life cycle of one star from nebula to white dwarf.",
+          "The order of planets within the Solar System.",
+          "The classification of galaxies by visible shape."
         ],
         correctIndex: 0,
         explanation: "The theory connects evidence about expansion with the universe's history and development."
@@ -22200,9 +22200,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which observation is most directly connected to the big bang theory in this chapter?",
         choices: [
           "Evidence that the universe is expanding.",
-          "The fact that Earth's oceans have tides.",
-          "The shape of a single mountain.",
-          "The names of ancient constellations only."
+          "Evidence that planets orbit stars in a flat disk.",
+          "Evidence that main sequence stars follow a diagonal H-R pattern.",
+          "Evidence that constellations appear in seasonal patterns."
         ],
         correctIndex: 0,
         explanation: "Expansion evidence is central to the modern big bang model."
@@ -22212,9 +22212,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which statement best avoids a misconception about the big bang theory?",
         choices: [
           "It is a scientific explanation supported and refined by evidence, not just a casual guess.",
-          "It says galaxies are moving through already-empty space from one central point only.",
-          "It explains only the Solar System and nothing beyond it.",
-          "It has no connection to observations."
+          "It describes an explosion from a central point into space that was already there.",
+          "It explains the Solar System separately from the larger universe.",
+          "It is based mainly on the brightness of nearby stars rather than large-scale evidence."
         ],
         correctIndex: 0,
         explanation: "The big bang theory is an evidence-based scientific model of the universe's history."
