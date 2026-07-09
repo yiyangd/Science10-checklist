@@ -22229,9 +22229,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What does cosmology study?",
         choices: [
           "The origin, structure, development, and possible future of the universe.",
-          "Only the weather on Earth.",
-          "Only the names of constellations.",
-          "Only the rocks on the Moon."
+          "The formation of planets within one solar system.",
+          "The classification of stars by spectral type on an H-R diagram.",
+          "The motion of spacecraft within Earth's orbit."
         ],
         correctIndex: 0,
         explanation: "Cosmology is the study of the universe as a whole."
@@ -22240,24 +22240,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-543-q2",
         prompt: "How is the big bang theory connected to cosmology?",
         choices: [
+          "It is a diagram used to classify individual main sequence stars.",
           "It is a scientific model used to explain the universe's origin and development.",
-          "It is a method for classifying individual planets.",
-          "It is a star chart for one night only.",
-          "It describes only Earth's atmosphere."
+          "It is a method for measuring the mass of planets in our Solar System.",
+          "It is a weather model for conditions in Earth's upper atmosphere."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "The big bang theory is part of modern scientific cosmology."
       },
       {
         id: "kp-543-q3",
         prompt: "Which question is most cosmological?",
         choices: [
-          "How has the universe changed since its earliest stages?",
-          "What is today's local wind speed?",
-          "Which pencil is longest on a desk?",
-          "How many pages are in one notebook?"
+          "How does a single red giant compare with the Sun's future stage?",
+          "How can a satellite keep communicating with one ground station?",
+          "How does a spectral type label place one star on an H-R diagram?",
+          "How has the universe changed since its earliest stages?"
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "Cosmology asks broad questions about the universe's history and structure."
       }
     ]
@@ -22269,12 +22269,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-544-q1",
         prompt: "What happens in the Doppler effect?",
         choices: [
+          "A source changes its actual colour because its temperature changes.",
+          "A wave becomes brighter because the observer uses a larger telescope.",
           "Waves from a moving source are compressed or stretched as seen by an observer.",
-          "Gravity stops all waves from moving.",
-          "Light changes into matter every time it moves.",
-          "Stars stop emitting radiation."
+          "A galaxy's distance is measured directly from its apparent size."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Relative motion changes the observed wavelength of waves."
       },
       {
@@ -22282,9 +22282,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "How can the Doppler effect help astronomers?",
         choices: [
           "It lets them infer whether a star or galaxy is moving toward or away from us.",
-          "It gives the exact mass of every planet instantly.",
-          "It replaces the need for spectra.",
-          "It proves galaxies never move."
+          "It gives absolute magnitude without needing distance or luminosity data.",
+          "It explains star colour by composition rather than by motion.",
+          "It measures the age of the universe from one nearby star."
         ],
         correctIndex: 0,
         explanation: "Shifts in spectral lines can reveal motion along the line of sight."
@@ -22293,12 +22293,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-544-q3",
         prompt: "A light source moving away has its light waves stretched. What kind of wavelength change is this?",
         choices: [
-          "A shift toward longer wavelengths.",
           "A shift toward shorter wavelengths.",
-          "No possible change in wavelength.",
-          "A change from light into sound."
+          "A shift toward longer wavelengths.",
+          "A change in brightness with no wavelength shift.",
+          "A change in spectral lines caused by new elements forming."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Moving away stretches observed wavelengths."
       }
     ]
@@ -22310,34 +22310,34 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-545-q1",
         prompt: "What does redshift usually indicate for a distant galaxy?",
         choices: [
+          "The galaxy is moving toward the observer along the line of sight.",
           "The galaxy is moving away from the observer as space expands.",
-          "The galaxy is moving toward the observer.",
-          "The galaxy contains only red stars.",
-          "The galaxy has stopped emitting light."
+          "The galaxy contains mostly cool red stars, regardless of motion.",
+          "The galaxy's light has become brighter because it is nearby."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Redshift means spectral lines are shifted toward longer, redder wavelengths."
       },
       {
         id: "kp-545-q2",
         prompt: "If spectral lines shift toward longer wavelengths, what term describes the shift?",
         choices: [
-          "Redshift.",
           "Blueshift.",
+          "Redshift.",
           "Parallax.",
           "Solar mass."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Longer visible wavelengths are associated with the red end of the spectrum."
       },
       {
         id: "kp-545-q3",
         prompt: "Why was widespread galaxy redshift important evidence?",
         choices: [
-          "It suggested most distant galaxies are moving away, supporting an expanding universe.",
-          "It showed every galaxy is inside the Solar System.",
-          "It proved that light has no wavelength.",
-          "It showed all stars are red giants."
+          "It suggested many distant galaxies are moving away, supporting an expanding universe.",
+          "It showed that red stars are older than blue stars in nearby galaxies.",
+          "It proved that galaxies are fixed in space while Earth moves away from them.",
+          "It showed that the Milky Way contains the rest of the universe."
         ],
         correctIndex: 0,
         explanation: "Redshift patterns helped scientists infer cosmic expansion."
@@ -22351,12 +22351,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-546-q1",
         prompt: "What does blueshift indicate about an object in space?",
         choices: [
+          "It is moving away from the observer while its light is stretched.",
           "It is moving toward the observer.",
-          "It is moving away from the observer.",
-          "It has no motion of any kind.",
-          "It is changing into a planet."
+          "It has become physically hotter and therefore looks blue.",
+          "It is nearby enough that spectral line shifts are less important than colour."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "Blueshift occurs when observed wavelengths are shortened toward the blue end of the spectrum."
       },
       {
@@ -22364,9 +22364,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "A star's spectral lines shift toward shorter wavelengths. What is the best interpretation?",
         choices: [
           "The star is moving toward the observer along the line of sight.",
-          "The star is definitely farther than every galaxy.",
-          "The star has stopped emitting radiation.",
-          "The star is becoming a black hole immediately."
+          "The star is cooling into a red giant even though its lines shift blueward.",
+          "The star is moving sideways with no motion toward or away from the observer.",
+          "The star's spectrum is changing because its elements have disappeared."
         ],
         correctIndex: 0,
         explanation: "Shorter observed wavelengths correspond to blueshift."
@@ -22375,12 +22375,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-546-q3",
         prompt: "Which comparison between redshift and blueshift is correct?",
         choices: [
+          "Redshift and blueshift both describe changes in apparent brightness, not wavelength.",
           "Redshift is longer wavelength from moving away; blueshift is shorter wavelength from moving toward.",
-          "Both always mean an object is motionless.",
-          "Redshift and blueshift describe only sound, never light.",
-          "Blueshift means wavelengths become longer and redshift means shorter."
+          "Redshift means motion toward Earth; blueshift means motion away from Earth.",
+          "Both shifts are caused by star colour changing without motion."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "The direction of wavelength change tells astronomers about motion toward or away."
       }
     ]
@@ -22393,9 +22393,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What does Hubble's law show?",
         choices: [
           "A galaxy's speed away from us is proportional to its distance.",
-          "All galaxies are the same distance from Earth.",
-          "Nearby planets cause every redshift.",
-          "The universe is shrinking at a constant rate."
+          "A galaxy's apparent size directly gives its mass.",
+          "Nearby planets are responsible for the redshift of distant galaxies.",
+          "Galaxy distance is unrelated to recession speed."
         ],
         correctIndex: 0,
         explanation: "Hubble's law links recession speed and distance."
@@ -22404,12 +22404,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-547-q2",
         prompt: "A galaxy twice as far away tends to move away about twice as fast in a simple Hubble-law pattern. What does this support?",
         choices: [
+          "The idea that Earth pushes distant galaxies outward by gravity.",
           "The idea that space itself is expanding.",
-          "The idea that Earth is pushing galaxies away by magnetism.",
-          "The idea that galaxies cannot move.",
-          "The idea that all galaxies are inside the Milky Way."
+          "The idea that redshift is caused mainly by telescope error.",
+          "The idea that the Milky Way sits at the physical centre of an explosion."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "A proportional speed-distance pattern is evidence for expansion of space."
       },
       {
@@ -22417,9 +22417,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "On a graph of galaxy velocity versus distance, what does the slope represent in this context?",
         choices: [
           "The Hubble constant, or expansion rate.",
-          "The mass of Earth.",
-          "The colour of a star.",
-          "The number of planets in the Solar System."
+          "The average apparent magnitude of the galaxies.",
+          "The age of each galaxy plotted on the graph.",
+          "The difference between redshift and blueshift in one star."
         ],
         correctIndex: 0,
         explanation: "The slope of the velocity-distance graph gives the Hubble constant."
@@ -22434,9 +22434,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What is cosmic microwave background radiation?",
         choices: [
           "Leftover radiation from the early universe that now appears mostly as microwaves.",
-          "Visible light from only the nearest star.",
-          "Sound waves from planets.",
-          "Radiation produced only by Earth's atmosphere."
+          "Radio noise made by modern satellites orbiting Earth.",
+          "Visible light from nearby stars blended across the night sky.",
+          "Heat released by galaxies after their stars finish evolving."
         ],
         correctIndex: 0,
         explanation: "CMB radiation is a major piece of evidence for the hot early universe."
@@ -22445,12 +22445,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-548-q2",
         prompt: "Why did early radiation become microwave radiation over time?",
         choices: [
-          "Expansion stretched its wavelengths into cooler, longer-wavelength parts of the spectrum.",
-          "It was reflected by planets until it became sound.",
-          "It was turned into visible light by Earth.",
-          "It stopped existing after stars formed."
+          "Galaxies absorbed the radiation and re-emitted it as ordinary starlight.",
+          "Earth's atmosphere cooled the radiation after telescopes detected it.",
+          "The radiation changed because stars began producing heavier elements.",
+          "Expansion stretched its wavelengths into cooler, longer-wavelength parts of the spectrum."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "As the universe expanded, wavelengths of radiation were stretched."
       },
       {
@@ -22458,9 +22458,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What did COBE and WMAP help measure?",
         choices: [
           "Tiny temperature variations in the cosmic microwave background.",
-          "The weight of every galaxy.",
-          "The shape of Earth's oceans.",
-          "The exact number of zodiac constellations."
+          "The masses of stars by timing binary star orbits.",
+          "The redshift of one nearby galaxy to calculate solar mass.",
+          "The brightness changes of Sun-like stars over several weeks."
         ],
         correctIndex: 0,
         explanation: "Satellite maps of the CMB gave detailed evidence about the early universe."
@@ -22475,9 +22475,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why does looking farther into space mean looking farther back in time?",
         choices: [
           "Light has a finite speed, so distant light left its source long ago.",
-          "Telescopes reverse time directly.",
-          "Galaxies stop changing when observed.",
-          "Space has no distance."
+          "Telescopes reverse time directly when pointed at faint galaxies.",
+          "Distant galaxies are younger because distance slows their clocks for observers.",
+          "Space has distance, but light from far objects reaches Earth immediately."
         ],
         correctIndex: 0,
         explanation: "The farther light travels, the older the information it carries."
@@ -22486,12 +22486,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-549-q2",
         prompt: "If a galaxy is 6 billion light-years away, what are we seeing?",
         choices: [
-          "Light that began travelling about 6 billion years ago.",
-          "The galaxy exactly as it is this instant.",
-          "A galaxy only 6 AU away.",
-          "A galaxy with no history."
+          "The galaxy exactly as it is at this instant in our frame of reference.",
+          "The galaxy as it appears after its light travelled for about 6 billion years.",
+          "A galaxy that is nearby because light-years measure brightness.",
+          "A galaxy from before the universe began expanding."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "A light-year is tied to how long light has travelled."
       },
       {
@@ -22499,9 +22499,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Why are distant galaxies useful for studying the early universe?",
         choices: [
           "Their light shows earlier stages because it has taken a long time to reach us.",
-          "They are physically younger because they are smaller in photographs.",
-          "They are always inside our Solar System.",
-          "They do not emit electromagnetic radiation."
+          "Their redshift makes them physically closer to the big bang than nearby galaxies are.",
+          "Their apparent size directly gives the age of the universe.",
+          "Their light arrives before it is emitted because space is expanding."
         ],
         correctIndex: 0,
         explanation: "Distant observations give evidence from earlier cosmic times."
@@ -22516,9 +22516,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What early stage does the CMB help scientists observe?",
         choices: [
           "A time when the young universe had cooled enough for photons to travel freely.",
-          "The exact moment Earth formed.",
-          "The formation of every individual planet.",
-          "The current surface of the Sun."
+          "The first instant of the big bang, before any expansion occurred.",
+          "The moment when the Sun and planets began forming.",
+          "The stage when modern galaxies had already reached their present forms."
         ],
         correctIndex: 0,
         explanation: "The CMB is light from an early stage when the universe became transparent to photons."
@@ -22527,24 +22527,24 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-550-q2",
         prompt: "About how old was the universe when the CMB light could travel freely?",
         choices: [
-          "About 380 000 years old.",
           "About 8 minutes old.",
+          "About 380 000 years old.",
           "About 4.5 billion years old.",
           "About 100 trillion years old."
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation: "The checklist identifies the CMB with the universe at about 380 000 years old."
       },
       {
         id: "kp-550-q3",
         prompt: "Why is the CMB seen in all directions?",
         choices: [
-          "It is radiation from the early universe that fills space around us.",
-          "It comes only from the Moon.",
-          "It is produced by one nearby radio tower.",
-          "It is reflected sunlight from planets only."
+          "It comes from one nearby source that moves across the sky each day.",
+          "It is reflected starlight from planets in the Solar System.",
+          "It is produced by telescope receivers rather than by the universe.",
+          "It is radiation from the early universe that fills space around us."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "CMB radiation is a background signal from the early universe."
       }
     ]
@@ -22557,9 +22557,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What does inflation describe in early-universe models?",
         choices: [
           "An extremely rapid expansion very soon after the big bang.",
-          "A slow shrinking of the Solar System.",
-          "The growth of one star into a galaxy.",
-          "A weather pattern in Earth's atmosphere."
+          "A gradual cooling of Earth after the Moon formed.",
+          "A stage when stars expanded into red giants.",
+          "A steady-state model in which the universe does not change."
         ],
         correctIndex: 0,
         explanation: "Inflation refers to a very brief and rapid early expansion."
@@ -22568,12 +22568,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-551-q2",
         prompt: "Why is early expansion an important step in the universe's timeline?",
         choices: [
+          "It explains how individual planets settled into stable orbits around the Sun.",
+          "It shows that galaxies were moving through a fixed empty space before time began.",
           "It helps explain how the universe grew from extremely small, hot conditions toward larger-scale structure.",
-          "It explains why Earth has seasons.",
-          "It proves the Milky Way is the only galaxy.",
-          "It describes the orbit of the Moon only."
+          "It describes why main sequence stars burn hydrogen at different rates."
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "Expansion is central to connecting the early universe with later cosmic structure."
       },
       {
@@ -22581,9 +22581,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which statement best avoids a misconception about the big bang?",
         choices: [
           "It describes expansion of the universe itself, not an ordinary explosion into pre-existing empty space.",
-          "It happened at Earth's centre.",
-          "It created only the Solar System.",
-          "It ended all expansion immediately."
+          "It happened from the centre of the Milky Way and pushed galaxies outward.",
+          "It explains the origin of the Solar System but not the larger universe.",
+          "It was a brief event after which cosmic expansion stopped."
         ],
         correctIndex: 0,
         explanation: "Cosmic expansion is not the same as fragments flying through ordinary space from one point."
@@ -22598,9 +22598,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "What happened as the early universe expanded?",
         choices: [
           "It cooled, allowing particles and later atoms to form.",
-          "It became hotter forever with no matter forming.",
-          "It immediately formed the present-day Solar System.",
-          "It stopped containing energy."
+          "It stayed at the same temperature while galaxies formed immediately.",
+          "It formed the present-day Solar System before particles existed.",
+          "It cooled by losing energy outside the universe into surrounding space."
         ],
         correctIndex: 0,
         explanation: "Expansion and cooling allowed matter to form in stages."
@@ -22609,12 +22609,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-552-q2",
         prompt: "Why could photons travel freely only after the universe cooled enough?",
         choices: [
-          "Electrons could bind with atoms, so light was no longer constantly scattered by charged particles.",
-          "Photons were invented by telescopes.",
-          "Gravity disappeared completely.",
-          "The universe became empty of all matter."
+          "Photons were created by modern telescopes when scientists detected the CMB.",
+          "Gravity stopped acting during this stage, letting light move without resistance.",
+          "The universe became transparent because stars had already formed everywhere.",
+          "Electrons could bind with atoms, so light was no longer constantly scattered by charged particles."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "When atoms formed, radiation could travel through space more freely."
       },
       {
@@ -22622,9 +22622,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which sequence best matches the general idea of early-universe development?",
         choices: [
           "Hot dense conditions -> expansion and cooling -> particles and atoms -> larger structures later.",
-          "Planets first -> stars disappear -> atoms form last.",
-          "Modern galaxies first -> big bang later.",
-          "Earth's atmosphere first -> universe expands after humans appear."
+          "Modern galaxies -> hot dense beginning -> atoms -> expansion.",
+          "Solar System formation -> first atoms -> CMB -> earliest galaxies.",
+          "Stars and planets -> elementary particles -> expansion begins."
         ],
         correctIndex: 0,
         explanation: "The universe changed from very hot early conditions toward matter and later cosmic structures."
