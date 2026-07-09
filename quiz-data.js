@@ -13741,22 +13741,22 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-336-q1",
         prompt: "In a ramp investigation, a rolling marble hits a stationary toy car and the car begins to move. Which statement best describes the energy transfer?",
         choices: [
-          "Mechanical kinetic energy moves from the marble to the toy car during the collision.",
-          "The toy car creates new energy because it was not moving before.",
-          "Energy disappears from the marble and does not go anywhere.",
-          "Only mass transfers from the marble to the toy car."
+          "Mechanical kinetic energy changes into gravitational potential energy in the toy car.",
+          "The toy car gains motion because matter transfers from the marble.",
+          "Thermal energy moves from the ramp into the toy car as the main transfer.",
+          "Mechanical kinetic energy moves from the marble to the toy car during the collision."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "The collision transfers mechanical kinetic energy from the moving marble to the toy car, causing the car to move."
       },
       {
         id: "kp-336-q2",
         prompt: "A group is testing how energy moves in a system made of a ball, a ramp, and a small cup. Which observation would best help them track energy transfer?",
         choices: [
-          "The colour of the ramp before the test.",
+          "The release height chosen before the ball starts moving.",
           "Whether the ball changes the cup's motion, position, or shape after contact.",
-          "The brand name printed on the cup.",
-          "The number of students standing near the table."
+          "The total number of parts included in the setup.",
+          "The material list written before the first trial."
         ],
         correctIndex: 1,
         explanation: "Changes in the cup's motion, position, or shape are evidence that energy was transferred from another part of the system."
@@ -13766,9 +13766,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "A warm container is placed in a cooler foam box with ice. Which description correctly tracks energy transfer between the system and surroundings?",
         choices: [
           "Thermal energy transfers from the warmer container toward the colder ice and air inside the box.",
-          "Cold energy transfers from the ice and creates thermal energy in the container.",
-          "No energy can transfer unless matter also leaves the box.",
-          "Energy transfer can only happen when objects are moving quickly."
+          "The ice transfers cold energy into the container as a separate energy form.",
+          "Energy transfer requires steam or other matter to leave the box.",
+          "Mechanical kinetic energy transfers from the container to the ice."
         ],
         correctIndex: 0,
         explanation: "Thermal energy transfers from warmer objects to cooler surroundings; observing temperature changes helps track that transfer."
@@ -13784,8 +13784,8 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "The distance the toy car rolls after leaving the ramp.",
           "The release height of the toy car.",
-          "The same toy car used in every trial.",
-          "The table where the ramp is placed."
+          "The same toy car kept for each trial.",
+          "The energy transformed after the car leaves the ramp."
         ],
         correctIndex: 1,
         explanation: "The independent variable is the factor deliberately changed: the toy car's release height."
@@ -13794,12 +13794,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-337-q2",
         prompt: "A class tests whether a falling object's mass affects the impact it makes in sand. Which factor should be kept constant to make the test fair?",
         choices: [
-          "The drop height.",
           "The mass of the falling object.",
           "The result recorded after impact.",
-          "The question being investigated."
+          "The depth of the mark made in the sand.",
+          "The drop height."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "If mass is being tested, drop height should stay constant so changes in impact can be linked more clearly to mass."
       },
       {
@@ -13848,9 +13848,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which statement best compares the top, middle, and bottom of a frictionless coaster hill?",
         choices: [
           "The top has the most mechanical kinetic energy, and the bottom has the most gravitational potential energy.",
-          "All three positions must have exactly the same amounts of gravitational potential energy and mechanical kinetic energy.",
+          "The three positions have the same total mechanical energy, so each energy form has the same value.",
           "The top has more gravitational potential energy, the bottom has more mechanical kinetic energy, and the middle has a mixture of both.",
-          "Energy is destroyed at the middle because the car is between the top and bottom."
+          "The middle has less total energy because it is between the top and bottom."
         ],
         correctIndex: 2,
         explanation: "A coaster trades gravitational potential energy and mechanical kinetic energy as its height and speed change."
@@ -13890,8 +13890,8 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "The car is fastest at the highest point because height gives it the most speed.",
           "The car is fastest after it has moved to a lower point, where more energy is in motion.",
-          "The car's speed is unrelated to height in every situation.",
-          "The car must stop at every low point because gravitational potential energy is lowest there."
+          "The car's speed depends on height mainly when the track is nearly flat.",
+          "The car slows at a low point because gravitational potential energy is lower there."
         ],
         correctIndex: 1,
         explanation: "Moving to a lower height can transform gravitational potential energy into mechanical kinetic energy, increasing speed."
@@ -13906,9 +13906,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "A real coaster climbs a second hill that is lower than its starting hill, even when no motor pushes it. What is the best explanation?",
         choices: [
           "Some mechanical energy has transformed into thermal energy and sound because of friction.",
-          "Energy has been destroyed, so conservation of energy no longer applies.",
-          "The coaster gains mass as it moves, making it impossible to climb.",
-          "Gravitational potential energy only exists on the first hill."
+          "The coaster's mass increases as it moves, reducing the height it can reach.",
+          "The second hill has a different reference point, so energy conservation does not apply.",
+          "Gravitational potential energy changes into chemical potential energy in the track."
         ],
         correctIndex: 0,
         explanation: "Friction and vibrations transform some mechanical energy into less useful forms such as thermal energy and sound, so less remains for climbing."
@@ -13917,10 +13917,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-340-q2",
         prompt: "A frictionless calculation predicts a coaster speed of 18 m/s at the bottom of a hill. Which result is most realistic for an actual coaster on the same track?",
         choices: [
-          "Exactly 18 m/s, because friction has no effect on real tracks.",
+          "18 m/s or slightly higher, because friction adds energy to the coaster.",
           "Less than 18 m/s, because some energy is transformed into thermal and sound energy.",
-          "More than 18 m/s, because friction adds mechanical kinetic energy.",
-          "0 m/s, because friction prevents all motion."
+          "The same speed at each height, because total energy is conserved.",
+          "A speed based mainly on the coaster's colour and shape."
         ],
         correctIndex: 1,
         explanation: "Real friction reduces the mechanical kinetic energy available for speed, although total energy is still conserved."
@@ -13930,7 +13930,7 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which design choice would most likely help a model coaster keep more useful mechanical energy?",
         choices: [
           "Use rough joints that make the wheels bounce and scrape.",
-          "Make the car rub against the side supports on every turn.",
+          "Make the car rub against the side supports on sharper turns.",
           "Use smoother wheel contact and a track shape that avoids sharp, scraping turns.",
           "Cover the track with a sticky surface so the car slows quickly."
         ],
@@ -13946,10 +13946,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-341-q1",
         prompt: "Which example best shows chemical potential energy being transformed into another form?",
         choices: [
-          "A parked bicycle leaning against a wall.",
+          "A food molecule stored before a reaction begins.",
           "A battery-powered flashlight producing light and thermal energy.",
-          "A glass mirror reflecting sunlight without changing the material.",
-          "A book resting on a high shelf."
+          "A glass mirror redirecting incoming light.",
+          "A book raised higher above the floor."
         ],
         correctIndex: 1,
         explanation: "Chemical potential energy stored in the battery is transformed into electrical energy, light, and some thermal energy."
@@ -13972,7 +13972,7 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "Chemical potential energy is connected to the arrangement of atoms and bonds.",
           "Chemical reactions can transform stored chemical energy into heat, light, sound, or motion.",
-          "Chemical potential energy only exists in gasoline and never in living things.",
+          "Chemical potential energy is a fuel idea, so living cells use a different kind of stored energy.",
           "Fuels and foods can both store chemical potential energy."
         ],
         correctIndex: 2,
@@ -13987,7 +13987,7 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-342-q1",
         prompt: "In a reaction between vinegar and baking soda inside a beaker, what is usually treated as the system?",
         choices: [
-          "Only the air outside the beaker.",
+          "The air outside the beaker.",
           "The reacting vinegar and baking soda mixture.",
           "The lab bench but not the chemicals.",
           "The student observing the reaction."
@@ -14000,9 +14000,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "A hand warmer becomes warmer after its chemicals react. Which direction of energy movement is most likely?",
         choices: [
           "Energy moves from the reacting system to the surroundings.",
-          "Energy moves only from the surroundings into the reacting system.",
-          "Energy is destroyed inside the packet.",
-          "Energy movement cannot happen in a closed packet."
+          "Energy moves from the surroundings into the reacting system.",
+          "Energy becomes chemical potential energy with no transfer to the hand.",
+          "Energy movement requires the packet to exchange matter with the air."
         ],
         correctIndex: 0,
         explanation: "If the surroundings feel warmer, energy has been released by the reacting system to the surroundings."
@@ -14012,9 +14012,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "A cold pack becomes colder after the inner pouch is broken and the chemicals mix. What does this suggest?",
         choices: [
           "The reaction absorbs energy from the surroundings.",
-          "The reaction produces no energy change at all.",
+          "The reaction releases energy to the student's hand.",
           "The surroundings release matter into the system.",
-          "The cold pack creates cold energy from nothing."
+          "The chemicals stop interacting with the surroundings."
         ],
         correctIndex: 0,
         explanation: "A cooling effect suggests that the reacting system absorbs energy from its surroundings."
@@ -14028,12 +14028,12 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-343-q1",
         prompt: "Why do different chemical reactions release or absorb different amounts of energy?",
         choices: [
-          "Different reactants and products have different arrangements of atoms and bonds.",
-          "All chemical bonds store exactly the same amount of energy.",
-          "Energy changes depend only on the colour of the container.",
-          "Products always have more chemical potential energy than reactants."
+          "Bond energy depends mainly on the colour of the container.",
+          "The number of letters in each chemical name controls the energy change.",
+          "Products have higher chemical potential energy in any reaction that gives off light.",
+          "Different reactants and products have different arrangements of atoms and bonds."
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation: "The energy transformed depends on the chemical potential energy associated with bonds in the reactants and products."
       },
       {
@@ -14052,10 +14052,10 @@ window.SCIENCE10_QUIZZES = {
         id: "kp-343-q3",
         prompt: "Which statement correctly compares reactants and products when predicting reaction energy?",
         choices: [
-          "Only the reactants matter because products do not store energy.",
-          "Only the products matter because reactants disappear completely.",
+          "The reactants matter more because products no longer store chemical potential energy.",
+          "The products matter more because reactants are used up during the reaction.",
           "The difference between reactant and product chemical potential energy matters.",
-          "The side with more molecules always has less chemical potential energy."
+          "The side with more molecules is the side with lower chemical potential energy."
         ],
         correctIndex: 2,
         explanation: "Energy release or absorption depends on the relative chemical potential energy of reactants and products."
@@ -14071,8 +14071,8 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "Endothermic, because energy is released to the surroundings.",
           "Exothermic, because energy is released to the surroundings.",
-          "Nuclear, because all warm reactions change nuclei.",
-          "No energy transformation, because temperature changed."
+          "Nuclear, because a warmer beaker means nuclei changed.",
+          "Endothermic, because the beaker absorbed matter from the reaction."
         ],
         correctIndex: 1,
         explanation: "A warmer surrounding beaker is evidence that the system released energy, so the reaction is exothermic."
@@ -14083,8 +14083,8 @@ window.SCIENCE10_QUIZZES = {
         choices: [
           "The reaction absorbed energy from the surroundings.",
           "The reaction released energy to the surroundings.",
-          "The reaction destroyed energy.",
-          "The reaction changed protons into neutrons."
+          "The reaction converted the extra energy into mass.",
+          "The reaction became exothermic after the products formed."
         ],
         correctIndex: 0,
         explanation: "If products store more chemical potential energy than reactants, energy must be absorbed during the reaction."
@@ -14094,9 +14094,9 @@ window.SCIENCE10_QUIZZES = {
         prompt: "A student says, \"Exothermic means the system gets hotter, so the surroundings do not matter.\" What is the best correction?",
         choices: [
           "Exothermic reactions are defined by energy released from the system to the surroundings.",
-          "Exothermic reactions always absorb energy from the surroundings.",
-          "Exothermic reactions are impossible in chemical systems.",
-          "Exothermic reactions only occur in plants."
+          "Exothermic reactions are defined by energy absorbed from the surroundings.",
+          "Exothermic reactions are mainly identified by a larger product mass.",
+          "Exothermic reactions depend on the surroundings because energy transfer is involved."
         ],
         correctIndex: 0,
         explanation: "The key idea is the direction of energy transfer: exothermic reactions release energy from the system to the surroundings."
@@ -14123,21 +14123,21 @@ window.SCIENCE10_QUIZZES = {
         prompt: "Which word equation best matches cellular respiration?",
         choices: [
           "carbon dioxide + water + light energy -> glucose + oxygen",
-          "glucose + oxygen -> carbon dioxide + water + energy",
-          "hydrogen + oxygen -> water + electrical current only",
-          "uranium + neutron -> smaller nuclei + energy"
+          "hydrogen + oxygen -> water + electrical current",
+          "uranium + neutron -> smaller nuclei + energy",
+          "glucose + oxygen -> carbon dioxide + water + energy"
         ],
-        correctIndex: 1,
+        correctIndex: 3,
         explanation: "Cellular respiration uses glucose and oxygen and produces carbon dioxide, water, and usable energy."
       },
       {
         id: "kp-345-q3",
         prompt: "Why does cellular respiration not simply burn glucose all at once like a flame?",
         choices: [
-          "Cells do not use oxygen in any energy process.",
+          "Cells avoid oxygen when transforming energy from glucose.",
           "The energy is released through controlled steps so cells can capture useful energy in ATP.",
           "Glucose has no chemical potential energy.",
-          "Carbon dioxide stores all the original energy as light."
+          "Carbon dioxide stores the released energy as light."
         ],
         correctIndex: 1,
         explanation: "Controlled steps allow cells to transfer some energy into ATP instead of releasing it all rapidly as heat and light."
