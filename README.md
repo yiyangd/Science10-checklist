@@ -1,52 +1,73 @@
 # BC Science Connections 10 Knowledge Point Checklist
 
-This repository contains a GitHub Pages-ready interactive checklist for the BC Science Connections 10 full-course knowledge points.
+This repository contains a hierarchical, quiz-gated learning checklist for the BC Science Connections 10 course. It is a static application designed for GitHub Pages and does not require a backend or build step.
 
-## Files
+## Learning Flow
 
-- `index.html` - canonical GitHub Pages interactive checklist served from the site root.
-- `BCScienceConnections10_Full_Course_Master_Knowledge_Point_Checklist_Interactive_v2.html` - redirect shim for old long URLs; it preserves hash anchors and sends visitors back to the clean site root.
-- `BCScienceConnections10_Full_Course_Master_Knowledge_Point_Checklist_Interactive_v2_backup.html` - archived backup copy of the canonical interactive HTML checklist.
-- `BCScienceConnections10_Full_Course_Master_Knowledge_Point_Checklist.md` - source Markdown checklist.
-- `quiz-data.js` - pilot quiz question bank for the first five Knowledge Points.
-- `.nojekyll` - tells GitHub Pages to serve files as static assets without Jekyll processing.
+The application uses three focused levels instead of rendering the full course at once:
 
-## Use
+1. Home shows four Unit cards with progress.
+2. A Unit view shows its four Chapter cards.
+3. A Chapter view shows its Concepts and Knowledge Points.
 
-Open the GitHub Pages root URL, or open `index.html` from the repository root. The checklist supports:
+The course contains 4 Units, 16 Chapters, 572 Knowledge Points, and 1716 multiple-choice questions. Every Knowledge Point requires passing its three-question Quiz before completion is saved.
 
-- Unit and Chapter navigation
-- collapsible Units and Chapters
-- searchable checklist content
-- MathJax-rendered formulas
-- checkbox progress saved in the browser
-- quiz-gated completion for the first five Knowledge Points
-- Reset Progress with confirmation
+## Project Structure
+
+- `index.html` - small application shell and canonical GitHub Pages entry point
+- `assets/styles.css` - responsive application and Quiz styles
+- `js/` - routing, storage, data loading, Quiz modal, and view rendering modules
+- `data/course-index.json` - small Home and Unit navigation registry
+- `data/units/` - academic checklist content split by Unit
+- `data/quizzes/` - Quiz data split by Unit and loaded on demand
+- `data/search-index.json` - global search data loaded only when search is used
+- `data/content-manifest.json` - SHA-256 baseline for all 572 academic records
+- `data/quiz-manifest.json` - SHA-256 baseline for all 572 Quizzes
+- `scripts/validate-data.mjs` - academic and Quiz integrity validation
+- `scripts/validate-app.mjs` - application structure and deployment validation
+- `BCScienceConnections10_Full_Course_Master_Knowledge_Point_Checklist.md` - source Markdown checklist
+- `BCScienceConnections10_Full_Course_Master_Knowledge_Point_Checklist_Interactive_v2.html` - old-URL redirect shim
+- `.nojekyll` - disables Jekyll processing
+
+## Local Use
+
+The application loads JSON data with `fetch`, so serve the repository over HTTP rather than opening `index.html` with a `file://` URL.
+
+```powershell
+npm.cmd run serve
+```
+
+Then open `http://127.0.0.1:8765/`.
+
+Run all static integrity checks with:
+
+```powershell
+npm.cmd run validate
+```
+
+## Routing
+
+GitHub Pages-safe Hash routes support browser history and shared links:
+
+- Home: `#/`
+- Unit: `#/unit/1`
+- Chapter: `#/unit/1/chapter/1-1`
+- Knowledge Point: `#/unit/1/chapter/1-1/kp/1`
+
+Legacy `#unit-1`, `#chapter-1-1`, `#kp-1`, and old v2 filename links are migrated to the new routes.
+
+## Progress and Quiz Notes
+
+- Existing `BCScienceConnections10_Checklist_v2` and `BCScienceConnections10_QuizGate_v1` localStorage data remains compatible.
+- Progress is stored only in the visitor's browser and does not sync across browsers, devices, or private sessions.
+- Answer choices are reshuffled whenever a Quiz opens or is retried.
+- Reset Progress requires confirmation and clears checklist and Quiz-pass state.
+- MathJax loads from `https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js`. Raw TeX remains visible if the CDN is unavailable.
 
 ## GitHub Pages Deployment
 
-1. Create a GitHub repository and add these files to the repository root.
-2. Commit and push the files.
-3. In GitHub, open **Settings > Pages**.
-4. Under **Build and deployment**, choose **Deploy from a branch**.
-5. Select the branch containing these files, usually `main`, and choose the repository root folder.
-6. Save the Pages settings and wait for GitHub to publish the site.
-7. Open the published Pages URL. It should load the interactive checklist directly from the site root.
+The workflow in `.github/workflows/pages.yml` publishes the static shell, modules, split data, README, Markdown source, `.nojekyll`, and old-URL redirect shim to the `gh-pages` branch. Repository Pages settings should use **Deploy from a branch > gh-pages > root**.
 
-## Notes
+The published root URL is:
 
-- MathJax loads from `https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js`. Formulas remain visible as raw TeX if the CDN is unavailable.
-- Progress is saved with `localStorage` in the visitor's browser. It does not sync across browsers, devices, or private browsing sessions.
-- The interactive HTML is standalone and does not require local images, CSS files, or JavaScript files.
-- The source Markdown is included for review and future regeneration. The root `index.html` file is the canonical deployed interactive checklist.
-- The old v2 filename redirects to the clean root URL. For example, `BCScienceConnections10_Full_Course_Master_Knowledge_Point_Checklist_Interactive_v2.html#unit-1` redirects to `./#unit-1`.
-- The `BCScienceConnections10_Full_Course_Master_Knowledge_Point_Checklist_Interactive_v2_backup.html` file is archived only.
-- The quiz gate is currently a pilot for `kp-1` through `kp-5`. Other Knowledge Points still use the standard checklist behavior until their quiz data is added.
-
-## Published URL Format
-
-The deployed checklist should use clean root URLs:
-
-- Main site: `https://yiyangd.github.io/Science10-checklist/`
-- Unit anchors: `https://yiyangd.github.io/Science10-checklist/#unit-1`
-- Chapter anchors: `https://yiyangd.github.io/Science10-checklist/#chapter-1-1`
+`https://yiyangd.github.io/Science10-checklist/`

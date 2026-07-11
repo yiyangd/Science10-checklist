@@ -1,0 +1,1840 @@
+{
+  "id": "unit-2",
+  "number": 2,
+  "titleHtml": "Unit 2: Chemical processes require energy change as atoms are rearranged",
+  "title": "Unit 2: Chemical processes require energy change as atoms are rearranged",
+  "kpCount": 144,
+  "chapters": [
+    {
+      "id": "chapter-2-1",
+      "number": "2-1",
+      "titleHtml": "Chapter 2.1: How are chemical processes part of our lives?",
+      "title": "Chapter 2.1: How are chemical processes part of our lives?",
+      "kpCount": 27,
+      "concepts": [
+        {
+          "id": "2-1-concept-1-applications-of-chemistry-are-everywhere-in-the-world-around-you-p-104-105",
+          "titleHtml": "2.1 Concept 1: Applications of chemistry are everywhere in the world around you — p.104–105",
+          "title": "2.1 Concept 1: Applications of chemistry are everywhere in the world around you — p.104–105",
+          "kps": [
+            {
+              "id": "kp-162",
+              "number": 162,
+              "displayNumber": 162,
+              "titleHtml": "KP1: Chemical reactions",
+              "title": "KP1: Chemical reactions",
+              "coreHtml": "A chemical reaction is a process in which atoms of one or more substances are rearranged to form different substances.",
+              "core": "A chemical reaction is a process in which atoms of one or more substances are rearranged to form different substances.",
+              "applicationHtml": "Identify chemical reactions in visible events such as fireworks and in less obvious everyday processes.",
+              "application": "Identify chemical reactions in visible events such as fireworks and in less obvious everyday processes."
+            },
+            {
+              "id": "kp-163",
+              "number": 163,
+              "displayNumber": 163,
+              "titleHtml": "KP2: Chemistry in living systems",
+              "title": "KP2: Chemistry in living systems",
+              "coreHtml": "Chemical reactions help maintain health and sustain life.",
+              "core": "Chemical reactions help maintain health and sustain life.",
+              "applicationHtml": "Connect chemistry to food digestion, nutrients, body cells, and living processes.",
+              "application": "Connect chemistry to food digestion, nutrients, body cells, and living processes."
+            },
+            {
+              "id": "kp-164",
+              "number": 164,
+              "displayNumber": 164,
+              "titleHtml": "KP3: Chemistry in medicine",
+              "title": "KP3: Chemistry in medicine",
+              "coreHtml": "Chemistry supports medical tools and technologies that help visualize or understand the body.",
+              "core": "Chemistry supports medical tools and technologies that help visualize or understand the body.",
+              "applicationHtml": "Explain how chemical knowledge can contribute to medical advances such as imaging technologies.",
+              "application": "Explain how chemical knowledge can contribute to medical advances such as imaging technologies."
+            },
+            {
+              "id": "kp-165",
+              "number": 165,
+              "displayNumber": 165,
+              "titleHtml": "KP4: Chemistry in personal and consumer products",
+              "title": "KP4: Chemistry in personal and consumer products",
+              "coreHtml": "Personal care products and many consumer materials are designed with specific chemical properties.",
+              "core": "Personal care products and many consumer materials are designed with specific chemical properties.",
+              "applicationHtml": "Analyze how chemistry affects the production, use, and safety of everyday products.",
+              "application": "Analyze how chemistry affects the production, use, and safety of everyday products."
+            },
+            {
+              "id": "kp-166",
+              "number": 166,
+              "displayNumber": 166,
+              "titleHtml": "KP5: Chemistry in transportation and pollution",
+              "title": "KP5: Chemistry in transportation and pollution",
+              "coreHtml": "Transportation technologies depend on chemistry but can also contribute to air, land, and water pollution.",
+              "core": "Transportation technologies depend on chemistry but can also contribute to air, land, and water pollution.",
+              "applicationHtml": "Evaluate both positive and negative effects of chemistry in transportation.",
+              "application": "Evaluate both positive and negative effects of chemistry in transportation."
+            },
+            {
+              "id": "kp-167",
+              "number": 167,
+              "displayNumber": 167,
+              "titleHtml": "KP6: Synthetic materials",
+              "title": "KP6: Synthetic materials",
+              "coreHtml": "Synthetic materials such as plastics and synthetic fibres are human-made products with designed properties.",
+              "core": "Synthetic materials such as plastics and synthetic fibres are human-made products with designed properties.",
+              "applicationHtml": "Compare the advantages of durability and usefulness with disadvantages such as persistence and pollution.",
+              "application": "Compare the advantages of durability and usefulness with disadvantages such as persistence and pollution."
+            }
+          ]
+        },
+        {
+          "id": "2-1-concept-2-knowing-how-to-handle-chemicals-helps-keep-us-and-our-environment-safe-p-108-110",
+          "titleHtml": "2.1 Concept 2: Knowing how to handle chemicals helps keep us and our environment safe — p.108–110",
+          "title": "2.1 Concept 2: Knowing how to handle chemicals helps keep us and our environment safe — p.108–110",
+          "kps": [
+            {
+              "id": "kp-168",
+              "number": 168,
+              "displayNumber": 168,
+              "titleHtml": "KP1: Chemical hazards",
+              "title": "KP1: Chemical hazards",
+              "coreHtml": "Some chemical compounds have properties that make them potentially dangerous.",
+              "core": "Some chemical compounds have properties that make them potentially dangerous.",
+              "applicationHtml": "Recognize that safe handling depends on understanding the chemical’s risks.",
+              "application": "Recognize that safe handling depends on understanding the chemical’s risks."
+            },
+            {
+              "id": "kp-169",
+              "number": 169,
+              "displayNumber": 169,
+              "titleHtml": "KP2: WHMIS labels",
+              "title": "KP2: WHMIS labels",
+              "coreHtml": "WHMIS labels provide information about chemical hazards in laboratories and workplaces.",
+              "core": "WHMIS labels provide information about chemical hazards in laboratories and workplaces.",
+              "applicationHtml": "Use WHMIS symbols to identify risks such as flammability, corrosion, toxicity, or pressure hazards.",
+              "application": "Use WHMIS symbols to identify risks such as flammability, corrosion, toxicity, or pressure hazards."
+            },
+            {
+              "id": "kp-170",
+              "number": 170,
+              "displayNumber": 170,
+              "titleHtml": "KP3: Safety Data Sheets",
+              "title": "KP3: Safety Data Sheets",
+              "coreHtml": "Safety Data Sheets, or SDS, provide information about chemical properties, handling, storage, disposal, hazards, and first aid.",
+              "core": "Safety Data Sheets, or SDS, provide information about chemical properties, handling, storage, disposal, hazards, and first aid.",
+              "applicationHtml": "Consult SDS information before planning or carrying out chemical work.",
+              "application": "Consult SDS information before planning or carrying out chemical work."
+            },
+            {
+              "id": "kp-171",
+              "number": 171,
+              "displayNumber": 171,
+              "titleHtml": "KP4: Protective equipment and behaviour",
+              "title": "KP4: Protective equipment and behaviour",
+              "coreHtml": "Safe chemical work requires protective equipment and responsible behaviour.",
+              "core": "Safe chemical work requires protective equipment and responsible behaviour.",
+              "applicationHtml": "Use safety goggles, lab coats or aprons, tied-back hair, and no eating or drinking during investigations.",
+              "application": "Use safety goggles, lab coats or aprons, tied-back hair, and no eating or drinking during investigations."
+            },
+            {
+              "id": "kp-172",
+              "number": 172,
+              "displayNumber": 172,
+              "titleHtml": "KP5: Emergency response in the classroom",
+              "title": "KP5: Emergency response in the classroom",
+              "coreHtml": "Chemical safety includes knowing emergency equipment, exits, eyewash stations, and spill-response procedures.",
+              "core": "Chemical safety includes knowing emergency equipment, exits, eyewash stations, and spill-response procedures.",
+              "applicationHtml": "Respond appropriately to spills, eye exposure, skin contact, and other classroom hazards.",
+              "application": "Respond appropriately to spills, eye exposure, skin contact, and other classroom hazards."
+            },
+            {
+              "id": "kp-173",
+              "number": 173,
+              "displayNumber": 173,
+              "titleHtml": "KP6: Heating, fumes, and handling containers",
+              "title": "KP6: Heating, fumes, and handling containers",
+              "coreHtml": "Heating chemicals and handling fumes require extra caution.",
+              "core": "Heating chemicals and handling fumes require extra caution.",
+              "applicationHtml": "Point heated containers away from people, never leave flames unattended, and waft fumes instead of smelling directly.",
+              "application": "Point heated containers away from people, never leave flames unattended, and waft fumes instead of smelling directly."
+            },
+            {
+              "id": "kp-174",
+              "number": 174,
+              "displayNumber": 174,
+              "titleHtml": "KP7: Minimizing personal and environmental risk",
+              "title": "KP7: Minimizing personal and environmental risk",
+              "coreHtml": "Chemical safety includes reducing risks to people and reducing harm to the environment.",
+              "core": "Chemical safety includes reducing risks to people and reducing harm to the environment.",
+              "applicationHtml": "Choose handling, storage, and disposal methods that protect both personal safety and environmental quality.",
+              "application": "Choose handling, storage, and disposal methods that protect both personal safety and environmental quality."
+            }
+          ]
+        },
+        {
+          "id": "optional-extension-make-a-difference-take-action-chemicals-in-our-water-p-106-107",
+          "titleHtml": "Optional Extension — Make a Difference: Take Action — Chemicals in Our Water — p.106–107",
+          "title": "Optional Extension — Make a Difference: Take Action — Chemicals in Our Water — p.106–107",
+          "kps": [
+            {
+              "id": "kp-175",
+              "number": 175,
+              "displayNumber": 175,
+              "titleHtml": "KP1: Water as a solvent",
+              "title": "KP1: Water as a solvent",
+              "coreHtml": "Water is called the universal solvent because many substances can dissolve in it.",
+              "core": "Water is called the universal solvent because many substances can dissolve in it.",
+              "applicationHtml": "Explain why water can contain both naturally occurring substances and pollutants.",
+              "application": "Explain why water can contain both naturally occurring substances and pollutants."
+            },
+            {
+              "id": "kp-176",
+              "number": 176,
+              "displayNumber": 176,
+              "titleHtml": "KP2: Water pollution sources",
+              "title": "KP2: Water pollution sources",
+              "coreHtml": "Water pollution can come from household, mining, industrial, pharmaceutical, and plastic waste.",
+              "core": "Water pollution can come from household, mining, industrial, pharmaceutical, and plastic waste.",
+              "applicationHtml": "Identify human activities that introduce harmful substances into water systems.",
+              "application": "Identify human activities that introduce harmful substances into water systems."
+            },
+            {
+              "id": "kp-177",
+              "number": 177,
+              "displayNumber": 177,
+              "titleHtml": "KP3: Wastewater and stormwater",
+              "title": "KP3: Wastewater and stormwater",
+              "coreHtml": "Wastewater treatment can reduce but not remove all pollutants; stormwater can flow directly into local waterways.",
+              "core": "Wastewater treatment can reduce but not remove all pollutants; stormwater can flow directly into local waterways.",
+              "applicationHtml": "Compare treated wastewater with untreated storm drain runoff.",
+              "application": "Compare treated wastewater with untreated storm drain runoff."
+            },
+            {
+              "id": "kp-178",
+              "number": 178,
+              "displayNumber": 178,
+              "titleHtml": "KP4: Safe drinking water and community responsibility",
+              "title": "KP4: Safe drinking water and community responsibility",
+              "coreHtml": "Water quality issues affect communities differently, including some First Nations communities with unsafe drinking water.",
+              "core": "Water quality issues affect communities differently, including some First Nations communities with unsafe drinking water.",
+              "applicationHtml": "Develop actions that improve awareness, reduce pollution, or support cleaner water systems.",
+              "application": "Develop actions that improve awareness, reduce pollution, or support cleaner water systems."
+            }
+          ]
+        },
+        {
+          "id": "optional-extension-at-issue-fighting-fires-with-chemistry-p-112-113",
+          "titleHtml": "Optional Extension — At Issue: Fighting Fires with Chemistry — p.112–113",
+          "title": "Optional Extension — At Issue: Fighting Fires with Chemistry — p.112–113",
+          "kps": [
+            {
+              "id": "kp-179",
+              "number": 179,
+              "displayNumber": 179,
+              "titleHtml": "KP1: Fire extinguisher types",
+              "title": "KP1: Fire extinguisher types",
+              "coreHtml": "Different classes of fires require different types of fire extinguishers.",
+              "core": "Different classes of fires require different types of fire extinguishers.",
+              "applicationHtml": "Match extinguisher type to fuel source, such as ordinary combustibles, flammable liquids, electrical equipment, metals, or cooking oils.",
+              "application": "Match extinguisher type to fuel source, such as ordinary combustibles, flammable liquids, electrical equipment, metals, or cooking oils."
+            },
+            {
+              "id": "kp-180",
+              "number": 180,
+              "displayNumber": 180,
+              "titleHtml": "KP2: Correct extinguisher choice",
+              "title": "KP2: Correct extinguisher choice",
+              "coreHtml": "The wrong extinguisher can spread a fire or create new hazards.",
+              "core": "The wrong extinguisher can spread a fire or create new hazards.",
+              "applicationHtml": "Explain why water should not be used on electrical or oil-based fires.",
+              "application": "Explain why water should not be used on electrical or oil-based fires."
+            },
+            {
+              "id": "kp-181",
+              "number": 181,
+              "displayNumber": 181,
+              "titleHtml": "KP3: Fire extinguisher labels",
+              "title": "KP3: Fire extinguisher labels",
+              "coreHtml": "Fire extinguishers use letters and symbols to show which fire classes they can safely address.",
+              "core": "Fire extinguishers use letters and symbols to show which fire classes they can safely address.",
+              "applicationHtml": "Read extinguisher labels before deciding how to respond to a fire.",
+              "application": "Read extinguisher labels before deciding how to respond to a fire."
+            },
+            {
+              "id": "kp-182",
+              "number": 182,
+              "displayNumber": 182,
+              "titleHtml": "KP4: Chemical trade-offs in fire safety",
+              "title": "KP4: Chemical trade-offs in fire safety",
+              "coreHtml": "Fire-suppression chemicals can have benefits and environmental or health risks.",
+              "core": "Fire-suppression chemicals can have benefits and environmental or health risks.",
+              "applicationHtml": "Evaluate why some chemicals, such as halons, may be phased out or require careful disposal.",
+              "application": "Evaluate why some chemicals, such as halons, may be phased out or require careful disposal."
+            }
+          ]
+        },
+        {
+          "id": "optional-investigation-investigation-2-a-is-it-worth-it-p-114-115",
+          "titleHtml": "Optional Investigation — Investigation 2-A: Is It Worth It? — p.114–115",
+          "title": "Optional Investigation — Investigation 2-A: Is It Worth It? — p.114–115",
+          "kps": [
+            {
+              "id": "kp-183",
+              "number": 183,
+              "displayNumber": 183,
+              "titleHtml": "KP1: Product life cycle",
+              "title": "KP1: Product life cycle",
+              "coreHtml": "A product’s life cycle includes raw material extraction, processing, manufacture, distribution, use, recycling, and disposal.",
+              "core": "A product’s life cycle includes raw material extraction, processing, manufacture, distribution, use, recycling, and disposal.",
+              "applicationHtml": "Analyze the environmental and social impact of a synthetic product across its life cycle.",
+              "application": "Analyze the environmental and social impact of a synthetic product across its life cycle."
+            },
+            {
+              "id": "kp-184",
+              "number": 184,
+              "displayNumber": 184,
+              "titleHtml": "KP2: Positive and negative product impacts",
+              "title": "KP2: Positive and negative product impacts",
+              "coreHtml": "Synthetic products can benefit society while also producing unintended environmental consequences.",
+              "core": "Synthetic products can benefit society while also producing unintended environmental consequences.",
+              "applicationHtml": "Compare usefulness, durability, cost, waste, toxicity, and pollution for one product.",
+              "application": "Compare usefulness, durability, cost, waste, toxicity, and pollution for one product."
+            },
+            {
+              "id": "kp-185",
+              "number": 185,
+              "displayNumber": 185,
+              "titleHtml": "KP3: Green alternatives and recycling",
+              "title": "KP3: Green alternatives and recycling",
+              "coreHtml": "Negative impacts can sometimes be reduced through recycling programs, reuse, or greener alternatives.",
+              "core": "Negative impacts can sometimes be reduced through recycling programs, reuse, or greener alternatives.",
+              "applicationHtml": "Evaluate whether a synthetic product is “worth it” based on evidence.",
+              "application": "Evaluate whether a synthetic product is “worth it” based on evidence."
+            }
+          ]
+        },
+        {
+          "id": "optional-investigation-investigation-2-b-prepare-an-emergency-response-plan-p-116-117",
+          "titleHtml": "Optional Investigation — Investigation 2-B: Prepare an Emergency Response Plan — p.116–117",
+          "title": "Optional Investigation — Investigation 2-B: Prepare an Emergency Response Plan — p.116–117",
+          "kps": [
+            {
+              "id": "kp-186",
+              "number": 186,
+              "displayNumber": 186,
+              "titleHtml": "KP1: Emergency preparedness",
+              "title": "KP1: Emergency preparedness",
+              "coreHtml": "Chemical accidents can threaten people and the environment, so planning reduces harm.",
+              "core": "Chemical accidents can threaten people and the environment, so planning reduces harm.",
+              "applicationHtml": "Identify possible emergency scenarios involving gas leaks, fires, spills, or evacuation needs.",
+              "application": "Identify possible emergency scenarios involving gas leaks, fires, spills, or evacuation needs."
+            },
+            {
+              "id": "kp-187",
+              "number": 187,
+              "displayNumber": 187,
+              "titleHtml": "KP2: Response plan components",
+              "title": "KP2: Response plan components",
+              "coreHtml": "An emergency response plan should include preparation, evacuation procedures, communication, cleanup, and disposal.",
+              "core": "An emergency response plan should include preparation, evacuation procedures, communication, cleanup, and disposal.",
+              "applicationHtml": "Build a plan that explains who acts, where people go, and how hazards are managed.",
+              "application": "Build a plan that explains who acts, where people go, and how hazards are managed."
+            },
+            {
+              "id": "kp-188",
+              "number": 188,
+              "displayNumber": 188,
+              "titleHtml": "KP3: Communication and audience",
+              "title": "KP3: Communication and audience",
+              "coreHtml": "Emergency plans must be communicated clearly to the people who need to follow them.",
+              "core": "Emergency plans must be communicated clearly to the people who need to follow them.",
+              "applicationHtml": "Present emergency information in a format appropriate for a school, workplace, or community.",
+              "application": "Present emergency information in a format appropriate for a school, workplace, or community."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chapter-2-2",
+      "number": "2-2",
+      "titleHtml": "Chapter 2.2: What happens to atoms in a chemical reaction?",
+      "title": "Chapter 2.2: What happens to atoms in a chemical reaction?",
+      "kpCount": 37,
+      "concepts": [
+        {
+          "id": "2-2-concept-1-atoms-bond-together-to-form-ionic-and-covalent-compounds-p-120-122",
+          "titleHtml": "2.2 Concept 1: Atoms bond together to form ionic and covalent compounds — p.120–122",
+          "title": "2.2 Concept 1: Atoms bond together to form ionic and covalent compounds — p.120–122",
+          "kps": [
+            {
+              "id": "kp-189",
+              "number": 189,
+              "displayNumber": 189,
+              "titleHtml": "KP1: Compounds",
+              "title": "KP1: Compounds",
+              "coreHtml": "Compounds are made of atoms of different elements chemically combined in specific proportions.",
+              "core": "Compounds are made of atoms of different elements chemically combined in specific proportions.",
+              "applicationHtml": "Classify substances as elements or compounds before analyzing a chemical reaction.",
+              "application": "Classify substances as elements or compounds before analyzing a chemical reaction."
+            },
+            {
+              "id": "kp-190",
+              "number": 190,
+              "displayNumber": 190,
+              "titleHtml": "KP2: Ionic compounds",
+              "title": "KP2: Ionic compounds",
+              "coreHtml": "Ionic compounds are made of positively charged cations and negatively charged anions.",
+              "core": "Ionic compounds are made of positively charged cations and negatively charged anions.",
+              "applicationHtml": "Identify ionic compounds as substances formed from oppositely charged ions.",
+              "application": "Identify ionic compounds as substances formed from oppositely charged ions."
+            },
+            {
+              "id": "kp-191",
+              "number": 191,
+              "displayNumber": 191,
+              "titleHtml": "KP3: Ionic bonds",
+              "title": "KP3: Ionic bonds",
+              "coreHtml": "An ionic bond is a strong attraction between oppositely charged ions.",
+              "core": "An ionic bond is a strong attraction between oppositely charged ions.",
+              "applicationHtml": "Explain how electron transfer between metal and non-metal atoms forms stable ions.",
+              "application": "Explain how electron transfer between metal and non-metal atoms forms stable ions."
+            },
+            {
+              "id": "kp-192",
+              "number": 192,
+              "displayNumber": 192,
+              "titleHtml": "KP4: Covalent compounds",
+              "title": "KP4: Covalent compounds",
+              "coreHtml": "Covalent compounds form when atoms of non-metal elements share electrons.",
+              "core": "Covalent compounds form when atoms of non-metal elements share electrons.",
+              "applicationHtml": "Distinguish covalent bonding from ionic bonding.",
+              "application": "Distinguish covalent bonding from ionic bonding."
+            },
+            {
+              "id": "kp-193",
+              "number": 193,
+              "displayNumber": 193,
+              "titleHtml": "KP5: Covalent bonds",
+              "title": "KP5: Covalent bonds",
+              "coreHtml": "A covalent bond is a strong attraction formed when atoms share valence electrons.",
+              "core": "A covalent bond is a strong attraction formed when atoms share valence electrons.",
+              "applicationHtml": "Identify single, double, and triple covalent bonds in simple molecules.",
+              "application": "Identify single, double, and triple covalent bonds in simple molecules."
+            },
+            {
+              "id": "kp-194",
+              "number": 194,
+              "displayNumber": 194,
+              "titleHtml": "KP6: Molecules",
+              "title": "KP6: Molecules",
+              "coreHtml": "A molecule is the smallest independent unit of a covalent compound or a covalently bonded element.",
+              "core": "A molecule is the smallest independent unit of a covalent compound or a covalently bonded element.",
+              "applicationHtml": "Distinguish molecular substances from ionic crystal lattices.",
+              "application": "Distinguish molecular substances from ionic crystal lattices."
+            },
+            {
+              "id": "kp-195",
+              "number": 195,
+              "displayNumber": 195,
+              "titleHtml": "KP7: Formula units versus molecules",
+              "title": "KP7: Formula units versus molecules",
+              "coreHtml": "Ionic compounds are represented by formula units, while most covalent compounds exist as molecules.",
+              "core": "Ionic compounds are represented by formula units, while most covalent compounds exist as molecules.",
+              "applicationHtml": "Avoid describing ionic compounds such as sodium chloride as separate molecules.",
+              "application": "Avoid describing ionic compounds such as sodium chloride as separate molecules."
+            }
+          ]
+        },
+        {
+          "id": "2-2-concept-2-bonds-are-broken-atoms-are-rearranged-and-new-bonds-are-formed-p-123-124",
+          "titleHtml": "2.2 Concept 2: Bonds are broken, atoms are rearranged, and new bonds are formed — p.123–124",
+          "title": "2.2 Concept 2: Bonds are broken, atoms are rearranged, and new bonds are formed — p.123–124",
+          "kps": [
+            {
+              "id": "kp-196",
+              "number": 196,
+              "displayNumber": 196,
+              "titleHtml": "KP1: Atom rearrangement",
+              "title": "KP1: Atom rearrangement",
+              "coreHtml": "In a chemical reaction, atoms are rearranged to form new substances.",
+              "core": "In a chemical reaction, atoms are rearranged to form new substances.",
+              "applicationHtml": "Track atoms from reactants to products.",
+              "application": "Track atoms from reactants to products."
+            },
+            {
+              "id": "kp-197",
+              "number": 197,
+              "displayNumber": 197,
+              "titleHtml": "KP2: Breaking chemical bonds",
+              "title": "KP2: Breaking chemical bonds",
+              "coreHtml": "Existing chemical bonds must be broken before atoms can rearrange.",
+              "core": "Existing chemical bonds must be broken before atoms can rearrange.",
+              "applicationHtml": "Explain why energy is needed to separate bonded atoms or ions.",
+              "application": "Explain why energy is needed to separate bonded atoms or ions."
+            },
+            {
+              "id": "kp-198",
+              "number": 198,
+              "displayNumber": 198,
+              "titleHtml": "KP3: Forming new chemical bonds",
+              "title": "KP3: Forming new chemical bonds",
+              "coreHtml": "New bonds form between rearranged atoms to produce new substances.",
+              "core": "New bonds form between rearranged atoms to produce new substances.",
+              "applicationHtml": "Identify product formation as evidence that new bonds have formed.",
+              "application": "Identify product formation as evidence that new bonds have formed."
+            },
+            {
+              "id": "kp-199",
+              "number": 199,
+              "displayNumber": 199,
+              "titleHtml": "KP4: Bond energy changes",
+              "title": "KP4: Bond energy changes",
+              "coreHtml": "Breaking bonds requires energy; forming bonds releases energy.",
+              "core": "Breaking bonds requires energy; forming bonds releases energy.",
+              "applicationHtml": "Connect chemical reactions to energy changes.",
+              "application": "Connect chemical reactions to energy changes."
+            },
+            {
+              "id": "kp-200",
+              "number": 200,
+              "displayNumber": 200,
+              "titleHtml": "KP5: Stability and valence shells",
+              "title": "KP5: Stability and valence shells",
+              "coreHtml": "Bond formation can make atoms more stable by filling valence shells.",
+              "core": "Bond formation can make atoms more stable by filling valence shells.",
+              "applicationHtml": "Explain why atoms form ionic or covalent bonds.",
+              "application": "Explain why atoms form ionic or covalent bonds."
+            }
+          ]
+        },
+        {
+          "id": "2-2-concept-3-mass-cannot-be-created-or-destroyed-in-a-chemical-reaction-p-125-126",
+          "titleHtml": "2.2 Concept 3: Mass cannot be created or destroyed in a chemical reaction — p.125–126",
+          "title": "2.2 Concept 3: Mass cannot be created or destroyed in a chemical reaction — p.125–126",
+          "kps": [
+            {
+              "id": "kp-201",
+              "number": 201,
+              "displayNumber": 201,
+              "titleHtml": "KP1: Law of conservation of mass",
+              "title": "KP1: Law of conservation of mass",
+              "coreHtml": "In a chemical reaction, the total mass of substances used equals the total mass of substances produced.",
+              "core": "In a chemical reaction, the total mass of substances used equals the total mass of substances produced.",
+              "applicationHtml": "Explain why atoms are conserved during a chemical reaction.",
+              "application": "Explain why atoms are conserved during a chemical reaction."
+            },
+            {
+              "id": "kp-202",
+              "number": 202,
+              "displayNumber": 202,
+              "titleHtml": "KP2: Closed systems",
+              "title": "KP2: Closed systems",
+              "coreHtml": "In a closed system, energy can enter or leave, but matter cannot.",
+              "core": "In a closed system, energy can enter or leave, but matter cannot.",
+              "applicationHtml": "Use closed systems to test whether mass is conserved.",
+              "application": "Use closed systems to test whether mass is conserved."
+            },
+            {
+              "id": "kp-203",
+              "number": 203,
+              "displayNumber": 203,
+              "titleHtml": "KP3: Open systems",
+              "title": "KP3: Open systems",
+              "coreHtml": "In an open system, both matter and energy can enter or leave.",
+              "core": "In an open system, both matter and energy can enter or leave.",
+              "applicationHtml": "Explain why gases escaping from a reaction can make mass measurements appear to change.",
+              "application": "Explain why gases escaping from a reaction can make mass measurements appear to change."
+            },
+            {
+              "id": "kp-204",
+              "number": 204,
+              "displayNumber": 204,
+              "titleHtml": "KP4: Lavoisier’s contribution",
+              "title": "KP4: Lavoisier’s contribution",
+              "coreHtml": "Careful mass measurements before and after reactions helped establish the law of conservation of mass.",
+              "core": "Careful mass measurements before and after reactions helped establish the law of conservation of mass.",
+              "applicationHtml": "Connect experimental evidence to scientific laws.",
+              "application": "Connect experimental evidence to scientific laws."
+            },
+            {
+              "id": "kp-205",
+              "number": 205,
+              "displayNumber": 205,
+              "titleHtml": "KP5: Atom conservation",
+              "title": "KP5: Atom conservation",
+              "coreHtml": "Atoms are not created or destroyed in chemical reactions; they are rearranged.",
+              "core": "Atoms are not created or destroyed in chemical reactions; they are rearranged.",
+              "applicationHtml": "Use atom counting to check whether a chemical equation obeys conservation of mass.",
+              "application": "Use atom counting to check whether a chemical equation obeys conservation of mass."
+            }
+          ]
+        },
+        {
+          "id": "2-2-concept-4-a-chemical-equation-represents-what-happens-to-the-atoms-in-a-reaction-p-128-133",
+          "titleHtml": "2.2 Concept 4: A chemical equation represents what happens to the atoms in a reaction — p.128–133",
+          "title": "2.2 Concept 4: A chemical equation represents what happens to the atoms in a reaction — p.128–133",
+          "kps": [
+            {
+              "id": "kp-206",
+              "number": 206,
+              "displayNumber": 206,
+              "titleHtml": "KP1: Chemical equations",
+              "title": "KP1: Chemical equations",
+              "coreHtml": "A chemical equation uses words or chemical formulas to represent a chemical reaction.",
+              "core": "A chemical equation uses words or chemical formulas to represent a chemical reaction.",
+              "applicationHtml": "Interpret the arrow as “produces” or “yields” and plus signs as “reacts with” or “and.”",
+              "application": "Interpret the arrow as “produces” or “yields” and plus signs as “reacts with” or “and.”"
+            },
+            {
+              "id": "kp-207",
+              "number": 207,
+              "displayNumber": 207,
+              "titleHtml": "KP2: Reactants and products",
+              "title": "KP2: Reactants and products",
+              "coreHtml": "Reactants are substances that undergo chemical change; products are substances formed in the reaction.",
+              "core": "Reactants are substances that undergo chemical change; products are substances formed in the reaction.",
+              "applicationHtml": "Identify reactants on the left side and products on the right side of a chemical equation.",
+              "application": "Identify reactants on the left side and products on the right side of a chemical equation."
+            },
+            {
+              "id": "kp-208",
+              "number": 208,
+              "displayNumber": 208,
+              "titleHtml": "KP3: Word equations",
+              "title": "KP3: Word equations",
+              "coreHtml": "A word equation describes reactants and products using names.",
+              "core": "A word equation describes reactants and products using names.",
+              "applicationHtml": "Translate a reaction description into a word equation before using formulas.",
+              "application": "Translate a reaction description into a word equation before using formulas."
+            },
+            {
+              "id": "kp-209",
+              "number": 209,
+              "displayNumber": 209,
+              "titleHtml": "KP4: Skeleton equations",
+              "title": "KP4: Skeleton equations",
+              "coreHtml": "A skeleton equation uses chemical formulas but may not show correct reactant-product proportions.",
+              "core": "A skeleton equation uses chemical formulas but may not show correct reactant-product proportions.",
+              "applicationHtml": "Recognize that a skeleton equation may not obey conservation of mass.",
+              "application": "Recognize that a skeleton equation may not obey conservation of mass."
+            },
+            {
+              "id": "kp-210",
+              "number": 210,
+              "displayNumber": 210,
+              "titleHtml": "KP5: Balanced chemical equations",
+              "title": "KP5: Balanced chemical equations",
+              "coreHtml": "A balanced chemical equation has the same number of atoms of each element on both sides.",
+              "core": "A balanced chemical equation has the same number of atoms of each element on both sides.",
+              "applicationHtml": "Use conservation of mass to check whether an equation is balanced.",
+              "application": "Use conservation of mass to check whether an equation is balanced."
+            },
+            {
+              "id": "kp-211",
+              "number": 211,
+              "displayNumber": 211,
+              "titleHtml": "KP6: Coefficients",
+              "title": "KP6: Coefficients",
+              "coreHtml": "A coefficient is placed in front of a chemical formula to show the ratio of substances in a balanced equation.",
+              "core": "A coefficient is placed in front of a chemical formula to show the ratio of substances in a balanced equation.",
+              "applicationHtml": "Balance equations by changing coefficients, not subscripts.",
+              "application": "Balance equations by changing coefficients, not subscripts."
+            },
+            {
+              "id": "kp-212",
+              "number": 212,
+              "displayNumber": 212,
+              "titleHtml": "KP7: Subscripts",
+              "title": "KP7: Subscripts",
+              "coreHtml": "A subscript in a chemical formula shows how many atoms of an element are present in one molecule or formula unit.",
+              "core": "A subscript in a chemical formula shows how many atoms of an element are present in one molecule or formula unit.",
+              "applicationHtml": "Avoid changing subscripts because this changes the identity of the substance.",
+              "application": "Avoid changing subscripts because this changes the identity of the substance."
+            },
+            {
+              "id": "kp-213",
+              "number": 213,
+              "displayNumber": 213,
+              "titleHtml": "KP8: States of matter",
+              "title": "KP8: States of matter",
+              "coreHtml": "Chemical equations may include state symbols such as \\((s)\\), \\((l)\\), \\((g)\\), and \\((aq)\\).",
+              "core": "Chemical equations may include state symbols such as \\((s)\\), \\((l)\\), \\((g)\\), and \\((aq)\\).",
+              "applicationHtml": "Include physical states when describing reactants and products.",
+              "application": "Include physical states when describing reactants and products."
+            },
+            {
+              "id": "kp-214",
+              "number": 214,
+              "displayNumber": 214,
+              "titleHtml": "KP9: Diatomic and polyatomic elements",
+              "title": "KP9: Diatomic and polyatomic elements",
+              "coreHtml": "Some elements naturally exist as molecules such as \\(H_2\\), \\(N_2\\), \\(O_2\\), \\(F_2\\), \\(Cl_2\\), \\(Br_2\\), \\(I_2\\), \\(S_8\\), and \\(P_4\\).",
+              "core": "Some elements naturally exist as molecules such as \\(H 2\\), \\(N 2\\), \\(O 2\\), \\(F 2\\), \\(Cl 2\\), \\(Br 2\\), \\(I 2\\), \\(S 8\\), and \\(P 4\\).",
+              "applicationHtml": "Write correct formulas for elemental reactants or products.",
+              "application": "Write correct formulas for elemental reactants or products."
+            },
+            {
+              "id": "kp-215",
+              "number": 215,
+              "displayNumber": 215,
+              "titleHtml": "KP10: Balancing strategy",
+              "title": "KP10: Balancing strategy",
+              "coreHtml": "Balance compounds first, elements last, and treat unchanged polyatomic ions as single units when possible.",
+              "core": "Balance compounds first, elements last, and treat unchanged polyatomic ions as single units when possible.",
+              "applicationHtml": "Check final atom counts on both sides of the equation.",
+              "application": "Check final atom counts on both sides of the equation."
+            }
+          ]
+        },
+        {
+          "id": "optional-extension-make-a-difference-take-a-stand-what-does-the-law-of-conservation-of-mass-tell-us-about-waste-p-127",
+          "titleHtml": "Optional Extension — Make a Difference: Take a Stand — What does the law of conservation of mass tell us about waste? — p.127",
+          "title": "Optional Extension — Make a Difference: Take a Stand — What does the law of conservation of mass tell us about waste? — p.127",
+          "kps": [
+            {
+              "id": "kp-216",
+              "number": 216,
+              "displayNumber": 216,
+              "titleHtml": "KP1: Matter and waste",
+              "title": "KP1: Matter and waste",
+              "coreHtml": "The law of conservation of mass means waste matter does not disappear when it is buried, dumped, burned, or released.",
+              "core": "The law of conservation of mass means waste matter does not disappear when it is buried, dumped, burned, or released.",
+              "applicationHtml": "Connect chemical waste to long-term environmental responsibility.",
+              "application": "Connect chemical waste to long-term environmental responsibility."
+            },
+            {
+              "id": "kp-217",
+              "number": 217,
+              "displayNumber": 217,
+              "titleHtml": "KP2: Reducing versus recycling",
+              "title": "KP2: Reducing versus recycling",
+              "coreHtml": "Reducing waste prevents material use, while recycling changes or reuses material already produced.",
+              "core": "Reducing waste prevents material use, while recycling changes or reuses material already produced.",
+              "applicationHtml": "Explain why reducing waste is different from managing waste after it exists.",
+              "application": "Explain why reducing waste is different from managing waste after it exists."
+            },
+            {
+              "id": "kp-218",
+              "number": 218,
+              "displayNumber": 218,
+              "titleHtml": "KP3: Waste classification",
+              "title": "KP3: Waste classification",
+              "coreHtml": "Waste can be classified by danger level or source, such as hazardous, residential, municipal, agricultural, or industrial.",
+              "core": "Waste can be classified by danger level or source, such as hazardous, residential, municipal, agricultural, or industrial.",
+              "applicationHtml": "Evaluate how classification helps or limits environmental decision-making.",
+              "application": "Evaluate how classification helps or limits environmental decision-making."
+            }
+          ]
+        },
+        {
+          "id": "optional-extension-at-issue-can-traditional-methods-be-used-to-tan-leather-sustainably-p-134",
+          "titleHtml": "Optional Extension — At Issue: Can traditional methods be used to tan leather sustainably? — p.134",
+          "title": "Optional Extension — At Issue: Can traditional methods be used to tan leather sustainably? — p.134",
+          "kps": [
+            {
+              "id": "kp-219",
+              "number": 219,
+              "displayNumber": 219,
+              "titleHtml": "KP1: Tanning as chemical processing",
+              "title": "KP1: Tanning as chemical processing",
+              "coreHtml": "Treating raw hide involves chemical processes that prevent decay and keep leather flexible and waterproof.",
+              "core": "Treating raw hide involves chemical processes that prevent decay and keep leather flexible and waterproof.",
+              "applicationHtml": "Connect traditional tanning knowledge to chemical change.",
+              "application": "Connect traditional tanning knowledge to chemical change."
+            },
+            {
+              "id": "kp-220",
+              "number": 220,
+              "displayNumber": 220,
+              "titleHtml": "KP2: Brain tanning",
+              "title": "KP2: Brain tanning",
+              "coreHtml": "Brain tanning uses fats and oils from brain tissue to change the chemical properties of hide.",
+              "core": "Brain tanning uses fats and oils from brain tissue to change the chemical properties of hide.",
+              "applicationHtml": "Compare natural tanning processes with industrial chemical methods.",
+              "application": "Compare natural tanning processes with industrial chemical methods."
+            },
+            {
+              "id": "kp-221",
+              "number": 221,
+              "displayNumber": 221,
+              "titleHtml": "KP3: Sustainability trade-offs",
+              "title": "KP3: Sustainability trade-offs",
+              "coreHtml": "Traditional tanning can use natural materials and more of the whole animal, while industrial tanning may use toxic chemicals such as chromium salts.",
+              "core": "Traditional tanning can use natural materials and more of the whole animal, while industrial tanning may use toxic chemicals such as chromium salts.",
+              "applicationHtml": "Evaluate tanning methods by sustainability, safety, scale, and environmental impact.",
+              "application": "Evaluate tanning methods by sustainability, safety, scale, and environmental impact."
+            }
+          ]
+        },
+        {
+          "id": "optional-investigation-investigation-2-c-the-law-of-conservation-of-mass-p-136-137",
+          "titleHtml": "Optional Investigation — Investigation 2-C: The Law of Conservation of Mass — p.136–137",
+          "title": "Optional Investigation — Investigation 2-C: The Law of Conservation of Mass — p.136–137",
+          "kps": [
+            {
+              "id": "kp-222",
+              "number": 222,
+              "displayNumber": 222,
+              "titleHtml": "KP1: Testing conservation of mass",
+              "title": "KP1: Testing conservation of mass",
+              "coreHtml": "Conservation of mass can be investigated by measuring reactant and product systems before and after reaction.",
+              "core": "Conservation of mass can be investigated by measuring reactant and product systems before and after reaction.",
+              "applicationHtml": "Compare mass changes in closed and open systems.",
+              "application": "Compare mass changes in closed and open systems."
+            },
+            {
+              "id": "kp-223",
+              "number": 223,
+              "displayNumber": 223,
+              "titleHtml": "KP2: Closed-system reaction",
+              "title": "KP2: Closed-system reaction",
+              "coreHtml": "A sealed container prevents matter from escaping during a reaction.",
+              "core": "A sealed container prevents matter from escaping during a reaction.",
+              "applicationHtml": "Use a closed system to show that total mass remains constant.",
+              "application": "Use a closed system to show that total mass remains constant."
+            },
+            {
+              "id": "kp-224",
+              "number": 224,
+              "displayNumber": 224,
+              "titleHtml": "KP3: Open-system reaction",
+              "title": "KP3: Open-system reaction",
+              "coreHtml": "An open container allows matter such as gas to leave the system.",
+              "core": "An open container allows matter such as gas to leave the system.",
+              "applicationHtml": "Explain why measured mass can decrease when gas escapes.",
+              "application": "Explain why measured mass can decrease when gas escapes."
+            },
+            {
+              "id": "kp-225",
+              "number": 225,
+              "displayNumber": 225,
+              "titleHtml": "KP4: Evidence of chemical reaction",
+              "title": "KP4: Evidence of chemical reaction",
+              "coreHtml": "Observations such as colour change, precipitate formation, gas production, or temperature change can indicate a chemical reaction.",
+              "core": "Observations such as colour change, precipitate formation, gas production, or temperature change can indicate a chemical reaction.",
+              "applicationHtml": "Record observations and connect them to reaction evidence.",
+              "application": "Record observations and connect them to reaction evidence."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chapter-2-3",
+      "number": "2-3",
+      "titleHtml": "Chapter 2.3: How is energy involved in chemical processes?",
+      "title": "Chapter 2.3: How is energy involved in chemical processes?",
+      "kpCount": 37,
+      "concepts": [
+        {
+          "id": "2-3-concept-1-matter-and-energy-interact-in-physical-and-chemical-changes-p-140",
+          "titleHtml": "2.3 Concept 1: Matter and energy interact in physical and chemical changes — p.140",
+          "title": "2.3 Concept 1: Matter and energy interact in physical and chemical changes — p.140",
+          "kps": [
+            {
+              "id": "kp-226",
+              "number": 226,
+              "displayNumber": 226,
+              "titleHtml": "KP1: Matter and energy interaction",
+              "title": "KP1: Matter and energy interaction",
+              "coreHtml": "Matter and energy continually interact in physical and chemical changes.",
+              "core": "Matter and energy continually interact in physical and chemical changes.",
+              "applicationHtml": "Identify energy transfers in everyday processes such as heating water, cooking food, or melting ice.",
+              "application": "Identify energy transfers in everyday processes such as heating water, cooking food, or melting ice."
+            },
+            {
+              "id": "kp-227",
+              "number": 227,
+              "displayNumber": 227,
+              "titleHtml": "KP2: Energy input for change",
+              "title": "KP2: Energy input for change",
+              "coreHtml": "Many changes require an input of energy to begin or continue.",
+              "core": "Many changes require an input of energy to begin or continue.",
+              "applicationHtml": "Explain why boiling water, toasting bread, or igniting propane requires added energy.",
+              "application": "Explain why boiling water, toasting bread, or igniting propane requires added energy."
+            },
+            {
+              "id": "kp-228",
+              "number": 228,
+              "displayNumber": 228,
+              "titleHtml": "KP3: Activation energy",
+              "title": "KP3: Activation energy",
+              "coreHtml": "Activation energy is the minimum energy needed for a reaction to occur.",
+              "core": "Activation energy is the minimum energy needed for a reaction to occur.",
+              "applicationHtml": "Describe activation energy as a barrier or “hill” that reactants must overcome.",
+              "application": "Describe activation energy as a barrier or “hill” that reactants must overcome."
+            },
+            {
+              "id": "kp-229",
+              "number": 229,
+              "displayNumber": 229,
+              "titleHtml": "KP4: Reactant collisions",
+              "title": "KP4: Reactant collisions",
+              "coreHtml": "Reactants must collide with enough energy to begin breaking bonds.",
+              "core": "Reactants must collide with enough energy to begin breaking bonds.",
+              "applicationHtml": "Connect successful collisions to the start of a chemical reaction.",
+              "application": "Connect successful collisions to the start of a chemical reaction."
+            },
+            {
+              "id": "kp-230",
+              "number": 230,
+              "displayNumber": 230,
+              "titleHtml": "KP5: Initial energy and self-sustaining reactions",
+              "title": "KP5: Initial energy and self-sustaining reactions",
+              "coreHtml": "Some reactions need an initial energy input, then continue because the reaction releases enough energy to keep going.",
+              "core": "Some reactions need an initial energy input, then continue because the reaction releases enough energy to keep going.",
+              "applicationHtml": "Explain why a propane torch needs a spark to start but can keep burning after ignition.",
+              "application": "Explain why a propane torch needs a spark to start but can keep burning after ignition."
+            },
+            {
+              "id": "kp-231",
+              "number": 231,
+              "displayNumber": 231,
+              "titleHtml": "KP6: Energy in physical changes",
+              "title": "KP6: Energy in physical changes",
+              "coreHtml": "Physical changes can involve energy transfer even when no new substance forms.",
+              "core": "Physical changes can involve energy transfer even when no new substance forms.",
+              "applicationHtml": "Explain melting ice as a process involving energy moving from warmer surroundings to the ice.",
+              "application": "Explain melting ice as a process involving energy moving from warmer surroundings to the ice."
+            }
+          ]
+        },
+        {
+          "id": "2-3-concept-2-energy-is-transferred-between-chemical-reactions-and-the-surroundings-p-142-145",
+          "titleHtml": "2.3 Concept 2: Energy is transferred between chemical reactions and the surroundings — p.142–145",
+          "title": "2.3 Concept 2: Energy is transferred between chemical reactions and the surroundings — p.142–145",
+          "kps": [
+            {
+              "id": "kp-232",
+              "number": 232,
+              "displayNumber": 232,
+              "titleHtml": "KP1: Energy changes in chemical reactions",
+              "title": "KP1: Energy changes in chemical reactions",
+              "coreHtml": "All chemical reactions are accompanied by changes in energy.",
+              "core": "All chemical reactions are accompanied by changes in energy.",
+              "applicationHtml": "Connect photosynthesis and cellular respiration to energy stored or released through chemical reactions.",
+              "application": "Connect photosynthesis and cellular respiration to energy stored or released through chemical reactions."
+            },
+            {
+              "id": "kp-233",
+              "number": 233,
+              "displayNumber": 233,
+              "titleHtml": "KP2: System and surroundings",
+              "title": "KP2: System and surroundings",
+              "coreHtml": "The system is the reacting materials; the surroundings include everything outside the system.",
+              "core": "The system is the reacting materials; the surroundings include everything outside the system.",
+              "applicationHtml": "Identify the reaction mixture as the system and the container, air, classroom, or observer as surroundings.",
+              "application": "Identify the reaction mixture as the system and the container, air, classroom, or observer as surroundings."
+            },
+            {
+              "id": "kp-234",
+              "number": 234,
+              "displayNumber": 234,
+              "titleHtml": "KP3: Conservation of energy",
+              "title": "KP3: Conservation of energy",
+              "coreHtml": "Energy cannot be created or destroyed; energy leaving the system enters the surroundings, and energy entering the system comes from the surroundings.",
+              "core": "Energy cannot be created or destroyed; energy leaving the system enters the surroundings, and energy entering the system comes from the surroundings.",
+              "applicationHtml": "Trace energy transfer during exothermic and endothermic reactions.",
+              "application": "Trace energy transfer during exothermic and endothermic reactions."
+            },
+            {
+              "id": "kp-235",
+              "number": 235,
+              "displayNumber": 235,
+              "titleHtml": "KP4: Exothermic reactions",
+              "title": "KP4: Exothermic reactions",
+              "coreHtml": "An exothermic reaction has a net release of energy to the surroundings.",
+              "core": "An exothermic reaction has a net release of energy to the surroundings.",
+              "applicationHtml": "Identify reactions where the surroundings warm up or light/heat is released.",
+              "application": "Identify reactions where the surroundings warm up or light/heat is released."
+            },
+            {
+              "id": "kp-236",
+              "number": 236,
+              "displayNumber": 236,
+              "titleHtml": "KP5: Endothermic reactions",
+              "title": "KP5: Endothermic reactions",
+              "coreHtml": "An endothermic reaction has a net absorption of energy from the surroundings.",
+              "core": "An endothermic reaction has a net absorption of energy from the surroundings.",
+              "applicationHtml": "Identify reactions where the surroundings cool down or energy is absorbed.",
+              "application": "Identify reactions where the surroundings cool down or energy is absorbed."
+            },
+            {
+              "id": "kp-237",
+              "number": 237,
+              "displayNumber": 237,
+              "titleHtml": "KP6: Bond-breaking and bond-forming energy",
+              "title": "KP6: Bond-breaking and bond-forming energy",
+              "coreHtml": "Breaking bonds absorbs energy; forming bonds releases energy.",
+              "core": "Breaking bonds absorbs energy; forming bonds releases energy.",
+              "applicationHtml": "Compare total energy absorbed in bond breaking with total energy released in bond forming.",
+              "application": "Compare total energy absorbed in bond breaking with total energy released in bond forming."
+            },
+            {
+              "id": "kp-238",
+              "number": 238,
+              "displayNumber": 238,
+              "titleHtml": "KP7: Temperature as evidence",
+              "title": "KP7: Temperature as evidence",
+              "coreHtml": "Temperature change can provide evidence for energy transfer in a reaction.",
+              "core": "Temperature change can provide evidence for energy transfer in a reaction.",
+              "applicationHtml": "Use increasing temperature as evidence for exothermic change and decreasing temperature as evidence for endothermic change.",
+              "application": "Use increasing temperature as evidence for exothermic change and decreasing temperature as evidence for endothermic change."
+            },
+            {
+              "id": "kp-239",
+              "number": 239,
+              "displayNumber": 239,
+              "titleHtml": "KP8: Energy-level diagrams",
+              "title": "KP8: Energy-level diagrams",
+              "coreHtml": "Energy-level diagrams show the relative energy of reactants and products and the overall energy change.",
+              "core": "Energy-level diagrams show the relative energy of reactants and products and the overall energy change.",
+              "applicationHtml": "Interpret higher-energy products as endothermic and lower-energy products as exothermic.",
+              "application": "Interpret higher-energy products as endothermic and lower-energy products as exothermic."
+            }
+          ]
+        },
+        {
+          "id": "optional-extension-at-issue-how-does-energy-change-help-to-solve-crimes-p-141",
+          "titleHtml": "Optional Extension — At Issue: How does energy change help to solve crimes? — p.141",
+          "title": "Optional Extension — At Issue: How does energy change help to solve crimes? — p.141",
+          "kps": [
+            {
+              "id": "kp-240",
+              "number": 240,
+              "displayNumber": 240,
+              "titleHtml": "KP1: Luminol reaction",
+              "title": "KP1: Luminol reaction",
+              "coreHtml": "Luminol can react with iron from hemoglobin to produce a glowing blue-green light.",
+              "core": "Luminol can react with iron from hemoglobin to produce a glowing blue-green light.",
+              "applicationHtml": "Explain how chemical energy changes can help detect possible blood evidence.",
+              "application": "Explain how chemical energy changes can help detect possible blood evidence."
+            },
+            {
+              "id": "kp-241",
+              "number": 241,
+              "displayNumber": 241,
+              "titleHtml": "KP2: Excited electrons and light",
+              "title": "KP2: Excited electrons and light",
+              "coreHtml": "Energy absorbed by electrons can raise them to a higher energy level; light is released when they return to a lower energy level.",
+              "core": "Energy absorbed by electrons can raise them to a higher energy level; light is released when they return to a lower energy level.",
+              "applicationHtml": "Connect electron energy changes to visible light production.",
+              "application": "Connect electron energy changes to visible light production."
+            },
+            {
+              "id": "kp-242",
+              "number": 242,
+              "displayNumber": 242,
+              "titleHtml": "KP3: Limits of chemical evidence",
+              "title": "KP3: Limits of chemical evidence",
+              "coreHtml": "A positive luminol test is not conclusive because other substances can also make luminol emit light.",
+              "core": "A positive luminol test is not conclusive because other substances can also make luminol emit light.",
+              "applicationHtml": "Explain why further testing, such as DNA testing, may be needed after a luminol result.",
+              "application": "Explain why further testing, such as DNA testing, may be needed after a luminol result."
+            }
+          ]
+        },
+        {
+          "id": "optional-extension-at-issue-why-does-it-matter-how-quickly-a-reaction-occurs-p-146",
+          "titleHtml": "Optional Extension — At Issue: Why does it matter how quickly a reaction occurs? — p.146",
+          "title": "Optional Extension — At Issue: Why does it matter how quickly a reaction occurs? — p.146",
+          "kps": [
+            {
+              "id": "kp-243",
+              "number": 243,
+              "displayNumber": 243,
+              "titleHtml": "KP1: Reaction rate",
+              "title": "KP1: Reaction rate",
+              "coreHtml": "Every chemical reaction occurs at a certain rate under specific conditions.",
+              "core": "Every chemical reaction occurs at a certain rate under specific conditions.",
+              "applicationHtml": "Explain why some reactions, such as rusting, are useful when slow, while others must happen quickly.",
+              "application": "Explain why some reactions, such as rusting, are useful when slow, while others must happen quickly."
+            },
+            {
+              "id": "kp-244",
+              "number": 244,
+              "displayNumber": 244,
+              "titleHtml": "KP2: Factors affecting reaction rate",
+              "title": "KP2: Factors affecting reaction rate",
+              "coreHtml": "Temperature, surface area, concentration or amount of reactant, and catalysts can affect reaction rate.",
+              "core": "Temperature, surface area, concentration or amount of reactant, and catalysts can affect reaction rate.",
+              "applicationHtml": "Predict how changing conditions can speed up or slow down a reaction.",
+              "application": "Predict how changing conditions can speed up or slow down a reaction."
+            },
+            {
+              "id": "kp-245",
+              "number": 245,
+              "displayNumber": 245,
+              "titleHtml": "KP3: Catalysts",
+              "title": "KP3: Catalysts",
+              "coreHtml": "A catalyst speeds up a reaction without being used up.",
+              "core": "A catalyst speeds up a reaction without being used up.",
+              "applicationHtml": "Connect catalytic converters and enzymes to faster chemical reactions.",
+              "application": "Connect catalytic converters and enzymes to faster chemical reactions."
+            },
+            {
+              "id": "kp-246",
+              "number": 246,
+              "displayNumber": 246,
+              "titleHtml": "KP4: Runaway reactions",
+              "title": "KP4: Runaway reactions",
+              "coreHtml": "Heat released by an exothermic reaction can increase reaction rate and cause an uncontrolled reaction.",
+              "core": "Heat released by an exothermic reaction can increase reaction rate and cause an uncontrolled reaction.",
+              "applicationHtml": "Explain why industrial reactions need careful heat removal and safety controls.",
+              "application": "Explain why industrial reactions need careful heat removal and safety controls."
+            }
+          ]
+        },
+        {
+          "id": "optional-extension-make-a-difference-be-inspired-ata-sina-and-the-shape-shifting-paper-p-148",
+          "titleHtml": "Optional Extension — Make a Difference: Be Inspired — Ata Sina and the Shape-Shifting Paper — p.148",
+          "title": "Optional Extension — Make a Difference: Be Inspired — Ata Sina and the Shape-Shifting Paper — p.148",
+          "kps": [
+            {
+              "id": "kp-247",
+              "number": 247,
+              "displayNumber": 247,
+              "titleHtml": "KP1: Thermoplastic polymers and energy",
+              "title": "KP1: Thermoplastic polymers and energy",
+              "coreHtml": "Thermoplastic polymers can absorb energy, increase molecular motion, and change shape.",
+              "core": "Thermoplastic polymers can absorb energy, increase molecular motion, and change shape.",
+              "applicationHtml": "Explain how energy input can cause shape-shifting paper to fold into three-dimensional structures.",
+              "application": "Explain how energy input can cause shape-shifting paper to fold into three-dimensional structures."
+            },
+            {
+              "id": "kp-248",
+              "number": 248,
+              "displayNumber": 248,
+              "titleHtml": "KP2: Chemistry and material design",
+              "title": "KP2: Chemistry and material design",
+              "coreHtml": "Chemical properties of materials can be used to design lightweight, strong, and affordable structures.",
+              "core": "Chemical properties of materials can be used to design lightweight, strong, and affordable structures.",
+              "applicationHtml": "Connect polymer chemistry to applications such as packaging, art materials, or toys.",
+              "application": "Connect polymer chemistry to applications such as packaging, art materials, or toys."
+            },
+            {
+              "id": "kp-249",
+              "number": 249,
+              "displayNumber": 249,
+              "titleHtml": "KP3: Science and creative innovation",
+              "title": "KP3: Science and creative innovation",
+              "coreHtml": "Chemistry can combine with art, design, and engineering to create new technologies.",
+              "core": "Chemistry can combine with art, design, and engineering to create new technologies.",
+              "applicationHtml": "Identify how personal interests can connect with scientific innovation.",
+              "application": "Identify how personal interests can connect with scientific innovation."
+            }
+          ]
+        },
+        {
+          "id": "optional-extension-science-at-work-chemistry-connections-p-149",
+          "titleHtml": "Optional Extension — Science at Work: Chemistry Connections — p.149",
+          "title": "Optional Extension — Science at Work: Chemistry Connections — p.149",
+          "kps": [
+            {
+              "id": "kp-250",
+              "number": 250,
+              "displayNumber": 250,
+              "titleHtml": "KP1: Chemistry-related careers",
+              "title": "KP1: Chemistry-related careers",
+              "coreHtml": "Chemistry knowledge supports careers such as mudlogger, forensic scientist, food scientist, materials technician, laboratory analyst, and fuel researcher.",
+              "core": "Chemistry knowledge supports careers such as mudlogger, forensic scientist, food scientist, materials technician, laboratory analyst, and fuel researcher.",
+              "applicationHtml": "Connect chemical reactions and material properties to real workplace tasks.",
+              "application": "Connect chemical reactions and material properties to real workplace tasks."
+            },
+            {
+              "id": "kp-251",
+              "number": 251,
+              "displayNumber": 251,
+              "titleHtml": "KP2: Chemistry and public safety",
+              "title": "KP2: Chemistry and public safety",
+              "coreHtml": "Some chemistry careers involve protecting people, property, and the environment.",
+              "core": "Some chemistry careers involve protecting people, property, and the environment.",
+              "applicationHtml": "Explain how fire protection engineers or environmental assessors use chemistry knowledge.",
+              "application": "Explain how fire protection engineers or environmental assessors use chemistry knowledge."
+            },
+            {
+              "id": "kp-252",
+              "number": 252,
+              "displayNumber": 252,
+              "titleHtml": "KP3: Chemistry and sustainability",
+              "title": "KP3: Chemistry and sustainability",
+              "coreHtml": "Fuel researchers study fuel performance, emissions, renewables, and alternatives.",
+              "core": "Fuel researchers study fuel performance, emissions, renewables, and alternatives.",
+              "applicationHtml": "Connect chemical processes to climate and energy decisions.",
+              "application": "Connect chemical processes to climate and energy decisions."
+            }
+          ]
+        },
+        {
+          "id": "optional-investigation-investigation-2-d-exothermic-and-endothermic-reactions-p-150-151",
+          "titleHtml": "Optional Investigation — Investigation 2-D: Exothermic and Endothermic Reactions — p.150–151",
+          "title": "Optional Investigation — Investigation 2-D: Exothermic and Endothermic Reactions — p.150–151",
+          "kps": [
+            {
+              "id": "kp-253",
+              "number": 253,
+              "displayNumber": 253,
+              "titleHtml": "KP1: Temperature data and reaction type",
+              "title": "KP1: Temperature data and reaction type",
+              "coreHtml": "Temperature measurements can show whether a reaction releases or absorbs energy overall.",
+              "core": "Temperature measurements can show whether a reaction releases or absorbs energy overall.",
+              "applicationHtml": "Classify a reaction as exothermic or endothermic from temperature-change evidence.",
+              "application": "Classify a reaction as exothermic or endothermic from temperature-change evidence."
+            },
+            {
+              "id": "kp-254",
+              "number": 254,
+              "displayNumber": 254,
+              "titleHtml": "KP2: Overall energy change",
+              "title": "KP2: Overall energy change",
+              "coreHtml": "Overall energy change is the net result of energy absorbed to break bonds and energy released when new bonds form.",
+              "core": "Overall energy change is the net result of energy absorbed to break bonds and energy released when new bonds form.",
+              "applicationHtml": "Use data and observations to support claims about energy transfer.",
+              "application": "Use data and observations to support claims about energy transfer."
+            },
+            {
+              "id": "kp-255",
+              "number": 255,
+              "displayNumber": 255,
+              "titleHtml": "KP3: Reaction evidence",
+              "title": "KP3: Reaction evidence",
+              "coreHtml": "Chemical reactions may show evidence such as temperature change, colour change, or formation of new substances.",
+              "core": "Chemical reactions may show evidence such as temperature change, colour change, or formation of new substances.",
+              "applicationHtml": "Record observations and connect them to particle-level changes.",
+              "application": "Record observations and connect them to particle-level changes."
+            },
+            {
+              "id": "kp-256",
+              "number": 256,
+              "displayNumber": 256,
+              "titleHtml": "KP4: Particle-level explanation",
+              "title": "KP4: Particle-level explanation",
+              "coreHtml": "Exothermic and endothermic classifications can be linked to atoms, ions, bonds broken, and bonds formed.",
+              "core": "Exothermic and endothermic classifications can be linked to atoms, ions, bonds broken, and bonds formed.",
+              "applicationHtml": "Explain what happens to atoms and ions during a reaction without relying only on visible changes.",
+              "application": "Explain what happens to atoms and ions during a reaction without relying only on visible changes."
+            }
+          ]
+        },
+        {
+          "id": "optional-investigation-investigation-2-e-what-makes-the-best-hand-warmer-p-152",
+          "titleHtml": "Optional Investigation — Investigation 2-E: What Makes the Best Hand Warmer? — p.152",
+          "title": "Optional Investigation — Investigation 2-E: What Makes the Best Hand Warmer? — p.152",
+          "kps": [
+            {
+              "id": "kp-257",
+              "number": 257,
+              "displayNumber": 257,
+              "titleHtml": "KP1: Dissolving and energy change",
+              "title": "KP1: Dissolving and energy change",
+              "coreHtml": "Dissolving ionic compounds in water can be exothermic or endothermic.",
+              "core": "Dissolving ionic compounds in water can be exothermic or endothermic.",
+              "applicationHtml": "Test temperature change to decide whether a substance could work as a hand warmer.",
+              "application": "Test temperature change to decide whether a substance could work as a hand warmer."
+            },
+            {
+              "id": "kp-258",
+              "number": 258,
+              "displayNumber": 258,
+              "titleHtml": "KP2: Design criteria",
+              "title": "KP2: Design criteria",
+              "coreHtml": "A useful hand warmer must balance temperature change, speed, safety, cost, volume, and environmental impact.",
+              "core": "A useful hand warmer must balance temperature change, speed, safety, cost, volume, and environmental impact.",
+              "applicationHtml": "Use criteria to compare chemicals instead of choosing only the hottest reaction.",
+              "application": "Use criteria to compare chemicals instead of choosing only the hottest reaction."
+            },
+            {
+              "id": "kp-259",
+              "number": 259,
+              "displayNumber": 259,
+              "titleHtml": "KP3: Safe chemical design",
+              "title": "KP3: Safe chemical design",
+              "coreHtml": "Chemical products should be evaluated for both effectiveness and safety.",
+              "core": "Chemical products should be evaluated for both effectiveness and safety.",
+              "applicationHtml": "Include skin safety, handling safety, cleanup, and disposal in product design.",
+              "application": "Include skin safety, handling safety, cleanup, and disposal in product design."
+            }
+          ]
+        },
+        {
+          "id": "optional-investigation-investigation-2-f-chemical-reactions-as-energy-sources-p-153",
+          "titleHtml": "Optional Investigation — Investigation 2-F: Chemical Reactions as Energy Sources — p.153",
+          "title": "Optional Investigation — Investigation 2-F: Chemical Reactions as Energy Sources — p.153",
+          "kps": [
+            {
+              "id": "kp-260",
+              "number": 260,
+              "displayNumber": 260,
+              "titleHtml": "KP1: Chemical reactions as energy sources",
+              "title": "KP1: Chemical reactions as energy sources",
+              "coreHtml": "Society uses chemical reactions to produce useful energy for heating, transportation, cooking, and technology.",
+              "core": "Society uses chemical reactions to produce useful energy for heating, transportation, cooking, and technology.",
+              "applicationHtml": "Compare fossil fuels and alternative energy sources such as hydrogen fuel cells.",
+              "application": "Compare fossil fuels and alternative energy sources such as hydrogen fuel cells."
+            },
+            {
+              "id": "kp-261",
+              "number": 261,
+              "displayNumber": 261,
+              "titleHtml": "KP2: Balanced equations and energy use",
+              "title": "KP2: Balanced equations and energy use",
+              "coreHtml": "Energy-source analysis should include the chemical reaction and balanced chemical equation.",
+              "core": "Energy-source analysis should include the chemical reaction and balanced chemical equation.",
+              "applicationHtml": "Connect atoms, bonds broken, bonds formed, and energy output in an energy-producing reaction.",
+              "application": "Connect atoms, bonds broken, bonds formed, and energy output in an energy-producing reaction."
+            },
+            {
+              "id": "kp-262",
+              "number": 262,
+              "displayNumber": 262,
+              "titleHtml": "KP3: Advantages and disadvantages",
+              "title": "KP3: Advantages and disadvantages",
+              "coreHtml": "Energy sources have environmental, social, and economic benefits and drawbacks.",
+              "core": "Energy sources have environmental, social, and economic benefits and drawbacks.",
+              "applicationHtml": "Evaluate an energy source by considering both energy usefulness and broader impacts.",
+              "application": "Evaluate an energy source by considering both energy usefulness and broader impacts."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chapter-2-4",
+      "number": "2-4",
+      "titleHtml": "Chapter 2.4: How do atoms rearrange in different types of chemical reactions?",
+      "title": "Chapter 2.4: How do atoms rearrange in different types of chemical reactions?",
+      "kpCount": 43,
+      "concepts": [
+        {
+          "id": "2-4-concept-1-a-compound-forms-in-a-synthesis-reaction-and-breaks-down-in-a-decomposition-reaction-p-156-159",
+          "titleHtml": "2.4 Concept 1: A compound forms in a synthesis reaction and breaks down in a decomposition reaction — p.156–159",
+          "title": "2.4 Concept 1: A compound forms in a synthesis reaction and breaks down in a decomposition reaction — p.156–159",
+          "kps": [
+            {
+              "id": "kp-263",
+              "number": 263,
+              "displayNumber": 263,
+              "titleHtml": "KP1: Synthesis reaction",
+              "title": "KP1: Synthesis reaction",
+              "coreHtml": "A synthesis reaction is a chemical reaction in which two or more reactants combine to produce a single product.",
+              "core": "A synthesis reaction is a chemical reaction in which two or more reactants combine to produce a single product.",
+              "applicationHtml": "Identify synthesis reactions by looking for several reactants forming one compound.",
+              "application": "Identify synthesis reactions by looking for several reactants forming one compound."
+            },
+            {
+              "id": "kp-264",
+              "number": 264,
+              "displayNumber": 264,
+              "titleHtml": "KP2: General synthesis pattern",
+              "title": "KP2: General synthesis pattern",
+              "coreHtml": "General pattern: \\(A + B \\rightarrow AB\\).",
+              "core": "General pattern: \\(A + B AB\\).",
+              "applicationHtml": "Use the pattern to classify reactions such as metal + non-metal forming an ionic compound.",
+              "application": "Use the pattern to classify reactions such as metal + non-metal forming an ionic compound."
+            },
+            {
+              "id": "kp-265",
+              "number": 265,
+              "displayNumber": 265,
+              "titleHtml": "KP3: Synthesis and energy release",
+              "title": "KP3: Synthesis and energy release",
+              "coreHtml": "Many synthesis reactions are exothermic because bond formation releases energy overall.",
+              "core": "Many synthesis reactions are exothermic because bond formation releases energy overall.",
+              "applicationHtml": "Connect heat, light, or other energy release to product formation.",
+              "application": "Connect heat, light, or other energy release to product formation."
+            },
+            {
+              "id": "kp-266",
+              "number": 266,
+              "displayNumber": 266,
+              "titleHtml": "KP4: Synthesis in the environment and technology",
+              "title": "KP4: Synthesis in the environment and technology",
+              "coreHtml": "Synthesis reactions occur in processes such as acid precipitation, rust formation, and hydrogen fuel cells.",
+              "core": "Synthesis reactions occur in processes such as acid precipitation, rust formation, and hydrogen fuel cells.",
+              "applicationHtml": "Recognize synthesis reactions in environmental and technological contexts.",
+              "application": "Recognize synthesis reactions in environmental and technological contexts."
+            },
+            {
+              "id": "kp-267",
+              "number": 267,
+              "displayNumber": 267,
+              "titleHtml": "KP5: Decomposition reaction",
+              "title": "KP5: Decomposition reaction",
+              "coreHtml": "A decomposition reaction is a chemical reaction in which one compound breaks down into elements or simpler compounds.",
+              "core": "A decomposition reaction is a chemical reaction in which one compound breaks down into elements or simpler compounds.",
+              "applicationHtml": "Identify decomposition reactions by looking for one reactant forming two or more products.",
+              "application": "Identify decomposition reactions by looking for one reactant forming two or more products."
+            },
+            {
+              "id": "kp-268",
+              "number": 268,
+              "displayNumber": 268,
+              "titleHtml": "KP6: General decomposition pattern",
+              "title": "KP6: General decomposition pattern",
+              "coreHtml": "General pattern: \\(AB \\rightarrow A + B\\).",
+              "core": "General pattern: \\(AB A + B\\).",
+              "applicationHtml": "Treat decomposition as the reverse pattern of synthesis.",
+              "application": "Treat decomposition as the reverse pattern of synthesis."
+            },
+            {
+              "id": "kp-269",
+              "number": 269,
+              "displayNumber": 269,
+              "titleHtml": "KP7: Decomposition and energy input",
+              "title": "KP7: Decomposition and energy input",
+              "coreHtml": "Most decomposition reactions are endothermic because the reactant must absorb enough energy for bonds to break.",
+              "core": "Most decomposition reactions are endothermic because the reactant must absorb enough energy for bonds to break.",
+              "applicationHtml": "Explain why heat or electricity may be needed to break a compound apart.",
+              "application": "Explain why heat or electricity may be needed to break a compound apart."
+            }
+          ]
+        },
+        {
+          "id": "2-4-concept-2-in-replacement-reactions-elements-replace-other-elements-p-160-164",
+          "titleHtml": "2.4 Concept 2: In replacement reactions, elements replace other elements — p.160–164",
+          "title": "2.4 Concept 2: In replacement reactions, elements replace other elements — p.160–164",
+          "kps": [
+            {
+              "id": "kp-270",
+              "number": 270,
+              "displayNumber": 270,
+              "titleHtml": "KP1: Single replacement reaction",
+              "title": "KP1: Single replacement reaction",
+              "coreHtml": "A single replacement reaction occurs when an element and a compound react to produce another element and another compound.",
+              "core": "A single replacement reaction occurs when an element and a compound react to produce another element and another compound.",
+              "applicationHtml": "Identify reactions where one element takes the place of another element in a compound.",
+              "application": "Identify reactions where one element takes the place of another element in a compound."
+            },
+            {
+              "id": "kp-271",
+              "number": 271,
+              "displayNumber": 271,
+              "titleHtml": "KP2: Metal replacement pattern",
+              "title": "KP2: Metal replacement pattern",
+              "coreHtml": "General pattern: \\(A + BX \\rightarrow AX + B\\).",
+              "core": "General pattern: \\(A + BX AX + B\\).",
+              "applicationHtml": "Recognize when a metal element replaces a metal ion in an aqueous compound.",
+              "application": "Recognize when a metal element replaces a metal ion in an aqueous compound."
+            },
+            {
+              "id": "kp-272",
+              "number": 272,
+              "displayNumber": 272,
+              "titleHtml": "KP3: Non-metal replacement pattern",
+              "title": "KP3: Non-metal replacement pattern",
+              "coreHtml": "General pattern: \\(AX + Y \\rightarrow AY + X\\).",
+              "core": "General pattern: \\(AX + Y AY + X\\).",
+              "applicationHtml": "Recognize when a non-metal element replaces a non-metal ion in a compound.",
+              "application": "Recognize when a non-metal element replaces a non-metal ion in a compound."
+            },
+            {
+              "id": "kp-273",
+              "number": 273,
+              "displayNumber": 273,
+              "titleHtml": "KP4: Hydrogen as a replaceable element",
+              "title": "KP4: Hydrogen as a replaceable element",
+              "coreHtml": "In some single replacement reactions, hydrogen in water can behave like a metal.",
+              "core": "In some single replacement reactions, hydrogen in water can behave like a metal.",
+              "applicationHtml": "Explain how a metal reacting with water can produce hydrogen gas.",
+              "application": "Explain how a metal reacting with water can produce hydrogen gas."
+            },
+            {
+              "id": "kp-274",
+              "number": 274,
+              "displayNumber": 274,
+              "titleHtml": "KP5: Applications of single replacement reactions",
+              "title": "KP5: Applications of single replacement reactions",
+              "coreHtml": "Some single replacement reactions release large amounts of energy or produce useful elements.",
+              "core": "Some single replacement reactions release large amounts of energy or produce useful elements.",
+              "applicationHtml": "Connect single replacement reactions to bromine production, welding railroad tracks, or joining electrical conductors.",
+              "application": "Connect single replacement reactions to bromine production, welding railroad tracks, or joining electrical conductors."
+            },
+            {
+              "id": "kp-275",
+              "number": 275,
+              "displayNumber": 275,
+              "titleHtml": "KP6: Double replacement reaction",
+              "title": "KP6: Double replacement reaction",
+              "coreHtml": "A double replacement reaction occurs when the positive ions of two ionic compounds change places to form two new ionic compounds.",
+              "core": "A double replacement reaction occurs when the positive ions of two ionic compounds change places to form two new ionic compounds.",
+              "applicationHtml": "Identify reactions where ions exchange partners in aqueous solution.",
+              "application": "Identify reactions where ions exchange partners in aqueous solution."
+            },
+            {
+              "id": "kp-276",
+              "number": 276,
+              "displayNumber": 276,
+              "titleHtml": "KP7: Precipitate formation",
+              "title": "KP7: Precipitate formation",
+              "coreHtml": "A precipitate is a solid that forms from a reaction between aqueous solutions.",
+              "core": "A precipitate is a solid that forms from a reaction between aqueous solutions.",
+              "applicationHtml": "Use formation of a solid as evidence for some double replacement reactions.",
+              "application": "Use formation of a solid as evidence for some double replacement reactions."
+            }
+          ]
+        },
+        {
+          "id": "2-4-concept-3-most-combustion-reactions-release-heat-and-light-p-165-167",
+          "titleHtml": "2.4 Concept 3: Most combustion reactions release heat and light — p.165–167",
+          "title": "2.4 Concept 3: Most combustion reactions release heat and light — p.165–167",
+          "kps": [
+            {
+              "id": "kp-277",
+              "number": 277,
+              "displayNumber": 277,
+              "titleHtml": "KP1: Combustion reaction",
+              "title": "KP1: Combustion reaction",
+              "coreHtml": "A combustion reaction is a chemical reaction in which an element reacts with oxygen to produce an oxide and heat.",
+              "core": "A combustion reaction is a chemical reaction in which an element reacts with oxygen to produce an oxide and heat.",
+              "applicationHtml": "Identify combustion by the involvement of oxygen and energy release.",
+              "application": "Identify combustion by the involvement of oxygen and energy release."
+            },
+            {
+              "id": "kp-278",
+              "number": 278,
+              "displayNumber": 278,
+              "titleHtml": "KP2: Hydrocarbon combustion",
+              "title": "KP2: Hydrocarbon combustion",
+              "coreHtml": "Hydrocarbons contain carbon and hydrogen; complete combustion produces carbon dioxide and water.",
+              "core": "Hydrocarbons contain carbon and hydrogen; complete combustion produces carbon dioxide and water.",
+              "applicationHtml": "Classify burning fuels such as methane, gasoline, and propane as combustion reactions.",
+              "application": "Classify burning fuels such as methane, gasoline, and propane as combustion reactions."
+            },
+            {
+              "id": "kp-279",
+              "number": 279,
+              "displayNumber": 279,
+              "titleHtml": "KP3: General hydrocarbon combustion pattern",
+              "title": "KP3: General hydrocarbon combustion pattern",
+              "coreHtml": "General pattern: \\(C_xH_y + O_2 \\rightarrow CO_2 + H_2O\\).",
+              "core": "General pattern: \\(C xH y + O 2 CO 2 + H 2O\\).",
+              "applicationHtml": "Predict the common products of complete hydrocarbon combustion.",
+              "application": "Predict the common products of complete hydrocarbon combustion."
+            },
+            {
+              "id": "kp-280",
+              "number": 280,
+              "displayNumber": 280,
+              "titleHtml": "KP4: Combustion as an exothermic process",
+              "title": "KP4: Combustion as an exothermic process",
+              "coreHtml": "Most combustion reactions release heat and light.",
+              "core": "Most combustion reactions release heat and light.",
+              "applicationHtml": "Use flame, heat, and light as evidence of energy release.",
+              "application": "Use flame, heat, and light as evidence of energy release."
+            },
+            {
+              "id": "kp-281",
+              "number": 281,
+              "displayNumber": 281,
+              "titleHtml": "KP5: Combustion and pollution",
+              "title": "KP5: Combustion and pollution",
+              "coreHtml": "Combustion of sulfur or nitrogen-containing substances can produce pollutants such as sulfur dioxide or nitrogen dioxide.",
+              "core": "Combustion of sulfur or nitrogen-containing substances can produce pollutants such as sulfur dioxide or nitrogen dioxide.",
+              "applicationHtml": "Connect combustion products to air pollution and later acid-forming reactions.",
+              "application": "Connect combustion products to air pollution and later acid-forming reactions."
+            },
+            {
+              "id": "kp-282",
+              "number": 282,
+              "displayNumber": 282,
+              "titleHtml": "KP6: Incomplete combustion",
+              "title": "KP6: Incomplete combustion",
+              "coreHtml": "Incomplete combustion occurs when oxygen supply is too low and can produce carbon monoxide and soot.",
+              "core": "Incomplete combustion occurs when oxygen supply is too low and can produce carbon monoxide and soot.",
+              "applicationHtml": "Explain why burning fuels indoors or in poorly ventilated spaces can be dangerous.",
+              "application": "Explain why burning fuels indoors or in poorly ventilated spaces can be dangerous."
+            },
+            {
+              "id": "kp-283",
+              "number": 283,
+              "displayNumber": 283,
+              "titleHtml": "KP7: Carbon monoxide hazard",
+              "title": "KP7: Carbon monoxide hazard",
+              "coreHtml": "Carbon monoxide is a colourless, odourless, highly toxic gas.",
+              "core": "Carbon monoxide is a colourless, odourless, highly toxic gas.",
+              "applicationHtml": "Connect incomplete combustion to the need for carbon monoxide detectors.",
+              "application": "Connect incomplete combustion to the need for carbon monoxide detectors."
+            }
+          ]
+        },
+        {
+          "id": "2-4-concept-4-in-a-neutralization-reaction-an-acid-reacts-with-a-base-p-168-174",
+          "titleHtml": "2.4 Concept 4: In a neutralization reaction, an acid reacts with a base — p.168–174",
+          "title": "2.4 Concept 4: In a neutralization reaction, an acid reacts with a base — p.168–174",
+          "kps": [
+            {
+              "id": "kp-284",
+              "number": 284,
+              "displayNumber": 284,
+              "titleHtml": "KP1: Acid",
+              "title": "KP1: Acid",
+              "coreHtml": "An acid is a compound that forms \\(H^+\\) ions when dissolved in water.",
+              "core": "An acid is a compound that forms \\(H +\\) ions when dissolved in water.",
+              "applicationHtml": "Identify acidic solutions from formulas, properties, or ion formation.",
+              "application": "Identify acidic solutions from formulas, properties, or ion formation."
+            },
+            {
+              "id": "kp-285",
+              "number": 285,
+              "displayNumber": 285,
+              "titleHtml": "KP2: Base",
+              "title": "KP2: Base",
+              "coreHtml": "A base is a compound that forms \\(OH^-\\) ions when dissolved in water.",
+              "core": "A base is a compound that forms \\(OH -\\) ions when dissolved in water.",
+              "applicationHtml": "Identify basic solutions from formulas, properties, or ion formation.",
+              "application": "Identify basic solutions from formulas, properties, or ion formation."
+            },
+            {
+              "id": "kp-286",
+              "number": 286,
+              "displayNumber": 286,
+              "titleHtml": "KP3: Acid-base indicators",
+              "title": "KP3: Acid-base indicators",
+              "coreHtml": "An acid-base indicator changes colour in response to whether a solution is acidic or basic.",
+              "core": "An acid-base indicator changes colour in response to whether a solution is acidic or basic.",
+              "applicationHtml": "Use litmus or other indicators to classify unknown solutions.",
+              "application": "Use litmus or other indicators to classify unknown solutions."
+            },
+            {
+              "id": "kp-287",
+              "number": 287,
+              "displayNumber": 287,
+              "titleHtml": "KP4: pH scale",
+              "title": "KP4: pH scale",
+              "coreHtml": "The pH scale ranges from 0 to 14 and measures acidity or basicity.",
+              "core": "The pH scale ranges from 0 to 14 and measures acidity or basicity.",
+              "applicationHtml": "Classify solutions as acidic \\((pH &lt; 7)\\), neutral \\((pH = 7)\\), or basic \\((pH &gt; 7)\\).",
+              "application": "Classify solutions as acidic \\((pH 7)\\)."
+            },
+            {
+              "id": "kp-288",
+              "number": 288,
+              "displayNumber": 288,
+              "titleHtml": "KP5: pH and ion concentration",
+              "title": "KP5: pH and ion concentration",
+              "coreHtml": "Acids have more \\(H^+\\) than \\(OH^-\\); bases have more \\(OH^-\\) than \\(H^+\\); neutral solutions have equal amounts.",
+              "core": "Acids have more \\(H +\\) than \\(OH -\\); bases have more \\(OH -\\) than \\(H +\\); neutral solutions have equal amounts.",
+              "applicationHtml": "Connect pH values to relative hydrogen-ion and hydroxide-ion concentrations.",
+              "application": "Connect pH values to relative hydrogen-ion and hydroxide-ion concentrations."
+            },
+            {
+              "id": "kp-289",
+              "number": 289,
+              "displayNumber": 289,
+              "titleHtml": "KP6: Neutralization reaction",
+              "title": "KP6: Neutralization reaction",
+              "coreHtml": "A neutralization reaction occurs when an acid reacts with a base to form water and a salt.",
+              "core": "A neutralization reaction occurs when an acid reacts with a base to form water and a salt.",
+              "applicationHtml": "Recognize neutralization as a common acid-base reaction in labs, medicine, and the environment.",
+              "application": "Recognize neutralization as a common acid-base reaction in labs, medicine, and the environment."
+            },
+            {
+              "id": "kp-290",
+              "number": 290,
+              "displayNumber": 290,
+              "titleHtml": "KP7: General neutralization pattern",
+              "title": "KP7: General neutralization pattern",
+              "coreHtml": "General pattern: \\(HA + BOH \\rightarrow BA + HOH\\), or acid + base \\(\\rightarrow\\) salt + water.",
+              "core": "General pattern: \\(HA + BOH BA + HOH\\), or acid + base \\( \\) salt + water.",
+              "applicationHtml": "Explain why neutralization is a type of double replacement reaction.",
+              "application": "Explain why neutralization is a type of double replacement reaction."
+            }
+          ]
+        },
+        {
+          "id": "optional-extension-at-issue-what-are-the-consequences-of-increasing-ocean-acidity-p-176-177",
+          "titleHtml": "Optional Extension — At Issue: What are the consequences of increasing ocean acidity? — p.176–177",
+          "title": "Optional Extension — At Issue: What are the consequences of increasing ocean acidity? — p.176–177",
+          "kps": [
+            {
+              "id": "kp-291",
+              "number": 291,
+              "displayNumber": 291,
+              "titleHtml": "KP1: Fossil fuels and carbon dioxide",
+              "title": "KP1: Fossil fuels and carbon dioxide",
+              "coreHtml": "Burning fossil fuels releases carbon dioxide into the atmosphere.",
+              "core": "Burning fossil fuels releases carbon dioxide into the atmosphere.",
+              "applicationHtml": "Connect combustion to increasing atmospheric \\(CO_2\\).",
+              "application": "Connect combustion to increasing atmospheric \\(CO 2\\)."
+            },
+            {
+              "id": "kp-292",
+              "number": 292,
+              "displayNumber": 292,
+              "titleHtml": "KP2: Carbon dioxide and ocean acidity",
+              "title": "KP2: Carbon dioxide and ocean acidity",
+              "coreHtml": "\\(CO_2\\) dissolves in ocean water and can form carbonic acid.",
+              "core": "\\(CO 2\\) dissolves in ocean water and can form carbonic acid.",
+              "applicationHtml": "Explain how atmospheric \\(CO_2\\) affects ocean chemistry.",
+              "application": "Explain how atmospheric \\(CO 2\\) affects ocean chemistry."
+            },
+            {
+              "id": "kp-293",
+              "number": 293,
+              "displayNumber": 293,
+              "titleHtml": "KP3: Ocean organisms and shells",
+              "title": "KP3: Ocean organisms and shells",
+              "coreHtml": "Increased acidity can affect organisms that build shells or skeletons from carbonate materials.",
+              "core": "Increased acidity can affect organisms that build shells or skeletons from carbonate materials.",
+              "applicationHtml": "Connect ocean acidification to food webs and human communities that depend on ocean organisms.",
+              "application": "Connect ocean acidification to food webs and human communities that depend on ocean organisms."
+            },
+            {
+              "id": "kp-294",
+              "number": 294,
+              "displayNumber": 294,
+              "titleHtml": "KP4: Chemistry and global consequences",
+              "title": "KP4: Chemistry and global consequences",
+              "coreHtml": "Chemical changes in the ocean can affect ecosystems, food supply, and livelihoods.",
+              "core": "Chemical changes in the ocean can affect ecosystems, food supply, and livelihoods.",
+              "applicationHtml": "Evaluate ocean acidity as both a chemistry issue and a social-environmental issue.",
+              "application": "Evaluate ocean acidity as both a chemistry issue and a social-environmental issue."
+            }
+          ]
+        },
+        {
+          "id": "optional-investigation-investigation-2-g-using-acid-and-base-properties-to-identify-four-unknowns-p-178-179",
+          "titleHtml": "Optional Investigation — Investigation 2-G: Using Acid and Base Properties to Identify Four Unknowns — p.178–179",
+          "title": "Optional Investigation — Investigation 2-G: Using Acid and Base Properties to Identify Four Unknowns — p.178–179",
+          "kps": [
+            {
+              "id": "kp-295",
+              "number": 295,
+              "displayNumber": 295,
+              "titleHtml": "KP1: Properties of acids and bases",
+              "title": "KP1: Properties of acids and bases",
+              "coreHtml": "Acids and bases can be identified using observable properties and tests.",
+              "core": "Acids and bases can be identified using observable properties and tests.",
+              "applicationHtml": "Use evidence such as indicator colour, pH, or reaction behaviour to classify unknowns.",
+              "application": "Use evidence such as indicator colour, pH, or reaction behaviour to classify unknowns."
+            },
+            {
+              "id": "kp-296",
+              "number": 296,
+              "displayNumber": 296,
+              "titleHtml": "KP2: Testing unknown solutions",
+              "title": "KP2: Testing unknown solutions",
+              "coreHtml": "Unknown substances can be identified by comparing test results with known acid-base properties.",
+              "core": "Unknown substances can be identified by comparing test results with known acid-base properties.",
+              "applicationHtml": "Design a safe procedure for identifying unknown acidic, basic, or neutral substances.",
+              "application": "Design a safe procedure for identifying unknown acidic, basic, or neutral substances."
+            },
+            {
+              "id": "kp-297",
+              "number": 297,
+              "displayNumber": 297,
+              "titleHtml": "KP3: Evidence-based identification",
+              "title": "KP3: Evidence-based identification",
+              "coreHtml": "Reliable identification requires organized observations and comparison across multiple tests.",
+              "core": "Reliable identification requires organized observations and comparison across multiple tests.",
+              "applicationHtml": "Support a claim about an unknown substance using recorded evidence.",
+              "application": "Support a claim about an unknown substance using recorded evidence."
+            }
+          ]
+        },
+        {
+          "id": "optional-investigation-investigation-2-h-six-types-of-reactions-p-180-182",
+          "titleHtml": "Optional Investigation — Investigation 2-H: Six Types of Reactions — p.180–182",
+          "title": "Optional Investigation — Investigation 2-H: Six Types of Reactions — p.180–182",
+          "kps": [
+            {
+              "id": "kp-298",
+              "number": 298,
+              "displayNumber": 298,
+              "titleHtml": "KP1: Reaction classification",
+              "title": "KP1: Reaction classification",
+              "coreHtml": "Chemical reactions can be classified as synthesis, decomposition, single replacement, double replacement, combustion, or neutralization.",
+              "core": "Chemical reactions can be classified as synthesis, decomposition, single replacement, double replacement, combustion, or neutralization.",
+              "applicationHtml": "Sort reactions by reactant-product patterns.",
+              "application": "Sort reactions by reactant-product patterns."
+            },
+            {
+              "id": "kp-299",
+              "number": 299,
+              "displayNumber": 299,
+              "titleHtml": "KP2: Predicting products",
+              "title": "KP2: Predicting products",
+              "coreHtml": "Reaction type can help predict likely products.",
+              "core": "Reaction type can help predict likely products.",
+              "applicationHtml": "Use patterns to predict products before balancing the equation.",
+              "application": "Use patterns to predict products before balancing the equation."
+            },
+            {
+              "id": "kp-300",
+              "number": 300,
+              "displayNumber": 300,
+              "titleHtml": "KP3: Balanced equations",
+              "title": "KP3: Balanced equations",
+              "coreHtml": "Reaction classification and product prediction must still follow conservation of mass.",
+              "core": "Reaction classification and product prediction must still follow conservation of mass.",
+              "applicationHtml": "Balance predicted chemical equations using coefficients.",
+              "application": "Balance predicted chemical equations using coefficients."
+            },
+            {
+              "id": "kp-301",
+              "number": 301,
+              "displayNumber": 301,
+              "titleHtml": "KP4: Observation and reaction type",
+              "title": "KP4: Observation and reaction type",
+              "coreHtml": "Visible evidence such as gas formation, precipitate formation, heat, light, or colour change can support reaction classification.",
+              "core": "Visible evidence such as gas formation, precipitate formation, heat, light, or colour change can support reaction classification.",
+              "applicationHtml": "Connect lab observations to reaction-type reasoning.",
+              "application": "Connect lab observations to reaction-type reasoning."
+            }
+          ]
+        },
+        {
+          "id": "optional-investigation-investigation-2-i-evaluate-the-effectiveness-of-antacids-p-183",
+          "titleHtml": "Optional Investigation — Investigation 2-I: Evaluate the Effectiveness of Antacids — p.183",
+          "title": "Optional Investigation — Investigation 2-I: Evaluate the Effectiveness of Antacids — p.183",
+          "kps": [
+            {
+              "id": "kp-302",
+              "number": 302,
+              "displayNumber": 302,
+              "titleHtml": "KP1: Antacids and neutralization",
+              "title": "KP1: Antacids and neutralization",
+              "coreHtml": "Antacids work by neutralizing stomach acid.",
+              "core": "Antacids work by neutralizing stomach acid.",
+              "applicationHtml": "Connect acid-base reactions to medicine and digestion.",
+              "application": "Connect acid-base reactions to medicine and digestion."
+            },
+            {
+              "id": "kp-303",
+              "number": 303,
+              "displayNumber": 303,
+              "titleHtml": "KP2: Experimental variables",
+              "title": "KP2: Experimental variables",
+              "coreHtml": "A fair antacid test needs one independent variable, one dependent variable, and controlled conditions.",
+              "core": "A fair antacid test needs one independent variable, one dependent variable, and controlled conditions.",
+              "applicationHtml": "Design an experiment that compares antacids using consistent criteria.",
+              "application": "Design an experiment that compares antacids using consistent criteria."
+            },
+            {
+              "id": "kp-304",
+              "number": 304,
+              "displayNumber": 304,
+              "titleHtml": "KP3: Effectiveness criteria",
+              "title": "KP3: Effectiveness criteria",
+              "coreHtml": "Antacid effectiveness may depend on amount needed, cost, side effects, and neutralizing ability.",
+              "core": "Antacid effectiveness may depend on amount needed, cost, side effects, and neutralizing ability.",
+              "applicationHtml": "Choose an antacid recommendation based on evidence rather than one measurement alone.",
+              "application": "Choose an antacid recommendation based on evidence rather than one measurement alone."
+            },
+            {
+              "id": "kp-305",
+              "number": 305,
+              "displayNumber": 305,
+              "titleHtml": "KP4: Balanced neutralization equations",
+              "title": "KP4: Balanced neutralization equations",
+              "coreHtml": "Each antacid reaction can be represented with a balanced neutralization equation.",
+              "core": "Each antacid reaction can be represented with a balanced neutralization equation.",
+              "applicationHtml": "Link experimental results to the chemical reaction that neutralizes acid.",
+              "application": "Link experimental results to the chemical reaction that neutralizes acid."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "summaryHtml": "<h2>Unit Summary</h2>\n<p>- Total Chapters: 4</p>\n<p>- Total Core Sections: 12</p>\n<p>- Total Core Knowledge Points: 82</p>\n<p>- Optional Extension / Investigation Sections: 18</p>\n<p>- Optional Extension / Investigation Knowledge Points: 62</p>\n<p>- Top 5 Core Formulas:</p>\n<p class=\"nested-bullet\">• Synthesis reaction pattern: \\(A + B \\rightarrow AB\\)</p>\n<p class=\"nested-bullet\">• Decomposition reaction pattern: \\(AB \\rightarrow A + B\\)</p>\n<p class=\"nested-bullet\">• Hydrocarbon combustion pattern: \\(C_xH_y + O_2 \\rightarrow CO_2 + H_2O\\)</p>\n<p class=\"nested-bullet\">• Neutralization pattern: acid + base \\(\\rightarrow\\) salt + water</p>\n<p class=\"nested-bullet\">• Conservation of mass in balanced equations: atoms of each element on reactant side = atoms of each element on product side</p>\n<p>- Top 5 Common Error Areas:</p>\n<p class=\"nested-bullet\">• Confusing ionic compounds, covalent compounds, molecules, and formula units.</p>\n<p class=\"nested-bullet\">• Changing subscripts instead of coefficients when balancing equations.</p>\n<p class=\"nested-bullet\">• Confusing activation energy with overall energy change.</p>\n<p class=\"nested-bullet\">• Confusing single replacement and double replacement reactions.</p>\n<p class=\"nested-bullet\">• Treating every combustion reaction as complete combustion and forgetting carbon monoxide risk.</p>\n<p>- Suggested Learning Order:</p>\n<p class=\"nested-bullet\">• Start with chemistry in everyday life and safety: chemical reactions, WHMIS, SDS, protective equipment, and environmental risk.</p>\n<p class=\"nested-bullet\">• Study bonding and reaction foundations: ionic compounds, covalent compounds, molecules, formula units, bond breaking, bond forming, and conservation of mass.</p>\n<p class=\"nested-bullet\">• Practise chemical equations: reactants, products, word equations, skeleton equations, coefficients, subscripts, states of matter, and balancing.</p>\n<p class=\"nested-bullet\">• Learn energy in reactions: activation energy, system and surroundings, exothermic reactions, endothermic reactions, and energy-level diagrams.</p>\n<p class=\"nested-bullet\">• Finish with reaction types: synthesis, decomposition, single replacement, double replacement, combustion, acids, bases, pH, and neutralization.</p>\n<p>- Suggested Review Order:</p>\n<p class=\"nested-bullet\">• Review safety and chemical vocabulary first: chemical reaction, WHMIS, SDS, system, surroundings, reactant, product.</p>\n<p class=\"nested-bullet\">• Review bonding differences: ionic bonding, covalent bonding, molecules, formula units, and valence electrons.</p>\n<p class=\"nested-bullet\">• Practise balancing equations and explaining conservation of mass.</p>\n<p class=\"nested-bullet\">• Compare exothermic and endothermic reactions using energy transfer and temperature evidence.</p>\n<p class=\"nested-bullet\">• Sort reaction examples by pattern: synthesis, decomposition, replacement, combustion, and neutralization.</p>\n<p class=\"nested-bullet\">• Review common hazards: pollutants, incomplete combustion, carbon monoxide, acids, bases, and chemical waste.</p>"
+}
