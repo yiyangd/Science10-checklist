@@ -78,9 +78,10 @@ a { color: var(--accent-dark); }
   letter-spacing: 0.08em;
 }
 
-.hero h1 {
+.hero-title {
   margin: 0;
   font-size: clamp(1.65rem, 3vw, 2.35rem);
+  font-weight: 700;
   line-height: 1.12;
   letter-spacing: 0;
 }

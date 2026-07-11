@@ -31,11 +31,14 @@ const redirect = read("BCScienceConnections10_Full_Course_Master_Knowledge_Point
 if (index.includes('class="kp-check"')) fail("index.html must not contain the full KP list.");
 if (!index.includes('type="module" src="./js/app.js"')) fail("index.html does not load the application module.");
 if (index.includes("quiz-data.js")) fail("index.html still references the legacy Quiz bundle.");
+if (!index.includes('id="routeStatus"') || index.includes('id="appView" tabindex="-1" aria-live=')) fail("Route changes must use a concise live region instead of announcing the full view.");
+if (/<header class="hero">[\s\S]*?<h1[\s>]/.test(index)) fail("The persistent hero must not create a second page-level heading.");
 if (!app.includes("loadSearchIndex")) fail("Global search is not wired to its lazy data loader.");
 if (!app.includes("loadQuizPassState")) fail("Progress is not based on the saved full-course Quiz state.");
 if (!router.includes("#chapter-") || !router.includes("#kp-")) fail("Legacy Chapter or KP anchors are not supported.");
 if (!storage.includes("BCScienceConnections10_Checklist_v2") || !storage.includes("BCScienceConnections10_QuizGate_v1")) fail("Existing localStorage keys were not preserved.");
 if (!workflow.includes("cp -R assets js data public/")) fail("Pages workflow does not publish modular assets and data.");
+if (!workflow.includes("actions/setup-node@v4") || !workflow.includes("node scripts/validate-data.mjs") || !workflow.includes("node scripts/validate-app.mjs")) fail("Pages workflow does not validate data and application before publishing.");
 if (workflow.includes("Science10.pdf") || workflow.includes("Interactive_v1.html")) fail("Pages workflow includes an excluded local file.");
 if (!redirect.includes('window.location.replace("./" + window.location.hash)')) fail("Old v2 URL redirect behavior changed.");
 if (fs.existsSync(path.join(root, "quiz-data.js"))) fail("Legacy quiz-data.js should not remain after the split.");

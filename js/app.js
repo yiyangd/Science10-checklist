@@ -10,6 +10,7 @@ import {
 import { QuizModal } from "./quiz-modal.js";
 
 const appView = document.getElementById("appView");
+const routeStatus = document.getElementById("routeStatus");
 const progressText = document.getElementById("progressText");
 const progressFill = document.getElementById("progressFill");
 const progressTrack = document.querySelector(".progress-track");
@@ -100,6 +101,8 @@ function breadcrumbs(items) {
 function setView(html) {
   appView.innerHTML = `<div class="view-enter">${html}</div>`;
   appView.setAttribute("aria-busy", "false");
+  const heading = appView.querySelector("h1")?.textContent.trim();
+  routeStatus.textContent = heading ? `${heading} loaded.` : "View loaded.";
   appView.focus({ preventScroll: true });
   syncAppBarHeight();
   typeset(appView);

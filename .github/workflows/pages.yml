@@ -20,6 +20,16 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Validate course data and application
+        run: |
+          node scripts/validate-data.mjs
+          node scripts/validate-app.mjs
+
       - name: Prepare static site
         shell: bash
         run: |
