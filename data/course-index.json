@@ -1,0 +1,197 @@
+{
+  "schemaVersion": 1,
+  "title": "BC Science Connections 10 — Full Course Knowledge Point Checklist",
+  "totalKps": 572,
+  "howToHtml": "<h2>How to Use This Checklist</h2>\n<p>- Read the textbook section.</p>\n<p>- Check off each Knowledge Point after understanding it.</p>\n<p>- Review formulas and common error areas before quizzes/tests.</p>\n<p>- Use optional extensions and investigations for enrichment, projects, or lab review.</p>",
+  "fullSummaryHtml": "<h1>Full Course Summary</h1>\n<p>- Total Units: 4</p>\n<p>- Total Chapters: 16</p>\n<p>- Total Core Sections: 55</p>\n<p>- Total Core Knowledge Points: 364</p>\n<p>- Optional Extension / Investigation Sections: 64</p>\n<p>- Optional Extension / Investigation Knowledge Points: 208</p>\n<section id=\"top-10-core-formulas-across-the-course\" class=\"summary-block searchable\"><h2>Top 10 Core Formulas Across the Course</h2>\n<ol class=\"content-list numbered-list\">\n<li value=\"1\">Complementary DNA base pairing: \\(A \\leftrightarrow T\\), \\(G \\leftrightarrow C\\)</li>\n<li value=\"2\">DNA information flow: DNA \\(\\rightarrow\\) RNA \\(\\rightarrow\\) protein</li>\n<li value=\"3\">Human chromosome organization: 46 chromosomes \\(= 23\\) pairs \\(= 22\\) autosome pairs \\(+ 1\\) sex chromosome pair</li>\n<li value=\"4\">Mechanical kinetic energy: \\(E_k = \\frac{1}{2}mv^2\\)</li>\n<li value=\"5\">Gravitational potential energy: \\(E_g = mg\\Delta h\\)</li>\n<li value=\"6\">Specific heat capacity: \\(Q = mc\\Delta T\\)</li>\n<li value=\"7\">Cellular respiration: \\(C_6H_{12}O_6 + 6O_2 \\rightarrow 6CO_2 + 6H_2O + \\text{energy}\\)</li>\n<li value=\"8\">Photosynthesis: \\(6CO_2 + 6H_2O + \\text{energy} \\rightarrow C_6H_{12}O_6 + 6O_2\\)</li>\n<li value=\"9\">Hubble’s law pattern: \\(v = Hd\\)</li>\n<li value=\"10\">Light-year distance: \\(1\\,ly \\approx 9.46 \\times 10^{12}\\,km\\)</li>\n</ol>\n</section>\n<section id=\"top-10-common-error-areas-across-the-course\" class=\"summary-block searchable\"><h2>Top 10 Common Error Areas Across the Course</h2>\n<ol class=\"content-list numbered-list\">\n<li value=\"1\">Confusing nucleotide, DNA, gene, allele, chromosome, chromatin, genome, and protein.</li>\n<li value=\"2\">Confusing genotype with phenotype.</li>\n<li value=\"3\">Treating Punnett square probabilities as guaranteed outcomes.</li>\n<li value=\"4\">Saying individual organisms evolve instead of populations changing over generations.</li>\n<li value=\"5\">Changing chemical subscripts instead of coefficients when balancing equations.</li>\n<li value=\"6\">Confusing ionic compounds, covalent compounds, molecules, and formula units.</li>\n<li value=\"7\">Confusing energy transfer with energy transformation.</li>\n<li value=\"8\">Treating “lost” energy as destroyed instead of transformed into less useful forms.</li>\n<li value=\"9\">Confusing radiation, conduction, convection, greenhouse gases, and greenhouse effect.</li>\n<li value=\"10\">Confusing constellations, asterisms, galaxies, star clusters, solar systems, nebulae, redshift, blueshift, dark matter, and dark energy.</li>\n</ol>\n</section>\n<section id=\"suggested-full-course-learning-order\" class=\"summary-block searchable\"><h2>Suggested Full-Course Learning Order</h2>\n<ol class=\"content-list numbered-list\">\n<li value=\"1\">DNA structure, DNA function, genes, alleles, chromosomes, proteins, and biodiversity.</li>\n<li value=\"2\">Mendelian inheritance, Punnett squares, codominance, incomplete dominance, and sex-linked inheritance.</li>\n<li value=\"3\">Mutation, genetic variation, natural selection, speciation, extinction, artificial selection, and biotechnology.</li>\n<li value=\"4\">Chemistry in daily life, chemical safety, WHMIS, SDS, and environmental chemical risk.</li>\n<li value=\"5\">Ionic and covalent bonding, chemical reactions, conservation of mass, and balanced chemical equations.</li>\n<li value=\"6\">Reaction energy, activation energy, exothermic/endothermic reactions, and reaction classification.</li>\n<li value=\"7\">Energy forms, energy transfer, energy transformation, conservation of energy, and energy equations.</li>\n<li value=\"8\">Chemical, nuclear, light, Earth-system, and human energy transformations.</li>\n<li value=\"9\">Universe, sky observation, celestial sphere, constellations, telescopes, galaxies, stars, and distance scales.</li>\n<li value=\"10\">Big bang theory, redshift, Hubble’s law, cosmic microwave background radiation, dark matter, and dark energy.</li>\n</ol>\n</section>\n<section id=\"suggested-full-course-review-order\" class=\"summary-block searchable\"><h2>Suggested Full-Course Review Order</h2>\n<ol class=\"content-list numbered-list\">\n<li value=\"1\">Review key vocabulary chains:</li>\n<p class=\"nested-bullet\">• DNA → gene → allele → chromosome → trait → protein</p>\n<p class=\"nested-bullet\">• reactant → product → equation → coefficient → conservation of mass</p>\n<p class=\"nested-bullet\">• system → surroundings → energy transfer → energy transformation</p>\n<p class=\"nested-bullet\">• star → star cluster → galaxy → galaxy group → supercluster</p>\n</ol>\n<ol class=\"content-list numbered-list\">\n<li value=\"2\">Review high-error comparisons:</li>\n<p class=\"nested-bullet\">• genotype vs phenotype</p>\n<p class=\"nested-bullet\">• codominance vs incomplete dominance</p>\n<p class=\"nested-bullet\">• natural selection vs artificial selection</p>\n<p class=\"nested-bullet\">• ionic vs covalent bonding</p>\n<p class=\"nested-bullet\">• coefficient vs subscript</p>\n<p class=\"nested-bullet\">• exothermic vs endothermic</p>\n<p class=\"nested-bullet\">• energy transfer vs energy transformation</p>\n<p class=\"nested-bullet\">• constellation vs asterism</p>\n<p class=\"nested-bullet\">• redshift vs blueshift</p>\n<p class=\"nested-bullet\">• dark matter vs dark energy</p>\n</ol>\n<ol class=\"content-list numbered-list\">\n<li value=\"3\">Review formulas and symbolic patterns:</li>\n<p class=\"nested-bullet\">• DNA base-pairing</p>\n<p class=\"nested-bullet\">• Punnett-square ratios</p>\n<p class=\"nested-bullet\">• reaction patterns</p>\n<p class=\"nested-bullet\">• energy equations</p>\n<p class=\"nested-bullet\">• photosynthesis and cellular respiration</p>\n<p class=\"nested-bullet\">• astronomical distance units</p>\n<p class=\"nested-bullet\">• Hubble’s law</p>\n</ol>\n<ol class=\"content-list numbered-list\">\n<li value=\"4\">Review applications and risk-benefit reasoning:</li>\n<p class=\"nested-bullet\">• biotechnology and ethics</p>\n<p class=\"nested-bullet\">• chemical safety and pollution</p>\n<p class=\"nested-bullet\">• energy technologies and environmental impacts</p>\n<p class=\"nested-bullet\">• nuclear power and waste</p>\n<p class=\"nested-bullet\">• light pollution and astronomy</p>\n<p class=\"nested-bullet\">• terraforming and human responsibility</p>\n</ol>\n</section>",
+  "units": [
+    {
+      "id": "unit-1",
+      "number": 1,
+      "title": "Unit 1: DNA is the foundation for the unity and diversity of living things",
+      "titleHtml": "Unit 1: DNA is the foundation for the unity and diversity of living things",
+      "kpCount": 161,
+      "kpStart": 1,
+      "kpEnd": 161,
+      "chapters": [
+        {
+          "id": "chapter-1-1",
+          "number": "1-1",
+          "title": "Chapter 1.1: How does an understanding of DNA help us investigate living things?",
+          "titleHtml": "Chapter 1.1: How does an understanding of DNA help us investigate living things?",
+          "kpCount": 39,
+          "kpStart": 1,
+          "kpEnd": 39
+        },
+        {
+          "id": "chapter-1-2",
+          "number": "1-2",
+          "title": "Chapter 1.2: How is hereditary information passed from one generation to the next?",
+          "titleHtml": "Chapter 1.2: How is hereditary information passed from one generation to the next?",
+          "kpCount": 40,
+          "kpStart": 40,
+          "kpEnd": 79
+        },
+        {
+          "id": "chapter-1-3",
+          "number": "1-3",
+          "title": "Chapter 1.3: How can natural and artificial selection influence changes in populations?",
+          "titleHtml": "Chapter 1.3: How can natural and artificial selection influence changes in populations?",
+          "kpCount": 51,
+          "kpStart": 80,
+          "kpEnd": 130
+        },
+        {
+          "id": "chapter-1-4",
+          "number": "1-4",
+          "title": "Chapter 1.4: How and why are the genes of organisms manipulated?",
+          "titleHtml": "Chapter 1.4: How and why are the genes of organisms manipulated?",
+          "kpCount": 31,
+          "kpStart": 131,
+          "kpEnd": 161
+        }
+      ]
+    },
+    {
+      "id": "unit-2",
+      "number": 2,
+      "title": "Unit 2: Chemical processes require energy change as atoms are rearranged",
+      "titleHtml": "Unit 2: Chemical processes require energy change as atoms are rearranged",
+      "kpCount": 144,
+      "kpStart": 162,
+      "kpEnd": 305,
+      "chapters": [
+        {
+          "id": "chapter-2-1",
+          "number": "2-1",
+          "title": "Chapter 2.1: How are chemical processes part of our lives?",
+          "titleHtml": "Chapter 2.1: How are chemical processes part of our lives?",
+          "kpCount": 27,
+          "kpStart": 162,
+          "kpEnd": 188
+        },
+        {
+          "id": "chapter-2-2",
+          "number": "2-2",
+          "title": "Chapter 2.2: What happens to atoms in a chemical reaction?",
+          "titleHtml": "Chapter 2.2: What happens to atoms in a chemical reaction?",
+          "kpCount": 37,
+          "kpStart": 189,
+          "kpEnd": 225
+        },
+        {
+          "id": "chapter-2-3",
+          "number": "2-3",
+          "title": "Chapter 2.3: How is energy involved in chemical processes?",
+          "titleHtml": "Chapter 2.3: How is energy involved in chemical processes?",
+          "kpCount": 37,
+          "kpStart": 226,
+          "kpEnd": 262
+        },
+        {
+          "id": "chapter-2-4",
+          "number": "2-4",
+          "title": "Chapter 2.4: How do atoms rearrange in different types of chemical reactions?",
+          "titleHtml": "Chapter 2.4: How do atoms rearrange in different types of chemical reactions?",
+          "kpCount": 43,
+          "kpStart": 263,
+          "kpEnd": 305
+        }
+      ]
+    },
+    {
+      "id": "unit-3",
+      "number": 3,
+      "title": "Unit 3: Energy is conserved and its transformation affects living things and the environment",
+      "titleHtml": "Unit 3: Energy is conserved and its transformation affects living things and the environment",
+      "kpCount": 147,
+      "kpStart": 306,
+      "kpEnd": 452,
+      "chapters": [
+        {
+          "id": "chapter-3-1",
+          "number": "3-1",
+          "title": "Chapter 3.1: What are the properties of energy?",
+          "titleHtml": "Chapter 3.1: What are the properties of energy?",
+          "kpCount": 35,
+          "kpStart": 306,
+          "kpEnd": 340
+        },
+        {
+          "id": "chapter-3-2",
+          "number": "3-2",
+          "title": "Chapter 3.2: How is energy transformed?",
+          "titleHtml": "Chapter 3.2: How is energy transformed?",
+          "kpCount": 38,
+          "kpStart": 341,
+          "kpEnd": 378
+        },
+        {
+          "id": "chapter-3-3",
+          "number": "3-3",
+          "title": "Chapter 3.3: How does energy transformation affect global systems?",
+          "titleHtml": "Chapter 3.3: How does energy transformation affect global systems?",
+          "kpCount": 45,
+          "kpStart": 379,
+          "kpEnd": 423
+        },
+        {
+          "id": "chapter-3-4",
+          "number": "3-4",
+          "title": "Chapter 3.4: How does energy transformation affect humans?",
+          "titleHtml": "Chapter 3.4: How does energy transformation affect humans?",
+          "kpCount": 29,
+          "kpStart": 424,
+          "kpEnd": 452
+        }
+      ]
+    },
+    {
+      "id": "unit-4",
+      "number": 4,
+      "title": "Unit 4: The formation of the universe can be explained by the big bang theory",
+      "titleHtml": "Unit 4: The formation of the universe can be explained by the big bang theory",
+      "kpCount": 120,
+      "kpStart": 453,
+      "kpEnd": 572,
+      "chapters": [
+        {
+          "id": "chapter-4-1",
+          "number": "4-1",
+          "title": "Chapter 4.1: What is the universe, and how do we make sense of it?",
+          "titleHtml": "Chapter 4.1: What is the universe, and how do we make sense of it?",
+          "kpCount": 17,
+          "kpStart": 453,
+          "kpEnd": 469
+        },
+        {
+          "id": "chapter-4-2",
+          "number": "4-2",
+          "title": "Chapter 4.2: What do we know about the universe based on what we can see only with our eyes?",
+          "titleHtml": "Chapter 4.2: What do we know about the universe based on what we can see only with our eyes?",
+          "kpCount": 28,
+          "kpStart": 470,
+          "kpEnd": 497
+        },
+        {
+          "id": "chapter-4-3",
+          "number": "4-3",
+          "title": "Chapter 4.3: How has technology expanded our knowledge and understanding of the universe?",
+          "titleHtml": "Chapter 4.3: How has technology expanded our knowledge and understanding of the universe?",
+          "kpCount": 44,
+          "kpStart": 498,
+          "kpEnd": 541
+        },
+        {
+          "id": "chapter-4-4",
+          "number": "4-4",
+          "title": "Chapter 4.4: How do we use the big bang theory to explain what we know about the universe?",
+          "titleHtml": "Chapter 4.4: How do we use the big bang theory to explain what we know about the universe?",
+          "kpCount": 31,
+          "kpStart": 542,
+          "kpEnd": 572
+        }
+      ]
+    }
+  ]
+}

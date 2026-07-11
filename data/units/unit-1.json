@@ -1,0 +1,2076 @@
+{
+  "id": "unit-1",
+  "number": 1,
+  "titleHtml": "Unit 1: DNA is the foundation for the unity and diversity of living things",
+  "title": "Unit 1: DNA is the foundation for the unity and diversity of living things",
+  "kpCount": 161,
+  "chapters": [
+    {
+      "id": "chapter-1-1",
+      "number": "1-1",
+      "titleHtml": "Chapter 1.1: How does an understanding of DNA help us investigate living things?",
+      "title": "Chapter 1.1: How does an understanding of DNA help us investigate living things?",
+      "kpCount": 39,
+      "concepts": [
+        {
+          "id": "1-1-concept-1-the-variation-in-living-things-we-see-around-us-is-due-to-dna-p-10-11",
+          "titleHtml": "1.1 Concept 1: The variation in living things we see around us is due to DNA — p.10–11",
+          "title": "1.1 Concept 1: The variation in living things we see around us is due to DNA — p.10–11",
+          "kps": [
+            {
+              "id": "kp-1",
+              "number": 1,
+              "displayNumber": 1,
+              "titleHtml": "KP1: DNA as genetic material",
+              "title": "KP1: DNA as genetic material",
+              "coreHtml": "DNA, or deoxyribonucleic acid, is a double-stranded nucleic acid that stores genetic information.",
+              "core": "DNA, or deoxyribonucleic acid, is a double-stranded nucleic acid that stores genetic information.",
+              "applicationHtml": "Use DNA to explain why organisms inherit traits and show variation.",
+              "application": "Use DNA to explain why organisms inherit traits and show variation."
+            },
+            {
+              "id": "kp-2",
+              "number": 2,
+              "displayNumber": 2,
+              "titleHtml": "KP2: DNA and variation among living things",
+              "title": "KP2: DNA and variation among living things",
+              "coreHtml": "Differences in DNA help produce differences in appearance, structures, and life processes.",
+              "core": "Differences in DNA help produce differences in appearance, structures, and life processes.",
+              "applicationHtml": "Connect DNA differences to variation among plants, animals, bacteria, protists, and fungi.",
+              "application": "Connect DNA differences to variation among plants, animals, bacteria, protists, and fungi."
+            },
+            {
+              "id": "kp-3",
+              "number": 3,
+              "displayNumber": 3,
+              "titleHtml": "KP3: Shared traits of life",
+              "title": "KP3: Shared traits of life",
+              "coreHtml": "Living things share basic characteristics such as being made of cells, using energy, growing, and reproducing.",
+              "core": "Living things share basic characteristics such as being made of cells, using energy, growing, and reproducing.",
+              "applicationHtml": "Distinguish shared life processes from DNA-based differences among organisms.",
+              "application": "Distinguish shared life processes from DNA-based differences among organisms."
+            },
+            {
+              "id": "kp-4",
+              "number": 4,
+              "displayNumber": 4,
+              "titleHtml": "KP4: DNA and organism function",
+              "title": "KP4: DNA and organism function",
+              "coreHtml": "Most cells contain genetic information that influences an organism’s appearance and life processes.",
+              "core": "Most cells contain genetic information that influences an organism’s appearance and life processes.",
+              "applicationHtml": "Explain how DNA affects both visible traits and internal cell functions.",
+              "application": "Explain how DNA affects both visible traits and internal cell functions."
+            },
+            {
+              "id": "kp-5",
+              "number": 5,
+              "displayNumber": 5,
+              "titleHtml": "KP5: DNA across major groups of organisms",
+              "title": "KP5: DNA across major groups of organisms",
+              "coreHtml": "DNA-based variation appears across many groups, including plants, animals, bacteria, protists, and fungi.",
+              "core": "DNA-based variation appears across many groups, including plants, animals, bacteria, protists, and fungi.",
+              "applicationHtml": "Use examples from different organism groups to show that DNA is connected to life’s diversity.",
+              "application": "Use examples from different organism groups to show that DNA is connected to life’s diversity."
+            }
+          ]
+        },
+        {
+          "id": "1-1-concept-2-dna-is-made-of-many-nucleotides-linked-together-in-a-specific-order-p-12-13",
+          "titleHtml": "1.1 Concept 2: DNA is made of many nucleotides linked together in a specific order — p.12–13",
+          "title": "1.1 Concept 2: DNA is made of many nucleotides linked together in a specific order — p.12–13",
+          "kps": [
+            {
+              "id": "kp-6",
+              "number": 6,
+              "displayNumber": 6,
+              "titleHtml": "KP1: Nucleic acids",
+              "title": "KP1: Nucleic acids",
+              "coreHtml": "Cells contain nucleic acids such as DNA and RNA.",
+              "core": "Cells contain nucleic acids such as DNA and RNA.",
+              "applicationHtml": "Identify DNA and RNA as large molecules built from smaller units.",
+              "application": "Identify DNA and RNA as large molecules built from smaller units."
+            },
+            {
+              "id": "kp-7",
+              "number": 7,
+              "displayNumber": 7,
+              "titleHtml": "KP2: Nucleotide structure",
+              "title": "KP2: Nucleotide structure",
+              "coreHtml": "A nucleotide consists of a phosphate group, a sugar, and a nitrogenous base.",
+              "core": "A nucleotide consists of a phosphate group, a sugar, and a nitrogenous base.",
+              "applicationHtml": "Break DNA structure into its repeating building blocks.",
+              "application": "Break DNA structure into its repeating building blocks."
+            },
+            {
+              "id": "kp-8",
+              "number": 8,
+              "displayNumber": 8,
+              "titleHtml": "KP3: DNA nitrogenous bases",
+              "title": "KP3: DNA nitrogenous bases",
+              "coreHtml": "The nitrogenous bases in DNA are adenine \\((A)\\), cytosine \\((C)\\), guanine \\((G)\\), and thymine \\((T)\\).",
+              "core": "The nitrogenous bases in DNA are adenine \\((A)\\), cytosine \\((C)\\), guanine \\((G)\\), and thymine \\((T)\\).",
+              "applicationHtml": "Recognize the four DNA bases used to store genetic information.",
+              "application": "Recognize the four DNA bases used to store genetic information."
+            },
+            {
+              "id": "kp-9",
+              "number": 9,
+              "displayNumber": 9,
+              "titleHtml": "KP4: Double helix structure",
+              "title": "KP4: Double helix structure",
+              "coreHtml": "DNA is made of two nucleotide strands arranged like a twisted ladder, or double helix.",
+              "core": "DNA is made of two nucleotide strands arranged like a twisted ladder, or double helix.",
+              "applicationHtml": "Describe the sugar-phosphate backbone and base-pair “rungs” of DNA.",
+              "application": "Describe the sugar-phosphate backbone and base-pair “rungs” of DNA."
+            },
+            {
+              "id": "kp-10",
+              "number": 10,
+              "displayNumber": 10,
+              "titleHtml": "KP5: Complementary base pairing",
+              "title": "KP5: Complementary base pairing",
+              "coreHtml": "\\(A\\) pairs with \\(T\\), and \\(G\\) pairs with \\(C\\).",
+              "core": "\\(A\\) pairs with \\(T\\), and \\(G\\) pairs with \\(C\\).",
+              "applicationHtml": "Determine the complementary DNA strand from a given DNA sequence.",
+              "application": "Determine the complementary DNA strand from a given DNA sequence."
+            },
+            {
+              "id": "kp-11",
+              "number": 11,
+              "displayNumber": 11,
+              "titleHtml": "KP6: DNA sequence and protein instructions",
+              "title": "KP6: DNA sequence and protein instructions",
+              "coreHtml": "The order of bases in DNA stores instructions that tell cells what proteins to make and how to make them.",
+              "core": "The order of bases in DNA stores instructions that tell cells what proteins to make and how to make them.",
+              "applicationHtml": "Connect DNA base sequence to protein production and cell function.",
+              "application": "Connect DNA base sequence to protein production and cell function."
+            },
+            {
+              "id": "kp-12",
+              "number": 12,
+              "displayNumber": 12,
+              "titleHtml": "KP7: Proteins and organism function",
+              "title": "KP7: Proteins and organism function",
+              "coreHtml": "Proteins make up much of cell and tissue structure and help control how cells form and function.",
+              "core": "Proteins make up much of cell and tissue structure and help control how cells form and function.",
+              "applicationHtml": "Explain how DNA instructions can affect organism development and body processes.",
+              "application": "Explain how DNA instructions can affect organism development and body processes."
+            },
+            {
+              "id": "kp-13",
+              "number": 13,
+              "displayNumber": 13,
+              "titleHtml": "KP8: Genome",
+              "title": "KP8: Genome",
+              "coreHtml": "The complete DNA sequence in each cell of an organism is called the organism’s genome.",
+              "core": "The complete DNA sequence in each cell of an organism is called the organism’s genome.",
+              "applicationHtml": "Connect the human genome to about three billion base pairs distributed across 46 chromosomes.",
+              "application": "Connect the human genome to about three billion base pairs distributed across 46 chromosomes."
+            }
+          ]
+        },
+        {
+          "id": "1-1-concept-3-dna-exists-in-chromosomes-which-contain-thousands-of-genes-p-14-15",
+          "titleHtml": "1.1 Concept 3: DNA exists in chromosomes, which contain thousands of genes — p.14–15",
+          "title": "1.1 Concept 3: DNA exists in chromosomes, which contain thousands of genes — p.14–15",
+          "kps": [
+            {
+              "id": "kp-14",
+              "number": 14,
+              "displayNumber": 14,
+              "titleHtml": "KP1: DNA, chromatin, and chromosomes",
+              "title": "KP1: DNA, chromatin, and chromosomes",
+              "coreHtml": "DNA exists as chromatin during most of the cell cycle and condenses into chromosomes during cell division.",
+              "core": "DNA exists as chromatin during most of the cell cycle and condenses into chromosomes during cell division.",
+              "applicationHtml": "Explain how long DNA can fit inside a small nucleus.",
+              "application": "Explain how long DNA can fit inside a small nucleus."
+            },
+            {
+              "id": "kp-15",
+              "number": 15,
+              "displayNumber": 15,
+              "titleHtml": "KP2: Chromosome number in human body cells",
+              "title": "KP2: Chromosome number in human body cells",
+              "coreHtml": "Human somatic cells have 46 chromosomes arranged in 23 pairs.",
+              "core": "Human somatic cells have 46 chromosomes arranged in 23 pairs.",
+              "applicationHtml": "Identify normal human chromosome organization.",
+              "application": "Identify normal human chromosome organization."
+            },
+            {
+              "id": "kp-16",
+              "number": 16,
+              "displayNumber": 16,
+              "titleHtml": "KP3: Autosomes and sex chromosomes",
+              "title": "KP3: Autosomes and sex chromosomes",
+              "coreHtml": "Humans have 22 pairs of autosomes and one pair of sex chromosomes, usually \\(XX\\) or \\(XY\\).",
+              "core": "Humans have 22 pairs of autosomes and one pair of sex chromosomes, usually \\(XX\\) or \\(XY\\).",
+              "applicationHtml": "Distinguish autosomes from sex chromosomes in a chromosome set.",
+              "application": "Distinguish autosomes from sex chromosomes in a chromosome set."
+            },
+            {
+              "id": "kp-17",
+              "number": 17,
+              "displayNumber": 17,
+              "titleHtml": "KP4: Homologous chromosomes",
+              "title": "KP4: Homologous chromosomes",
+              "coreHtml": "Homologous chromosomes have the same sequence of genes but are not identical.",
+              "core": "Homologous chromosomes have the same sequence of genes but are not identical.",
+              "applicationHtml": "Compare chromosome pairs by length, centromere location, banding pattern, and gene locations.",
+              "application": "Compare chromosome pairs by length, centromere location, banding pattern, and gene locations."
+            },
+            {
+              "id": "kp-18",
+              "number": 18,
+              "displayNumber": 18,
+              "titleHtml": "KP5: Genes and alleles",
+              "title": "KP5: Genes and alleles",
+              "coreHtml": "A gene is a section of DNA that carries information for a trait; an allele is a different form of the same gene.",
+              "core": "A gene is a section of DNA that carries information for a trait; an allele is a different form of the same gene.",
+              "applicationHtml": "Explain how alleles contribute to differences in traits.",
+              "application": "Explain how alleles contribute to differences in traits."
+            },
+            {
+              "id": "kp-19",
+              "number": 19,
+              "displayNumber": 19,
+              "titleHtml": "KP6: Karyotypes",
+              "title": "KP6: Karyotypes",
+              "coreHtml": "A karyotype is a photograph of paired homologous chromosomes arranged by size and type.",
+              "core": "A karyotype is a photograph of paired homologous chromosomes arranged by size and type.",
+              "applicationHtml": "Use a karyotype to examine chromosome number, chromosome pairs, and sex chromosomes.",
+              "application": "Use a karyotype to examine chromosome number, chromosome pairs, and sex chromosomes."
+            }
+          ]
+        },
+        {
+          "id": "1-1-concept-4-the-structure-of-dna-is-important-to-passing-on-genetic-information-p-16",
+          "titleHtml": "1.1 Concept 4: The structure of DNA is important to passing on genetic information — p.16",
+          "title": "1.1 Concept 4: The structure of DNA is important to passing on genetic information — p.16",
+          "kps": [
+            {
+              "id": "kp-20",
+              "number": 20,
+              "displayNumber": 20,
+              "titleHtml": "KP1: DNA replication",
+              "title": "KP1: DNA replication",
+              "coreHtml": "Replication creates an exact copy of a DNA molecule.",
+              "core": "Replication creates an exact copy of a DNA molecule.",
+              "applicationHtml": "Explain why cells must copy DNA before cell division.",
+              "application": "Explain why cells must copy DNA before cell division."
+            },
+            {
+              "id": "kp-21",
+              "number": 21,
+              "displayNumber": 21,
+              "titleHtml": "KP2: Genome copying",
+              "title": "KP2: Genome copying",
+              "coreHtml": "A cell replicates its whole genome once during the cell cycle.",
+              "core": "A cell replicates its whole genome once during the cell cycle.",
+              "applicationHtml": "Connect genome copying to accurate inheritance of genetic information.",
+              "application": "Connect genome copying to accurate inheritance of genetic information."
+            },
+            {
+              "id": "kp-22",
+              "number": 22,
+              "displayNumber": 22,
+              "titleHtml": "KP3: Template strands and complementary strands",
+              "title": "KP3: Template strands and complementary strands",
+              "coreHtml": "Each new DNA molecule contains one original strand and one new complementary strand.",
+              "core": "Each new DNA molecule contains one original strand and one new complementary strand.",
+              "applicationHtml": "Use complementary base pairing to explain accurate DNA copying.",
+              "application": "Use complementary base pairing to explain accurate DNA copying."
+            },
+            {
+              "id": "kp-23",
+              "number": 23,
+              "displayNumber": 23,
+              "titleHtml": "KP4: DNA to RNA to protein",
+              "title": "KP4: DNA to RNA to protein",
+              "coreHtml": "Genetic information passes from DNA to an RNA copy, and RNA directs the assembly of amino acids into a protein.",
+              "core": "Genetic information passes from DNA to an RNA copy, and RNA directs the assembly of amino acids into a protein.",
+              "applicationHtml": "Trace how a gene can lead to production of a specific protein.",
+              "application": "Trace how a gene can lead to production of a specific protein."
+            },
+            {
+              "id": "kp-24",
+              "number": 24,
+              "displayNumber": 24,
+              "titleHtml": "KP5: Base sequence and protein sequence",
+              "title": "KP5: Base sequence and protein sequence",
+              "coreHtml": "The sequence of DNA bases determines the RNA base sequence, which determines the amino acid sequence of a protein.",
+              "core": "The sequence of DNA bases determines the RNA base sequence, which determines the amino acid sequence of a protein.",
+              "applicationHtml": "Explain why changes in DNA sequence can affect protein production.",
+              "application": "Explain why changes in DNA sequence can affect protein production."
+            }
+          ]
+        },
+        {
+          "id": "1-1-concept-5-the-different-genetic-make-up-of-organisms-is-reflected-in-the-diversity-of-life-p-17-18",
+          "titleHtml": "1.1 Concept 5: The different genetic make-up of organisms is reflected in the diversity of life — p.17–18",
+          "title": "1.1 Concept 5: The different genetic make-up of organisms is reflected in the diversity of life — p.17–18",
+          "kps": [
+            {
+              "id": "kp-25",
+              "number": 25,
+              "displayNumber": 25,
+              "titleHtml": "KP1: Biodiversity",
+              "title": "KP1: Biodiversity",
+              "coreHtml": "Biodiversity includes genetic diversity, species diversity, and ecosystem diversity.",
+              "core": "Biodiversity includes genetic diversity, species diversity, and ecosystem diversity.",
+              "applicationHtml": "Classify examples of biodiversity by level.",
+              "application": "Classify examples of biodiversity by level."
+            },
+            {
+              "id": "kp-26",
+              "number": 26,
+              "displayNumber": 26,
+              "titleHtml": "KP2: Genetic diversity",
+              "title": "KP2: Genetic diversity",
+              "coreHtml": "Genetic diversity is the variety of inherited traits within a species or population.",
+              "core": "Genetic diversity is the variety of inherited traits within a species or population.",
+              "applicationHtml": "Use inherited trait differences to explain variation among individuals.",
+              "application": "Use inherited trait differences to explain variation among individuals."
+            },
+            {
+              "id": "kp-27",
+              "number": 27,
+              "displayNumber": 27,
+              "titleHtml": "KP3: Gene pool",
+              "title": "KP3: Gene pool",
+              "coreHtml": "A gene pool is the sum of all versions, or alleles, of all genes in a population.",
+              "core": "A gene pool is the sum of all versions, or alleles, of all genes in a population.",
+              "applicationHtml": "Compare genetic diversity within a population and within a species.",
+              "application": "Compare genetic diversity within a population and within a species."
+            },
+            {
+              "id": "kp-28",
+              "number": 28,
+              "displayNumber": 28,
+              "titleHtml": "KP4: Species and species diversity",
+              "title": "KP4: Species and species diversity",
+              "coreHtml": "A species is a group of organisms that can interbreed in nature and produce fertile offspring.",
+              "core": "A species is a group of organisms that can interbreed in nature and produce fertile offspring.",
+              "applicationHtml": "Describe species diversity as the variety and abundance of species in an area.",
+              "application": "Describe species diversity as the variety and abundance of species in an area."
+            },
+            {
+              "id": "kp-29",
+              "number": 29,
+              "displayNumber": 29,
+              "titleHtml": "KP5: Ecosystem diversity",
+              "title": "KP5: Ecosystem diversity",
+              "coreHtml": "Ecosystem diversity is the variety of ecosystems in the biosphere.",
+              "core": "Ecosystem diversity is the variety of ecosystems in the biosphere.",
+              "applicationHtml": "Connect biotic and abiotic factors to the variety of ecosystems on Earth.",
+              "application": "Connect biotic and abiotic factors to the variety of ecosystems on Earth."
+            },
+            {
+              "id": "kp-30",
+              "number": 30,
+              "displayNumber": 30,
+              "titleHtml": "KP6: Genetic variation and biodiversity",
+              "title": "KP6: Genetic variation and biodiversity",
+              "coreHtml": "Variation in genes helps support genetic, species, and ecosystem diversity.",
+              "core": "Variation in genes helps support genetic, species, and ecosystem diversity.",
+              "applicationHtml": "Explain how genetic differences can contribute to the formation and survival of diverse life forms.",
+              "application": "Explain how genetic differences can contribute to the formation and survival of diverse life forms."
+            }
+          ]
+        },
+        {
+          "id": "optional-extension-at-issue-what-are-the-accomplishments-and-legacies-of-the-human-genome-project-p-19",
+          "titleHtml": "Optional Extension — At Issue: What Are the Accomplishments and Legacies of the Human Genome Project? — p.19",
+          "title": "Optional Extension — At Issue: What Are the Accomplishments and Legacies of the Human Genome Project? — p.19",
+          "kps": [
+            {
+              "id": "kp-31",
+              "number": 31,
+              "displayNumber": 31,
+              "titleHtml": "KP1: Human Genome Project goals",
+              "title": "KP1: Human Genome Project goals",
+              "coreHtml": "The Human Genome Project aimed to determine the complete sequence of the human genome and identify all human genes.",
+              "core": "The Human Genome Project aimed to determine the complete sequence of the human genome and identify all human genes.",
+              "applicationHtml": "Connect genome sequencing to understanding human genetic information.",
+              "application": "Connect genome sequencing to understanding human genetic information."
+            },
+            {
+              "id": "kp-32",
+              "number": 32,
+              "displayNumber": 32,
+              "titleHtml": "KP2: Human genome findings",
+              "title": "KP2: Human genome findings",
+              "coreHtml": "The human genome has about \\(3 \\times 10^9\\) base pairs and about 21 000 genes.",
+              "core": "The human genome has about \\(3 10 9\\) base pairs and about 21 000 genes.",
+              "applicationHtml": "Recognize that only a small portion of human DNA directly codes for genes.",
+              "application": "Recognize that only a small portion of human DNA directly codes for genes."
+            },
+            {
+              "id": "kp-33",
+              "number": 33,
+              "displayNumber": 33,
+              "titleHtml": "KP3: Genetic information and ethics",
+              "title": "KP3: Genetic information and ethics",
+              "coreHtml": "Genome research raises social, legal, and ethical questions about ownership, control, and regulation of genetic information.",
+              "core": "Genome research raises social, legal, and ethical questions about ownership, control, and regulation of genetic information.",
+              "applicationHtml": "Discuss why genetic data requires careful use and protection.",
+              "application": "Discuss why genetic data requires careful use and protection."
+            }
+          ]
+        },
+        {
+          "id": "optional-extension-at-issue-seeding-the-future-native-and-heritage-varieties-p-20",
+          "titleHtml": "Optional Extension — At Issue: Seeding the Future: Native and Heritage Varieties — p.20",
+          "title": "Optional Extension — At Issue: Seeding the Future: Native and Heritage Varieties — p.20",
+          "kps": [
+            {
+              "id": "kp-34",
+              "number": 34,
+              "displayNumber": 34,
+              "titleHtml": "KP1: Hybrids and crop traits",
+              "title": "KP1: Hybrids and crop traits",
+              "coreHtml": "Hybrids are created by crossing two plant lines to enhance selected traits such as size, appearance, or shelf life.",
+              "core": "Hybrids are created by crossing two plant lines to enhance selected traits such as size, appearance, or shelf life.",
+              "applicationHtml": "Compare the benefits and limitations of hybrid crop varieties.",
+              "application": "Compare the benefits and limitations of hybrid crop varieties."
+            },
+            {
+              "id": "kp-35",
+              "number": 35,
+              "displayNumber": 35,
+              "titleHtml": "KP2: Native and heritage varieties",
+              "title": "KP2: Native and heritage varieties",
+              "coreHtml": "Native and heritage varieties are naturally pollinated, non-patented plants that produce fertile seeds.",
+              "core": "Native and heritage varieties are naturally pollinated, non-patented plants that produce fertile seeds.",
+              "applicationHtml": "Explain how local adaptation can increase resistance to pests, disease, and environmental stress.",
+              "application": "Explain how local adaptation can increase resistance to pests, disease, and environmental stress."
+            },
+            {
+              "id": "kp-36",
+              "number": 36,
+              "displayNumber": 36,
+              "titleHtml": "KP3: Seed libraries and seed banks",
+              "title": "KP3: Seed libraries and seed banks",
+              "coreHtml": "Seed libraries distribute seeds, while seed banks preserve seeds for future use.",
+              "core": "Seed libraries distribute seeds, while seed banks preserve seeds for future use.",
+              "applicationHtml": "Connect seed preservation to maintaining genetic diversity and biodiversity.",
+              "application": "Connect seed preservation to maintaining genetic diversity and biodiversity."
+            }
+          ]
+        },
+        {
+          "id": "optional-investigation-investigation-1-a-using-karyotypes-to-diagnose-genetic-disorders-p-22-23",
+          "titleHtml": "Optional Investigation — Investigation 1-A: Using Karyotypes to Diagnose Genetic Disorders — p.22–23",
+          "title": "Optional Investigation — Investigation 1-A: Using Karyotypes to Diagnose Genetic Disorders — p.22–23",
+          "kps": [
+            {
+              "id": "kp-37",
+              "number": 37,
+              "displayNumber": 37,
+              "titleHtml": "KP1: Karyotype preparation",
+              "title": "KP1: Karyotype preparation",
+              "coreHtml": "A karyotype can be made by collecting cells, stopping cell division during mitosis, staining chromosomes, and photographing them.",
+              "core": "A karyotype can be made by collecting cells, stopping cell division during mitosis, staining chromosomes, and photographing them.",
+              "applicationHtml": "Describe how chromosome images are prepared for analysis.",
+              "application": "Describe how chromosome images are prepared for analysis."
+            },
+            {
+              "id": "kp-38",
+              "number": 38,
+              "displayNumber": 38,
+              "titleHtml": "KP2: Chromosome pairing and ordering",
+              "title": "KP2: Chromosome pairing and ordering",
+              "coreHtml": "Chromosomes in a karyotype are paired, ordered from largest to smallest, and separated into autosomes and sex chromosomes.",
+              "core": "Chromosomes in a karyotype are paired, ordered from largest to smallest, and separated into autosomes and sex chromosomes.",
+              "applicationHtml": "Use chromosome size, shape, and sex chromosomes to organize a karyotype.",
+              "application": "Use chromosome size, shape, and sex chromosomes to organize a karyotype."
+            },
+            {
+              "id": "kp-39",
+              "number": 39,
+              "displayNumber": 39,
+              "titleHtml": "KP3: Detecting chromosome abnormalities",
+              "title": "KP3: Detecting chromosome abnormalities",
+              "coreHtml": "Karyotypes can reveal abnormal chromosome number or structure, but not all single-gene mutations.",
+              "core": "Karyotypes can reveal abnormal chromosome number or structure, but not all single-gene mutations.",
+              "applicationHtml": "Use karyotype evidence to identify disorders such as trisomy 13, trisomy 18, or trisomy 21.",
+              "application": "Use karyotype evidence to identify disorders such as trisomy 13, trisomy 18, or trisomy 21."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chapter-1-2",
+      "number": "1-2",
+      "titleHtml": "Chapter 1.2: How is hereditary information passed from one generation to the next?",
+      "title": "Chapter 1.2: How is hereditary information passed from one generation to the next?",
+      "kpCount": 40,
+      "concepts": [
+        {
+          "id": "1-2-concept-1-genes-pass-on-inherited-traits-from-parent-to-offspring-p-26-30",
+          "titleHtml": "1.2 Concept 1: Genes pass on inherited traits from parent to offspring — p.26–30",
+          "title": "1.2 Concept 1: Genes pass on inherited traits from parent to offspring — p.26–30",
+          "kps": [
+            {
+              "id": "kp-40",
+              "number": 40,
+              "displayNumber": 40,
+              "titleHtml": "KP1: Genetics and heredity",
+              "title": "KP1: Genetics and heredity",
+              "coreHtml": "Genetics is the study of heredity, or the passing of traits from parents to offspring.",
+              "core": "Genetics is the study of heredity, or the passing of traits from parents to offspring.",
+              "applicationHtml": "Use genetics vocabulary to explain how inherited characteristics move across generations.",
+              "application": "Use genetics vocabulary to explain how inherited characteristics move across generations."
+            },
+            {
+              "id": "kp-41",
+              "number": 41,
+              "displayNumber": 41,
+              "titleHtml": "KP2: Traits",
+              "title": "KP2: Traits",
+              "coreHtml": "A trait is an inherited characteristic, such as eye colour, hair colour, or flower colour.",
+              "core": "A trait is an inherited characteristic, such as eye colour, hair colour, or flower colour.",
+              "applicationHtml": "Identify traits as observable results connected to inherited genetic information.",
+              "application": "Identify traits as observable results connected to inherited genetic information."
+            },
+            {
+              "id": "kp-42",
+              "number": 42,
+              "displayNumber": 42,
+              "titleHtml": "KP3: Mendel’s controlled crosses",
+              "title": "KP3: Mendel’s controlled crosses",
+              "coreHtml": "Mendel used controlled breeding of pea plants to study how traits are inherited.",
+              "core": "Mendel used controlled breeding of pea plants to study how traits are inherited.",
+              "applicationHtml": "Explain why controlled crosses and careful record keeping made Mendel’s experiments useful.",
+              "application": "Explain why controlled crosses and careful record keeping made Mendel’s experiments useful."
+            },
+            {
+              "id": "kp-43",
+              "number": 43,
+              "displayNumber": 43,
+              "titleHtml": "KP4: True-breeding plants and generations",
+              "title": "KP4: True-breeding plants and generations",
+              "coreHtml": "True-breeding plants consistently produce offspring with one form of a trait; \\(F_1\\) and \\(F_2\\) refer to first and second generations.",
+              "core": "True-breeding plants consistently produce offspring with one form of a trait; \\(F 1\\) and \\(F 2\\) refer to first and second generations.",
+              "applicationHtml": "Track how a trait may disappear in \\(F_1\\) and reappear in \\(F_2\\).",
+              "application": "Track how a trait may disappear in \\(F 1\\) and reappear in \\(F 2\\)."
+            },
+            {
+              "id": "kp-44",
+              "number": 44,
+              "displayNumber": 44,
+              "titleHtml": "KP5: Law of segregation",
+              "title": "KP5: Law of segregation",
+              "coreHtml": "Alleles for each inherited trait separate during gamete formation; each gamete carries one allele.",
+              "core": "Alleles for each inherited trait separate during gamete formation; each gamete carries one allele.",
+              "applicationHtml": "Connect meiosis, gametes, and fertilization to inheritance patterns.",
+              "application": "Connect meiosis, gametes, and fertilization to inheritance patterns."
+            },
+            {
+              "id": "kp-45",
+              "number": 45,
+              "displayNumber": 45,
+              "titleHtml": "KP6: Dominant and recessive alleles",
+              "title": "KP6: Dominant and recessive alleles",
+              "coreHtml": "A dominant allele is expressed when present; a recessive allele is expressed only when two recessive alleles are present.",
+              "core": "A dominant allele is expressed when present; a recessive allele is expressed only when two recessive alleles are present.",
+              "applicationHtml": "Use uppercase and lowercase allele symbols to represent inheritance.",
+              "application": "Use uppercase and lowercase allele symbols to represent inheritance."
+            },
+            {
+              "id": "kp-46",
+              "number": 46,
+              "displayNumber": 46,
+              "titleHtml": "KP7: Genotype, phenotype, homozygous, and heterozygous",
+              "title": "KP7: Genotype, phenotype, homozygous, and heterozygous",
+              "coreHtml": "Genotype is the allele combination; phenotype is the expressed trait; homozygous means two same alleles; heterozygous means two different alleles.",
+              "core": "Genotype is the allele combination; phenotype is the expressed trait; homozygous means two same alleles; heterozygous means two different alleles.",
+              "applicationHtml": "Distinguish what an organism looks like from the alleles it carries.",
+              "application": "Distinguish what an organism looks like from the alleles it carries."
+            }
+          ]
+        },
+        {
+          "id": "1-2-concept-2-punnett-squares-show-the-probability-of-offspring-inheriting-specific-traits-p-31-32",
+          "titleHtml": "1.2 Concept 2: Punnett squares show the probability of offspring inheriting specific traits — p.31–32",
+          "title": "1.2 Concept 2: Punnett squares show the probability of offspring inheriting specific traits — p.31–32",
+          "kps": [
+            {
+              "id": "kp-47",
+              "number": 47,
+              "displayNumber": 47,
+              "titleHtml": "KP1: Genetic cross",
+              "title": "KP1: Genetic cross",
+              "coreHtml": "A genetic cross is deliberate breeding between a genetic male and a genetic female to produce offspring with genetic material from both parents.",
+              "core": "A genetic cross is deliberate breeding between a genetic male and a genetic female to produce offspring with genetic material from both parents.",
+              "applicationHtml": "Describe the parent genotypes involved in an inheritance problem.",
+              "application": "Describe the parent genotypes involved in an inheritance problem."
+            },
+            {
+              "id": "kp-48",
+              "number": 48,
+              "displayNumber": 48,
+              "titleHtml": "KP2: Monohybrid cross",
+              "title": "KP2: Monohybrid cross",
+              "coreHtml": "A monohybrid cross studies inheritance of one trait.",
+              "core": "A monohybrid cross studies inheritance of one trait.",
+              "applicationHtml": "Identify when a Punnett square should focus on one gene or trait.",
+              "application": "Identify when a Punnett square should focus on one gene or trait."
+            },
+            {
+              "id": "kp-49",
+              "number": 49,
+              "displayNumber": 49,
+              "titleHtml": "KP3: Punnett square structure",
+              "title": "KP3: Punnett square structure",
+              "coreHtml": "A Punnett square is a grid that shows possible offspring genotypes based on parent gametes.",
+              "core": "A Punnett square is a grid that shows possible offspring genotypes based on parent gametes.",
+              "applicationHtml": "Place possible alleles from each parent along the top and side of the grid.",
+              "application": "Place possible alleles from each parent along the top and side of the grid."
+            },
+            {
+              "id": "kp-50",
+              "number": 50,
+              "displayNumber": 50,
+              "titleHtml": "KP4: Genotypic ratios",
+              "title": "KP4: Genotypic ratios",
+              "coreHtml": "A genotypic ratio compares the predicted allele combinations among offspring.",
+              "core": "A genotypic ratio compares the predicted allele combinations among offspring.",
+              "applicationHtml": "Express possible offspring genotypes as ratios or fractions.",
+              "application": "Express possible offspring genotypes as ratios or fractions."
+            },
+            {
+              "id": "kp-51",
+              "number": 51,
+              "displayNumber": 51,
+              "titleHtml": "KP5: Phenotypic ratios and probability",
+              "title": "KP5: Phenotypic ratios and probability",
+              "coreHtml": "A phenotypic ratio compares predicted physical traits; probability describes the chance of each outcome.",
+              "core": "A phenotypic ratio compares predicted physical traits; probability describes the chance of each outcome.",
+              "applicationHtml": "Interpret Punnett square results as probabilities, not guarantees.",
+              "application": "Interpret Punnett square results as probabilities, not guarantees."
+            }
+          ]
+        },
+        {
+          "id": "1-2-concept-3-both-alleles-are-expressed-in-codominance-p-33-34",
+          "titleHtml": "1.2 Concept 3: Both alleles are expressed in codominance — p.33–34",
+          "title": "1.2 Concept 3: Both alleles are expressed in codominance — p.33–34",
+          "kps": [
+            {
+              "id": "kp-52",
+              "number": 52,
+              "displayNumber": 52,
+              "titleHtml": "KP1: Codominance",
+              "title": "KP1: Codominance",
+              "coreHtml": "In codominance, both alleles for a trait are fully expressed in a heterozygote.",
+              "core": "In codominance, both alleles for a trait are fully expressed in a heterozygote.",
+              "applicationHtml": "Recognize phenotypes where two traits appear together instead of one hiding the other.",
+              "application": "Recognize phenotypes where two traits appear together instead of one hiding the other."
+            },
+            {
+              "id": "kp-53",
+              "number": 53,
+              "displayNumber": 53,
+              "titleHtml": "KP2: Codominant allele notation",
+              "title": "KP2: Codominant allele notation",
+              "coreHtml": "Codominant alleles can be written with one capital gene letter and different superscript letters.",
+              "core": "Codominant alleles can be written with one capital gene letter and different superscript letters.",
+              "applicationHtml": "Read and write genotypes such as \\(H^R H^W\\) for codominant traits.",
+              "application": "Read and write genotypes such as \\(H R H W\\) for codominant traits."
+            },
+            {
+              "id": "kp-54",
+              "number": 54,
+              "displayNumber": 54,
+              "titleHtml": "KP3: Roan animals",
+              "title": "KP3: Roan animals",
+              "coreHtml": "A roan animal shows both base colour and white hair because both alleles are expressed.",
+              "core": "A roan animal shows both base colour and white hair because both alleles are expressed.",
+              "applicationHtml": "Use roan coat colour as a visible model of codominance.",
+              "application": "Use roan coat colour as a visible model of codominance."
+            },
+            {
+              "id": "kp-55",
+              "number": 55,
+              "displayNumber": 55,
+              "titleHtml": "KP4: Sickle cell anemia and hemoglobin",
+              "title": "KP4: Sickle cell anemia and hemoglobin",
+              "coreHtml": "Sickle cell anemia is linked to an allele that affects hemoglobin, a protein in red blood cells that carries oxygen.",
+              "core": "Sickle cell anemia is linked to an allele that affects hemoglobin, a protein in red blood cells that carries oxygen.",
+              "applicationHtml": "Connect allele differences to protein structure, cell shape, and body function.",
+              "application": "Connect allele differences to protein structure, cell shape, and body function."
+            },
+            {
+              "id": "kp-56",
+              "number": 56,
+              "displayNumber": 56,
+              "titleHtml": "KP5: Sickle cell trait",
+              "title": "KP5: Sickle cell trait",
+              "coreHtml": "Individuals with genotype \\(Hb^A Hb^S\\) have both normal and sickled red blood cells.",
+              "core": "Individuals with genotype \\(Hb A Hb S\\) have both normal and sickled red blood cells.",
+              "applicationHtml": "Explain how heterozygotes can show both allele effects.",
+              "application": "Explain how heterozygotes can show both allele effects."
+            },
+            {
+              "id": "kp-57",
+              "number": 57,
+              "displayNumber": 57,
+              "titleHtml": "KP6: Heterozygote advantage",
+              "title": "KP6: Heterozygote advantage",
+              "coreHtml": "In some environments, the sickle cell trait can provide resistance to malaria.",
+              "core": "In some environments, the sickle cell trait can provide resistance to malaria.",
+              "applicationHtml": "Connect inheritance patterns to survival advantage in specific environments.",
+              "application": "Connect inheritance patterns to survival advantage in specific environments."
+            }
+          ]
+        },
+        {
+          "id": "1-2-concept-4-in-incomplete-dominance-alleles-are-neither-dominant-nor-recessive-p-35",
+          "titleHtml": "1.2 Concept 4: In incomplete dominance, alleles are neither dominant nor recessive — p.35",
+          "title": "1.2 Concept 4: In incomplete dominance, alleles are neither dominant nor recessive — p.35",
+          "kps": [
+            {
+              "id": "kp-58",
+              "number": 58,
+              "displayNumber": 58,
+              "titleHtml": "KP1: Incomplete dominance",
+              "title": "KP1: Incomplete dominance",
+              "coreHtml": "In incomplete dominance, neither allele completely hides the other.",
+              "core": "In incomplete dominance, neither allele completely hides the other.",
+              "applicationHtml": "Identify inheritance patterns where the heterozygote has an intermediate phenotype.",
+              "application": "Identify inheritance patterns where the heterozygote has an intermediate phenotype."
+            },
+            {
+              "id": "kp-59",
+              "number": 59,
+              "displayNumber": 59,
+              "titleHtml": "KP2: Intermediate phenotype",
+              "title": "KP2: Intermediate phenotype",
+              "coreHtml": "A heterozygote in incomplete dominance shows a phenotype between the two homozygous phenotypes.",
+              "core": "A heterozygote in incomplete dominance shows a phenotype between the two homozygous phenotypes.",
+              "applicationHtml": "Recognize blended-looking traits as possible incomplete dominance.",
+              "application": "Recognize blended-looking traits as possible incomplete dominance."
+            },
+            {
+              "id": "kp-60",
+              "number": 60,
+              "displayNumber": 60,
+              "titleHtml": "KP3: Incomplete dominance ratios",
+              "title": "KP3: Incomplete dominance ratios",
+              "coreHtml": "A heterozygote × heterozygote cross can produce a \\(1:2:1\\) phenotypic ratio.",
+              "core": "A heterozygote × heterozygote cross can produce a \\(1:2:1\\) phenotypic ratio.",
+              "applicationHtml": "Use Punnett squares to predict all three phenotypes.",
+              "application": "Use Punnett squares to predict all three phenotypes."
+            },
+            {
+              "id": "kp-61",
+              "number": 61,
+              "displayNumber": 61,
+              "titleHtml": "KP4: Superscript notation",
+              "title": "KP4: Superscript notation",
+              "coreHtml": "Incomplete dominance can use superscripts, such as \\(C^R\\) and \\(C^W\\), to represent allele forms.",
+              "core": "Incomplete dominance can use superscripts, such as \\(C R\\) and \\(C W\\), to represent allele forms.",
+              "applicationHtml": "Avoid using lowercase symbols unless an allele is truly recessive.",
+              "application": "Avoid using lowercase symbols unless an allele is truly recessive."
+            },
+            {
+              "id": "kp-62",
+              "number": 62,
+              "displayNumber": 62,
+              "titleHtml": "KP5: Incomplete dominance versus codominance",
+              "title": "KP5: Incomplete dominance versus codominance",
+              "coreHtml": "Incomplete dominance gives an intermediate phenotype; codominance shows both alleles fully expressed.",
+              "core": "Incomplete dominance gives an intermediate phenotype; codominance shows both alleles fully expressed.",
+              "applicationHtml": "Classify inheritance patterns by how the heterozygote appears.",
+              "application": "Classify inheritance patterns by how the heterozygote appears."
+            }
+          ]
+        },
+        {
+          "id": "1-2-concept-5-some-inherited-traits-are-due-to-alleles-on-the-sex-chromosomes-p-36",
+          "titleHtml": "1.2 Concept 5: Some inherited traits are due to alleles on the sex chromosomes — p.36",
+          "title": "1.2 Concept 5: Some inherited traits are due to alleles on the sex chromosomes — p.36",
+          "kps": [
+            {
+              "id": "kp-63",
+              "number": 63,
+              "displayNumber": 63,
+              "titleHtml": "KP1: Sex-linked traits",
+              "title": "KP1: Sex-linked traits",
+              "coreHtml": "Sex-linked traits are controlled by genes located on sex chromosomes.",
+              "core": "Sex-linked traits are controlled by genes located on sex chromosomes.",
+              "applicationHtml": "Identify when inheritance depends on \\(X\\) or \\(Y\\) chromosomes.",
+              "application": "Identify when inheritance depends on \\(X\\) or \\(Y\\) chromosomes."
+            },
+            {
+              "id": "kp-64",
+              "number": 64,
+              "displayNumber": 64,
+              "titleHtml": "KP2: X-linked traits",
+              "title": "KP2: X-linked traits",
+              "coreHtml": "Traits controlled by genes on the \\(X\\) chromosome are called X-linked traits.",
+              "core": "Traits controlled by genes on the \\(X\\) chromosome are called X-linked traits.",
+              "applicationHtml": "Track X-linked alleles differently in genetic males and genetic females.",
+              "application": "Track X-linked alleles differently in genetic males and genetic females."
+            },
+            {
+              "id": "kp-65",
+              "number": 65,
+              "displayNumber": 65,
+              "titleHtml": "KP3: Recessive X-linked inheritance",
+              "title": "KP3: Recessive X-linked inheritance",
+              "coreHtml": "Genetic males are affected by recessive X-linked traits more often because they have only one \\(X\\) chromosome.",
+              "core": "Genetic males are affected by recessive X-linked traits more often because they have only one \\(X\\) chromosome.",
+              "applicationHtml": "Explain why some recessive traits appear more often in males.",
+              "application": "Explain why some recessive traits appear more often in males."
+            },
+            {
+              "id": "kp-66",
+              "number": 66,
+              "displayNumber": 66,
+              "titleHtml": "KP4: Carriers",
+              "title": "KP4: Carriers",
+              "coreHtml": "A genetic female can carry a recessive X-linked allele on one \\(X\\) chromosome without expressing the trait.",
+              "core": "A genetic female can carry a recessive X-linked allele on one \\(X\\) chromosome without expressing the trait.",
+              "applicationHtml": "Use carrier genotypes to explain how recessive X-linked traits pass through families.",
+              "application": "Use carrier genotypes to explain how recessive X-linked traits pass through families."
+            },
+            {
+              "id": "kp-67",
+              "number": 67,
+              "displayNumber": 67,
+              "titleHtml": "KP5: Red-green colour vision deficiency",
+              "title": "KP5: Red-green colour vision deficiency",
+              "coreHtml": "Red-green colour vision deficiency is a recessive X-linked trait.",
+              "core": "Red-green colour vision deficiency is a recessive X-linked trait.",
+              "applicationHtml": "Use \\(X^B\\), \\(X^b\\), and \\(Y\\) notation to model sex-linked inheritance.",
+              "application": "Use \\(X B\\), \\(X b\\), and \\(Y\\) notation to model sex-linked inheritance."
+            }
+          ]
+        },
+        {
+          "id": "optional-extension-at-issue-hemophilia-p-37",
+          "titleHtml": "Optional Extension — At Issue: Hemophilia — p.37",
+          "title": "Optional Extension — At Issue: Hemophilia — p.37",
+          "kps": [
+            {
+              "id": "kp-68",
+              "number": 68,
+              "displayNumber": 68,
+              "titleHtml": "KP1: Pedigrees",
+              "title": "KP1: Pedigrees",
+              "coreHtml": "A pedigree is a flowchart that uses symbols to show relationships and inherited traits across generations.",
+              "core": "A pedigree is a flowchart that uses symbols to show relationships and inherited traits across generations.",
+              "applicationHtml": "Use pedigrees to trace inheritance patterns in a family.",
+              "application": "Use pedigrees to trace inheritance patterns in a family."
+            },
+            {
+              "id": "kp-69",
+              "number": 69,
+              "displayNumber": 69,
+              "titleHtml": "KP2: Hemophilia as an X-linked disorder",
+              "title": "KP2: Hemophilia as an X-linked disorder",
+              "coreHtml": "Hemophilia is a recessive X-linked disorder in which blood does not clot properly.",
+              "core": "Hemophilia is a recessive X-linked disorder in which blood does not clot properly.",
+              "applicationHtml": "Connect carrier females, affected males, and X-linked inheritance.",
+              "application": "Connect carrier females, affected males, and X-linked inheritance."
+            },
+            {
+              "id": "kp-70",
+              "number": 70,
+              "displayNumber": 70,
+              "titleHtml": "KP3: Pedigree reasoning",
+              "title": "KP3: Pedigree reasoning",
+              "coreHtml": "Pedigrees and Punnett squares can be combined to infer likely genotypes.",
+              "core": "Pedigrees and Punnett squares can be combined to infer likely genotypes.",
+              "applicationHtml": "Analyze whether a person is affected, a carrier, or unaffected.",
+              "application": "Analyze whether a person is affected, a carrier, or unaffected."
+            }
+          ]
+        },
+        {
+          "id": "optional-extension-make-a-difference-be-inspired-dr-nadine-caron-p-38",
+          "titleHtml": "Optional Extension — Make a Difference: Be Inspired — Dr. Nadine Caron — p.38",
+          "title": "Optional Extension — Make a Difference: Be Inspired — Dr. Nadine Caron — p.38",
+          "kps": [
+            {
+              "id": "kp-71",
+              "number": 71,
+              "displayNumber": 71,
+              "titleHtml": "KP1: Genomics and healthcare",
+              "title": "KP1: Genomics and healthcare",
+              "coreHtml": "Genomics can compare DNA sequences from a patient with genetic disease to a background population.",
+              "core": "Genomics can compare DNA sequences from a patient with genetic disease to a background population.",
+              "applicationHtml": "Explain how DNA sequence comparison can support medical understanding.",
+              "application": "Explain how DNA sequence comparison can support medical understanding."
+            },
+            {
+              "id": "kp-72",
+              "number": 72,
+              "displayNumber": 72,
+              "titleHtml": "KP2: Indigenous representation in genomics",
+              "title": "KP2: Indigenous representation in genomics",
+              "coreHtml": "The Silent Genomes Project addresses the relative absence of Indigenous Canadians in genomics.",
+              "core": "The Silent Genomes Project addresses the relative absence of Indigenous Canadians in genomics.",
+              "applicationHtml": "Connect genetics research to equity, consent, and community participation.",
+              "application": "Connect genetics research to equity, consent, and community participation."
+            }
+          ]
+        },
+        {
+          "id": "optional-investigation-investigation-1-b-understanding-probability-p-40",
+          "titleHtml": "Optional Investigation — Investigation 1-B: Understanding Probability — p.40",
+          "title": "Optional Investigation — Investigation 1-B: Understanding Probability — p.40",
+          "kps": [
+            {
+              "id": "kp-73",
+              "number": 73,
+              "displayNumber": 73,
+              "titleHtml": "KP1: Probability and inheritance",
+              "title": "KP1: Probability and inheritance",
+              "coreHtml": "Probability is the chance that a given event will occur.",
+              "core": "Probability is the chance that a given event will occur.",
+              "applicationHtml": "Use probability to predict possible inheritance outcomes.",
+              "application": "Use probability to predict possible inheritance outcomes."
+            },
+            {
+              "id": "kp-74",
+              "number": 74,
+              "displayNumber": 74,
+              "titleHtml": "KP2: Coin-flip model",
+              "title": "KP2: Coin-flip model",
+              "coreHtml": "A coin flip can model chance events, but every model has limits.",
+              "core": "A coin flip can model chance events, but every model has limits.",
+              "applicationHtml": "Compare random coin outcomes with allele separation during meiosis.",
+              "application": "Compare random coin outcomes with allele separation during meiosis."
+            }
+          ]
+        },
+        {
+          "id": "optional-investigation-investigation-1-c-corn-genetics-p-41",
+          "titleHtml": "Optional Investigation — Investigation 1-C: Corn Genetics — p.41",
+          "title": "Optional Investigation — Investigation 1-C: Corn Genetics — p.41",
+          "kps": [
+            {
+              "id": "kp-75",
+              "number": 75,
+              "displayNumber": 75,
+              "titleHtml": "KP1: Kernels as offspring",
+              "title": "KP1: Kernels as offspring",
+              "coreHtml": "Each corn kernel is a separate offspring formed from an egg and a pollen grain.",
+              "core": "Each corn kernel is a separate offspring formed from an egg and a pollen grain.",
+              "applicationHtml": "Use corn kernels to observe inheritance patterns in many offspring.",
+              "application": "Use corn kernels to observe inheritance patterns in many offspring."
+            },
+            {
+              "id": "kp-76",
+              "number": 76,
+              "displayNumber": 76,
+              "titleHtml": "KP2: F₂ phenotypic ratio",
+              "title": "KP2: F₂ phenotypic ratio",
+              "coreHtml": "Counting visible traits in the \\(F_2\\) generation can test a predicted phenotypic ratio.",
+              "core": "Counting visible traits in the \\(F 2\\) generation can test a predicted phenotypic ratio.",
+              "applicationHtml": "Compare observed trait counts with theoretical inheritance predictions.",
+              "application": "Compare observed trait counts with theoretical inheritance predictions."
+            }
+          ]
+        },
+        {
+          "id": "optional-investigation-investigation-1-d-performing-a-monohybrid-cross-p-42-43",
+          "titleHtml": "Optional Investigation — Investigation 1-D: Performing a Monohybrid Cross — p.42–43",
+          "title": "Optional Investigation — Investigation 1-D: Performing a Monohybrid Cross — p.42–43",
+          "kps": [
+            {
+              "id": "kp-77",
+              "number": 77,
+              "displayNumber": 77,
+              "titleHtml": "KP1: Modelling alleles",
+              "title": "KP1: Modelling alleles",
+              "coreHtml": "Physical objects can represent alleles in a model of a monohybrid cross.",
+              "core": "Physical objects can represent alleles in a model of a monohybrid cross.",
+              "applicationHtml": "Use models to simulate how alleles combine during fertilization.",
+              "application": "Use models to simulate how alleles combine during fertilization."
+            },
+            {
+              "id": "kp-78",
+              "number": 78,
+              "displayNumber": 78,
+              "titleHtml": "KP2: F₁ and F₂ crosses",
+              "title": "KP2: F₁ and F₂ crosses",
+              "coreHtml": "A true-breeding cross can produce \\(F_1\\) offspring, and crossing \\(F_1\\) offspring can produce \\(F_2\\) patterns.",
+              "core": "A true-breeding cross can produce \\(F 1\\) offspring, and crossing \\(F 1\\) offspring can produce \\(F 2\\) patterns.",
+              "applicationHtml": "Compare model results with Mendel-style inheritance patterns.",
+              "application": "Compare model results with Mendel-style inheritance patterns."
+            },
+            {
+              "id": "kp-79",
+              "number": 79,
+              "displayNumber": 79,
+              "titleHtml": "KP3: Sample size and reliability",
+              "title": "KP3: Sample size and reliability",
+              "coreHtml": "Larger numbers of trials usually produce results closer to expected ratios.",
+              "core": "Larger numbers of trials usually produce results closer to expected ratios.",
+              "applicationHtml": "Explain why class data or large datasets are more reliable than a small number of crosses.",
+              "application": "Explain why class data or large datasets are more reliable than a small number of crosses."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chapter-1-3",
+      "number": "1-3",
+      "titleHtml": "Chapter 1.3: How can natural and artificial selection influence changes in populations?",
+      "title": "Chapter 1.3: How can natural and artificial selection influence changes in populations?",
+      "kpCount": 51,
+      "concepts": [
+        {
+          "id": "1-3-concept-1-dna-mutations-produce-genetic-diversity-within-a-population-p-46",
+          "titleHtml": "1.3 Concept 1: DNA mutations produce genetic diversity within a population — p.46",
+          "title": "1.3 Concept 1: DNA mutations produce genetic diversity within a population — p.46",
+          "kps": [
+            {
+              "id": "kp-80",
+              "number": 80,
+              "displayNumber": 80,
+              "titleHtml": "KP1: Mutation",
+              "title": "KP1: Mutation",
+              "coreHtml": "A mutation is a permanent change in the DNA of an organism.",
+              "core": "A mutation is a permanent change in the DNA of an organism.",
+              "applicationHtml": "Explain how mutations can create new alleles and new genetic variation.",
+              "application": "Explain how mutations can create new alleles and new genetic variation."
+            },
+            {
+              "id": "kp-81",
+              "number": 81,
+              "displayNumber": 81,
+              "titleHtml": "KP2: Genetic variation in populations",
+              "title": "KP2: Genetic variation in populations",
+              "coreHtml": "Variation among individuals in a population is largely the result of differences in genes.",
+              "core": "Variation among individuals in a population is largely the result of differences in genes.",
+              "applicationHtml": "Connect inherited gene differences to variation within a species.",
+              "application": "Connect inherited gene differences to variation within a species."
+            },
+            {
+              "id": "kp-82",
+              "number": 82,
+              "displayNumber": 82,
+              "titleHtml": "KP3: Sources of mutations",
+              "title": "KP3: Sources of mutations",
+              "coreHtml": "Mutations can occur spontaneously during DNA copying or result from environmental agents.",
+              "core": "Mutations can occur spontaneously during DNA copying or result from environmental agents.",
+              "applicationHtml": "Identify how DNA changes can arise before a cell divides or from outside factors.",
+              "application": "Identify how DNA changes can arise before a cell divides or from outside factors."
+            },
+            {
+              "id": "kp-83",
+              "number": 83,
+              "displayNumber": 83,
+              "titleHtml": "KP4: Effects of mutations",
+              "title": "KP4: Effects of mutations",
+              "coreHtml": "Mutations may be harmful, neutral, or beneficial.",
+              "core": "Mutations may be harmful, neutral, or beneficial.",
+              "applicationHtml": "Avoid assuming that every mutation is harmful.",
+              "application": "Avoid assuming that every mutation is harmful."
+            },
+            {
+              "id": "kp-84",
+              "number": 84,
+              "displayNumber": 84,
+              "titleHtml": "KP5: Somatic cell mutations",
+              "title": "KP5: Somatic cell mutations",
+              "coreHtml": "A mutation in a body cell disappears from the population when the organism dies.",
+              "core": "A mutation in a body cell disappears from the population when the organism dies.",
+              "applicationHtml": "Distinguish non-inherited body cell mutations from inherited genetic changes.",
+              "application": "Distinguish non-inherited body cell mutations from inherited genetic changes."
+            },
+            {
+              "id": "kp-85",
+              "number": 85,
+              "displayNumber": 85,
+              "titleHtml": "KP6: Gamete mutations",
+              "title": "KP6: Gamete mutations",
+              "coreHtml": "A mutation in a gamete may be passed to future generations as a new allele.",
+              "core": "A mutation in a gamete may be passed to future generations as a new allele.",
+              "applicationHtml": "Explain why inherited mutations are important for long-term population change.",
+              "application": "Explain why inherited mutations are important for long-term population change."
+            }
+          ]
+        },
+        {
+          "id": "1-3-concept-2-natural-selection-favours-traits-that-make-an-organism-better-suited-to-its-environment-p-47-49",
+          "titleHtml": "1.3 Concept 2: Natural selection favours traits that make an organism better suited to its environment — p.47–49",
+          "title": "1.3 Concept 2: Natural selection favours traits that make an organism better suited to its environment — p.47–49",
+          "kps": [
+            {
+              "id": "kp-86",
+              "number": 86,
+              "displayNumber": 86,
+              "titleHtml": "KP1: Selective advantage",
+              "title": "KP1: Selective advantage",
+              "coreHtml": "A selective advantage is a genetic advantage that improves an organism’s chance of survival and reproduction.",
+              "core": "A selective advantage is a genetic advantage that improves an organism’s chance of survival and reproduction.",
+              "applicationHtml": "Identify traits that help organisms survive under specific environmental conditions.",
+              "application": "Identify traits that help organisms survive under specific environmental conditions."
+            },
+            {
+              "id": "kp-87",
+              "number": 87,
+              "displayNumber": 87,
+              "titleHtml": "KP2: Natural selection",
+              "title": "KP2: Natural selection",
+              "coreHtml": "Natural selection changes the characteristics of a population over many generations as organisms with heritable traits survive and reproduce.",
+              "core": "Natural selection changes the characteristics of a population over many generations as organisms with heritable traits survive and reproduce.",
+              "applicationHtml": "Explain how inherited traits can become more common in a population.",
+              "application": "Explain how inherited traits can become more common in a population."
+            },
+            {
+              "id": "kp-88",
+              "number": 88,
+              "displayNumber": 88,
+              "titleHtml": "KP3: Adaptation",
+              "title": "KP3: Adaptation",
+              "coreHtml": "An adaptation is a structural, behavioural, or physiological feature that helps an organism survive and reproduce.",
+              "core": "An adaptation is a structural, behavioural, or physiological feature that helps an organism survive and reproduce.",
+              "applicationHtml": "Classify examples of adaptations by how they improve survival or reproduction.",
+              "application": "Classify examples of adaptations by how they improve survival or reproduction."
+            },
+            {
+              "id": "kp-89",
+              "number": 89,
+              "displayNumber": 89,
+              "titleHtml": "KP4: Genetic diversity and selection",
+              "title": "KP4: Genetic diversity and selection",
+              "coreHtml": "Natural selection requires variation within a species or population.",
+              "core": "Natural selection requires variation within a species or population.",
+              "applicationHtml": "Explain why populations with genetic diversity have more possible responses to environmental change.",
+              "application": "Explain why populations with genetic diversity have more possible responses to environmental change."
+            },
+            {
+              "id": "kp-90",
+              "number": 90,
+              "displayNumber": 90,
+              "titleHtml": "KP5: Natural selection acts on populations",
+              "title": "KP5: Natural selection acts on populations",
+              "coreHtml": "Individuals do not change during their lifetime; populations change over generations.",
+              "core": "Individuals do not change during their lifetime; populations change over generations.",
+              "applicationHtml": "Avoid saying that an individual organism evolves during its life.",
+              "application": "Avoid saying that an individual organism evolves during its life."
+            },
+            {
+              "id": "kp-91",
+              "number": 91,
+              "displayNumber": 91,
+              "titleHtml": "KP6: Selective pressure",
+              "title": "KP6: Selective pressure",
+              "coreHtml": "Selective pressure is an environmental condition that favours some traits and selects against others.",
+              "core": "Selective pressure is an environmental condition that favours some traits and selects against others.",
+              "applicationHtml": "Identify abiotic and biotic selective pressures such as antibiotics, light levels, predators, parasites, and competition.",
+              "application": "Identify abiotic and biotic selective pressures such as antibiotics, light levels, predators, parasites, and competition."
+            },
+            {
+              "id": "kp-92",
+              "number": 92,
+              "displayNumber": 92,
+              "titleHtml": "KP7: Natural selection is situational",
+              "title": "KP7: Natural selection is situational",
+              "coreHtml": "Natural selection has no purpose or direction; the usefulness of a trait depends on the environment.",
+              "core": "Natural selection has no purpose or direction; the usefulness of a trait depends on the environment.",
+              "applicationHtml": "Explain why a trait can be helpful in one situation but not in another.",
+              "application": "Explain why a trait can be helpful in one situation but not in another."
+            }
+          ]
+        },
+        {
+          "id": "1-3-concept-3-natural-selection-can-lead-to-the-formation-of-new-species-p-50-53",
+          "titleHtml": "1.3 Concept 3: Natural selection can lead to the formation of new species — p.50–53",
+          "title": "1.3 Concept 3: Natural selection can lead to the formation of new species — p.50–53",
+          "kps": [
+            {
+              "id": "kp-93",
+              "number": 93,
+              "displayNumber": 93,
+              "titleHtml": "KP1: Species",
+              "title": "KP1: Species",
+              "coreHtml": "A species is a population or group of populations whose members can interbreed and produce fertile offspring.",
+              "core": "A species is a population or group of populations whose members can interbreed and produce fertile offspring.",
+              "applicationHtml": "Use reproductive ability to distinguish whether groups belong to the same species.",
+              "application": "Use reproductive ability to distinguish whether groups belong to the same species."
+            },
+            {
+              "id": "kp-94",
+              "number": 94,
+              "displayNumber": 94,
+              "titleHtml": "KP2: Speciation",
+              "title": "KP2: Speciation",
+              "coreHtml": "Speciation occurs when members of a population change enough that they can no longer produce fertile offspring with the original population.",
+              "core": "Speciation occurs when members of a population change enough that they can no longer produce fertile offspring with the original population.",
+              "applicationHtml": "Explain how one species can split into two or more species over time.",
+              "application": "Explain how one species can split into two or more species over time."
+            },
+            {
+              "id": "kp-95",
+              "number": 95,
+              "displayNumber": 95,
+              "titleHtml": "KP3: Geographic isolation",
+              "title": "KP3: Geographic isolation",
+              "coreHtml": "A population can be split by a barrier such as a glacier, lava flow, ocean-level change, or movement to a separate habitat.",
+              "core": "A population can be split by a barrier such as a glacier, lava flow, ocean-level change, or movement to a separate habitat.",
+              "applicationHtml": "Connect isolation to separate gene pools and different evolutionary paths.",
+              "application": "Connect isolation to separate gene pools and different evolutionary paths."
+            },
+            {
+              "id": "kp-96",
+              "number": 96,
+              "displayNumber": 96,
+              "titleHtml": "KP4: Adaptive radiation",
+              "title": "KP4: Adaptive radiation",
+              "coreHtml": "Adaptive radiation is the diversification of a common ancestral species into differently adapted species.",
+              "core": "Adaptive radiation is the diversification of a common ancestral species into differently adapted species.",
+              "applicationHtml": "Use island species, such as Galapagos finches, as examples of adaptive radiation.",
+              "application": "Use island species, such as Galapagos finches, as examples of adaptive radiation."
+            },
+            {
+              "id": "kp-97",
+              "number": 97,
+              "displayNumber": 97,
+              "titleHtml": "KP5: Mutations and natural selection in speciation",
+              "title": "KP5: Mutations and natural selection in speciation",
+              "coreHtml": "Mutations create variation, and natural selection can favour different traits in different environments.",
+              "core": "Mutations create variation, and natural selection can favour different traits in different environments.",
+              "applicationHtml": "Explain how isolated populations become increasingly different over many generations.",
+              "application": "Explain how isolated populations become increasingly different over many generations."
+            },
+            {
+              "id": "kp-98",
+              "number": 98,
+              "displayNumber": 98,
+              "titleHtml": "KP6: Extinction",
+              "title": "KP6: Extinction",
+              "coreHtml": "Extinction occurs when a species completely disappears from Earth.",
+              "core": "Extinction occurs when a species completely disappears from Earth.",
+              "applicationHtml": "Connect environmental change and selective pressure to the loss of species.",
+              "application": "Connect environmental change and selective pressure to the loss of species."
+            },
+            {
+              "id": "kp-99",
+              "number": 99,
+              "displayNumber": 99,
+              "titleHtml": "KP7: Mass extinction",
+              "title": "KP7: Mass extinction",
+              "coreHtml": "Mass extinction events are sharp declines in biodiversity caused by large-scale environmental changes.",
+              "core": "Mass extinction events are sharp declines in biodiversity caused by large-scale environmental changes.",
+              "applicationHtml": "Relate extinction events to major changes in ecosystems and species diversity.",
+              "application": "Relate extinction events to major changes in ecosystems and species diversity."
+            }
+          ]
+        },
+        {
+          "id": "1-3-concept-4-environmental-factors-can-cause-mutations-p-54",
+          "titleHtml": "1.3 Concept 4: Environmental factors can cause mutations — p.54",
+          "title": "1.3 Concept 4: Environmental factors can cause mutations — p.54",
+          "kps": [
+            {
+              "id": "kp-100",
+              "number": 100,
+              "displayNumber": 100,
+              "titleHtml": "KP1: Mutagen",
+              "title": "KP1: Mutagen",
+              "coreHtml": "A mutagen is a substance or event that increases the rate of mutation.",
+              "core": "A mutagen is a substance or event that increases the rate of mutation.",
+              "applicationHtml": "Identify environmental factors that can damage or change DNA.",
+              "application": "Identify environmental factors that can damage or change DNA."
+            },
+            {
+              "id": "kp-101",
+              "number": 101,
+              "displayNumber": 101,
+              "titleHtml": "KP2: Physical mutagens",
+              "title": "KP2: Physical mutagens",
+              "coreHtml": "Physical mutagens cause physical changes to DNA structure.",
+              "core": "Physical mutagens cause physical changes to DNA structure.",
+              "applicationHtml": "Recognize X-rays and ultraviolet radiation as examples of physical mutagens.",
+              "application": "Recognize X-rays and ultraviolet radiation as examples of physical mutagens."
+            },
+            {
+              "id": "kp-102",
+              "number": 102,
+              "displayNumber": 102,
+              "titleHtml": "KP3: Chemical mutagens",
+              "title": "KP3: Chemical mutagens",
+              "coreHtml": "Chemical mutagens are molecules that can enter a cell nucleus and react with DNA.",
+              "core": "Chemical mutagens are molecules that can enter a cell nucleus and react with DNA.",
+              "applicationHtml": "Recognize nitrites and gasoline fumes as examples of chemical mutagens.",
+              "application": "Recognize nitrites and gasoline fumes as examples of chemical mutagens."
+            },
+            {
+              "id": "kp-103",
+              "number": 103,
+              "displayNumber": 103,
+              "titleHtml": "KP4: Carcinogens",
+              "title": "KP4: Carcinogens",
+              "coreHtml": "A carcinogen is a substance or agent that causes cancer.",
+              "core": "A carcinogen is a substance or agent that causes cancer.",
+              "applicationHtml": "Connect ultraviolet radiation and cigarette smoke compounds to increased cancer risk.",
+              "application": "Connect ultraviolet radiation and cigarette smoke compounds to increased cancer risk."
+            },
+            {
+              "id": "kp-104",
+              "number": 104,
+              "displayNumber": 104,
+              "titleHtml": "KP5: Mutations and proteins",
+              "title": "KP5: Mutations and proteins",
+              "coreHtml": "A mutation can change gene instructions and affect the production of a specific protein.",
+              "core": "A mutation can change gene instructions and affect the production of a specific protein.",
+              "applicationHtml": "Explain how DNA changes may affect cell function and organism health.",
+              "application": "Explain how DNA changes may affect cell function and organism health."
+            }
+          ]
+        },
+        {
+          "id": "1-3-concept-5-humans-select-desired-characteristics-in-organisms-to-be-passed-on-to-the-next-generation-p-55-57",
+          "titleHtml": "1.3 Concept 5: Humans select desired characteristics in organisms to be passed on to the next generation — p.55–57",
+          "title": "1.3 Concept 5: Humans select desired characteristics in organisms to be passed on to the next generation — p.55–57",
+          "kps": [
+            {
+              "id": "kp-105",
+              "number": 105,
+              "displayNumber": 105,
+              "titleHtml": "KP1: Artificial selection",
+              "title": "KP1: Artificial selection",
+              "coreHtml": "Artificial selection is selective pressure exerted by humans to improve or modify desirable traits.",
+              "core": "Artificial selection is selective pressure exerted by humans to improve or modify desirable traits.",
+              "applicationHtml": "Identify selective breeding in crops, livestock, companion animals, and domestic species.",
+              "application": "Identify selective breeding in crops, livestock, companion animals, and domestic species."
+            },
+            {
+              "id": "kp-106",
+              "number": 106,
+              "displayNumber": 106,
+              "titleHtml": "KP2: Natural selection versus artificial selection",
+              "title": "KP2: Natural selection versus artificial selection",
+              "coreHtml": "In natural selection, environmental conditions select traits; in artificial selection, humans choose traits.",
+              "core": "In natural selection, environmental conditions select traits; in artificial selection, humans choose traits.",
+              "applicationHtml": "Compare how traits become more common in natural and human-directed contexts.",
+              "application": "Compare how traits become more common in natural and human-directed contexts."
+            },
+            {
+              "id": "kp-107",
+              "number": 107,
+              "displayNumber": 107,
+              "titleHtml": "KP3: Artificial selection in animals",
+              "title": "KP3: Artificial selection in animals",
+              "coreHtml": "Humans breed animals for traits such as milk production, growth rate, egg production, or appearance.",
+              "core": "Humans breed animals for traits such as milk production, growth rate, egg production, or appearance.",
+              "applicationHtml": "Explain how breeders change populations over generations by choosing parents.",
+              "application": "Explain how breeders change populations over generations by choosing parents."
+            },
+            {
+              "id": "kp-108",
+              "number": 108,
+              "displayNumber": 108,
+              "titleHtml": "KP4: Artificial selection in food crops",
+              "title": "KP4: Artificial selection in food crops",
+              "coreHtml": "Many food crops are the result of long-term selective breeding for useful plant parts or traits.",
+              "core": "Many food crops are the result of long-term selective breeding for useful plant parts or traits.",
+              "applicationHtml": "Use wild mustard and its crop varieties as examples of selected traits.",
+              "application": "Use wild mustard and its crop varieties as examples of selected traits."
+            },
+            {
+              "id": "kp-109",
+              "number": 109,
+              "displayNumber": 109,
+              "titleHtml": "KP5: Limits of selective breeding",
+              "title": "KP5: Limits of selective breeding",
+              "coreHtml": "Breeding for one desired trait can reduce tolerance for other environmental conditions.",
+              "core": "Breeding for one desired trait can reduce tolerance for other environmental conditions.",
+              "applicationHtml": "Explain why crop breeding must balance productivity with genetic variation.",
+              "application": "Explain why crop breeding must balance productivity with genetic variation."
+            },
+            {
+              "id": "kp-110",
+              "number": 110,
+              "displayNumber": 110,
+              "titleHtml": "KP6: Consequences of artificial selection",
+              "title": "KP6: Consequences of artificial selection",
+              "coreHtml": "Artificial selection can have positive and negative effects, including health problems or reduced genetic diversity.",
+              "core": "Artificial selection can have positive and negative effects, including health problems or reduced genetic diversity.",
+              "applicationHtml": "Evaluate benefits and risks of breeding organisms for specific traits.",
+              "application": "Evaluate benefits and risks of breeding organisms for specific traits."
+            },
+            {
+              "id": "kp-111",
+              "number": 111,
+              "displayNumber": 111,
+              "titleHtml": "KP7: Monoculture",
+              "title": "KP7: Monoculture",
+              "coreHtml": "Monoculture is the repeated planting of the same varieties of a species over large areas.",
+              "core": "Monoculture is the repeated planting of the same varieties of a species over large areas.",
+              "applicationHtml": "Explain why low genetic diversity can make crops vulnerable to disease or environmental change.",
+              "application": "Explain why low genetic diversity can make crops vulnerable to disease or environmental change."
+            }
+          ]
+        },
+        {
+          "id": "optional-extension-at-issue-how-can-selection-pressure-lead-to-reverse-speciation-p-58-59",
+          "titleHtml": "Optional Extension — At Issue: How can selection pressure lead to reverse speciation? — p.58–59",
+          "title": "Optional Extension — At Issue: How can selection pressure lead to reverse speciation? — p.58–59",
+          "kps": [
+            {
+              "id": "kp-112",
+              "number": 112,
+              "displayNumber": 112,
+              "titleHtml": "KP1: Reverse speciation",
+              "title": "KP1: Reverse speciation",
+              "coreHtml": "Reverse speciation occurs when two species that diverged from a common ancestor become replaced by one hybrid species.",
+              "core": "Reverse speciation occurs when two species that diverged from a common ancestor become replaced by one hybrid species.",
+              "applicationHtml": "Use Enos Lake sticklebacks as an example of species merging through interbreeding.",
+              "application": "Use Enos Lake sticklebacks as an example of species merging through interbreeding."
+            },
+            {
+              "id": "kp-113",
+              "number": 113,
+              "displayNumber": 113,
+              "titleHtml": "KP2: Human-caused selection pressure",
+              "title": "KP2: Human-caused selection pressure",
+              "coreHtml": "Introduced species can change how existing species interact, breed, and survive.",
+              "core": "Introduced species can change how existing species interact, breed, and survive.",
+              "applicationHtml": "Explain how an invasive crayfish may have changed stickleback nesting, feeding, or breeding patterns.",
+              "application": "Explain how an invasive crayfish may have changed stickleback nesting, feeding, or breeding patterns."
+            },
+            {
+              "id": "kp-114",
+              "number": 114,
+              "displayNumber": 114,
+              "titleHtml": "KP3: Biodiversity impact",
+              "title": "KP3: Biodiversity impact",
+              "coreHtml": "Reverse speciation can create a new hybrid population while reducing the number of distinct species.",
+              "core": "Reverse speciation can create a new hybrid population while reducing the number of distinct species.",
+              "applicationHtml": "Evaluate why “new species formation” does not always mean biodiversity increases.",
+              "application": "Evaluate why “new species formation” does not always mean biodiversity increases."
+            }
+          ]
+        },
+        {
+          "id": "optional-extension-make-a-difference-take-a-stand-investigate-polycultures-and-other-sustainable-food-systems-p-60-61",
+          "titleHtml": "Optional Extension — Make a Difference: Take a Stand — Investigate Polycultures and other Sustainable Food Systems — p.60–61",
+          "title": "Optional Extension — Make a Difference: Take a Stand — Investigate Polycultures and other Sustainable Food Systems — p.60–61",
+          "kps": [
+            {
+              "id": "kp-115",
+              "number": 115,
+              "displayNumber": 115,
+              "titleHtml": "KP1: Monoculture consequences",
+              "title": "KP1: Monoculture consequences",
+              "coreHtml": "Large-scale monoculture can increase food production but may cause environmental, economic, and social problems.",
+              "core": "Large-scale monoculture can increase food production but may cause environmental, economic, and social problems.",
+              "applicationHtml": "Identify consequences such as topsoil loss, pollution, higher chemical use, and working-condition concerns.",
+              "application": "Identify consequences such as topsoil loss, pollution, higher chemical use, and working-condition concerns."
+            },
+            {
+              "id": "kp-116",
+              "number": 116,
+              "displayNumber": 116,
+              "titleHtml": "KP2: Sustainable agriculture",
+              "title": "KP2: Sustainable agriculture",
+              "coreHtml": "Sustainable agriculture meets present needs while supporting the health of land, human ecosystems, and natural ecosystems for the future.",
+              "core": "Sustainable agriculture meets present needs while supporting the health of land, human ecosystems, and natural ecosystems for the future.",
+              "applicationHtml": "Evaluate food systems using environmental, economic, and social criteria.",
+              "application": "Evaluate food systems using environmental, economic, and social criteria."
+            },
+            {
+              "id": "kp-117",
+              "number": 117,
+              "displayNumber": 117,
+              "titleHtml": "KP3: Polyculture",
+              "title": "KP3: Polyculture",
+              "coreHtml": "Polyculture grows a diversity of crops on the same plot of land.",
+              "core": "Polyculture grows a diversity of crops on the same plot of land.",
+              "applicationHtml": "Compare polyculture with monoculture in terms of biodiversity and resilience.",
+              "application": "Compare polyculture with monoculture in terms of biodiversity and resilience."
+            },
+            {
+              "id": "kp-118",
+              "number": 118,
+              "displayNumber": 118,
+              "titleHtml": "KP4: Companion planting",
+              "title": "KP4: Companion planting",
+              "coreHtml": "Companion planting places plant species near each other to gain benefits such as pest control, nutrient support, higher yield, or soil moisture retention.",
+              "core": "Companion planting places plant species near each other to gain benefits such as pest control, nutrient support, higher yield, or soil moisture retention.",
+              "applicationHtml": "Use the “three sisters” planting system as an example of plant relationships that support sustainability.",
+              "application": "Use the “three sisters” planting system as an example of plant relationships that support sustainability."
+            }
+          ]
+        },
+        {
+          "id": "optional-extension-make-a-difference-take-action-the-sixth-extinction-p-62",
+          "titleHtml": "Optional Extension — Make a Difference: Take Action — The Sixth Extinction — p.62",
+          "title": "Optional Extension — Make a Difference: Take Action — The Sixth Extinction — p.62",
+          "kps": [
+            {
+              "id": "kp-119",
+              "number": 119,
+              "displayNumber": 119,
+              "titleHtml": "KP1: Sixth mass extinction",
+              "title": "KP1: Sixth mass extinction",
+              "coreHtml": "Scientists warn that Earth may be approaching a sixth mass extinction.",
+              "core": "Scientists warn that Earth may be approaching a sixth mass extinction.",
+              "applicationHtml": "Connect current biodiversity loss to human activities rather than only natural events.",
+              "application": "Connect current biodiversity loss to human activities rather than only natural events."
+            },
+            {
+              "id": "kp-120",
+              "number": 120,
+              "displayNumber": 120,
+              "titleHtml": "KP2: Human impacts on extinction risk",
+              "title": "KP2: Human impacts on extinction risk",
+              "coreHtml": "Habitat destruction, land degradation, and over-exploitation put many species at risk.",
+              "core": "Habitat destruction, land degradation, and over-exploitation put many species at risk.",
+              "applicationHtml": "Identify human behaviours that increase extinction pressure.",
+              "application": "Identify human behaviours that increase extinction pressure."
+            },
+            {
+              "id": "kp-121",
+              "number": 121,
+              "displayNumber": 121,
+              "titleHtml": "KP3: Conservation action",
+              "title": "KP3: Conservation action",
+              "coreHtml": "Conservation efforts can include evaluating species status, protecting habitat, and restoring populations.",
+              "core": "Conservation efforts can include evaluating species status, protecting habitat, and restoring populations.",
+              "applicationHtml": "Design or assess a campaign to protect a species at risk.",
+              "application": "Design or assess a campaign to protect a species at risk."
+            }
+          ]
+        },
+        {
+          "id": "optional-investigation-investigation-1-e-variations-great-and-small-p-64-65",
+          "titleHtml": "Optional Investigation — Investigation 1-E: Variations Great and Small — p.64–65",
+          "title": "Optional Investigation — Investigation 1-E: Variations Great and Small — p.64–65",
+          "kps": [
+            {
+              "id": "kp-122",
+              "number": 122,
+              "displayNumber": 122,
+              "titleHtml": "KP1: Measuring variation",
+              "title": "KP1: Measuring variation",
+              "coreHtml": "Variation within a species can be studied by measuring traits in individuals.",
+              "core": "Variation within a species can be studied by measuring traits in individuals.",
+              "applicationHtml": "Use measurements such as hand size or seed mass to compare variation in populations.",
+              "application": "Use measurements such as hand size or seed mass to compare variation in populations."
+            },
+            {
+              "id": "kp-123",
+              "number": 123,
+              "displayNumber": 123,
+              "titleHtml": "KP2: Frequency distributions",
+              "title": "KP2: Frequency distributions",
+              "coreHtml": "Many traits vary continuously and can form a bell-shaped distribution.",
+              "core": "Many traits vary continuously and can form a bell-shaped distribution.",
+              "applicationHtml": "Use histograms to analyze patterns in measured trait data.",
+              "application": "Use histograms to analyze patterns in measured trait data."
+            }
+          ]
+        },
+        {
+          "id": "optional-investigation-investigation-1-f-modelling-adaptation-p-66",
+          "titleHtml": "Optional Investigation — Investigation 1-F: Modelling Adaptation — p.66",
+          "title": "Optional Investigation — Investigation 1-F: Modelling Adaptation — p.66",
+          "kps": [
+            {
+              "id": "kp-124",
+              "number": 124,
+              "displayNumber": 124,
+              "titleHtml": "KP1: Modelling beak adaptation",
+              "title": "KP1: Modelling beak adaptation",
+              "coreHtml": "Different tools can model different bird beak structures.",
+              "core": "Different tools can model different bird beak structures.",
+              "applicationHtml": "Compare how different structures perform with different food types.",
+              "application": "Compare how different structures perform with different food types."
+            },
+            {
+              "id": "kp-125",
+              "number": 125,
+              "displayNumber": 125,
+              "titleHtml": "KP2: Environmental change and food availability",
+              "title": "KP2: Environmental change and food availability",
+              "coreHtml": "Changes such as drought or flood can alter which food types are available.",
+              "core": "Changes such as drought or flood can alter which food types are available.",
+              "applicationHtml": "Predict how environmental change may favour some traits over others.",
+              "application": "Predict how environmental change may favour some traits over others."
+            },
+            {
+              "id": "kp-126",
+              "number": 126,
+              "displayNumber": 126,
+              "titleHtml": "KP3: Model limitations",
+              "title": "KP3: Model limitations",
+              "coreHtml": "A model can show patterns of adaptation but cannot include every feature of a real ecosystem.",
+              "core": "A model can show patterns of adaptation but cannot include every feature of a real ecosystem.",
+              "applicationHtml": "Evaluate what a model shows well and what it leaves out.",
+              "application": "Evaluate what a model shows well and what it leaves out."
+            }
+          ]
+        },
+        {
+          "id": "optional-investigation-investigation-1-g-leopard-frogs-one-species-or-eight-p-67",
+          "titleHtml": "Optional Investigation — Investigation 1-G: Leopard Frogs—One Species or Eight? — p.67",
+          "title": "Optional Investigation — Investigation 1-G: Leopard Frogs—One Species or Eight? — p.67",
+          "kps": [
+            {
+              "id": "kp-127",
+              "number": 127,
+              "displayNumber": 127,
+              "titleHtml": "KP1: Behavioural isolation",
+              "title": "KP1: Behavioural isolation",
+              "coreHtml": "Differences in mating signals, such as calls or songs, can prevent interbreeding.",
+              "core": "Differences in mating signals, such as calls or songs, can prevent interbreeding.",
+              "applicationHtml": "Explain how similar-looking organisms may still be separate species.",
+              "application": "Explain how similar-looking organisms may still be separate species."
+            },
+            {
+              "id": "kp-128",
+              "number": 128,
+              "displayNumber": 128,
+              "titleHtml": "KP2: Conservation and species identification",
+              "title": "KP2: Conservation and species identification",
+              "coreHtml": "Correctly identifying species can affect conservation and monitoring decisions.",
+              "core": "Correctly identifying species can affect conservation and monitoring decisions.",
+              "applicationHtml": "Explain why recognizing multiple leopard frog species matters for protecting amphibian populations.",
+              "application": "Explain why recognizing multiple leopard frog species matters for protecting amphibian populations."
+            }
+          ]
+        },
+        {
+          "id": "optional-investigation-investigation-1-h-islands-and-species-p-68-69",
+          "titleHtml": "Optional Investigation — Investigation 1-H: Islands and Species — p.68–69",
+          "title": "Optional Investigation — Investigation 1-H: Islands and Species — p.68–69",
+          "kps": [
+            {
+              "id": "kp-129",
+              "number": 129,
+              "displayNumber": 129,
+              "titleHtml": "KP1: Island adaptation",
+              "title": "KP1: Island adaptation",
+              "coreHtml": "Isolated island environments can favour different adaptations based on food, predators, geography, and climate.",
+              "core": "Isolated island environments can favour different adaptations based on food, predators, geography, and climate.",
+              "applicationHtml": "Design traits that would help a species survive in a specific island environment.",
+              "application": "Design traits that would help a species survive in a specific island environment."
+            },
+            {
+              "id": "kp-130",
+              "number": 130,
+              "displayNumber": 130,
+              "titleHtml": "KP2: Adaptation and gene pools",
+              "title": "KP2: Adaptation and gene pools",
+              "coreHtml": "A new individual can affect a population only if it survives, reproduces, and adds alleles to the gene pool.",
+              "core": "A new individual can affect a population only if it survives, reproduces, and adds alleles to the gene pool.",
+              "applicationHtml": "Explain how migration between islands could affect future population change.",
+              "application": "Explain how migration between islands could affect future population change."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chapter-1-4",
+      "number": "1-4",
+      "titleHtml": "Chapter 1.4: How and why are the genes of organisms manipulated?",
+      "title": "Chapter 1.4: How and why are the genes of organisms manipulated?",
+      "kpCount": 31,
+      "concepts": [
+        {
+          "id": "1-4-concept-1-dna-of-a-living-cell-can-be-copied-modified-and-inserted-into-another-organism-p-72-75",
+          "titleHtml": "1.4 Concept 1: DNA of a living cell can be copied, modified, and inserted into another organism — p.72–75",
+          "title": "1.4 Concept 1: DNA of a living cell can be copied, modified, and inserted into another organism — p.72–75",
+          "kps": [
+            {
+              "id": "kp-131",
+              "number": 131,
+              "displayNumber": 131,
+              "titleHtml": "KP1: Biotechnology",
+              "title": "KP1: Biotechnology",
+              "coreHtml": "Biotechnology is the use of technology and organisms to produce useful products.",
+              "core": "Biotechnology is the use of technology and organisms to produce useful products.",
+              "applicationHtml": "Identify gene manipulation as a scientific and technological application of DNA knowledge.",
+              "application": "Identify gene manipulation as a scientific and technological application of DNA knowledge."
+            },
+            {
+              "id": "kp-132",
+              "number": 132,
+              "displayNumber": 132,
+              "titleHtml": "KP2: Cloning",
+              "title": "KP2: Cloning",
+              "coreHtml": "Cloning is a process that produces identical copies of genes, cells, or organisms.",
+              "core": "Cloning is a process that produces identical copies of genes, cells, or organisms.",
+              "applicationHtml": "Distinguish gene cloning from cloning an entire organism.",
+              "application": "Distinguish gene cloning from cloning an entire organism."
+            },
+            {
+              "id": "kp-133",
+              "number": 133,
+              "displayNumber": 133,
+              "titleHtml": "KP3: Gene cloning",
+              "title": "KP3: Gene cloning",
+              "coreHtml": "Gene cloning manipulates DNA to produce many copies of a gene or DNA segment in foreign cells.",
+              "core": "Gene cloning manipulates DNA to produce many copies of a gene or DNA segment in foreign cells.",
+              "applicationHtml": "Explain how cloned genes can be used for study or for producing proteins such as insulin.",
+              "application": "Explain how cloned genes can be used for study or for producing proteins such as insulin."
+            },
+            {
+              "id": "kp-134",
+              "number": 134,
+              "displayNumber": 134,
+              "titleHtml": "KP4: Vectors and plasmids",
+              "title": "KP4: Vectors and plasmids",
+              "coreHtml": "A vector carries DNA to be cloned into a foreign cell; a plasmid is a common bacterial vector.",
+              "core": "A vector carries DNA to be cloned into a foreign cell; a plasmid is a common bacterial vector.",
+              "applicationHtml": "Describe the role of a plasmid in moving a gene into a bacterial cell.",
+              "application": "Describe the role of a plasmid in moving a gene into a bacterial cell."
+            },
+            {
+              "id": "kp-135",
+              "number": 135,
+              "displayNumber": 135,
+              "titleHtml": "KP5: Recombinant DNA",
+              "title": "KP5: Recombinant DNA",
+              "coreHtml": "Recombinant DNA is a DNA molecule that includes genetic material from different sources.",
+              "core": "Recombinant DNA is a DNA molecule that includes genetic material from different sources.",
+              "applicationHtml": "Explain how enzymes can help cut and join DNA pieces during gene cloning.",
+              "application": "Explain how enzymes can help cut and join DNA pieces during gene cloning."
+            },
+            {
+              "id": "kp-136",
+              "number": 136,
+              "displayNumber": 136,
+              "titleHtml": "KP6: Transformation",
+              "title": "KP6: Transformation",
+              "coreHtml": "Transformation occurs when a foreign cell takes in recombinant DNA.",
+              "core": "Transformation occurs when a foreign cell takes in recombinant DNA.",
+              "applicationHtml": "Connect transformation to the production of many copies of a cloned gene or DNA fragment.",
+              "application": "Connect transformation to the production of many copies of a cloned gene or DNA fragment."
+            },
+            {
+              "id": "kp-137",
+              "number": 137,
+              "displayNumber": 137,
+              "titleHtml": "KP7: Transgenic organisms",
+              "title": "KP7: Transgenic organisms",
+              "coreHtml": "A transgenic organism contains foreign DNA introduced into its genome through genetic engineering.",
+              "core": "A transgenic organism contains foreign DNA introduced into its genome through genetic engineering.",
+              "applicationHtml": "Recognize transgenic plants and animals as types of genetically modified organisms, or GMOs.",
+              "application": "Recognize transgenic plants and animals as types of genetically modified organisms, or GMOs."
+            }
+          ]
+        },
+        {
+          "id": "1-4-concept-2-dna-technology-has-many-uses-p-76-79",
+          "titleHtml": "1.4 Concept 2: DNA technology has many uses — p.76–79",
+          "title": "1.4 Concept 2: DNA technology has many uses — p.76–79",
+          "kps": [
+            {
+              "id": "kp-138",
+              "number": 138,
+              "displayNumber": 138,
+              "titleHtml": "KP1: DNA profiles",
+              "title": "KP1: DNA profiles",
+              "coreHtml": "A DNA profile determines sequences of DNA regions that are unique to an individual.",
+              "core": "A DNA profile determines sequences of DNA regions that are unique to an individual.",
+              "applicationHtml": "Explain how DNA profiles can be used in law enforcement or family relationship testing.",
+              "application": "Explain how DNA profiles can be used in law enforcement or family relationship testing."
+            },
+            {
+              "id": "kp-139",
+              "number": 139,
+              "displayNumber": 139,
+              "titleHtml": "KP2: Artificial insemination",
+              "title": "KP2: Artificial insemination",
+              "coreHtml": "Artificial insemination collects and concentrates sperm before placing it in the female’s uterus.",
+              "core": "Artificial insemination collects and concentrates sperm before placing it in the female’s uterus.",
+              "applicationHtml": "Identify artificial insemination as a reproductive technology.",
+              "application": "Identify artificial insemination as a reproductive technology."
+            },
+            {
+              "id": "kp-140",
+              "number": 140,
+              "displayNumber": 140,
+              "titleHtml": "KP3: In vitro fertilization",
+              "title": "KP3: In vitro fertilization",
+              "coreHtml": "In vitro fertilization, or IVF, fertilizes eggs with sperm outside the body before placing embryos in the uterus.",
+              "core": "In vitro fertilization, or IVF, fertilizes eggs with sperm outside the body before placing embryos in the uterus.",
+              "applicationHtml": "Compare IVF with artificial insemination.",
+              "application": "Compare IVF with artificial insemination."
+            },
+            {
+              "id": "kp-141",
+              "number": 141,
+              "displayNumber": 141,
+              "titleHtml": "KP4: Gene therapy",
+              "title": "KP4: Gene therapy",
+              "coreHtml": "Gene therapy is an experimental treatment that inserts a healthy form of a gene into affected cells or tissues.",
+              "core": "Gene therapy is an experimental treatment that inserts a healthy form of a gene into affected cells or tissues.",
+              "applicationHtml": "Explain how a healthy gene may replace or compensate for a mutated gene.",
+              "application": "Explain how a healthy gene may replace or compensate for a mutated gene."
+            },
+            {
+              "id": "kp-142",
+              "number": 142,
+              "displayNumber": 142,
+              "titleHtml": "KP5: Genetic disease diagnosis",
+              "title": "KP5: Genetic disease diagnosis",
+              "coreHtml": "Identifying mutated genes can help link genetic material to disease.",
+              "core": "Identifying mutated genes can help link genetic material to disease.",
+              "applicationHtml": "Connect DNA technology to improved diagnosis and prediction of genetic disorders.",
+              "application": "Connect DNA technology to improved diagnosis and prediction of genetic disorders."
+            },
+            {
+              "id": "kp-143",
+              "number": 143,
+              "displayNumber": 143,
+              "titleHtml": "KP6: DNA technology in British Columbia",
+              "title": "KP6: DNA technology in British Columbia",
+              "coreHtml": "DNA-based technologies can test plants and biological samples for viruses, invasive species, or pathogens.",
+              "core": "DNA-based technologies can test plants and biological samples for viruses, invasive species, or pathogens.",
+              "applicationHtml": "Explain how DNA testing can support agriculture, trade, forests, and ecosystem protection.",
+              "application": "Explain how DNA testing can support agriculture, trade, forests, and ecosystem protection."
+            }
+          ]
+        },
+        {
+          "id": "1-4-concept-3-the-use-of-biotechnology-has-some-risks-and-raises-some-ethical-issues-p-80-81",
+          "titleHtml": "1.4 Concept 3: The use of biotechnology has some risks and raises some ethical issues — p.80–81",
+          "title": "1.4 Concept 3: The use of biotechnology has some risks and raises some ethical issues — p.80–81",
+          "kps": [
+            {
+              "id": "kp-144",
+              "number": 144,
+              "displayNumber": 144,
+              "titleHtml": "KP1: GMO controversy",
+              "title": "KP1: GMO controversy",
+              "coreHtml": "GMOs have important benefits but also raise environmental, health, social, and ethical concerns.",
+              "core": "GMOs have important benefits but also raise environmental, health, social, and ethical concerns.",
+              "applicationHtml": "Evaluate biotechnology using both benefits and risks.",
+              "application": "Evaluate biotechnology using both benefits and risks."
+            },
+            {
+              "id": "kp-145",
+              "number": 145,
+              "displayNumber": 145,
+              "titleHtml": "KP2: Environmental risks",
+              "title": "KP2: Environmental risks",
+              "coreHtml": "GMO-related risks may include stronger herbicide use, gene transfer to other species, and effects on wild populations.",
+              "core": "GMO-related risks may include stronger herbicide use, gene transfer to other species, and effects on wild populations.",
+              "applicationHtml": "Explain concerns about “superweeds,” “superbugs,” and ecological competition.",
+              "application": "Explain concerns about “superweeds,” “superbugs,” and ecological competition."
+            },
+            {
+              "id": "kp-146",
+              "number": 146,
+              "displayNumber": 146,
+              "titleHtml": "KP3: Health concerns",
+              "title": "KP3: Health concerns",
+              "coreHtml": "Some people are concerned about long-term effects, allergic reactions, and safety of genetically modified food or medicine.",
+              "core": "Some people are concerned about long-term effects, allergic reactions, and safety of genetically modified food or medicine.",
+              "applicationHtml": "Connect GMO regulation and labelling to informed consumer decisions.",
+              "application": "Connect GMO regulation and labelling to informed consumer decisions."
+            },
+            {
+              "id": "kp-147",
+              "number": 147,
+              "displayNumber": 147,
+              "titleHtml": "KP4: Social and economic issues",
+              "title": "KP4: Social and economic issues",
+              "coreHtml": "Biotechnology may affect research funding, world hunger, private enterprise, and global food markets.",
+              "core": "Biotechnology may affect research funding, world hunger, private enterprise, and global food markets.",
+              "applicationHtml": "Analyze how biotechnology can influence society beyond the laboratory.",
+              "application": "Analyze how biotechnology can influence society beyond the laboratory."
+            },
+            {
+              "id": "kp-148",
+              "number": 148,
+              "displayNumber": 148,
+              "titleHtml": "KP5: Ethics of using organisms",
+              "title": "KP5: Ethics of using organisms",
+              "coreHtml": "Some biotechnology uses other species mainly for human benefit.",
+              "core": "Some biotechnology uses other species mainly for human benefit.",
+              "applicationHtml": "Evaluate ethical questions about transgenic animals, medical products, and organ-donor research.",
+              "application": "Evaluate ethical questions about transgenic animals, medical products, and organ-donor research."
+            },
+            {
+              "id": "kp-149",
+              "number": 149,
+              "displayNumber": 149,
+              "titleHtml": "KP6: Gene therapy concerns",
+              "title": "KP6: Gene therapy concerns",
+              "coreHtml": "Gene therapy has promise but can produce negative results and raises questions about which conditions should be treated.",
+              "core": "Gene therapy has promise but can produce negative results and raises questions about which conditions should be treated.",
+              "applicationHtml": "Discuss why safety, regulation, and definitions of “disorder” matter in gene therapy.",
+              "application": "Discuss why safety, regulation, and definitions of “disorder” matter in gene therapy."
+            }
+          ]
+        },
+        {
+          "id": "optional-extension-at-issue-stem-cells-paralysis-cured-p-82-83",
+          "titleHtml": "Optional Extension — At Issue: Stem Cells: Paralysis Cured — p.82–83",
+          "title": "Optional Extension — At Issue: Stem Cells: Paralysis Cured — p.82–83",
+          "kps": [
+            {
+              "id": "kp-150",
+              "number": 150,
+              "displayNumber": 150,
+              "titleHtml": "KP1: Stem cells",
+              "title": "KP1: Stem cells",
+              "coreHtml": "A stem cell can differentiate into many different cell types.",
+              "core": "A stem cell can differentiate into many different cell types.",
+              "applicationHtml": "Explain why stem cells may help repair damaged tissues.",
+              "application": "Explain why stem cells may help repair damaged tissues."
+            },
+            {
+              "id": "kp-151",
+              "number": 151,
+              "displayNumber": 151,
+              "titleHtml": "KP2: Embryonic and adult stem cells",
+              "title": "KP2: Embryonic and adult stem cells",
+              "coreHtml": "Embryonic stem cells can differentiate into any cell type; adult stem cells are limited to certain cell types.",
+              "core": "Embryonic stem cells can differentiate into any cell type; adult stem cells are limited to certain cell types.",
+              "applicationHtml": "Compare stem cell types by their developmental potential.",
+              "application": "Compare stem cell types by their developmental potential."
+            },
+            {
+              "id": "kp-152",
+              "number": 152,
+              "displayNumber": 152,
+              "titleHtml": "KP3: Adult stem cell treatments",
+              "title": "KP3: Adult stem cell treatments",
+              "coreHtml": "Adult stem cells may be grown and manipulated to generate specific cell types.",
+              "core": "Adult stem cells may be grown and manipulated to generate specific cell types.",
+              "applicationHtml": "Connect adult stem cell research to possible treatments for heart damage, vision loss, diabetes, or spinal injury.",
+              "application": "Connect adult stem cell research to possible treatments for heart damage, vision loss, diabetes, or spinal injury."
+            },
+            {
+              "id": "kp-153",
+              "number": 153,
+              "displayNumber": 153,
+              "titleHtml": "KP4: Stem cells and paralysis",
+              "title": "KP4: Stem cells and paralysis",
+              "coreHtml": "Some adult stem cell research investigates replacing damaged nerve cells after spinal cord injury.",
+              "core": "Some adult stem cell research investigates replacing damaged nerve cells after spinal cord injury.",
+              "applicationHtml": "Evaluate the promise and limits of stem cell-based medical treatments.",
+              "application": "Evaluate the promise and limits of stem cell-based medical treatments."
+            }
+          ]
+        },
+        {
+          "id": "optional-extension-science-at-work-biology-connections-p-84",
+          "titleHtml": "Optional Extension — Science at Work: Biology Connections — p.84",
+          "title": "Optional Extension — Science at Work: Biology Connections — p.84",
+          "kps": [
+            {
+              "id": "kp-154",
+              "number": 154,
+              "displayNumber": 154,
+              "titleHtml": "KP1: Biology-related careers",
+              "title": "KP1: Biology-related careers",
+              "coreHtml": "Biology knowledge supports careers such as bioethicist, plant pathologist, bioinformatics data scientist, soil scientist, and medical illustrator.",
+              "core": "Biology knowledge supports careers such as bioethicist, plant pathologist, bioinformatics data scientist, soil scientist, and medical illustrator.",
+              "applicationHtml": "Connect DNA, genetics, and biotechnology concepts to possible science careers.",
+              "application": "Connect DNA, genetics, and biotechnology concepts to possible science careers."
+            },
+            {
+              "id": "kp-155",
+              "number": 155,
+              "displayNumber": 155,
+              "titleHtml": "KP2: Career knowledge and skills",
+              "title": "KP2: Career knowledge and skills",
+              "coreHtml": "Biology careers may require scientific knowledge, communication, ethical reasoning, data analysis, or fieldwork.",
+              "core": "Biology careers may require scientific knowledge, communication, ethical reasoning, data analysis, or fieldwork.",
+              "applicationHtml": "Identify skills connected to work in genetics, ecology, health, or biotechnology.",
+              "application": "Identify skills connected to work in genetics, ecology, health, or biotechnology."
+            }
+          ]
+        },
+        {
+          "id": "optional-investigation-investigation-1-i-owning-and-controlling-genetic-information-p-86",
+          "titleHtml": "Optional Investigation — Investigation 1-I: Owning and Controlling Genetic Information — p.86",
+          "title": "Optional Investigation — Investigation 1-I: Owning and Controlling Genetic Information — p.86",
+          "kps": [
+            {
+              "id": "kp-156",
+              "number": 156,
+              "displayNumber": 156,
+              "titleHtml": "KP1: Genetic information privacy",
+              "title": "KP1: Genetic information privacy",
+              "coreHtml": "Genetic information raises questions about privacy, ownership, and control.",
+              "core": "Genetic information raises questions about privacy, ownership, and control.",
+              "applicationHtml": "Analyze why personal genetic data may need regulation.",
+              "application": "Analyze why personal genetic data may need regulation."
+            },
+            {
+              "id": "kp-157",
+              "number": 157,
+              "displayNumber": 157,
+              "titleHtml": "KP2: Genetic discrimination",
+              "title": "KP2: Genetic discrimination",
+              "coreHtml": "Genetic profiles could affect employment, insurance, medical plans, criminal cases, paternity testing, biobanks, or research studies.",
+              "core": "Genetic profiles could affect employment, insurance, medical plans, criminal cases, paternity testing, biobanks, or research studies.",
+              "applicationHtml": "Identify situations where genetic information could be misused.",
+              "application": "Identify situations where genetic information could be misused."
+            },
+            {
+              "id": "kp-158",
+              "number": 158,
+              "displayNumber": 158,
+              "titleHtml": "KP3: Regulation and policy",
+              "title": "KP3: Regulation and policy",
+              "coreHtml": "Laws and policies may struggle to keep up with scientific advances in genetics.",
+              "core": "Laws and policies may struggle to keep up with scientific advances in genetics.",
+              "applicationHtml": "Propose rules for responsible control and sharing of genetic information.",
+              "application": "Propose rules for responsible control and sharing of genetic information."
+            }
+          ]
+        },
+        {
+          "id": "optional-investigation-investigation-1-j-the-effects-of-biotechnology-p-87",
+          "titleHtml": "Optional Investigation — Investigation 1-J: The Effects of Biotechnology — p.87",
+          "title": "Optional Investigation — Investigation 1-J: The Effects of Biotechnology — p.87",
+          "kps": [
+            {
+              "id": "kp-159",
+              "number": 159,
+              "displayNumber": 159,
+              "titleHtml": "KP1: GMO benefits and purposes",
+              "title": "KP1: GMO benefits and purposes",
+              "coreHtml": "GMOs may be developed to improve agriculture, medicine, food production, or environmental management.",
+              "core": "GMOs may be developed to improve agriculture, medicine, food production, or environmental management.",
+              "applicationHtml": "Identify why a specific GMO was developed and what advantage it provides.",
+              "application": "Identify why a specific GMO was developed and what advantage it provides."
+            },
+            {
+              "id": "kp-160",
+              "number": 160,
+              "displayNumber": 160,
+              "titleHtml": "KP2: GMO environmental effects",
+              "title": "KP2: GMO environmental effects",
+              "coreHtml": "GMO use can have positive and negative effects on biodiversity, non-target organisms, and ecosystem interactions.",
+              "core": "GMO use can have positive and negative effects on biodiversity, non-target organisms, and ecosystem interactions.",
+              "applicationHtml": "Compare environmental benefits and risks of different GMO examples.",
+              "application": "Compare environmental benefits and risks of different GMO examples."
+            },
+            {
+              "id": "kp-161",
+              "number": 161,
+              "displayNumber": 161,
+              "titleHtml": "KP3: Evidence quality",
+              "title": "KP3: Evidence quality",
+              "coreHtml": "Claims about GMOs should be judged by source credibility, evidence quality, and whether more data are needed.",
+              "core": "Claims about GMOs should be judged by source credibility, evidence quality, and whether more data are needed.",
+              "applicationHtml": "Distinguish evidence-based reports from misconceptions or unsupported opinions.",
+              "application": "Distinguish evidence-based reports from misconceptions or unsupported opinions."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "summaryHtml": "<h2>Unit Summary</h2>\n<p>- Total Chapters: 4</p>\n<p>- Total Core Sections: 18</p>\n<p>- Total Core Knowledge Points: 109</p>\n<p>- Optional Extension / Investigation Sections: 19</p>\n<p>- Optional Extension / Investigation Knowledge Points: 52</p>\n<p>- Top 5 Core Formulas:</p>\n<p class=\"nested-bullet\">• Complementary DNA base pairing: \\(A \\leftrightarrow T\\), \\(G \\leftrightarrow C\\)</p>\n<p class=\"nested-bullet\">• DNA information flow: DNA \\(\\rightarrow\\) RNA \\(\\rightarrow\\) protein</p>\n<p class=\"nested-bullet\">• Human chromosome organization: 46 chromosomes \\(= 23\\) pairs \\(= 22\\) autosome pairs \\(+ 1\\) sex chromosome pair</p>\n<p class=\"nested-bullet\">• Mendelian \\(F_2\\) dominant–recessive phenotypic ratio: \\(3:1\\)</p>\n<p class=\"nested-bullet\">• Incomplete dominance heterozygote cross ratio: \\(1:2:1\\)</p>\n<p>- Top 5 Common Error Areas:</p>\n<p class=\"nested-bullet\">• Confusing nucleotide, DNA, gene, allele, chromatin, chromosome, and genome.</p>\n<p class=\"nested-bullet\">• Confusing genotype with phenotype, or treating phenotype as enough to determine genotype.</p>\n<p class=\"nested-bullet\">• Treating Punnett square probabilities as guaranteed outcomes.</p>\n<p class=\"nested-bullet\">• Saying individuals evolve instead of populations changing over generations.</p>\n<p class=\"nested-bullet\">• Confusing cloning, gene cloning, genetic engineering, transgenic organisms, GMOs, and gene therapy.</p>\n<p>- Suggested Learning Order:</p>\n<p class=\"nested-bullet\">• Start with DNA structure and function: nucleotides, base pairing, genes, chromosomes, and proteins.</p>\n<p class=\"nested-bullet\">• Move to inheritance: alleles, dominant/recessive patterns, Punnett squares, codominance, incomplete dominance, and sex-linked traits.</p>\n<p class=\"nested-bullet\">• Study variation and population change: mutation, genetic diversity, natural selection, adaptation, speciation, extinction, and artificial selection.</p>\n<p class=\"nested-bullet\">• Finish with biotechnology: gene cloning, recombinant DNA, transgenic organisms, DNA profiling, reproductive technologies, gene therapy, and ethical issues.</p>\n<p>- Suggested Review Order:</p>\n<p class=\"nested-bullet\">• Review vocabulary chains first: DNA → gene → allele → chromosome → trait → protein.</p>\n<p class=\"nested-bullet\">• Practise genotype and phenotype interpretation with simple Punnett-square patterns.</p>\n<p class=\"nested-bullet\">• Compare inheritance patterns: dominance, codominance, incomplete dominance, and sex-linked inheritance.</p>\n<p class=\"nested-bullet\">• Review natural selection using “variation → selective pressure → survival/reproduction → population change.”</p>\n<p class=\"nested-bullet\">• Review biotechnology by sorting each application into process, benefit, risk, and ethical concern.</p>"
+}

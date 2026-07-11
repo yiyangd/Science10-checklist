@@ -20,13 +20,23 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Validate course data and application
+        run: |
+          node scripts/validate-data.mjs
+          node scripts/validate-app.mjs
+
       - name: Prepare static site
         shell: bash
         run: |
           rm -rf public
           mkdir public
           cp index.html public/
-          cp quiz-data.js public/
+          cp -R assets js data public/
           cp README.md public/
           cp .nojekyll public/
           cp BCScienceConnections10_Full_Course_Master_Knowledge_Point_Checklist.md public/

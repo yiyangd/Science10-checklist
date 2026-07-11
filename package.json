@@ -1,0 +1,10 @@
+{
+  "name": "science10-checklist",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "validate": "node scripts/validate-data.mjs && node scripts/validate-app.mjs",
+    "build-search": "node scripts/build-search-index.mjs",
+    "serve": "python -m http.server 8765 --bind 127.0.0.1"
+  }
+}
