@@ -5,6 +5,12 @@
   "scripts": {
     "validate": "node scripts/validate-data.mjs && node scripts/validate-app.mjs",
     "build-search": "node scripts/build-search-index.mjs",
-    "serve": "python -m http.server 8765 --bind 127.0.0.1"
+    "serve": "python -m http.server 8765 --bind 127.0.0.1",
+    "serve:test": "python -m http.server 4173 --bind 127.0.0.1",
+    "test:e2e": "playwright test",
+    "test:e2e:headed": "playwright test --headed"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.61.1"
   }
 }

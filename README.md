@@ -45,6 +45,23 @@ Run all static integrity checks with:
 npm.cmd run validate
 ```
 
+## Automated QA
+
+Install dependencies and the Playwright Chromium browser once:
+
+```powershell
+npm.cmd install
+npx.cmd playwright install chromium
+```
+
+Run the browser regression suite:
+
+```powershell
+npm.cmd run test:e2e
+```
+
+The suite starts an isolated static server on port `4173` and uses a fresh browser context for each test, so saved student progress is not reused.
+
 ## Routing
 
 GitHub Pages-safe Hash routes support browser history and shared links:
