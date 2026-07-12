@@ -15,9 +15,10 @@ function sentence(value) {
 }
 
 export class QuizModal {
-  constructor({ onPass, onAttempt }) {
+  constructor({ onPass, onAttempt, onClose }) {
     this.onPass = onPass;
     this.onAttempt = onAttempt;
+    this.onClose = onClose;
     this.modal = document.getElementById("quizModal");
     this.form = document.getElementById("quizForm");
     this.title = document.getElementById("quizTitle");
@@ -142,6 +143,7 @@ export class QuizModal {
   }
 
   close() {
+    const closingKpId = this.active?.kpId || null;
     this.modal.hidden = true;
     document.body.classList.remove("modal-open");
     document.getElementById("appView").removeAttribute("inert");
@@ -150,6 +152,7 @@ export class QuizModal {
     const focusTarget = this.previousFocus;
     this.previousFocus = null;
     if (focusTarget?.isConnected) focusTarget.focus();
+    this.onClose?.({ kpId: closingKpId, trigger: focusTarget });
   }
 
   typeset() {

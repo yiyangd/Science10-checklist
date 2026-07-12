@@ -188,6 +188,12 @@ a { color: var(--accent-dark); }
 
 .button-danger { color: var(--danger); }
 
+.button:disabled,
+.icon-button:disabled {
+  cursor: not-allowed;
+  opacity: 0.55;
+}
+
 .icon-button {
   flex: 0 0 44px;
   width: 44px;
@@ -433,7 +439,7 @@ a { color: var(--accent-dark); }
 
 .review-controls {
   display: grid;
-  grid-template-columns: repeat(2, minmax(180px, 260px)) minmax(0, 1fr);
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 12px;
   align-items: end;
   margin-bottom: 18px;
@@ -461,9 +467,11 @@ a { color: var(--accent-dark); }
 }
 
 .review-filter-status {
-  margin: 0 0 9px;
+  grid-column: 1 / -1;
+  min-height: 24px;
+  margin: 0;
   color: var(--muted);
-  text-align: right;
+  text-align: left;
 }
 
 .review-list {

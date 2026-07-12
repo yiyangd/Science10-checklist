@@ -38,7 +38,10 @@ let searchData;
 let searchTimer;
 let renderVersion = 0;
 let reviewMetadata = new Map();
-const reviewFilters = { unit: "all", status: "all" };
+let reviewChapters = [];
+let pendingReviewRefresh = null;
+let reviewHistoryNotice = "";
+const reviewFilters = { unit: "all", chapter: "all", status: "all", sort: "recommended" };
 
 const reviewStatusDetails = {
   [REVIEW_STATUS.NEEDS_PRACTICE]: { label: "Needs practice", priority: 0 },
@@ -54,7 +57,8 @@ const quizModal = new QuizModal({
   onAttempt: attempt => {
     const { state } = recordQuizAttempt(attempt);
     syncReviewSurface(attempt.kpId, state);
-  }
+  },
+  onClose: event => finishReviewAttempt(event)
 });
 
 function allKpIds() {
@@ -199,15 +203,41 @@ function reviewMetadataFromSearch(entries) {
   }).filter(Boolean));
 }
 
+function reviewChaptersFromSearch(entries) {
+  return entries.filter(entry => entry.type === "chapter").map(entry => {
+    const match = entry.route.match(/^#\/unit\/(\d+)\/chapter\/([^/]+)$/);
+    if (!match) return null;
+    return {
+      unitNumber: Number(match[1]),
+      chapterNumber: match[2],
+      title: entry.title
+    };
+  }).filter(Boolean).sort((left, right) => left.chapterNumber.localeCompare(right.chapterNumber, undefined, { numeric: true }));
+}
+
 function buildReviewEntries(state = loadReviewState()) {
   const passed = loadQuizPassState();
   return Object.entries(state.records).map(([kpId, record]) => {
     const metadata = reviewMetadata.get(kpId);
     const status = reviewStatusFor(record, Boolean(passed[kpId]));
     return metadata && status ? { kpId, record, status, ...metadata } : null;
-  }).filter(Boolean).sort((left, right) => {
+  }).filter(Boolean);
+}
+
+function kpNumber(entry) {
+  return Number(entry.kpId.slice(3));
+}
+
+function sortReviewEntries(entries) {
+  return [...entries].sort((left, right) => {
+    const recent = Date.parse(right.record.lastAttemptAt) - Date.parse(left.record.lastAttemptAt);
+    if (reviewFilters.sort === "recent") return recent || kpNumber(left) - kpNumber(right);
+    if (reviewFilters.sort === "course") return kpNumber(left) - kpNumber(right);
+    if (reviewFilters.sort === "attempts") {
+      return right.record.totalAttempts - left.record.totalAttempts || recent || kpNumber(left) - kpNumber(right);
+    }
     const priority = reviewStatusDetails[left.status].priority - reviewStatusDetails[right.status].priority;
-    return priority || Date.parse(right.record.lastAttemptAt) - Date.parse(left.record.lastAttemptAt);
+    return priority || recent || kpNumber(left) - kpNumber(right);
   });
 }
 
@@ -246,16 +276,23 @@ function reviewRowMarkup(entry) {
 
 function matchesReviewFilters(entry) {
   return (reviewFilters.unit === "all" || String(entry.unitNumber) === reviewFilters.unit)
+    && (reviewFilters.chapter === "all" || entry.chapterNumber === reviewFilters.chapter)
     && (reviewFilters.status === "all" || entry.status === reviewFilters.status);
+}
+
+function filteredReviewEntries(state = loadReviewState()) {
+  return sortReviewEntries(buildReviewEntries(state).filter(matchesReviewFilters));
 }
 
 function reviewCollectionMarkup() {
   const state = loadReviewState();
   const allEntries = buildReviewEntries(state);
-  const entries = allEntries.filter(matchesReviewFilters);
+  const entries = filteredReviewEntries(state);
   const recordedCount = Object.keys(state.records).length;
   if (!recordedCount) {
-    return '<div class="review-empty"><h2>No Review history yet</h2><p>Complete a Quiz attempt and useful practice will appear here.</p></div>';
+    return reviewHistoryNotice
+      ? '<div class="review-empty"><h2>Review history cleared</h2><p>Checklist completion and Quiz pass state are unchanged.</p></div>'
+      : '<div class="review-empty"><h2>No Review history yet</h2><p>Complete a Quiz attempt and useful practice will appear here.</p></div>';
   }
   if (!allEntries.length) {
     return '<div class="review-empty"><h2>Nothing needs review right now</h2><p>First-attempt passes stay completed without filling your Review list.</p></div>';
@@ -276,20 +313,66 @@ function updateReviewResults(announcement = "") {
   const visible = results.querySelectorAll(".review-row").length;
   const status = document.getElementById("reviewFilterStatus");
   if (status) status.textContent = announcement || `${visible} Review item${visible === 1 ? "" : "s"} shown.`;
+  syncClearReviewButton();
+}
+
+function chapterOptionLabel(chapter) {
+  const title = chapter.title.replace(/^Chapter [\d.]+:\s*/, "");
+  const prefix = reviewFilters.unit === "all" ? `Unit ${chapter.unitNumber} - ` : "";
+  return `${prefix}Chapter ${displayChapterNumber(chapter.chapterNumber)}: ${title}`;
+}
+
+function updateChapterFilterOptions() {
+  const select = document.getElementById("reviewChapterFilter");
+  if (!select) return;
+  const eligible = reviewChapters.filter(chapter => reviewFilters.unit === "all" || String(chapter.unitNumber) === reviewFilters.unit);
+  if (reviewFilters.chapter !== "all" && !eligible.some(chapter => chapter.chapterNumber === reviewFilters.chapter)) {
+    reviewFilters.chapter = "all";
+  }
+  select.innerHTML = `<option value="all">All Chapters</option>${eligible.map(chapter => `
+    <option value="${chapter.chapterNumber}">${chapterOptionLabel(chapter)}</option>
+  `).join("")}`;
+  select.value = reviewFilters.chapter;
+}
+
+function syncClearReviewButton() {
+  const button = document.getElementById("clearReviewHistory");
+  if (button) button.disabled = Object.keys(loadReviewState().records).length === 0;
+}
+
+function clearReviewHistoryFromView() {
+  if (!window.confirm("Clear Review history for this browser? Checklist completion and Quiz pass state will remain.")) return;
+  clearReviewHistory();
+  reviewHistoryNotice = "cleared";
+  pendingReviewRefresh = null;
+  updateReviewResults("Review history cleared. Checklist completion and Quiz pass state remain unchanged.");
 }
 
 function bindReviewInteractions() {
   const unitFilter = document.getElementById("reviewUnitFilter");
+  const chapterFilter = document.getElementById("reviewChapterFilter");
   const statusFilter = document.getElementById("reviewStatusFilter");
+  const sortControl = document.getElementById("reviewSort");
+  const clearButton = document.getElementById("clearReviewHistory");
   const results = document.getElementById("reviewResults");
   unitFilter.addEventListener("change", () => {
     reviewFilters.unit = unitFilter.value;
+    updateChapterFilterOptions();
+    updateReviewResults();
+  });
+  chapterFilter.addEventListener("change", () => {
+    reviewFilters.chapter = chapterFilter.value;
     updateReviewResults();
   });
   statusFilter.addEventListener("change", () => {
     reviewFilters.status = statusFilter.value;
     updateReviewResults();
   });
+  sortControl.addEventListener("change", () => {
+    reviewFilters.sort = sortControl.value;
+    updateReviewResults();
+  });
+  clearButton.addEventListener("click", clearReviewHistoryFromView);
   results.addEventListener("click", event => {
     const button = event.target.closest(".review-quiz-button");
     if (!button) return;
@@ -302,10 +385,12 @@ async function renderReview(version) {
   if (!searchData) searchData = await loadSearchIndex();
   if (version !== renderVersion) return;
   reviewMetadata = reviewMetadataFromSearch(searchData);
+  reviewChapters = reviewChaptersFromSearch(searchData);
   setView(`
     ${breadcrumbs([{ label: "Home", href: "#/" }, { label: "Review & Practice" }])}
     <header class="view-header">
       <div><h1>Review &amp; Practice</h1><p class="view-meta">Return to Knowledge Points that would benefit from another look.</p></div>
+      <button id="clearReviewHistory" class="button button-danger" type="button">Clear Review History</button>
     </header>
     <div class="review-controls" role="group" aria-label="Review filters">
       <label>Unit
@@ -313,6 +398,9 @@ async function renderReview(version) {
           <option value="all"${reviewFilters.unit === "all" ? " selected" : ""}>All Units</option>
           ${course.units.map(unit => `<option value="${unit.number}"${reviewFilters.unit === String(unit.number) ? " selected" : ""}>Unit ${unit.number}</option>`).join("")}
         </select>
+      </label>
+      <label>Chapter
+        <select id="reviewChapterFilter"></select>
       </label>
       <label>Status
         <select id="reviewStatusFilter">
@@ -322,15 +410,25 @@ async function renderReview(version) {
           <option value="recently-passed"${reviewFilters.status === REVIEW_STATUS.RECENTLY_PASSED ? " selected" : ""}>Recently passed</option>
         </select>
       </label>
+      <label>Sort
+        <select id="reviewSort">
+          <option value="recommended"${reviewFilters.sort === "recommended" ? " selected" : ""}>Recommended</option>
+          <option value="recent"${reviewFilters.sort === "recent" ? " selected" : ""}>Most recent activity</option>
+          <option value="course"${reviewFilters.sort === "course" ? " selected" : ""}>Course order</option>
+          <option value="attempts"${reviewFilters.sort === "attempts" ? " selected" : ""}>Most attempts</option>
+        </select>
+      </label>
       <p id="reviewFilterStatus" class="review-filter-status" role="status" aria-live="polite"></p>
     </div>
     <div id="reviewResults"></div>
   `);
+  updateChapterFilterOptions();
   bindReviewInteractions();
   updateReviewResults();
 }
 
 function syncReviewSurface(kpId, state) {
+  reviewHistoryNotice = "";
   const homeCount = document.getElementById("reviewActionCount");
   if (homeCount) homeCount.textContent = String(actionableReviewCount(state));
   if (currentRoute?.name !== "review") return;
@@ -343,6 +441,48 @@ function syncReviewSurface(kpId, state) {
   row.dataset.reviewStatus = entry.status;
   row.querySelector(".review-row-copy").innerHTML = reviewRowCopyMarkup(entry);
   document.getElementById("reviewFilterStatus").textContent = `${entry.title} is now ${reviewStatusDetails[entry.status].label}.`;
+  pendingReviewRefresh = {
+    kpId,
+    title: entry.title,
+    shouldRemove: !matchesReviewFilters(entry)
+  };
+}
+
+function reorderVisibleReviewRows() {
+  const list = document.querySelector(".review-list");
+  if (!list) return;
+  for (const entry of filteredReviewEntries()) {
+    const row = list.querySelector(`.review-row[data-review-kp="${entry.kpId}"]`);
+    if (row) list.appendChild(row);
+  }
+}
+
+function syncReviewPositiveMessage() {
+  const results = document.getElementById("reviewResults");
+  const list = results?.querySelector(".review-list");
+  if (!results || !list) return;
+  const existing = results.querySelector(".review-positive");
+  if (actionableReviewCount() === 0 && !existing) {
+    list.insertAdjacentHTML("beforebegin", '<p class="review-positive">Nothing needs immediate review. Recent passes remain below for optional practice.</p>');
+  } else if (actionableReviewCount() > 0) {
+    existing?.remove();
+  }
+}
+
+function finishReviewAttempt({ kpId, trigger }) {
+  if (currentRoute?.name !== "review" || pendingReviewRefresh?.kpId !== kpId) return;
+  const pending = pendingReviewRefresh;
+  pendingReviewRefresh = null;
+  if (pending.shouldRemove) {
+    updateReviewResults(`${pending.title} was updated and no longer matches the active filters.`);
+    const status = document.getElementById("reviewFilterStatus");
+    status.tabIndex = -1;
+    status.focus();
+    return;
+  }
+  reorderVisibleReviewRows();
+  syncReviewPositiveMessage();
+  if (trigger?.isConnected) trigger.focus();
 }
 
 function firstIncompleteChapter(unit) {

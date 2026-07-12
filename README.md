@@ -10,6 +10,8 @@ The application uses three focused levels instead of rendering the full course a
 2. A Unit view shows its four Chapter cards.
 3. A Chapter view shows its Concepts and Knowledge Points.
 
+The Home page also provides a separate **Review & Practice** entry. Quiz attempts that need another look appear in a local Review Center with Unit, Chapter, and status filters. Review history stays in the current browser and is not sent to an account, backend, analytics service, or tracking system.
+
 The course contains 4 Units, 16 Chapters, 572 Knowledge Points, and 1716 multiple-choice questions. Every Knowledge Point requires passing its three-question Quiz before completion is saved.
 
 ## Project Structure
@@ -70,15 +72,18 @@ GitHub Pages-safe Hash routes support browser history and shared links:
 - Unit: `#/unit/1`
 - Chapter: `#/unit/1/chapter/1-1`
 - Knowledge Point: `#/unit/1/chapter/1-1/kp/1`
+- Review Center: `#/review`
 
 Legacy `#unit-1`, `#chapter-1-1`, `#kp-1`, and old v2 filename links are migrated to the new routes.
 
 ## Progress and Quiz Notes
 
 - Existing `BCScienceConnections10_Checklist_v2` and `BCScienceConnections10_QuizGate_v1` localStorage data remains compatible.
+- Review attempt history uses `BCScienceConnections10_Review_v1` and remains local to the visitor's browser.
 - Progress is stored only in the visitor's browser and does not sync across browsers, devices, or private sessions.
 - Answer choices are reshuffled whenever a Quiz opens or is retried.
-- Reset Progress requires confirmation and clears checklist and Quiz-pass state.
+- Clear Review History removes only Review attempt history; completed Knowledge Points and Quiz-pass state remain.
+- Reset Progress requires confirmation and clears checklist progress, Quiz-pass state, and Review history.
 - MathJax loads from `https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js`. Raw TeX remains visible if the CDN is unavailable.
 
 ## GitHub Pages Deployment
