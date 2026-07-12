@@ -24,11 +24,19 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install Chromium
+        run: npx playwright install --with-deps chromium
 
       - name: Validate course data and application
-        run: |
-          node scripts/validate-data.mjs
-          node scripts/validate-app.mjs
+        run: npm run validate
+
+      - name: Run browser regression suite
+        run: npm run test:e2e
 
       - name: Prepare static site
         shell: bash
