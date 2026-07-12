@@ -33,7 +33,8 @@ body {
 body.modal-open { overflow: hidden; }
 
 button,
-input { font: inherit; }
+input,
+select { font: inherit; }
 
 button,
 a { -webkit-tap-highlight-color: transparent; }
@@ -186,6 +187,12 @@ a { color: var(--accent-dark); }
 .button-primary:hover { background: var(--accent-dark); }
 
 .button-danger { color: var(--danger); }
+
+.button:disabled,
+.icon-button:disabled {
+  cursor: not-allowed;
+  opacity: 0.55;
+}
 
 .icon-button {
   flex: 0 0 44px;
@@ -387,6 +394,161 @@ a { color: var(--accent-dark); }
   color: var(--unit-color);
   font-weight: 700;
 }
+
+.review-home-entry {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 22px;
+  padding: 18px 3px;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  background: var(--surface-soft);
+}
+
+.review-home-entry > div { padding-left: 13px; }
+
+.review-entry-label,
+.review-location {
+  margin: 0 0 3px;
+  color: var(--accent-dark);
+  font-size: 0.78rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.review-home-entry h2 {
+  margin: 0;
+  font-size: 1.08rem;
+}
+
+.review-home-entry p:last-child {
+  margin: 4px 0 0;
+  color: var(--muted);
+}
+
+.review-home-entry > .button {
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+  margin-right: 13px;
+  text-decoration: none;
+}
+
+#clearReviewHistory { min-height: 46px; }
+
+.review-controls {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+  align-items: end;
+  margin-bottom: 18px;
+  padding: 14px 0;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+
+.review-controls label {
+  display: grid;
+  gap: 5px;
+  color: var(--accent-dark);
+  font-size: 0.86rem;
+  font-weight: 750;
+}
+
+.review-controls select {
+  min-width: 0;
+  min-height: 44px;
+  padding: 8px 34px 8px 10px;
+  border: 1px solid #aebfc5;
+  border-radius: 6px;
+  color: var(--text);
+  background: #fff;
+}
+
+.review-filter-status {
+  grid-column: 1 / -1;
+  min-height: 24px;
+  margin: 0;
+  color: var(--muted);
+  text-align: left;
+}
+
+.review-list {
+  margin: 0;
+  padding: 0;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  list-style: none;
+}
+
+.review-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 18px;
+  align-items: center;
+  padding: 16px 3px;
+  border-top: 1px solid #e5ecef;
+  background: #fff;
+}
+
+.review-row:first-child { border-top: 0; }
+
+.review-row-copy { min-width: 0; }
+
+.review-row h2 {
+  margin: 0;
+  font-size: 1.03rem;
+  line-height: 1.35;
+}
+
+.review-row-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px 12px;
+  align-items: center;
+  margin-top: 8px;
+  color: var(--muted);
+  font-size: 0.84rem;
+}
+
+.review-status {
+  padding: 3px 7px;
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  font-weight: 750;
+}
+
+.review-status-needs-practice { border-color: #dfb86a; color: #75510b; background: #fff9ea; }
+.review-status-review-recommended { border-color: #d6a1a7; color: #7a3039; background: #fff5f6; }
+.review-status-recently-passed { border-color: #9fd0b4; color: var(--success); background: #f2fbf7; }
+
+.review-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: flex-end;
+}
+
+.review-actions .button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.review-empty,
+.review-positive {
+  padding: 22px 3px;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+
+.review-empty h2 { margin: 0; font-size: 1.08rem; }
+.review-empty p,
+.review-positive { margin: 5px 0 0; color: var(--muted); }
 
 .study-tips,
 .unit-summary {
@@ -689,6 +851,12 @@ a { color: var(--accent-dark); }
   .card-grid { grid-template-columns: 1fr; }
   .course-card { min-height: 210px; }
   .view-header { align-items: flex-start; flex-direction: column; gap: 8px; }
+  .review-home-entry { align-items: flex-start; flex-direction: column; gap: 12px; }
+  .review-home-entry > .button { margin: 0 13px; }
+  .review-controls { grid-template-columns: 1fr 1fr; }
+  .review-filter-status { grid-column: 1 / -1; margin: 0; text-align: left; }
+  .review-row { grid-template-columns: 1fr; gap: 12px; }
+  .review-actions { justify-content: flex-start; }
   .kp-heading-row { gap: 8px; }
   .quiz-status { display: none; }
   .kp-details { margin-left: 30px; }
@@ -701,6 +869,9 @@ a { color: var(--accent-dark); }
   .app-bar.chapter-mode .button-danger { grid-column: auto; }
   .app-bar.chapter-mode .button { padding-inline: 7px; }
   .concept-toggle { padding: 11px 12px; }
+  .review-controls { grid-template-columns: 1fr; }
+  .review-filter-status { grid-column: auto; }
+  .review-actions .button { flex: 1 1 100%; }
   .concept-body { padding: 0 12px 12px; }
   .quiz-modal { padding: 8px; }
   .quiz-dialog { max-height: 96vh; }

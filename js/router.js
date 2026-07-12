@@ -37,6 +37,7 @@ export function parseRoute(hash, course) {
 
   const path = raw.startsWith("#/") ? raw.slice(2).split("/").filter(Boolean).map(decodeURIComponent) : [];
   if (path[0] === "summary") return { name: "summary", canonical: "#/summary" };
+  if (path[0] === "review" && path.length === 1) return { name: "review", canonical: "#/review" };
   if (path[0] !== "unit") return { name: "not-found", canonical: raw };
 
   const unitNumber = Number(path[1]);
