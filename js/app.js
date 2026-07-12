@@ -8,7 +8,14 @@ import {
   saveLastRoute
 } from "./storage.js";
 import { QuizModal } from "./quiz-modal.js";
-import { clearReviewHistory, recordQuizAttempt } from "./review-storage.js";
+import {
+  REVIEW_STATUS,
+  actionableReviewCount,
+  clearReviewHistory,
+  loadReviewState,
+  recordQuizAttempt,
+  reviewStatusFor
+} from "./review-storage.js";
 
 const appView = document.getElementById("appView");
 const routeStatus = document.getElementById("routeStatus");
@@ -30,13 +37,24 @@ let currentRoute;
 let searchData;
 let searchTimer;
 let renderVersion = 0;
+let reviewMetadata = new Map();
+const reviewFilters = { unit: "all", status: "all" };
+
+const reviewStatusDetails = {
+  [REVIEW_STATUS.NEEDS_PRACTICE]: { label: "Needs practice", priority: 0 },
+  [REVIEW_STATUS.REVIEW_RECOMMENDED]: { label: "Review recommended", priority: 1 },
+  [REVIEW_STATUS.RECENTLY_PASSED]: { label: "Recently passed", priority: 2 }
+};
 
 const quizModal = new QuizModal({
   onPass: kpId => {
     syncGlobalProgress();
     syncVisibleKp(kpId);
   },
-  onAttempt: attempt => recordQuizAttempt(attempt)
+  onAttempt: attempt => {
+    const { state } = recordQuizAttempt(attempt);
+    syncReviewSurface(attempt.kpId, state);
+  }
 });
 
 function allKpIds() {
@@ -83,6 +101,23 @@ function progressMarkup(completed, total) {
       <div class="card-progress-row"><span>${completed} of ${total}</span><strong>${pct}%</strong></div>
       <div class="mini-progress" aria-hidden="true"><span style="width:${pct}%"></span></div>
     </div>
+  `;
+}
+
+function reviewHomeMarkup() {
+  const count = actionableReviewCount();
+  const summary = count
+    ? `${count} Knowledge Point${count === 1 ? " is" : "s are"} ready for review.`
+    : "Nothing needs immediate review. Recent practice remains available when you want it.";
+  return `
+    <section class="review-home-entry" aria-labelledby="reviewHomeTitle">
+      <div>
+        <p class="review-entry-label">Review &amp; Practice</p>
+        <h2 id="reviewHomeTitle">Return to useful practice</h2>
+        <p id="reviewHomeSummary"><strong id="reviewActionCount">${count}</strong> actionable item${count === 1 ? "" : "s"}. ${summary}</p>
+      </div>
+      <a class="button button-primary" href="#/review">Open Review Center</a>
+    </section>
   `;
 }
 
@@ -145,9 +180,169 @@ function renderHome() {
       <div><h1>Course Units</h1><p class="view-meta">4 Units · 16 Chapters · 572 Knowledge Points</p></div>
     </header>
     <section class="card-grid" aria-label="Course Units">${cards}</section>
+    ${reviewHomeMarkup()}
     <details class="study-tips"><summary>Study tips</summary><div class="summary-content">${course.howToHtml}</div></details>
     <div class="summary-link-row"><a class="text-link" href="#/summary">Open full course summary &rarr;</a></div>
   `);
+}
+
+function reviewMetadataFromSearch(entries) {
+  return new Map(entries.filter(entry => entry.type === "kp").map(entry => {
+    const match = entry.route.match(/^#\/unit\/(\d+)\/chapter\/([^/]+)\/kp\/(\d+)$/);
+    if (!match) return null;
+    return [entry.id, {
+      title: entry.title,
+      route: entry.route,
+      unitNumber: Number(match[1]),
+      chapterNumber: match[2]
+    }];
+  }).filter(Boolean));
+}
+
+function buildReviewEntries(state = loadReviewState()) {
+  const passed = loadQuizPassState();
+  return Object.entries(state.records).map(([kpId, record]) => {
+    const metadata = reviewMetadata.get(kpId);
+    const status = reviewStatusFor(record, Boolean(passed[kpId]));
+    return metadata && status ? { kpId, record, status, ...metadata } : null;
+  }).filter(Boolean).sort((left, right) => {
+    const priority = reviewStatusDetails[left.status].priority - reviewStatusDetails[right.status].priority;
+    return priority || Date.parse(right.record.lastAttemptAt) - Date.parse(left.record.lastAttemptAt);
+  });
+}
+
+function formatReviewDate(timestamp) {
+  return new Intl.DateTimeFormat("en-CA", { year: "numeric", month: "short", day: "numeric" }).format(new Date(timestamp));
+}
+
+function escapeAttribute(value) {
+  return value.replaceAll("&", "&amp;").replaceAll('"', "&quot;").replaceAll("<", "&lt;").replaceAll(">", "&gt;");
+}
+
+function reviewRowCopyMarkup(entry) {
+  const attempts = `${entry.record.totalAttempts} attempt${entry.record.totalAttempts === 1 ? "" : "s"}`;
+  return `
+    <p class="review-location">Unit ${entry.unitNumber} &middot; Chapter ${displayChapterNumber(entry.chapterNumber)}</p>
+    <h2>${entry.title}</h2>
+    <div class="review-row-meta">
+      <span class="review-status review-status-${entry.status}">${reviewStatusDetails[entry.status].label}</span>
+      <span>${attempts}</span>
+      <time datetime="${entry.record.lastAttemptAt}">Last activity ${formatReviewDate(entry.record.lastAttemptAt)}</time>
+    </div>
+  `;
+}
+
+function reviewRowMarkup(entry) {
+  return `
+    <li class="review-row" data-review-kp="${entry.kpId}" data-review-status="${entry.status}" data-review-unit="${entry.unitNumber}">
+      <div class="review-row-copy">${reviewRowCopyMarkup(entry)}</div>
+      <div class="review-actions">
+        <a class="button" href="${entry.route}">Continue learning</a>
+        <button class="button button-primary review-quiz-button" type="button" data-kp-id="${entry.kpId}" data-unit-number="${entry.unitNumber}" aria-label="Practice Quiz for ${escapeAttribute(entry.title)}">Practice Quiz</button>
+      </div>
+    </li>
+  `;
+}
+
+function matchesReviewFilters(entry) {
+  return (reviewFilters.unit === "all" || String(entry.unitNumber) === reviewFilters.unit)
+    && (reviewFilters.status === "all" || entry.status === reviewFilters.status);
+}
+
+function reviewCollectionMarkup() {
+  const state = loadReviewState();
+  const allEntries = buildReviewEntries(state);
+  const entries = allEntries.filter(matchesReviewFilters);
+  const recordedCount = Object.keys(state.records).length;
+  if (!recordedCount) {
+    return '<div class="review-empty"><h2>No Review history yet</h2><p>Complete a Quiz attempt and useful practice will appear here.</p></div>';
+  }
+  if (!allEntries.length) {
+    return '<div class="review-empty"><h2>Nothing needs review right now</h2><p>First-attempt passes stay completed without filling your Review list.</p></div>';
+  }
+  if (!entries.length) {
+    return '<div class="review-empty"><h2>No matching Review items</h2><p>Try another Unit or status filter.</p></div>';
+  }
+  const positive = actionableReviewCount(state) === 0
+    ? '<p class="review-positive">Nothing needs immediate review. Recent passes remain below for optional practice.</p>'
+    : "";
+  return `${positive}<ul class="review-list">${entries.map(reviewRowMarkup).join("")}</ul>`;
+}
+
+function updateReviewResults(announcement = "") {
+  const results = document.getElementById("reviewResults");
+  if (!results) return;
+  results.innerHTML = reviewCollectionMarkup();
+  const visible = results.querySelectorAll(".review-row").length;
+  const status = document.getElementById("reviewFilterStatus");
+  if (status) status.textContent = announcement || `${visible} Review item${visible === 1 ? "" : "s"} shown.`;
+}
+
+function bindReviewInteractions() {
+  const unitFilter = document.getElementById("reviewUnitFilter");
+  const statusFilter = document.getElementById("reviewStatusFilter");
+  const results = document.getElementById("reviewResults");
+  unitFilter.addEventListener("change", () => {
+    reviewFilters.unit = unitFilter.value;
+    updateReviewResults();
+  });
+  statusFilter.addEventListener("change", () => {
+    reviewFilters.status = statusFilter.value;
+    updateReviewResults();
+  });
+  results.addEventListener("click", event => {
+    const button = event.target.closest(".review-quiz-button");
+    if (!button) return;
+    quizModal.open(button.dataset.kpId, Number(button.dataset.unitNumber), button).catch(showError);
+  });
+}
+
+async function renderReview(version) {
+  showContextControls(false);
+  if (!searchData) searchData = await loadSearchIndex();
+  if (version !== renderVersion) return;
+  reviewMetadata = reviewMetadataFromSearch(searchData);
+  setView(`
+    ${breadcrumbs([{ label: "Home", href: "#/" }, { label: "Review & Practice" }])}
+    <header class="view-header">
+      <div><h1>Review &amp; Practice</h1><p class="view-meta">Return to Knowledge Points that would benefit from another look.</p></div>
+    </header>
+    <div class="review-controls" role="group" aria-label="Review filters">
+      <label>Unit
+        <select id="reviewUnitFilter">
+          <option value="all"${reviewFilters.unit === "all" ? " selected" : ""}>All Units</option>
+          ${course.units.map(unit => `<option value="${unit.number}"${reviewFilters.unit === String(unit.number) ? " selected" : ""}>Unit ${unit.number}</option>`).join("")}
+        </select>
+      </label>
+      <label>Status
+        <select id="reviewStatusFilter">
+          <option value="all"${reviewFilters.status === "all" ? " selected" : ""}>All review items</option>
+          <option value="needs-practice"${reviewFilters.status === REVIEW_STATUS.NEEDS_PRACTICE ? " selected" : ""}>Needs practice</option>
+          <option value="review-recommended"${reviewFilters.status === REVIEW_STATUS.REVIEW_RECOMMENDED ? " selected" : ""}>Review recommended</option>
+          <option value="recently-passed"${reviewFilters.status === REVIEW_STATUS.RECENTLY_PASSED ? " selected" : ""}>Recently passed</option>
+        </select>
+      </label>
+      <p id="reviewFilterStatus" class="review-filter-status" role="status" aria-live="polite"></p>
+    </div>
+    <div id="reviewResults"></div>
+  `);
+  bindReviewInteractions();
+  updateReviewResults();
+}
+
+function syncReviewSurface(kpId, state) {
+  const homeCount = document.getElementById("reviewActionCount");
+  if (homeCount) homeCount.textContent = String(actionableReviewCount(state));
+  if (currentRoute?.name !== "review") return;
+  const entry = buildReviewEntries(state).find(candidate => candidate.kpId === kpId);
+  const row = document.querySelector(`.review-row[data-review-kp="${kpId}"]`);
+  if (!entry || !row) {
+    updateReviewResults();
+    return;
+  }
+  row.dataset.reviewStatus = entry.status;
+  row.querySelector(".review-row-copy").innerHTML = reviewRowCopyMarkup(entry);
+  document.getElementById("reviewFilterStatus").textContent = `${entry.title} is now ${reviewStatusDetails[entry.status].label}.`;
 }
 
 function firstIncompleteChapter(unit) {
@@ -342,6 +537,7 @@ async function renderHash(hash) {
     if (currentRoute.name === "home") renderHome();
     else if (currentRoute.name === "unit") await renderUnit(currentRoute, version);
     else if (currentRoute.name === "chapter") await renderChapter(currentRoute, version);
+    else if (currentRoute.name === "review") await renderReview(version);
     else if (currentRoute.name === "summary") renderSummary();
     else renderNotFound();
   } catch (error) {

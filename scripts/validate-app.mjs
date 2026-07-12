@@ -17,6 +17,7 @@ const requiredFiles = [
   "package-lock.json",
   ".github/workflows/qa.yml",
   "tests/e2e/fixtures.js",
+  "tests/e2e/review-center.spec.js",
   "data/course-index.json",
   "data/search-index.json",
   "BCScienceConnections10_Full_Course_Master_Knowledge_Point_Checklist_Interactive_v2.html"
@@ -44,6 +45,7 @@ if (/<header class="hero">[\s\S]*?<h1[\s>]/.test(index)) fail("The persistent he
 if (!app.includes("loadSearchIndex")) fail("Global search is not wired to its lazy data loader.");
 if (!app.includes("loadQuizPassState")) fail("Progress is not based on the saved full-course Quiz state.");
 if (!router.includes("#chapter-") || !router.includes("#kp-")) fail("Legacy Chapter or KP anchors are not supported.");
+if (!router.includes('name: "review"') || !app.includes("renderReview")) fail("Review Center routing is not wired.");
 if (!storage.includes("BCScienceConnections10_Checklist_v2") || !storage.includes("BCScienceConnections10_QuizGate_v1")) fail("Existing localStorage keys were not preserved.");
 if (!reviewStorage.includes("BCScienceConnections10_Review_v1") || !reviewStorage.includes("schemaVersion")) fail("Versioned Review storage is missing.");
 if (!workflow.includes("cp -R assets js data public/")) fail("Pages workflow does not publish modular assets and data.");

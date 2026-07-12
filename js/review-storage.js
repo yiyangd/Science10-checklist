@@ -1,5 +1,10 @@
 export const REVIEW_STORAGE_KEY = "BCScienceConnections10_Review_v1";
 export const REVIEW_SCHEMA_VERSION = 1;
+export const REVIEW_STATUS = Object.freeze({
+  NEEDS_PRACTICE: "needs-practice",
+  REVIEW_RECOMMENDED: "review-recommended",
+  RECENTLY_PASSED: "recently-passed"
+});
 
 let memoryState = null;
 let persistenceBlocked = false;
@@ -112,6 +117,21 @@ export function loadReviewState() {
     memoryState = clone(state);
     return clone(state);
   }
+}
+
+export function reviewStatusFor(record, passed) {
+  if (!record) return null;
+  if (record.lastResult === "needs-practice") {
+    return passed ? REVIEW_STATUS.REVIEW_RECOMMENDED : REVIEW_STATUS.NEEDS_PRACTICE;
+  }
+  if (passed && record.lastResult === "passed" && record.nonPassingAttempts > 0) {
+    return REVIEW_STATUS.RECENTLY_PASSED;
+  }
+  return null;
+}
+
+export function actionableReviewCount(state = loadReviewState()) {
+  return Object.values(state.records).filter(record => record.lastResult === "needs-practice").length;
 }
 
 export function recordQuizAttempt({ kpId, score, questionCount }) {
