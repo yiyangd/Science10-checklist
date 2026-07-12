@@ -1,0 +1,1520 @@
+{
+  "id": "unit-4",
+  "number": 4,
+  "titleHtml": "Unit 4: The formation of the universe can be explained by the big bang theory",
+  "title": "Unit 4: The formation of the universe can be explained by the big bang theory",
+  "kpCount": 120,
+  "chapters": [
+    {
+      "id": "chapter-4-1",
+      "number": "4-1",
+      "titleHtml": "Chapter 4.1: What is the universe, and how do we make sense of it?",
+      "title": "Chapter 4.1: What is the universe, and how do we make sense of it?",
+      "kpCount": 17,
+      "concepts": [
+        {
+          "id": "4-1-concept-1-universe-is-understood-as-different-things-to-different-people-p-294-296",
+          "titleHtml": "4.1 Concept 1: “Universe” is understood as different things to different people — p.294–296",
+          "title": "4.1 Concept 1: “Universe” is understood as different things to different people — p.294–296",
+          "kps": [
+            {
+              "id": "kp-453",
+              "number": 453,
+              "displayNumber": 453,
+              "titleHtml": "KP1: Universe",
+              "title": "KP1: Universe",
+              "coreHtml": "The universe is all that exists everywhere, including matter, energy, planets, stars, galaxies, and the space containing them.",
+              "core": "The universe is all that exists everywhere, including matter, energy, planets, stars, galaxies, and the space containing them.",
+              "applicationHtml": "Use the term universe to describe the largest physical system being considered.",
+              "application": "Use the term universe to describe the largest physical system being considered."
+            },
+            {
+              "id": "kp-454",
+              "number": 454,
+              "displayNumber": 454,
+              "titleHtml": "KP2: Universe as a story",
+              "title": "KP2: Universe as a story",
+              "coreHtml": "Scientific explanations of the universe can be understood as stories built from observations, evidence, hypotheses, and theories.",
+              "core": "Scientific explanations of the universe can be understood as stories built from observations, evidence, hypotheses, and theories.",
+              "applicationHtml": "Connect sky observations to scientific and cultural ways of explaining the universe.",
+              "application": "Connect sky observations to scientific and cultural ways of explaining the universe."
+            },
+            {
+              "id": "kp-455",
+              "number": 455,
+              "displayNumber": 455,
+              "titleHtml": "KP3: Beginning of the universe",
+              "title": "KP3: Beginning of the universe",
+              "coreHtml": "A scientific story of the universe begins about 13.8 billion years ago.",
+              "core": "A scientific story of the universe begins about 13.8 billion years ago.",
+              "applicationHtml": "Recognize the big bang time scale as far beyond ordinary human experience.",
+              "application": "Recognize the big bang time scale as far beyond ordinary human experience."
+            },
+            {
+              "id": "kp-456",
+              "number": 456,
+              "displayNumber": 456,
+              "titleHtml": "KP4: Scale of the universe",
+              "title": "KP4: Scale of the universe",
+              "coreHtml": "The size and age of the universe are difficult to imagine because they involve extremely large numbers.",
+              "core": "The size and age of the universe are difficult to imagine because they involve extremely large numbers.",
+              "applicationHtml": "Use scale thinking when describing distances, ages, galaxies, and cosmic events.",
+              "application": "Use scale thinking when describing distances, ages, galaxies, and cosmic events."
+            },
+            {
+              "id": "kp-457",
+              "number": 457,
+              "displayNumber": 457,
+              "titleHtml": "KP5: Changing scientific understanding",
+              "title": "KP5: Changing scientific understanding",
+              "coreHtml": "Scientific understanding of the universe changes over time as evidence and interpretation improve.",
+              "core": "Scientific understanding of the universe changes over time as evidence and interpretation improve.",
+              "applicationHtml": "Explain why the Milky Way was once thought to be the whole universe, but is now understood as one galaxy among billions.",
+              "application": "Explain why the Milky Way was once thought to be the whole universe, but is now understood as one galaxy among billions."
+            },
+            {
+              "id": "kp-458",
+              "number": 458,
+              "displayNumber": 458,
+              "titleHtml": "KP6: Relative meaning of “all that exists”",
+              "title": "KP6: Relative meaning of “all that exists”",
+              "coreHtml": "The meaning of “all that exists” depends on what people know, where they live, and when they live.",
+              "core": "The meaning of “all that exists” depends on what people know, where they live, and when they live.",
+              "applicationHtml": "Compare how different people may define the universe based on different experiences and knowledge.",
+              "application": "Compare how different people may define the universe based on different experiences and knowledge."
+            },
+            {
+              "id": "kp-459",
+              "number": 459,
+              "displayNumber": 459,
+              "titleHtml": "KP7: Place and perspective",
+              "title": "KP7: Place and perspective",
+              "coreHtml": "A person’s sense of place can shape what they understand as their world or universe.",
+              "core": "A person’s sense of place can shape what they understand as their world or universe.",
+              "applicationHtml": "Use the Ngorongoro Crater example to explain how limited or expanded perspective can change understanding.",
+              "application": "Use the Ngorongoro Crater example to explain how limited or expanded perspective can change understanding."
+            }
+          ]
+        },
+        {
+          "id": "4-1-concept-2-the-sense-we-make-of-the-universe-depends-on-who-we-are-when-we-are-and-what-we-know-p-297",
+          "titleHtml": "4.1 Concept 2: The sense we make of the universe depends on who we are, when we are, and what we know — p.297",
+          "title": "4.1 Concept 2: The sense we make of the universe depends on who we are, when we are, and what we know — p.297",
+          "kps": [
+            {
+              "id": "kp-460",
+              "number": 460,
+              "displayNumber": 460,
+              "titleHtml": "KP1: Context shapes understanding",
+              "title": "KP1: Context shapes understanding",
+              "coreHtml": "A person’s understanding of the universe is shaped by identity, time period, place, knowledge, and experience.",
+              "core": "A person’s understanding of the universe is shaped by identity, time period, place, knowledge, and experience.",
+              "applicationHtml": "Explain why people in different cultures or historical periods may interpret the universe differently.",
+              "application": "Explain why people in different cultures or historical periods may interpret the universe differently."
+            },
+            {
+              "id": "kp-461",
+              "number": 461,
+              "displayNumber": 461,
+              "titleHtml": "KP2: Technology and worldview",
+              "title": "KP2: Technology and worldview",
+              "coreHtml": "Technologies available in a time period affect how people communicate, observe, and understand the world.",
+              "core": "Technologies available in a time period affect how people communicate, observe, and understand the world.",
+              "applicationHtml": "Compare communication technologies from different eras to show how knowledge and daily life change.",
+              "application": "Compare communication technologies from different eras to show how knowledge and daily life change."
+            },
+            {
+              "id": "kp-462",
+              "number": 462,
+              "displayNumber": 462,
+              "titleHtml": "KP3: Culture shock",
+              "title": "KP3: Culture shock",
+              "coreHtml": "Culture shock is anxiety or disorientation caused by entering a dramatically new social or cultural situation.",
+              "core": "Culture shock is anxiety or disorientation caused by entering a dramatically new social or cultural situation.",
+              "applicationHtml": "Use culture shock to explain why people from different times or places may misunderstand each other’s knowledge and assumptions.",
+              "application": "Use culture shock to explain why people from different times or places may misunderstand each other’s knowledge and assumptions."
+            },
+            {
+              "id": "kp-463",
+              "number": 463,
+              "displayNumber": 463,
+              "titleHtml": "KP4: Time and place",
+              "title": "KP4: Time and place",
+              "coreHtml": "When and where a person lives affect what they think, believe, and understand.",
+              "core": "When and where a person lives affect what they think, believe, and understand.",
+              "applicationHtml": "Reflect on how historical period and location influence explanations of the universe.",
+              "application": "Reflect on how historical period and location influence explanations of the universe."
+            },
+            {
+              "id": "kp-464",
+              "number": 464,
+              "displayNumber": 464,
+              "titleHtml": "KP5: Assumptions and bias",
+              "title": "KP5: Assumptions and bias",
+              "coreHtml": "Ideas about the universe can be influenced by assumptions, bias, and limited perspective.",
+              "core": "Ideas about the universe can be influenced by assumptions, bias, and limited perspective.",
+              "applicationHtml": "Question whether a view of the universe is based on evidence, tradition, culture, or personal experience.",
+              "application": "Question whether a view of the universe is based on evidence, tradition, culture, or personal experience."
+            },
+            {
+              "id": "kp-465",
+              "number": 465,
+              "displayNumber": 465,
+              "titleHtml": "KP6: Multiple ways of knowing",
+              "title": "KP6: Multiple ways of knowing",
+              "coreHtml": "Scientific understanding can be considered alongside First Peoples perspectives, local knowledge, and other ways of knowing.",
+              "core": "Scientific understanding can be considered alongside First Peoples perspectives, local knowledge, and other ways of knowing.",
+              "applicationHtml": "Compare different knowledge systems respectfully when exploring the universe and human place within it.",
+              "application": "Compare different knowledge systems respectfully when exploring the universe and human place within it."
+            }
+          ]
+        },
+        {
+          "id": "optional-extension-make-a-difference-take-action-what-should-we-do-about-light-pollution-p-298",
+          "titleHtml": "Optional Extension — Make a Difference: Take Action — What should we do about light pollution? — p.298",
+          "title": "Optional Extension — Make a Difference: Take Action — What should we do about light pollution? — p.298",
+          "kps": [
+            {
+              "id": "kp-466",
+              "number": 466,
+              "displayNumber": 466,
+              "titleHtml": "KP1: Light pollution",
+              "title": "KP1: Light pollution",
+              "coreHtml": "Light pollution is artificial night lighting that prevents many people from seeing stars and the Milky Way.",
+              "core": "Light pollution is artificial night lighting that prevents many people from seeing stars and the Milky Way.",
+              "applicationHtml": "Connect urban lighting to reduced sky visibility.",
+              "application": "Connect urban lighting to reduced sky visibility."
+            },
+            {
+              "id": "kp-467",
+              "number": 467,
+              "displayNumber": 467,
+              "titleHtml": "KP2: Benefits of night lighting",
+              "title": "KP2: Benefits of night lighting",
+              "coreHtml": "Night lighting can improve safety and allow people to work, shop, and move after dark.",
+              "core": "Night lighting can improve safety and allow people to work, shop, and move after dark.",
+              "applicationHtml": "Weigh the benefits of lighting against environmental and astronomical costs.",
+              "application": "Weigh the benefits of lighting against environmental and astronomical costs."
+            },
+            {
+              "id": "kp-468",
+              "number": 468,
+              "displayNumber": 468,
+              "titleHtml": "KP3: Effects on living things",
+              "title": "KP3: Effects on living things",
+              "coreHtml": "Light pollution can disrupt sleeping, feeding, migration, and breeding cycles.",
+              "core": "Light pollution can disrupt sleeping, feeding, migration, and breeding cycles.",
+              "applicationHtml": "Explain how birds and sea turtles can be harmed by artificial light at night.",
+              "application": "Explain how birds and sea turtles can be harmed by artificial light at night."
+            },
+            {
+              "id": "kp-469",
+              "number": 469,
+              "displayNumber": 469,
+              "titleHtml": "KP4: Evidence-based response",
+              "title": "KP4: Evidence-based response",
+              "coreHtml": "Responses to light pollution should consider affected groups, proposed solutions, and the effectiveness of those solutions.",
+              "core": "Responses to light pollution should consider affected groups, proposed solutions, and the effectiveness of those solutions.",
+              "applicationHtml": "Build an argument about whether and how communities should reduce light pollution.",
+              "application": "Build an argument about whether and how communities should reduce light pollution."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chapter-4-2",
+      "number": "4-2",
+      "titleHtml": "Chapter 4.2: What do we know about the universe based on what we can see only with our eyes?",
+      "title": "Chapter 4.2: What do we know about the universe based on what we can see only with our eyes?",
+      "kpCount": 28,
+      "concepts": [
+        {
+          "id": "4-2-concept-1-we-see-a-variety-of-objects-that-appear-in-the-sky-in-mostly-predictable-ways-p-302-305",
+          "titleHtml": "4.2 Concept 1: We see a variety of objects that appear in the sky in mostly predictable ways — p.302–305",
+          "title": "4.2 Concept 1: We see a variety of objects that appear in the sky in mostly predictable ways — p.302–305",
+          "kps": [
+            {
+              "id": "kp-470",
+              "number": 470,
+              "displayNumber": 470,
+              "titleHtml": "KP1: Unaided-eye astronomy",
+              "title": "KP1: Unaided-eye astronomy",
+              "coreHtml": "Before telescopes, people observed mostly the same sky objects that can still be seen with the unaided eye.",
+              "core": "Before telescopes, people observed mostly the same sky objects that can still be seen with the unaided eye.",
+              "applicationHtml": "Distinguish observations possible with eyes alone from observations requiring technology.",
+              "application": "Distinguish observations possible with eyes alone from observations requiring technology."
+            },
+            {
+              "id": "kp-471",
+              "number": 471,
+              "displayNumber": 471,
+              "titleHtml": "KP2: The Sun",
+              "title": "KP2: The Sun",
+              "coreHtml": "The Sun is the most obvious daytime sky object and appears to follow a predictable path across the sky.",
+              "core": "The Sun is the most obvious daytime sky object and appears to follow a predictable path across the sky.",
+              "applicationHtml": "Use the Sun’s apparent motion to connect sky observations with time, seasons, and direction.",
+              "application": "Use the Sun’s apparent motion to connect sky observations with time, seasons, and direction."
+            },
+            {
+              "id": "kp-472",
+              "number": 472,
+              "displayNumber": 472,
+              "titleHtml": "KP3: The Moon",
+              "title": "KP3: The Moon",
+              "coreHtml": "Earth’s Moon is the only moon visible to the unaided eye and changes appearance from night to night.",
+              "core": "Earth’s Moon is the only moon visible to the unaided eye and changes appearance from night to night.",
+              "applicationHtml": "Use Moon phases and movement patterns to explain how people observed time cycles.",
+              "application": "Use Moon phases and movement patterns to explain how people observed time cycles."
+            },
+            {
+              "id": "kp-473",
+              "number": 473,
+              "displayNumber": 473,
+              "titleHtml": "KP4: Stars",
+              "title": "KP4: Stars",
+              "coreHtml": "On a clear, dark night, thousands of stars may be visible, differing in brightness, colour, location, and apparent motion.",
+              "core": "On a clear, dark night, thousands of stars may be visible, differing in brightness, colour, location, and apparent motion.",
+              "applicationHtml": "Observe star patterns and motion to identify regular sky changes.",
+              "application": "Observe star patterns and motion to identify regular sky changes."
+            },
+            {
+              "id": "kp-474",
+              "number": 474,
+              "displayNumber": 474,
+              "titleHtml": "KP5: Visible planets",
+              "title": "KP5: Visible planets",
+              "coreHtml": "Mercury, Venus, Mars, Jupiter, and Saturn can be seen without a telescope.",
+              "core": "Mercury, Venus, Mars, Jupiter, and Saturn can be seen without a telescope.",
+              "applicationHtml": "Distinguish planets from stars by noticing their wandering motion against background stars.",
+              "application": "Distinguish planets from stars by noticing their wandering motion against background stars."
+            },
+            {
+              "id": "kp-475",
+              "number": 475,
+              "displayNumber": 475,
+              "titleHtml": "KP6: Other visible sky objects and events",
+              "title": "KP6: Other visible sky objects and events",
+              "coreHtml": "Comets, meteors, novas, supernovas, and the Milky Way can also be visible without telescopes.",
+              "core": "Comets, meteors, novas, supernovas, and the Milky Way can also be visible without telescopes.",
+              "applicationHtml": "Classify visible sky objects as regular, temporary, or unusual events.",
+              "application": "Classify visible sky objects as regular, temporary, or unusual events."
+            },
+            {
+              "id": "kp-476",
+              "number": 476,
+              "displayNumber": 476,
+              "titleHtml": "KP7: Place and sky observation",
+              "title": "KP7: Place and sky observation",
+              "coreHtml": "What people see in the sky depends on place, elevation, horizon, season, and local conditions.",
+              "core": "What people see in the sky depends on place, elevation, horizon, season, and local conditions.",
+              "applicationHtml": "Compare sky observations from different locations and explain why visible objects may differ.",
+              "application": "Compare sky observations from different locations and explain why visible objects may differ."
+            }
+          ]
+        },
+        {
+          "id": "4-2-concept-2-the-appearance-and-motions-of-the-objects-we-see-can-be-described-using-a-model-called-the-celestial-sphere-p-306-312",
+          "titleHtml": "4.2 Concept 2: The appearance and motions of the objects we see can be described using a model called the celestial sphere — p.306–312",
+          "title": "4.2 Concept 2: The appearance and motions of the objects we see can be described using a model called the celestial sphere — p.306–312",
+          "kps": [
+            {
+              "id": "kp-477",
+              "number": 477,
+              "displayNumber": 477,
+              "titleHtml": "KP1: Constellations",
+              "title": "KP1: Constellations",
+              "coreHtml": "A constellation is a group of stars that forms a pattern in the sky.",
+              "core": "A constellation is a group of stars that forms a pattern in the sky.",
+              "applicationHtml": "Compare how different cultures may connect the same stars into different stories and shapes.",
+              "application": "Compare how different cultures may connect the same stars into different stories and shapes."
+            },
+            {
+              "id": "kp-478",
+              "number": 478,
+              "displayNumber": 478,
+              "titleHtml": "KP2: Asterisms and pointer stars",
+              "title": "KP2: Asterisms and pointer stars",
+              "coreHtml": "An asterism is a smaller star pattern within or across constellations; the Big Dipper is an asterism with pointer stars.",
+              "core": "An asterism is a smaller star pattern within or across constellations; the Big Dipper is an asterism with pointer stars.",
+              "applicationHtml": "Use the Big Dipper’s pointer stars to locate Polaris, the North Star.",
+              "application": "Use the Big Dipper’s pointer stars to locate Polaris, the North Star."
+            },
+            {
+              "id": "kp-479",
+              "number": 479,
+              "displayNumber": 479,
+              "titleHtml": "KP3: Polaris and navigation",
+              "title": "KP3: Polaris and navigation",
+              "coreHtml": "Polaris is close to the North Celestial Pole and appears nearly fixed in the northern sky.",
+              "core": "Polaris is close to the North Celestial Pole and appears nearly fixed in the northern sky.",
+              "applicationHtml": "Use Polaris to determine direction in the northern hemisphere.",
+              "application": "Use Polaris to determine direction in the northern hemisphere."
+            },
+            {
+              "id": "kp-480",
+              "number": 480,
+              "displayNumber": 480,
+              "titleHtml": "KP4: Celestial sphere",
+              "title": "KP4: Celestial sphere",
+              "coreHtml": "The celestial sphere is an imaginary rotating sphere on which all visible sky objects appear to lie.",
+              "core": "The celestial sphere is an imaginary rotating sphere on which all visible sky objects appear to lie.",
+              "applicationHtml": "Use the celestial sphere model to describe apparent sky motion while remembering that Earth rotates.",
+              "application": "Use the celestial sphere model to describe apparent sky motion while remembering that Earth rotates."
+            },
+            {
+              "id": "kp-481",
+              "number": 481,
+              "displayNumber": 481,
+              "titleHtml": "KP5: Celestial equator and celestial poles",
+              "title": "KP5: Celestial equator and celestial poles",
+              "coreHtml": "The celestial equator is Earth’s equator projected into space; the celestial poles are where Earth’s axis extends onto the celestial sphere.",
+              "core": "The celestial equator is Earth’s equator projected into space; the celestial poles are where Earth’s axis extends onto the celestial sphere.",
+              "applicationHtml": "Explain why some constellations visible from Canada never set, while others never rise above the horizon.",
+              "application": "Explain why some constellations visible from Canada never set, while others never rise above the horizon."
+            },
+            {
+              "id": "kp-482",
+              "number": 482,
+              "displayNumber": 482,
+              "titleHtml": "KP6: Ecliptic and planetary motion",
+              "title": "KP6: Ecliptic and planetary motion",
+              "coreHtml": "The ecliptic is the Sun’s apparent path across the celestial sphere, caused by Earth’s orbit around the Sun.",
+              "core": "The ecliptic is the Sun’s apparent path across the celestial sphere, caused by Earth’s orbit around the Sun.",
+              "applicationHtml": "Connect the Sun, Moon, and planets to the same apparent sky path and explain seasonal visibility.",
+              "application": "Connect the Sun, Moon, and planets to the same apparent sky path and explain seasonal visibility."
+            },
+            {
+              "id": "kp-483",
+              "number": 483,
+              "displayNumber": 483,
+              "titleHtml": "KP7: Retrograde motion",
+              "title": "KP7: Retrograde motion",
+              "coreHtml": "Retrograde motion is the apparent backward motion of a planet against background stars, caused by Earth passing an outer planet in its orbit.",
+              "core": "Retrograde motion is the apparent backward motion of a planet against background stars, caused by Earth passing an outer planet in its orbit.",
+              "applicationHtml": "Explain why Mars can seem to slow, stop, reverse, and then move forward again.",
+              "application": "Explain why Mars can seem to slow, stop, reverse, and then move forward again."
+            },
+            {
+              "id": "kp-484",
+              "number": 484,
+              "displayNumber": 484,
+              "titleHtml": "KP8: Azimuth and altitude",
+              "title": "KP8: Azimuth and altitude",
+              "coreHtml": "Azimuth measures direction along the horizon from north; altitude measures angular height above the horizon.",
+              "core": "Azimuth measures direction along the horizon from north; altitude measures angular height above the horizon.",
+              "applicationHtml": "Describe a sky object’s position using observer-based coordinates.",
+              "application": "Describe a sky object’s position using observer-based coordinates."
+            },
+            {
+              "id": "kp-485",
+              "number": 485,
+              "displayNumber": 485,
+              "titleHtml": "KP9: Hand-angle estimates",
+              "title": "KP9: Hand-angle estimates",
+              "coreHtml": "At arm’s length, one finger is about \\(1^\\circ\\), one fist is about \\(10^\\circ\\), and an open hand span is about \\(20^\\circ\\).",
+              "core": "At arm’s length, one finger is about \\(1 \\), one fist is about \\(10 \\), and an open hand span is about \\(20 \\).",
+              "applicationHtml": "Estimate the altitude and azimuth of the Moon, planets, or stars from a specific location.",
+              "application": "Estimate the altitude and azimuth of the Moon, planets, or stars from a specific location."
+            }
+          ]
+        },
+        {
+          "id": "optional-extension-at-issue-ursa-major-how-many-stories-over-time-and-space-p-314-315",
+          "titleHtml": "Optional Extension — At Issue: Ursa Major: How many stories over time and space? — p.314–315",
+          "title": "Optional Extension — At Issue: Ursa Major: How many stories over time and space? — p.314–315",
+          "kps": [
+            {
+              "id": "kp-486",
+              "number": 486,
+              "displayNumber": 486,
+              "titleHtml": "KP1: Ursa Major across cultures",
+              "title": "KP1: Ursa Major across cultures",
+              "coreHtml": "The same star pattern has been interpreted differently across cultures and historical periods.",
+              "core": "The same star pattern has been interpreted differently across cultures and historical periods.",
+              "applicationHtml": "Compare Ursa Major stories from Greek, First Peoples, African, Arabic, Chinese, and Indian traditions.",
+              "application": "Compare Ursa Major stories from Greek, First Peoples, African, Arabic, Chinese, and Indian traditions."
+            },
+            {
+              "id": "kp-487",
+              "number": 487,
+              "displayNumber": 487,
+              "titleHtml": "KP2: Big Dipper and cultural meaning",
+              "title": "KP2: Big Dipper and cultural meaning",
+              "coreHtml": "The Big Dipper can be understood as part of Ursa Major, a drinking gourd, a coffin, a celestial empire, or seven sages.",
+              "core": "The Big Dipper can be understood as part of Ursa Major, a drinking gourd, a coffin, a celestial empire, or seven sages.",
+              "applicationHtml": "Explain how culture shapes meaning in sky patterns.",
+              "application": "Explain how culture shapes meaning in sky patterns."
+            },
+            {
+              "id": "kp-488",
+              "number": 488,
+              "displayNumber": 488,
+              "titleHtml": "KP3: Sky stories and navigation",
+              "title": "KP3: Sky stories and navigation",
+              "coreHtml": "Star stories can preserve practical knowledge about direction, seasons, and survival.",
+              "core": "Star stories can preserve practical knowledge about direction, seasons, and survival.",
+              "applicationHtml": "Connect the Big Dipper and Polaris to navigation and cultural memory.",
+              "application": "Connect the Big Dipper and Polaris to navigation and cultural memory."
+            },
+            {
+              "id": "kp-489",
+              "number": 489,
+              "displayNumber": 489,
+              "titleHtml": "KP4: Astronomy and shared knowledge",
+              "title": "KP4: Astronomy and shared knowledge",
+              "coreHtml": "Star names and sky traditions reflect contributions from many peoples, including astronomers of the Islamic world.",
+              "core": "Star names and sky traditions reflect contributions from many peoples, including astronomers of the Islamic world.",
+              "applicationHtml": "Recognize astronomy as a shared human knowledge system shaped by many cultures.",
+              "application": "Recognize astronomy as a shared human knowledge system shaped by many cultures."
+            }
+          ]
+        },
+        {
+          "id": "optional-investigation-investigation-4-a-using-a-star-map-p-316-317",
+          "titleHtml": "Optional Investigation — Investigation 4-A: Using a Star Map — p.316–317",
+          "title": "Optional Investigation — Investigation 4-A: Using a Star Map — p.316–317",
+          "kps": [
+            {
+              "id": "kp-490",
+              "number": 490,
+              "displayNumber": 490,
+              "titleHtml": "KP1: Star maps",
+              "title": "KP1: Star maps",
+              "coreHtml": "A star map shows constellations and bright stars visible at a certain time of year and from a specific hemisphere or latitude range.",
+              "core": "A star map shows constellations and bright stars visible at a certain time of year and from a specific hemisphere or latitude range.",
+              "applicationHtml": "Use a northern hemisphere star map to identify constellations visible from Canada.",
+              "application": "Use a northern hemisphere star map to identify constellations visible from Canada."
+            },
+            {
+              "id": "kp-491",
+              "number": 491,
+              "displayNumber": 491,
+              "titleHtml": "KP2: Big Dipper as a guide",
+              "title": "KP2: Big Dipper as a guide",
+              "coreHtml": "The Big Dipper’s pointer stars can help locate Polaris and other constellations.",
+              "core": "The Big Dipper’s pointer stars can help locate Polaris and other constellations.",
+              "applicationHtml": "Use the Big Dipper to find the Little Dipper, Cassiopeia, Boötes, and Leo.",
+              "application": "Use the Big Dipper to find the Little Dipper, Cassiopeia, Boötes, and Leo."
+            },
+            {
+              "id": "kp-492",
+              "number": 492,
+              "displayNumber": 492,
+              "titleHtml": "KP3: Seasonal constellations",
+              "title": "KP3: Seasonal constellations",
+              "coreHtml": "Different constellations are visible during different seasons.",
+              "core": "Different constellations are visible during different seasons.",
+              "applicationHtml": "Use a star map to identify constellations visible in each season.",
+              "application": "Use a star map to identify constellations visible in each season."
+            },
+            {
+              "id": "kp-493",
+              "number": 493,
+              "displayNumber": 493,
+              "titleHtml": "KP4: Zodiac constellations",
+              "title": "KP4: Zodiac constellations",
+              "coreHtml": "Zodiac constellations are visible during specific months and are along the path where planets can appear.",
+              "core": "Zodiac constellations are visible during specific months and are along the path where planets can appear.",
+              "applicationHtml": "Locate zodiac constellations such as Leo, Virgo, Scorpius, Taurus, Gemini, and Cancer.",
+              "application": "Locate zodiac constellations such as Leo, Virgo, Scorpius, Taurus, Gemini, and Cancer."
+            }
+          ]
+        },
+        {
+          "id": "optional-investigation-investigation-4-b-modelling-motion-in-the-night-sky-p-318-319",
+          "titleHtml": "Optional Investigation — Investigation 4-B: Modelling Motion in the Night Sky — p.318–319",
+          "title": "Optional Investigation — Investigation 4-B: Modelling Motion in the Night Sky — p.318–319",
+          "kps": [
+            {
+              "id": "kp-494",
+              "number": 494,
+              "displayNumber": 494,
+              "titleHtml": "KP1: Planisphere",
+              "title": "KP1: Planisphere",
+              "coreHtml": "A planisphere is a rotating star-map device used to predict visible constellations at a location and time.",
+              "core": "A planisphere is a rotating star-map device used to predict visible constellations at a location and time.",
+              "applicationHtml": "Use date and time settings to identify which constellations are visible.",
+              "application": "Use date and time settings to identify which constellations are visible."
+            },
+            {
+              "id": "kp-495",
+              "number": 495,
+              "displayNumber": 495,
+              "titleHtml": "KP2: Apparent star motion",
+              "title": "KP2: Apparent star motion",
+              "coreHtml": "Stars appear to move because Earth rotates on its axis and revolves around the Sun.",
+              "core": "Stars appear to move because Earth rotates on its axis and revolves around the Sun.",
+              "applicationHtml": "Explain why constellations appear to rotate around Polaris.",
+              "application": "Explain why constellations appear to rotate around Polaris."
+            },
+            {
+              "id": "kp-496",
+              "number": 496,
+              "displayNumber": 496,
+              "titleHtml": "KP3: Predictable sky patterns",
+              "title": "KP3: Predictable sky patterns",
+              "coreHtml": "Careful observation allows scientists to model and predict the positions of celestial objects.",
+              "core": "Careful observation allows scientists to model and predict the positions of celestial objects.",
+              "applicationHtml": "Use a model to compare visible constellations at different dates and times.",
+              "application": "Use a model to compare visible constellations at different dates and times."
+            },
+            {
+              "id": "kp-497",
+              "number": 497,
+              "displayNumber": 497,
+              "titleHtml": "KP4: Model limitations",
+              "title": "KP4: Model limitations",
+              "coreHtml": "A planisphere simplifies the sky and is designed for particular locations and latitude ranges.",
+              "core": "A planisphere simplifies the sky and is designed for particular locations and latitude ranges.",
+              "applicationHtml": "Evaluate when a planisphere is useful and when it may be inaccurate.",
+              "application": "Evaluate when a planisphere is useful and when it may be inaccurate."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chapter-4-3",
+      "number": "4-3",
+      "titleHtml": "Chapter 4.3: How has technology expanded our knowledge and understanding of the universe?",
+      "title": "Chapter 4.3: How has technology expanded our knowledge and understanding of the universe?",
+      "kpCount": 44,
+      "concepts": [
+        {
+          "id": "4-3-concept-1-we-have-invented-telescopes-and-other-devices-that-extend-and-enhance-our-sense-of-sight-p-322-323",
+          "titleHtml": "4.3 Concept 1: We have invented telescopes and other devices that extend and enhance our sense of sight — p.322–323",
+          "title": "4.3 Concept 1: We have invented telescopes and other devices that extend and enhance our sense of sight — p.322–323",
+          "kps": [
+            {
+              "id": "kp-498",
+              "number": 498,
+              "displayNumber": 498,
+              "titleHtml": "KP1: Limits of human vision",
+              "title": "KP1: Limits of human vision",
+              "coreHtml": "Human eyes detect only visible light, so technology is needed to collect more light and detect other forms of radiation.",
+              "core": "Human eyes detect only visible light, so technology is needed to collect more light and detect other forms of radiation.",
+              "applicationHtml": "Explain why unaided-eye observations give only part of the information available from space.",
+              "application": "Explain why unaided-eye observations give only part of the information available from space."
+            },
+            {
+              "id": "kp-499",
+              "number": 499,
+              "displayNumber": 499,
+              "titleHtml": "KP2: Optical telescopes",
+              "title": "KP2: Optical telescopes",
+              "coreHtml": "Optical telescopes collect visible light over a large area and concentrate it to form a brighter image.",
+              "core": "Optical telescopes collect visible light over a large area and concentrate it to form a brighter image.",
+              "applicationHtml": "Explain how Galileo’s telescope allowed new observations such as Jupiter’s moons and Saturn’s rings.",
+              "application": "Explain how Galileo’s telescope allowed new observations such as Jupiter’s moons and Saturn’s rings."
+            },
+            {
+              "id": "kp-500",
+              "number": 500,
+              "displayNumber": 500,
+              "titleHtml": "KP3: Electromagnetic radiation from space",
+              "title": "KP3: Electromagnetic radiation from space",
+              "coreHtml": "Visible light is only one form of electromagnetic radiation given off by stars and other objects in space.",
+              "core": "Visible light is only one form of electromagnetic radiation given off by stars and other objects in space.",
+              "applicationHtml": "Recognize that radio waves, infrared, ultraviolet, X-rays, and gamma rays can also carry information about space.",
+              "application": "Recognize that radio waves, infrared, ultraviolet, X-rays, and gamma rays can also carry information about space."
+            },
+            {
+              "id": "kp-501",
+              "number": 501,
+              "displayNumber": 501,
+              "titleHtml": "KP4: Radio telescopes",
+              "title": "KP4: Radio telescopes",
+              "coreHtml": "Radio telescopes detect radio waves, including long-wavelength radio waves that can pass through clouds.",
+              "core": "Radio telescopes detect radio waves, including long-wavelength radio waves that can pass through clouds.",
+              "applicationHtml": "Explain why radio telescopes can observe space on cloudy days and at night.",
+              "application": "Explain why radio telescopes can observe space on cloudy days and at night."
+            },
+            {
+              "id": "kp-502",
+              "number": 502,
+              "displayNumber": 502,
+              "titleHtml": "KP5: Atmospheric absorption",
+              "title": "KP5: Atmospheric absorption",
+              "coreHtml": "Earth’s atmosphere absorbs much of the radiation coming from space before it reaches the surface.",
+              "core": "Earth’s atmosphere absorbs much of the radiation coming from space before it reaches the surface.",
+              "applicationHtml": "Explain why some telescopes must be placed above the atmosphere.",
+              "application": "Explain why some telescopes must be placed above the atmosphere."
+            },
+            {
+              "id": "kp-503",
+              "number": 503,
+              "displayNumber": 503,
+              "titleHtml": "KP6: Space telescopes",
+              "title": "KP6: Space telescopes",
+              "coreHtml": "Space telescopes observe radiation that is partly or fully blocked by Earth’s atmosphere.",
+              "core": "Space telescopes observe radiation that is partly or fully blocked by Earth’s atmosphere.",
+              "applicationHtml": "Connect Chandra, Spitzer, and Hubble to observations using X-ray, infrared, visible, or ultraviolet radiation.",
+              "application": "Connect Chandra, Spitzer, and Hubble to observations using X-ray, infrared, visible, or ultraviolet radiation."
+            },
+            {
+              "id": "kp-504",
+              "number": 504,
+              "displayNumber": 504,
+              "titleHtml": "KP7: Multi-wavelength astronomy",
+              "title": "KP7: Multi-wavelength astronomy",
+              "coreHtml": "Viewing the same object in different wavelengths reveals different physical features.",
+              "core": "Viewing the same object in different wavelengths reveals different physical features.",
+              "applicationHtml": "Use Saturn images in visible, ultraviolet, infrared, and radio wavelengths to show how technology expands understanding.",
+              "application": "Use Saturn images in visible, ultraviolet, infrared, and radio wavelengths to show how technology expands understanding."
+            }
+          ]
+        },
+        {
+          "id": "4-3-concept-2-we-know-that-our-milky-way-galaxy-is-just-one-of-many-billions-of-galaxies-in-the-universe-p-326-332",
+          "titleHtml": "4.3 Concept 2: We know that our Milky Way galaxy is just one of many billions of galaxies in the universe — p.326–332",
+          "title": "4.3 Concept 2: We know that our Milky Way galaxy is just one of many billions of galaxies in the universe — p.326–332",
+          "kps": [
+            {
+              "id": "kp-505",
+              "number": 505,
+              "displayNumber": 505,
+              "titleHtml": "KP1: Galaxy",
+              "title": "KP1: Galaxy",
+              "coreHtml": "A galaxy is a collection of many billions of stars, plus gas and dust, held together by gravity.",
+              "core": "A galaxy is a collection of many billions of stars, plus gas and dust, held together by gravity.",
+              "applicationHtml": "Identify the Milky Way as the galaxy that contains the Sun and all stars visible in the night sky.",
+              "application": "Identify the Milky Way as the galaxy that contains the Sun and all stars visible in the night sky."
+            },
+            {
+              "id": "kp-506",
+              "number": 506,
+              "displayNumber": 506,
+              "titleHtml": "KP2: Discovery of the Milky Way’s nature",
+              "title": "KP2: Discovery of the Milky Way’s nature",
+              "coreHtml": "Telescopes helped show that the hazy Milky Way band is made of individual stars.",
+              "core": "Telescopes helped show that the hazy Milky Way band is made of individual stars.",
+              "applicationHtml": "Connect Galileo, William Herschel, and Caroline Herschel to changing understanding of the Milky Way.",
+              "application": "Connect Galileo, William Herschel, and Caroline Herschel to changing understanding of the Milky Way."
+            },
+            {
+              "id": "kp-507",
+              "number": 507,
+              "displayNumber": 507,
+              "titleHtml": "KP3: Galaxy formation and structure",
+              "title": "KP3: Galaxy formation and structure",
+              "coreHtml": "A galaxy forms when gravity causes a large, slowly spinning cloud of gas, dust, and stars to contract.",
+              "core": "A galaxy forms when gravity causes a large, slowly spinning cloud of gas, dust, and stars to contract.",
+              "applicationHtml": "Explain why gravity is central to the formation and structure of galaxies.",
+              "application": "Explain why gravity is central to the formation and structure of galaxies."
+            },
+            {
+              "id": "kp-508",
+              "number": 508,
+              "displayNumber": 508,
+              "titleHtml": "KP4: Galaxy types",
+              "title": "KP4: Galaxy types",
+              "coreHtml": "Galaxies can be classified as elliptical, spiral, barred spiral, or irregular based on shape.",
+              "core": "Galaxies can be classified as elliptical, spiral, barred spiral, or irregular based on shape.",
+              "applicationHtml": "Compare galaxy types using features such as central bulge, spiral arms, gas, dust, and young stars.",
+              "application": "Compare galaxy types using features such as central bulge, spiral arms, gas, dust, and young stars."
+            },
+            {
+              "id": "kp-509",
+              "number": 509,
+              "displayNumber": 509,
+              "titleHtml": "KP5: Observation angle and classification limits",
+              "title": "KP5: Observation angle and classification limits",
+              "coreHtml": "Galaxy classification can be difficult because galaxies may be blocked by gas, dust, other objects, or viewing angle.",
+              "core": "Galaxy classification can be difficult because galaxies may be blocked by gas, dust, other objects, or viewing angle.",
+              "applicationHtml": "Explain why the same galaxy may appear different depending on how it is observed.",
+              "application": "Explain why the same galaxy may appear different depending on how it is observed."
+            },
+            {
+              "id": "kp-510",
+              "number": 510,
+              "displayNumber": 510,
+              "titleHtml": "KP6: Star clusters and Milky Way mapping",
+              "title": "KP6: Star clusters and Milky Way mapping",
+              "coreHtml": "Star clusters are groups of stars held together by gravity; globular cluster distribution helped show that the Sun is not at the centre of the Milky Way.",
+              "core": "Star clusters are groups of stars held together by gravity; globular cluster distribution helped show that the Sun is not at the centre of the Milky Way.",
+              "applicationHtml": "Use Harlow Shapley’s reasoning to explain how astronomers inferred our position in the galaxy.",
+              "application": "Use Harlow Shapley’s reasoning to explain how astronomers inferred our position in the galaxy."
+            },
+            {
+              "id": "kp-511",
+              "number": 511,
+              "displayNumber": 511,
+              "titleHtml": "KP7: Local Group and larger structures",
+              "title": "KP7: Local Group and larger structures",
+              "coreHtml": "The Milky Way belongs to the Local Group, which belongs to the Virgo Supercluster, one of millions of superclusters.",
+              "core": "The Milky Way belongs to the Local Group, which belongs to the Virgo Supercluster, one of millions of superclusters.",
+              "applicationHtml": "Place the Milky Way in a larger cosmic structure that includes Andromeda and many other galaxies.",
+              "application": "Place the Milky Way in a larger cosmic structure that includes Andromeda and many other galaxies."
+            }
+          ]
+        },
+        {
+          "id": "4-3-concept-3-there-are-vast-distances-separating-stars-and-galaxies-p-334-337",
+          "titleHtml": "4.3 Concept 3: There are vast distances separating stars and galaxies — p.334–337",
+          "title": "4.3 Concept 3: There are vast distances separating stars and galaxies — p.334–337",
+          "kps": [
+            {
+              "id": "kp-512",
+              "number": 512,
+              "displayNumber": 512,
+              "titleHtml": "KP1: Astronomical unit",
+              "title": "KP1: Astronomical unit",
+              "coreHtml": "One astronomical unit, or \\(1\\,AU\\), is the distance between Earth and the Sun, about \\(150\\,000\\,000\\,km\\).",
+              "core": "One astronomical unit, or \\(1\\,AU\\), is the distance between Earth and the Sun, about \\(150\\,000\\,000\\,km\\).",
+              "applicationHtml": "Use \\(AU\\) for distances within the solar system.",
+              "application": "Use \\(AU\\) for distances within the solar system."
+            },
+            {
+              "id": "kp-513",
+              "number": 513,
+              "displayNumber": 513,
+              "titleHtml": "KP2: Light-year",
+              "title": "KP2: Light-year",
+              "coreHtml": "A light-year is the distance light travels in one year, about \\(9.46 \\times 10^{12}\\,km\\).",
+              "core": "A light-year is the distance light travels in one year, about \\(9.46 10 12 \\,km\\).",
+              "applicationHtml": "Use light-years for distances between stars and galaxies.",
+              "application": "Use light-years for distances between stars and galaxies."
+            },
+            {
+              "id": "kp-514",
+              "number": 514,
+              "displayNumber": 514,
+              "titleHtml": "KP3: Speed of light",
+              "title": "KP3: Speed of light",
+              "coreHtml": "Light travels through space at about \\(300\\,000\\,km/s\\).",
+              "core": "Light travels through space at about \\(300\\,000\\,km/s\\).",
+              "applicationHtml": "Connect the speed of light to the enormous scale of stellar and galactic distances.",
+              "application": "Connect the speed of light to the enormous scale of stellar and galactic distances."
+            },
+            {
+              "id": "kp-515",
+              "number": 515,
+              "displayNumber": 515,
+              "titleHtml": "KP4: Looking back in time",
+              "title": "KP4: Looking back in time",
+              "coreHtml": "The farther away an object is, the longer its light takes to reach Earth.",
+              "core": "The farther away an object is, the longer its light takes to reach Earth.",
+              "applicationHtml": "Explain why observing Vega means seeing it as it was about 25 years ago and why the Sun appears about 8 minutes old.",
+              "application": "Explain why observing Vega means seeing it as it was about 25 years ago and why the Sun appears about 8 minutes old."
+            },
+            {
+              "id": "kp-516",
+              "number": 516,
+              "displayNumber": 516,
+              "titleHtml": "KP5: Parallax",
+              "title": "KP5: Parallax",
+              "coreHtml": "Parallax is the apparent change in position of an object against a fixed background when viewed from two different lines of sight.",
+              "core": "Parallax is the apparent change in position of an object against a fixed background when viewed from two different lines of sight.",
+              "applicationHtml": "Use parallax to explain how astronomers estimate distances to nearby stars.",
+              "application": "Use parallax to explain how astronomers estimate distances to nearby stars."
+            },
+            {
+              "id": "kp-517",
+              "number": 517,
+              "displayNumber": 517,
+              "titleHtml": "KP6: Triangulation and parallax limits",
+              "title": "KP6: Triangulation and parallax limits",
+              "coreHtml": "Astronomers use Earth’s orbit as the known side of a triangle, but parallax becomes too imprecise for very distant stars.",
+              "core": "Astronomers use Earth’s orbit as the known side of a triangle, but parallax becomes too imprecise for very distant stars.",
+              "applicationHtml": "Explain why satellites such as HIPPARCOS and Gaia improve distance measurements for many stars.",
+              "application": "Explain why satellites such as HIPPARCOS and Gaia improve distance measurements for many stars."
+            }
+          ]
+        },
+        {
+          "id": "4-3-concept-4-the-properties-of-stars-help-us-develop-an-understanding-of-their-life-cycles-p-338-347",
+          "titleHtml": "4.3 Concept 4: The properties of stars help us develop an understanding of their life cycles — p.338–347",
+          "title": "4.3 Concept 4: The properties of stars help us develop an understanding of their life cycles — p.338–347",
+          "kps": [
+            {
+              "id": "kp-518",
+              "number": 518,
+              "displayNumber": 518,
+              "titleHtml": "KP1: Star properties",
+              "title": "KP1: Star properties",
+              "coreHtml": "Important star properties include colour, temperature, luminosity, mass, and brightness.",
+              "core": "Important star properties include colour, temperature, luminosity, mass, and brightness.",
+              "applicationHtml": "Use observable properties to compare stars and infer their stage of development.",
+              "application": "Use observable properties to compare stars and infer their stage of development."
+            },
+            {
+              "id": "kp-519",
+              "number": 519,
+              "displayNumber": 519,
+              "titleHtml": "KP2: Colour and temperature",
+              "title": "KP2: Colour and temperature",
+              "coreHtml": "Star colour is related to surface temperature; blue stars are hotter and red stars are cooler.",
+              "core": "Star colour is related to surface temperature; blue stars are hotter and red stars are cooler.",
+              "applicationHtml": "Infer relative temperature from star colour.",
+              "application": "Infer relative temperature from star colour."
+            },
+            {
+              "id": "kp-520",
+              "number": 520,
+              "displayNumber": 520,
+              "titleHtml": "KP3: Luminosity and brightness",
+              "title": "KP3: Luminosity and brightness",
+              "coreHtml": "Luminosity is a star’s actual energy output, while apparent brightness depends on both luminosity and distance from Earth.",
+              "core": "Luminosity is a star’s actual energy output, while apparent brightness depends on both luminosity and distance from Earth.",
+              "applicationHtml": "Avoid assuming the brightest-looking star is always the most luminous.",
+              "application": "Avoid assuming the brightest-looking star is always the most luminous."
+            },
+            {
+              "id": "kp-521",
+              "number": 521,
+              "displayNumber": 521,
+              "titleHtml": "KP4: Stellar mass",
+              "title": "KP4: Stellar mass",
+              "coreHtml": "Stellar mass is often compared with the Sun’s mass, called one solar mass.",
+              "core": "Stellar mass is often compared with the Sun’s mass, called one solar mass.",
+              "applicationHtml": "Use mass to predict how long a star remains active and what it may become.",
+              "application": "Use mass to predict how long a star remains active and what it may become."
+            },
+            {
+              "id": "kp-522",
+              "number": 522,
+              "displayNumber": 522,
+              "titleHtml": "KP5: Hertzsprung-Russell diagram",
+              "title": "KP5: Hertzsprung-Russell diagram",
+              "coreHtml": "A Hertzsprung-Russell, or H-R, diagram compares star properties such as colour, temperature, luminosity, and absolute magnitude.",
+              "core": "A Hertzsprung-Russell, or H-R, diagram compares star properties such as colour, temperature, luminosity, and absolute magnitude.",
+              "applicationHtml": "Use an H-R diagram to identify patterns among stars.",
+              "application": "Use an H-R diagram to identify patterns among stars."
+            },
+            {
+              "id": "kp-523",
+              "number": 523,
+              "displayNumber": 523,
+              "titleHtml": "KP6: Main sequence stars",
+              "title": "KP6: Main sequence stars",
+              "coreHtml": "The main sequence is a diagonal band on the H-R diagram that contains about \\(90\\%\\) of the stars visible from Earth.",
+              "core": "The main sequence is a diagonal band on the H-R diagram that contains about \\(90\\%\\) of the stars visible from Earth.",
+              "applicationHtml": "Explain why most stars are classified as main sequence stars.",
+              "application": "Explain why most stars are classified as main sequence stars."
+            },
+            {
+              "id": "kp-524",
+              "number": 524,
+              "displayNumber": 524,
+              "titleHtml": "KP7: Star life cycles and initial mass",
+              "title": "KP7: Star life cycles and initial mass",
+              "coreHtml": "A star’s life cycle depends mainly on its initial mass on the main sequence.",
+              "core": "A star’s life cycle depends mainly on its initial mass on the main sequence.",
+              "applicationHtml": "Compare low-mass, intermediate-mass, and high-mass star pathways.",
+              "application": "Compare low-mass, intermediate-mass, and high-mass star pathways."
+            },
+            {
+              "id": "kp-525",
+              "number": 525,
+              "displayNumber": 525,
+              "titleHtml": "KP8: Final stages of stars",
+              "title": "KP8: Final stages of stars",
+              "coreHtml": "Stars can end as white dwarfs, neutron stars, or black holes, depending on their mass and evolution.",
+              "core": "Stars can end as white dwarfs, neutron stars, or black holes, depending on their mass and evolution.",
+              "applicationHtml": "Connect red giants, supergiants, supernovas, neutron stars, and black holes to stellar life cycles.",
+              "application": "Connect red giants, supergiants, supernovas, neutron stars, and black holes to stellar life cycles."
+            },
+            {
+              "id": "kp-526",
+              "number": 526,
+              "displayNumber": 526,
+              "titleHtml": "KP9: Supernovas and heavy elements",
+              "title": "KP9: Supernovas and heavy elements",
+              "coreHtml": "High-mass stars can form heavier elements and eject them into space during supernovas.",
+              "core": "High-mass stars can form heavier elements and eject them into space during supernovas.",
+              "applicationHtml": "Explain how elements in planets and living things can come from older stars.",
+              "application": "Explain how elements in planets and living things can come from older stars."
+            }
+          ]
+        },
+        {
+          "id": "optional-extension-at-issue-who-has-the-most-to-lose-p-324-325",
+          "titleHtml": "Optional Extension — At Issue: Who has the MOST to lose? — p.324–325",
+          "title": "Optional Extension — At Issue: Who has the MOST to lose? — p.324–325",
+          "kps": [
+            {
+              "id": "kp-527",
+              "number": 527,
+              "displayNumber": 527,
+              "titleHtml": "KP1: MOST satellite",
+              "title": "KP1: MOST satellite",
+              "coreHtml": "MOST, or Microvariability and Oscillation of Stars, was Canada’s first space telescope.",
+              "core": "MOST, or Microvariability and Oscillation of Stars, was Canada’s first space telescope.",
+              "applicationHtml": "Connect MOST to the study of small changes in the brightness of Sun-like stars.",
+              "application": "Connect MOST to the study of small changes in the brightness of Sun-like stars."
+            },
+            {
+              "id": "kp-528",
+              "number": 528,
+              "displayNumber": 528,
+              "titleHtml": "KP2: Precision brightness measurements",
+              "title": "KP2: Precision brightness measurements",
+              "coreHtml": "MOST could detect very tiny changes in star brightness and monitor the same star for weeks.",
+              "core": "MOST could detect very tiny changes in star brightness and monitor the same star for weeks.",
+              "applicationHtml": "Explain how long-term brightness data can reveal information about star life cycles.",
+              "application": "Explain how long-term brightness data can reveal information about star life cycles."
+            },
+            {
+              "id": "kp-529",
+              "number": 529,
+              "displayNumber": 529,
+              "titleHtml": "KP3: Microsatellite design",
+              "title": "KP3: Microsatellite design",
+              "coreHtml": "Microsatellites are smaller and less expensive than large space telescopes.",
+              "core": "Microsatellites are smaller and less expensive than large space telescopes.",
+              "applicationHtml": "Compare MOST with Hubble in terms of size, cost, and mission design.",
+              "application": "Compare MOST with Hubble in terms of size, cost, and mission design."
+            },
+            {
+              "id": "kp-530",
+              "number": 530,
+              "displayNumber": 530,
+              "titleHtml": "KP4: Canadian space technology",
+              "title": "KP4: Canadian space technology",
+              "coreHtml": "Canadian researchers, engineers, agencies, and companies contributed to MOST’s design, launch, and continued use.",
+              "core": "Canadian researchers, engineers, agencies, and companies contributed to MOST’s design, launch, and continued use.",
+              "applicationHtml": "Evaluate how smaller space technologies can still make important scientific contributions.",
+              "application": "Evaluate how smaller space technologies can still make important scientific contributions."
+            }
+          ]
+        },
+        {
+          "id": "optional-extension-science-at-work-focus-on-astronomy-p-333",
+          "titleHtml": "Optional Extension — Science at Work: Focus on Astronomy — p.333",
+          "title": "Optional Extension — Science at Work: Focus on Astronomy — p.333",
+          "kps": [
+            {
+              "id": "kp-531",
+              "number": 531,
+              "displayNumber": 531,
+              "titleHtml": "KP1: Astronomy-related careers",
+              "title": "KP1: Astronomy-related careers",
+              "coreHtml": "Astronomy connects with careers in science, engineering, data analysis, technology, and communication.",
+              "core": "Astronomy connects with careers in science, engineering, data analysis, technology, and communication.",
+              "applicationHtml": "Identify how astronomy knowledge can support work beyond telescope observation.",
+              "application": "Identify how astronomy knowledge can support work beyond telescope observation."
+            },
+            {
+              "id": "kp-532",
+              "number": 532,
+              "displayNumber": 532,
+              "titleHtml": "KP2: Space weather and atmosphere",
+              "title": "KP2: Space weather and atmosphere",
+              "coreHtml": "Some atmospheric scientists monitor space weather such as solar radiation storms.",
+              "core": "Some atmospheric scientists monitor space weather such as solar radiation storms.",
+              "applicationHtml": "Explain why space weather alerts matter for satellites, power grids, and radio communication.",
+              "application": "Explain why space weather alerts matter for satellites, power grids, and radio communication."
+            },
+            {
+              "id": "kp-533",
+              "number": 533,
+              "displayNumber": 533,
+              "titleHtml": "KP3: Space technology systems",
+              "title": "KP3: Space technology systems",
+              "coreHtml": "Space exploration depends on tools such as satellites, robotic arms, observatories, and communication systems.",
+              "core": "Space exploration depends on tools such as satellites, robotic arms, observatories, and communication systems.",
+              "applicationHtml": "Connect astronomy to engineering and technology used in space missions.",
+              "application": "Connect astronomy to engineering and technology used in space missions."
+            }
+          ]
+        },
+        {
+          "id": "optional-investigation-investigation-4-c-build-an-h-r-diagram-p-348",
+          "titleHtml": "Optional Investigation — Investigation 4-C: Build an H-R Diagram — p.348",
+          "title": "Optional Investigation — Investigation 4-C: Build an H-R Diagram — p.348",
+          "kps": [
+            {
+              "id": "kp-534",
+              "number": 534,
+              "displayNumber": 534,
+              "titleHtml": "KP1: H-R diagram construction",
+              "title": "KP1: H-R diagram construction",
+              "coreHtml": "An H-R diagram can be built by graphing spectral type against absolute magnitude.",
+              "core": "An H-R diagram can be built by graphing spectral type against absolute magnitude.",
+              "applicationHtml": "Use star data to identify the main sequence pattern.",
+              "application": "Use star data to identify the main sequence pattern."
+            },
+            {
+              "id": "kp-535",
+              "number": 535,
+              "displayNumber": 535,
+              "titleHtml": "KP2: Spectral types",
+              "title": "KP2: Spectral types",
+              "coreHtml": "Main sequence stars can be grouped by spectral types \\(O, B, A, F, G, K,\\) and \\(M\\), with number subdivisions.",
+              "core": "Main sequence stars can be grouped by spectral types \\(O, B, A, F, G, K,\\) and \\(M\\), with number subdivisions.",
+              "applicationHtml": "Use spectral type labels such as \\(O5\\), \\(B2\\), or \\(G2\\) to place stars on a graph.",
+              "application": "Use spectral type labels such as \\(O5\\), \\(B2\\), or \\(G2\\) to place stars on a graph."
+            },
+            {
+              "id": "kp-536",
+              "number": 536,
+              "displayNumber": 536,
+              "titleHtml": "KP3: Absolute magnitude prediction",
+              "title": "KP3: Absolute magnitude prediction",
+              "coreHtml": "A pattern on an H-R diagram can be used to predict the absolute magnitude of a main sequence star.",
+              "core": "A pattern on an H-R diagram can be used to predict the absolute magnitude of a main sequence star.",
+              "applicationHtml": "Estimate absolute magnitude for stars such as the Sun, Vega, or a \\(B5\\) star.",
+              "application": "Estimate absolute magnitude for stars such as the Sun, Vega, or a \\(B5\\) star."
+            },
+            {
+              "id": "kp-537",
+              "number": 537,
+              "displayNumber": 537,
+              "titleHtml": "KP4: Graph-based reasoning",
+              "title": "KP4: Graph-based reasoning",
+              "coreHtml": "Graphs can reveal relationships that are not obvious from a list of data.",
+              "core": "Graphs can reveal relationships that are not obvious from a list of data.",
+              "applicationHtml": "Use an H-R diagram to support claims about star properties and life cycles.",
+              "application": "Use an H-R diagram to support claims about star properties and life cycles."
+            }
+          ]
+        },
+        {
+          "id": "optional-extension-at-issue-how-did-jocelyn-bell-make-one-of-the-most-important-astronomy-discoveries-of-the-20th-century-p-350-351",
+          "titleHtml": "Optional Extension — At Issue: How did Jocelyn Bell make one of the most important astronomy discoveries of the 20th century? — p.350–351",
+          "title": "Optional Extension — At Issue: How did Jocelyn Bell make one of the most important astronomy discoveries of the 20th century? — p.350–351",
+          "kps": [
+            {
+              "id": "kp-538",
+              "number": 538,
+              "displayNumber": 538,
+              "titleHtml": "KP1: Neutron star hypothesis",
+              "title": "KP1: Neutron star hypothesis",
+              "coreHtml": "Before neutron stars were observed, some astronomers proposed that supernovas could produce extremely dense neutron stars.",
+              "core": "Before neutron stars were observed, some astronomers proposed that supernovas could produce extremely dense neutron stars.",
+              "applicationHtml": "Connect theoretical prediction to later astronomical evidence.",
+              "application": "Connect theoretical prediction to later astronomical evidence."
+            },
+            {
+              "id": "kp-539",
+              "number": 539,
+              "displayNumber": 539,
+              "titleHtml": "KP2: Radio telescope data",
+              "title": "KP2: Radio telescope data",
+              "coreHtml": "Jocelyn Bell helped build a radio telescope and analyzed large amounts of chart-paper data.",
+              "core": "Jocelyn Bell helped build a radio telescope and analyzed large amounts of chart-paper data.",
+              "applicationHtml": "Explain how careful data analysis can reveal unexpected patterns.",
+              "application": "Explain how careful data analysis can reveal unexpected patterns."
+            },
+            {
+              "id": "kp-540",
+              "number": 540,
+              "displayNumber": 540,
+              "titleHtml": "KP3: Pulsars",
+              "title": "KP3: Pulsars",
+              "coreHtml": "Pulsars are pulsing radio sources later linked to neutron stars.",
+              "core": "Pulsars are pulsing radio sources later linked to neutron stars.",
+              "applicationHtml": "Connect repeated radio signals to the discovery of a new class of astronomical objects.",
+              "application": "Connect repeated radio signals to the discovery of a new class of astronomical objects."
+            },
+            {
+              "id": "kp-541",
+              "number": 541,
+              "displayNumber": 541,
+              "titleHtml": "KP4: Recognition in science",
+              "title": "KP4: Recognition in science",
+              "coreHtml": "Scientific discovery depends on observation, interpretation, collaboration, and fair recognition of contributions.",
+              "core": "Scientific discovery depends on observation, interpretation, collaboration, and fair recognition of contributions.",
+              "applicationHtml": "Evaluate why Jocelyn Bell’s role in the discovery of pulsars raises questions about fairness in science.",
+              "application": "Evaluate why Jocelyn Bell’s role in the discovery of pulsars raises questions about fairness in science."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chapter-4-4",
+      "number": "4-4",
+      "titleHtml": "Chapter 4.4: How do we use the big bang theory to explain what we know about the universe?",
+      "title": "Chapter 4.4: How do we use the big bang theory to explain what we know about the universe?",
+      "kpCount": 31,
+      "concepts": [
+        {
+          "id": "4-4-concept-1-the-big-bang-theory-is-based-on-two-main-sets-of-evidence-redshift-and-cosmic-background-radiation-p-354-358",
+          "titleHtml": "4.4 Concept 1: The big bang theory is based on two main sets of evidence: redshift and cosmic background radiation — p.354–358",
+          "title": "4.4 Concept 1: The big bang theory is based on two main sets of evidence: redshift and cosmic background radiation — p.354–358",
+          "kps": [
+            {
+              "id": "kp-542",
+              "number": 542,
+              "displayNumber": 542,
+              "titleHtml": "KP1: Big bang theory",
+              "title": "KP1: Big bang theory",
+              "coreHtml": "The big bang theory explains the origin of the universe, how it began, how it has changed, and how it is changing.",
+              "core": "The big bang theory explains the origin of the universe, how it began, how it has changed, and how it is changing.",
+              "applicationHtml": "Use the theory to connect evidence about expansion with the history of the universe.",
+              "application": "Use the theory to connect evidence about expansion with the history of the universe."
+            },
+            {
+              "id": "kp-543",
+              "number": 543,
+              "displayNumber": 543,
+              "titleHtml": "KP2: Cosmology",
+              "title": "KP2: Cosmology",
+              "coreHtml": "Cosmology is the study of the origin, structure, development, and possible future of the universe.",
+              "core": "Cosmology is the study of the origin, structure, development, and possible future of the universe.",
+              "applicationHtml": "Recognize the big bang theory as part of Western scientific cosmology.",
+              "application": "Recognize the big bang theory as part of Western scientific cosmology."
+            },
+            {
+              "id": "kp-544",
+              "number": 544,
+              "displayNumber": 544,
+              "titleHtml": "KP3: Doppler effect",
+              "title": "KP3: Doppler effect",
+              "coreHtml": "The Doppler effect occurs when waves from a moving source are compressed or stretched.",
+              "core": "The Doppler effect occurs when waves from a moving source are compressed or stretched.",
+              "applicationHtml": "Use changes in light wavelengths to infer motion of stars and galaxies.",
+              "application": "Use changes in light wavelengths to infer motion of stars and galaxies."
+            },
+            {
+              "id": "kp-545",
+              "number": 545,
+              "displayNumber": 545,
+              "titleHtml": "KP4: Redshift",
+              "title": "KP4: Redshift",
+              "coreHtml": "Redshift occurs when light from an object moving away is stretched toward longer, redder wavelengths.",
+              "core": "Redshift occurs when light from an object moving away is stretched toward longer, redder wavelengths.",
+              "applicationHtml": "Interpret redshifted galaxy spectra as evidence that galaxies are moving away from us.",
+              "application": "Interpret redshifted galaxy spectra as evidence that galaxies are moving away from us."
+            },
+            {
+              "id": "kp-546",
+              "number": 546,
+              "displayNumber": 546,
+              "titleHtml": "KP5: Blueshift",
+              "title": "KP5: Blueshift",
+              "coreHtml": "Blueshift occurs when light from an object moving toward an observer is shortened toward bluer wavelengths.",
+              "core": "Blueshift occurs when light from an object moving toward an observer is shortened toward bluer wavelengths.",
+              "applicationHtml": "Interpret blueshifted spectra as evidence that an object is moving toward the observer.",
+              "application": "Interpret blueshifted spectra as evidence that an object is moving toward the observer."
+            },
+            {
+              "id": "kp-547",
+              "number": 547,
+              "displayNumber": 547,
+              "titleHtml": "KP6: Hubble’s law and expansion",
+              "title": "KP6: Hubble’s law and expansion",
+              "coreHtml": "Hubble’s law shows that a galaxy’s speed away from Earth is proportional to its distance from Earth.",
+              "core": "Hubble’s law shows that a galaxy’s speed away from Earth is proportional to its distance from Earth.",
+              "applicationHtml": "Use redshift-distance patterns as evidence that the universe is expanding.",
+              "application": "Use redshift-distance patterns as evidence that the universe is expanding."
+            },
+            {
+              "id": "kp-548",
+              "number": 548,
+              "displayNumber": 548,
+              "titleHtml": "KP7: Cosmic microwave background radiation",
+              "title": "KP7: Cosmic microwave background radiation",
+              "coreHtml": "Cosmic microwave background, or CMB, radiation is leftover radiation from the big bang that fills the universe.",
+              "core": "Cosmic microwave background, or CMB, radiation is leftover radiation from the big bang that fills the universe.",
+              "applicationHtml": "Use CMB radiation, including COBE and WMAP observations, as evidence that the universe was once much hotter and denser.",
+              "application": "Use CMB radiation, including COBE and WMAP observations, as evidence that the universe was once much hotter and denser."
+            }
+          ]
+        },
+        {
+          "id": "4-4-concept-2-the-big-bang-theory-helps-us-describe-how-the-components-of-the-universe-formed-and-have-changed-over-time-p-360-361",
+          "titleHtml": "4.4 Concept 2: The big bang theory helps us describe how the components of the universe formed and have changed over time — p.360–361",
+          "title": "4.4 Concept 2: The big bang theory helps us describe how the components of the universe formed and have changed over time — p.360–361",
+          "kps": [
+            {
+              "id": "kp-549",
+              "number": 549,
+              "displayNumber": 549,
+              "titleHtml": "KP1: Looking back in time",
+              "title": "KP1: Looking back in time",
+              "coreHtml": "Because light has a finite speed, looking farther into space means looking farther back in time.",
+              "core": "Because light has a finite speed, looking farther into space means looking farther back in time.",
+              "applicationHtml": "Explain why distant galaxies show earlier stages of the universe.",
+              "application": "Explain why distant galaxies show earlier stages of the universe."
+            },
+            {
+              "id": "kp-550",
+              "number": 550,
+              "displayNumber": 550,
+              "titleHtml": "KP2: Young universe and CMB",
+              "title": "KP2: Young universe and CMB",
+              "coreHtml": "The CMB shows the universe when it was about 380 000 years old and cool enough for photons to travel freely.",
+              "core": "The CMB shows the universe when it was about 380 000 years old and cool enough for photons to travel freely.",
+              "applicationHtml": "Connect CMB observations to an early stage of the universe.",
+              "application": "Connect CMB observations to an early stage of the universe."
+            },
+            {
+              "id": "kp-551",
+              "number": 551,
+              "displayNumber": 551,
+              "titleHtml": "KP3: Early expansion and inflation",
+              "title": "KP3: Early expansion and inflation",
+              "coreHtml": "Soon after the big bang, the universe expanded extremely rapidly during a period called inflation.",
+              "core": "Soon after the big bang, the universe expanded extremely rapidly during a period called inflation.",
+              "applicationHtml": "Describe early expansion as a major step in the universe’s development.",
+              "application": "Describe early expansion as a major step in the universe’s development."
+            },
+            {
+              "id": "kp-552",
+              "number": 552,
+              "displayNumber": 552,
+              "titleHtml": "KP4: Cooling and particle formation",
+              "title": "KP4: Cooling and particle formation",
+              "coreHtml": "As the universe expanded, it cooled, allowing energy, elementary particles, atoms, and later larger structures to form.",
+              "core": "As the universe expanded, it cooled, allowing energy, elementary particles, atoms, and later larger structures to form.",
+              "applicationHtml": "Use cooling to explain how the universe changed from energy-rich conditions to matter-filled conditions.",
+              "application": "Use cooling to explain how the universe changed from energy-rich conditions to matter-filled conditions."
+            },
+            {
+              "id": "kp-553",
+              "number": 553,
+              "displayNumber": 553,
+              "titleHtml": "KP5: Formation of stars and galaxies",
+              "title": "KP5: Formation of stars and galaxies",
+              "coreHtml": "After the early universe cooled, the earliest stars and first galaxies began to form.",
+              "core": "After the early universe cooled, the earliest stars and first galaxies began to form.",
+              "applicationHtml": "Place star and galaxy formation within the timeline after the big bang.",
+              "application": "Place star and galaxy formation within the timeline after the big bang."
+            },
+            {
+              "id": "kp-554",
+              "number": 554,
+              "displayNumber": 554,
+              "titleHtml": "KP6: Solar system formation",
+              "title": "KP6: Solar system formation",
+              "coreHtml": "The Sun and solar system formed much later than the earliest stars and galaxies.",
+              "core": "The Sun and solar system formed much later than the earliest stars and galaxies.",
+              "applicationHtml": "Recognize that Earth and the solar system are relatively late parts of cosmic history.",
+              "application": "Recognize that Earth and the solar system are relatively late parts of cosmic history."
+            },
+            {
+              "id": "kp-555",
+              "number": 555,
+              "displayNumber": 555,
+              "titleHtml": "KP7: Technology and early-universe evidence",
+              "title": "KP7: Technology and early-universe evidence",
+              "coreHtml": "Telescopes and particle accelerators help scientists study early galaxies and high-energy conditions similar to the early universe.",
+              "core": "Telescopes and particle accelerators help scientists study early galaxies and high-energy conditions similar to the early universe.",
+              "applicationHtml": "Connect the James Webb Space Telescope and CERN’s Large Hadron Collider to investigations of the universe’s early history.",
+              "application": "Connect the James Webb Space Telescope and CERN’s Large Hadron Collider to investigations of the universe’s early history."
+            }
+          ]
+        },
+        {
+          "id": "4-4-concept-3-there-is-much-about-the-universe-that-we-still-cannot-explain-p-362-365",
+          "titleHtml": "4.4 Concept 3: There is much about the universe that we still cannot explain — p.362–365",
+          "title": "4.4 Concept 3: There is much about the universe that we still cannot explain — p.362–365",
+          "kps": [
+            {
+              "id": "kp-556",
+              "number": 556,
+              "displayNumber": 556,
+              "titleHtml": "KP1: Continuing mysteries",
+              "title": "KP1: Continuing mysteries",
+              "coreHtml": "Even with modern technology, the universe still contains major mysteries about its structure, size, age, and evolution.",
+              "core": "Even with modern technology, the universe still contains major mysteries about its structure, size, age, and evolution.",
+              "applicationHtml": "Recognize that scientific explanations are refined as new evidence is collected.",
+              "application": "Recognize that scientific explanations are refined as new evidence is collected."
+            },
+            {
+              "id": "kp-557",
+              "number": 557,
+              "displayNumber": 557,
+              "titleHtml": "KP2: Dark matter",
+              "title": "KP2: Dark matter",
+              "coreHtml": "Dark matter is matter inferred from gravitational effects but not directly seen because it does not emit light.",
+              "core": "Dark matter is matter inferred from gravitational effects but not directly seen because it does not emit light.",
+              "applicationHtml": "Explain why astronomers infer dark matter from galaxy rotation and galaxy-cluster observations.",
+              "application": "Explain why astronomers infer dark matter from galaxy rotation and galaxy-cluster observations."
+            },
+            {
+              "id": "kp-558",
+              "number": 558,
+              "displayNumber": 558,
+              "titleHtml": "KP3: Andromeda and missing mass",
+              "title": "KP3: Andromeda and missing mass",
+              "coreHtml": "Stars in the Andromeda galaxy move faster than predicted from visible matter alone.",
+              "core": "Stars in the Andromeda galaxy move faster than predicted from visible matter alone.",
+              "applicationHtml": "Use unexpected star speeds as evidence for additional unseen mass.",
+              "application": "Use unexpected star speeds as evidence for additional unseen mass."
+            },
+            {
+              "id": "kp-559",
+              "number": 559,
+              "displayNumber": 559,
+              "titleHtml": "KP4: Dark matter halos",
+              "title": "KP4: Dark matter halos",
+              "coreHtml": "Dark matter is thought to form large halos around galaxies.",
+              "core": "Dark matter is thought to form large halos around galaxies.",
+              "applicationHtml": "Explain why galaxy motion in groups and clusters suggests much more mass than visible matter shows.",
+              "application": "Explain why galaxy motion in groups and clusters suggests much more mass than visible matter shows."
+            },
+            {
+              "id": "kp-560",
+              "number": 560,
+              "displayNumber": 560,
+              "titleHtml": "KP5: Dark energy",
+              "title": "KP5: Dark energy",
+              "coreHtml": "Dark energy is a name for the unknown cause of the accelerating expansion of the universe.",
+              "core": "Dark energy is a name for the unknown cause of the accelerating expansion of the universe.",
+              "applicationHtml": "Use Type Ia supernova data to explain why scientists infer dark energy.",
+              "application": "Use Type Ia supernova data to explain why scientists infer dark energy."
+            },
+            {
+              "id": "kp-561",
+              "number": 561,
+              "displayNumber": 561,
+              "titleHtml": "KP6: Accelerating expansion",
+              "title": "KP6: Accelerating expansion",
+              "coreHtml": "Astronomers expected expansion to slow because of gravity, but evidence shows expansion began accelerating about 7 billion years ago.",
+              "core": "Astronomers expected expansion to slow because of gravity, but evidence shows expansion began accelerating about 7 billion years ago.",
+              "applicationHtml": "Connect accelerating expansion to the need for a new explanatory idea.",
+              "application": "Connect accelerating expansion to the need for a new explanatory idea."
+            },
+            {
+              "id": "kp-562",
+              "number": 562,
+              "displayNumber": 562,
+              "titleHtml": "KP7: Visible matter as a small fraction",
+              "title": "KP7: Visible matter as a small fraction",
+              "coreHtml": "Current estimates suggest the universe is mostly dark energy and dark matter, while visible matter makes up only a small fraction.",
+              "core": "Current estimates suggest the universe is mostly dark energy and dark matter, while visible matter makes up only a small fraction.",
+              "applicationHtml": "Explain why the visible universe is not the same as everything that exists.",
+              "application": "Explain why the visible universe is not the same as everything that exists."
+            }
+          ]
+        },
+        {
+          "id": "optional-extension-make-a-difference-be-inspired-dr-stephen-hawking-1942-2018-p-359",
+          "titleHtml": "Optional Extension — Make a Difference: Be Inspired — Dr. Stephen Hawking (1942–2018) — p.359",
+          "title": "Optional Extension — Make a Difference: Be Inspired — Dr. Stephen Hawking (1942–2018) — p.359",
+          "kps": [
+            {
+              "id": "kp-563",
+              "number": 563,
+              "displayNumber": 563,
+              "titleHtml": "KP1: Hawking and black holes",
+              "title": "KP1: Hawking and black holes",
+              "coreHtml": "Stephen Hawking contributed ideas about black holes, matter, time, and space.",
+              "core": "Stephen Hawking contributed ideas about black holes, matter, time, and space.",
+              "applicationHtml": "Connect individual scientific work to changing ideas about the universe.",
+              "application": "Connect individual scientific work to changing ideas about the universe."
+            },
+            {
+              "id": "kp-564",
+              "number": 564,
+              "displayNumber": 564,
+              "titleHtml": "KP2: Science and perseverance",
+              "title": "KP2: Science and perseverance",
+              "coreHtml": "Hawking continued scientific work after being diagnosed with ALS.",
+              "core": "Hawking continued scientific work after being diagnosed with ALS.",
+              "applicationHtml": "Recognize persistence and curiosity as important scientific attitudes.",
+              "application": "Recognize persistence and curiosity as important scientific attitudes."
+            },
+            {
+              "id": "kp-565",
+              "number": 565,
+              "displayNumber": 565,
+              "titleHtml": "KP3: Communicating complex ideas",
+              "title": "KP3: Communicating complex ideas",
+              "coreHtml": "Hawking is remembered for both scientific insight and the ability to inspire public interest in the universe.",
+              "core": "Hawking is remembered for both scientific insight and the ability to inspire public interest in the universe.",
+              "applicationHtml": "Connect scientific discovery with public communication and imagination.",
+              "application": "Connect scientific discovery with public communication and imagination."
+            }
+          ]
+        },
+        {
+          "id": "optional-investigation-investigation-4-d-the-age-of-the-universe-p-366-367",
+          "titleHtml": "Optional Investigation — Investigation 4-D: The Age of the Universe — p.366–367",
+          "title": "Optional Investigation — Investigation 4-D: The Age of the Universe — p.366–367",
+          "kps": [
+            {
+              "id": "kp-566",
+              "number": 566,
+              "displayNumber": 566,
+              "titleHtml": "KP1: Redshift-distance relationship",
+              "title": "KP1: Redshift-distance relationship",
+              "coreHtml": "A galaxy’s redshift is related to its distance from Earth.",
+              "core": "A galaxy’s redshift is related to its distance from Earth.",
+              "applicationHtml": "Use redshifted spectral lines to estimate galaxy velocity.",
+              "application": "Use redshifted spectral lines to estimate galaxy velocity."
+            },
+            {
+              "id": "kp-567",
+              "number": 567,
+              "displayNumber": 567,
+              "titleHtml": "KP2: Hubble constant",
+              "title": "KP2: Hubble constant",
+              "coreHtml": "The slope of a graph of galaxy velocity versus galaxy distance gives the Hubble constant, \\(H\\).",
+              "core": "The slope of a graph of galaxy velocity versus galaxy distance gives the Hubble constant, \\(H\\).",
+              "applicationHtml": "Calculate \\(H\\) from a line of best fit.",
+              "application": "Calculate \\(H\\) from a line of best fit."
+            },
+            {
+              "id": "kp-568",
+              "number": 568,
+              "displayNumber": 568,
+              "titleHtml": "KP3: Estimating the age of the universe",
+              "title": "KP3: Estimating the age of the universe",
+              "coreHtml": "The age of the universe can be estimated using \\(\\frac{10^{12}}{H}\\), where \\(H\\) is the Hubble constant.",
+              "core": "The age of the universe can be estimated using \\( 10 12 H \\), where \\(H\\) is the Hubble constant.",
+              "applicationHtml": "Use graph data to estimate cosmic age.",
+              "application": "Use graph data to estimate cosmic age."
+            },
+            {
+              "id": "kp-569",
+              "number": 569,
+              "displayNumber": 569,
+              "titleHtml": "KP4: Megaparsecs and velocity",
+              "title": "KP4: Megaparsecs and velocity",
+              "coreHtml": "Astronomers use megaparsecs for large distances and velocity to describe motion toward or away from Earth.",
+              "core": "Astronomers use megaparsecs for large distances and velocity to describe motion toward or away from Earth.",
+              "applicationHtml": "Interpret units such as \\(\\text{km/s/Mpc}\\) when working with Hubble’s law.",
+              "application": "Interpret units such as \\( km/s/Mpc \\) when working with Hubble’s law."
+            }
+          ]
+        },
+        {
+          "id": "optional-extension-make-a-difference-take-a-stand-terraforming-are-we-developers-or-caretakers-p-368",
+          "titleHtml": "Optional Extension — Make a Difference: Take a Stand — Terraforming: Are we developers or caretakers? — p.368",
+          "title": "Optional Extension — Make a Difference: Take a Stand — Terraforming: Are we developers or caretakers? — p.368",
+          "kps": [
+            {
+              "id": "kp-570",
+              "number": 570,
+              "displayNumber": 570,
+              "titleHtml": "KP1: Terraforming",
+              "title": "KP1: Terraforming",
+              "coreHtml": "Terraforming is the proposed process of transforming an alien, lifeless world into a life-sustaining ecosystem.",
+              "core": "Terraforming is the proposed process of transforming an alien, lifeless world into a life-sustaining ecosystem.",
+              "applicationHtml": "Connect space science to questions about future colonization and planetary engineering.",
+              "application": "Connect space science to questions about future colonization and planetary engineering."
+            },
+            {
+              "id": "kp-571",
+              "number": 571,
+              "displayNumber": 571,
+              "titleHtml": "KP2: Exoplanets and off-world possibilities",
+              "title": "KP2: Exoplanets and off-world possibilities",
+              "coreHtml": "Exoplanets are planets outside our solar system, expanding ideas about possible future human habitats.",
+              "core": "Exoplanets are planets outside our solar system, expanding ideas about possible future human habitats.",
+              "applicationHtml": "Compare solar-system colonization with broader possibilities beyond the solar system.",
+              "application": "Compare solar-system colonization with broader possibilities beyond the solar system."
+            },
+            {
+              "id": "kp-572",
+              "number": 572,
+              "displayNumber": 572,
+              "titleHtml": "KP3: Ethical responsibility",
+              "title": "KP3: Ethical responsibility",
+              "coreHtml": "Terraforming raises questions about whether humans should act as developers or caretakers of other worlds.",
+              "core": "Terraforming raises questions about whether humans should act as developers or caretakers of other worlds.",
+              "applicationHtml": "Evaluate terraforming using environmental responsibility, technological possibility, and alternatives for solving Earth’s problems.",
+              "application": "Evaluate terraforming using environmental responsibility, technological possibility, and alternatives for solving Earth’s problems."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "summaryHtml": "<h2>Unit Summary</h2>\n<p>- Total Chapters: 4</p>\n<p>- Total Core Sections: 11</p>\n<p>- Total Core Knowledge Points: 79</p>\n<p>- Optional Extension / Investigation Sections: 11</p>\n<p>- Optional Extension / Investigation Knowledge Points: 41</p>\n<p>- Top 5 Core Formulas:</p>\n<p class=\"nested-bullet\">• Astronomical unit: \\(1\\,AU \\approx 150\\,000\\,000\\,km\\)</p>\n<p class=\"nested-bullet\">• Light-year: \\(1\\,ly \\approx 9.46 \\times 10^{12}\\,km\\)</p>\n<p class=\"nested-bullet\">• Speed of light: \\(c \\approx 300\\,000\\,km/s\\)</p>\n<p class=\"nested-bullet\">• Hubble’s law pattern: galaxy recession speed \\(\\propto\\) galaxy distance, or \\(v = Hd\\)</p>\n<p class=\"nested-bullet\">• Hand-angle estimates: one finger \\(\\approx 1^\\circ\\), one fist \\(\\approx 10^\\circ\\), open hand span \\(\\approx 20^\\circ\\)</p>\n<p>- Top 5 Common Error Areas:</p>\n<p class=\"nested-bullet\">• Treating the celestial sphere as a physical object instead of a model.</p>\n<p class=\"nested-bullet\">• Confusing constellations, asterisms, galaxies, star clusters, solar systems, and nebulae.</p>\n<p class=\"nested-bullet\">• Treating a light-year as a unit of time instead of a unit of distance.</p>\n<p class=\"nested-bullet\">• Treating the H-R diagram as a sky map instead of a graph of star properties.</p>\n<p class=\"nested-bullet\">• Confusing redshift, blueshift, dark matter, and dark energy.</p>\n<p>- Suggested Learning Order:</p>\n<p class=\"nested-bullet\">• Start with perspective and meaning: universe, scale, culture, time, place, technology, and ways of knowing.</p>\n<p class=\"nested-bullet\">• Study unaided-eye astronomy: Sun, Moon, stars, visible planets, constellations, asterisms, Polaris, celestial sphere, ecliptic, azimuth, and altitude.</p>\n<p class=\"nested-bullet\">• Study astronomy technology: optical telescopes, radio telescopes, space telescopes, atmospheric absorption, and multi-wavelength astronomy.</p>\n<p class=\"nested-bullet\">• Study galaxies and distance: Milky Way, galaxy types, star clusters, Local Group, astronomical unit, light-year, speed of light, looking back in time, and parallax.</p>\n<p class=\"nested-bullet\">• Study stars: colour, temperature, luminosity, brightness, mass, H-R diagrams, main sequence, life cycles, supernovas, neutron stars, and black holes.</p>\n<p class=\"nested-bullet\">• Finish with cosmology: Doppler effect, redshift, Hubble’s law, cosmic microwave background radiation, early-universe timeline, dark matter, and dark energy.</p>\n<p>- Suggested Review Order:</p>\n<p class=\"nested-bullet\">• Review sky-observation vocabulary first: universe, constellation, asterism, Polaris, celestial sphere, ecliptic, azimuth, and altitude.</p>\n<p class=\"nested-bullet\">• Practise distinguishing observation models from physical objects.</p>\n<p class=\"nested-bullet\">• Review distance units and scale: \\(AU\\), light-year, speed of light, parallax, and looking back in time.</p>\n<p class=\"nested-bullet\">• Review how technology expands evidence: optical, radio, infrared, ultraviolet, X-ray, gamma-ray, and space telescopes.</p>\n<p class=\"nested-bullet\">• Review star and galaxy organization: stars → star clusters → galaxies → galaxy groups → superclusters.</p>\n<p class=\"nested-bullet\">• Review big bang evidence and unresolved questions: redshift, Hubble’s law, CMB, dark matter, and dark energy.</p>"
+}

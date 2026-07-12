@@ -1,0 +1,1873 @@
+{
+  "id": "unit-3",
+  "number": 3,
+  "titleHtml": "Unit 3: Energy is conserved and its transformation affects living things and the environment",
+  "title": "Unit 3: Energy is conserved and its transformation affects living things and the environment",
+  "kpCount": 147,
+  "chapters": [
+    {
+      "id": "chapter-3-1",
+      "number": "3-1",
+      "titleHtml": "Chapter 3.1: What are the properties of energy?",
+      "title": "Chapter 3.1: What are the properties of energy?",
+      "kpCount": 35,
+      "concepts": [
+        {
+          "id": "3-1-concept-1-energy-can-produce-change-in-a-system-p-200-201",
+          "titleHtml": "3.1 Concept 1: Energy can produce change in a system — p.200–201",
+          "title": "3.1 Concept 1: Energy can produce change in a system — p.200–201",
+          "kps": [
+            {
+              "id": "kp-306",
+              "number": 306,
+              "displayNumber": 306,
+              "titleHtml": "KP1: Energy as an indirect concept",
+              "title": "KP1: Energy as an indirect concept",
+              "coreHtml": "Energy cannot be observed directly, but its effects can be observed.",
+              "core": "Energy cannot be observed directly, but its effects can be observed.",
+              "applicationHtml": "Identify energy by the changes it causes in objects, motion, temperature, sound, or position.",
+              "application": "Identify energy by the changes it causes in objects, motion, temperature, sound, or position."
+            },
+            {
+              "id": "kp-307",
+              "number": 307,
+              "displayNumber": 307,
+              "titleHtml": "KP2: Energy and change",
+              "title": "KP2: Energy and change",
+              "coreHtml": "Energy can cause change in a system.",
+              "core": "Energy can cause change in a system.",
+              "applicationHtml": "Use observed change as evidence that energy is present or being used.",
+              "application": "Use observed change as evidence that energy is present or being used."
+            },
+            {
+              "id": "kp-308",
+              "number": 308,
+              "displayNumber": 308,
+              "titleHtml": "KP3: System",
+              "title": "KP3: System",
+              "coreHtml": "A system is anything under observation.",
+              "core": "A system is anything under observation.",
+              "applicationHtml": "Define the object, process, or group being studied before analyzing energy.",
+              "application": "Define the object, process, or group being studied before analyzing energy."
+            },
+            {
+              "id": "kp-309",
+              "number": 309,
+              "displayNumber": 309,
+              "titleHtml": "KP4: Surroundings",
+              "title": "KP4: Surroundings",
+              "coreHtml": "The surroundings include everything outside the system.",
+              "core": "The surroundings include everything outside the system.",
+              "applicationHtml": "Separate the system from the environment when tracking energy changes.",
+              "application": "Separate the system from the environment when tracking energy changes."
+            },
+            {
+              "id": "kp-310",
+              "number": 310,
+              "displayNumber": 310,
+              "titleHtml": "KP5: Properties of energy",
+              "title": "KP5: Properties of energy",
+              "coreHtml": "Energy can take different forms, be transferred or transformed, and depend on different physical quantities.",
+              "core": "Energy can take different forms, be transferred or transformed, and depend on different physical quantities.",
+              "applicationHtml": "Use these properties to organize energy observations in real situations.",
+              "application": "Use these properties to organize energy observations in real situations."
+            }
+          ]
+        },
+        {
+          "id": "3-1-concept-2-there-are-different-forms-of-energy-p-202-205",
+          "titleHtml": "3.1 Concept 2: There are different forms of energy — p.202–205",
+          "title": "3.1 Concept 2: There are different forms of energy — p.202–205",
+          "kps": [
+            {
+              "id": "kp-311",
+              "number": 311,
+              "displayNumber": 311,
+              "titleHtml": "KP1: Kinetic energy",
+              "title": "KP1: Kinetic energy",
+              "coreHtml": "Kinetic energy is the energy of motion.",
+              "core": "Kinetic energy is the energy of motion.",
+              "applicationHtml": "Identify moving objects, moving particles, moving electrons, and vibrations as examples of kinetic energy.",
+              "application": "Identify moving objects, moving particles, moving electrons, and vibrations as examples of kinetic energy."
+            },
+            {
+              "id": "kp-312",
+              "number": 312,
+              "displayNumber": 312,
+              "titleHtml": "KP2: Potential energy",
+              "title": "KP2: Potential energy",
+              "coreHtml": "Potential energy is stored energy due to an object’s condition or position.",
+              "core": "Potential energy is stored energy due to an object’s condition or position.",
+              "applicationHtml": "Identify stored energy in height, chemical bonds, stretched objects, separated charges, magnets, or atomic nuclei.",
+              "application": "Identify stored energy in height, chemical bonds, stretched objects, separated charges, magnets, or atomic nuclei."
+            },
+            {
+              "id": "kp-313",
+              "number": 313,
+              "displayNumber": 313,
+              "titleHtml": "KP3: Mechanical kinetic energy",
+              "title": "KP3: Mechanical kinetic energy",
+              "coreHtml": "Mechanical kinetic energy is the energy of motion of objects larger than atoms and molecules.",
+              "core": "Mechanical kinetic energy is the energy of motion of objects larger than atoms and molecules.",
+              "applicationHtml": "Identify moving bicycles, balls, vehicles, or people as systems with mechanical kinetic energy.",
+              "application": "Identify moving bicycles, balls, vehicles, or people as systems with mechanical kinetic energy."
+            },
+            {
+              "id": "kp-314",
+              "number": 314,
+              "displayNumber": 314,
+              "titleHtml": "KP4: Thermal energy and heat",
+              "title": "KP4: Thermal energy and heat",
+              "coreHtml": "Thermal energy is the random motion of particles; heat is thermal energy transferred from one object to another.",
+              "core": "Thermal energy is the random motion of particles; heat is thermal energy transferred from one object to another.",
+              "applicationHtml": "Distinguish thermal energy from heat in scientific language.",
+              "application": "Distinguish thermal energy from heat in scientific language."
+            },
+            {
+              "id": "kp-315",
+              "number": 315,
+              "displayNumber": 315,
+              "titleHtml": "KP5: Radiant, electrical kinetic, and sound energy",
+              "title": "KP5: Radiant, electrical kinetic, and sound energy",
+              "coreHtml": "Radiant energy travels as electromagnetic waves; electrical kinetic energy is moving electrons; sound energy is vibration of matter.",
+              "core": "Radiant energy travels as electromagnetic waves; electrical kinetic energy is moving electrons; sound energy is vibration of matter.",
+              "applicationHtml": "Classify light, current, lightning, and sound waves as forms of energy.",
+              "application": "Classify light, current, lightning, and sound waves as forms of energy."
+            },
+            {
+              "id": "kp-316",
+              "number": 316,
+              "displayNumber": 316,
+              "titleHtml": "KP6: Forms of potential energy",
+              "title": "KP6: Forms of potential energy",
+              "coreHtml": "Gravitational, chemical, elastic, magnetic, electrical, and nuclear energy are forms of potential energy.",
+              "core": "Gravitational, chemical, elastic, magnetic, electrical, and nuclear energy are forms of potential energy.",
+              "applicationHtml": "Match stored energy examples to the correct potential energy category.",
+              "application": "Match stored energy examples to the correct potential energy category."
+            },
+            {
+              "id": "kp-317",
+              "number": 317,
+              "displayNumber": 317,
+              "titleHtml": "KP7: Energy in multiple forms",
+              "title": "KP7: Energy in multiple forms",
+              "coreHtml": "A system can have both kinetic energy and potential energy at the same time.",
+              "core": "A system can have both kinetic energy and potential energy at the same time.",
+              "applicationHtml": "Analyze moving objects above a reference point, such as a cyclist or roller coaster.",
+              "application": "Analyze moving objects above a reference point, such as a cyclist or roller coaster."
+            }
+          ]
+        },
+        {
+          "id": "3-1-concept-3-energy-can-be-transferred-or-transformed-p-206-208",
+          "titleHtml": "3.1 Concept 3: Energy can be transferred or transformed — p.206–208",
+          "title": "3.1 Concept 3: Energy can be transferred or transformed — p.206–208",
+          "kps": [
+            {
+              "id": "kp-318",
+              "number": 318,
+              "displayNumber": 318,
+              "titleHtml": "KP1: Law of conservation of energy",
+              "title": "KP1: Law of conservation of energy",
+              "coreHtml": "Energy is neither created nor destroyed; it is transferred or transformed.",
+              "core": "Energy is neither created nor destroyed; it is transferred or transformed.",
+              "applicationHtml": "Track energy before and after an energy change.",
+              "application": "Track energy before and after an energy change."
+            },
+            {
+              "id": "kp-319",
+              "number": 319,
+              "displayNumber": 319,
+              "titleHtml": "KP2: Energy transformation",
+              "title": "KP2: Energy transformation",
+              "coreHtml": "Energy transformation occurs when energy changes from one form to another.",
+              "core": "Energy transformation occurs when energy changes from one form to another.",
+              "applicationHtml": "Describe chemical potential energy changing into electrical, radiant, or thermal energy.",
+              "application": "Describe chemical potential energy changing into electrical, radiant, or thermal energy."
+            },
+            {
+              "id": "kp-320",
+              "number": 320,
+              "displayNumber": 320,
+              "titleHtml": "KP3: Energy transfer",
+              "title": "KP3: Energy transfer",
+              "coreHtml": "Energy transfer occurs when energy moves from one object or place to another while staying in the same form.",
+              "core": "Energy transfer occurs when energy moves from one object or place to another while staying in the same form.",
+              "applicationHtml": "Identify energy moving between objects, such as one pool ball transferring mechanical kinetic energy to another.",
+              "application": "Identify energy moving between objects, such as one pool ball transferring mechanical kinetic energy to another."
+            },
+            {
+              "id": "kp-321",
+              "number": 321,
+              "displayNumber": 321,
+              "titleHtml": "KP4: Useful and unusable energy",
+              "title": "KP4: Useful and unusable energy",
+              "coreHtml": "No energy transformation is 100% efficient; some energy becomes less useful for the intended task.",
+              "core": "No energy transformation is 100% efficient; some energy becomes less useful for the intended task.",
+              "applicationHtml": "Explain why thermal energy and sound energy often appear as byproducts.",
+              "application": "Explain why thermal energy and sound energy often appear as byproducts."
+            },
+            {
+              "id": "kp-322",
+              "number": 322,
+              "displayNumber": 322,
+              "titleHtml": "KP5: Energy and system types",
+              "title": "KP5: Energy and system types",
+              "coreHtml": "Open systems exchange matter and energy; closed systems exchange energy but not matter; isolated systems exchange neither matter nor energy.",
+              "core": "Open systems exchange matter and energy; closed systems exchange energy but not matter; isolated systems exchange neither matter nor energy.",
+              "applicationHtml": "Classify systems by what can enter or leave them.",
+              "application": "Classify systems by what can enter or leave them."
+            },
+            {
+              "id": "kp-323",
+              "number": 323,
+              "displayNumber": 323,
+              "titleHtml": "KP6: System-surroundings energy exchange",
+              "title": "KP6: System-surroundings energy exchange",
+              "coreHtml": "When a system releases energy, the surroundings absorb it; when a system absorbs energy, the surroundings release it.",
+              "core": "When a system releases energy, the surroundings absorb it; when a system absorbs energy, the surroundings release it.",
+              "applicationHtml": "Track energy movement between a system and its surroundings.",
+              "application": "Track energy movement between a system and its surroundings."
+            },
+            {
+              "id": "kp-324",
+              "number": 324,
+              "displayNumber": 324,
+              "titleHtml": "KP7: Transfer and transformation together",
+              "title": "KP7: Transfer and transformation together",
+              "coreHtml": "Real situations often involve both energy transfer and energy transformation.",
+              "core": "Real situations often involve both energy transfer and energy transformation.",
+              "applicationHtml": "Analyze a catapult, light bulb, or pool-ball collision by naming both movement and form changes of energy.",
+              "application": "Analyze a catapult, light bulb, or pool-ball collision by naming both movement and form changes of energy."
+            }
+          ]
+        },
+        {
+          "id": "3-1-concept-4-different-variables-contribute-to-different-forms-of-energy-p-209-214",
+          "titleHtml": "3.1 Concept 4: Different variables contribute to different forms of energy — p.209–214",
+          "title": "3.1 Concept 4: Different variables contribute to different forms of energy — p.209–214",
+          "kps": [
+            {
+              "id": "kp-325",
+              "number": 325,
+              "displayNumber": 325,
+              "titleHtml": "KP1: Physical quantities and energy",
+              "title": "KP1: Physical quantities and energy",
+              "coreHtml": "Different physical quantities contribute to different forms of energy.",
+              "core": "Different physical quantities contribute to different forms of energy.",
+              "applicationHtml": "Identify which variables matter before comparing energy in two systems.",
+              "application": "Identify which variables matter before comparing energy in two systems."
+            },
+            {
+              "id": "kp-326",
+              "number": 326,
+              "displayNumber": 326,
+              "titleHtml": "KP2: Mechanical kinetic energy variables",
+              "title": "KP2: Mechanical kinetic energy variables",
+              "coreHtml": "Mechanical kinetic energy depends on mass and velocity.",
+              "core": "Mechanical kinetic energy depends on mass and velocity.",
+              "applicationHtml": "Predict that greater mass or greater speed increases mechanical kinetic energy.",
+              "application": "Predict that greater mass or greater speed increases mechanical kinetic energy."
+            },
+            {
+              "id": "kp-327",
+              "number": 327,
+              "displayNumber": 327,
+              "titleHtml": "KP3: Mechanical kinetic energy equation",
+              "title": "KP3: Mechanical kinetic energy equation",
+              "coreHtml": "\\(E_k = \\frac{1}{2}mv^2\\), where \\(E_k\\) is mechanical kinetic energy, \\(m\\) is mass, and \\(v\\) is velocity.",
+              "core": "\\(E k = 1 2 mv 2\\), where \\(E k\\) is mechanical kinetic energy, \\(m\\) is mass, and \\(v\\) is velocity.",
+              "applicationHtml": "Explain why doubling velocity has a larger effect than doubling mass.",
+              "application": "Explain why doubling velocity has a larger effect than doubling mass."
+            },
+            {
+              "id": "kp-328",
+              "number": 328,
+              "displayNumber": 328,
+              "titleHtml": "KP4: Gravitational potential energy variables",
+              "title": "KP4: Gravitational potential energy variables",
+              "coreHtml": "Gravitational potential energy depends on mass, gravitational field strength, and change in height from a reference point.",
+              "core": "Gravitational potential energy depends on mass, gravitational field strength, and change in height from a reference point.",
+              "applicationHtml": "Predict how height, mass, and gravity affect stored gravitational energy.",
+              "application": "Predict how height, mass, and gravity affect stored gravitational energy."
+            },
+            {
+              "id": "kp-329",
+              "number": 329,
+              "displayNumber": 329,
+              "titleHtml": "KP5: Gravitational potential energy equation",
+              "title": "KP5: Gravitational potential energy equation",
+              "coreHtml": "\\(E_g = mg\\Delta h\\), where \\(E_g\\) is gravitational potential energy, \\(m\\) is mass, \\(g\\) is acceleration due to gravity, and \\(\\Delta h\\) is change in height.",
+              "core": "\\(E g = mg h\\), where \\(E g\\) is gravitational potential energy, \\(m\\) is mass, \\(g\\) is acceleration due to gravity, and \\( h\\) is change in height.",
+              "applicationHtml": "Relate gravitational potential energy to falling objects, hills, cliffs, and amusement rides.",
+              "application": "Relate gravitational potential energy to falling objects, hills, cliffs, and amusement rides."
+            },
+            {
+              "id": "kp-330",
+              "number": 330,
+              "displayNumber": 330,
+              "titleHtml": "KP6: Reference position",
+              "title": "KP6: Reference position",
+              "coreHtml": "Gravitational potential energy is measured relative to a chosen reference position.",
+              "core": "Gravitational potential energy is measured relative to a chosen reference position.",
+              "applicationHtml": "Explain why the same object can have different \\(E_g\\) values depending on the reference point.",
+              "application": "Explain why the same object can have different \\(E g\\) values depending on the reference point."
+            },
+            {
+              "id": "kp-331",
+              "number": 331,
+              "displayNumber": 331,
+              "titleHtml": "KP7: Friction and apparent energy loss",
+              "title": "KP7: Friction and apparent energy loss",
+              "coreHtml": "Friction transforms mechanical energy into thermal energy and sound energy.",
+              "core": "Friction transforms mechanical energy into thermal energy and sound energy.",
+              "applicationHtml": "Explain why a sled does not return to the same height even though total energy is conserved.",
+              "application": "Explain why a sled does not return to the same height even though total energy is conserved."
+            }
+          ]
+        },
+        {
+          "id": "optional-investigation-investigation-3-a-build-a-rube-goldberg-machine-p-216",
+          "titleHtml": "Optional Investigation — Investigation 3-A: Build a Rube Goldberg Machine — p.216",
+          "title": "Optional Investigation — Investigation 3-A: Build a Rube Goldberg Machine — p.216",
+          "kps": [
+            {
+              "id": "kp-332",
+              "number": 332,
+              "displayNumber": 332,
+              "titleHtml": "KP1: Chain of energy changes",
+              "title": "KP1: Chain of energy changes",
+              "coreHtml": "A Rube Goldberg machine uses a sequence of energy transfers and transformations to complete a task.",
+              "core": "A Rube Goldberg machine uses a sequence of energy transfers and transformations to complete a task.",
+              "applicationHtml": "Identify how one energy change triggers the next part of a system.",
+              "application": "Identify how one energy change triggers the next part of a system."
+            },
+            {
+              "id": "kp-333",
+              "number": 333,
+              "displayNumber": 333,
+              "titleHtml": "KP2: System design",
+              "title": "KP2: System design",
+              "coreHtml": "The design of a system affects how energy is transferred and transformed.",
+              "core": "The design of a system affects how energy is transferred and transformed.",
+              "applicationHtml": "Improve a machine by reducing unwanted energy losses or making transfers more reliable.",
+              "application": "Improve a machine by reducing unwanted energy losses or making transfers more reliable."
+            },
+            {
+              "id": "kp-334",
+              "number": 334,
+              "displayNumber": 334,
+              "titleHtml": "KP3: Energy evidence",
+              "title": "KP3: Energy evidence",
+              "coreHtml": "Motion, sound, height change, collision, and deformation can provide evidence of energy transfer or transformation.",
+              "core": "Motion, sound, height change, collision, and deformation can provide evidence of energy transfer or transformation.",
+              "applicationHtml": "Record visible and audible evidence to explain how the machine works.",
+              "application": "Record visible and audible evidence to explain how the machine works."
+            }
+          ]
+        },
+        {
+          "id": "optional-investigation-investigation-3-b-investigating-energy-transformation-and-transfer-p-217",
+          "titleHtml": "Optional Investigation — Investigation 3-B: Investigating Energy Transformation and Transfer — p.217",
+          "title": "Optional Investigation — Investigation 3-B: Investigating Energy Transformation and Transfer — p.217",
+          "kps": [
+            {
+              "id": "kp-335",
+              "number": 335,
+              "displayNumber": 335,
+              "titleHtml": "KP1: Observing energy transformation",
+              "title": "KP1: Observing energy transformation",
+              "coreHtml": "Energy transformation can be investigated by observing how a system changes form or motion.",
+              "core": "Energy transformation can be investigated by observing how a system changes form or motion.",
+              "applicationHtml": "Describe how energy changes form during a hands-on system.",
+              "application": "Describe how energy changes form during a hands-on system."
+            },
+            {
+              "id": "kp-336",
+              "number": 336,
+              "displayNumber": 336,
+              "titleHtml": "KP2: Observing energy transfer",
+              "title": "KP2: Observing energy transfer",
+              "coreHtml": "Energy transfer can be investigated by observing how energy moves between parts of a system or to surroundings.",
+              "core": "Energy transfer can be investigated by observing how energy moves between parts of a system or to surroundings.",
+              "applicationHtml": "Track where energy moves during an investigation.",
+              "application": "Track where energy moves during an investigation."
+            },
+            {
+              "id": "kp-337",
+              "number": 337,
+              "displayNumber": 337,
+              "titleHtml": "KP3: Variables affecting energy",
+              "title": "KP3: Variables affecting energy",
+              "coreHtml": "Design variables can change how much energy is transferred or transformed.",
+              "core": "Design variables can change how much energy is transferred or transformed.",
+              "applicationHtml": "Identify which design changes affect system performance.",
+              "application": "Identify which design changes affect system performance."
+            }
+          ]
+        },
+        {
+          "id": "optional-investigation-investigation-3-c-roller-coaster-physics-p-218-219",
+          "titleHtml": "Optional Investigation — Investigation 3-C: Roller Coaster Physics — p.218–219",
+          "title": "Optional Investigation — Investigation 3-C: Roller Coaster Physics — p.218–219",
+          "kps": [
+            {
+              "id": "kp-338",
+              "number": 338,
+              "displayNumber": 338,
+              "titleHtml": "KP1: Roller coaster energy changes",
+              "title": "KP1: Roller coaster energy changes",
+              "coreHtml": "Roller coasters transform gravitational potential energy into mechanical kinetic energy and back again.",
+              "core": "Roller coasters transform gravitational potential energy into mechanical kinetic energy and back again.",
+              "applicationHtml": "Analyze energy changes at the top, bottom, and middle of hills.",
+              "application": "Analyze energy changes at the top, bottom, and middle of hills."
+            },
+            {
+              "id": "kp-339",
+              "number": 339,
+              "displayNumber": 339,
+              "titleHtml": "KP2: Track height and speed",
+              "title": "KP2: Track height and speed",
+              "coreHtml": "Higher positions have more gravitational potential energy, while faster motion has more mechanical kinetic energy.",
+              "core": "Higher positions have more gravitational potential energy, while faster motion has more mechanical kinetic energy.",
+              "applicationHtml": "Predict where a coaster has maximum \\(E_g\\) and maximum \\(E_k\\).",
+              "application": "Predict where a coaster has maximum \\(E g\\) and maximum \\(E k\\)."
+            },
+            {
+              "id": "kp-340",
+              "number": 340,
+              "displayNumber": 340,
+              "titleHtml": "KP3: Friction and realistic motion",
+              "title": "KP3: Friction and realistic motion",
+              "coreHtml": "Friction transforms some mechanical energy into thermal and sound energy.",
+              "core": "Friction transforms some mechanical energy into thermal and sound energy.",
+              "applicationHtml": "Explain why real roller coasters cannot keep reaching the same height without added energy.",
+              "application": "Explain why real roller coasters cannot keep reaching the same height without added energy."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chapter-3-2",
+      "number": "3-2",
+      "titleHtml": "Chapter 3.2: How is energy transformed?",
+      "title": "Chapter 3.2: How is energy transformed?",
+      "kpCount": 38,
+      "concepts": [
+        {
+          "id": "3-2-concept-1-energy-is-transformed-in-chemical-reactions-p-222-227",
+          "titleHtml": "3.2 Concept 1: Energy is transformed in chemical reactions — p.222–227",
+          "title": "3.2 Concept 1: Energy is transformed in chemical reactions — p.222–227",
+          "kps": [
+            {
+              "id": "kp-341",
+              "number": 341,
+              "displayNumber": 341,
+              "titleHtml": "KP1: Chemical potential energy",
+              "title": "KP1: Chemical potential energy",
+              "coreHtml": "Chemical reactions can transform energy stored in chemical bonds into other forms of energy.",
+              "core": "Chemical reactions can transform energy stored in chemical bonds into other forms of energy.",
+              "applicationHtml": "Identify chemical potential energy as the stored energy source in fuels, food, and biological molecules.",
+              "application": "Identify chemical potential energy as the stored energy source in fuels, food, and biological molecules."
+            },
+            {
+              "id": "kp-342",
+              "number": 342,
+              "displayNumber": 342,
+              "titleHtml": "KP2: System and surroundings in chemical reactions",
+              "title": "KP2: System and surroundings in chemical reactions",
+              "coreHtml": "In a chemical reaction, the reacting materials are the system, and energy is released to or absorbed from the surroundings.",
+              "core": "In a chemical reaction, the reacting materials are the system, and energy is released to or absorbed from the surroundings.",
+              "applicationHtml": "Track whether energy moves from the system to the surroundings or from the surroundings into the system.",
+              "application": "Track whether energy moves from the system to the surroundings or from the surroundings into the system."
+            },
+            {
+              "id": "kp-343",
+              "number": 343,
+              "displayNumber": 343,
+              "titleHtml": "KP3: Bond energy and reaction energy",
+              "title": "KP3: Bond energy and reaction energy",
+              "coreHtml": "The amount of energy transformed depends on the nature of the chemical bonds in the reactants and products.",
+              "core": "The amount of energy transformed depends on the nature of the chemical bonds in the reactants and products.",
+              "applicationHtml": "Compare reactant and product chemical potential energy to predict energy release or absorption.",
+              "application": "Compare reactant and product chemical potential energy to predict energy release or absorption."
+            },
+            {
+              "id": "kp-344",
+              "number": 344,
+              "displayNumber": 344,
+              "titleHtml": "KP4: Exothermic and endothermic reactions",
+              "title": "KP4: Exothermic and endothermic reactions",
+              "coreHtml": "If reactants have higher chemical potential energy than products, the reaction is exothermic; if reactants have lower chemical potential energy than products, the reaction is endothermic.",
+              "core": "If reactants have higher chemical potential energy than products, the reaction is exothermic; if reactants have lower chemical potential energy than products, the reaction is endothermic.",
+              "applicationHtml": "Classify reactions by comparing energy stored before and after the reaction.",
+              "application": "Classify reactions by comparing energy stored before and after the reaction."
+            },
+            {
+              "id": "kp-345",
+              "number": 345,
+              "displayNumber": 345,
+              "titleHtml": "KP5: Cellular respiration",
+              "title": "KP5: Cellular respiration",
+              "coreHtml": "Cellular respiration transforms chemical potential energy in glucose into ATP and other useful energy forms: \\(C_6H_{12}O_6 + 6O_2 \\rightarrow 6CO_2 + 6H_2O + \\text{energy}\\).",
+              "core": "Cellular respiration transforms chemical potential energy in glucose into ATP and other useful energy forms: \\(C 6H 12 O 6 + 6O 2 6CO 2 + 6H 2O + energy \\).",
+              "applicationHtml": "Explain how living things release energy from glucose in controlled steps instead of by burning.",
+              "application": "Explain how living things release energy from glucose in controlled steps instead of by burning."
+            },
+            {
+              "id": "kp-346",
+              "number": 346,
+              "displayNumber": 346,
+              "titleHtml": "KP6: Photosynthesis",
+              "title": "KP6: Photosynthesis",
+              "coreHtml": "Photosynthesis transforms light energy into chemical potential energy stored in glucose: \\(6CO_2 + 6H_2O + \\text{energy} \\rightarrow C_6H_{12}O_6 + 6O_2\\).",
+              "core": "Photosynthesis transforms light energy into chemical potential energy stored in glucose: \\(6CO 2 + 6H 2O + energy C 6H 12 O 6 + 6O 2\\).",
+              "applicationHtml": "Connect chlorophyll, light energy, ATP, and glucose production in plants.",
+              "application": "Connect chlorophyll, light energy, ATP, and glucose production in plants."
+            },
+            {
+              "id": "kp-347",
+              "number": 347,
+              "displayNumber": 347,
+              "titleHtml": "KP7: Fossil fuels and fuel cells",
+              "title": "KP7: Fossil fuels and fuel cells",
+              "coreHtml": "Fossil fuels store chemical potential energy from ancient solar energy, while fuel cells transform chemical potential energy directly into electrical energy.",
+              "core": "Fossil fuels store chemical potential energy from ancient solar energy, while fuel cells transform chemical potential energy directly into electrical energy.",
+              "applicationHtml": "Compare combustion of fossil fuels with hydrogen fuel cells in terms of energy transformation and pollution.",
+              "application": "Compare combustion of fossil fuels with hydrogen fuel cells in terms of energy transformation and pollution."
+            }
+          ]
+        },
+        {
+          "id": "3-2-concept-2-energy-is-transformed-in-nuclear-reactions-p-228-232",
+          "titleHtml": "3.2 Concept 2: Energy is transformed in nuclear reactions — p.228–232",
+          "title": "3.2 Concept 2: Energy is transformed in nuclear reactions — p.228–232",
+          "kps": [
+            {
+              "id": "kp-348",
+              "number": 348,
+              "displayNumber": 348,
+              "titleHtml": "KP1: Nuclear reactions",
+              "title": "KP1: Nuclear reactions",
+              "coreHtml": "Nuclear reactions involve changes in atomic nuclei and transform much more energy than chemical reactions.",
+              "core": "Nuclear reactions involve changes in atomic nuclei and transform much more energy than chemical reactions.",
+              "applicationHtml": "Distinguish chemical reactions, which rearrange atoms, from nuclear reactions, which change nuclei.",
+              "application": "Distinguish chemical reactions, which rearrange atoms, from nuclear reactions, which change nuclei."
+            },
+            {
+              "id": "kp-349",
+              "number": 349,
+              "displayNumber": 349,
+              "titleHtml": "KP2: Isotopes and radioactive isotopes",
+              "title": "KP2: Isotopes and radioactive isotopes",
+              "coreHtml": "Isotopes have the same number of protons but different numbers of neutrons; unstable isotopes are radioactive.",
+              "core": "Isotopes have the same number of protons but different numbers of neutrons; unstable isotopes are radioactive.",
+              "applicationHtml": "Explain why some nuclei emit particles or radiation to become more stable.",
+              "application": "Explain why some nuclei emit particles or radiation to become more stable."
+            },
+            {
+              "id": "kp-350",
+              "number": 350,
+              "displayNumber": 350,
+              "titleHtml": "KP3: Nuclear decay and radiation",
+              "title": "KP3: Nuclear decay and radiation",
+              "coreHtml": "Nuclear decay is a change to an atom due to emission of particles or radiation; radiation transfers energy as electromagnetic waves.",
+              "core": "Nuclear decay is a change to an atom due to emission of particles or radiation; radiation transfers energy as electromagnetic waves.",
+              "applicationHtml": "Connect radioactive decay to energy release from unstable nuclei.",
+              "application": "Connect radioactive decay to energy release from unstable nuclei."
+            },
+            {
+              "id": "kp-351",
+              "number": 351,
+              "displayNumber": 351,
+              "titleHtml": "KP4: Alpha, beta, and gamma decay",
+              "title": "KP4: Alpha, beta, and gamma decay",
+              "coreHtml": "Alpha decay emits a helium nucleus; beta decay emits a fast-moving electron; gamma decay emits a high-energy photon.",
+              "core": "Alpha decay emits a helium nucleus; beta decay emits a fast-moving electron; gamma decay emits a high-energy photon.",
+              "applicationHtml": "Compare how each decay type changes, or does not change, the atomic number and mass number.",
+              "application": "Compare how each decay type changes, or does not change, the atomic number and mass number."
+            },
+            {
+              "id": "kp-352",
+              "number": 352,
+              "displayNumber": 352,
+              "titleHtml": "KP5: Nuclear fission",
+              "title": "KP5: Nuclear fission",
+              "coreHtml": "Nuclear fission splits a heavy nucleus into smaller nuclei with the release of energy.",
+              "core": "Nuclear fission splits a heavy nucleus into smaller nuclei with the release of energy.",
+              "applicationHtml": "Describe how uranium-235 can split after absorbing a neutron.",
+              "application": "Describe how uranium-235 can split after absorbing a neutron."
+            },
+            {
+              "id": "kp-353",
+              "number": 353,
+              "displayNumber": 353,
+              "titleHtml": "KP6: Chain reactions and nuclear reactors",
+              "title": "KP6: Chain reactions and nuclear reactors",
+              "coreHtml": "A chain reaction occurs when neutrons from one fission reaction trigger more fission reactions.",
+              "core": "A chain reaction occurs when neutrons from one fission reaction trigger more fission reactions.",
+              "applicationHtml": "Explain how reactors control fission energy and transform thermal energy into electrical energy.",
+              "application": "Explain how reactors control fission energy and transform thermal energy into electrical energy."
+            },
+            {
+              "id": "kp-354",
+              "number": 354,
+              "displayNumber": 354,
+              "titleHtml": "KP7: Nuclear fusion",
+              "title": "KP7: Nuclear fusion",
+              "coreHtml": "Nuclear fusion combines very small nuclei into a larger nucleus and releases energy.",
+              "core": "Nuclear fusion combines very small nuclei into a larger nucleus and releases energy.",
+              "applicationHtml": "Compare fusion in the Sun with fission in reactors, including energy per unit mass and radioactive waste.",
+              "application": "Compare fusion in the Sun with fission in reactors, including energy per unit mass and radioactive waste."
+            }
+          ]
+        },
+        {
+          "id": "3-2-concept-3-energy-is-transformed-when-light-energy-interacts-with-matter-p-234-235",
+          "titleHtml": "3.2 Concept 3: Energy is transformed when light energy interacts with matter — p.234–235",
+          "title": "3.2 Concept 3: Energy is transformed when light energy interacts with matter — p.234–235",
+          "kps": [
+            {
+              "id": "kp-355",
+              "number": 355,
+              "displayNumber": 355,
+              "titleHtml": "KP1: Absorption",
+              "title": "KP1: Absorption",
+              "coreHtml": "Absorption occurs when energy is taken up by matter without being reflected or transmitted.",
+              "core": "Absorption occurs when energy is taken up by matter without being reflected or transmitted.",
+              "applicationHtml": "Identify absorption as the first step in many light-energy transformations.",
+              "application": "Identify absorption as the first step in many light-energy transformations."
+            },
+            {
+              "id": "kp-356",
+              "number": 356,
+              "displayNumber": 356,
+              "titleHtml": "KP2: Excited electrons",
+              "title": "KP2: Excited electrons",
+              "coreHtml": "When matter absorbs light energy, electrons can move to higher energy levels.",
+              "core": "When matter absorbs light energy, electrons can move to higher energy levels.",
+              "applicationHtml": "Explain how excited electrons allow light energy to become another form of energy.",
+              "application": "Explain how excited electrons allow light energy to become another form of energy."
+            },
+            {
+              "id": "kp-357",
+              "number": 357,
+              "displayNumber": 357,
+              "titleHtml": "KP3: Chlorophyll and high-energy bonds",
+              "title": "KP3: Chlorophyll and high-energy bonds",
+              "coreHtml": "Chlorophyll absorbs light energy, and this energy can be used to form high-energy chemical bonds.",
+              "core": "Chlorophyll absorbs light energy, and this energy can be used to form high-energy chemical bonds.",
+              "applicationHtml": "Connect light absorption to chemical potential energy storage in photosynthesis.",
+              "application": "Connect light absorption to chemical potential energy storage in photosynthesis."
+            },
+            {
+              "id": "kp-358",
+              "number": 358,
+              "displayNumber": 358,
+              "titleHtml": "KP4: Photovoltaic cells",
+              "title": "KP4: Photovoltaic cells",
+              "coreHtml": "Photovoltaic cells transform light energy directly into electrical kinetic energy.",
+              "core": "Photovoltaic cells transform light energy directly into electrical kinetic energy.",
+              "applicationHtml": "Explain how absorbed light frees electrons and produces electric current.",
+              "application": "Explain how absorbed light frees electrons and produces electric current."
+            },
+            {
+              "id": "kp-359",
+              "number": 359,
+              "displayNumber": 359,
+              "titleHtml": "KP5: Vision and rhodopsin",
+              "title": "KP5: Vision and rhodopsin",
+              "coreHtml": "Rhodopsin absorbs light energy, causing molecular changes that begin an electrical signal to the brain.",
+              "core": "Rhodopsin absorbs light energy, causing molecular changes that begin an electrical signal to the brain.",
+              "applicationHtml": "Trace light energy transformation from retina cells to nerve signals.",
+              "application": "Trace light energy transformation from retina cells to nerve signals."
+            },
+            {
+              "id": "kp-360",
+              "number": 360,
+              "displayNumber": 360,
+              "titleHtml": "KP6: Light-energy transformation in different systems",
+              "title": "KP6: Light-energy transformation in different systems",
+              "coreHtml": "The way absorbed light energy is used depends on the properties and location of the absorbing molecule or material.",
+              "core": "The way absorbed light energy is used depends on the properties and location of the absorbing molecule or material.",
+              "applicationHtml": "Compare chlorophyll, photovoltaic cells, and human vision as examples of light-energy transformation.",
+              "application": "Compare chlorophyll, photovoltaic cells, and human vision as examples of light-energy transformation."
+            }
+          ]
+        },
+        {
+          "id": "optional-extension-at-issue-effects-of-radiation-on-living-tissues-p-233",
+          "titleHtml": "Optional Extension — At Issue: Effects of Radiation on Living Tissues — p.233",
+          "title": "Optional Extension — At Issue: Effects of Radiation on Living Tissues — p.233",
+          "kps": [
+            {
+              "id": "kp-361",
+              "number": 361,
+              "displayNumber": 361,
+              "titleHtml": "KP1: Ionizing radiation",
+              "title": "KP1: Ionizing radiation",
+              "coreHtml": "Ionizing radiation can remove electrons from atoms and break chemical bonds.",
+              "core": "Ionizing radiation can remove electrons from atoms and break chemical bonds.",
+              "applicationHtml": "Explain how radiation can damage molecules, cells, tissues, and organs.",
+              "application": "Explain how radiation can damage molecules, cells, tissues, and organs."
+            },
+            {
+              "id": "kp-362",
+              "number": 362,
+              "displayNumber": 362,
+              "titleHtml": "KP2: Alpha radiation risk",
+              "title": "KP2: Alpha radiation risk",
+              "coreHtml": "Alpha particles have high mass and charge, so they deposit energy near the surface they strike.",
+              "core": "Alpha particles have high mass and charge, so they deposit energy near the surface they strike.",
+              "applicationHtml": "Distinguish low external skin risk from high internal risk if alpha emitters are inhaled or ingested.",
+              "application": "Distinguish low external skin risk from high internal risk if alpha emitters are inhaled or ingested."
+            },
+            {
+              "id": "kp-363",
+              "number": 363,
+              "displayNumber": 363,
+              "titleHtml": "KP3: Beta radiation risk",
+              "title": "KP3: Beta radiation risk",
+              "coreHtml": "Beta particles can penetrate the surface of matter and damage living tissue.",
+              "core": "Beta particles can penetrate the surface of matter and damage living tissue.",
+              "applicationHtml": "Explain why beta radiation can cause serious skin burns and is more dangerous if inhaled or ingested.",
+              "application": "Explain why beta radiation can cause serious skin burns and is more dangerous if inhaled or ingested."
+            },
+            {
+              "id": "kp-364",
+              "number": 364,
+              "displayNumber": 364,
+              "titleHtml": "KP4: Gamma radiation risk",
+              "title": "KP4: Gamma radiation risk",
+              "coreHtml": "Gamma rays have no mass or charge and can pass deeply through dense matter before interacting.",
+              "core": "Gamma rays have no mass or charge and can pass deeply through dense matter before interacting.",
+              "applicationHtml": "Explain why gamma radiation can ionize atoms anywhere in the body.",
+              "application": "Explain why gamma radiation can ionize atoms anywhere in the body."
+            }
+          ]
+        },
+        {
+          "id": "optional-extension-science-at-work-focus-on-physics-p-236",
+          "titleHtml": "Optional Extension — Science at Work: Focus on Physics — p.236",
+          "title": "Optional Extension — Science at Work: Focus on Physics — p.236",
+          "kps": [
+            {
+              "id": "kp-365",
+              "number": 365,
+              "displayNumber": 365,
+              "titleHtml": "KP1: Energy transformation careers",
+              "title": "KP1: Energy transformation careers",
+              "coreHtml": "Physics-related careers often require understanding how energy changes form or moves between systems.",
+              "core": "Physics-related careers often require understanding how energy changes form or moves between systems.",
+              "applicationHtml": "Connect energy transformation to work in audiology, radiation protection, biomedical engineering, oceanography, materials design, meteorology, and archaeology.",
+              "application": "Connect energy transformation to work in audiology, radiation protection, biomedical engineering, oceanography, materials design, meteorology, and archaeology."
+            },
+            {
+              "id": "kp-366",
+              "number": 366,
+              "displayNumber": 366,
+              "titleHtml": "KP2: Energy tools and technologies",
+              "title": "KP2: Energy tools and technologies",
+              "coreHtml": "Technologies such as radar, magnetometers, radiation protection systems, and weather instruments depend on energy transfer or transformation.",
+              "core": "Technologies such as radar, magnetometers, radiation protection systems, and weather instruments depend on energy transfer or transformation.",
+              "applicationHtml": "Identify how physics concepts support real-world investigation, safety, design, and prediction.",
+              "application": "Identify how physics concepts support real-world investigation, safety, design, and prediction."
+            }
+          ]
+        },
+        {
+          "id": "optional-extension-make-a-difference-take-action-transforming-solar-energy-to-make-a-difference-in-remote-areas-p-237",
+          "titleHtml": "Optional Extension — Make a Difference: Take Action — Transforming Solar Energy to Make a Difference in Remote Areas — p.237",
+          "title": "Optional Extension — Make a Difference: Take Action — Transforming Solar Energy to Make a Difference in Remote Areas — p.237",
+          "kps": [
+            {
+              "id": "kp-367",
+              "number": 367,
+              "displayNumber": 367,
+              "titleHtml": "KP1: Solar energy access",
+              "title": "KP1: Solar energy access",
+              "coreHtml": "Solar-energy technologies can help provide electricity, clean water, and emergency supplies in remote or underserved areas.",
+              "core": "Solar-energy technologies can help provide electricity, clean water, and emergency supplies in remote or underserved areas.",
+              "applicationHtml": "Connect energy transformation to practical needs in rural communities and disaster relief.",
+              "application": "Connect energy transformation to practical needs in rural communities and disaster relief."
+            },
+            {
+              "id": "kp-368",
+              "number": 368,
+              "displayNumber": 368,
+              "titleHtml": "KP2: Solar-powered community technologies",
+              "title": "KP2: Solar-powered community technologies",
+              "coreHtml": "Solar devices can transform sunlight into electrical energy or use sunlight and gravity to support water filtration.",
+              "core": "Solar devices can transform sunlight into electrical energy or use sunlight and gravity to support water filtration.",
+              "applicationHtml": "Compare the Energy Hub and SunSaluter as technologies that use solar energy for community benefit.",
+              "application": "Compare the Energy Hub and SunSaluter as technologies that use solar energy for community benefit."
+            },
+            {
+              "id": "kp-369",
+              "number": 369,
+              "displayNumber": 369,
+              "titleHtml": "KP3: Solarships and sustainable delivery",
+              "title": "KP3: Solarships and sustainable delivery",
+              "coreHtml": "Solarships combine buoyant lift, solar panels, and compact aircraft design to deliver supplies to remote areas.",
+              "core": "Solarships combine buoyant lift, solar panels, and compact aircraft design to deliver supplies to remote areas.",
+              "applicationHtml": "Evaluate how solar energy can reduce reliance on fossil fuels in transportation.",
+              "application": "Evaluate how solar energy can reduce reliance on fossil fuels in transportation."
+            }
+          ]
+        },
+        {
+          "id": "optional-extension-at-issue-storing-energy-in-salt-p-238",
+          "titleHtml": "Optional Extension — At Issue: Storing Energy in Salt — p.238",
+          "title": "Optional Extension — At Issue: Storing Energy in Salt — p.238",
+          "kps": [
+            {
+              "id": "kp-370",
+              "number": 370,
+              "displayNumber": 370,
+              "titleHtml": "KP1: Solar energy storage problem",
+              "title": "KP1: Solar energy storage problem",
+              "coreHtml": "Solar-to-electrical energy transformation is reduced at night and on cloudy days.",
+              "core": "Solar-to-electrical energy transformation is reduced at night and on cloudy days.",
+              "applicationHtml": "Explain why large-scale solar power needs an energy-storage method.",
+              "application": "Explain why large-scale solar power needs an energy-storage method."
+            },
+            {
+              "id": "kp-371",
+              "number": 371,
+              "displayNumber": 371,
+              "titleHtml": "KP2: Molten salt as thermal storage",
+              "title": "KP2: Molten salt as thermal storage",
+              "coreHtml": "Mirrors can focus sunlight onto a tower where molten salt absorbs solar energy and stores it as thermal energy.",
+              "core": "Mirrors can focus sunlight onto a tower where molten salt absorbs solar energy and stores it as thermal energy.",
+              "applicationHtml": "Trace energy transformation from sunlight to heated salt.",
+              "application": "Trace energy transformation from sunlight to heated salt."
+            },
+            {
+              "id": "kp-372",
+              "number": 372,
+              "displayNumber": 372,
+              "titleHtml": "KP3: Stored thermal energy to electricity",
+              "title": "KP3: Stored thermal energy to electricity",
+              "coreHtml": "Heated molten salt can later boil water into steam that drives a turbine to generate electrical energy.",
+              "core": "Heated molten salt can later boil water into steam that drives a turbine to generate electrical energy.",
+              "applicationHtml": "Explain how stored thermal energy can help a solar power plant operate when sunlight is unavailable.",
+              "application": "Explain how stored thermal energy can help a solar power plant operate when sunlight is unavailable."
+            }
+          ]
+        },
+        {
+          "id": "optional-investigation-investigation-3-d-solar-cooker-challenge-p-240",
+          "titleHtml": "Optional Investigation — Investigation 3-D: Solar Cooker Challenge — p.240",
+          "title": "Optional Investigation — Investigation 3-D: Solar Cooker Challenge — p.240",
+          "kps": [
+            {
+              "id": "kp-373",
+              "number": 373,
+              "displayNumber": 373,
+              "titleHtml": "KP1: Solar cooker design",
+              "title": "KP1: Solar cooker design",
+              "coreHtml": "A solar cooker uses reflected and absorbed solar energy to heat water or food.",
+              "core": "A solar cooker uses reflected and absorbed solar energy to heat water or food.",
+              "applicationHtml": "Design a device that concentrates sunlight safely and effectively.",
+              "application": "Design a device that concentrates sunlight safely and effectively."
+            },
+            {
+              "id": "kp-374",
+              "number": 374,
+              "displayNumber": 374,
+              "titleHtml": "KP2: Energy transfer and transformation",
+              "title": "KP2: Energy transfer and transformation",
+              "coreHtml": "Solar energy can be reflected, absorbed, transformed into thermal energy, and transferred to water.",
+              "core": "Solar energy can be reflected, absorbed, transformed into thermal energy, and transferred to water.",
+              "applicationHtml": "Explain how cooker shape, material, orientation, and container design affect heating.",
+              "application": "Explain how cooker shape, material, orientation, and container design affect heating."
+            },
+            {
+              "id": "kp-375",
+              "number": 375,
+              "displayNumber": 375,
+              "titleHtml": "KP3: Design testing and improvement",
+              "title": "KP3: Design testing and improvement",
+              "coreHtml": "Engineering design improves through testing, comparing results, and modifying variables.",
+              "core": "Engineering design improves through testing, comparing results, and modifying variables.",
+              "applicationHtml": "Use boiling time or temperature change as evidence for improving a solar cooker.",
+              "application": "Use boiling time or temperature change as evidence for improving a solar cooker."
+            }
+          ]
+        },
+        {
+          "id": "optional-investigation-investigation-3-e-fission-versus-fusion-p-241",
+          "titleHtml": "Optional Investigation — Investigation 3-E: Fission versus Fusion — p.241",
+          "title": "Optional Investigation — Investigation 3-E: Fission versus Fusion — p.241",
+          "kps": [
+            {
+              "id": "kp-376",
+              "number": 376,
+              "displayNumber": 376,
+              "titleHtml": "KP1: Comparing nuclear processes",
+              "title": "KP1: Comparing nuclear processes",
+              "coreHtml": "Fission splits heavy nuclei, while fusion combines light nuclei.",
+              "core": "Fission splits heavy nuclei, while fusion combines light nuclei.",
+              "applicationHtml": "Create a clear comparison of reaction type, energy output, conditions, products, and waste.",
+              "application": "Create a clear comparison of reaction type, energy output, conditions, products, and waste."
+            },
+            {
+              "id": "kp-377",
+              "number": 377,
+              "displayNumber": 377,
+              "titleHtml": "KP2: Nuclear energy decisions",
+              "title": "KP2: Nuclear energy decisions",
+              "coreHtml": "Fission is currently used for electrical energy generation because it can be controlled, while fusion remains difficult to control.",
+              "core": "Fission is currently used for electrical energy generation because it can be controlled, while fusion remains difficult to control.",
+              "applicationHtml": "Explain why current nuclear power relies on fission rather than fusion.",
+              "application": "Explain why current nuclear power relies on fission rather than fusion."
+            },
+            {
+              "id": "kp-378",
+              "number": 378,
+              "displayNumber": 378,
+              "titleHtml": "KP3: Public communication about nuclear energy",
+              "title": "KP3: Public communication about nuclear energy",
+              "coreHtml": "Scientific explanations of fission and fusion should be accurate, balanced, and appropriate for the audience.",
+              "core": "Scientific explanations of fission and fusion should be accurate, balanced, and appropriate for the audience.",
+              "applicationHtml": "Prepare educational material that compares benefits, risks, limitations, and future possibilities.",
+              "application": "Prepare educational material that compares benefits, risks, limitations, and future possibilities."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chapter-3-3",
+      "number": "3-3",
+      "titleHtml": "Chapter 3.3: How does energy transformation affect global systems?",
+      "title": "Chapter 3.3: How does energy transformation affect global systems?",
+      "kpCount": 45,
+      "concepts": [
+        {
+          "id": "3-3-concept-1-earth-is-a-system-in-which-energy-is-transformed-p-244-245",
+          "titleHtml": "3.3 Concept 1: Earth is a system in which energy is transformed — p.244–245",
+          "title": "3.3 Concept 1: Earth is a system in which energy is transformed — p.244–245",
+          "kps": [
+            {
+              "id": "kp-379",
+              "number": 379,
+              "displayNumber": 379,
+              "titleHtml": "KP1: Earth as a system",
+              "title": "KP1: Earth as a system",
+              "coreHtml": "Earth can be considered a system because its processes can be observed and analyzed together.",
+              "core": "Earth can be considered a system because its processes can be observed and analyzed together.",
+              "applicationHtml": "Define Earth, or part of Earth, as the system before tracking energy transformations.",
+              "application": "Define Earth, or part of Earth, as the system before tracking energy transformations."
+            },
+            {
+              "id": "kp-380",
+              "number": 380,
+              "displayNumber": 380,
+              "titleHtml": "KP2: Energy transformations in Earth processes",
+              "title": "KP2: Energy transformations in Earth processes",
+              "coreHtml": "Earth’s wind, weather, tides, currents, volcanic activity, mountain building, and life processes depend on energy transformation.",
+              "core": "Earth’s wind, weather, tides, currents, volcanic activity, mountain building, and life processes depend on energy transformation.",
+              "applicationHtml": "Connect visible Earth processes to energy changing form.",
+              "application": "Connect visible Earth processes to energy changing form."
+            },
+            {
+              "id": "kp-381",
+              "number": 381,
+              "displayNumber": 381,
+              "titleHtml": "KP3: Solar energy in Earth’s system",
+              "title": "KP3: Solar energy in Earth’s system",
+              "coreHtml": "Solar energy drives movement of water in the atmosphere, hydrosphere, and over land, and sustains most life on Earth.",
+              "core": "Solar energy drives movement of water in the atmosphere, hydrosphere, and over land, and sustains most life on Earth.",
+              "applicationHtml": "Identify solar energy as the largest energy input affecting Earth’s surface systems.",
+              "application": "Identify solar energy as the largest energy input affecting Earth’s surface systems."
+            },
+            {
+              "id": "kp-382",
+              "number": 382,
+              "displayNumber": 382,
+              "titleHtml": "KP4: Gravitational potential energy in Earth’s system",
+              "title": "KP4: Gravitational potential energy in Earth’s system",
+              "coreHtml": "Gravitational potential energy helps move water, including through tides caused by the Moon’s gravitational influence.",
+              "core": "Gravitational potential energy helps move water, including through tides caused by the Moon’s gravitational influence.",
+              "applicationHtml": "Connect tides and water movement to gravitational energy transformations.",
+              "application": "Connect tides and water movement to gravitational energy transformations."
+            },
+            {
+              "id": "kp-383",
+              "number": 383,
+              "displayNumber": 383,
+              "titleHtml": "KP5: Nuclear energy in Earth’s system",
+              "title": "KP5: Nuclear energy in Earth’s system",
+              "coreHtml": "Nuclear energy from radioactive decay in Earth’s crust and mantle transforms into thermal energy.",
+              "core": "Nuclear energy from radioactive decay in Earth’s crust and mantle transforms into thermal energy.",
+              "applicationHtml": "Connect radioactive decay to volcanic activity, tectonic plate movement, geysers, and hot springs.",
+              "application": "Connect radioactive decay to volcanic activity, tectonic plate movement, geysers, and hot springs."
+            },
+            {
+              "id": "kp-384",
+              "number": 384,
+              "displayNumber": 384,
+              "titleHtml": "KP6: Relative energy impact",
+              "title": "KP6: Relative energy impact",
+              "coreHtml": "Solar energy transformation has the greatest impact on Earth’s system compared with gravitational and nuclear energy sources.",
+              "core": "Solar energy transformation has the greatest impact on Earth’s system compared with gravitational and nuclear energy sources.",
+              "applicationHtml": "Prioritize solar energy when explaining large-scale atmospheric, hydrosphere, and life-supporting processes.",
+              "application": "Prioritize solar energy when explaining large-scale atmospheric, hydrosphere, and life-supporting processes."
+            }
+          ]
+        },
+        {
+          "id": "3-3-concept-2-earth-s-atmosphere-is-heated-by-the-transformation-and-transfer-of-solar-energy-and-thermal-energy-p-246-249",
+          "titleHtml": "3.3 Concept 2: Earth’s atmosphere is heated by the transformation and transfer of solar energy and thermal energy — p.246–249",
+          "title": "3.3 Concept 2: Earth’s atmosphere is heated by the transformation and transfer of solar energy and thermal energy — p.246–249",
+          "kps": [
+            {
+              "id": "kp-385",
+              "number": 385,
+              "displayNumber": 385,
+              "titleHtml": "KP1: Solar radiation",
+              "title": "KP1: Solar radiation",
+              "coreHtml": "Solar energy reaches Earth as electromagnetic radiation, including visible light, infrared radiation, and ultraviolet radiation.",
+              "core": "Solar energy reaches Earth as electromagnetic radiation, including visible light, infrared radiation, and ultraviolet radiation.",
+              "applicationHtml": "Identify incoming solar energy as radiation that can interact with air, water, land, and living things.",
+              "application": "Identify incoming solar energy as radiation that can interact with air, water, land, and living things."
+            },
+            {
+              "id": "kp-386",
+              "number": 386,
+              "displayNumber": 386,
+              "titleHtml": "KP2: Absorption and reflection",
+              "title": "KP2: Absorption and reflection",
+              "coreHtml": "Some incoming solar energy is absorbed by Earth’s surface, while some is reflected back toward space.",
+              "core": "Some incoming solar energy is absorbed by Earth’s surface, while some is reflected back toward space.",
+              "applicationHtml": "Use absorption and reflection to explain why Earth does not absorb all incoming solar energy.",
+              "application": "Use absorption and reflection to explain why Earth does not absorb all incoming solar energy."
+            },
+            {
+              "id": "kp-387",
+              "number": 387,
+              "displayNumber": 387,
+              "titleHtml": "KP3: Radiation from Earth’s surface",
+              "title": "KP3: Radiation from Earth’s surface",
+              "coreHtml": "Absorbed solar energy can be transformed into thermal energy and radiated again as infrared radiation.",
+              "core": "Absorbed solar energy can be transformed into thermal energy and radiated again as infrared radiation.",
+              "applicationHtml": "Trace energy from incoming sunlight to thermal energy leaving Earth’s surface.",
+              "application": "Trace energy from incoming sunlight to thermal energy leaving Earth’s surface."
+            },
+            {
+              "id": "kp-388",
+              "number": 388,
+              "displayNumber": 388,
+              "titleHtml": "KP4: Greenhouse gases",
+              "title": "KP4: Greenhouse gases",
+              "coreHtml": "Greenhouse gases such as carbon dioxide, water vapour, nitrous oxide, and methane absorb infrared radiation.",
+              "core": "Greenhouse gases such as carbon dioxide, water vapour, nitrous oxide, and methane absorb infrared radiation.",
+              "applicationHtml": "Explain how greenhouse gases help warm Earth’s atmosphere.",
+              "application": "Explain how greenhouse gases help warm Earth’s atmosphere."
+            },
+            {
+              "id": "kp-389",
+              "number": 389,
+              "displayNumber": 389,
+              "titleHtml": "KP5: Greenhouse effect",
+              "title": "KP5: Greenhouse effect",
+              "coreHtml": "The greenhouse effect helps keep Earth’s average temperature moderate enough for life.",
+              "core": "The greenhouse effect helps keep Earth’s average temperature moderate enough for life.",
+              "applicationHtml": "Explain why Earth would be much colder without naturally occurring greenhouse gases.",
+              "application": "Explain why Earth would be much colder without naturally occurring greenhouse gases."
+            },
+            {
+              "id": "kp-390",
+              "number": 390,
+              "displayNumber": 390,
+              "titleHtml": "KP6: Conduction",
+              "title": "KP6: Conduction",
+              "coreHtml": "Conduction is the transfer of thermal energy between substances that are touching.",
+              "core": "Conduction is the transfer of thermal energy between substances that are touching.",
+              "applicationHtml": "Explain how warm land or water transfers thermal energy to nearby air molecules.",
+              "application": "Explain how warm land or water transfers thermal energy to nearby air molecules."
+            },
+            {
+              "id": "kp-391",
+              "number": 391,
+              "displayNumber": 391,
+              "titleHtml": "KP7: Convection",
+              "title": "KP7: Convection",
+              "coreHtml": "Convection is the transfer of thermal energy by the movement of heated fluids, including gases and liquids.",
+              "core": "Convection is the transfer of thermal energy by the movement of heated fluids, including gases and liquids.",
+              "applicationHtml": "Explain how warm, less-dense air rises and cooler, denser air sinks in the atmosphere.",
+              "application": "Explain how warm, less-dense air rises and cooler, denser air sinks in the atmosphere."
+            }
+          ]
+        },
+        {
+          "id": "3-3-concept-3-energy-transfer-and-energy-transformation-moderate-earth-s-temperature-p-250-251",
+          "titleHtml": "3.3 Concept 3: Energy transfer and energy transformation moderate Earth’s temperature — p.250–251",
+          "title": "3.3 Concept 3: Energy transfer and energy transformation moderate Earth’s temperature — p.250–251",
+          "kps": [
+            {
+              "id": "kp-392",
+              "number": 392,
+              "displayNumber": 392,
+              "titleHtml": "KP1: Water cycle and energy movement",
+              "title": "KP1: Water cycle and energy movement",
+              "coreHtml": "The water cycle moves water and energy among the hydrosphere, geosphere, and atmosphere.",
+              "core": "The water cycle moves water and energy among the hydrosphere, geosphere, and atmosphere.",
+              "applicationHtml": "Track both water and energy through evaporation, transpiration, condensation, and precipitation.",
+              "application": "Track both water and energy through evaporation, transpiration, condensation, and precipitation."
+            },
+            {
+              "id": "kp-393",
+              "number": 393,
+              "displayNumber": 393,
+              "titleHtml": "KP2: Evaporation",
+              "title": "KP2: Evaporation",
+              "coreHtml": "During evaporation, solar energy is transformed into thermal energy as water molecules move faster and enter the atmosphere as vapour.",
+              "core": "During evaporation, solar energy is transformed into thermal energy as water molecules move faster and enter the atmosphere as vapour.",
+              "applicationHtml": "Explain how evaporation moves thermal energy away from Earth’s surface.",
+              "application": "Explain how evaporation moves thermal energy away from Earth’s surface."
+            },
+            {
+              "id": "kp-394",
+              "number": 394,
+              "displayNumber": 394,
+              "titleHtml": "KP3: Transpiration",
+              "title": "KP3: Transpiration",
+              "coreHtml": "Transpiration releases water vapour from plants into the atmosphere and moves thermal energy with it.",
+              "core": "Transpiration releases water vapour from plants into the atmosphere and moves thermal energy with it.",
+              "applicationHtml": "Connect plant processes to energy movement in the atmosphere.",
+              "application": "Connect plant processes to energy movement in the atmosphere."
+            },
+            {
+              "id": "kp-395",
+              "number": 395,
+              "displayNumber": 395,
+              "titleHtml": "KP4: Condensation",
+              "title": "KP4: Condensation",
+              "coreHtml": "As water vapour rises, cools, and condenses, thermal energy is released to the atmosphere.",
+              "core": "As water vapour rises, cools, and condenses, thermal energy is released to the atmosphere.",
+              "applicationHtml": "Explain how cloud formation transfers energy to air molecules.",
+              "application": "Explain how cloud formation transfers energy to air molecules."
+            },
+            {
+              "id": "kp-396",
+              "number": 396,
+              "displayNumber": 396,
+              "titleHtml": "KP5: Precipitation and gravitational energy",
+              "title": "KP5: Precipitation and gravitational energy",
+              "coreHtml": "During precipitation, gravitational potential energy transforms into mechanical kinetic energy as water falls and flows downhill.",
+              "core": "During precipitation, gravitational potential energy transforms into mechanical kinetic energy as water falls and flows downhill.",
+              "applicationHtml": "Connect rain, snow, runoff, and flowing water to energy transformation.",
+              "application": "Connect rain, snow, runoff, and flowing water to energy transformation."
+            },
+            {
+              "id": "kp-397",
+              "number": 397,
+              "displayNumber": 397,
+              "titleHtml": "KP6: Specific heat capacity",
+              "title": "KP6: Specific heat capacity",
+              "coreHtml": "Specific heat capacity is the amount of energy needed to change the temperature of \\(1\\,g\\) of a substance by \\(1^\\circ C\\).",
+              "core": "Specific heat capacity is the amount of energy needed to change the temperature of \\(1\\,g\\) of a substance by \\(1 C\\).",
+              "applicationHtml": "Use specific heat capacity to compare how quickly different materials warm or cool.",
+              "application": "Use specific heat capacity to compare how quickly different materials warm or cool."
+            },
+            {
+              "id": "kp-398",
+              "number": 398,
+              "displayNumber": 398,
+              "titleHtml": "KP7: Oceans and temperature moderation",
+              "title": "KP7: Oceans and temperature moderation",
+              "coreHtml": "Water has a high specific heat capacity, so oceans can store large amounts of thermal energy with small temperature changes.",
+              "core": "Water has a high specific heat capacity, so oceans can store large amounts of thermal energy with small temperature changes.",
+              "applicationHtml": "Explain why coastal regions usually have cooler summers and warmer winters than inland regions.",
+              "application": "Explain why coastal regions usually have cooler summers and warmer winters than inland regions."
+            }
+          ]
+        },
+        {
+          "id": "3-3-concept-4-energy-transformation-and-transfer-can-harm-aquatic-and-terrestrial-ecosystems-p-252-253",
+          "titleHtml": "3.3 Concept 4: Energy transformation and transfer can harm aquatic and terrestrial ecosystems — p.252–253",
+          "title": "3.3 Concept 4: Energy transformation and transfer can harm aquatic and terrestrial ecosystems — p.252–253",
+          "kps": [
+            {
+              "id": "kp-399",
+              "number": 399,
+              "displayNumber": 399,
+              "titleHtml": "KP1: Harmful energy transformations",
+              "title": "KP1: Harmful energy transformations",
+              "coreHtml": "Energy transformations can harm ecosystems through natural events or human activities.",
+              "core": "Energy transformations can harm ecosystems through natural events or human activities.",
+              "applicationHtml": "Compare natural sources such as forest fires or volcanoes with human-caused impacts such as climate change or radiation exposure.",
+              "application": "Compare natural sources such as forest fires or volcanoes with human-caused impacts such as climate change or radiation exposure."
+            },
+            {
+              "id": "kp-400",
+              "number": 400,
+              "displayNumber": 400,
+              "titleHtml": "KP2: Human-induced greenhouse effect",
+              "title": "KP2: Human-induced greenhouse effect",
+              "coreHtml": "Human activities add greenhouse gases to the atmosphere, increasing Earth’s average temperature.",
+              "core": "Human activities add greenhouse gases to the atmosphere, increasing Earth’s average temperature.",
+              "applicationHtml": "Connect electrical generation, vehicles, heating homes, and industry to increased greenhouse gas emissions.",
+              "application": "Connect electrical generation, vehicles, heating homes, and industry to increased greenhouse gas emissions."
+            },
+            {
+              "id": "kp-401",
+              "number": 401,
+              "displayNumber": 401,
+              "titleHtml": "KP3: Aquatic ecosystems and temperature",
+              "title": "KP3: Aquatic ecosystems and temperature",
+              "coreHtml": "Aquatic organisms often thrive within specific temperature ranges, so warming water can disrupt ecosystems.",
+              "core": "Aquatic organisms often thrive within specific temperature ranges, so warming water can disrupt ecosystems.",
+              "applicationHtml": "Explain how species movement to cooler waters can affect food webs.",
+              "application": "Explain how species movement to cooler waters can affect food webs."
+            },
+            {
+              "id": "kp-402",
+              "number": 402,
+              "displayNumber": 402,
+              "titleHtml": "KP4: Coral bleaching",
+              "title": "KP4: Coral bleaching",
+              "coreHtml": "Warming oceans can cause corals to expel algae that provide food, leading to coral bleaching and death.",
+              "core": "Warming oceans can cause corals to expel algae that provide food, leading to coral bleaching and death.",
+              "applicationHtml": "Connect ocean temperature change to damage in reef habitats.",
+              "application": "Connect ocean temperature change to damage in reef habitats."
+            },
+            {
+              "id": "kp-403",
+              "number": 403,
+              "displayNumber": 403,
+              "titleHtml": "KP5: Food-web disruption",
+              "title": "KP5: Food-web disruption",
+              "coreHtml": "When prey species move because of warming waters, predators may lose reliable food sources.",
+              "core": "When prey species move because of warming waters, predators may lose reliable food sources.",
+              "applicationHtml": "Use the tufted puffin example to explain how warming ocean water can reduce survival of young animals.",
+              "application": "Use the tufted puffin example to explain how warming ocean water can reduce survival of young animals."
+            },
+            {
+              "id": "kp-404",
+              "number": 404,
+              "displayNumber": 404,
+              "titleHtml": "KP6: Radiation exposure in terrestrial ecosystems",
+              "title": "KP6: Radiation exposure in terrestrial ecosystems",
+              "coreHtml": "Terrestrial ecosystems can be strongly harmed by radioactive materials because these materials can accumulate in soil.",
+              "core": "Terrestrial ecosystems can be strongly harmed by radioactive materials because these materials can accumulate in soil.",
+              "applicationHtml": "Explain why radiation exposure may persist longer on land than in aquatic systems.",
+              "application": "Explain why radiation exposure may persist longer on land than in aquatic systems."
+            },
+            {
+              "id": "kp-405",
+              "number": 405,
+              "displayNumber": 405,
+              "titleHtml": "KP7: Nuclear accidents and ecosystem damage",
+              "title": "KP7: Nuclear accidents and ecosystem damage",
+              "coreHtml": "Radiation from nuclear accidents can damage organisms, cause mutations, and disrupt decomposition and nutrient cycling.",
+              "core": "Radiation from nuclear accidents can damage organisms, cause mutations, and disrupt decomposition and nutrient cycling.",
+              "applicationHtml": "Connect Fukushima and Chernobyl examples to long-term ecosystem effects.",
+              "application": "Connect Fukushima and Chernobyl examples to long-term ecosystem effects."
+            }
+          ]
+        },
+        {
+          "id": "optional-extension-at-issue-storing-nuclear-waste-safely-p-254",
+          "titleHtml": "Optional Extension — At Issue: Storing Nuclear Waste Safely — p.254",
+          "title": "Optional Extension — At Issue: Storing Nuclear Waste Safely — p.254",
+          "kps": [
+            {
+              "id": "kp-406",
+              "number": 406,
+              "displayNumber": 406,
+              "titleHtml": "KP1: Nuclear waste and radioactive decay",
+              "title": "KP1: Nuclear waste and radioactive decay",
+              "coreHtml": "Nuclear wastes contain radioactive isotopes that release harmful radiation through nuclear decay over time.",
+              "core": "Nuclear wastes contain radioactive isotopes that release harmful radiation through nuclear decay over time.",
+              "applicationHtml": "Explain why some nuclear waste remains hazardous for a long time.",
+              "application": "Explain why some nuclear waste remains hazardous for a long time."
+            },
+            {
+              "id": "kp-407",
+              "number": 407,
+              "displayNumber": 407,
+              "titleHtml": "KP2: Nuclear waste classification",
+              "title": "KP2: Nuclear waste classification",
+              "coreHtml": "Nuclear waste is classified by how much containment and isolation it requires.",
+              "core": "Nuclear waste is classified by how much containment and isolation it requires.",
+              "applicationHtml": "Distinguish low-level, intermediate-level, and high-level waste by storage needs.",
+              "application": "Distinguish low-level, intermediate-level, and high-level waste by storage needs."
+            },
+            {
+              "id": "kp-408",
+              "number": 408,
+              "displayNumber": 408,
+              "titleHtml": "KP3: High-level waste storage",
+              "title": "KP3: High-level waste storage",
+              "coreHtml": "Used nuclear fuel gives off radiation and thermal energy, so it is cooled under water before being stored in concrete containers.",
+              "core": "Used nuclear fuel gives off radiation and thermal energy, so it is cooled under water before being stored in concrete containers.",
+              "applicationHtml": "Explain why nuclear waste storage must manage both radiation and heat.",
+              "application": "Explain why nuclear waste storage must manage both radiation and heat."
+            }
+          ]
+        },
+        {
+          "id": "optional-extension-at-issue-the-not-so-silent-sea-p-255",
+          "titleHtml": "Optional Extension — At Issue: The Not So Silent Sea — p.255",
+          "title": "Optional Extension — At Issue: The Not So Silent Sea — p.255",
+          "kps": [
+            {
+              "id": "kp-409",
+              "number": 409,
+              "displayNumber": 409,
+              "titleHtml": "KP1: Underwater noise pollution",
+              "title": "KP1: Underwater noise pollution",
+              "coreHtml": "Marine vessels can produce underwater noise pollution in busy shipping routes.",
+              "core": "Marine vessels can produce underwater noise pollution in busy shipping routes.",
+              "applicationHtml": "Connect tankers and freighters in the Salish Sea to increased underwater sound energy.",
+              "application": "Connect tankers and freighters in the Salish Sea to increased underwater sound energy."
+            },
+            {
+              "id": "kp-410",
+              "number": 410,
+              "displayNumber": 410,
+              "titleHtml": "KP2: Effects on orcas",
+              "title": "KP2: Effects on orcas",
+              "coreHtml": "Noise pollution can interfere with orcas’ communication, food-finding, and stress levels.",
+              "core": "Noise pollution can interfere with orcas’ communication, food-finding, and stress levels.",
+              "applicationHtml": "Explain why sound energy can become an ecosystem problem.",
+              "application": "Explain why sound energy can become an ecosystem problem."
+            },
+            {
+              "id": "kp-411",
+              "number": 411,
+              "displayNumber": 411,
+              "titleHtml": "KP3: Reducing noise impacts",
+              "title": "KP3: Reducing noise impacts",
+              "coreHtml": "Engine and propeller noise can be reduced through design and regulation.",
+              "core": "Engine and propeller noise can be reduced through design and regulation.",
+              "applicationHtml": "Evaluate whether noise pollution should be managed to protect endangered marine animals.",
+              "application": "Evaluate whether noise pollution should be managed to protect endangered marine animals."
+            }
+          ]
+        },
+        {
+          "id": "optional-extension-make-a-difference-be-inspired-marilyn-slett-advocating-for-an-indigenous-marine-response-centre-p-256",
+          "titleHtml": "Optional Extension — Make a Difference: Be Inspired — Marilyn Slett: Advocating for an Indigenous Marine Response Centre — p.256",
+          "title": "Optional Extension — Make a Difference: Be Inspired — Marilyn Slett: Advocating for an Indigenous Marine Response Centre — p.256",
+          "kps": [
+            {
+              "id": "kp-412",
+              "number": 412,
+              "displayNumber": 412,
+              "titleHtml": "KP1: Oil-spill response and marine ecosystems",
+              "title": "KP1: Oil-spill response and marine ecosystems",
+              "coreHtml": "Diesel fuel and other marine contaminants can harm coastal and marine ecosystems.",
+              "core": "Diesel fuel and other marine contaminants can harm coastal and marine ecosystems.",
+              "applicationHtml": "Connect oil-spill response planning to ecosystem protection.",
+              "application": "Connect oil-spill response planning to ecosystem protection."
+            },
+            {
+              "id": "kp-413",
+              "number": 413,
+              "displayNumber": 413,
+              "titleHtml": "KP2: First Peoples as first responders",
+              "title": "KP2: First Peoples as first responders",
+              "coreHtml": "First Peoples are often first responders to marine emergencies in B.C. coastal territories.",
+              "core": "First Peoples are often first responders to marine emergencies in B.C. coastal territories.",
+              "applicationHtml": "Explain why local and Indigenous knowledge matters in emergency response.",
+              "application": "Explain why local and Indigenous knowledge matters in emergency response."
+            },
+            {
+              "id": "kp-414",
+              "number": 414,
+              "displayNumber": 414,
+              "titleHtml": "KP3: Indigenous Marine Response Centre",
+              "title": "KP3: Indigenous Marine Response Centre",
+              "coreHtml": "An Indigenous Marine Response Centre would combine Western science and First Peoples knowledge for faster and more effective spill response.",
+              "core": "An Indigenous Marine Response Centre would combine Western science and First Peoples knowledge for faster and more effective spill response.",
+              "applicationHtml": "Evaluate how community capacity and local response time can reduce harm from marine emergencies.",
+              "application": "Evaluate how community capacity and local response time can reduce harm from marine emergencies."
+            }
+          ]
+        },
+        {
+          "id": "optional-investigation-investigation-3-f-specific-heat-capacity-p-258-260",
+          "titleHtml": "Optional Investigation — Investigation 3-F: Specific Heat Capacity — p.258–260",
+          "title": "Optional Investigation — Investigation 3-F: Specific Heat Capacity — p.258–260",
+          "kps": [
+            {
+              "id": "kp-415",
+              "number": 415,
+              "displayNumber": 415,
+              "titleHtml": "KP1: Comparing water and soil",
+              "title": "KP1: Comparing water and soil",
+              "coreHtml": "Water and soil absorb radiant energy differently and change temperature at different rates.",
+              "core": "Water and soil absorb radiant energy differently and change temperature at different rates.",
+              "applicationHtml": "Use temperature data to compare the specific heat capacity of water and soil.",
+              "application": "Use temperature data to compare the specific heat capacity of water and soil."
+            },
+            {
+              "id": "kp-416",
+              "number": 416,
+              "displayNumber": 416,
+              "titleHtml": "KP2: Air temperature above surfaces",
+              "title": "KP2: Air temperature above surfaces",
+              "coreHtml": "The temperature above water and soil changes as energy is absorbed, transferred, and released.",
+              "core": "The temperature above water and soil changes as energy is absorbed, transferred, and released.",
+              "applicationHtml": "Explain how land and water surfaces affect local air temperature.",
+              "application": "Explain how land and water surfaces affect local air temperature."
+            },
+            {
+              "id": "kp-417",
+              "number": 417,
+              "displayNumber": 417,
+              "titleHtml": "KP3: Specific heat capacity equation",
+              "title": "KP3: Specific heat capacity equation",
+              "coreHtml": "\\(Q = mc\\Delta T\\), where \\(Q\\) is heat absorbed or released, \\(m\\) is mass, \\(c\\) is specific heat capacity, and \\(\\Delta T\\) is temperature change.",
+              "core": "\\(Q = mc T\\), where \\(Q\\) is heat absorbed or released, \\(m\\) is mass, \\(c\\) is specific heat capacity, and \\( T\\) is temperature change.",
+              "applicationHtml": "Calculate heat transfer or specific heat capacity using measured data.",
+              "application": "Calculate heat transfer or specific heat capacity using measured data."
+            },
+            {
+              "id": "kp-418",
+              "number": 418,
+              "displayNumber": 418,
+              "titleHtml": "KP4: Sea breezes and land breezes",
+              "title": "KP4: Sea breezes and land breezes",
+              "coreHtml": "Differences in heating and cooling between land and water can create local winds.",
+              "core": "Differences in heating and cooling between land and water can create local winds.",
+              "applicationHtml": "Explain daytime sea breezes and nighttime land breezes using specific heat capacity.",
+              "application": "Explain daytime sea breezes and nighttime land breezes using specific heat capacity."
+            }
+          ]
+        },
+        {
+          "id": "optional-investigation-investigation-3-g-modelling-changes-in-earth-s-systems-p-261-263",
+          "titleHtml": "Optional Investigation — Investigation 3-G: Modelling Changes in Earth’s Systems — p.261–263",
+          "title": "Optional Investigation — Investigation 3-G: Modelling Changes in Earth’s Systems — p.261–263",
+          "kps": [
+            {
+              "id": "kp-419",
+              "number": 419,
+              "displayNumber": 419,
+              "titleHtml": "KP1: Physical models of Earth systems",
+              "title": "KP1: Physical models of Earth systems",
+              "coreHtml": "Physical models can represent parts of complex Earth systems.",
+              "core": "Physical models can represent parts of complex Earth systems.",
+              "applicationHtml": "Build and evaluate a model of the natural greenhouse effect.",
+              "application": "Build and evaluate a model of the natural greenhouse effect."
+            },
+            {
+              "id": "kp-420",
+              "number": 420,
+              "displayNumber": 420,
+              "titleHtml": "KP2: Natural and human-induced greenhouse effects",
+              "title": "KP2: Natural and human-induced greenhouse effects",
+              "coreHtml": "A greenhouse-effect model should allow light in, absorb energy, transform it to thermal energy, and limit infrared radiation leaving the system.",
+              "core": "A greenhouse-effect model should allow light in, absorb energy, transform it to thermal energy, and limit infrared radiation leaving the system.",
+              "applicationHtml": "Adjust variables to model how human-induced changes can affect atmospheric temperature.",
+              "application": "Adjust variables to model how human-induced changes can affect atmospheric temperature."
+            },
+            {
+              "id": "kp-421",
+              "number": 421,
+              "displayNumber": 421,
+              "titleHtml": "KP3: Ocean carbon dioxide absorption",
+              "title": "KP3: Ocean carbon dioxide absorption",
+              "coreHtml": "Oceans absorb \\(CO_2\\), which can react with water to form carbonic acid.",
+              "core": "Oceans absorb \\(CO 2\\), which can react with water to form carbonic acid.",
+              "applicationHtml": "Connect atmospheric \\(CO_2\\) absorption to increasing ocean acidity.",
+              "application": "Connect atmospheric \\(CO 2\\) absorption to increasing ocean acidity."
+            },
+            {
+              "id": "kp-422",
+              "number": 422,
+              "displayNumber": 422,
+              "titleHtml": "KP4: Ocean acidity and shells",
+              "title": "KP4: Ocean acidity and shells",
+              "coreHtml": "Increased acidity can make it harder for organisms such as corals, clams, and sea urchins to build shells or skeletons.",
+              "core": "Increased acidity can make it harder for organisms such as corals, clams, and sea urchins to build shells or skeletons.",
+              "applicationHtml": "Use eggshell models to test how acidity affects calcium-containing shells.",
+              "application": "Use eggshell models to test how acidity affects calcium-containing shells."
+            },
+            {
+              "id": "kp-423",
+              "number": 423,
+              "displayNumber": 423,
+              "titleHtml": "KP5: Model strengths and limitations",
+              "title": "KP5: Model strengths and limitations",
+              "coreHtml": "Models can reveal patterns but may simplify real Earth systems.",
+              "core": "Models can reveal patterns but may simplify real Earth systems.",
+              "applicationHtml": "Evaluate which parts of a greenhouse or ocean-acidity model are accurate and which are incomplete.",
+              "application": "Evaluate which parts of a greenhouse or ocean-acidity model are accurate and which are incomplete."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chapter-3-4",
+      "number": "3-4",
+      "titleHtml": "Chapter 3.4: How does energy transformation affect humans?",
+      "title": "Chapter 3.4: How does energy transformation affect humans?",
+      "kpCount": 29,
+      "concepts": [
+        {
+          "id": "3-4-concept-1-energy-transformations-provide-benefits-but-not-without-risk-of-harm-p-266-267",
+          "titleHtml": "3.4 Concept 1: Energy transformations provide benefits, but not without risk of harm — p.266–267",
+          "title": "3.4 Concept 1: Energy transformations provide benefits, but not without risk of harm — p.266–267",
+          "kps": [
+            {
+              "id": "kp-424",
+              "number": 424,
+              "displayNumber": 424,
+              "titleHtml": "KP1: Human reliance on energy transformations",
+              "title": "KP1: Human reliance on energy transformations",
+              "coreHtml": "Human societies use technologies and understandings to benefit from energy transformations.",
+              "core": "Human societies use technologies and understandings to benefit from energy transformations.",
+              "applicationHtml": "Identify both benefits and risks when evaluating a human use of energy.",
+              "application": "Identify both benefits and risks when evaluating a human use of energy."
+            },
+            {
+              "id": "kp-425",
+              "number": 425,
+              "displayNumber": 425,
+              "titleHtml": "KP2: Biological energy transformations",
+              "title": "KP2: Biological energy transformations",
+              "coreHtml": "Plants transform solar energy into chemical potential energy, and cellular respiration transforms that energy for life functions.",
+              "core": "Plants transform solar energy into chemical potential energy, and cellular respiration transforms that energy for life functions.",
+              "applicationHtml": "Connect human survival to photosynthesis and cellular respiration.",
+              "application": "Connect human survival to photosynthesis and cellular respiration."
+            },
+            {
+              "id": "kp-426",
+              "number": 426,
+              "displayNumber": 426,
+              "titleHtml": "KP3: Fire and early human technology",
+              "title": "KP3: Fire and early human technology",
+              "coreHtml": "Fire-starting transformed chemical potential energy in wood into thermal and radiant energy.",
+              "core": "Fire-starting transformed chemical potential energy in wood into thermal and radiant energy.",
+              "applicationHtml": "Explain how fire supported cooking, lighting, and survival in colder climates.",
+              "application": "Explain how fire supported cooking, lighting, and survival in colder climates."
+            },
+            {
+              "id": "kp-427",
+              "number": 427,
+              "displayNumber": 427,
+              "titleHtml": "KP4: Large-scale combustion and air pollution",
+              "title": "KP4: Large-scale combustion and air pollution",
+              "coreHtml": "Burning wood, coal, and fossil fuels transforms chemical potential energy but can create pollution and health problems.",
+              "core": "Burning wood, coal, and fossil fuels transforms chemical potential energy but can create pollution and health problems.",
+              "applicationHtml": "Connect steam engines, gas engines, smog, and air pollution to combustion-related energy transformations.",
+              "application": "Connect steam engines, gas engines, smog, and air pollution to combustion-related energy transformations."
+            },
+            {
+              "id": "kp-428",
+              "number": 428,
+              "displayNumber": 428,
+              "titleHtml": "KP5: Cement and batteries",
+              "title": "KP5: Cement and batteries",
+              "coreHtml": "Cement production and batteries provide major benefits but can also create greenhouse gas emissions or toxic waste.",
+              "core": "Cement production and batteries provide major benefits but can also create greenhouse gas emissions or toxic waste.",
+              "applicationHtml": "Evaluate why useful energy technologies can still produce environmental harm.",
+              "application": "Evaluate why useful energy technologies can still produce environmental harm."
+            },
+            {
+              "id": "kp-429",
+              "number": 429,
+              "displayNumber": 429,
+              "titleHtml": "KP6: Hydroelectric dams",
+              "title": "KP6: Hydroelectric dams",
+              "coreHtml": "Hydroelectric dams transform gravitational potential and mechanical kinetic energy into electrical energy.",
+              "core": "Hydroelectric dams transform gravitational potential and mechanical kinetic energy into electrical energy.",
+              "applicationHtml": "Compare the benefit of electrical energy with harms such as land flooding, methane release, and displacement of people.",
+              "application": "Compare the benefit of electrical energy with harms such as land flooding, methane release, and displacement of people."
+            },
+            {
+              "id": "kp-430",
+              "number": 430,
+              "displayNumber": 430,
+              "titleHtml": "KP7: Nuclear reactors and fuel cells",
+              "title": "KP7: Nuclear reactors and fuel cells",
+              "coreHtml": "Nuclear reactors and fuel cells can provide useful energy, but each has risks or hidden impacts.",
+              "core": "Nuclear reactors and fuel cells can provide useful energy, but each has risks or hidden impacts.",
+              "applicationHtml": "Compare nuclear medical and electrical uses with radiation risk, and fuel cell benefits with hydrogen-production emissions.",
+              "application": "Compare nuclear medical and electrical uses with radiation risk, and fuel cell benefits with hydrogen-production emissions."
+            }
+          ]
+        },
+        {
+          "id": "3-4-concept-2-we-take-action-and-create-technology-to-reduce-the-harmful-impacts-of-energy-transformation-p-268-269",
+          "titleHtml": "3.4 Concept 2: We take action and create technology to reduce the harmful impacts of energy transformation — p.268–269",
+          "title": "3.4 Concept 2: We take action and create technology to reduce the harmful impacts of energy transformation — p.268–269",
+          "kps": [
+            {
+              "id": "kp-431",
+              "number": 431,
+              "displayNumber": 431,
+              "titleHtml": "KP1: Personal and national action",
+              "title": "KP1: Personal and national action",
+              "coreHtml": "Reducing harmful impacts of technology-related energy transformation requires individual and collective choices.",
+              "core": "Reducing harmful impacts of technology-related energy transformation requires individual and collective choices.",
+              "applicationHtml": "Identify actions such as reducing energy use and choosing sustainable technologies.",
+              "application": "Identify actions such as reducing energy use and choosing sustainable technologies."
+            },
+            {
+              "id": "kp-432",
+              "number": 432,
+              "displayNumber": 432,
+              "titleHtml": "KP2: Trade-offs in action",
+              "title": "KP2: Trade-offs in action",
+              "coreHtml": "Reducing harm may require commitment and sacrifices in comfort or convenience.",
+              "core": "Reducing harm may require commitment and sacrifices in comfort or convenience.",
+              "applicationHtml": "Evaluate energy decisions by considering both benefit and sacrifice.",
+              "application": "Evaluate energy decisions by considering both benefit and sacrifice."
+            },
+            {
+              "id": "kp-433",
+              "number": 433,
+              "displayNumber": 433,
+              "titleHtml": "KP3: Student and community initiatives",
+              "title": "KP3: Student and community initiatives",
+              "coreHtml": "Local actions can reduce energy use and support sustainable energy-transformation technologies.",
+              "core": "Local actions can reduce energy use and support sustainable energy-transformation technologies.",
+              "applicationHtml": "Connect cycling, recycling, and urban farming to lower pollution or reduced manufacturing impact.",
+              "application": "Connect cycling, recycling, and urban farming to lower pollution or reduced manufacturing impact."
+            },
+            {
+              "id": "kp-434",
+              "number": 434,
+              "displayNumber": 434,
+              "titleHtml": "KP4: Technology is not problem-free",
+              "title": "KP4: Technology is not problem-free",
+              "coreHtml": "Emerging technologies can reduce harm, but no technology is a complete cure-all.",
+              "core": "Emerging technologies can reduce harm, but no technology is a complete cure-all.",
+              "applicationHtml": "Evaluate electric vehicles by considering both tailpipe emissions and electricity generation or battery disposal.",
+              "application": "Evaluate electric vehicles by considering both tailpipe emissions and electricity generation or battery disposal."
+            },
+            {
+              "id": "kp-435",
+              "number": 435,
+              "displayNumber": 435,
+              "titleHtml": "KP5: Nuclear fusion technology",
+              "title": "KP5: Nuclear fusion technology",
+              "coreHtml": "Controlled nuclear fusion could generate electrical energy, but it requires extremely high temperatures and containment.",
+              "core": "Controlled nuclear fusion could generate electrical energy, but it requires extremely high temperatures and containment.",
+              "applicationHtml": "Explain why tokamak reactors use magnetic fields to contain super-heated fusion reactions.",
+              "application": "Explain why tokamak reactors use magnetic fields to contain super-heated fusion reactions."
+            },
+            {
+              "id": "kp-436",
+              "number": 436,
+              "displayNumber": 436,
+              "titleHtml": "KP6: Methane cracking and hydrogen",
+              "title": "KP6: Methane cracking and hydrogen",
+              "coreHtml": "Methane cracking can produce hydrogen with much lower carbon dioxide emissions than steam methane reforming.",
+              "core": "Methane cracking can produce hydrogen with much lower carbon dioxide emissions than steam methane reforming.",
+              "applicationHtml": "Evaluate hydrogen fuel cells by considering both use-stage emissions and hydrogen production.",
+              "application": "Evaluate hydrogen fuel cells by considering both use-stage emissions and hydrogen production."
+            },
+            {
+              "id": "kp-437",
+              "number": 437,
+              "displayNumber": 437,
+              "titleHtml": "KP7: Lower-emission cement",
+              "title": "KP7: Lower-emission cement",
+              "coreHtml": "New cement technologies aim to reduce carbon dioxide emissions or absorb carbon dioxide as cement hardens.",
+              "core": "New cement technologies aim to reduce carbon dioxide emissions or absorb carbon dioxide as cement hardens.",
+              "applicationHtml": "Explain why cement production is an important target for reducing greenhouse gas emissions.",
+              "application": "Explain why cement production is an important target for reducing greenhouse gas emissions."
+            }
+          ]
+        },
+        {
+          "id": "3-4-concept-3-we-learn-from-our-mistakes-and-each-other-to-reduce-harmful-impacts-of-energy-transformation-p-270-271",
+          "titleHtml": "3.4 Concept 3: We learn from our mistakes and each other to reduce harmful impacts of energy transformation — p.270–271",
+          "title": "3.4 Concept 3: We learn from our mistakes and each other to reduce harmful impacts of energy transformation — p.270–271",
+          "kps": [
+            {
+              "id": "kp-438",
+              "number": 438,
+              "displayNumber": 438,
+              "titleHtml": "KP1: Learning from past mistakes",
+              "title": "KP1: Learning from past mistakes",
+              "coreHtml": "Societies can reduce harm by using new knowledge and changed perspectives to improve decisions.",
+              "core": "Societies can reduce harm by using new knowledge and changed perspectives to improve decisions.",
+              "applicationHtml": "Analyze past energy-related harms to identify safer future choices.",
+              "application": "Analyze past energy-related harms to identify safer future choices."
+            },
+            {
+              "id": "kp-439",
+              "number": 439,
+              "displayNumber": 439,
+              "titleHtml": "KP2: Fukushima Daiichi accident",
+              "title": "KP2: Fukushima Daiichi accident",
+              "coreHtml": "The Fukushima accident involved an earthquake, tsunami, power loss, disabled backup generators, reactor core meltdowns, explosions, and escaped radioactive materials.",
+              "core": "The Fukushima accident involved an earthquake, tsunami, power loss, disabled backup generators, reactor core meltdowns, explosions, and escaped radioactive materials.",
+              "applicationHtml": "Use the accident to explain how system failures can multiply during energy disasters.",
+              "application": "Use the accident to explain how system failures can multiply during energy disasters."
+            },
+            {
+              "id": "kp-440",
+              "number": 440,
+              "displayNumber": 440,
+              "titleHtml": "KP3: Radiation exposure and cleanup",
+              "title": "KP3: Radiation exposure and cleanup",
+              "coreHtml": "Nuclear accidents can expose people and environments to harmful radioactive materials.",
+              "core": "Nuclear accidents can expose people and environments to harmful radioactive materials.",
+              "applicationHtml": "Connect cleanup efforts and public safety planning to radiation risk.",
+              "application": "Connect cleanup efforts and public safety planning to radiation risk."
+            },
+            {
+              "id": "kp-441",
+              "number": 441,
+              "displayNumber": 441,
+              "titleHtml": "KP4: Safety inspections and technology redesign",
+              "title": "KP4: Safety inspections and technology redesign",
+              "coreHtml": "After accidents, governments and engineers can inspect existing systems and improve technology to reduce future risk.",
+              "core": "After accidents, governments and engineers can inspect existing systems and improve technology to reduce future risk.",
+              "applicationHtml": "Explain how older reactor designs can be reassessed after a major failure.",
+              "application": "Explain how older reactor designs can be reassessed after a major failure."
+            },
+            {
+              "id": "kp-442",
+              "number": 442,
+              "displayNumber": 442,
+              "titleHtml": "KP5: Different national responses",
+              "title": "KP5: Different national responses",
+              "coreHtml": "Countries may respond differently to the same accident, from reducing nuclear power use to developing safer nuclear technologies.",
+              "core": "Countries may respond differently to the same accident, from reducing nuclear power use to developing safer nuclear technologies.",
+              "applicationHtml": "Compare energy policy decisions by safety, reliability, climate impact, and public trust.",
+              "application": "Compare energy policy decisions by safety, reliability, climate impact, and public trust."
+            },
+            {
+              "id": "kp-443",
+              "number": 443,
+              "displayNumber": 443,
+              "titleHtml": "KP6: Managing used nuclear fuel",
+              "title": "KP6: Managing used nuclear fuel",
+              "coreHtml": "Used nuclear fuel must be managed and stored so that it does not harm life or land.",
+              "core": "Used nuclear fuel must be managed and stored so that it does not harm life or land.",
+              "applicationHtml": "Explain why nuclear energy decisions must include long-term waste management.",
+              "application": "Explain why nuclear energy decisions must include long-term waste management."
+            },
+            {
+              "id": "kp-444",
+              "number": 444,
+              "displayNumber": 444,
+              "titleHtml": "KP7: Indigenous knowledge and Western science",
+              "title": "KP7: Indigenous knowledge and Western science",
+              "coreHtml": "Nuclear waste planning can include collaboration between Indigenous knowledge and Western science.",
+              "core": "Nuclear waste planning can include collaboration between Indigenous knowledge and Western science.",
+              "applicationHtml": "Evaluate why storage-site decisions should include local communities, First Nations, Inuit, and Métis perspectives.",
+              "application": "Evaluate why storage-site decisions should include local communities, First Nations, Inuit, and Métis perspectives."
+            }
+          ]
+        },
+        {
+          "id": "optional-extension-make-a-difference-take-a-stand-should-we-use-nuclear-power-p-272",
+          "titleHtml": "Optional Extension — Make a Difference: Take a Stand — Should we use nuclear power? — p.272",
+          "title": "Optional Extension — Make a Difference: Take a Stand — Should we use nuclear power? — p.272",
+          "kps": [
+            {
+              "id": "kp-445",
+              "number": 445,
+              "displayNumber": 445,
+              "titleHtml": "KP1: Nuclear power concerns",
+              "title": "KP1: Nuclear power concerns",
+              "coreHtml": "Public opinion about nuclear power is shaped by accident risk and nuclear waste risk.",
+              "core": "Public opinion about nuclear power is shaped by accident risk and nuclear waste risk.",
+              "applicationHtml": "Identify major arguments against nuclear power.",
+              "application": "Identify major arguments against nuclear power."
+            },
+            {
+              "id": "kp-446",
+              "number": 446,
+              "displayNumber": 446,
+              "titleHtml": "KP2: Nuclear power benefits",
+              "title": "KP2: Nuclear power benefits",
+              "coreHtml": "Nuclear power can be viewed as dependable, reduce dependence on energy imports, and contribute less to climate change than fossil fuels.",
+              "core": "Nuclear power can be viewed as dependable, reduce dependence on energy imports, and contribute less to climate change than fossil fuels.",
+              "applicationHtml": "Identify major arguments in favour of nuclear power.",
+              "application": "Identify major arguments in favour of nuclear power."
+            },
+            {
+              "id": "kp-447",
+              "number": 447,
+              "displayNumber": 447,
+              "titleHtml": "KP3: Fukushima and public trust",
+              "title": "KP3: Fukushima and public trust",
+              "coreHtml": "Fukushima changed public perception by raising concern about accident management, slow information release, and institutional trust.",
+              "core": "Fukushima changed public perception by raising concern about accident management, slow information release, and institutional trust.",
+              "applicationHtml": "Explain why energy decisions depend on both technical evidence and public confidence.",
+              "application": "Explain why energy decisions depend on both technical evidence and public confidence."
+            },
+            {
+              "id": "kp-448",
+              "number": 448,
+              "displayNumber": 448,
+              "titleHtml": "KP4: Evidence-based position",
+              "title": "KP4: Evidence-based position",
+              "coreHtml": "A position on nuclear power should weigh safety, cost, waste, reliability, and climate change.",
+              "core": "A position on nuclear power should weigh safety, cost, waste, reliability, and climate change.",
+              "applicationHtml": "Prepare a reasoned argument for or against nuclear power.",
+              "application": "Prepare a reasoned argument for or against nuclear power."
+            }
+          ]
+        },
+        {
+          "id": "optional-investigation-investigation-3-h-energy-transformation-debate-p-274-275",
+          "titleHtml": "Optional Investigation — Investigation 3-H: Energy Transformation Debate — p.274–275",
+          "title": "Optional Investigation — Investigation 3-H: Energy Transformation Debate — p.274–275",
+          "kps": [
+            {
+              "id": "kp-449",
+              "number": 449,
+              "displayNumber": 449,
+              "titleHtml": "KP1: Debate question",
+              "title": "KP1: Debate question",
+              "coreHtml": "The central question is whether technology-based energy transformations benefit society more than they harm it.",
+              "core": "The central question is whether technology-based energy transformations benefit society more than they harm it.",
+              "applicationHtml": "Choose an energy transformation and evaluate both benefits and harms.",
+              "application": "Choose an energy transformation and evaluate both benefits and harms."
+            },
+            {
+              "id": "kp-450",
+              "number": 450,
+              "displayNumber": 450,
+              "titleHtml": "KP2: Research planning",
+              "title": "KP2: Research planning",
+              "coreHtml": "A debate requires clear research questions, reliable resources, organized findings, and cited evidence.",
+              "core": "A debate requires clear research questions, reliable resources, organized findings, and cited evidence.",
+              "applicationHtml": "Build an argument using evidence about energy transformations in transportation, electricity, agriculture, manufacturing, medicine, or food systems.",
+              "application": "Build an argument using evidence about energy transformations in transportation, electricity, agriculture, manufacturing, medicine, or food systems."
+            },
+            {
+              "id": "kp-451",
+              "number": 451,
+              "displayNumber": 451,
+              "titleHtml": "KP3: Bias and reliability",
+              "title": "KP3: Bias and reliability",
+              "coreHtml": "Resources should be assessed for political position, special interests, funding, evidence, citations, balance, and emotional appeal.",
+              "core": "Resources should be assessed for political position, special interests, funding, evidence, citations, balance, and emotional appeal.",
+              "applicationHtml": "Distinguish reliable evidence from biased or one-sided claims.",
+              "application": "Distinguish reliable evidence from biased or one-sided claims."
+            },
+            {
+              "id": "kp-452",
+              "number": 452,
+              "displayNumber": 452,
+              "titleHtml": "KP4: Evidence-based communication",
+              "title": "KP4: Evidence-based communication",
+              "coreHtml": "A strong energy debate uses facts, logic, and clear reasoning rather than unsupported opinions.",
+              "core": "A strong energy debate uses facts, logic, and clear reasoning rather than unsupported opinions.",
+              "applicationHtml": "Present a balanced argument and evaluate which side is better supported.",
+              "application": "Present a balanced argument and evaluate which side is better supported."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "summaryHtml": "<h2>Unit Summary</h2>\n<p>- Total Chapters: 4</p>\n<p>- Total Core Sections: 14</p>\n<p>- Total Core Knowledge Points: 94</p>\n<p>- Optional Extension / Investigation Sections: 16</p>\n<p>- Optional Extension / Investigation Knowledge Points: 53</p>\n<p>- Top 5 Core Formulas:</p>\n<p class=\"nested-bullet\">• Mechanical kinetic energy: \\(E_k = \\frac{1}{2}mv^2\\)</p>\n<p class=\"nested-bullet\">• Gravitational potential energy: \\(E_g = mg\\Delta h\\)</p>\n<p class=\"nested-bullet\">• Cellular respiration: \\(C_6H_{12}O_6 + 6O_2 \\rightarrow 6CO_2 + 6H_2O + \\text{energy}\\)</p>\n<p class=\"nested-bullet\">• Photosynthesis: \\(6CO_2 + 6H_2O + \\text{energy} \\rightarrow C_6H_{12}O_6 + 6O_2\\)</p>\n<p class=\"nested-bullet\">• Law of conservation of energy: energy is transferred or transformed, not created or destroyed.</p>\n<p>- Top 5 Common Error Areas:</p>\n<p class=\"nested-bullet\">• Confusing energy transfer with energy transformation.</p>\n<p class=\"nested-bullet\">• Treating “lost” energy as destroyed instead of transformed into less useful forms such as thermal or sound energy.</p>\n<p class=\"nested-bullet\">• Confusing chemical bond energy transformations with nuclear energy transformations.</p>\n<p class=\"nested-bullet\">• Confusing radiation, conduction, convection, greenhouse gases, and greenhouse effect.</p>\n<p class=\"nested-bullet\">• Listing only benefits of energy technologies without evaluating risks, waste, safety, and public trust.</p>\n<p>- Suggested Learning Order:</p>\n<p class=\"nested-bullet\">• Start with basic energy properties: system, surroundings, forms of energy, transfer, transformation, and conservation.</p>\n<p class=\"nested-bullet\">• Study mechanical energy formulas: mechanical kinetic energy, gravitational potential energy, variables, reference position, and friction.</p>\n<p class=\"nested-bullet\">• Study energy transformations in chemical reactions, cellular respiration, photosynthesis, fossil fuels, and fuel cells.</p>\n<p class=\"nested-bullet\">• Study nuclear energy and light-energy transformations: decay, radiation, fission, fusion, absorption, chlorophyll, photovoltaic cells, and vision.</p>\n<p class=\"nested-bullet\">• Study Earth as an energy system: solar energy, gravitational energy, nuclear energy, radiation, greenhouse gases, conduction, convection, water cycle, and specific heat capacity.</p>\n<p class=\"nested-bullet\">• Finish with human impacts: energy technology benefits, pollution, dams, nuclear accidents, sustainable technologies, and long-term waste decisions.</p>\n<p>- Suggested Review Order:</p>\n<p class=\"nested-bullet\">• Review energy vocabulary first: system, surroundings, kinetic, potential, transfer, transformation, open system, closed system, isolated system.</p>\n<p class=\"nested-bullet\">• Practise \\(E_k = \\frac{1}{2}mv^2\\) and \\(E_g = mg\\Delta h\\), including variable effects and reference position.</p>\n<p class=\"nested-bullet\">• Compare exothermic/endothermic reactions, cellular respiration/photosynthesis, and fuel cells/fossil fuels.</p>\n<p class=\"nested-bullet\">• Compare chemical reactions, nuclear decay, fission, fusion, and light-energy absorption.</p>\n<p class=\"nested-bullet\">• Review Earth systems by tracing solar energy from radiation to atmosphere heating, water cycle movement, and ecosystem effects.</p>\n<p class=\"nested-bullet\">• Review human energy decisions by sorting each technology into benefit, risk, harm-reduction strategy, and unresolved issue.</p>"
+}
