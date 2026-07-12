@@ -15,8 +15,9 @@ function sentence(value) {
 }
 
 export class QuizModal {
-  constructor({ onPass }) {
+  constructor({ onPass, onAttempt }) {
     this.onPass = onPass;
+    this.onAttempt = onAttempt;
     this.modal = document.getElementById("quizModal");
     this.form = document.getElementById("quizForm");
     this.title = document.getElementById("quizTitle");
@@ -55,6 +56,7 @@ export class QuizModal {
     if (!this.active) return;
     const { kpId, quiz } = this.active;
     const passed = Boolean(loadQuizPassState()[kpId]);
+    this.attemptSubmitted = false;
     this.title.textContent = quiz.title || "Knowledge Point Quiz";
     this.retry.hidden = true;
     this.submit.hidden = false;
@@ -81,7 +83,8 @@ export class QuizModal {
 
   handleSubmit(event) {
     event.preventDefault();
-    if (!this.active) return;
+    if (!this.active || this.attemptSubmitted) return;
+    this.attemptSubmitted = true;
     const { kpId, quiz } = this.active;
     this.form.querySelectorAll(".quiz-summary-feedback").forEach(item => item.remove());
     let correctCount = 0;
@@ -109,6 +112,8 @@ export class QuizModal {
     } else {
       this.form.insertAdjacentHTML("afterbegin", `<div class="quiz-summary-feedback error" role="status" aria-live="assertive">Score: ${correctCount}/${quiz.questions.length}. Review the feedback, then retry.</div>`);
     }
+    this.onAttempt?.({ kpId, score: correctCount, questionCount: quiz.questions.length });
+    this.submit.hidden = true;
     this.retry.hidden = false;
     this.form.scrollTop = 0;
     this.typeset();

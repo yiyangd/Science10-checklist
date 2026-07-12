@@ -11,6 +11,7 @@ const requiredFiles = [
   "js/data-store.js",
   "js/router.js",
   "js/storage.js",
+  "js/review-storage.js",
   "js/quiz-modal.js",
   "playwright.config.js",
   "package-lock.json",
@@ -29,6 +30,7 @@ const index = read("index.html");
 const app = read("js/app.js");
 const router = read("js/router.js");
 const storage = read("js/storage.js");
+const reviewStorage = read("js/review-storage.js");
 const workflow = read(".github/workflows/pages.yml");
 const qaWorkflow = read(".github/workflows/qa.yml");
 const packageJson = JSON.parse(read("package.json"));
@@ -43,6 +45,7 @@ if (!app.includes("loadSearchIndex")) fail("Global search is not wired to its la
 if (!app.includes("loadQuizPassState")) fail("Progress is not based on the saved full-course Quiz state.");
 if (!router.includes("#chapter-") || !router.includes("#kp-")) fail("Legacy Chapter or KP anchors are not supported.");
 if (!storage.includes("BCScienceConnections10_Checklist_v2") || !storage.includes("BCScienceConnections10_QuizGate_v1")) fail("Existing localStorage keys were not preserved.");
+if (!reviewStorage.includes("BCScienceConnections10_Review_v1") || !reviewStorage.includes("schemaVersion")) fail("Versioned Review storage is missing.");
 if (!workflow.includes("cp -R assets js data public/")) fail("Pages workflow does not publish modular assets and data.");
 if (!workflow.includes("actions/setup-node@v4") || !workflow.includes("npm run validate") || !workflow.includes("npm run test:e2e")) fail("Pages workflow does not run static and browser validation before publishing.");
 if (!packageJson.scripts?.["test:e2e"] || !packageJson.devDependencies?.["@playwright/test"]) fail("Playwright E2E scripts or dependency are missing.");
@@ -59,6 +62,7 @@ const initialLocalBytes = [
   "js/data-store.js",
   "js/router.js",
   "js/storage.js",
+  "js/review-storage.js",
   "js/quiz-modal.js",
   "data/course-index.json"
 ].reduce((total, file) => total + bytes(file), 0);

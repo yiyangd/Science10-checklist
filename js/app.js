@@ -8,6 +8,7 @@ import {
   saveLastRoute
 } from "./storage.js";
 import { QuizModal } from "./quiz-modal.js";
+import { clearReviewHistory, recordQuizAttempt } from "./review-storage.js";
 
 const appView = document.getElementById("appView");
 const routeStatus = document.getElementById("routeStatus");
@@ -34,7 +35,8 @@ const quizModal = new QuizModal({
   onPass: kpId => {
     syncGlobalProgress();
     syncVisibleKp(kpId);
-  }
+  },
+  onAttempt: attempt => recordQuizAttempt(attempt)
 });
 
 function allKpIds() {
@@ -393,8 +395,9 @@ function initializeControls() {
   expandAllButton.addEventListener("click", () => setAllConcepts(true));
   collapseAllButton.addEventListener("click", () => setAllConcepts(false));
   resetButton.addEventListener("click", () => {
-    if (!window.confirm("Reset all checklist progress for this browser?")) return;
+    if (!window.confirm("Reset all checklist progress, Quiz pass state, and Review history for this browser?")) return;
     resetProgress();
+    clearReviewHistory();
     migrateLegacyProgress(allKpIds());
     syncGlobalProgress();
     renderHash(window.location.hash);
