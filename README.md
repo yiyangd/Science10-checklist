@@ -31,6 +31,14 @@ The course contains 4 Units, 16 Chapters, 572 Knowledge Points, and 1716 multipl
 - `BCScienceConnections10_Full_Course_Master_Knowledge_Point_Checklist_Interactive_v2.html` - old-URL redirect shim
 - `.nojekyll` - disables Jekyll processing
 
+## Project Documentation
+
+- [Current verified state](docs/PROJECT_STATE.md)
+- [Application architecture](docs/ARCHITECTURE.md)
+- [Evidence-backed decisions](docs/DECISIONS.md)
+- [Roadmap](docs/ROADMAP.md)
+- [Repository operating guidance](AGENTS.md)
+
 ## Local Use
 
 The application loads JSON data with `fetch`, so serve the repository over HTTP rather than opening `index.html` with a `file://` URL.
@@ -49,10 +57,10 @@ npm.cmd run validate
 
 ## Automated QA
 
-Install dependencies and the Playwright Chromium browser once:
+Install locked dependencies and the Playwright Chromium browser:
 
 ```powershell
-npm.cmd install
+npm.cmd ci
 npx.cmd playwright install chromium
 ```
 
