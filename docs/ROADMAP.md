@@ -14,19 +14,11 @@ The roadmap describes intended outcomes, not authorization to change protected c
 
 ## Next
 
-### Read-only July 8 legacy-stash audit
-
-- **Outcome:** The retained WIP is understood well enough to decide whether any ideas deserve a separately authorized content-review stage.
-- **Success criteria:** Report the stash base, indexed/working/untracked components, affected KPs/questions, overlap with current `main`, content/hash implications, and keep/drop recommendations without changing refs, files, index, or stash state.
-- **Dependencies:** Clean worktree and exact read-only Git commands against `stash@{0}`.
-- **Major risks:** Accidentally applying or deleting the stash; mistaking superseded distractors for current approved work.
-- **Non-goals:** Applying, popping, branching from, renaming, dropping, committing, or editing the stash.
-
 ### Canonical data and Quiz-quality validation
 
 - **Outcome:** Students receive academically faithful KPs and useful, plausible Quiz questions in addition to byte-level integrity.
-- **Success criteria:** Define canonical evidence, validate ID/mapping/schema rules, identify weak or ambiguous questions in traceable batches, require human academic sign-off, and update content/manifests only through approved changes with unchanged unrelated hashes.
-- **Dependencies:** Textbook/source access, reviewer criteria, manifest-update procedure, and the stash audit where relevant.
+- **Success criteria:** Define canonical evidence, validate ID/mapping/schema rules, include a qualified human check of the possible `kp-306-q3` correct-choice/explanation alignment issue, identify other weak or ambiguous questions in traceable batches, require human academic sign-off, and update content/manifests only through approved changes with unchanged unrelated hashes.
+- **Dependencies:** Textbook/source access, reviewer criteria, and an approved manifest-update procedure.
 - **Major risks:** Copyright mishandling, unsourced corrections, answer ambiguity, mass hash churn, ID drift, and automated checks being mistaken for academic review.
 - **Non-goals:** Renumbering stable IDs, broad rewriting for style alone, or regenerating manifests to hide failures.
 
